@@ -1,60 +1,27 @@
-const mercados = {
-  "Goodbom": "prices/prices_goodbom.json",
-  "Tenda": "prices/prices_tenda.json"
-};
-
 const resultadoDiv = document.getElementById('resultado');
 
 async function atualizarPrecos() {
   resultadoDiv.innerHTML = "";
-  let comparacao = [];
 
-  for (const mercado in mercados) {
-    try {
-      const res = await fetch(mercados[mercado]);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data = await res.json();
+  try {
+    const res = await fetch("prices/prices_tenda.json");
+    const data = await res.json();
 
-      let html = `<h2>${mercado}</h2>`;
-
-      if (data.length > 0) {
-        html += "<ul>";
-        data.forEach(p => {
-          html += `<li>${p.produto} - ${p.preco_por_kg.toFixed(2)} R$/kg (R$ ${p.preco.toFixed(2)})</li>`;
-        });
-        html += "</ul>";
-      } else {
-        html += "<p>Nenhum produto encontrado.</p>";
-      }
-
-      const total = data.reduce((acc, p) => acc + p.preco, 0);
-      html += `<p><strong>Total:</strong> R$ ${total.toFixed(2)}</p>`;
-
-      // Produtos faltando
-      const resTxt = await fetch("products.txt");
-      const produtosTxt = (await resTxt.text()).split("\n").map(l => l.trim()).filter(l => l);
-      const faltando = produtosTxt.length - data.length;
-      if (faltando > 0) html += `<p><em>Faltaram ${faltando} produtos</em></p>`;
-
-      resultadoDiv.innerHTML += html;
-      comparacao.push({ mercado, total });
-
-    } catch (err) {
-      console.error(err);
-      resultadoDiv.innerHTML += `<h2>${mercado}</h2><p>Erro ao buscar preços de ${mercado}.</p>`;
+    if (data.length > 0) {
+      let html = "<h2>Tenda</h2><ul>";
+      data.forEach(p => {
+        html += `<li>${p.produto} - ${p.preco_por_kg.toFixed(2)} R$/kg (R$ ${p.preco.toFixed(2)})</li>`;
+      });
+      html += "</ul>";
+      resultadoDiv.innerHTML = html;
+    } else {
+      resultadoDiv.innerHTML = "<p>Nenhum produto encontrado.</p>";
     }
-  }
-
-  // Comparação final
-  if (comparacao.length > 1) {
-    const maisBarato = comparacao.reduce((a, b) => a.total < b.total ? a : b);
-    resultadoDiv.innerHTML += `<hr><h2>Comparação Final</h2><p>O supermercado mais barato foi <strong>${maisBarato.mercado}</strong> com total de R$ ${maisBarato.total.toFixed(2)}.</p>`;
+  } catch (err) {
+    console.error(err);
+    resultadoDiv.innerHTML = "<p>Erro ao buscar preços.</p>";
   }
 }
 
-// Atualiza automaticamente a cada 2 minutos
+// Atualiza automaticamente ao carregar a página
 atualizarPrecos();
-setInterval(atualizarPrecos, 2 * 60 * 1000);
-
-// Mantém botão manual caso queira
-document.getElementById('buscar').addEventListener('click', atualizarPrecos);
