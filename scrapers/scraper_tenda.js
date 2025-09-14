@@ -5,30 +5,39 @@ const path = require("path");
 async function main() {
   const browser = await puppeteer.launch({
     headless: "new",
-    args: ["--no-sandbox", "--disable-setuid-sandbox"]
+    args: ["--no-sandbox", "--disable-setuid-sandbox", "--disable-blink-features=AutomationControlled"]
   });
-
   const page = await browser.newPage();
 
-  // Abre o site
-  await page.goto("https://www.tendaatacado.com.br/", { waitUntil: "domcontentloaded" });
+  await page.goto("https://www.tendaatacado.com.br/", { waitUntil: "networkidle2" });
 
-  // Simula CEP
-  try {
-    await page.waitForSelector("#cep", { timeout: 5000 });
-    await page.type("#cep", "13187166", { delay: 100 });
-    await page.click("#btn-consultar-cep");
-    await page.waitForTimeout(3000);
-  } catch {
-    console.log("⚠️ CEP já configurado ou seletor não encontrado.");
+  // 1️⃣ Abrir input para digitar CEP
+  await page.waitForSelector("#searchbarComponent", { timeout: 10000 });
+  await page.click("#searchbarComponent");
+
+  // 2️⃣ Digitar CEP
+  await page.waitForSelector("#shipping-cep", { timeout: 10000 });
+  await page.type("#shipping-cep", "13187166", { delay: 100 });
+  await page.keyboard.press("Enter");
+  await page.waitForTimeout(3000); // espera modal atualizar
+
+  // 3️⃣ Clicar em Delivery
+  await page.waitForSelector(".title-shipping-option", { timeout: 10000 });
+  const options = await page.$$(".title-shipping-option");
+  for (const opt of options) {
+    const txt = await page.evaluate(el => el.innerText, opt);
+    if (txt.trim() === "Delivery") {
+      await opt.click();
+      break;
+    }
   }
 
-  // Busca Bacon
-  await page.type("#search", "Bacon", { delay: 50 });
-  await page.keyboard.press("Enter");
-  await page.waitForTimeout(4000);
+  await page.waitForTimeout(3000);
 
-  // Pega o primeiro produto
+  // 4️⃣ Acessar busca do produto
+  await page.goto("https://www.tendaatacado.com.br/busca?q=Bacon", { waitUntil: "networkidle2" });
+
+  // Captura o primeiro produto
   const item = await page.evaluate(() => {
     const card = document.querySelector(".product-card");
     if (!card) return null;
@@ -46,7 +55,7 @@ async function main() {
 
   await browser.close();
 
-  // Salva JSON
+  // Salvar JSON
   const outDir = path.join(__dirname, "..", "docs", "prices");
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
   fs.writeFileSync(path.join(outDir, "prices_tenda.json"), JSON.stringify(item ? [item] : [], null, 2));
