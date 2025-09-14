@@ -1,8 +1,12 @@
 {
   "name": "tenda-scraper",
   "version": "1.0.0",
+  "description": "Scraper de preços Tenda para GitHub Actions",
+  "main": "scrapers/scraper_tenda.js",
+  "scripts": {
+    "start": "node scrapers/scraper_tenda.js"
+  },
   "dependencies": {
-    "puppeteer-core": "^22.0.0",
-    "chrome-aws-lambda": "^19.0.1"
+    "puppeteer": "^23.0.0"
   }
 }
