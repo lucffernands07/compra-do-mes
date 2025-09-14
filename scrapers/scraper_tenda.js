@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 // Lê lista de produtos
-const produtosTxtPath = path.join(__dirname, "..", "productos.txt");
+const produtosTxtPath = path.join(__dirname, "..", "products.txt");
 const produtos = fs.readFileSync(produtosTxtPath, "utf-8")
   .split("\n")
   .map(l => l.trim())
