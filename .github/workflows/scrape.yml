@@ -1,52 +1,33 @@
-name: Scrapers
+name: Scraper Tenda
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 12 * * *" # Roda todo dia às 12h UTC
+    - cron: "0 12 * * *" # roda todo dia às 12h UTC (9h no Brasil)
+  workflow_dispatch: # permite rodar manualmente
 
 jobs:
-  run-scrapers:
+  scrape:
     runs-on: ubuntu-latest
+
     steps:
-      # --- Checkout do repositório ---
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-      # --- Configurar Python ---
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          python-version: "3.12"
+          node-version: 18
 
-      # --- Instalar dependências ---
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 unidecode
+        run: npm install puppeteer
 
-      # --- Rodar Scraper Goodbom ---
-      #- name: Run Goodbom scraper
-      #  run: python scrapers/scraper_goodbom.py
+      - name: Run scraper
+        run: node scrapers/scraper_tenda.js
 
-      # --- Rodar Scraper Tenda ---
-      - name: Run Tenda scraper
-        run: python scrapers/scraper_tenda.py
-
-      # --- Configurar Git ---
-      - name: Configure Git
+      - name: Commit and push updated prices
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-      # --- Commit Goodbom JSON ---
-      - name: Commit Goodbom JSON
-        run: |
-          git add docs/prices/prices_goodbom.json
-          git commit -m "Update Goodbom prices [skip ci]" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
-
-      # --- Commit Tenda JSON ---
-      - name: Commit Tenda JSON
-        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@users.noreply.github.com"
           git add docs/prices/prices_tenda.json
-          git commit -m "Update Tenda prices [skip ci]" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
+          git commit -m "Atualiza preço Tenda [skip ci]" || echo "No changes"
+          git push
