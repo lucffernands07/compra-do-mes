@@ -16,16 +16,24 @@ async function main() {
   const resultado = [];
 
   try {
-    // Preencher CEP uma vez
+    // Tentar preencher o CEP se o input existir
     await page.goto("https://www.tendaatacado.com.br", { waitUntil: "networkidle2" });
-    await page.waitForSelector("#shipping-cep", { timeout: 10000 });
-    await page.type("#shipping-cep", "13187166", { delay: 100 });
-    await page.waitForTimeout(2000); // espera carregar Delivery automaticamente
+    
+    const cepInput = await page.$("#shipping-cep");
+    if (cepInput) {
+      console.log("⚠️ CEP encontrado, preenchendo...");
+      await page.type("#shipping-cep", "13187166", { delay: 100 });
+      await page.waitForTimeout(2000); // espera carregar Delivery automaticamente
+    } else {
+      console.log("⚠️ CEP já configurado ou input não encontrado, pulando passo...");
+    }
 
     for (const produto of produtos) {
       console.log(`🔍 Buscando: ${produto}`);
 
       await page.goto(`https://www.tendaatacado.com.br/busca?q=${encodeURIComponent(produto)}`, { waitUntil: "networkidle2" });
+      
+      // Espera por produtos ou continua se não encontrar
       await page.waitForSelector("a.showcase-card-content", { timeout: 10000 }).catch(() => console.log(`⚠️ Nenhum produto encontrado para ${produto}`));
 
       const items = await page.evaluate(() => {
@@ -50,8 +58,8 @@ async function main() {
         });
       });
 
-      // Adiciona todos os itens encontrados
-      resultado.push(...items.slice(0, 3)); // opcional: limitar 3 por produto
+      // Adiciona apenas os 3 primeiros itens de cada produto (opcional)
+      resultado.push(...items.slice(0, 3));
     }
 
     // Salvar JSON
