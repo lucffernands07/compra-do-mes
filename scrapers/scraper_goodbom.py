@@ -1,78 +1,84 @@
-import requests  
-from bs4 import BeautifulSoup  
-import json  
-import re
+const puppeteer = require("puppeteer");
+const fs = require("fs");
+const path = require("path");
 
-GOODBOM_URL = "https://www.goodbom.com.br/hortolandia/busca?q="
-INPUT_FILE = "products.txt"
-OUTPUT_JSON = "docs/prices_goodbom.json"  # arquivo separado
-NUM_PRODUTOS = 3
+// Lê lista de produtos
+const produtosTxtPath = path.join(__dirname, "..", "products.txt");
+const produtos = fs.readFileSync(produtosTxtPath, "utf-8")
+  .split("\n")
+  .map(l => l.trim())
+  .filter(Boolean);
 
-def extrair_peso(nome):
-    match = re.search(r"(\d+)\s*g", nome.lower())
-    return int(match.group(1))/1000 if match else 1
+// Função para extrair peso em kg do nome do produto
+function extrairPeso(nome) {
+  const match = nome.toLowerCase().match(/(\d+)\s*g/);
+  return match ? parseInt(match[1]) / 1000 : 1; // default 1 kg se não encontrar
+}
 
-def buscar_goodbom(produto):
-    try:
-        resp = requests.get(f"{GOODBOM_URL}{produto}", timeout=15)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
-        encontrados = []
+async function main() {
+  const browser = await puppeteer.launch({ headless: "new", args: ["--no-sandbox"] });
+  const page = await browser.newPage();
 
-        for span in soup.find_all("span", class_="product-name")[:NUM_PRODUTOS]:
-            a_tag = span.find_parent("a")
-            preco_span = a_tag.find("span", class_="price") if a_tag else None
-            if not preco_span: 
-                continue
+  const resultado = [];
 
-            nome = span.get_text(strip=True)
-            if produto.lower() not in nome.lower():
-                continue
+  try {
+    // Tentar preencher o CEP se o input existir
+    await page.goto("https://www.tendaatacado.com.br", { waitUntil: "networkidle2" });
+    
+    const cepInput = await page.$("#shipping-cep");
+    if (cepInput) {
+      console.log("⚠️ CEP encontrado, preenchendo...");
+      await page.type("#shipping-cep", "13187166", { delay: 100 });
+      await page.waitForTimeout(2000);
+    } else {
+      console.log("⚠️ CEP já configurado ou input não encontrado, pulando passo...");
+    }
 
-            try:
-                preco = float(preco_span.get_text(strip=True).replace("R$", "").split("/")[0].replace(",", ".").strip())
-            except:
-                continue
+    for (const produto of produtos) {
+      console.log(`🔍 Buscando: ${produto}`);
 
-            peso_kg = extrair_peso(nome)
-            encontrados.append({
-                "supermercado": "Goodbom",
-                "produto": nome,
-                "preco": preco,
-                "preco_por_kg": round(preco/peso_kg, 2)
-            })
+      await page.goto(`https://www.tendaatacado.com.br/busca?q=${encodeURIComponent(produto)}`, { waitUntil: "networkidle2" });
+      await page.waitForSelector("a.showcase-card-content", { timeout: 10000 }).catch(() => console.log(`⚠️ Nenhum produto encontrado para ${produto}`));
 
-        return min(encontrados, key=lambda x: x["preco_por_kg"]) if encontrados else None
-    except Exception as e:
-        print(f"Erro Goodbom ({produto}): {e}")
-        return None
+      const items = await page.evaluate(() => {
+        const cards = Array.from(document.querySelectorAll("a.showcase-card-content"));
+        return cards.slice(0, 3).map(card => {
+          const nome = card.querySelector("h3.TitleCardComponent")?.innerText.trim() || "";
 
-def main():
-    with open(INPUT_FILE, "r", encoding="utf-8") as f:
-        produtos = [linha.strip() for linha in f if linha.strip()]
+          const precoTxt = card.querySelector("div.SimplePriceComponent")?.innerText
+            .replace("R$", "")
+            .replace(",", ".")
+            .replace("un", "")
+            .trim();
+          const preco = parseFloat(precoTxt) || 0;
 
-    resultados = []
-    faltando = []
+          return { nome, preco };
+        });
+      });
 
-    for produto in produtos:
-        item = buscar_goodbom(produto)
-        if item:
-            resultados.append(item)
-        else:
-            faltando.append(produto)
+      // Calcula preco_por_kg
+      items.forEach(item => {
+        const peso_kg = extrairPeso(item.nome);
+        resultado.push({
+          supermercado: "Tenda",
+          produto: item.nome,
+          preco: item.preco,
+          preco_por_kg: parseFloat((item.preco / peso_kg).toFixed(2))
+        });
+      });
+    }
 
-    with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
-        json.dump(resultados, f, ensure_ascii=False, indent=2)
+    // Salvar JSON
+    const outDir = path.join(__dirname, "..", "docs", "prices");
+    if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
+    fs.writeFileSync(path.join(outDir, "prices_tenda.json"), JSON.stringify(resultado, null, 2));
 
-    print("\nProdutos encontrados Goodbom:")
-    for item in resultados:
-        print(f"- {item['produto']}: R$ {item['preco']} | R$ {item['preco_por_kg']}/kg")
+    console.log("💾 Todos os preços salvos com sucesso!");
+  } catch (err) {
+    console.error("❌ Erro no scraper:", err.message);
+  } finally {
+    await browser.close();
+  }
+}
 
-    total = sum(item["preco"] for item in resultados)
-    print(f"\nTotal: R$ {total:.2f}")
-
-    if faltando:
-        print(f"\nProdutos não encontrados ({len(faltando)}): {', '.join(faltando)}")
-
-if __name__ == "__main__":
-    main()
+main();
