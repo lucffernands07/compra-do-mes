@@ -10,24 +10,31 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Pegar o código do repositório
       - name: Checkout repo
         uses: actions/checkout@v3
 
+      # 2️⃣ Configurar Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
 
+      # 3️⃣ Instalar dependências
       - name: Install dependencies
         run: npm install
 
+      # 4️⃣ Rodar scraper
       - name: Run scraper
         run: npm start
 
+      # 5️⃣ Commit e push atualizado usando GITHUB_TOKEN
       - name: Commit and push updated prices
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@users.noreply.github.com"
           git add docs/prices/prices_tenda.json
           git commit -m "Atualiza preços Tenda [skip ci]" || echo "Nenhuma alteração"
-          git push
+          git push origin HEAD:${{ github.ref }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
