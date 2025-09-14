@@ -1,0 +1,52 @@
+name: Scrapers
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * *" # Roda todo dia às 12h UTC
+
+jobs:
+  run-scrapers:
+    runs-on: ubuntu-latest
+    steps:
+      # --- Checkout do repositório ---
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # --- Configurar Python ---
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # --- Instalar dependências ---
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 unidecode
+
+      # --- Rodar Scraper Goodbom ---
+      #- name: Run Goodbom scraper
+      #  run: python scrapers/scraper_goodbom.py
+
+      # --- Rodar Scraper Tenda ---
+      - name: Run Tenda scraper
+        run: python scrapers/scraper_tenda.py
+
+      # --- Configurar Git ---
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      # --- Commit Goodbom JSON ---
+      - name: Commit Goodbom JSON
+        run: |
+          git add docs/prices/prices_goodbom.json
+          git commit -m "Update Goodbom prices [skip ci]" || echo "No changes to commit"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
+
+      # --- Commit Tenda JSON ---
+      - name: Commit Tenda JSON
+        run: |
+          git add docs/prices/prices_tenda.json
+          git commit -m "Update Tenda prices [skip ci]" || echo "No changes to commit"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main

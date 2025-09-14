@@ -1,0 +1,85 @@
+/* style.css */
+
+/* Reset básico */
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1e3a8a; /* azul */
+}
+
+button#buscar {
+    display: block;
+    margin: 15px auto 30px auto;
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #1e3a8a;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button#buscar:hover {
+    background-color: #3749b0;
+}
+
+#resultado h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #0b3d91;
+    border-bottom: 2px solid #1e3a8a;
+    padding-bottom: 3px;
+}
+
+#resultado ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+#resultado li {
+    margin-bottom: 5px;
+}
+
+#resultado p {
+    margin: 8px 0;
+}
+
+#resultado .total {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #0b3d91;
+}
+
+#resultado .faltando {
+    font-style: italic;
+    color: #b91c1c; /* vermelho suave */
+}
+
+#resultado .produto-kg {
+    font-weight: 500;
+}
