@@ -2,7 +2,7 @@ name: Scraper Tenda
 
 on:
   schedule:
-    - cron: "0 12 * * *" # roda todo dia às 12h UTC (9h no Brasil)
+    - cron: "0 */2 * * *" # roda a cada 2 horas (00:00, 02:00, 04:00...) UTC
   workflow_dispatch: # permite rodar manualmente
 
 jobs:
@@ -19,15 +19,15 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: npm install puppeteer
+        run: npm install
 
       - name: Run scraper
-        run: node scrapers/scraper_tenda.js
+        run: npm start
 
       - name: Commit and push updated prices
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@users.noreply.github.com"
           git add docs/prices/prices_tenda.json
-          git commit -m "Atualiza preço Tenda [skip ci]" || echo "No changes"
+          git commit -m "Atualiza preços Tenda [skip ci]" || echo "Nenhuma alteração"
           git push
