@@ -1,41 +1,62 @@
 const fs = require("fs");
 const path = require("path");
 
-// Caminho dos arquivos JSON
-const tendaPath = path.join(__dirname, "..", "docs", "prices", "prices_tenda.json");
-const goodbomPath = path.join(__dirname, "..", "docs", "prices", "prices_goodbom.json");
+// Caminhos dos JSONs
+const goodbomFile = path.join(__dirname, "docs/prices/prices_goodbom.json");
+const tendaFile = path.join(__dirname, "docs/prices/prices_tenda.json");
 
-// Lê os arquivos
-const tenda = JSON.parse(fs.readFileSync(tendaPath, "utf-8"));
-const goodbom = JSON.parse(fs.readFileSync(goodbomPath, "utf-8"));
-
-// Cria um mapa do produto para o preço por kg de cada mercado
-function criarMapaPorKg(lista) {
-  const mapa = {};
-  lista.forEach(item => {
-    if (item.preco_por_kg > 0) { // ignora produtos com preço zero
-      if (!mapa[item.produto] || item.preco_por_kg < mapa[item.produto].preco_por_kg) {
-        mapa[item.produto] = item;
-      }
-    }
-  });
-  return mapa;
+// Carrega os preços
+function load(file) {
+  if (!fs.existsSync(file)) return [];
+  return JSON.parse(fs.readFileSync(file, "utf-8"));
 }
 
-const mapaTenda = criarMapaPorKg(tenda);
-const mapaGoodbom = criarMapaPorKg(goodbom);
+const goodbom = load(goodbomFile);
+const tenda = load(tendaFile);
 
-// Lista apenas produtos que existem nos dois mercados
-const produtosComuns = Object.keys(mapaTenda).filter(prod => mapaGoodbom[prod]);
+// Agrupar por id
+function groupById(data) {
+  const map = {};
+  for (const item of data) {
+    if (!map[item.id]) map[item.id] = [];
+    map[item.id].push(item);
+  }
+  return map;
+}
 
-let totalTenda = 0;
+const goodbomById = groupById(goodbom);
+const tendaById = groupById(tenda);
+
+// Comparar apenas ids que existem nos dois mercados
+const ids = Object.keys(goodbomById).filter(id => tendaById[id]);
+
 let totalGoodbom = 0;
+let totalTenda = 0;
+let escolhidos = [];
 
-produtosComuns.forEach(prod => {
-  totalTenda += mapaTenda[prod].preco_por_kg;
-  totalGoodbom += mapaGoodbom[prod].preco_por_kg;
-});
+for (const id of ids) {
+  const g = goodbomById[id].sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0]; // mais barato no Goodbom
+  const t = tendaById[id].sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];   // mais barato no Tenda
 
-console.log("Produtos considerados (presentes nos dois mercados):", produtosComuns.length);
-console.log("💰 Total Tenda:", totalTenda.toFixed(2));
+  totalGoodbom += g.preco;
+  totalTenda += t.preco;
+
+  escolhidos.push({
+    id,
+    goodbom: { nome: g.produto, preco: g.preco, preco_por_kg: g.preco_por_kg },
+    tenda: { nome: t.produto, preco: t.preco, preco_por_kg: t.preco_por_kg },
+    mais_barato: g.preco_por_kg <= t.preco_por_kg ? "Goodbom" : "Tenda"
+  });
+}
+
+// Resultado
+console.log("Produtos considerados:", ids.length);
 console.log("💰 Total GoodBom:", totalGoodbom.toFixed(2));
+console.log("💰 Total Tenda:", totalTenda.toFixed(2));
+console.log("\n📊 Comparação detalhada:");
+console.table(escolhidos.map(e => ({
+  ID: e.id,
+  GoodBom: `${e.goodbom.nome} - R$${e.goodbom.preco} (R$${e.goodbom.preco_por_kg}/kg)`,
+  Tenda: `${e.tenda.nome} - R$${e.tenda.preco} (R$${e.tenda.preco_por_kg}/kg)`,
+  "Mais barato": e.mais_barato
+})));
