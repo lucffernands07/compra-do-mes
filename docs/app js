@@ -4,15 +4,25 @@ async function atualizarPrecos() {
   resultadoDiv.innerHTML = "";
 
   try {
-    const res = await fetch("prices/prices_tenda.json");
+    const res = await fetch("prices/compare.json");
     const data = await res.json();
 
-    if (data.length > 0) {
-      let html = "<h2>Tenda</h2><ul>";
-      data.forEach(p => {
-        html += `<li>${p.produto} - ${p.preco_por_kg.toFixed(2)} R$/kg (R$ ${p.preco.toFixed(2)})</li>`;
+    if (data.produtos && data.produtos.length > 0) {
+      let html = `<h2>Comparação de preços</h2>`;
+      html += `<p><strong>Total GoodBom:</strong> R$ ${data.totalGoodbom}</p>`;
+      html += `<p><strong>Total Tenda:</strong> R$ ${data.totalTenda}</p>`;
+      html += `<ul>`;
+
+      data.produtos.forEach(p => {
+        html += `<li>
+          <strong>ID ${p.id}</strong>:<br>
+          GoodBom: ${p.goodbom.nome} - R$${p.goodbom.preco.toFixed(2)} (R$${p.goodbom.preco_por_kg}/kg)<br>
+          Tenda: ${p.tenda.nome} - R$${p.tenda.preco.toFixed(2)} (R$${p.tenda.preco_por_kg}/kg)<br>
+          <em>Mais barato: ${p.mais_barato}</em>
+        </li><br>`;
       });
-      html += "</ul>";
+
+      html += `</ul>`;
       resultadoDiv.innerHTML = html;
     } else {
       resultadoDiv.innerHTML = "<p>Nenhum produto encontrado.</p>";
