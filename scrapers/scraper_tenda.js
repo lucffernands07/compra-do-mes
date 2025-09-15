@@ -40,7 +40,10 @@ async function buscarProduto(page, termo) {
 }
 
 async function main() {
-  const browser = await puppeteer.launch({ headless: "new" });
+  const browser = await puppeteer.launch({
+  headless: "new",
+  args: ["--no-sandbox", "--disable-setuid-sandbox"]
+});
   const page = await browser.newPage();
 
   // Abrir site e preencher CEP (se necessário)
