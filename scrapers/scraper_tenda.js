@@ -29,11 +29,14 @@ async function buscarProduto(page, termo) {
   await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
 
   return await page.evaluate(() => {
-    const anchors = Array.from(document.querySelectorAll("a.showcase-card-content.grid_view"));
-    return anchors.slice(0, 3).map(a => {
-      const nome = a.querySelector("h3")?.innerText.trim() || "Produto sem nome";
-      const precoStr = a.querySelector(".SimplePriceComponent")?.innerText || "";
-      let preco = parseFloat(precoStr.replace("R$", "").replace(",", ".").trim()) || 0;
+    return Array.from(document.querySelectorAll("a.showcase-card-content")).slice(0, 3).map(card => {
+      const nome = card.querySelector("h3.TitleCardComponent")?.innerText.trim() || "Produto sem nome";
+      const precoTxt = card.querySelector("div.SimplePriceComponent")?.innerText
+        .replace("R$", "")
+        .replace("un", "")
+        .replace(",", ".")
+        .trim() || "0";
+      const preco = parseFloat(precoTxt) || 0;
       return { nome, preco };
     });
   });
