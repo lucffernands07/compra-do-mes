@@ -41,9 +41,9 @@ async function buscarProduto(page, termo) {
 
 async function main() {
   const browser = await puppeteer.launch({
-  headless: "new",
-  args: ["--no-sandbox", "--disable-setuid-sandbox"]
-});
+    headless: "new",
+    args: ["--no-sandbox", "--disable-setuid-sandbox"]
+  });
   const page = await browser.newPage();
 
   // Abrir site e preencher CEP (se necessário)
@@ -67,7 +67,8 @@ async function main() {
 
   let resultados = [];
 
-  for (const termo of produtos) {
+  for (const [index, termo] of produtos.entries()) {
+    const id = index + 1; // ID baseado na ordem do products.txt
     try {
       console.log(`🔍 Buscando: ${termo}`);
       const encontrados = await buscarProduto(page, termo);
@@ -75,6 +76,7 @@ async function main() {
       encontrados.forEach(p => {
         const peso = extrairPeso(p.nome);
         resultados.push({
+          id,
           supermercado: "Tenda",
           produto: p.nome,
           preco: p.preco,
