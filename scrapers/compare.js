@@ -2,8 +2,8 @@ const fs = require("fs");
 const path = require("path");
 
 // Caminhos dos JSONs
-const goodbomFile = path.join(__dirname, "docs/prices/prices_goodbom.json");
-const tendaFile = path.join(__dirname, "docs/prices/prices_tenda.json");
+const goodbomFile = path.join(__dirname, "..", "docs", "prices", "prices_goodbom.json");
+const tendaFile = path.join(__dirname, "..", "docs", "prices", "prices_tenda.json");
 
 // Carrega os preços
 function load(file) {
