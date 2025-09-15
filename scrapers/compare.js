@@ -4,6 +4,7 @@ const path = require("path");
 // Caminhos dos JSONs
 const goodbomFile = path.join(__dirname, "..", "docs", "prices", "prices_goodbom.json");
 const tendaFile = path.join(__dirname, "..", "docs", "prices", "prices_tenda.json");
+const outputFile = path.join(__dirname, "..", "docs", "prices", "compare.json"); // JSON final para o front
 
 // Carrega os preços
 function load(file) {
@@ -49,7 +50,18 @@ for (const id of ids) {
   });
 }
 
-// Resultado
+// Salvar JSON final para o front
+const jsonFinal = {
+  totalGoodbom: totalGoodbom.toFixed(2),
+  totalTenda: totalTenda.toFixed(2),
+  produtos: escolhidos
+};
+
+if (!fs.existsSync(path.dirname(outputFile))) fs.mkdirSync(path.dirname(outputFile), { recursive: true });
+fs.writeFileSync(outputFile, JSON.stringify(jsonFinal, null, 2), "utf-8");
+console.log(`💾 JSON final salvo em ${outputFile}`);
+
+// Log no terminal
 console.log("Produtos considerados:", ids.length);
 console.log("💰 Total GoodBom:", totalGoodbom.toFixed(2));
 console.log("💰 Total Tenda:", totalTenda.toFixed(2));
