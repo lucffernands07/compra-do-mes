@@ -1,4 +1,7 @@
 ```
+📁 .github
+  📁 workflows
+    📄 scraper.yml
 📁 scrapers
   📄 compare.js
   📄 scraper_tenda.js
@@ -12,5 +15,6 @@
     📄 prices_tenda.json
     📄 proces_goodbom.json
 📄 package.json
-📄
+📄 products.txt
+📄 README.md
 ```
