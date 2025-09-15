@@ -1,78 +1,98 @@
-const puppeteer = require("puppeteer");
-const fs = require("fs");
-const path = require("path");
+import puppeteer from "puppeteer";
+import fs from "fs";
 
-// Lê lista de produtos
-const produtosTxtPath = path.join(__dirname, "..", "products.txt");
-const produtos = fs.readFileSync(produtosTxtPath, "utf-8")
-  .split("\n")
-  .map(l => l.trim())
-  .filter(Boolean);
+const INPUT_FILE = "products.txt";
+const OUTPUT_FILE = "docs/prices/prices_tenda.json";
+const BASE_URL = "https://www.tendaatacado.com.br/busca?q=";
 
-async function main() {
-  const browser = await puppeteer.launch({ headless: "new", args: ["--no-sandbox"] });
-  const page = await browser.newPage();
+function extrairPeso(nome) {
+  nome = nome.toLowerCase();
 
-  const resultado = [];
+  // Match para "500g", "900 g"
+  let match = nome.match(/(\d+)\s*g/);
+  if (match) return parseInt(match[1], 10) / 1000; // gramas → kg
 
-  try {
-    // Tentar preencher o CEP se o input existir
-    await page.goto("https://www.tendaatacado.com.br", { waitUntil: "networkidle2" });
-    
-    const cepInput = await page.$("#shipping-cep");
-    if (cepInput) {
-      console.log("⚠️ CEP encontrado, preenchendo...");
-      await page.type("#shipping-cep", "13187166", { delay: 100 });
-      await page.waitForTimeout(2000); // espera carregar Delivery automaticamente
-    } else {
-      console.log("⚠️ CEP já configurado ou input não encontrado, pulando passo...");
-    }
+  // Match para "1,5kg", "2 kg"
+  match = nome.match(/(\d+[.,]?\d*)\s*kg/);
+  if (match) return parseFloat(match[1].replace(",", "."));
 
-    for (const produto of produtos) {
-      console.log(`🔍 Buscando: ${produto}`);
+  // Match para "200ml", "1,5l"
+  match = nome.match(/(\d+[.,]?\d*)\s*ml/);
+  if (match) return parseFloat(match[1].replace(",", ".")) / 1000;
 
-      await page.goto(`https://www.tendaatacado.com.br/busca?q=${encodeURIComponent(produto)}`, { waitUntil: "networkidle2" });
-      
-      // Espera por produtos ou continua se não encontrar
-      await page.waitForSelector("a.showcase-card-content", { timeout: 10000 }).catch(() => console.log(`⚠️ Nenhum produto encontrado para ${produto}`));
+  match = nome.match(/(\d+[.,]?\d*)\s*l/);
+  if (match) return parseFloat(match[1].replace(",", "."));
 
-      const items = await page.evaluate(() => {
-        const cards = Array.from(document.querySelectorAll("a.showcase-card-content"));
-        return cards.map(card => {
-          const nome = card.querySelector("h3.TitleCardComponent")?.innerText.trim() || null;
-
-          const precoTxt = card.querySelector("div.SimplePriceComponent")?.innerText
-            .replace("R$", "")
-            .replace(",", ".")
-            .replace("un", "")
-            .trim();
-          const preco = parseFloat(precoTxt) || 0;
-
-          const precoKgTxt = Array.from(card.querySelectorAll("span")).find(s => s.innerText.includes("Valor do kg"))?.innerText
-            .replace("Valor do kg: R$", "")
-            .replace(",", ".")
-            .trim();
-          const preco_por_kg = parseFloat(precoKgTxt) || preco;
-
-          return { produto: nome, preco, preco_por_kg };
-        });
-      });
-
-      // Adiciona apenas os 3 primeiros itens de cada produto (opcional)
-      resultado.push(...items.slice(0, 3));
-    }
-
-    // Salvar JSON
-    const outDir = path.join(__dirname, "..", "docs", "prices");
-    if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
-    fs.writeFileSync(path.join(outDir, "prices_tenda.json"), JSON.stringify(resultado, null, 2));
-
-    console.log("💾 Todos os preços salvos com sucesso!");
-  } catch (err) {
-    console.error("❌ Erro no scraper:", err.message);
-  } finally {
-    await browser.close();
-  }
+  return 1; // fallback caso não encontre peso
 }
 
-main();
+async function buscarProduto(page, produto) {
+  const url = `${BASE_URL}${encodeURIComponent(produto)}`;
+  await page.goto(url, { waitUntil: "domcontentloaded" });
+
+  const items = await page.evaluate(() => {
+    const produtos = [];
+    document.querySelectorAll("a.showcase-card-content").forEach(a => {
+      const nome = a.querySelector("h3")?.innerText.trim();
+      const precoText = a.querySelector(".SimplePriceComponent")?.innerText;
+      if (nome && precoText) {
+        const preco = parseFloat(
+          precoText.replace("R$", "").replace(",", ".").replace("un", "").trim()
+        );
+        if (!isNaN(preco)) {
+          produtos.push({ nome, preco });
+        }
+      }
+    });
+    return produtos;
+  });
+
+  // Pega só os 3 primeiros
+  return items.slice(0, 3).map(p => {
+    const peso = extrairPeso(p.nome);
+    return {
+      supermercado: "Tenda",
+      produto: p.nome,
+      preco: p.preco,
+      preco_por_kg: +(p.preco / peso).toFixed(2)
+    };
+  });
+}
+
+async function main() {
+  const browser = await puppeteer.launch({
+    headless: "new",
+    args: ["--no-sandbox", "--disable-setuid-sandbox"]
+  });
+  const page = await browser.newPage();
+
+  // Lê lista de produtos
+  const produtos = fs
+    .readFileSync(INPUT_FILE, "utf-8")
+    .split("\n")
+    .map(l => l.trim())
+    .filter(Boolean);
+
+  let resultados = [];
+
+  for (const produto of produtos) {
+    try {
+      console.log(`🔍 Buscando Tenda: ${produto}`);
+      const encontrados = await buscarProduto(page, produto);
+      resultados.push(...encontrados);
+    } catch (err) {
+      console.error(`Erro Tenda (${produto}):`, err.message);
+    }
+  }
+
+  await browser.close();
+
+  // Salva JSON
+  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(resultados, null, 2), "utf-8");
+  console.log(`💾 Resultados salvos em ${OUTPUT_FILE}`);
+}
+
+main().catch(err => {
+  console.error("❌ Erro no scraper:", err);
+  process.exit(1);
+});
