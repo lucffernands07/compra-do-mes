@@ -25,7 +25,8 @@ async function main() {
   const resultado = [];
 
   try {
-    for (const produto of produtos) {
+    for (const [index, produto] of produtos.entries()) {
+      const id = index + 1; // ID baseado na ordem do products.txt
       console.log(`🔍 Buscando GoodBom: ${produto}`);
 
       await page.goto(`https://www.goodbom.com.br/hortolandia/busca?q=${encodeURIComponent(produto)}`, { waitUntil: "networkidle2" });
@@ -45,6 +46,7 @@ async function main() {
       items.forEach(item => {
         const peso_kg = extrairPeso(item.nome);
         resultado.push({
+          id,
           supermercado: "Goodbom",
           produto: item.nome,
           preco: item.preco,
