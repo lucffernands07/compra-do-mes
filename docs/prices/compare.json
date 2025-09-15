@@ -1,6 +1,6 @@
 {
-  "totalGoodbom": "1590.94",
-  "totalTenda": "740.24",
+  "totalGoodbom": "1565.84",
+  "totalTenda": "683.30",
   "produtos": [
     {
       "id": "1",
@@ -20,8 +20,8 @@
       "id": "2",
       "goodbom": {
         "nome": "ACÉM MOIDO KG",
-        "preco": 34.99,
-        "preco_por_kg": 34.99
+        "preco": 28.9,
+        "preco_por_kg": 28.9
       },
       "tenda": {
         "nome": "Pernil Suíno Sem Osso Resfriado 500g",
@@ -67,10 +67,10 @@
       },
       "tenda": {
         "nome": "Picanha Suína Resfriada Pamplona temperada 1,1kg",
-        "preco": 0,
-        "preco_por_kg": 0
+        "preco": 36.19,
+        "preco_por_kg": 32.9
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "6",
@@ -187,16 +187,16 @@
     {
       "id": "14",
       "goodbom": {
-        "nome": "OVOS TIPO CAIPIRA COM 10",
-        "preco": 13.99,
-        "preco_por_kg": 13.99
+        "nome": "OVOS BRANCO GRANDE COM 20",
+        "preco": 9.99,
+        "preco_por_kg": 9.99
       },
       "tenda": {
         "nome": "Ovos Extra Branco 20 Unidades",
         "preco": 10.79,
         "preco_por_kg": 10.79
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "15",
@@ -230,8 +230,8 @@
       "id": "17",
       "goodbom": {
         "nome": "TOMATE ESPECIAL KG",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "tenda": {
         "nome": "Tomate Salada Saco 1Kg",
@@ -248,9 +248,9 @@
         "preco_por_kg": 9.97
       },
       "tenda": {
-        "nome": "Tomate Sweet Grape Bandeja 180g",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Tomate Salada Saco 1Kg",
+        "preco": 6.89,
+        "preco_por_kg": 6.89
       },
       "mais_barato": "Tenda"
     },
@@ -290,11 +290,11 @@
         "preco_por_kg": 9.99
       },
       "tenda": {
-        "nome": "Vagem Macarrão 300g",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Vagem Macarrão Bandeja 340g",
+        "preco": 3.99,
+        "preco_por_kg": 11.74
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "22",
@@ -374,9 +374,9 @@
         "preco_por_kg": 11.99
       },
       "tenda": {
-        "nome": "Chá Matte Gengibre e Limão Leão 10 Sachês",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Gengibre Unidade",
+        "preco": 1.48,
+        "preco_por_kg": 1.48
       },
       "mais_barato": "Tenda"
     },
@@ -454,13 +454,13 @@
       "id": "33",
       "goodbom": {
         "nome": "REPOLHO LISO KG",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
+        "preco": 2.99,
+        "preco_por_kg": 2.99
       },
       "tenda": {
-        "nome": "Couve Manteiga Maço Unidade",
-        "preco": 3.29,
-        "preco_por_kg": 3.29
+        "nome": "Repolho Verde Unidade",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -472,23 +472,23 @@
         "preco_por_kg": 5.99
       },
       "tenda": {
-        "nome": "Alho Picado Kamar 200g",
-        "preco": 2.69,
-        "preco_por_kg": 13.45
+        "nome": "Alho Selecionado Select 500g",
+        "preco": 0,
+        "preco_por_kg": 0
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "35",
       "goodbom": {
         "nome": "MAMÃO PAPAYA KG",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
+        "preco": 9.99,
+        "preco_por_kg": 9.99
       },
       "tenda": {
-        "nome": "Mamão Formosa Unidade",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Mamão Papaya Unidade",
+        "preco": 4.79,
+        "preco_por_kg": 4.79
       },
       "mais_barato": "Tenda"
     },
@@ -514,9 +514,9 @@
         "preco_por_kg": 22.47
       },
       "tenda": {
-        "nome": "Uva Niagara Bandeja 500g",
-        "preco": 5.99,
-        "preco_por_kg": 11.98
+        "nome": "Uva Vitória Bandeja 500g",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -528,9 +528,9 @@
         "preco_por_kg": 14.99
       },
       "tenda": {
-        "nome": "Maçã Nectar 850g",
-        "preco": 8.29,
-        "preco_por_kg": 9.75
+        "nome": "Maçã Select 1Kg",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -607,9 +607,9 @@
     {
       "id": "44",
       "goodbom": {
-        "nome": "QUEIJO MUSSARELA RALADA G.B KG",
-        "preco": 56.9,
-        "preco_por_kg": 56.9
+        "nome": "QUEIJO MUSSARELA AURORA KG",
+        "preco": 49.9,
+        "preco_por_kg": 49.9
       },
       "tenda": {
         "nome": "Queijo Mussarela Portofino 200g",
@@ -738,9 +738,9 @@
         "preco_por_kg": 23.94
       },
       "tenda": {
-        "nome": "Suco Maçã Yakult Caixa 200ml",
-        "preco": 2.99,
-        "preco_por_kg": 14.95
+        "nome": "Taffman-EX Yakult 110ml 6 Unidades",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -753,10 +753,10 @@
       },
       "tenda": {
         "nome": "Iogurte Líquido Danone Morango 170g",
-        "preco": 3.55,
-        "preco_por_kg": 20.88
+        "preco": 0,
+        "preco_por_kg": 0
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "55",
@@ -767,8 +767,8 @@
       },
       "tenda": {
         "nome": "Banana Nanica Unidade",
-        "preco": 0.91,
-        "preco_por_kg": 0.91
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -780,9 +780,9 @@
         "preco_por_kg": 5.59
       },
       "tenda": {
-        "nome": "Arroz Parboilizado Select 5kg",
-        "preco": 18.9,
-        "preco_por_kg": 3.78
+        "nome": "Arroz Tipo 1 Select 1Kg",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -794,9 +794,9 @@
         "preco_por_kg": 4.99
       },
       "tenda": {
-        "nome": "Feijão Preto Tipo 1 Select 1kg",
-        "preco": 4.8,
-        "preco_por_kg": 4.8
+        "nome": "Feijão Carioca Tipo 1 Select 1kg",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -836,9 +836,9 @@
         "preco_por_kg": 7.99
       },
       "tenda": {
-        "nome": "Macarrão com Ovos Espaguete 8 Camil 500g",
-        "preco": 2.99,
-        "preco_por_kg": 5.98
+        "nome": "Macarrão com Ovos Espaguete N.8 Select 500g",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -865,8 +865,8 @@
       },
       "tenda": {
         "nome": "Macarrão Parafuso com Ovos Flor de Lis 500g",
-        "preco": 0,
-        "preco_por_kg": 0
+        "preco": 2.49,
+        "preco_por_kg": 4.98
       },
       "mais_barato": "Tenda"
     },
@@ -893,10 +893,10 @@
       },
       "tenda": {
         "nome": "Molho de Tomate com Pedaços Tradicional Heinz 240g",
-        "preco": 0,
-        "preco_por_kg": 0
+        "preco": 3.09,
+        "preco_por_kg": 12.88
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "65",
@@ -907,10 +907,10 @@
       },
       "tenda": {
         "nome": "Extrato de Tomate Elefante Pote 310g",
-        "preco": 0,
-        "preco_por_kg": 0
+        "preco": 6.15,
+        "preco_por_kg": 19.84
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "66",
@@ -948,9 +948,9 @@
         "preco_por_kg": 18.99
       },
       "tenda": {
-        "nome": "Molho Shoyu Premium Umai Cepêra 270ml",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Molho Shoyu Premium Umai Cepêra 5L",
+        "preco": 75.9,
+        "preco_por_kg": 15.18
       },
       "mais_barato": "Tenda"
     },
@@ -963,8 +963,8 @@
       },
       "tenda": {
         "nome": "Tempero Floppy Sazón Vermelho 60g",
-        "preco": 0,
-        "preco_por_kg": 0
+        "preco": 5.59,
+        "preco_por_kg": 93.17
       },
       "mais_barato": "Tenda"
     },
@@ -976,11 +976,11 @@
         "preco_por_kg": 3.79
       },
       "tenda": {
-        "nome": "Tempero Floppy Sazón Amarelo 60g",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Caldo de Legumes Sazón 1,1kg",
+        "preco": 23.5,
+        "preco_por_kg": 21.36
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "71",
@@ -990,9 +990,9 @@
         "preco_por_kg": 13.98
       },
       "tenda": {
-        "nome": "Farofa de Mandioca Tradicional Yoki Pacote 800g Embalagem Econômica",
-        "preco": 8.69,
-        "preco_por_kg": 10.86
+        "nome": "Farofa de Mandioca com Pedaços Crocante Costelinha Defumada Yoki Caseiríssima Pacote 200g",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -1033,8 +1033,8 @@
       },
       "tenda": {
         "nome": "Vinagre de Álcool Vitalia 750ml",
-        "preco": 0,
-        "preco_por_kg": 0
+        "preco": 2.69,
+        "preco_por_kg": 3.59
       },
       "mais_barato": "Tenda"
     },
@@ -1042,8 +1042,8 @@
       "id": "75",
       "goodbom": {
         "nome": "MILHO VERDE BANDEJA 700G",
-        "preco": 6.99,
-        "preco_por_kg": 9.99
+        "preco": 5.99,
+        "preco_por_kg": 8.56
       },
       "tenda": {
         "nome": "Milho Verde Select 170g",
@@ -1074,9 +1074,9 @@
         "preco_por_kg": 47.92
       },
       "tenda": {
-        "nome": "Sardinha em Óleo Gomes da Costa 125g",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Sardinha em Óleo Coqueiro 125g",
+        "preco": 4.99,
+        "preco_por_kg": 39.92
       },
       "mais_barato": "Tenda"
     },
@@ -1131,10 +1131,10 @@
       },
       "tenda": {
         "nome": "Refrigerante Pepsi Black Sem Açúcar 2L Garrafa Pet",
-        "preco": 0,
-        "preco_por_kg": 0
+        "preco": 8.09,
+        "preco_por_kg": 4.04
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "82",
@@ -1215,10 +1215,10 @@
       },
       "tenda": {
         "nome": "Creme de Leite Piracanjuba 200g",
-        "preco": 0,
-        "preco_por_kg": 0
+        "preco": 2.99,
+        "preco_por_kg": 14.95
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "88",
@@ -1271,10 +1271,10 @@
       },
       "tenda": {
         "nome": "Filtro de Papel 102 Select 30 Unidades",
-        "preco": 2.9,
-        "preco_por_kg": 2.9
+        "preco": 0,
+        "preco_por_kg": 0
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "92",
@@ -1285,10 +1285,10 @@
       },
       "tenda": {
         "nome": "Chá Mate Natural Leão 250g",
-        "preco": 10.59,
-        "preco_por_kg": 42.36
+        "preco": 0,
+        "preco_por_kg": 0
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "93",
@@ -1299,8 +1299,8 @@
       },
       "tenda": {
         "nome": "Pipoca para Micro-Ondas Manteiga de Cinema Yoki Pacote 100g",
-        "preco": 4.19,
-        "preco_por_kg": 41.9
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -1383,8 +1383,8 @@
       },
       "tenda": {
         "nome": "Pão de Forma Integral Premium Wickbold Pacote 450g",
-        "preco": 6.99,
-        "preco_por_kg": 15.53
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -1397,8 +1397,8 @@
       },
       "tenda": {
         "nome": "Massa de Tapioca Tradicional Select 1kg",
-        "preco": 11.89,
-        "preco_por_kg": 11.89
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -1410,11 +1410,11 @@
         "preco_por_kg": 14.3
       },
       "tenda": {
-        "nome": "Biscoito Cream Cracker Marilan 350g",
-        "preco": 5.99,
-        "preco_por_kg": 17.11
+        "nome": "Biscoito Cookie com Pedaços, Gotas e Base de Chocolate BigCookie Bauducco 30g",
+        "preco": 0,
+        "preco_por_kg": 0
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "103",
@@ -1424,9 +1424,9 @@
         "preco_por_kg": 21.98
       },
       "tenda": {
-        "nome": "Desinfetante Bruto Original Lysoform 5L",
-        "preco": 49.9,
-        "preco_por_kg": 9.98
+        "nome": "Desinfetante Uso Geral Citrus Lysoform 2L",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -1438,11 +1438,11 @@
         "preco_por_kg": 11.99
       },
       "tenda": {
-        "nome": "Sapólio Radium Cremoso Multiuso Clássico 450ml",
-        "preco": 11.9,
-        "preco_por_kg": 26.44
+        "nome": "CIF Cremoso Limpeza Milagrosa remove 100% da sujeira 450 ml",
+        "preco": 0,
+        "preco_por_kg": 0
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "105",
@@ -1452,11 +1452,11 @@
         "preco_por_kg": 4.39
       },
       "tenda": {
-        "nome": "Álcool Etílico Hidratado Tradicional Flops 1L",
-        "preco": 5.4,
-        "preco_por_kg": 5.4
+        "nome": "Álcool em Gel Acendedor 80 INPM Select 425g",
+        "preco": 0,
+        "preco_por_kg": 0
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "106",
@@ -1466,11 +1466,11 @@
         "preco_por_kg": 12.5
       },
       "tenda": {
-        "nome": "Aromatizador Bom Ar Aerossol Cheirinho de Talco 360ml Oferta",
-        "preco": 15,
-        "preco_por_kg": 41.67
+        "nome": "Shampoo Johnsons Kids Cheirinho Prolongado Frasco 400ml",
+        "preco": 0,
+        "preco_por_kg": 0
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "107",
@@ -1503,14 +1503,14 @@
     {
       "id": "110",
       "goodbom": {
-        "nome": "ÓLEO COMPOSTO MARIA TRAD.200ML",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
+        "nome": "ÓLEO COMPOSTO TRADIÇÃO VD.500ML",
+        "preco": 9.98,
+        "preco_por_kg": 9.98
       },
       "tenda": {
-        "nome": "Óleo De Soja Liza 900ml",
-        "preco": 7.25,
-        "preco_por_kg": 8.06
+        "nome": "Óleo de Soja Soya Pet 900ml",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -1564,9 +1564,9 @@
         "preco_por_kg": 3.99
       },
       "tenda": {
-        "nome": "Saco Lixo Rolo Select 50L 30un.",
-        "preco": 7.9,
-        "preco_por_kg": 0.16
+        "nome": "Saco Lixo Banheiro Branco Select 50un.",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -1579,8 +1579,8 @@
       },
       "tenda": {
         "nome": "Água Sanitária Branca Triex 5L",
-        "preco": 8.5,
-        "preco_por_kg": 1.7
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -1592,7 +1592,7 @@
         "preco_por_kg": 32.99
       },
       "tenda": {
-        "nome": "Lava Roupas Líquido Lavagem Perfeita Omo Refil 900ml",
+        "nome": "Lava Roupas Líquido Omo Lavagem Perfeita 5L",
         "preco": 0,
         "preco_por_kg": 0
       },
@@ -1662,9 +1662,9 @@
         "preco_por_kg": 6.49
       },
       "tenda": {
-        "nome": "Alvejante sem Cloro Multiuso Triex 2L",
-        "preco": 9.49,
-        "preco_por_kg": 4.75
+        "nome": "Kit UAU 2 Cloro Ativo 500ml + 1 Desengordurante 500ml Grátis Multiuso Lavanda 500ml",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -1677,8 +1677,8 @@
       },
       "tenda": {
         "nome": "Desinfetante Eucalipto Select 2L",
-        "preco": 5.1,
-        "preco_por_kg": 2.55
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -1760,9 +1760,9 @@
         "preco_por_kg": 11.99
       },
       "tenda": {
-        "nome": "Escova Dental Select 1 Unidade",
-        "preco": 3,
-        "preco_por_kg": 3
+        "nome": "Escova de Dente Select 5 Unidades",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -1802,9 +1802,9 @@
         "preco_por_kg": 34.32
       },
       "tenda": {
-        "nome": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
-        "preco": 1.5,
-        "preco_por_kg": 1.5
+        "nome": "Sabonete em Barra Palmolive Naturals Nutrição Intensiva Karité e Vitamina E 85g",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -1873,8 +1873,8 @@
       },
       "tenda": {
         "nome": "Toalha Umedecida Premium Select 50 Unidades",
-        "preco": 7.5,
-        "preco_por_kg": 7.5
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -1929,8 +1929,8 @@
       },
       "tenda": {
         "nome": "Biscoito Recheado Duplo Chocolate Bauducco 140g",
-        "preco": 2.29,
-        "preco_por_kg": 16.36
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -1943,8 +1943,8 @@
       },
       "tenda": {
         "nome": "Bisnaguinha Select 300g",
-        "preco": 5.39,
-        "preco_por_kg": 17.97
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
