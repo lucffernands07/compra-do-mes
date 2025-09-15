@@ -36,7 +36,7 @@ jobs:
 
       # 6️⃣ Rodar comparação
       - name: Compare prices
-        run: node compare.js
+        run: node scrapers/compare.js
 
       # 7️⃣ Commit e push
       - name: Commit and push updated prices
