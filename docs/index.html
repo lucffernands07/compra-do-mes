@@ -12,11 +12,18 @@
 
   <div id="resultado"></div>
 
+  <!-- Primeiro carrega o app.js -->
   <script src="app.js"></script>
+
+  <!-- Depois conecta o botão à função -->
   <script>
-    // Liga o botão à função atualizarPrecos do app.js
-    document.getElementById('buscarBtn').addEventListener('click', () => {
-      atualizarPrecos();
+    document.addEventListener("DOMContentLoaded", () => {
+      const btn = document.getElementById("buscarBtn");
+      if (btn) {
+        btn.addEventListener("click", atualizarPrecos);
+      } else {
+        console.error("❌ Botão #buscarBtn não encontrado");
+      }
     });
   </script>
 </body>
