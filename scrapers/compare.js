@@ -2,8 +2,8 @@ const fs = require("fs");
 const path = require("path");
 
 // Caminho dos arquivos JSON
-const tendaPath = path.join(__dirname, "docs", "prices", "prices_tenda.json");
-const goodbomPath = path.join(__dirname, "docs", "prices", "prices_goodbom.json");
+const tendaPath = path.join(__dirname, "..", "docs", "prices", "prices_tenda.json");
+const goodbomPath = path.join(__dirname, "..", "docs", "prices", "prices_goodbom.json");
 
 // Lê os arquivos
 const tenda = JSON.parse(fs.readFileSync(tendaPath, "utf-8"));
