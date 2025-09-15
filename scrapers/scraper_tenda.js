@@ -1,93 +1,92 @@
-import puppeteer from "puppeteer";
-import fs from "fs";
+const puppeteer = require("puppeteer");
+const fs = require("fs");
 
+// Arquivos de entrada/saída
 const INPUT_FILE = "products.txt";
 const OUTPUT_FILE = "docs/prices/prices_tenda.json";
-const BASE_URL = "https://www.tendaatacado.com.br/busca?q=";
 
+// Função para extrair peso do nome do produto
 function extrairPeso(nome) {
   nome = nome.toLowerCase();
 
-  // Match para "500g", "900 g"
   let match = nome.match(/(\d+)\s*g/);
-  if (match) return parseInt(match[1], 10) / 1000; // gramas → kg
+  if (match) return parseInt(match[1], 10) / 1000; // g → kg
 
-  // Match para "1,5kg", "2 kg"
   match = nome.match(/(\d+[.,]?\d*)\s*kg/);
-  if (match) return parseFloat(match[1].replace(",", "."));
+  if (match) return parseFloat(match[1].replace(",", ".")); // kg direto
 
-  // Match para "200ml", "1,5l"
   match = nome.match(/(\d+[.,]?\d*)\s*ml/);
-  if (match) return parseFloat(match[1].replace(",", ".")) / 1000;
+  if (match) return parseFloat(match[1].replace(",", ".")) / 1000; // ml → litro
 
   match = nome.match(/(\d+[.,]?\d*)\s*l/);
-  if (match) return parseFloat(match[1].replace(",", "."));
+  if (match) return parseFloat(match[1].replace(",", ".")); // litro direto
 
-  return 1; // fallback caso não encontre peso
+  return 1; // fallback
 }
 
-async function buscarProduto(page, produto) {
-  const url = `${BASE_URL}${encodeURIComponent(produto)}`;
-  await page.goto(url, { waitUntil: "domcontentloaded" });
+async function buscarProduto(page, termo) {
+  const url = `https://www.tendaatacado.com.br/busca?q=${encodeURIComponent(termo)}`;
+  await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
 
-  const items = await page.evaluate(() => {
-    const produtos = [];
-    document.querySelectorAll("a.showcase-card-content").forEach(a => {
-      const nome = a.querySelector("h3")?.innerText.trim();
-      const precoText = a.querySelector(".SimplePriceComponent")?.innerText;
-      if (nome && precoText) {
-        const preco = parseFloat(
-          precoText.replace("R$", "").replace(",", ".").replace("un", "").trim()
-        );
-        if (!isNaN(preco)) {
-          produtos.push({ nome, preco });
-        }
-      }
+  return await page.evaluate(() => {
+    const anchors = Array.from(document.querySelectorAll("a.showcase-card-content.grid_view"));
+    return anchors.slice(0, 3).map(a => {
+      const nome = a.querySelector("h3")?.innerText.trim() || "Produto sem nome";
+      const precoStr = a.querySelector(".SimplePriceComponent")?.innerText || "";
+      let preco = parseFloat(precoStr.replace("R$", "").replace(",", ".").trim()) || 0;
+      return { nome, preco };
     });
-    return produtos;
-  });
-
-  // Pega só os 3 primeiros
-  return items.slice(0, 3).map(p => {
-    const peso = extrairPeso(p.nome);
-    return {
-      supermercado: "Tenda",
-      produto: p.nome,
-      preco: p.preco,
-      preco_por_kg: +(p.preco / peso).toFixed(2)
-    };
   });
 }
 
 async function main() {
-  const browser = await puppeteer.launch({
-    headless: "new",
-    args: ["--no-sandbox", "--disable-setuid-sandbox"]
-  });
+  const browser = await puppeteer.launch({ headless: "new" });
   const page = await browser.newPage();
 
-  // Lê lista de produtos
-  const produtos = fs
-    .readFileSync(INPUT_FILE, "utf-8")
+  // Abrir site e preencher CEP (se necessário)
+  await page.goto("https://www.tendaatacado.com.br", { waitUntil: "domcontentloaded", timeout: 60000 });
+
+  try {
+    await page.waitForSelector("#shipping-cep", { timeout: 10000 });
+    await page.type("#shipping-cep", "13187166", { delay: 100 });
+    await page.keyboard.press("Enter");
+    await page.waitForTimeout(4000);
+    console.log("✅ CEP configurado");
+  } catch {
+    console.log("⚠️ CEP input não encontrado, talvez já esteja configurado.");
+  }
+
+  // Ler lista de produtos
+  const produtos = fs.readFileSync(INPUT_FILE, "utf-8")
     .split("\n")
     .map(l => l.trim())
     .filter(Boolean);
 
   let resultados = [];
 
-  for (const produto of produtos) {
+  for (const termo of produtos) {
     try {
-      console.log(`🔍 Buscando Tenda: ${produto}`);
-      const encontrados = await buscarProduto(page, produto);
-      resultados.push(...encontrados);
+      console.log(`🔍 Buscando: ${termo}`);
+      const encontrados = await buscarProduto(page, termo);
+
+      encontrados.forEach(p => {
+        const peso = extrairPeso(p.nome);
+        resultados.push({
+          supermercado: "Tenda",
+          produto: p.nome,
+          preco: p.preco,
+          preco_por_kg: +(p.preco / peso).toFixed(2)
+        });
+      });
+
     } catch (err) {
-      console.error(`Erro Tenda (${produto}):`, err.message);
+      console.error(`❌ Erro ao buscar ${termo}:`, err.message);
     }
   }
 
   await browser.close();
 
-  // Salva JSON
+  // Salvar JSON
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(resultados, null, 2), "utf-8");
   console.log(`💾 Resultados salvos em ${OUTPUT_FILE}`);
 }
