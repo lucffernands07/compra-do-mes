@@ -1,4 +1,4 @@
-name: Scraper Tenda
+name: Scraper Preços
 
 on:
   schedule:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout do repo sem persistir credenciais
+      # 1️⃣ Checkout do repo
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
@@ -26,17 +26,25 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # 4️⃣ Rodar scraper
-      - name: Run scraper
-        run: npm start
+      # 4️⃣ Rodar scraper Tenda
+      - name: Run scraper Tenda
+        run: node scrapers/scraper_tenda.js
 
-      # 5️⃣ Commit e push usando GITHUB_TOKEN para branch main
+      # 5️⃣ Rodar scraper GoodBom
+      - name: Run scraper GoodBom
+        run: node scrapers/scraper_goodbom.js
+
+      # 6️⃣ Rodar comparação
+      - name: Compare prices
+        run: node compare.js
+
+      # 7️⃣ Commit e push
       - name: Commit and push updated prices
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@users.noreply.github.com"
-          git add docs/prices/prices_tenda.json
-          git commit -m "Atualiza preços Tenda [skip ci]" || echo "Nenhuma alteração"
+          git add docs/prices/*.json
+          git commit -m "Atualiza preços [skip ci]" || echo "Nenhuma alteração"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
