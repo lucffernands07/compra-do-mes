@@ -1,13 +1,12 @@
 const resultadoDiv = document.getElementById('resultado');
 
 async function atualizarPrecos() {
-  resultadoDiv.innerHTML = "<p>Carregando...</p>";
-
   try {
-    const res = await fetch("prices/compare.json"); // como compare.json está dentro de /docs/prices
+    const res = await fetch("prices/compare.json");
+    if (!res.ok) throw new Error(`Erro ao buscar JSON: ${res.status}`);
     const data = await res.json();
 
-    if (data.length === 0) {
+    if (!data.length) {
       resultadoDiv.innerHTML = "<p>Nenhum produto encontrado.</p>";
       return;
     }
@@ -45,10 +44,10 @@ async function atualizarPrecos() {
     resultadoDiv.innerHTML = html;
 
   } catch (err) {
-    console.error("Erro ao carregar compare.json:", err);
-    resultadoDiv.innerHTML = "<p>Erro ao buscar preços.</p>";
+    console.error(err);
+    resultadoDiv.innerHTML = "<p>Erro ao carregar preços.</p>";
   }
 }
 
-// Executa assim que a página abrir
-atualizarPrecos();
+// Atualiza automaticamente ao carregar a página
+document.addEventListener("DOMContentLoaded", atualizarPrecos);
