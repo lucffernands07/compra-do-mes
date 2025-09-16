@@ -2,13 +2,6 @@
   {
     "id": 1,
     "supermercado": "Goodbom",
-    "produto": "CARNE MOIDA SWIFT 1KG",
-    "preco": 39.9,
-    "preco_por_kg": 39.9
-  },
-  {
-    "id": 1,
-    "supermercado": "Goodbom",
     "produto": "CARNE MOIDA BRASA 500G",
     "preco": 17.99,
     "preco_por_kg": 35.98
@@ -19,6 +12,13 @@
     "produto": "CARNE MOIDA LIGHT SWIFT 500G",
     "preco": 25.9,
     "preco_por_kg": 51.8
+  },
+  {
+    "id": 1,
+    "supermercado": "Goodbom",
+    "produto": "CARNE MOIDA PALETA SWIFT 500G",
+    "preco": 24.9,
+    "preco_por_kg": 49.8
   },
   {
     "id": 2,
@@ -672,6 +672,27 @@
     "preco_por_kg": 4.99
   },
   {
+    "id": 33,
+    "supermercado": "Goodbom",
+    "produto": "REPOLHO ROXO KG",
+    "preco": 7.99,
+    "preco_por_kg": 7.99
+  },
+  {
+    "id": 33,
+    "supermercado": "Goodbom",
+    "produto": "REPOLHO LISO KG",
+    "preco": 2.99,
+    "preco_por_kg": 2.99
+  },
+  {
+    "id": 33,
+    "supermercado": "Goodbom",
+    "produto": "PASTILHA RAID ECONOMICA REFIL",
+    "preco": 5.99,
+    "preco_por_kg": 5.99
+  },
+  {
     "id": 34,
     "supermercado": "Goodbom",
     "produto": "ALHO KG",
@@ -1144,8 +1165,8 @@
     "id": 56,
     "supermercado": "Goodbom",
     "produto": "ARROZ TIPO 1 GRÃO DE CAMPO 5KG",
-    "preco": 17.9,
-    "preco_por_kg": 17900
+    "preco": 19.99,
+    "preco_por_kg": 19990
   },
   {
     "id": 56,
