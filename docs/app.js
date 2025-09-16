@@ -1,26 +1,20 @@
-const resultadoDiv = document.getElementById("resultado");
+const resultadoDiv = document.getElementById('resultado');
 
 async function atualizarPrecos() {
   resultadoDiv.innerHTML = "<p>Carregando...</p>";
 
   try {
-    // Busca o JSON publicado no GitHub Pages
-    const res = await fetch("prices/compare.json");
+    // Usa URL absoluta do JSON no GitHub Pages
+    const res = await fetch("https://lucffernands07.github.io/compra-do-mes/prices/compare.json");
     const data = await res.json();
 
-    // Verifica se há produtos
-    if (!data.produtos || data.produtos.length === 0) {
+    if (!Array.isArray(data) || data.length === 0) {
       resultadoDiv.innerHTML = "<p>Nenhum produto encontrado.</p>";
       return;
     }
 
-    // Monta o HTML com os totais
+    // Monta a tabela
     let html = `
-      <h2>Totais</h2>
-      <p><strong>Total GoodBom:</strong> R$ ${data.totalGoodbom.toFixed(2)}</p>
-      <p><strong>Total Tenda:</strong> R$ ${data.totalTenda.toFixed(2)}</p>
-
-      <h2>Comparação detalhada</h2>
       <table>
         <thead>
           <tr>
@@ -35,18 +29,15 @@ async function atualizarPrecos() {
         <tbody>
     `;
 
-    // Percorre os produtos
-    data.produtos.forEach((p) => {
-      const maisBaratoClasse =
-        p.mais_barato === "Goodbom" ? "goodbom" : "tenda";
-
+    data.forEach(p => {
+      const maisBaratoClasse = p.mais_barato === "Goodbom" ? "goodbom" : "tenda";
       html += `
         <tr>
           <td>${p.id}</td>
           <td>${p.goodbom.nome}</td>
-          <td>R$ ${p.goodbom.preco_por_kg.toFixed(2)}</td>
+          <td>R$${p.goodbom.preco_por_kg.toFixed(2)}</td>
           <td>${p.tenda.nome}</td>
-          <td>R$ ${p.tenda.preco_por_kg.toFixed(2)}</td>
+          <td>R$${p.tenda.preco_por_kg.toFixed(2)}</td>
           <td class="${maisBaratoClasse}">${p.mais_barato}</td>
         </tr>
       `;
@@ -54,8 +45,9 @@ async function atualizarPrecos() {
 
     html += "</tbody></table>";
     resultadoDiv.innerHTML = html;
+
   } catch (err) {
-    console.error("Erro ao carregar JSON:", err);
+    console.error("❌ Erro ao buscar JSON:", err);
     resultadoDiv.innerHTML = "<p>Erro ao buscar preços.</p>";
   }
 }
