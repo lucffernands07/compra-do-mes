@@ -1,56 +1,42 @@
-const resultadoDiv = document.getElementById('resultado');
-
-async function atualizarPrecos() {
-  resultadoDiv.innerHTML = "<p>Carregando...</p>";
+async function carregarDados() {
+  const resultadoDiv = document.getElementById("resultado");
 
   try {
-    // Usa URL absoluta do JSON no GitHub Pages
-    const res = await fetch("https://lucffernands07.github.io/compra-do-mes/prices/compare.json");
-    const data = await res.json();
+    // Caminho relativo à pasta onde está o index.html
+    const response = await fetch("./prices/compare.json");
+    
+    if (!response.ok) {
+      throw new Error("Erro ao carregar o JSON: " + response.status);
+    }
 
-    if (!Array.isArray(data) || data.length === 0) {
-      resultadoDiv.innerHTML = "<p>Nenhum produto encontrado.</p>";
+    const data = await response.json();
+
+    // Garante que produtos existe e tem itens
+    if (!data.produtos || data.produtos.length === 0) {
+      resultadoDiv.innerHTML = "Nenhum produto encontrado";
       return;
     }
 
-    // Monta a tabela
-    let html = `
-      <table>
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Produto GoodBom</th>
-            <th>Preço GoodBom (R$/kg)</th>
-            <th>Produto Tenda</th>
-            <th>Preço Tenda (R$/kg)</th>
-            <th>Mais Barato</th>
-          </tr>
-        </thead>
-        <tbody>
-    `;
+    // Renderizar lista
+    let html = "<ul>";
+    data.produtos.forEach(produto => {
+      const nome = produto.goodbom?.nome || "Sem nome";
+      const precoGoodbom = produto.goodbom?.preco || "—";
+      const precoTenda = produto.tenda?.preco || "—";
 
-    data.forEach(p => {
-      const maisBaratoClasse = p.mais_barato === "Goodbom" ? "goodbom" : "tenda";
-      html += `
-        <tr>
-          <td>${p.id}</td>
-          <td>${p.goodbom.nome}</td>
-          <td>R$${p.goodbom.preco_por_kg.toFixed(2)}</td>
-          <td>${p.tenda.nome}</td>
-          <td>R$${p.tenda.preco_por_kg.toFixed(2)}</td>
-          <td class="${maisBaratoClasse}">${p.mais_barato}</td>
-        </tr>
-      `;
+      html += `<li>
+        <strong>${nome}</strong><br>
+        Goodbom: R$ ${precoGoodbom} <br>
+        Tenda: R$ ${precoTenda}
+      </li>`;
     });
+    html += "</ul>";
 
-    html += "</tbody></table>";
     resultadoDiv.innerHTML = html;
-
   } catch (err) {
-    console.error("❌ Erro ao buscar JSON:", err);
-    resultadoDiv.innerHTML = "<p>Erro ao buscar preços.</p>";
+    console.error("Erro ao carregar dados:", err);
+    resultadoDiv.innerHTML = "Erro ao carregar dados.";
   }
 }
 
-// Atualiza automaticamente ao carregar a página
-document.addEventListener("DOMContentLoaded", atualizarPrecos);
+carregarDados();
