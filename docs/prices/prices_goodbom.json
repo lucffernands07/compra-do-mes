@@ -2,23 +2,23 @@
   {
     "id": 1,
     "supermercado": "Goodbom",
+    "produto": "CARNE MOÍDA COMBO 1KG",
+    "preco": 24.9,
+    "preco_por_kg": 24.9
+  },
+  {
+    "id": 1,
+    "supermercado": "Goodbom",
+    "produto": "CARNE MOIDA SWIFT 1KG",
+    "preco": 39.9,
+    "preco_por_kg": 39.9
+  },
+  {
+    "id": 1,
+    "supermercado": "Goodbom",
     "produto": "CARNE MOIDA BRASA 500G",
     "preco": 17.99,
     "preco_por_kg": 35.98
-  },
-  {
-    "id": 1,
-    "supermercado": "Goodbom",
-    "produto": "CARNE MOIDA LIGHT SWIFT 500G",
-    "preco": 25.9,
-    "preco_por_kg": 51.8
-  },
-  {
-    "id": 1,
-    "supermercado": "Goodbom",
-    "produto": "CARNE MOIDA PALETA SWIFT 500G",
-    "preco": 24.9,
-    "preco_por_kg": 49.8
   },
   {
     "id": 2,
@@ -653,13 +653,6 @@
   {
     "id": 32,
     "supermercado": "Goodbom",
-    "produto": "ALFACE ROXA UN",
-    "preco": 4.99,
-    "preco_por_kg": 4.99
-  },
-  {
-    "id": 32,
-    "supermercado": "Goodbom",
     "produto": "ALFACE CRESPA UN",
     "preco": 4.99,
     "preco_por_kg": 4.99
@@ -668,6 +661,13 @@
     "id": 32,
     "supermercado": "Goodbom",
     "produto": "ALFACE MIMOSA UN",
+    "preco": 4.99,
+    "preco_por_kg": 4.99
+  },
+  {
+    "id": 32,
+    "supermercado": "Goodbom",
+    "produto": "ALFACE AMERICANA UN",
     "preco": 4.99,
     "preco_por_kg": 4.99
   },
