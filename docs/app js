@@ -4,16 +4,14 @@ async function atualizarPrecos() {
   resultadoDiv.innerHTML = "<p>Carregando...</p>";
 
   try {
-    // Busca direto do GitHub Pages
-    const res = await fetch("https://lucffernands07.github.io/compra-do-mes/prices/compare.json");
+    const res = await fetch("prices/compare.json"); // como compare.json está dentro de /docs/prices
     const data = await res.json();
 
-    if (!data || data.length === 0) {
+    if (data.length === 0) {
       resultadoDiv.innerHTML = "<p>Nenhum produto encontrado.</p>";
       return;
     }
 
-    // Monta a tabela
     let html = `
       <table>
         <thead>
@@ -47,10 +45,10 @@ async function atualizarPrecos() {
     resultadoDiv.innerHTML = html;
 
   } catch (err) {
-    console.error("❌ Erro ao buscar preços:", err);
+    console.error("Erro ao carregar compare.json:", err);
     resultadoDiv.innerHTML = "<p>Erro ao buscar preços.</p>";
   }
 }
 
-// Executa automaticamente ao carregar a página
-document.addEventListener("DOMContentLoaded", atualizarPrecos);
+// Executa assim que a página abrir
+atualizarPrecos();
