@@ -5,7 +5,7 @@ async function atualizarPrecos() {
 
   try {
     // Busca o JSON gerado pelo compare.js
-    const res = await fetch("prices/compare.json", { cache: "no-store" });
+    const res = await fetch("https://lucffernands07.github.io/compra-do-mes/prices/compare.json");
     const data = await res.json();
 
     const produtos = data.produtos;
