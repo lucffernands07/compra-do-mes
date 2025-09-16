@@ -13,7 +13,7 @@
   📁 prices
     📄 compare.json
     📄 prices_tenda.json
-    📄 proces_goodbom.json
+    📄 prices_goodbom.json
 📄 package.json
 📄 products.txt
 📄 README.md
