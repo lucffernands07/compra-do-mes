@@ -4,24 +4,17 @@ async function atualizarPrecos() {
   resultadoDiv.innerHTML = "<p>Carregando...</p>";
 
   try {
-    // Busca o JSON gerado pelo compare.js
+    // Busca direto do GitHub Pages
     const res = await fetch("https://lucffernands07.github.io/compra-do-mes/prices/compare.json");
     const data = await res.json();
 
-    const produtos = data.produtos;
-
-    if (!produtos || produtos.length === 0) {
+    if (!data || data.length === 0) {
       resultadoDiv.innerHTML = "<p>Nenhum produto encontrado.</p>";
       return;
     }
 
     // Monta a tabela
     let html = `
-      <h2>Resumo</h2>
-      <p><strong>Total GoodBom:</strong> R$${data.totalGoodbom}</p>
-      <p><strong>Total Tenda:</strong> R$${data.totalTenda}</p>
-
-      <h2>Comparação Detalhada</h2>
       <table>
         <thead>
           <tr>
@@ -36,7 +29,7 @@ async function atualizarPrecos() {
         <tbody>
     `;
 
-    produtos.forEach(p => {
+    data.forEach(p => {
       const maisBaratoClasse = p.mais_barato === "Goodbom" ? "goodbom" : "tenda";
       html += `
         <tr>
@@ -54,13 +47,10 @@ async function atualizarPrecos() {
     resultadoDiv.innerHTML = html;
 
   } catch (err) {
-    console.error(err);
+    console.error("❌ Erro ao buscar preços:", err);
     resultadoDiv.innerHTML = "<p>Erro ao buscar preços.</p>";
   }
 }
 
-// Se você quiser, o botão de buscar ainda chama a função
-document.getElementById('buscarBtn')?.addEventListener('click', atualizarPrecos);
-
-// Atualiza automaticamente ao carregar a página
-atualizarPrecos();
+// Executa automaticamente ao carregar a página
+document.addEventListener("DOMContentLoaded", atualizarPrecos);
