@@ -42,4 +42,32 @@ const listaProdutos = data.produtos
   })
   .join("");
 
-resultadoDiv.innerHTML += `<h3>Produtos no ${maisBarato}</h3><ul>${listaProdutos}</ul>`;
+// Calcular totais
+let totalGoodbom = 0;
+let totalTenda = 0;
+
+data.produtos.forEach(produto => {
+  const precoGoodbom = parseFloat(produto.goodbom?.preco?.replace(",", ".") || 0);
+  const precoTenda = parseFloat(produto.tenda?.preco?.replace(",", ".") || 0);
+  totalGoodbom += precoGoodbom;
+  totalTenda += precoTenda;
+});
+
+// Determinar mais barato
+let maisBarato = "Goodbom";
+let valorMaisBarato = totalGoodbom;
+if (totalTenda < totalGoodbom) {
+  maisBarato = "Tenda";
+  valorMaisBarato = totalTenda;
+}
+
+// Mostrar totais e supermercado mais barato
+html = `<h3>Totais por supermercado:</h3>
+<ul>
+  <li>Goodbom: R$ ${totalGoodbom.toFixed(2)}</li>
+  <li>Tenda: R$ ${totalTenda.toFixed(2)}</li>
+</ul>
+<p>Supermercado mais barato: <strong>${maisBarato}</strong> (R$ ${valorMaisBarato.toFixed(2)})</p>` + html;
+
+// Atualizar resultado
+resultadoDiv.innerHTML = html;
