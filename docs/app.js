@@ -54,20 +54,38 @@ data.produtos.forEach(produto => {
 });
 
 // Determinar mais barato
-let maisBarato = "Goodbom";
-let valorMaisBarato = totalGoodbom;
-if (totalTenda < totalGoodbom) {
-  maisBarato = "Tenda";
-  valorMaisBarato = totalTenda;
-}
+const maisBarato = totalGoodbom <= totalTenda ? "Goodbom" : "Tenda";
+const totalMaisBarato = Math.min(totalGoodbom, totalTenda);
 
-// Mostrar totais e supermercado mais barato
-html = `<h3>Totais por supermercado:</h3>
-<ul>
-  <li>Goodbom: R$ ${totalGoodbom.toFixed(2)}</li>
-  <li>Tenda: R$ ${totalTenda.toFixed(2)}</li>
-</ul>
-<p>Supermercado mais barato: <strong>${maisBarato}</strong> (R$ ${valorMaisBarato.toFixed(2)})</p>` + html;
+// Montar tabela de totais
+const tabelaTotais = `
+  <h2>Totais por supermercado</h2>
+  <table border="1" cellpadding="5">
+    <tr>
+      <th>Supermercado</th>
+      <th>Total (R$)</th>
+    </tr>
+    <tr ${maisBarato === "Goodbom" ? 'style="font-weight:bold;color:green;"' : ''}>
+      <td>Goodbom</td>
+      <td>${totalGoodbom.toFixed(2)}</td>
+    </tr>
+    <tr ${maisBarato === "Tenda" ? 'style="font-weight:bold;color:green;"' : ''}>
+      <td>Tenda</td>
+      <td>${totalTenda.toFixed(2)}</td>
+    </tr>
+  </table>
+  <p>Supermercado mais barato: <strong>${maisBarato} (R$ ${totalMaisBarato.toFixed(2)})</strong></p>
+`;
 
-// Atualizar resultado
-resultadoDiv.innerHTML = html;
+// Lista de produtos do supermercado mais barato
+const listaProdutos = data.produtos
+  .filter(p => p[maisBarato.toLowerCase()])
+  .map(p => {
+    const nome = p[maisBarato.toLowerCase()]?.nome || "Sem nome";
+    const preco = p[maisBarato.toLowerCase()]?.preco || "—";
+    return `<li>${nome}: R$ ${preco}</li>`;
+  })
+  .join("");
+
+// Renderizar tudo no resultado
+resultadoDiv.innerHTML = tabelaTotais + "<h3>Produtos do supermercado mais barato:</h3><ul>" + listaProdutos + "</ul>" + resultadoDiv.innerHTML;
