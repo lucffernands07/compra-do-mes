@@ -1,78 +1,129 @@
+// docs/app.js
 async function carregarDados() {
   const resultadoDiv = document.getElementById("resultado");
+  resultadoDiv.innerHTML = "Carregando...";
+
+  // caminhos a tentar (fallback)
+  const tryPaths = [
+    "./prices/compare.json",
+    "prices/compare.json",
+    "/prices/compare.json"
+  ];
 
   try {
-    // Caminho relativo à pasta onde está o index.html
-    const response = await fetch("./prices/compare.json");
-    
-    if (!response.ok) {
-      throw new Error("Erro ao carregar o JSON: " + response.status);
+    let response = null;
+    let usedPath = null;
+
+    // tenta encontrar o arquivo em vários caminhos
+    for (const p of tryPaths) {
+      try {
+        console.log("[fetch] tentando:", p);
+        const r = await fetch(p);
+        console.log("[fetch] status:", p, r.status);
+        if (r.ok) {
+          response = r;
+          usedPath = p;
+          break;
+        }
+      } catch (e) {
+        console.warn("[fetch] erro ao tentar", p, e);
+      }
     }
 
-    const data = await response.json();
+    if (!response) {
+      throw new Error("Arquivo compare.json não encontrado (tentados: " + tryPaths.join(", ") + ")");
+    }
 
-    // Garante que produtos existe e tem itens
-    if (!data.produtos || data.produtos.length === 0) {
+    // ler corpo e tentar parsear JSON (com log em caso de erro)
+    const text = await response.text();
+    let data;
+    try {
+      data = JSON.parse(text);
+    } catch (e) {
+      console.error("[JSON] erro ao parsear JSON (mostrando início):", text.slice(0, 500));
+      throw e;
+    }
+
+    console.log("[OK] compare.json carregado de:", usedPath);
+
+    // normalizar produtos: aceita { produtos: [...] } ou [...] diretamente
+    const produtos = Array.isArray(data.produtos) ? data.produtos : (Array.isArray(data) ? data : []);
+    if (!produtos || produtos.length === 0) {
+      console.warn("[DATA] nenhum produto encontrado no JSON. keys:", Object.keys(data));
       resultadoDiv.innerHTML = "Nenhum produto encontrado";
       return;
     }
 
-    // Calcula os totais de cada supermercado
+    // helper: converte valores diversos para número seguro
+    const toNumber = v => {
+      if (v === null || v === undefined) return 0;
+      const s = v.toString().replace(",", ".").replace(/[^0-9.\-]/g, "");
+      const n = parseFloat(s);
+      return Number.isFinite(n) ? n : 0;
+    };
+
+    // calcular totais
     let totalGoodbom = 0;
     let totalTenda = 0;
-
-    data.produtos.forEach(produto => {
-      const precoGoodbom = parseFloat(produto.goodbom?.preco?.replace(",", ".") || 0);
-      const precoTenda = parseFloat(produto.tenda?.preco?.replace(",", ".") || 0);
-      totalGoodbom += precoGoodbom;
-      totalTenda += precoTenda;
+    produtos.forEach(p => {
+      totalGoodbom += toNumber(p.goodbom?.preco);
+      totalTenda += toNumber(p.tenda?.preco);
     });
 
-    // Determina o supermercado mais barato
-    let maisBarato = "Goodbom";
-    let valorMaisBarato = totalGoodbom;
-    if (totalTenda < totalGoodbom) {
-      maisBarato = "Tenda";
-      valorMaisBarato = totalTenda;
-    }
+    // determinar mais barato
+    const maisBaratoKey = totalGoodbom <= totalTenda ? "goodbom" : "tenda";
+    const maisBaratoName = maisBaratoKey === "goodbom" ? "Goodbom" : "Tenda";
+    const valorMaisBarato = Math.min(totalGoodbom, totalTenda);
 
-    // Monta a tabela de totais
-    let html = `
+    // montar tabela de totais (HTML simples — estilize no style.css se quiser)
+    const tabelaTotais = `
       <h2>Comparação de Preços</h2>
       <h3>Totais por supermercado</h3>
-      <table border="1" cellpadding="5">
-        <tr>
-          <th>Supermercado</th>
-          <th>Total (R$)</th>
-        </tr>
-        <tr ${maisBarato === "Goodbom" ? 'style="font-weight:bold;color:green;"' : ''}>
-          <td>Goodbom</td>
-          <td>${totalGoodbom.toFixed(2)}</td>
-        </tr>
-        <tr ${maisBarato === "Tenda" ? 'style="font-weight:bold;color:green;"' : ''}>
-          <td>Tenda</td>
-          <td>${totalTenda.toFixed(2)}</td>
-        </tr>
+      <table>
+        <thead>
+          <tr><th>Supermercado</th><th>Total (R$)</th></tr>
+        </thead>
+        <tbody>
+          <tr ${maisBaratoName === "Goodbom" ? 'class="mais-barato"' : ''}>
+            <td>Goodbom</td>
+            <td>R$ ${totalGoodbom.toFixed(2)}</td>
+          </tr>
+          <tr ${maisBaratoName === "Tenda" ? 'class="mais-barato"' : ''}>
+            <td>Tenda</td>
+            <td>R$ ${totalTenda.toFixed(2)}</td>
+          </tr>
+        </tbody>
       </table>
-      <p>Supermercado mais barato: <strong>${maisBarato} (R$ ${valorMaisBarato.toFixed(2)})</strong></p>
+      <p>Supermercado mais barato: <strong>${maisBaratoName} (R$ ${valorMaisBarato.toFixed(2)})</strong></p>
     `;
 
-    // Lista de produtos apenas do supermercado mais barato
-    const listaProdutos = data.produtos
-      .filter(p => p[maisBarato.toLowerCase()])
+    // lista apenas dos produtos do supermercado mais barato (somente se tiver preço válido)
+    const listaProdutos = produtos
+      .filter(p => {
+        // existe o objeto do supermercado e tem preço > 0
+        const preco = toNumber(p[maisBaratoKey]?.preco);
+        return preco > 0;
+      })
       .map(p => {
-        const nome = p[maisBarato.toLowerCase()]?.nome || "Sem nome";
-        const preco = p[maisBarato.toLowerCase()]?.preco || "—";
-        return `<li>${nome}: R$ ${preco}</li>`;
+        const nome = p[maisBaratoKey]?.nome || p.goodbom?.nome || p.tenda?.nome || "Sem nome";
+        const preco = p[maisBaratoKey]?.preco ?? "—";
+        return `<li><strong>${nome}</strong>: R$ ${preco}</li>`;
       })
       .join("");
 
-    html += `<h3>Produtos do ${maisBarato}</h3><ul>${listaProdutos}</ul>`;
+    const listaMaisBaratoHtml = `
+      <h3>Produtos do ${maisBaratoName}</h3>
+      ${listaProdutos ? ("<ul>" + listaProdutos + "</ul>") : "<p>Nenhum produto com preço disponível no " + maisBaratoName + ".</p>"}
+    `;
 
-    // Atualiza o resultado
-    resultadoDiv.innerHTML = html;
+    // coloca tudo na página (apenas uma atribuição final)
+    resultadoDiv.innerHTML = tabelaTotais + listaMaisBaratoHtml;
+
+    // logs resumidos
+    console.log(`[RESUMO] totalGoodbom=${totalGoodbom.toFixed(2)} totalTenda=${totalTenda.toFixed(2)} maisBarato=${maisBaratoName}`);
 
   } catch (err) {
+    // mostra erro amigável no front e detalhes no console
     console.error("Erro ao carregar dados:", err);
     resultadoDiv.innerHTML = "Erro ao carregar dados.";
   }
