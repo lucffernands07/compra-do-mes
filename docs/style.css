@@ -1,32 +1,59 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  background: #f9f9f9;
-}
-
+/* ============================= */
+/* Estilo da tabela de totais    */
+/* ============================= */
 table {
   border-collapse: collapse;
   width: 100%;
-  margin-top: 20px;
-  background: white;
+  max-width: 600px;
+  margin-bottom: 20px;
 }
 
-th, td {
+table th, table td {
   border: 1px solid #ccc;
-  padding: 8px;
+  padding: 8px 12px;
   text-align: left;
 }
 
-th {
-  background: #f0f0f0;
+table th {
+  background-color: #f0f0f0;
 }
 
-.goodbom {
-  color: green;
-  font-weight: bold;
+table tr:nth-child(even) {
+  background-color: #fafafa;
 }
 
-.tenda {
-  color: blue;
-  font-weight: bold;
+table tr[style*="color:green"] {
+  background-color: #e0ffe0; /* Destaca o mais barato */
+}
+
+/* ============================= */
+/* Estilo da lista de produtos   */
+/* ============================= */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #333;
+}
+
+h3 {
+  margin-top: 15px;
+  color: #555;
+}
+
+/* ============================= */
+/* Estilo geral do resultadoDiv  */
+/* ============================= */
+#resultado {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.5;
 }
