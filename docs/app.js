@@ -17,37 +17,29 @@ async function carregarDados() {
       return;
     }
 
-    // Renderizar lista de produtos
-    let html = "<ul>";
-    data.produtos.forEach(produto => {
-      const nome = produto.goodbom?.nome || "Sem nome";
-      const precoGoodbom = produto.goodbom?.preco || "—";
-      const precoTenda = produto.tenda?.preco || "—";
-
-      html += `<li>
-        <strong>${nome}</strong><br>
-        Goodbom: R$ ${precoGoodbom} <br>
-        Tenda: R$ ${precoTenda}
-      </li>`;
-    });
-    html += "</ul>";
-
-    // ==== BLOCO NOVO: calcular totais e destacar mais barato ====
-
+    // Calcula os totais de cada supermercado
     let totalGoodbom = 0;
     let totalTenda = 0;
+
     data.produtos.forEach(produto => {
-      const g = parseFloat((produto.goodbom?.preco || "0").toString().replace(",", "."));
-      const t = parseFloat((produto.tenda?.preco || "0").toString().replace(",", "."));
-      totalGoodbom += g;
-      totalTenda += t;
+      const precoGoodbom = parseFloat(produto.goodbom?.preco?.replace(",", ".") || 0);
+      const precoTenda = parseFloat(produto.tenda?.preco?.replace(",", ".") || 0);
+      totalGoodbom += precoGoodbom;
+      totalTenda += precoTenda;
     });
 
-    const maisBarato = totalGoodbom <= totalTenda ? "Goodbom" : "Tenda";
-    const totalMaisBarato = Math.min(totalGoodbom, totalTenda);
+    // Determina o supermercado mais barato
+    let maisBarato = "Goodbom";
+    let valorMaisBarato = totalGoodbom;
+    if (totalTenda < totalGoodbom) {
+      maisBarato = "Tenda";
+      valorMaisBarato = totalTenda;
+    }
 
-    const tabelaTotais = `
-      <h2>Totais por supermercado</h2>
+    // Monta a tabela de totais
+    let html = `
+      <h2>Comparação de Preços</h2>
+      <h3>Totais por supermercado</h3>
       <table border="1" cellpadding="5">
         <tr>
           <th>Supermercado</th>
@@ -62,11 +54,11 @@ async function carregarDados() {
           <td>${totalTenda.toFixed(2)}</td>
         </tr>
       </table>
-      <p>Supermercado mais barato: <strong>${maisBarato} (R$ ${totalMaisBarato.toFixed(2)})</strong></p>
+      <p>Supermercado mais barato: <strong>${maisBarato} (R$ ${valorMaisBarato.toFixed(2)})</strong></p>
     `;
 
-    // Lista de produtos do supermercado mais barato
-    const listaProdutosMaisBarato = data.produtos
+    // Lista de produtos apenas do supermercado mais barato
+    const listaProdutos = data.produtos
       .filter(p => p[maisBarato.toLowerCase()])
       .map(p => {
         const nome = p[maisBarato.toLowerCase()]?.nome || "Sem nome";
@@ -75,10 +67,10 @@ async function carregarDados() {
       })
       .join("");
 
-    const listaMaisBaratoHtml = `<h2>Produtos do ${maisBarato}</h2><ul>${listaProdutosMaisBarato}</ul>`;
+    html += `<h3>Produtos do ${maisBarato}</h3><ul>${listaProdutos}</ul>`;
 
-    // Atualizar resultadoDiv apenas uma vez
-    resultadoDiv.innerHTML = tabelaTotais + html + listaMaisBaratoHtml;
+    // Atualiza o resultado
+    resultadoDiv.innerHTML = html;
 
   } catch (err) {
     console.error("Erro ao carregar dados:", err);
