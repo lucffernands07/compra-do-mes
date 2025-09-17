@@ -30,16 +30,23 @@
   {
     "id": 2,
     "supermercado": "Tenda",
+    "produto": "Pernil Suíno s/osso Resfriado Pamplona Temperado 900g",
+    "preco": 26.01,
+    "preco_por_kg": 28.9
+  },
+  {
+    "id": 2,
+    "supermercado": "Tenda",
     "produto": "Pernil Suíno Com Osso Resfriado 500g",
     "preco": 8.25,
     "preco_por_kg": 16.5
   },
   {
-    "id": 2,
+    "id": 3,
     "supermercado": "Tenda",
-    "produto": "Pernil Suíno salgado 400g",
-    "preco": 13.8,
-    "preco_por_kg": 34.5
+    "produto": "Bacon tablete Seara Gourmet",
+    "preco": 11.25,
+    "preco_por_kg": 11.25
   },
   {
     "id": 3,
@@ -56,13 +63,6 @@
     "preco_por_kg": 45.5
   },
   {
-    "id": 3,
-    "supermercado": "Tenda",
-    "produto": "Bacon tablete Seara Gourmet",
-    "preco": 11.25,
-    "preco_por_kg": 11.25
-  },
-  {
     "id": 4,
     "supermercado": "Tenda",
     "produto": "Linguiça Tipo Calabresa Seara 400g",
@@ -73,15 +73,15 @@
     "id": 4,
     "supermercado": "Tenda",
     "produto": "Linguiça Calabresa Perdigão 400g",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 12.99,
+    "preco_por_kg": 32.48
   },
   {
     "id": 4,
     "supermercado": "Tenda",
     "produto": "Linguiça Calabresa Sadia Pacote 2,5kg",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 53.75,
+    "preco_por_kg": 21.5
   },
   {
     "id": 5,
@@ -143,204 +143,204 @@
     "id": 9,
     "supermercado": "Tenda",
     "produto": "Salsicha Defumada Seara 500g",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 9.99,
+    "preco_por_kg": 19.98
   },
   {
     "id": 9,
     "supermercado": "Tenda",
     "produto": "Salsicha Hot Dog Sadia 500g",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 12.89,
+    "preco_por_kg": 25.78
   },
   {
     "id": 9,
     "supermercado": "Tenda",
     "produto": "Salsicha Hot Dog Seara 500g",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 9.69,
+    "preco_por_kg": 19.38
   },
   {
     "id": 10,
     "supermercado": "Tenda",
     "produto": "Sobrecoxa de Frango Congelada Temperada ao Chimichurri sem Osso Gourmet Seara 800g",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 22.9,
+    "preco_por_kg": 28.62
   },
   {
     "id": 11,
     "supermercado": "Tenda",
     "produto": "Filézinho Sassami Congelado Lar 1Kg",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 19.9,
+    "preco_por_kg": 19.9
   },
   {
     "id": 11,
     "supermercado": "Tenda",
     "produto": "Filézinho Sassami de Frango Congelado Perdigão 1kg",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 19.9,
+    "preco_por_kg": 19.9
   },
   {
     "id": 11,
     "supermercado": "Tenda",
     "produto": "Filezinho de peito sassami Dagranja IQF Seara 1kg",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 24.9,
+    "preco_por_kg": 24.9
   },
   {
     "id": 12,
     "supermercado": "Tenda",
     "produto": "Picanha Bovina Fatiada 1,6kg",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 63.84,
+    "preco_por_kg": 39.9
   },
   {
     "id": 12,
     "supermercado": "Tenda",
     "produto": "Picanha Bovina 1,6kg",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 79.84,
+    "preco_por_kg": 49.9
   },
   {
     "id": 12,
     "supermercado": "Tenda",
     "produto": "Picanha bovina Resfriada Bassi Sadia peça 1,1kg",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 131.89,
+    "preco_por_kg": 119.9
   },
   {
     "id": 13,
     "supermercado": "Tenda",
     "produto": "Miolo da Alcatra Bovina Resfriado em Bifes bandeja 400g",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 18.76,
+    "preco_por_kg": 46.9
   },
   {
     "id": 14,
     "supermercado": "Tenda",
     "produto": "Ovos Grandes Branco Cinta 5 Dúzias",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 34.9,
+    "preco_por_kg": 34.9
   },
   {
     "id": 14,
     "supermercado": "Tenda",
     "produto": "Ovos Extra Branco 20 Unidades",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 12.89,
+    "preco_por_kg": 12.89
   },
   {
     "id": 14,
     "supermercado": "Tenda",
     "produto": "Ovos Grandes Branco 30 Unidades",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 22.9,
+    "preco_por_kg": 22.9
   },
   {
     "id": 15,
     "supermercado": "Tenda",
     "produto": "Batata Lavada Extra Bandeja 1Kg",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 3.09,
+    "preco_por_kg": 3.09
   },
   {
     "id": 15,
     "supermercado": "Tenda",
     "produto": "Batata Bolinha Saco 2kg",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 13.89,
+    "preco_por_kg": 6.95
   },
   {
     "id": 15,
     "supermercado": "Tenda",
     "produto": "Batata Comum Saco 10Kg",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 28.9,
+    "preco_por_kg": 2.89
   },
   {
     "id": 16,
     "supermercado": "Tenda",
     "produto": "Cebola Saco 1Kg",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 2.19,
+    "preco_por_kg": 2.19
   },
   {
     "id": 16,
     "supermercado": "Tenda",
     "produto": "Cebola Triturada Select 400g",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 9.9,
+    "preco_por_kg": 24.75
   },
   {
     "id": 16,
     "supermercado": "Tenda",
     "produto": "Alho Picado Sem Sal 200g",
-    "preco": 0,
-    "preco_por_kg": 0
-  },
-  {
-    "id": 17,
-    "supermercado": "Tenda",
-    "produto": "Tomate Sweet Grape Bandeja 500g",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 5.05,
+    "preco_por_kg": 25.25
   },
   {
     "id": 17,
     "supermercado": "Tenda",
     "produto": "Tomate Sweet Grape Bandeja 180g",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 5.59,
+    "preco_por_kg": 31.06
   },
   {
     "id": 17,
     "supermercado": "Tenda",
     "produto": "Tomate Salada Saco 1Kg",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 6.89,
+    "preco_por_kg": 6.89
   },
   {
-    "id": 18,
+    "id": 17,
     "supermercado": "Tenda",
-    "produto": "Tomate Sweet Grape Bandeja 500g",
-    "preco": 0,
-    "preco_por_kg": 0
+    "produto": "Tomate Italiano 1kg",
+    "preco": 6.99,
+    "preco_por_kg": 6.99
   },
   {
     "id": 18,
     "supermercado": "Tenda",
     "produto": "Tomate Sweet Grape Bandeja 180g",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 5.59,
+    "preco_por_kg": 31.06
   },
   {
     "id": 18,
     "supermercado": "Tenda",
     "produto": "Tomate Italiano 1kg",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 6.99,
+    "preco_por_kg": 6.99
+  },
+  {
+    "id": 18,
+    "supermercado": "Tenda",
+    "produto": "Tomate Salada Saco 1Kg",
+    "preco": 6.89,
+    "preco_por_kg": 6.89
   },
   {
     "id": 19,
     "supermercado": "Tenda",
     "produto": "Pimentão Vermelho 350g",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 11.89,
+    "preco_por_kg": 33.97
   },
   {
     "id": 19,
     "supermercado": "Tenda",
     "produto": "Pimentão Verde Saco 440g",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 8.31,
+    "preco_por_kg": 18.89
   },
   {
     "id": 19,
     "supermercado": "Tenda",
     "produto": "Pimentão Amarelo Saco 740g",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 22.13,
+    "preco_por_kg": 29.91
   },
   {
     "id": 20,
@@ -492,9 +492,9 @@
   {
     "id": 28,
     "supermercado": "Tenda",
-    "produto": "Iogurte Integral Mel Cenoura e Laranja Nestlé 170g",
-    "preco": 2.89,
-    "preco_por_kg": 17
+    "produto": "Bolo de Cenoura com Chocolate Milla 1,5Kg",
+    "preco": 34.9,
+    "preco_por_kg": 23.27
   },
   {
     "id": 29,
@@ -541,9 +541,9 @@
   {
     "id": 31,
     "supermercado": "Tenda",
-    "produto": "Cheiro Verde Maço Unidade",
-    "preco": 4.29,
-    "preco_por_kg": 4.29
+    "produto": "Tempero Salsa Desidratada Select 15g",
+    "preco": 1.59,
+    "preco_por_kg": 106
   },
   {
     "id": 32,
@@ -591,43 +591,43 @@
     "id": 34,
     "supermercado": "Tenda",
     "produto": "Alho Selecionado Select 500g",
-    "preco": 32.5,
-    "preco_por_kg": 65
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
     "id": 34,
     "supermercado": "Tenda",
     "produto": "Alho Select 200g",
-    "preco": 14.5,
-    "preco_por_kg": 72.5
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
     "id": 34,
     "supermercado": "Tenda",
     "produto": "Alho Picado Kamar 200g",
-    "preco": 2.69,
-    "preco_por_kg": 13.45
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
     "id": 35,
     "supermercado": "Tenda",
     "produto": "Mamão Formosa Unidade",
-    "preco": 17.79,
-    "preco_por_kg": 17.79
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
     "id": 35,
     "supermercado": "Tenda",
     "produto": "Mamão Papaya Unidade",
-    "preco": 4.79,
-    "preco_por_kg": 4.79
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
     "id": 35,
     "supermercado": "Tenda",
     "produto": "Leite Fermentado Amaranto e Mamão Café da Manhã Activia 170g",
-    "preco": 5.99,
-    "preco_por_kg": 35.24
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
     "id": 36,
@@ -702,16 +702,16 @@
   {
     "id": 39,
     "supermercado": "Tenda",
-    "produto": "Activia Líquido Ameixa 170g",
-    "preco": 3.89,
-    "preco_por_kg": 22.88
+    "produto": "Iogurte Integral Ameixa + Tradicional Probio2 Batavo 510g",
+    "preco": 12.5,
+    "preco_por_kg": 24.51
   },
   {
     "id": 39,
     "supermercado": "Tenda",
-    "produto": "Iogurte Integral Ameixa + Tradicional Probio2 Batavo 510g",
-    "preco": 12.5,
-    "preco_por_kg": 24.51
+    "produto": "Activia Líquido Ameixa 170g",
+    "preco": 3.89,
+    "preco_por_kg": 22.88
   },
   {
     "id": 40,
@@ -870,16 +870,16 @@
   {
     "id": 47,
     "supermercado": "Tenda",
-    "produto": "Batata Congelada Select 2kg",
-    "preco": 25.9,
-    "preco_por_kg": 12.95
+    "produto": "Batata Pré-Frita Palito Congelada Extracrocante Sure Crisp McCain 1,5kg",
+    "preco": 30.9,
+    "preco_por_kg": 20.6
   },
   {
     "id": 47,
     "supermercado": "Tenda",
-    "produto": "Batata Pré-Frita Palito Congelada Extracrocante Sure Crisp McCain 1,5kg",
-    "preco": 30.9,
-    "preco_por_kg": 20.6
+    "produto": "Batata Pré-Frita Fina Congelada McCain 1,5kg",
+    "preco": 27.9,
+    "preco_por_kg": 18.6
   },
   {
     "id": 48,
@@ -891,16 +891,16 @@
   {
     "id": 48,
     "supermercado": "Tenda",
-    "produto": "Batata Congelada Select 2kg",
-    "preco": 25.9,
-    "preco_por_kg": 12.95
+    "produto": "Batata Pré-Frita Palito Congelada Extracrocante Sure Crisp McCain 1,5kg",
+    "preco": 30.9,
+    "preco_por_kg": 20.6
   },
   {
     "id": 48,
     "supermercado": "Tenda",
-    "produto": "Batata Pré-Frita Palito Congelada Extracrocante Sure Crisp McCain 1,5kg",
-    "preco": 30.9,
-    "preco_por_kg": 20.6
+    "produto": "Batata Pré-Frita Fina Congelada McCain 1,5kg",
+    "preco": 27.9,
+    "preco_por_kg": 18.6
   },
   {
     "id": 49,
@@ -1129,9 +1129,9 @@
   {
     "id": 59,
     "supermercado": "Tenda",
-    "produto": "Feijão Preto Tipo 1 Kicaldo 1kg",
-    "preco": 5,
-    "preco_por_kg": 5
+    "produto": "Feijão Preto Tipo 1 Select 1kg",
+    "preco": 4.8,
+    "preco_por_kg": 4.8
   },
   {
     "id": 60,
@@ -1283,37 +1283,37 @@
   {
     "id": 68,
     "supermercado": "Tenda",
-    "produto": "Molho Shoyu Premium Umai Cepêra 5L",
-    "preco": 75.9,
-    "preco_por_kg": 15.18
-  },
-  {
-    "id": 68,
-    "supermercado": "Tenda",
     "produto": "Molho Shoyu Premium Umai Cepêra 270ml",
     "preco": 12.35,
     "preco_por_kg": 45.74
   },
   {
+    "id": 68,
+    "supermercado": "Tenda",
+    "produto": "Molho Shoyu Premium Umai Cepêra 5L",
+    "preco": 75.9,
+    "preco_por_kg": 15.18
+  },
+  {
     "id": 69,
     "supermercado": "Tenda",
     "produto": "Tempero Floppy Sazón Vermelho 60g",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 5.59,
+    "preco_por_kg": 93.17
   },
   {
     "id": 69,
     "supermercado": "Tenda",
     "produto": "Tempero Floppy Sazón Marrom 60g",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 5.59,
+    "preco_por_kg": 93.17
   },
   {
     "id": 69,
     "supermercado": "Tenda",
     "produto": "Tempero para Massas Sazón 60g 12 Unidades",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 5.59,
+    "preco_por_kg": 93.17
   },
   {
     "id": 70,
@@ -1906,6 +1906,13 @@
   {
     "id": 99,
     "supermercado": "Tenda",
+    "produto": "Floquinho de Milho Select 500g",
+    "preco": 2.05,
+    "preco_por_kg": 4.1
+  },
+  {
+    "id": 99,
+    "supermercado": "Tenda",
     "produto": "Farinha de Milho Amarela PQ 500g",
     "preco": 4.69,
     "preco_por_kg": 9.38
@@ -1918,11 +1925,11 @@
     "preco_por_kg": 9.38
   },
   {
-    "id": 99,
+    "id": 100,
     "supermercado": "Tenda",
-    "produto": "Floquinho de Milho Select 500g",
-    "preco": 2.05,
-    "preco_por_kg": 4.1
+    "produto": "Pão de Forma 12 Grãos Select 400g",
+    "preco": 9.99,
+    "preco_por_kg": 832.5
   },
   {
     "id": 100,
@@ -1930,13 +1937,6 @@
     "produto": "Pão de Forma Artesano Pullman 500g",
     "preco": 11.5,
     "preco_por_kg": 23
-  },
-  {
-    "id": 100,
-    "supermercado": "Tenda",
-    "produto": "Pão de Forma 12 Grãos Select 400g",
-    "preco": 9.99,
-    "preco_por_kg": 832.5
   },
   {
     "id": 100,
@@ -2075,22 +2075,22 @@
     "id": 107,
     "supermercado": "Tenda",
     "produto": "Removedor Sintético Suprema 1L",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 10.5,
+    "preco_por_kg": 10.5
   },
   {
     "id": 107,
     "supermercado": "Tenda",
     "produto": "Removedor Bufalo Pvc 500ml",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 19.75,
+    "preco_por_kg": 39.5
   },
   {
     "id": 107,
     "supermercado": "Tenda",
     "produto": "Removedor Sintético Florata Suprema 1L",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 12.2,
+    "preco_por_kg": 12.2
   },
   {
     "id": 109,
@@ -2186,16 +2186,16 @@
   {
     "id": 114,
     "supermercado": "Tenda",
-    "produto": "Shampoo e Condicionador Kit Palmolive Naturals Boom de Hidratação 350ml (cada) Shampoo + Condicionador",
-    "preco": 15.5,
-    "preco_por_kg": 44.29
+    "produto": "Condicionador Brilho Lamelar Tresemmé 650ml",
+    "preco": 39.5,
+    "preco_por_kg": 60.77
   },
   {
     "id": 114,
     "supermercado": "Tenda",
-    "produto": "Condicionador Brilho Lamelar Tresemmé 650ml",
-    "preco": 39.5,
-    "preco_por_kg": 60.77
+    "produto": "Shampoo e Condicionador Kit Palmolive Naturals Boom de Hidratação 350ml (cada) Shampoo + Condicionador",
+    "preco": 15.5,
+    "preco_por_kg": 44.29
   },
   {
     "id": 115,
@@ -2222,43 +2222,43 @@
     "id": 116,
     "supermercado": "Tenda",
     "produto": "Água Sanitária Branca Triex 5L",
-    "preco": 0,
-    "preco_por_kg": 0
-  },
-  {
-    "id": 116,
-    "supermercado": "Tenda",
-    "produto": "Água Sanitária Select 2L",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 8.5,
+    "preco_por_kg": 1.7
   },
   {
     "id": 116,
     "supermercado": "Tenda",
     "produto": "Água Sanitária Ypê 2L",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 5.45,
+    "preco_por_kg": 2.73
+  },
+  {
+    "id": 116,
+    "supermercado": "Tenda",
+    "produto": "Água Sanitária Suprema 5l",
+    "preco": 10.25,
+    "preco_por_kg": 2.05
   },
   {
     "id": 117,
     "supermercado": "Tenda",
     "produto": "Lava Roupas Líquido Lavagem Perfeita Omo Refil 900ml",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 13.65,
+    "preco_por_kg": 15.17
   },
   {
     "id": 117,
     "supermercado": "Tenda",
     "produto": "Lava Roupas Líquido OMO Lavanderia Profissional Lavagem Profissional 7 L",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 79.9,
+    "preco_por_kg": 11.41
   },
   {
     "id": 117,
     "supermercado": "Tenda",
     "produto": "Lava-Roupas Líquido Ultra Power Omo 1,8L",
-    "preco": 0,
-    "preco_por_kg": 0
+    "preco": 27.9,
+    "preco_por_kg": 15.5
   },
   {
     "id": 118,
@@ -2669,9 +2669,9 @@
   {
     "id": 137,
     "supermercado": "Tenda",
-    "produto": "Toalha Umedecida Turma da Cegonha 140 Unidades",
-    "preco": 8.5,
-    "preco_por_kg": 8.5
+    "produto": "Toalha Umedecida Premium Castelo Rá-Tim-Bum 100 Unidades",
+    "preco": 12.95,
+    "preco_por_kg": 12.95
   },
   {
     "id": 138,
