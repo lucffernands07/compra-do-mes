@@ -1,60 +1,89 @@
+/* ===== Reset e estilos gerais ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
-  background: #f9f9f9;
-  color: #333;
-  margin: 20px;
-  line-height: 1.6;
+  padding: 20px;
 }
 
-h1, h2, h3 {
-  color: #222;
-  margin-bottom: 10px;
+/* ===== Centraliza títulos e parágrafos ===== */
+h1, h2, h3, p {
+  text-align: center;
+  margin: 10px 20px;
 }
 
+/* ===== Tabela de totais ===== */
 table {
+  width: calc(100% - 40px); /* margem lateral 20px */
+  margin: 20px auto;
   border-collapse: collapse;
-  width: 100%;
-  max-width: 600px;
-  margin: 15px 0;
-  background: #fff;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: left;
 }
 
 th, td {
-  border: 1px solid #ddd;
-  padding: 10px;
-  text-align: center;
+  border: 1px solid #ccc;
+  padding: 8px;
 }
 
 th {
-  background: #f4f4f4;
+  background-color: #f2f2f2;
+}
+
+.mais-barato td {
   font-weight: bold;
+  color: green;
 }
 
-tr:nth-child(even) {
-  background: #fafafa;
-}
-
-tr.highlight {
-  font-weight: bold;
-  color: #0a7c1f;
-  background: #e8fbe8;
-}
-
+/* ===== Lista de produtos ===== */
 ul {
-  list-style: none;
+  list-style-type: none;
   padding: 0;
-  max-width: 600px;
+  margin: 20px;
 }
 
 ul li {
-  background: #fff;
+  background-color: #f9f9f9;
   margin-bottom: 8px;
-  padding: 10px;
+  padding: 8px 12px; /* adicionei padding interno */
   border-radius: 6px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column; /* nome em cima, preço embaixo */
 }
 
-ul li strong {
-  color: #0a7c1f;
+/* Nome do produto */
+ul li .nome {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;  /* garante que fique à esquerda */
 }
+
+/* Preço do produto */
+ul li .preco {
+  font-size: 16px;
+  color: green;
+  text-align: right; /* alinha o preço à direita */
+  margin-top: 4px;   /* espaço entre nome e preço */
+}
+
+/* Nome do produto em verde e bold */
+ul li strong {
+  color: green;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* Preços em vermelho e bold */
+ul li span.preco {
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* ===== Ajustes responsivos ===== */
+

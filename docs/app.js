@@ -107,7 +107,7 @@ async function carregarDados() {
       .map(p => {
         const nome = p[maisBaratoKey]?.nome || p.goodbom?.nome || p.tenda?.nome || "Sem nome";
         const preco = p[maisBaratoKey]?.preco ?? "—";
-        return `<li><strong>${nome}</strong>: R$ ${preco}</li>`;
+        return `<li><strong>${nome}</strong> <span class="preco">R$ ${preco}</span></li>`;
       })
       .join("");
 
