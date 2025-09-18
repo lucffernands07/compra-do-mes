@@ -19,6 +19,17 @@ function parsePreco(txt) {
   ) || 0;
 }
 
+// Função auxiliar para calcular preço por kg/l se houver
+function parsePrecoPorKg(nome, preco) {
+  const match = nome.match(/(\d+)[ ]?(g|kg|ml|l)/i);
+  if (!match) return preco;
+  let quantidade = parseFloat(match[1]);
+  const unidade = match[2].toLowerCase();
+
+  if (unidade === "g" || unidade === "ml") quantidade /= 1000; // converter para kg/l
+  return preco / quantidade;
+}
+
 async function buscarProdutos(page, termo) {
   const url = `https://www.arenaatacado.com.br/on/demandware.store/Sites-Arena-Site/pt_BR/Search-Show?q=${encodeURIComponent(termo)}&lang=`;
   await page.goto(url, { waitUntil: "networkidle2", timeout: 60000 });
@@ -44,26 +55,43 @@ async function buscarProdutos(page, termo) {
 
   const results = [];
 
-  for (const termo of produtos) {
+  for (const [index, termo] of produtos.entries()) {
     try {
       const encontrados = await buscarProdutos(page, termo);
 
-      // Normaliza preços e remove zerados
       const validos = encontrados
         .map(p => ({ nome: p.nome, preco: parsePreco(p.precoTxt) }))
         .filter(p => p.preco > 0);
 
       if (validos.length > 0) {
         const maisBarato = validos.reduce((a, b) => (a.preco < b.preco ? a : b));
-        results.push({ produto: maisBarato.nome, preco: maisBarato.preco });
+        results.push({
+          id: index + 1, // id sequencial, você pode ajustar para usar algum mapeamento do products.txt
+          supermercado: "Arena",
+          produto: maisBarato.nome,
+          preco: maisBarato.preco,
+          preco_por_kg: parsePrecoPorKg(maisBarato.nome, maisBarato.preco)
+        });
         console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
       } else {
+        results.push({
+          id: index + 1,
+          supermercado: "Arena",
+          produto: termo,
+          preco: 0,
+          preco_por_kg: 0
+        });
         console.log(`⚠️ Nenhum preço válido encontrado para "${termo}"`);
-        results.push({ produto: termo, preco: 0 });
       }
     } catch (err) {
       console.error(`❌ Erro ao buscar ${termo}:`, err.message);
-      results.push({ produto: termo, preco: 0 });
+      results.push({
+        id: index + 1,
+        supermercado: "Arena",
+        produto: termo,
+        preco: 0,
+        preco_por_kg: 0
+      });
     }
   }
 
