@@ -1,8 +1,8 @@
 name: Scraper Preços
 
 on:
-  schedule:
-    - cron: "0 */2 * * *" # roda a cada 2h UTC
+  #schedule:
+    #- cron: "0 */2 * * *" # roda a cada 2h UTC
   workflow_dispatch:
 
 jobs:
