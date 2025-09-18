@@ -27,12 +27,12 @@ jobs:
         run: npm install
 
       # 4️⃣ Rodar scraper Tenda
-      #- name: Run scraper Tenda
-        #run: node scrapers/scraper_tenda.js
+      - name: Run scraper Tenda
+        run: node scrapers/scraper_tenda.js
 
       # 5️⃣ Rodar scraper GoodBom
-      - name: Run scraper GoodBom
-        run: node scrapers/scraper_goodbom.js
+      #- name: Run scraper GoodBom
+        #run: node scrapers/scraper_goodbom.js
 
       # 6️⃣ Rodar scraper Arena
       #- name: Run scraper Arena
