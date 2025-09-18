@@ -3,44 +3,60 @@ const fs = require("fs");
 const path = require("path");
 const puppeteer = require("puppeteer");
 
-// URL de exemplo (Bacon)
-const buscaProduto = "Bacon";
-const urlBusca = `https://www.arenaatacado.com.br/on/demandware.store/Sites-Arena-Site/pt_BR/Search-Show?q=${encodeURIComponent(buscaProduto)}&lang=`;
-
-// Seletores
-const seletorNome = "span.productCard__title";
-const seletorPreco = "span.productPrice__price";
-
-// Caminho do JSON de saída
 const outputFile = path.join(__dirname, "..", "docs", "prices", "prices_arena.json");
+const productsFile = path.join(__dirname, "..", "products.txt");
+
+// Lê lista de produtos
+const produtos = fs.existsSync(productsFile)
+  ? fs.readFileSync(productsFile, "utf-8").split("\n").map(p => p.trim()).filter(Boolean)
+  : [];
+
+async function fetchPrecoProduto(produto) {
+  const searchUrl = `https://www.arenaatacado.com.br/on/demandware.store/Sites-Arena-Site/pt_BR/Search-Show?q=${encodeURIComponent(produto)}&lang=`;
+
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: ["--no-sandbox", "--disable-setuid-sandbox"]
+  });
+
+  const page = await browser.newPage();
+  await page.goto(searchUrl, { waitUntil: "networkidle2" });
+
+  // Espera pelo span do nome do produto (ou timeout 5s)
+  await page.waitForSelector("span.productCard__title", { timeout: 5000 }).catch(() => {});
+
+  const resultado = await page.evaluate(() => {
+    const titleEl = document.querySelector("span.productCard__title");
+    const priceEl = document.querySelector("span.productPrice__price");
+
+    const nome = titleEl ? titleEl.innerText.trim() : null;
+    const precoText = priceEl ? priceEl.innerText.trim() : null;
+    let preco = null;
+
+    if (precoText) {
+      preco = parseFloat(precoText.replace("R$", "").replace(",", ".").replace(/[^\d.]/g, "")) || null;
+    }
+
+    return { nome, preco };
+  });
+
+  await browser.close();
+  return resultado;
+}
 
 (async () => {
-  const browser = await puppeteer.launch({ headless: true });
-  const page = await browser.newPage();
-  await page.goto(urlBusca, { waitUntil: "networkidle2" });
+  const results = [];
 
-  // Espera os produtos carregarem
-  await page.waitForSelector(seletorNome);
-
-  // Extrair produtos e preços
-  const produtos = await page.evaluate((seletorNome, seletorPreco) => {
-    const nomes = Array.from(document.querySelectorAll(seletorNome)).map(el => el.innerText.trim());
-    const precos = Array.from(document.querySelectorAll(seletorPreco)).map(el => el.innerText.trim().replace("R$", "").replace(",", "."));
-    const lista = [];
-    for (let i = 0; i < nomes.length; i++) {
-      lista.push({
-        id: nomes[i].toLowerCase().replace(/\s+/g, "_"),
-        produto: nomes[i],
-        preco: parseFloat(precos[i]) || 0
-      });
-    }
-    return lista;
-  }, seletorNome, seletorPreco);
+  for (const produto of produtos) {
+    console.log("Buscando:", produto);
+    const { nome, preco } = await fetchPrecoProduto(produto);
+    results.push({ produto: nome || produto, preco: preco || 0 });
+    console.log("→", nome, preco);
+  }
 
   // Salvar JSON
   if (!fs.existsSync(path.dirname(outputFile))) fs.mkdirSync(path.dirname(outputFile), { recursive: true });
-  fs.writeFileSync(outputFile, JSON.stringify(produtos, null, 2), "utf-8");
-  console.log(`💾 Preços Arena salvos em ${outputFile}`);
-  
-  await browser.close();
+  fs.writeFileSync(outputFile, JSON.stringify(results, null, 2), "utf-8");
+
+  console.log(`💾 Preços da Arena salvos em ${outputFile}`);
 })();
