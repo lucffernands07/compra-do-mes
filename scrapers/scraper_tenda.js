@@ -35,14 +35,17 @@ async function buscarProduto(page, termo) {
         const nome =
           card.querySelector("h3.TitleCardComponent")?.innerText.trim() ||
           "Produto sem nome";
-        const precoTxt =
-          card
-            .querySelector("div.SimplePriceComponent")
-            ?.innerText.replace("R$", "")
-            .replace("un", "")
+
+        // captura e limpa preço
+        const precoTxt = card.querySelector("div.SimplePriceComponent")?.innerText || "0";
+        const preco = parseFloat(
+          precoTxt
+            .replace(/\s/g, "")       // remove espaços normais e nbsp
+            .replace("R$", "")
             .replace(",", ".")
-            .trim() || "0";
-        const preco = parseFloat(precoTxt) || 0;
+            .replace(/[^\d.]/g, "")   // remove qualquer caractere que não seja número ou ponto
+        ) || 0;
+
         return { nome, preco };
       });
   });
@@ -86,7 +89,7 @@ async function main() {
       console.log(`🔍 Buscando: ${termo}`);
       const encontrados = await buscarProduto(page, termo);
 
-      // Filtrar preços inválidos
+      // Filtrar preços válidos
       const validos = encontrados.filter(p => p.preco > 0);
 
       if (validos.length === 0) {
