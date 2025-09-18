@@ -2,45 +2,90 @@
 const fs = require("fs");
 const path = require("path");
 
-function loadJsonSafe(filepath) {
-  try {
-    if (fs.existsSync(filepath)) {
-      const raw = fs.readFileSync(filepath, "utf8");
-      return JSON.parse(raw);
-    }
-  } catch (err) {
-    console.error("Erro ao ler", filepath, err);
-  }
-  return [];
+// Caminhos dos JSONs
+const goodbomFile = path.join(__dirname, "..", "docs", "prices", "prices_goodbom.json");
+const tendaFile = path.join(__dirname, "..", "docs", "prices", "prices_tenda.json");
+const arenaFile = path.join(__dirname, "..", "docs", "prices", "prices_arena.json");
+const outputFile = path.join(__dirname, "..", "docs", "prices", "compare.json"); // JSON final para o front
+
+// Função para carregar JSON
+function load(file) {
+  if (!fs.existsSync(file)) return [];
+  return JSON.parse(fs.readFileSync(file, "utf-8"));
 }
 
-// carrega cada mercado
-const goodbom = loadJsonSafe(path.join(__dirname, "../docs/prices/prices_goodbom.json"));
-const tenda   = loadJsonSafe(path.join(__dirname, "../docs/prices/prices_tenda.json"));
-const arena   = loadJsonSafe(path.join(__dirname, "../docs/prices/prices_arena.json")); // novo
+const goodbom = load(goodbomFile);
+const tenda = load(tendaFile);
+const arena = load(arenaFile); // inclui Arena
 
-// index rápido por nome → normalizado
-const normalize = str => (str || "").trim().toLowerCase();
+// Agrupar por id
+function groupById(data) {
+  const map = {};
+  for (const item of data) {
+    if (!map[item.id]) map[item.id] = [];
+    map[item.id].push(item);
+  }
+  return map;
+}
 
-const mapGoodbom = new Map(goodbom.map(p => [normalize(p.nome), p]));
-const mapTenda   = new Map(tenda.map(p => [normalize(p.nome), p]));
-const mapArena   = new Map(arena.map(p => [normalize(p.nome), p]));
+const goodbomById = groupById(goodbom);
+const tendaById = groupById(tenda);
+const arenaById = groupById(arena);
 
-// junta todos os nomes
-const todosNomes = new Set([
-  ...goodbom.map(p => normalize(p.nome)),
-  ...tenda.map(p => normalize(p.nome)),
-  ...arena.map(p => normalize(p.nome))
-]);
+// Comparar apenas ids que existem nos dois mercados originais (Goodbom e Tenda)
+const ids = Object.keys(goodbomById).filter(id => tendaById[id]);
 
-// monta compare.json
-const produtos = Array.from(todosNomes).map(nome => ({
-  goodbom: mapGoodbom.get(nome) || null,
-  tenda: mapTenda.get(nome) || null,
-  arena: mapArena.get(nome) || null
-}));
+let totalGoodbom = 0;
+let totalTenda = 0;
+let totalArena = 0;
+let escolhidos = [];
 
-const outPath = path.join(__dirname, "../docs/prices/compare.json");
-fs.writeFileSync(outPath, JSON.stringify({ produtos }, null, 2), "utf8");
+for (const id of ids) {
+  const g = goodbomById[id].sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
+  const t = tendaById[id].sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
+  const a = arenaById[id]?.sort((x, y) => x.preco - y.preco)[0] || { produto: null, preco: 0 };
 
-console.log("Arquivo compare.json gerado com", produtos.length, "produtos.");
+  totalGoodbom += g.preco;
+  totalTenda += t.preco;
+  totalArena += a.preco;
+
+  // Armazena os produtos comparados
+  escolhidos.push({
+    id,
+    goodbom: { nome: g.produto, preco: g.preco, preco_por_kg: g.preco_por_kg },
+    tenda: { nome: t.produto, preco: t.preco, preco_por_kg: t.preco_por_kg },
+    arena: { nome: a.produto, preco: a.preco },
+    mais_barato:
+      g.preco_por_kg <= t.preco_por_kg && g.preco_por_kg <= (a.preco || Infinity)
+        ? "Goodbom"
+        : t.preco_por_kg <= (a.preco || Infinity)
+        ? "Tenda"
+        : "Arena"
+  });
+}
+
+// Salvar JSON final
+const jsonFinal = {
+  totalGoodbom: totalGoodbom.toFixed(2),
+  totalTenda: totalTenda.toFixed(2),
+  totalArena: totalArena.toFixed(2),
+  produtos: escolhidos
+};
+
+if (!fs.existsSync(path.dirname(outputFile))) fs.mkdirSync(path.dirname(outputFile), { recursive: true });
+fs.writeFileSync(outputFile, JSON.stringify(jsonFinal, null, 2), "utf-8");
+console.log(`💾 JSON final salvo em ${outputFile}`);
+
+// Log resumido
+console.log("Produtos considerados:", ids.length);
+console.log("🛒 Total GoodBom:", totalGoodbom.toFixed(2));
+console.log("🛒 Total Tenda:", totalTenda.toFixed(2));
+console.log("🛒 Total Arena:", totalArena.toFixed(2));
+console.log("\n📊 Comparação detalhada:");
+console.table(escolhidos.map(e => ({
+  ID: e.id,
+  GoodBom: `${e.goodbom.nome} - R$${e.goodbom.preco} (R$${e.goodbom.preco_por_kg}/kg)`,
+  Tenda: `${e.tenda.nome} - R$${e.tenda.preco} (R$${e.tenda.preco_por_kg}/kg)`,
+  Arena: `${e.arena.nome || "Sem nome"} - R$${e.arena.preco}`,
+  "Mais barato": e.mais_barato
+})));
