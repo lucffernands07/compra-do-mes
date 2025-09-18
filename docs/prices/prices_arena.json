@@ -1,590 +1,1031 @@
 [
   {
+    "id": 1,
+    "supermercado": "Arena",
     "produto": "Miolo De Alcatra Bovina Moída Reserva Bandeja Kg",
-    "preco": 12.99
+    "preco": 12.99,
+    "preco_por_kg": 12.99
   },
   {
+    "id": 2,
+    "supermercado": "Arena",
     "produto": "Pernil C/ Couro Bandeja Kg",
-    "preco": 18.89
+    "preco": 18.89,
+    "preco_por_kg": 18.89
   },
   {
-    "produto": "Bacon Pamplona Bandeja Kg",
-    "preco": 39.9
+    "id": 3,
+    "supermercado": "Arena",
+    "produto": "Bacon Suíno Defumado Seara",
+    "preco": 41.9,
+    "preco_por_kg": 41.9
   },
   {
+    "id": 4,
+    "supermercado": "Arena",
     "produto": "Linguiça Tipo Calabresa Defumada 400g",
-    "preco": 11.49
+    "preco": 11.49,
+    "preco_por_kg": 28.724999999999998
   },
   {
+    "id": 5,
+    "supermercado": "Arena",
     "produto": "Picanha Suína Pamplona Sem Osso Temperada Kg",
-    "preco": 32.9
+    "preco": 32.9,
+    "preco_por_kg": 32.9
   },
   {
+    "id": 6,
+    "supermercado": "Arena",
     "produto": "Lombo Suíno Pamplona Sem Osso Temperado Kg",
-    "preco": 34.9
+    "preco": 34.9,
+    "preco_por_kg": 34.9
   },
   {
+    "id": 7,
+    "supermercado": "Arena",
     "produto": "Hambúrguer Bovino Condessa Alimentos 90g",
-    "preco": 1.59
+    "preco": 1.59,
+    "preco_por_kg": 17.666666666666668
   },
   {
+    "id": 8,
+    "supermercado": "Arena",
     "produto": "Linguiça Calabresa Sadia 400g",
-    "preco": 15.99
+    "preco": 15.99,
+    "preco_por_kg": 39.975
   },
   {
+    "id": 9,
+    "supermercado": "Arena",
     "produto": "Salsicha Hot Dog Copacol Granel Kg",
-    "preco": 8.99
+    "preco": 8.99,
+    "preco_por_kg": 8.99
   },
   {
+    "id": 10,
+    "supermercado": "Arena",
     "produto": "SOBRECOXA SEM OSSO",
-    "preco": 0
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
+    "id": 11,
+    "supermercado": "Arena",
     "produto": "Filé De Peito De Frango Inteiro Congelado Pacote Kg",
-    "preco": 19.79
+    "preco": 19.79,
+    "preco_por_kg": 19.79
   },
   {
+    "id": 12,
+    "supermercado": "Arena",
     "produto": "Bisteca Suína Copa Bandeja Kg",
-    "preco": 26.9
+    "preco": 26.9,
+    "preco_por_kg": 26.9
   },
   {
+    "id": 13,
+    "supermercado": "Arena",
     "produto": "Pernil Em Bife Bandeja Kg",
-    "preco": 21.9
+    "preco": 21.9,
+    "preco_por_kg": 21.9
   },
   {
+    "id": 14,
+    "supermercado": "Arena",
     "produto": "Ovos De Codorna Asa - 30 Unidades",
-    "preco": 6.99
+    "preco": 6.99,
+    "preco_por_kg": 6.99
   },
   {
+    "id": 15,
+    "supermercado": "Arena",
     "produto": "Batata Congeladal Uai 2kg",
-    "preco": 1.99
+    "preco": 1.99,
+    "preco_por_kg": 0.995
   },
   {
+    "id": 16,
+    "supermercado": "Arena",
     "produto": "Creme De Cebola Kitano 65g",
-    "preco": 1.99
+    "preco": 1.99,
+    "preco_por_kg": 30.615384615384613
   },
   {
+    "id": 17,
+    "supermercado": "Arena",
     "produto": "Tomate Doce Jw 180g",
-    "preco": 4.98
+    "preco": 4.98,
+    "preco_por_kg": 27.66666666666667
   },
   {
+    "id": 18,
+    "supermercado": "Arena",
     "produto": "TOMATINHO",
-    "preco": 0
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
+    "id": 19,
+    "supermercado": "Arena",
     "produto": "Pimentão Verde Bandeja",
-    "preco": 13.89
+    "preco": 13.89,
+    "preco_por_kg": 13.89
   },
   {
+    "id": 20,
+    "supermercado": "Arena",
     "produto": "Gelatina Sol Limão 20g",
-    "preco": 1.59
+    "preco": 1.59,
+    "preco_por_kg": 79.5
   },
   {
+    "id": 21,
+    "supermercado": "Arena",
     "produto": "Vagem Rasteira 250g",
-    "preco": 8.78
+    "preco": 8.78,
+    "preco_por_kg": 35.12
   },
   {
+    "id": 22,
+    "supermercado": "Arena",
     "produto": "Quiabo Bandeja 300g",
-    "preco": 9.98
+    "preco": 9.98,
+    "preco_por_kg": 33.26666666666667
   },
   {
+    "id": 23,
+    "supermercado": "Arena",
     "produto": "Jiló Bandeja 400g",
-    "preco": 8.78
+    "preco": 8.78,
+    "preco_por_kg": 21.949999999999996
   },
   {
+    "id": 24,
+    "supermercado": "Arena",
     "produto": "ABOBRINHA",
-    "preco": 0
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
+    "id": 25,
+    "supermercado": "Arena",
     "produto": "Beterraba Kg",
-    "preco": 4.79
+    "preco": 4.79,
+    "preco_por_kg": 4.79
   },
   {
+    "id": 26,
+    "supermercado": "Arena",
     "produto": "Inhame Kg",
-    "preco": 12.98
+    "preco": 12.98,
+    "preco_por_kg": 12.98
   },
   {
+    "id": 27,
+    "supermercado": "Arena",
     "produto": "Chá Verde Natural Tea Laranja E Gengibre 1l",
-    "preco": 6.59
+    "preco": 6.59,
+    "preco_por_kg": 6.59
   },
   {
+    "id": 28,
+    "supermercado": "Arena",
     "produto": "Bolinho Bauducco Cenoura/Chocolate 200g",
-    "preco": 2.99
+    "preco": 2.99,
+    "preco_por_kg": 14.950000000000001
   },
   {
+    "id": 29,
+    "supermercado": "Arena",
     "produto": "Chuchu Kg",
-    "preco": 4.29
+    "preco": 4.29,
+    "preco_por_kg": 4.29
   },
   {
+    "id": 30,
+    "supermercado": "Arena",
     "produto": "Sopa Vono C/ Mandioquinha, Cebola E Salsa 17g",
-    "preco": 2.99
+    "preco": 2.99,
+    "preco_por_kg": 175.88235294117646
   },
   {
+    "id": 31,
+    "supermercado": "Arena",
     "produto": "Cheiro Verde Kisabor Folha 8g",
-    "preco": 2.79
+    "preco": 2.79,
+    "preco_por_kg": 348.75
   },
   {
-    "produto": "Alface Crespa Unid.",
-    "preco": 4.9
+    "id": 32,
+    "supermercado": "Arena",
+    "produto": "Alface Roxa Jw Unid.",
+    "preco": 3.99,
+    "preco_por_kg": 3.99
   },
   {
+    "id": 33,
+    "supermercado": "Arena",
     "produto": "Repolho Verde Kg",
-    "preco": 3.99
+    "preco": 3.99,
+    "preco_por_kg": 3.99
   },
   {
+    "id": 34,
+    "supermercado": "Arena",
     "produto": "Molho De Alho Kisabor Pet 150ml",
-    "preco": 3.69
+    "preco": 3.69,
+    "preco_por_kg": 24.6
   },
   {
+    "id": 35,
+    "supermercado": "Arena",
     "produto": "Mamão Papaya Kg",
-    "preco": 7.89
+    "preco": 7.89,
+    "preco_por_kg": 7.89
   },
   {
+    "id": 36,
+    "supermercado": "Arena",
     "produto": "Banana Nanica Kg",
-    "preco": 12.9
+    "preco": 12.9,
+    "preco_por_kg": 12.9
   },
   {
+    "id": 37,
+    "supermercado": "Arena",
     "produto": "Uva Preta Sem Semente Doce Uva 500g",
-    "preco": 8.79
+    "preco": 8.79,
+    "preco_por_kg": 17.58
   },
   {
+    "id": 38,
+    "supermercado": "Arena",
     "produto": "Suco Maguary Maçã Tp 1l",
-    "preco": 5.95
+    "preco": 5.95,
+    "preco_por_kg": 5.95
   },
   {
+    "id": 39,
+    "supermercado": "Arena",
     "produto": "Ameixa Seca Argentina C/ Caroço 200g",
-    "preco": 10.85
+    "preco": 10.85,
+    "preco_por_kg": 54.24999999999999
   },
   {
+    "id": 40,
+    "supermercado": "Arena",
     "produto": "Refrigerante Bioleve Mexerica E Limão Zero Pet 1,5l",
-    "preco": 5.39
+    "preco": 5.39,
+    "preco_por_kg": 1.0779999999999998
   },
   {
+    "id": 41,
+    "supermercado": "Arena",
     "produto": "Margarina Delícia Creme De Leite Com Sal 250g",
-    "preco": 6.29
+    "preco": 6.29,
+    "preco_por_kg": 25.16
   },
   {
+    "id": 42,
+    "supermercado": "Arena",
     "produto": "Leite Longa Vida Hercules Integral 1l",
-    "preco": 2.79
+    "preco": 2.79,
+    "preco_por_kg": 2.79
   },
   {
+    "id": 43,
+    "supermercado": "Arena",
     "produto": "Requeijão Tradicional Danone Copo 200g",
-    "preco": 8.49
+    "preco": 8.49,
+    "preco_por_kg": 42.449999999999996
   },
   {
+    "id": 44,
+    "supermercado": "Arena",
     "produto": "Queijo Mussarela Monteminas Granel Kg",
-    "preco": 44.9
+    "preco": 44.9,
+    "preco_por_kg": 44.9
   },
   {
+    "id": 45,
+    "supermercado": "Arena",
     "produto": "Presunto Sadia Cozido Fatiado 180g",
-    "preco": 10.49
+    "preco": 10.49,
+    "preco_por_kg": 58.27777777777778
   },
   {
+    "id": 46,
+    "supermercado": "Arena",
     "produto": "Mortadela Aurora 1kg",
-    "preco": 12.49
+    "preco": 12.49,
+    "preco_por_kg": 12.49
   },
   {
+    "id": 47,
+    "supermercado": "Arena",
     "produto": "Batata Congelada Sadia Pré Frita 2kg",
-    "preco": 9.99
+    "preco": 9.99,
+    "preco_por_kg": 4.995
   },
   {
+    "id": 48,
+    "supermercado": "Arena",
     "produto": "Batata Congelada Sadia Pré Frita 2kg",
-    "preco": 9.99
+    "preco": 9.99,
+    "preco_por_kg": 4.995
   },
   {
+    "id": 49,
+    "supermercado": "Arena",
     "produto": "Mandioca Kg",
-    "preco": 3.4
+    "preco": 3.4,
+    "preco_por_kg": 3.4
   },
   {
+    "id": 50,
+    "supermercado": "Arena",
     "produto": "Legumes Congelado Grano Mix Salada Russa 1kg",
-    "preco": 15.79
+    "preco": 15.79,
+    "preco_por_kg": 15.79
   },
   {
+    "id": 51,
+    "supermercado": "Arena",
     "produto": "Batata Palha Elma Chips Extra Fina 90g",
-    "preco": 9.29
+    "preco": 9.29,
+    "preco_por_kg": 103.22222222222221
   },
   {
+    "id": 52,
+    "supermercado": "Arena",
     "produto": "Água De Coco Sococo Mais Melância 200ml",
-    "preco": 9.89
+    "preco": 9.89,
+    "preco_por_kg": 49.45
   },
   {
+    "id": 53,
+    "supermercado": "Arena",
     "produto": "Suco Yakult Maçã 200ml",
-    "preco": 3.69
+    "preco": 3.69,
+    "preco_por_kg": 18.45
   },
   {
+    "id": 54,
+    "supermercado": "Arena",
     "produto": "Requeijão Tradicional Danone Copo 200g",
-    "preco": 8.49
+    "preco": 8.49,
+    "preco_por_kg": 42.449999999999996
   },
   {
+    "id": 55,
+    "supermercado": "Arena",
     "produto": "POUPA DE FRUTAS",
-    "preco": 0
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
+    "id": 56,
+    "supermercado": "Arena",
     "produto": "Arroz Camil Parabolizado 1kg",
-    "preco": 5.79
+    "preco": 5.79,
+    "preco_por_kg": 5.79
   },
   {
+    "id": 57,
+    "supermercado": "Arena",
     "produto": "Feijão Fradinho Camil - 500g",
-    "preco": 4.99
+    "preco": 4.99,
+    "preco_por_kg": 9.98
   },
   {
+    "id": 58,
+    "supermercado": "Arena",
     "produto": "FEIJAO BRANCO/VERMELHO",
-    "preco": 0
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
+    "id": 59,
+    "supermercado": "Arena",
     "produto": "Feijão Preto Fugini Sachê 250g",
-    "preco": 3.79
+    "preco": 3.79,
+    "preco_por_kg": 15.16
   },
   {
+    "id": 60,
+    "supermercado": "Arena",
     "produto": "Macarrão Semolado Espaguete Galo 500g",
-    "preco": 3.59
+    "preco": 3.59,
+    "preco_por_kg": 7.18
   },
   {
+    "id": 61,
+    "supermercado": "Arena",
     "produto": "Peneira Goup Premium - 7cm",
-    "preco": 3.49
+    "preco": 3.49,
+    "preco_por_kg": 3.49
   },
   {
+    "id": 62,
+    "supermercado": "Arena",
     "produto": "Macarrão Semolado Parafuso Galo 500g",
-    "preco": 3.59
+    "preco": 3.59,
+    "preco_por_kg": 7.18
   },
   {
+    "id": 63,
+    "supermercado": "Arena",
     "produto": "Queijo Parmesão Ralado Ipanema 40g",
-    "preco": 5.29
+    "preco": 5.29,
+    "preco_por_kg": 132.25
   },
   {
+    "id": 64,
+    "supermercado": "Arena",
     "produto": "MOLHO PEDAÇO",
-    "preco": 0
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
+    "id": 65,
+    "supermercado": "Arena",
     "produto": "Extrato De Tomate Predilecta Sachê 140g",
-    "preco": 2.09
+    "preco": 2.09,
+    "preco_por_kg": 14.928571428571425
   },
   {
+    "id": 66,
+    "supermercado": "Arena",
     "produto": "AZEITE/MISTO",
-    "preco": 0
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
+    "id": 67,
+    "supermercado": "Arena",
     "produto": "Azeitona Verde Nucete Para Salada Sachê 120g",
-    "preco": 6.69
+    "preco": 6.69,
+    "preco_por_kg": 55.75000000000001
   },
   {
+    "id": 68,
+    "supermercado": "Arena",
     "produto": "SHOYO",
-    "preco": 0
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
+    "id": 69,
+    "supermercado": "Arena",
     "produto": "Caldo Em Pó Sazon Galinha 32,5g",
-    "preco": 2.69
+    "preco": 2.69,
+    "preco_por_kg": 538
   },
   {
+    "id": 70,
+    "supermercado": "Arena",
     "produto": "Tempero Em Pó Ajino-Moto Refil 100g",
-    "preco": 8.99
+    "preco": 8.99,
+    "preco_por_kg": 89.89999999999999
   },
   {
+    "id": 71,
+    "supermercado": "Arena",
     "produto": "Farofa Temperada Yoki De Mandioca Caseiríssima Com Pedaços De Costelinha Defumada 200g",
-    "preco": 6.99
+    "preco": 6.99,
+    "preco_por_kg": 34.949999999999996
   },
   {
+    "id": 72,
+    "supermercado": "Arena",
     "produto": "Biscoito Recheado Vitarella Mousse Black Baunilha 130g",
-    "preco": 2.79
+    "preco": 2.79,
+    "preco_por_kg": 21.46153846153846
   },
   {
+    "id": 73,
+    "supermercado": "Arena",
     "produto": "Óleo De Minho Suavit Pet 900ml",
-    "preco": 11.59
+    "preco": 11.59,
+    "preco_por_kg": 12.877777777777776
   },
   {
+    "id": 74,
+    "supermercado": "Arena",
     "produto": "Vinagre Palladio Álcool Colorido Pet 750ml",
-    "preco": 1.99
+    "preco": 1.99,
+    "preco_por_kg": 2.6533333333333333
   },
   {
+    "id": 75,
+    "supermercado": "Arena",
     "produto": "Milho Verde Stella D'Oro Lata 170g",
-    "preco": 3.59
+    "preco": 3.59,
+    "preco_por_kg": 21.117647058823525
   },
   {
+    "id": 76,
+    "supermercado": "Arena",
     "produto": "Ervilha Stella D'Oro Lata 170g",
-    "preco": 3.59
+    "preco": 3.59,
+    "preco_por_kg": 21.117647058823525
   },
   {
+    "id": 77,
+    "supermercado": "Arena",
     "produto": "Sardinha Coqueiro 83g",
-    "preco": 5.49
+    "preco": 5.49,
+    "preco_por_kg": 66.144578313253
   },
   {
+    "id": 78,
+    "supermercado": "Arena",
     "produto": "Açúcar Demerara Caravelas 1kg",
-    "preco": 5.29
+    "preco": 5.29,
+    "preco_por_kg": 5.29
   },
   {
+    "id": 79,
+    "supermercado": "Arena",
     "produto": "Sal Moido E Iodado Rosa Do Himalaia Lebre Gourmert 500g",
-    "preco": 8.99
+    "preco": 8.99,
+    "preco_por_kg": 17.98
   },
   {
+    "id": 80,
+    "supermercado": "Arena",
     "produto": "Suco Maguary Concentrado Cajú Pet 1l",
-    "preco": 8.95
+    "preco": 8.95,
+    "preco_por_kg": 8.95
   },
   {
-    "produto": "Refrigerante Limão Bioleve Zero Pet 1,5l",
-    "preco": 5.39
+    "id": 81,
+    "supermercado": "Arena",
+    "produto": "Refrigerante Fys Limão Siciliano Zero Açúcar Lata 350ml",
+    "preco": 2.79,
+    "preco_por_kg": 7.971428571428572
   },
   {
+    "id": 82,
+    "supermercado": "Arena",
     "produto": "Ketchup Tradicional Cepêra Squeeze 210g",
-    "preco": 5.39
+    "preco": 5.39,
+    "preco_por_kg": 25.666666666666668
   },
   {
+    "id": 83,
+    "supermercado": "Arena",
     "produto": "Maionese Salada Pet 500g",
-    "preco": 5.59
+    "preco": 5.59,
+    "preco_por_kg": 11.18
   },
   {
+    "id": 84,
+    "supermercado": "Arena",
     "produto": "Mostarda Kisabor Squeeze 180g",
-    "preco": 4.49
+    "preco": 4.49,
+    "preco_por_kg": 24.944444444444446
   },
   {
+    "id": 85,
+    "supermercado": "Arena",
     "produto": "Molho Barbecue Kisabor Pet 200g",
-    "preco": 5.99
+    "preco": 5.99,
+    "preco_por_kg": 29.95
   },
   {
+    "id": 86,
+    "supermercado": "Arena",
     "produto": "Mistura Láctea Condensada Mococa Tp 395g",
-    "preco": 4.35
+    "preco": 4.35,
+    "preco_por_kg": 11.0126582278481
   },
   {
+    "id": 87,
+    "supermercado": "Arena",
     "produto": "Creme De Leite Italac Tp 200g",
-    "preco": 2.79
+    "preco": 2.79,
+    "preco_por_kg": 13.95
   },
   {
+    "id": 88,
+    "supermercado": "Arena",
     "produto": "Achocolatado Em Po 3 Coracoes Chocolatto Lata 350g",
-    "preco": 8.49
+    "preco": 8.49,
+    "preco_por_kg": 24.25714285714286
   },
   {
+    "id": 89,
+    "supermercado": "Arena",
     "produto": "Café Em Cápsula Compatível Com Nespresso Nescafé Farmers Origins Índia 10 Cápsulas",
-    "preco": 22.9
+    "preco": 22.9,
+    "preco_por_kg": 22.9
   },
   {
+    "id": 90,
+    "supermercado": "Arena",
     "produto": "Café Nescafé Solúvel Gelado Vidro 100g",
-    "preco": 27.99
+    "preco": 27.99,
+    "preco_por_kg": 279.9
   },
   {
+    "id": 91,
+    "supermercado": "Arena",
     "produto": "Filtro De Café Não Descartável Injetemp Número 102",
-    "preco": 5.99
+    "preco": 5.99,
+    "preco_por_kg": 5.99
   },
   {
+    "id": 92,
+    "supermercado": "Arena",
     "produto": "Chá Leão Pêssego Para Preparo De Drink Sachê C/ 10 Unid. 20g",
-    "preco": 14.69
+    "preco": 14.69,
+    "preco_por_kg": 734.5
   },
   {
+    "id": 93,
+    "supermercado": "Arena",
     "produto": "Pipoca Microondas Yoki Manteiga Cinema 100g",
-    "preco": 4.65
+    "preco": 4.65,
+    "preco_por_kg": 46.5
   },
   {
+    "id": 94,
+    "supermercado": "Arena",
     "produto": "Pão Wrap Rap 10 Integral Pullman 297g",
-    "preco": 10.9
+    "preco": 10.9,
+    "preco_por_kg": 36.700336700336706
   },
   {
+    "id": 95,
+    "supermercado": "Arena",
     "produto": "Miolo Alcatra Bovino Porcionado Kg",
-    "preco": 48.9
+    "preco": 48.9,
+    "preco_por_kg": 48.9
   },
   {
+    "id": 96,
+    "supermercado": "Arena",
     "produto": "BIFUM",
-    "preco": 0
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
+    "id": 97,
+    "supermercado": "Arena",
     "produto": "Geleia De Morango Turma Da Monica Purifruti 230gr",
-    "preco": 9.99
+    "preco": 9.99,
+    "preco_por_kg": 43.43478260869565
   },
   {
+    "id": 98,
+    "supermercado": "Arena",
     "produto": "Biscoito De Polvilho Cassini Cebola E Salsa 80g",
-    "preco": 4.49
+    "preco": 4.49,
+    "preco_por_kg": 56.125
   },
   {
+    "id": 99,
+    "supermercado": "Arena",
     "produto": "Cuscuzeiro Solar Aluminios 800ml",
-    "preco": 29.9
+    "preco": 29.9,
+    "preco_por_kg": 37.37499999999999
   },
   {
+    "id": 100,
+    "supermercado": "Arena",
     "produto": "Pão Preto Kg",
-    "preco": 13.9
+    "preco": 13.9,
+    "preco_por_kg": 13.9
   },
   {
+    "id": 101,
+    "supermercado": "Arena",
     "produto": "Tapioca Da Terrinha 500g",
-    "preco": 7.39
+    "preco": 7.39,
+    "preco_por_kg": 14.78
   },
   {
+    "id": 102,
+    "supermercado": "Arena",
     "produto": "Biscoito Tostines Especiarias 150g",
-    "preco": 4.89
+    "preco": 4.89,
+    "preco_por_kg": 32.6
   },
   {
+    "id": 103,
+    "supermercado": "Arena",
     "produto": "Desinfetante Lysoform Cloro Gel Original 500ml",
-    "preco": 12.99
+    "preco": 12.99,
+    "preco_por_kg": 25.98
   },
   {
+    "id": 104,
+    "supermercado": "Arena",
     "produto": "Saponáceo Cremoso Sapólio Radium Clássico 250ml",
-    "preco": 10.99
+    "preco": 10.99,
+    "preco_por_kg": 43.96
   },
   {
+    "id": 105,
+    "supermercado": "Arena",
     "produto": "Álcool Duratto Bactericida Desinfetante Lavanda 1l",
-    "preco": 6.79
+    "preco": 6.79,
+    "preco_por_kg": 6.79
   },
   {
+    "id": 106,
+    "supermercado": "Arena",
     "produto": "Odorizante Para Automóvel Breeze Cheirinho Card Secret",
-    "preco": 9.89
+    "preco": 9.89,
+    "preco_por_kg": 9.89
   },
   {
+    "id": 107,
+    "supermercado": "Arena",
     "produto": "Removedor Zulu Tradicional 5 Em 1 900ml",
-    "preco": 7.99
+    "preco": 7.99,
+    "preco_por_kg": 8.877777777777778
   },
   {
+    "id": 108,
+    "supermercado": "Arena",
     "produto": "Solução Acetona De Esmalte Acemar Pro 100ml",
-    "preco": 4.49
+    "preco": 4.49,
+    "preco_por_kg": 44.9
   },
   {
+    "id": 109,
+    "supermercado": "Arena",
     "produto": "Odorizador Bom Ar Refil Click Spray Lavanda Leve 3 Pague 2 12ml",
-    "preco": 19.8
+    "preco": 19.8,
+    "preco_por_kg": 1650
   },
   {
+    "id": 110,
+    "supermercado": "Arena",
     "produto": "Óleo De Minho Suavit Pet 900ml",
-    "preco": 11.59
+    "preco": 11.59,
+    "preco_por_kg": 12.877777777777776
   },
   {
+    "id": 111,
+    "supermercado": "Arena",
     "produto": "Lampada Ourolux Led 9w Biv 6500k Unid.",
-    "preco": 5.59
+    "preco": 5.59,
+    "preco_por_kg": 5.59
   },
   {
+    "id": 112,
+    "supermercado": "Arena",
     "produto": "GILETE",
-    "preco": 0
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
+    "id": 113,
+    "supermercado": "Arena",
     "produto": "Shampoo Pantene Queratina 175ml",
-    "preco": 12.49
+    "preco": 12.49,
+    "preco_por_kg": 71.37142857142858
   },
   {
+    "id": 114,
+    "supermercado": "Arena",
     "produto": "Condicionador Darling Detox 350ml",
-    "preco": 10.49
+    "preco": 10.49,
+    "preco_por_kg": 29.971428571428575
   },
   {
+    "id": 115,
+    "supermercado": "Arena",
     "produto": "Saco De Lixo Saron Banheiro/Pia 10l",
-    "preco": 4.9
+    "preco": 4.9,
+    "preco_por_kg": 0.49000000000000005
   },
   {
+    "id": 116,
+    "supermercado": "Arena",
     "produto": "Água Sanitária Candura 1l",
-    "preco": 3.09
+    "preco": 3.09,
+    "preco_por_kg": 3.09
   },
   {
+    "id": 117,
+    "supermercado": "Arena",
     "produto": "Sabão Líquido Refil Omo Lavagem Perfeita 900ml",
-    "preco": 15.39
+    "preco": 15.39,
+    "preco_por_kg": 17.1
   },
   {
+    "id": 118,
+    "supermercado": "Arena",
     "produto": "Amaciante De Roupa Barbarex Max 5l",
-    "preco": 13.59
+    "preco": 13.59,
+    "preco_por_kg": 2.718
   },
   {
+    "id": 119,
+    "supermercado": "Arena",
     "produto": "AMACIANTE BEBE",
-    "preco": 0
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
+    "id": 120,
+    "supermercado": "Arena",
     "produto": "Detergente Ypê Maçã 500ml",
-    "preco": 2.49
+    "preco": 2.49,
+    "preco_por_kg": 4.98
   },
   {
+    "id": 121,
+    "supermercado": "Arena",
     "produto": "Esponja Multiuso Assolan Pertuto 1 Unid.",
-    "preco": 0.95
+    "preco": 0.95,
+    "preco_por_kg": 0.95
   },
   {
+    "id": 122,
+    "supermercado": "Arena",
     "produto": "Lápis Multi Color Grafite Ecolapis Com 12 Unid.",
-    "preco": 5.49
+    "preco": 5.49,
+    "preco_por_kg": 5.49
   },
   {
+    "id": 123,
+    "supermercado": "Arena",
     "produto": "Desinfetante Floral Barbarex 5l",
-    "preco": 11.79
+    "preco": 11.79,
+    "preco_por_kg": 2.3579999999999997
   },
   {
+    "id": 124,
+    "supermercado": "Arena",
     "produto": "Bucha Vegetal Tmk Numero 50",
-    "preco": 5.99
+    "preco": 5.99,
+    "preco_por_kg": 5.99
   },
   {
+    "id": 125,
+    "supermercado": "Arena",
     "produto": "Esponja De Aco Bombril Eco Com 6 Unidades 45g",
-    "preco": 3.09
+    "preco": 3.09,
+    "preco_por_kg": 68.66666666666667
   },
   {
+    "id": 126,
+    "supermercado": "Arena",
     "produto": "Fralda Descartável Little Baby Mega",
-    "preco": 32.95
+    "preco": 32.95,
+    "preco_por_kg": 32.95
   },
   {
+    "id": 127,
+    "supermercado": "Arena",
     "produto": "Papel Higiênico Folha Dupla Neutro Cotton 30m",
-    "preco": 19.99
+    "preco": 19.99,
+    "preco_por_kg": 19.99
   },
   {
+    "id": 128,
+    "supermercado": "Arena",
     "produto": "Pastilha Adesiva Pato Fresh Oferta Especial C/3 Unid.",
-    "preco": 7.99
+    "preco": 7.99,
+    "preco_por_kg": 7.99
   },
   {
+    "id": 129,
+    "supermercado": "Arena",
     "produto": "ESCOVA DE DENTE",
-    "preco": 0
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
+    "id": 130,
+    "supermercado": "Arena",
     "produto": "Creme Dental Sorriso Dentes Brancos 90g",
-    "preco": 3.79
+    "preco": 3.79,
+    "preco_por_kg": 42.111111111111114
   },
   {
+    "id": 131,
+    "supermercado": "Arena",
     "produto": "Sabonete Líquido Lux Buquê De Jasmim 250ml",
-    "preco": 11.39
+    "preco": 11.39,
+    "preco_por_kg": 45.56
   },
   {
+    "id": 132,
+    "supermercado": "Arena",
     "produto": "Sabonete Ypê Siene Lavanda 85g",
-    "preco": 1.69
+    "preco": 1.69,
+    "preco_por_kg": 19.882352941176467
   },
   {
+    "id": 133,
+    "supermercado": "Arena",
     "produto": "Sabonete Granado Bebe Camomila - 90g",
-    "preco": 6.55
+    "preco": 6.55,
+    "preco_por_kg": 72.77777777777777
   },
   {
+    "id": 134,
+    "supermercado": "Arena",
     "produto": "Desodorante Aerossol Adidas Feminino Control 150ml",
-    "preco": 14.89
+    "preco": 14.89,
+    "preco_por_kg": 99.26666666666668
   },
   {
+    "id": 135,
+    "supermercado": "Arena",
     "produto": "Gel Dental Condor Barbie Kids Morango Com Flúor 50g",
-    "preco": 6.59
+    "preco": 6.59,
+    "preco_por_kg": 131.79999999999998
   },
   {
+    "id": 136,
+    "supermercado": "Arena",
     "produto": "COTONETE",
-    "preco": 0
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
+    "id": 137,
+    "supermercado": "Arena",
     "produto": "Lenços Umedecidos Neve Leve C/ 48 Unid.",
-    "preco": 14.99
+    "preco": 14.99,
+    "preco_por_kg": 14.99
   },
   {
+    "id": 138,
+    "supermercado": "Arena",
     "produto": "Algodão Disco Topz Leve 100 Pague 85 C/100",
-    "preco": 9.99
+    "preco": 9.99,
+    "preco_por_kg": 9.99
   },
   {
+    "id": 139,
+    "supermercado": "Arena",
     "produto": "Antisséptico Listerine Cool Mint Zero Álcool 250ml",
-    "preco": 14.89
+    "preco": 14.89,
+    "preco_por_kg": 59.56
   },
   {
+    "id": 140,
+    "supermercado": "Arena",
     "produto": "Salgadinho Torcida Costelinha C/ Limão 60g",
-    "preco": 2.09
+    "preco": 2.09,
+    "preco_por_kg": 34.833333333333336
   },
   {
+    "id": 141,
+    "supermercado": "Arena",
     "produto": "Salgadinho Torcida Costelinha C/ Limão 60g",
-    "preco": 2.09
+    "preco": 2.09,
+    "preco_por_kg": 34.833333333333336
   },
   {
+    "id": 142,
+    "supermercado": "Arena",
     "produto": "Pão Bisnaguinha Bauducco 260g",
-    "preco": 6.99
+    "preco": 6.99,
+    "preco_por_kg": 26.884615384615383
   },
   {
+    "id": 143,
+    "supermercado": "Arena",
     "produto": "Areia Sanitária Baw Waw 4kg",
-    "preco": 6.99
+    "preco": 6.99,
+    "preco_por_kg": 1.7475
   },
   {
+    "id": 144,
+    "supermercado": "Arena",
     "produto": "Fubá Yoki Mimoso 500g",
-    "preco": 3.99
+    "preco": 3.99,
+    "preco_por_kg": 7.98
   },
   {
+    "id": 145,
+    "supermercado": "Arena",
     "produto": "PA DE AREIA",
-    "preco": 0
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
+    "id": 146,
+    "supermercado": "Arena",
     "produto": "BACIA DE AREIA",
-    "preco": 0
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
+    "id": 147,
+    "supermercado": "Arena",
     "produto": "Patê Gomes Da Costa Atum Com Azeitona Sachê 170g",
-    "preco": 8.79
+    "preco": 8.79,
+    "preco_por_kg": 51.70588235294117
   }
 ]
