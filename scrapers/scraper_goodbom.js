@@ -26,10 +26,9 @@ async function main() {
 
   try {
     for (const [index, produto] of produtos.entries()) {
-      const id = index + 1;
-      // ID baseado na ordem do products.txt
+      const id = index + 1; // ID baseado na ordem do products.txt
       console.log(`🔍 Buscando GoodBom: ${produto}`);
-      
+
       await page.goto(`https://www.goodbom.com.br/hortolandia/busca?q=${encodeURIComponent(produto)}`, { waitUntil: "networkidle2" });
 
       const items = await page.evaluate(() => {
@@ -42,8 +41,6 @@ async function main() {
           return { nome, preco };
         });
       });
-
-      console.log(`✅ ${produto} - R$ ${preco.toFixed(2)}`);
 
       // Calcular preco_por_kg
       items.forEach(item => {
