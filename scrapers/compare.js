@@ -1,74 +1,70 @@
+// scrapers/scraper_arena.js
 const fs = require("fs");
 const path = require("path");
+const puppeteer = require("puppeteer");
 
-// Caminhos dos JSONs
-const goodbomFile = path.join(__dirname, "..", "docs", "prices", "prices_goodbom.json");
-const tendaFile = path.join(__dirname, "..", "docs", "prices", "prices_tenda.json");
-const outputFile = path.join(__dirname, "..", "docs", "prices", "compare.json"); // JSON final para o front
+// Caminhos
+const produtosFile = path.join(__dirname, "..", "products.txt");
+const outputFile = path.join(__dirname, "..", "docs", "prices", "prices_arena.json");
 
-// Carrega os preços
-function load(file) {
-  if (!fs.existsSync(file)) return [];
-  return JSON.parse(fs.readFileSync(file, "utf-8"));
-}
+// Seletores no site
+const seletorNome = "span.productCard__title";
+const seletorPreco = "span.productPrice__price";
 
-const goodbom = load(goodbomFile);
-const tenda = load(tendaFile);
+// Função auxiliar para formatar ID
+const formatId = nome => nome.toLowerCase().replace(/\s+/g, "_").replace(/[^a-z0-9_]/g, "");
 
-// Agrupar por id
-function groupById(data) {
-  const map = {};
-  for (const item of data) {
-    if (!map[item.id]) map[item.id] = [];
-    map[item.id].push(item);
+(async () => {
+  if (!fs.existsSync(produtosFile)) {
+    console.error("Arquivo products.txt não encontrado!");
+    process.exit(1);
   }
-  return map;
-}
 
-const goodbomById = groupById(goodbom);
-const tendaById = groupById(tenda);
+  const produtosLista = fs.readFileSync(produtosFile, "utf-8")
+    .split("\n")
+    .map(l => l.trim())
+    .filter(l => l.length > 0);
 
-// Comparar apenas ids que existem nos dois mercados
-const ids = Object.keys(goodbomById).filter(id => tendaById[id]);
+  const browser = await puppeteer.launch({ headless: true });
+  const page = await browser.newPage();
 
-let totalGoodbom = 0;
-let totalTenda = 0;
-let escolhidos = [];
+  const todosProdutos = [];
 
-for (const id of ids) {
-  const g = goodbomById[id].sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0]; // mais barato no Goodbom
-  const t = tendaById[id].sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];   // mais barato no Tenda
+  for (const produto of produtosLista) {
+    const urlBusca = `https://www.arenaatacado.com.br/on/demandware.store/Sites-Arena-Site/pt_BR/Search-Show?q=${encodeURIComponent(produto)}&lang=`;
+    console.log(`🔎 Buscando: ${produto}`);
 
-  totalGoodbom += g.preco;
-  totalTenda += t.preco;
+    try {
+      await page.goto(urlBusca, { waitUntil: "networkidle2" });
+      await page.waitForSelector(seletorNome, { timeout: 5000 });
 
-  escolhidos.push({
-    id,
-    goodbom: { nome: g.produto, preco: g.preco, preco_por_kg: g.preco_por_kg },
-    tenda: { nome: t.produto, preco: t.preco, preco_por_kg: t.preco_por_kg },
-    mais_barato: g.preco_por_kg <= t.preco_por_kg ? "Goodbom" : "Tenda"
-  });
-}
+      const encontrados = await page.evaluate((seletorNome, seletorPreco, formatId) => {
+        const nomes = Array.from(document.querySelectorAll(seletorNome)).map(el => el.innerText.trim());
+        const precos = Array.from(document.querySelectorAll(seletorPreco))
+          .map(el => el.innerText.trim().replace("R$", "").replace(",", "."));
 
-// Salvar JSON final para o front
-const jsonFinal = {
-  totalGoodbom: totalGoodbom.toFixed(2),
-  totalTenda: totalTenda.toFixed(2),
-  produtos: escolhidos
-};
+        const lista = [];
+        for (let i = 0; i < nomes.length; i++) {
+          lista.push({
+            id: formatId(nomes[i]),
+            produto: nomes[i],
+            preco: parseFloat(precos[i]) || 0
+          });
+        }
+        return lista;
+      }, seletorNome, seletorPreco, formatId);
 
-if (!fs.existsSync(path.dirname(outputFile))) fs.mkdirSync(path.dirname(outputFile), { recursive: true });
-fs.writeFileSync(outputFile, JSON.stringify(jsonFinal, null, 2), "utf-8");
-console.log(`💾 JSON final salvo em ${outputFile}`);
+      todosProdutos.push(...encontrados);
+      console.log(`✅ ${encontrados.length} produtos encontrados para "${produto}"`);
+    } catch (err) {
+      console.warn(`⚠️ Nenhum produto encontrado para "${produto}" ou erro de carregamento.`);
+    }
+  }
 
-// Log no terminal
-console.log("Produtos considerados:", ids.length);
-console.log("💰 Total GoodBom:", totalGoodbom.toFixed(2));
-console.log("💰 Total Tenda:", totalTenda.toFixed(2));
-console.log("\n📊 Comparação detalhada:");
-console.table(escolhidos.map(e => ({
-  ID: e.id,
-  GoodBom: `${e.goodbom.nome} - R$${e.goodbom.preco} (R$${e.goodbom.preco_por_kg}/kg)`,
-  Tenda: `${e.tenda.nome} - R$${e.tenda.preco} (R$${e.tenda.preco_por_kg}/kg)`,
-  "Mais barato": e.mais_barato
-})));
+  // Salvar JSON
+  if (!fs.existsSync(path.dirname(outputFile))) fs.mkdirSync(path.dirname(outputFile), { recursive: true });
+  fs.writeFileSync(outputFile, JSON.stringify(todosProdutos, null, 2), "utf-8");
+  console.log(`💾 Todos os preços Arena salvos em ${outputFile}`);
+
+  await browser.close();
+})();
