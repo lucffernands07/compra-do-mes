@@ -29,16 +29,22 @@ async function buscarProduto(page, termo) {
   await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
 
   return await page.evaluate(() => {
-    return Array.from(document.querySelectorAll("a.showcase-card-content")).slice(0, 3).map(card => {
-      const nome = card.querySelector("h3.TitleCardComponent")?.innerText.trim() || "Produto sem nome";
-      const precoTxt = card.querySelector("div.SimplePriceComponent")?.innerText
-        .replace("R$", "")
-        .replace("un", "")
-        .replace(",", ".")
-        .trim() || "0";
-      const preco = parseFloat(precoTxt) || 0;
-      return { nome, preco };
-    });
+    return Array.from(document.querySelectorAll("a.showcase-card-content"))
+      .slice(0, 3)
+      .map(card => {
+        const nome =
+          card.querySelector("h3.TitleCardComponent")?.innerText.trim() ||
+          "Produto sem nome";
+        const precoTxt =
+          card
+            .querySelector("div.SimplePriceComponent")
+            ?.innerText.replace("R$", "")
+            .replace("un", "")
+            .replace(",", ".")
+            .trim() || "0";
+        const preco = parseFloat(precoTxt) || 0;
+        return { nome, preco };
+      });
   });
 }
 
@@ -50,7 +56,10 @@ async function main() {
   const page = await browser.newPage();
 
   // Abrir site e preencher CEP (se necessário)
-  await page.goto("https://www.tendaatacado.com.br", { waitUntil: "domcontentloaded", timeout: 60000 });
+  await page.goto("https://www.tendaatacado.com.br", {
+    waitUntil: "domcontentloaded",
+    timeout: 60000
+  });
 
   try {
     await page.waitForSelector("#shipping-cep", { timeout: 10000 });
@@ -63,7 +72,8 @@ async function main() {
   }
 
   // Ler lista de produtos
-  const produtos = fs.readFileSync(INPUT_FILE, "utf-8")
+  const produtos = fs
+    .readFileSync(INPUT_FILE, "utf-8")
     .split("\n")
     .map(l => l.trim())
     .filter(Boolean);
@@ -73,31 +83,34 @@ async function main() {
   for (const [index, termo] of produtos.entries()) {
     const id = index + 1; // ID baseado na ordem do products.txt
     try {
+      console.log(`🔍 Buscando: ${termo}`);
       const encontrados = await buscarProduto(page, termo);
 
-      // calcular preço por kg
-      encontrados.forEach(p => {
-        const peso = extrairPeso(p.nome);
-        p.preco_por_kg = +(p.preco / peso).toFixed(2);
-      });
+      // Filtrar preços inválidos
+      const validos = encontrados.filter(p => p.preco > 0);
 
-      if (encontrados.length > 0) {
-        // pega o mais barato
-        const maisBarato = encontrados.sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
-
-        resultados.push({
-          id,
-          supermercado: "Tenda",
-          produto: maisBarato.nome,
-          preco: maisBarato.preco,
-          preco_por_kg: maisBarato.preco_por_kg
-        });
-
-        console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
-      } else {
-        console.log(`⚠️ Nenhum resultado encontrado para: ${termo}`);
+      if (validos.length === 0) {
+        console.log(`⚠️ Nenhum preço válido encontrado para ${termo}`);
+        continue;
       }
 
+      // Selecionar o mais barato
+      const maisBarato = validos.reduce((a, b) =>
+        a.preco < b.preco ? a : b
+      );
+
+      const peso = extrairPeso(maisBarato.nome);
+      resultados.push({
+        id,
+        supermercado: "Tenda",
+        produto: maisBarato.nome,
+        preco: maisBarato.preco,
+        preco_por_kg: +(maisBarato.preco / peso).toFixed(2)
+      });
+
+      console.log(
+        `✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`
+      );
     } catch (err) {
       console.error(`❌ Erro ao buscar ${termo}:`, err.message);
     }
@@ -107,7 +120,7 @@ async function main() {
 
   // Salvar JSON
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(resultados, null, 2), "utf-8");
-  console.log(`💾 Resultados Tenda salvos em ${OUTPUT_FILE}`);
+  console.log(`💾 Resultados salvos em ${OUTPUT_FILE}`);
 }
 
 main().catch(err => {
