@@ -34,11 +34,15 @@ jobs:
       - name: Run scraper GoodBom
         run: node scrapers/scraper_goodbom.js
 
-      # 6️⃣ Rodar comparação
+      # 6️⃣ Rodar scraper Arena
+      - name: Run scraper Arena
+        run: node scrapers/scraper_arena.js
+
+      # 7️⃣ Rodar comparação
       - name: Compare prices
         run: node scrapers/compare.js
 
-      # 7️⃣ Commit e push
+      # 8️⃣ Commit e push
       - name: Commit and push updated prices
         run: |
           git config --global user.name "github-actions"
