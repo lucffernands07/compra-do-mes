@@ -73,19 +73,30 @@ async function main() {
   for (const [index, termo] of produtos.entries()) {
     const id = index + 1; // ID baseado na ordem do products.txt
     try {
-      console.log(`🔍 Buscando: ${termo}`);
       const encontrados = await buscarProduto(page, termo);
 
+      // calcular preço por kg
       encontrados.forEach(p => {
         const peso = extrairPeso(p.nome);
+        p.preco_por_kg = +(p.preco / peso).toFixed(2);
+      });
+
+      if (encontrados.length > 0) {
+        // pega o mais barato
+        const maisBarato = encontrados.sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
+
         resultados.push({
           id,
           supermercado: "Tenda",
-          produto: p.nome,
-          preco: p.preco,
-          preco_por_kg: +(p.preco / peso).toFixed(2)
+          produto: maisBarato.nome,
+          preco: maisBarato.preco,
+          preco_por_kg: maisBarato.preco_por_kg
         });
-      });
+
+        console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
+      } else {
+        console.log(`⚠️ Nenhum resultado encontrado para: ${termo}`);
+      }
 
     } catch (err) {
       console.error(`❌ Erro ao buscar ${termo}:`, err.message);
@@ -96,7 +107,7 @@ async function main() {
 
   // Salvar JSON
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(resultados, null, 2), "utf-8");
-  console.log(`💾 Resultados salvos em ${OUTPUT_FILE}`);
+  console.log(`💾 Resultados Tenda salvos em ${OUTPUT_FILE}`);
 }
 
 main().catch(err => {
