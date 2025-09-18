@@ -76,9 +76,11 @@ async function carregarDados() {
     const valorMaisBarato = Math.min(totalGoodbom, totalTenda);
 
     // montar tabela de totais (HTML simples — estilize no style.css se quiser)
-    const tabelaTotais = `
+    const tabelaTotais = `    
+      <br>
+      <br>
       <h2>Comparação de Preços</h2>
-      <h3>Totais por supermercado</h3>
+      <br>
       <table>
         <thead>
           <tr><th>Supermercado</th><th>Total (R$)</th></tr>
@@ -94,6 +96,8 @@ async function carregarDados() {
           </tr>
         </tbody>
       </table>
+      <br>
+      <br>
       <p>Supermercado mais barato: <strong>${maisBaratoName} (R$ ${valorMaisBarato.toFixed(2)})</strong></p>
     `;
 
@@ -107,7 +111,7 @@ async function carregarDados() {
       .map(p => {
         const nome = p[maisBaratoKey]?.nome || p.goodbom?.nome || p.tenda?.nome || "Sem nome";
         const preco = p[maisBaratoKey]?.preco ?? "—";
-        return `<li><strong>${nome}</strong> <span class="preco">R$ ${preco}</span></li>`;
+        return `<li class="item"><div><strong>${nome}</strong></div> <div><span class="preco">R$ ${preco}</span></div></li>`;
       })
       .join("");
 

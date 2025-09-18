@@ -33,6 +33,10 @@ th {
   background-color: #f2f2f2;
 }
 
+tr {
+  font-size: 28px;
+}
+
 .mais-barato td {
   font-weight: bold;
   color: green;
@@ -51,39 +55,57 @@ ul li {
   padding: 8px 12px; /* adicionei padding interno */
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  display: flex;
-  flex-direction: column; /* nome em cima, preço embaixo */
-}
-
-/* Nome do produto */
-ul li .nome {
-  font-weight: bold;
-  font-size: 16px;
-  text-align: left;  /* garante que fique à esquerda */
-}
-
-/* Preço do produto */
-ul li .preco {
-  font-size: 16px;
-  color: green;
-  text-align: right; /* alinha o preço à direita */
-  margin-top: 4px;   /* espaço entre nome e preço */
 }
 
 /* Nome do produto em verde e bold */
 ul li strong {
   color: green;
   font-weight: bold;
-  display: inline-block;
-  font-size: 16px;
+  font-size: 28px;
 }
 
 /* Preços em vermelho e bold */
 ul li span.preco {
   color: red;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 28px;
 }
 
-/* ===== Ajustes responsivos ===== */
+/* Titulo supermecado mais barato */
+p {
+  color: blue;
+  font-weight: bold;
+  font-size: 24px;
+}
 
+li.item {
+  display: flex;
+  justify-content: space-between; /* nome à esquerda, preço à direita */
+  align-items: flex-start;        /* alinha ao topo */
+  gap: 10px;                      /* espaço entre nome e preço */
+  background-color: #f9f9f9;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  border-bottom: 1px solid #555; /* linha cinza escuro */
+}
+
+li.item:last-child {
+  border-bottom: none; /* remove a linha do último */
+}
+
+.nome {
+  font-size: 16px;
+  font-weight: bold;
+  flex: 1;                       /* ocupa só o espaço disponível */
+  min-width: 0;                  /* permite encolher sem empurrar o preço */
+  overflow-wrap: break-word;     /* quebra palavras longas */
+}
+
+.preco {
+  font-size: 16px;
+  color: green;
+  white-space: nowrap;           /* impede o preço de quebrar */
+  margin-left: auto;             /* gruda na direita */
+}
