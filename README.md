@@ -5,7 +5,8 @@
 📁 scrapers
   📄 compare.js
   📄 scraper_tenda.js
-  📄 scraoer_goodbom.js
+  📄 scraper_goodbom.js
+  📄 scraper_arena.js
 📁 docs
   📄 app.js
   📄 index.html
@@ -14,6 +15,7 @@
     📄 compare.json
     📄 prices_tenda.json
     📄 prices_goodbom.json
+    📄 prices_arena.json
 📄 package.json
 📄 products.txt
 📄 README.md
