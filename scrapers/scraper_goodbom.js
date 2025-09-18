@@ -27,48 +27,47 @@ async function main() {
   try {
     for (const [index, produto] of produtos.entries()) {
       const id = index + 1; // ID baseado na ordem do products.txt
-      console.log(`🔍 Buscando GoodBom: ${produto}`);
 
-      await page.goto(
-        `https://www.goodbom.com.br/hortolandia/busca?q=${encodeURIComponent(produto)}`,
-        { waitUntil: "networkidle2" }
-      );
+      await page.goto(`https://www.goodbom.com.br/hortolandia/busca?q=${encodeURIComponent(produto)}`, { waitUntil: "networkidle2" });
 
       const items = await page.evaluate(() => {
         const spans = Array.from(document.querySelectorAll("span.product-name"));
         return spans.slice(0, 3).map(span => {
           const nome = span.innerText.trim();
           const precoSpan = span.closest("a")?.querySelector("span.price");
-          const precoTxt = precoSpan
-            ? precoSpan.innerText.replace("R$", "").replace(",", ".").trim()
-            : "0";
+          const precoTxt = precoSpan ? precoSpan.innerText.replace("R$", "").replace(",", ".").trim() : "0";
           const preco = parseFloat(precoTxt) || 0;
           return { nome, preco };
         });
       });
 
-      // Calcular preco_por_kg e logar igual ao Arena
+      // Calcular preco_por_kg
       items.forEach(item => {
         const peso_kg = extrairPeso(item.nome);
+        item.preco_por_kg = parseFloat((item.preco / peso_kg).toFixed(2));
+      });
+
+      if (items.length > 0) {
+        // Pega o mais barato
+        const maisBarato = items.sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
+
         resultado.push({
           id,
           supermercado: "Goodbom",
-          produto: item.nome,
-          preco: item.preco,
-          preco_por_kg: parseFloat((item.preco / peso_kg).toFixed(2))
+          produto: maisBarato.nome,
+          preco: maisBarato.preco,
+          preco_por_kg: maisBarato.preco_por_kg
         });
 
-        // 👇 Log detalhado igual Arena
-        console.log(`✅ ${item.nome} - R$ ${item.preco.toFixed(2)}`);
-      });
+        console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
+      } else {
+        console.log(`⚠️ Nenhum resultado para: ${produto}`);
+      }
     }
 
     // Salvar JSON
     if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
-    fs.writeFileSync(
-      path.join(outDir, "prices_goodbom.json"),
-      JSON.stringify(resultado, null, 2)
-    );
+    fs.writeFileSync(path.join(outDir, "prices_goodbom.json"), JSON.stringify(resultado, null, 2));
 
     console.log("💾 Preços GoodBom salvos com sucesso!");
   } catch (err) {
