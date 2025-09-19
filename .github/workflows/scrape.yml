@@ -31,7 +31,7 @@ jobs:
         run: node scrapers/scraper_arena.js
 
       - name: Run scraper Savegnago
-        run: node scrapers/scraper_savenago.js
+        run: node scrapers/scraper_savegnago.js
 
       - name: Compare prices
         run: node scrapers/compare.js
