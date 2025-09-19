@@ -16,7 +16,7 @@ function load(file) {
 
 const goodbom = load(goodbomFile);
 const tenda = load(tendaFile);
-const arena = load(arenaFile); // inclui Arena
+const arena = load(arenaFile);
 
 // Agrupar por id
 function groupById(data) {
@@ -46,11 +46,11 @@ for (const id of ids) {
   const a = arenaById[id]?.sort((x, y) => x.preco_por_kg - y.preco_por_kg)[0] 
            || { produto: null, preco: 0, preco_por_kg: Infinity };
 
-  totalGoodbom += g.preco;
-  totalTenda += t.preco;
-  totalArena += a.preco;
+  // Totais = somatória por kg
+  totalGoodbom += g.preco_por_kg;
+  totalTenda += t.preco_por_kg;
+  totalArena += a.preco_por_kg;
 
-  // Armazena os produtos comparados
   escolhidos.push({
     id,
     goodbom: { nome: g.produto, preco: g.preco, preco_por_kg: g.preco_por_kg },
