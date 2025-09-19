@@ -89,8 +89,15 @@ async function main() {
       console.log(`🔍 Buscando: ${termo}`);
       const encontrados = await buscarProduto(page, termo);
 
-      // Filtrar preços válidos
-      const validos = encontrados.filter(p => p.preco > 0);
+      // ✅ Filtrar preços válidos e nome começando com o termo buscado
+      const termoLower = termo.toLowerCase();
+      const validos = encontrados.filter(p => {
+        const nomeLower = p.nome.toLowerCase();
+        return (
+          p.preco > 0 &&
+          (nomeLower.startsWith(termoLower) || nomeLower.startsWith(termoLower + " "))
+        );
+      });
 
       if (validos.length === 0) {
         console.log(`⚠️ Nenhum preço válido encontrado para ${termo}`);
