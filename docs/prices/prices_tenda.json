@@ -87,8 +87,8 @@
     "id": 14,
     "supermercado": "Tenda",
     "produto": "Ovos Extra Branco 20 Unidades",
-    "preco": 12.9,
-    "preco_por_kg": 12.9
+    "preco": 12.89,
+    "preco_por_kg": 12.89
   },
   {
     "id": 15,
@@ -275,9 +275,9 @@
   {
     "id": 41,
     "supermercado": "Tenda",
-    "produto": "Margarina com Sal Dualis 500g",
-    "preco": 3.45,
-    "preco_por_kg": 6.9
+    "produto": "Margarina Cremosa com Sal Claybom Pote 500g",
+    "preco": 5.25,
+    "preco_por_kg": 10.5
   },
   {
     "id": 42,
@@ -317,16 +317,16 @@
   {
     "id": 47,
     "supermercado": "Tenda",
-    "produto": "Batata Congelada Batataria 2kg",
-    "preco": 24.9,
-    "preco_por_kg": 12.45
+    "produto": "Batata Congelada Select 2kg",
+    "preco": 21.75,
+    "preco_por_kg": 10.88
   },
   {
     "id": 48,
     "supermercado": "Tenda",
-    "produto": "Batata Congelada Batataria 2kg",
-    "preco": 24.9,
-    "preco_por_kg": 12.45
+    "produto": "Batata Congelada Select 2kg",
+    "preco": 21.75,
+    "preco_por_kg": 10.88
   },
   {
     "id": 49,
@@ -430,8 +430,8 @@
     "id": 63,
     "supermercado": "Tenda",
     "produto": "Queijo Parmesão Ralado Kaman 40g",
-    "preco": 3.15,
-    "preco_por_kg": 78.75
+    "preco": 2.55,
+    "preco_por_kg": 63.75
   },
   {
     "id": 64,
@@ -527,9 +527,9 @@
   {
     "id": 77,
     "supermercado": "Tenda",
-    "produto": "Sardinha em Óleo Coqueiro 125g",
-    "preco": 5.29,
-    "preco_por_kg": 42.32
+    "produto": "Sardinha com Tomate Gomes da Costa 125g",
+    "preco": 5.19,
+    "preco_por_kg": 41.52
   },
   {
     "id": 78,
@@ -563,8 +563,8 @@
     "id": 82,
     "supermercado": "Tenda",
     "produto": "Ketchup Clássico Elefante 350ml",
-    "preco": 6.25,
-    "preco_por_kg": 17.86
+    "preco": 5.29,
+    "preco_por_kg": 15.11
   },
   {
     "id": 83,
@@ -626,15 +626,15 @@
     "id": 91,
     "supermercado": "Tenda",
     "produto": "Filtro de Papel 102 Select 30 Unidades",
-    "preco": 2.9,
-    "preco_por_kg": 2.9
+    "preco": 2.6,
+    "preco_por_kg": 2.6
   },
   {
     "id": 92,
     "supermercado": "Tenda",
     "produto": "Chá de Capim Cidreira Leão 15g",
-    "preco": 8.09,
-    "preco_por_kg": 539.33
+    "preco": 6.29,
+    "preco_por_kg": 419.33
   },
   {
     "id": 93,
@@ -651,11 +651,137 @@
     "preco_por_kg": 42.09
   },
   {
+    "id": 95,
+    "supermercado": "Tenda",
+    "produto": "Macarrão Instantâneo Sabor Galinha Select 74g",
+    "preco": 1.59,
+    "preco_por_kg": 21.49
+  },
+  {
+    "id": 97,
+    "supermercado": "Tenda",
+    "produto": "Geleia Framboesa Predilecta 230g",
+    "preco": 13.45,
+    "preco_por_kg": 58.48
+  },
+  {
+    "id": 98,
+    "supermercado": "Tenda",
+    "produto": "Biscoito de Polvilho Salgado Cassini 100g",
+    "preco": 5.05,
+    "preco_por_kg": 50.5
+  },
+  {
+    "id": 99,
+    "supermercado": "Tenda",
+    "produto": "Flocão de Milho Select 500g",
+    "preco": 2.05,
+    "preco_por_kg": 4.1
+  },
+  {
+    "id": 100,
+    "supermercado": "Tenda",
+    "produto": "Pão de Forma Integral Premium Wickbold Pacote 450g",
+    "preco": 7.99,
+    "preco_por_kg": 17.76
+  },
+  {
+    "id": 101,
+    "supermercado": "Tenda",
+    "produto": "Massa de Tapioca Tradicional Select 500g",
+    "preco": 6.49,
+    "preco_por_kg": 12.98
+  },
+  {
+    "id": 102,
+    "supermercado": "Tenda",
+    "produto": "Biscoito Cookie com Pedaços, Gotas e Base de Chocolate BigCookie Bauducco 30g",
+    "preco": 2.19,
+    "preco_por_kg": 73
+  },
+  {
+    "id": 103,
+    "supermercado": "Tenda",
+    "produto": "Desinfetante Uso Geral Citrus Lysoform 2L",
+    "preco": 22.9,
+    "preco_por_kg": 11.45
+  },
+  {
+    "id": 104,
+    "supermercado": "Tenda",
+    "produto": "Sapólio Radium Cremoso Multiuso Clássico 450ml",
+    "preco": 11.9,
+    "preco_por_kg": 26.44
+  },
+  {
+    "id": 105,
+    "supermercado": "Tenda",
+    "produto": "Álcool Etílico Hidratado Tradicional Flops 1L",
+    "preco": 5.4,
+    "preco_por_kg": 5.4
+  },
+  {
+    "id": 106,
+    "supermercado": "Tenda",
+    "produto": "Shampoo Cheirinho Prolongado Johnson's Kids 180ml",
+    "preco": 13.5,
+    "preco_por_kg": 75
+  },
+  {
+    "id": 107,
+    "supermercado": "Tenda",
+    "produto": "Removedor Sintético Suprema 500ml",
+    "preco": 6.4,
+    "preco_por_kg": 12.8
+  },
+  {
+    "id": 109,
+    "supermercado": "Tenda",
+    "produto": "Aromatizador Bom Ar Click Spray Refil Leve 3 Pague 2 Flor de Algodão",
+    "preco": 21.9,
+    "preco_por_kg": 21.9
+  },
+  {
     "id": 111,
     "supermercado": "Tenda",
     "produto": "Lâmpada Led 9,0W 6.5K Bivolt Kian",
     "preco": 4.2,
     "preco_por_kg": 4.2
+  },
+  {
+    "id": 113,
+    "supermercado": "Tenda",
+    "produto": "Shampoo Darling 2x1 650ml",
+    "preco": 14.3,
+    "preco_por_kg": 22
+  },
+  {
+    "id": 114,
+    "supermercado": "Tenda",
+    "produto": "Shampoo + Condicionador Equilíbrio Pantene 300+150ml",
+    "preco": 23.9,
+    "preco_por_kg": 159.33
+  },
+  {
+    "id": 115,
+    "supermercado": "Tenda",
+    "produto": "Saco Lixo Banheiro Branco Select 50un.",
+    "preco": 4.9,
+    "preco_por_kg": 4.9
+  },
+  {
+    "id": 116,
+    "supermercado": "Tenda",
+    "produto": "Água Sanitária Suprema 2L",
+    "preco": 4.25,
+    "preco_por_kg": 2.13
+  },
+  {
+    "id": 117,
+    "supermercado": "Tenda",
+    "produto": "Lava Roupas Líquido Lavagem Perfeita Omo Refil 900ml",
+    "preco": 13.65,
+    "preco_por_kg": 15.17
   },
   {
     "id": 118,
