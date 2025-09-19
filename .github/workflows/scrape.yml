@@ -1,8 +1,6 @@
 name: Scraper Preços
 
 on:
-  #schedule:
-    #- cron: "0 */2 * * *" # roda a cada 2h UTC
   workflow_dispatch:
 
 jobs:
@@ -10,39 +8,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout do repo
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
           persist-credentials: false
 
-      # 2️⃣ Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
 
-      # 3️⃣ Instalar dependências
       - name: Install dependencies
         run: npm install
 
-       # 4️⃣ Rodar scraper Tenda
       - name: Run scraper Tenda
         run: node scrapers/scraper_tenda.js
 
-      # 5️⃣ Rodar scraper GoodBom
       - name: Run scraper GoodBom
         run: node scrapers/scraper_goodbom.js
 
-      # 6️⃣ Rodar scraper Arena
       - name: Run scraper Arena
         run: node scrapers/scraper_arena.js
 
-      # 7️⃣ Rodar comparação
+      - name: Run scraper Savegnago
+        run: node scrapers/scraper_savenago.js
+
       - name: Compare prices
         run: node scrapers/compare.js
 
-      # 8️⃣ Commit e push
       - name: Commit and push updated prices
         run: |
           git config --global user.name "github-actions"
