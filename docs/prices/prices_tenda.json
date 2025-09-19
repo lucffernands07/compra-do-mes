@@ -63,20 +63,6 @@
     "preco_por_kg": 19.9
   },
   {
-    "id": 12,
-    "supermercado": "Tenda",
-    "produto": "Picanha Bovina Fatiada 1,6kg",
-    "preco": 63.84,
-    "preco_por_kg": 39.9
-  },
-  {
-    "id": 13,
-    "supermercado": "Tenda",
-    "produto": "Miolo da Alcatra Bovina Resfriado em Bifes bandeja 400g",
-    "preco": 18.76,
-    "preco_por_kg": 46.9
-  },
-  {
     "id": 14,
     "supermercado": "Tenda",
     "produto": "Ovos Extra Branco 20 Unidades",
@@ -215,6 +201,13 @@
     "produto": "Couve Manteiga Maço Unidade",
     "preco": 3.29,
     "preco_por_kg": 3.29
+  },
+  {
+    "id": 34,
+    "supermercado": "Tenda",
+    "produto": "Alho Picado Kamar 200g",
+    "preco": 2.69,
+    "preco_por_kg": 13.45
   },
   {
     "id": 35,
@@ -441,6 +434,13 @@
     "preco_por_kg": 51.78
   },
   {
+    "id": 67,
+    "supermercado": "Tenda",
+    "produto": "Azeitona Verde com Caroço Select 80g",
+    "preco": 2.25,
+    "preco_por_kg": 28.13
+  },
+  {
     "id": 68,
     "supermercado": "Tenda",
     "produto": "Molho Shoyu Premium Umai Cepêra 270ml",
@@ -630,319 +630,11 @@
     "preco_por_kg": 42.09
   },
   {
-    "id": 95,
-    "supermercado": "Tenda",
-    "produto": "Macarrão Instantâneo Sabor Galinha Select 74g",
-    "preco": 1.59,
-    "preco_por_kg": 21.49
-  },
-  {
-    "id": 98,
-    "supermercado": "Tenda",
-    "produto": "Biscoito de Polvilho Salgado Cassini 100g",
-    "preco": 5.05,
-    "preco_por_kg": 50.5
-  },
-  {
-    "id": 99,
-    "supermercado": "Tenda",
-    "produto": "Flocão de Milho Select 500g",
-    "preco": 2.05,
-    "preco_por_kg": 4.1
-  },
-  {
-    "id": 100,
-    "supermercado": "Tenda",
-    "produto": "Pão de Forma Integral Premium Wickbold Pacote 450g",
-    "preco": 7.99,
-    "preco_por_kg": 17.76
-  },
-  {
-    "id": 101,
-    "supermercado": "Tenda",
-    "produto": "Massa de Tapioca Tradicional Select 500g",
-    "preco": 6.49,
-    "preco_por_kg": 12.98
-  },
-  {
-    "id": 102,
-    "supermercado": "Tenda",
-    "produto": "Biscoito Cookie com Pedaços, Gotas e Base de Chocolate BigCookie Bauducco 30g",
-    "preco": 2.19,
-    "preco_por_kg": 73
-  },
-  {
-    "id": 103,
-    "supermercado": "Tenda",
-    "produto": "Desinfetante Uso Geral Citrus Lysoform 2L",
-    "preco": 22.9,
-    "preco_por_kg": 11.45
-  },
-  {
-    "id": 104,
-    "supermercado": "Tenda",
-    "produto": "Sapólio Radium Cremoso Multiuso Clássico 450ml",
-    "preco": 11.9,
-    "preco_por_kg": 26.44
-  },
-  {
-    "id": 105,
-    "supermercado": "Tenda",
-    "produto": "Álcool Etílico Hidratado Tradicional Flops 1L",
-    "preco": 5.4,
-    "preco_por_kg": 5.4
-  },
-  {
-    "id": 106,
-    "supermercado": "Tenda",
-    "produto": "Shampoo Cheirinho Prolongado Johnson's Kids 180ml",
-    "preco": 13.5,
-    "preco_por_kg": 75
-  },
-  {
-    "id": 109,
-    "supermercado": "Tenda",
-    "produto": "Aromatizador Bom Ar Click Spray Refil Leve 3 Pague 2 Flor de Algodão",
-    "preco": 21.9,
-    "preco_por_kg": 21.9
-  },
-  {
-    "id": 110,
-    "supermercado": "Tenda",
-    "produto": "Óleo de Soja Select 900ml",
-    "preco": 7.35,
-    "preco_por_kg": 8.17
-  },
-  {
     "id": 111,
     "supermercado": "Tenda",
     "produto": "Lâmpada Led 9,0W 6.5K Bivolt Kian",
     "preco": 4.2,
     "preco_por_kg": 4.2
-  },
-  {
-    "id": 113,
-    "supermercado": "Tenda",
-    "produto": "Shampoo Darling 2x1 650ml",
-    "preco": 14.3,
-    "preco_por_kg": 22
-  },
-  {
-    "id": 114,
-    "supermercado": "Tenda",
-    "produto": "Shampoo + Condicionador Equilíbrio Pantene 300+150ml",
-    "preco": 23.9,
-    "preco_por_kg": 159.33
-  },
-  {
-    "id": 115,
-    "supermercado": "Tenda",
-    "produto": "Saco Lixo Banheiro Branco Select 50un.",
-    "preco": 4.9,
-    "preco_por_kg": 4.9
-  },
-  {
-    "id": 116,
-    "supermercado": "Tenda",
-    "produto": "Água Sanitária Suprema 2L",
-    "preco": 4.25,
-    "preco_por_kg": 2.13
-  },
-  {
-    "id": 117,
-    "supermercado": "Tenda",
-    "produto": "Lava Roupas Líquido Lavagem Perfeita Omo Refil 900ml",
-    "preco": 13.65,
-    "preco_por_kg": 15.17
-  },
-  {
-    "id": 118,
-    "supermercado": "Tenda",
-    "produto": "Amaciante Select Maciez 2L",
-    "preco": 7.5,
-    "preco_por_kg": 3.75
-  },
-  {
-    "id": 119,
-    "supermercado": "Tenda",
-    "produto": "Amaciante Baby Soft Azul 2L",
-    "preco": 6.95,
-    "preco_por_kg": 3.48
-  },
-  {
-    "id": 120,
-    "supermercado": "Tenda",
-    "produto": "Detergente Líquido Minuano Marine 500ml",
-    "preco": 2.2,
-    "preco_por_kg": 4.4
-  },
-  {
-    "id": 121,
-    "supermercado": "Tenda",
-    "produto": "Limpador Multiuso Limão Azulim 500ml",
-    "preco": 2.55,
-    "preco_por_kg": 5.1
-  },
-  {
-    "id": 122,
-    "supermercado": "Tenda",
-    "produto": "Alvejante sem Cloro Multiuso Triex 2L",
-    "preco": 9.49,
-    "preco_por_kg": 4.75
-  },
-  {
-    "id": 123,
-    "supermercado": "Tenda",
-    "produto": "Desinfetante Jasmim Select 2L",
-    "preco": 5.1,
-    "preco_por_kg": 2.55
-  },
-  {
-    "id": 124,
-    "supermercado": "Tenda",
-    "produto": "Esponja Multiuso Scotch-Brite",
-    "preco": 2.5,
-    "preco_por_kg": 2.5
-  },
-  {
-    "id": 125,
-    "supermercado": "Tenda",
-    "produto": "Esponja de Aço Eco Bombril 45g 6 Unidades",
-    "preco": 2.59,
-    "preco_por_kg": 57.56
-  },
-  {
-    "id": 126,
-    "supermercado": "Tenda",
-    "produto": "Fralda Infantil Premium Hiper G Select 60 Unidades",
-    "preco": 65,
-    "preco_por_kg": 65
-  },
-  {
-    "id": 127,
-    "supermercado": "Tenda",
-    "produto": "Papel Higiênico Folha Simples Select 30m 4un",
-    "preco": 4.3,
-    "preco_por_kg": 4.3
-  },
-  {
-    "id": 128,
-    "supermercado": "Tenda",
-    "produto": "Detergente Sanitário Gel Adesivo Lavanda Pato 38g Refil",
-    "preco": 13.5,
-    "preco_por_kg": 355.26
-  },
-  {
-    "id": 129,
-    "supermercado": "Tenda",
-    "produto": "Escova Dental Select 1 Unidade",
-    "preco": 3,
-    "preco_por_kg": 3
-  },
-  {
-    "id": 130,
-    "supermercado": "Tenda",
-    "produto": "Creme Dental Colgate Total Carvão Ativado 90g",
-    "preco": 9.9,
-    "preco_por_kg": 110
-  },
-  {
-    "id": 131,
-    "supermercado": "Tenda",
-    "produto": "Sabonete Líquido Erva Doce Select Refil 500ml",
-    "preco": 5.85,
-    "preco_por_kg": 11.7
-  },
-  {
-    "id": 132,
-    "supermercado": "Tenda",
-    "produto": "Sabonete Ypê Siene Rosas Vermelhas 85g",
-    "preco": 1.1,
-    "preco_por_kg": 12.94
-  },
-  {
-    "id": 133,
-    "supermercado": "Tenda",
-    "produto": "Sabonete Barra Vegetal Blue Aromatherapy Giovanna Baby 90g",
-    "preco": 3.95,
-    "preco_por_kg": 43.89
-  },
-  {
-    "id": 134,
-    "supermercado": "Tenda",
-    "produto": "Desodorante Aerosol Elements Vulcan Above 90g",
-    "preco": 2.77,
-    "preco_por_kg": 30.78
-  },
-  {
-    "id": 135,
-    "supermercado": "Tenda",
-    "produto": "Detergente Sanitário Gel Adesivo Lavanda Pato 38g Refil",
-    "preco": 13.5,
-    "preco_por_kg": 355.26
-  },
-  {
-    "id": 136,
-    "supermercado": "Tenda",
-    "produto": "Haste Flex Select 75 Unidades",
-    "preco": 3,
-    "preco_por_kg": 3
-  },
-  {
-    "id": 137,
-    "supermercado": "Tenda",
-    "produto": "Toalha Umedecida Turma da Cegonha 140 Unidades",
-    "preco": 8.5,
-    "preco_por_kg": 8.5
-  },
-  {
-    "id": 138,
-    "supermercado": "Tenda",
-    "produto": "Algodão Hidrófilo Rolo Select 50g",
-    "preco": 6,
-    "preco_por_kg": 120
-  },
-  {
-    "id": 139,
-    "supermercado": "Tenda",
-    "produto": "Solução Bucal Listerine Cool Mint L500P350ml",
-    "preco": 19.9,
-    "preco_por_kg": 56.86
-  },
-  {
-    "id": 140,
-    "supermercado": "Tenda",
-    "produto": "Biscoito Água e Sal Cream Cracker Galo 360g",
-    "preco": 4.99,
-    "preco_por_kg": 13.86
-  },
-  {
-    "id": 141,
-    "supermercado": "Tenda",
-    "produto": "Biscoito Recheado Sabor Chocolate Maxi Bauducco 25g",
-    "preco": 1.15,
-    "preco_por_kg": 46
-  },
-  {
-    "id": 142,
-    "supermercado": "Tenda",
-    "produto": "Bisnaguinha Select 300g",
-    "preco": 5.5,
-    "preco_por_kg": 18.33
-  },
-  {
-    "id": 143,
-    "supermercado": "Tenda",
-    "produto": "Areia para Gatos Classic Pipicat 4kg",
-    "preco": 11.9,
-    "preco_por_kg": 2.98
-  },
-  {
-    "id": 144,
-    "supermercado": "Tenda",
-    "produto": "Fubá Mimoso Yoki Pacote 500g",
-    "preco": 3.69,
-    "preco_por_kg": 7.38
   },
   {
     "id": 145,
