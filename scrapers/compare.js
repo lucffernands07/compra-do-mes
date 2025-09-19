@@ -43,7 +43,8 @@ let escolhidos = [];
 for (const id of ids) {
   const g = goodbomById[id].sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
   const t = tendaById[id].sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
-  const a = arenaById[id]?.sort((x, y) => x.preco - y.preco)[0] || { produto: null, preco: 0 };
+  const a = arenaById[id]?.sort((x, y) => x.preco_por_kg - y.preco_por_kg)[0] 
+           || { produto: null, preco: 0, preco_por_kg: Infinity };
 
   totalGoodbom += g.preco;
   totalTenda += t.preco;
@@ -54,11 +55,11 @@ for (const id of ids) {
     id,
     goodbom: { nome: g.produto, preco: g.preco, preco_por_kg: g.preco_por_kg },
     tenda: { nome: t.produto, preco: t.preco, preco_por_kg: t.preco_por_kg },
-    arena: { nome: a.produto, preco: a.preco },
+    arena: { nome: a.produto, preco: a.preco, preco_por_kg: a.preco_por_kg },
     mais_barato:
-      g.preco_por_kg <= t.preco_por_kg && g.preco_por_kg <= (a.preco || Infinity)
+      g.preco_por_kg <= t.preco_por_kg && g.preco_por_kg <= a.preco_por_kg
         ? "Goodbom"
-        : t.preco_por_kg <= (a.preco || Infinity)
+        : t.preco_por_kg <= a.preco_por_kg
         ? "Tenda"
         : "Arena"
   });
@@ -86,6 +87,6 @@ console.table(escolhidos.map(e => ({
   ID: e.id,
   GoodBom: `${e.goodbom.nome} - R$${e.goodbom.preco} (R$${e.goodbom.preco_por_kg}/kg)`,
   Tenda: `${e.tenda.nome} - R$${e.tenda.preco} (R$${e.tenda.preco_por_kg}/kg)`,
-  Arena: `${e.arena.nome || "Sem nome"} - R$${e.arena.preco}`,
+  Arena: `${e.arena.nome || "Sem nome"} - R$${e.arena.preco} (R$${e.arena.preco_por_kg}/kg)`,
   "Mais barato": e.mais_barato
 })));
