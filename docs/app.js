@@ -22,12 +22,13 @@ async function carregarDados() {
       return Number.isFinite(n) ? n : 0;
     };
 
-    let totalGoodbom = toNumber(data.totalGoodbom);
-    let totalTenda = toNumber(data.totalTenda);
-    let totalArena = toNumber(data.totalArena);
+    let totalGoodbom   = toNumber(data.totalGoodbom);
+    let totalTenda     = toNumber(data.totalTenda);
+    let totalArena     = toNumber(data.totalArena);
+    let totalSavegnago = toNumber(data.totalSavegnago);
 
     // determinar mais barato
-    const valores = { goodbom: totalGoodbom, tenda: totalTenda, arena: totalArena };
+    const valores = { goodbom: totalGoodbom, tenda: totalTenda, arena: totalArena, savegnago: totalSavegnago };
     const maisBaratoKey = Object.keys(valores).reduce((a,b) => valores[a]<=valores[b]?a:b);
     const maisBaratoName = maisBaratoKey.charAt(0).toUpperCase() + maisBaratoKey.slice(1);
     const valorMaisBarato = valores[maisBaratoKey];
@@ -41,6 +42,7 @@ async function carregarDados() {
           <tr ${maisBaratoKey==="goodbom"? 'class="mais-barato"':''}><td>Goodbom</td><td>R$ ${totalGoodbom.toFixed(2)}</td></tr>
           <tr ${maisBaratoKey==="tenda"? 'class="mais-barato"':''}><td>Tenda</td><td>R$ ${totalTenda.toFixed(2)}</td></tr>
           <tr ${maisBaratoKey==="arena"? 'class="mais-barato"':''}><td>Arena</td><td>R$ ${totalArena.toFixed(2)}</td></tr>
+          <tr ${maisBaratoKey==="savegnago"? 'class="mais-barato"':''}><td>Savegnago</td><td>R$ ${totalSavegnago.toFixed(2)}</td></tr>
         </tbody>
       </table>
       <br><p>Supermercado mais barato: <strong>${maisBaratoName} (R$ ${valorMaisBarato.toFixed(2)})</strong></p>
