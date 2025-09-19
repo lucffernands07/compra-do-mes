@@ -42,7 +42,11 @@ async function buscarProdutos(page, termo) {
 }
 
 function parsePreco(txt) {
-  return parseFloat(txt.replace("R$", "").replace(",", ".").replace(/[^\d.]/g, "")) || 0;
+  return parseFloat(
+    txt.replace("R$", "")
+      .replace(",", ".")
+      .replace(/[^\d.]/g, "")
+  ) || 0;
 }
 
 (async () => {
@@ -64,13 +68,18 @@ function parsePreco(txt) {
       console.log(`🔍 Buscando: ${termo}`);
       const encontrados = await buscarProdutos(page, termo);
 
+      const termoLower = termo.toLowerCase();
       const validos = encontrados
         .map(p => ({
           nome: p.nome,
           preco: parsePreco(p.precoTxt),
           peso: extrairPeso(p.nome)
         }))
-        .filter(p => p.preco > 0);
+        .filter(p =>
+          p.preco > 0 &&
+          (p.nome.toLowerCase().startsWith(termoLower) ||
+           p.nome.toLowerCase().startsWith(termoLower + " "))
+        );
 
       if (validos.length > 0) {
         validos.forEach(p => {
