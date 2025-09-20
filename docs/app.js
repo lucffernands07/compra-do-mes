@@ -57,7 +57,7 @@ async function carregarDados() {
       <p>Supermercado mais barato: <strong>${maisBaratoName} (R$ ${valorMaisBarato.toFixed(2)})</strong></p>
 
       <!-- ✅ Novas informações -->
-      <p>Total de produtos comparados: <strong>${totalProdutos}</strong></p>
+      <p>Total de produtos comparados: ${totalProdutos}</p>
       <p>Produtos faltando no ${maisBaratoName}: <strong>${produtosFaltantes}</strong></p>
     `;
 
