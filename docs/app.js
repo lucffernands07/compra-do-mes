@@ -36,6 +36,11 @@ async function carregarDados() {
     const maisBaratoName = maisBaratoKey.charAt(0).toUpperCase() + maisBaratoKey.slice(1);
     const valorMaisBarato = valores[maisBaratoKey];
 
+    // 🔢 NOVOS CÁLCULOS
+    const totalProdutos = produtos.length; // todos os produtos comparados
+    const produtosDisponiveis = produtos.filter(p => toNumber(p[maisBaratoKey]?.preco) > 0).length;
+    const produtosFaltantes = totalProdutos - produtosDisponiveis;
+
     // tabela de totais
     const tabelaTotais = `
       <br><h2>Comparação de Preços</h2><br>
@@ -48,7 +53,12 @@ async function carregarDados() {
           <tr ${maisBaratoKey==="savegnago"? 'class="mais-barato"':''}><td>Savegnago</td><td>R$ ${totalSavegnago.toFixed(2)}</td></tr>
         </tbody>
       </table>
-      <br><p>Supermercado mais barato: <strong>${maisBaratoName} (R$ ${valorMaisBarato.toFixed(2)})</strong></p>
+      <br>
+      <p>Supermercado mais barato: <strong>${maisBaratoName} (R$ ${valorMaisBarato.toFixed(2)})</strong></p>
+
+      <!-- ✅ Novas informações -->
+      <p>Total de produtos comparados: <strong>${totalProdutos}</strong></p>
+      <p>Produtos faltando no ${maisBaratoName}: <strong>${produtosFaltantes}</strong></p>
     `;
 
     // lista dos produtos do supermercado mais barato
