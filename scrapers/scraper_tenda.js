@@ -26,7 +26,7 @@ function extrairPeso(nome) {
   return 1; // fallback
 }
 
-// Normalizar texto para comparação (remove acentos, espaços extras)
+// Normalizar texto para comparação (remove acentos, espaços extras e minúsculas)
 function normalizar(str) {
   return str
     .normalize("NFD")                  // separa acentos
@@ -88,12 +88,10 @@ async function main() {
 
   // 3️⃣ Clicar em "Informe seu cep" e digitar CEP
   try {
-    // botão “Informe seu cep”
     await page.waitForSelector('span:has-text("Informe seu cep")', { timeout: 8000 });
     await page.click('span:has-text("Informe seu cep")');
     console.log("✅ Clique no botão CEP");
 
-    // input do CEP
     await page.waitForSelector("#shipping-cep", { timeout: 8000 });
     await page.type("#shipping-cep", "13187166", { delay: 100 });
     await page.keyboard.press("Enter");
@@ -118,16 +116,13 @@ async function main() {
       console.log(`🔍 Buscando: ${termo}`);
       const encontrados = await buscarProduto(page, termo);
 
-      // 🔎 Log para depuração (ver exatamente o que o site retorna)
+      // 🔎 Log para depuração
       encontrados.forEach(p => console.log(">>", JSON.stringify(p.nome)));
 
       const termoNorm = normalizar(termo);
       const validos = encontrados.filter(p => {
         const nomeNorm = normalizar(p.nome);
-        return (
-          p.preco > 0 &&
-          (nomeNorm.startsWith(termoNorm) || nomeNorm.startsWith(termoNorm + " "))
-        );
+        return p.preco > 0 && nomeNorm.includes(termoNorm);
       });
 
       if (validos.length === 0) {
