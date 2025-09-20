@@ -5,7 +5,9 @@ const fs = require("fs");
 const INPUT_FILE = "products.txt";
 const OUTPUT_FILE = "docs/prices/prices_tenda.json";
 
-// Função para extrair peso do nome do produto
+// -------------------- Funções auxiliares --------------------
+
+// Extrair peso do nome do produto
 function extrairPeso(nome) {
   nome = nome.toLowerCase();
 
@@ -22,6 +24,16 @@ function extrairPeso(nome) {
   if (match) return parseFloat(match[1].replace(",", ".")); // litro direto
 
   return 1; // fallback
+}
+
+// Normalizar texto para comparação (remove acentos, espaços extras)
+function normalizar(str) {
+  return str
+    .normalize("NFD")                  // separa acentos
+    .replace(/[\u0300-\u036f]/g, "")   // remove acentos
+    .replace(/\s+/g, " ")              // colapsa espaços
+    .trim()
+    .toLowerCase();
 }
 
 async function buscarProduto(page, termo) {
@@ -51,6 +63,7 @@ async function buscarProduto(page, termo) {
   });
 }
 
+// -------------------- Principal --------------------
 async function main() {
   const browser = await puppeteer.launch({
     headless: "new",
@@ -58,7 +71,7 @@ async function main() {
   });
   const page = await browser.newPage();
 
-  // 1️⃣ Abre a página inicial
+  // 1️⃣ Abre a página inicial de busca
   await page.goto("https://www.tendaatacado.com.br/busca?q=", {
     waitUntil: "domcontentloaded",
     timeout: 60000
@@ -66,8 +79,8 @@ async function main() {
 
   // 2️⃣ Fecha popup “Agora não” se aparecer
   try {
-    await page.waitForSelector('button.btn.btn-transparent', { timeout: 5000 });
-    await page.click('button.btn.btn-transparent');
+    await page.waitForSelector("button.btn.btn-transparent", { timeout: 5000 });
+    await page.click("button.btn.btn-transparent");
     console.log("✅ Popup fechado");
   } catch {
     console.log("ℹ️ Popup não apareceu");
@@ -81,9 +94,9 @@ async function main() {
     console.log("✅ Clique no botão CEP");
 
     // input do CEP
-    await page.waitForSelector('#shipping-cep', { timeout: 8000 });
-    await page.type('#shipping-cep', '13187166', { delay: 100 });
-    await page.keyboard.press('Enter');
+    await page.waitForSelector("#shipping-cep", { timeout: 8000 });
+    await page.type("#shipping-cep", "13187166", { delay: 100 });
+    await page.keyboard.press("Enter");
     await page.waitForTimeout(6000);
     console.log("✅ CEP configurado");
   } catch (err) {
@@ -105,12 +118,15 @@ async function main() {
       console.log(`🔍 Buscando: ${termo}`);
       const encontrados = await buscarProduto(page, termo);
 
-      const termoLower = termo.toLowerCase();
+      // 🔎 Log para depuração (ver exatamente o que o site retorna)
+      encontrados.forEach(p => console.log(">>", JSON.stringify(p.nome)));
+
+      const termoNorm = normalizar(termo);
       const validos = encontrados.filter(p => {
-        const nomeLower = p.nome.toLowerCase();
+        const nomeNorm = normalizar(p.nome);
         return (
           p.preco > 0 &&
-          (nomeLower.startsWith(termoLower) || nomeLower.startsWith(termoLower + " "))
+          (nomeNorm.startsWith(termoNorm) || nomeNorm.startsWith(termoNorm + " "))
         );
       });
 
