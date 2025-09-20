@@ -20,6 +20,12 @@ const tenda     = load(tendaFile);
 const arena     = load(arenaFile);
 const savegnago = load(savegnagoFile);
 
+// Função para garantir número válido
+function safeNumber(n) {
+  n = parseFloat(n);
+  return isNaN(n) || !isFinite(n) || n <= 0 ? 0 : n;
+}
+
 // Agrupar por id
 function groupById(data) {
   const map = {};
@@ -45,18 +51,30 @@ let totalSavegnago = 0;
 let escolhidos = [];
 
 for (const id of ids) {
-  const g = goodbomById[id].sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
-  const t = tendaById[id].sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
-  const a = arenaById[id]?.sort((x, y) => x.preco_por_kg - y.preco_por_kg)[0]
-           || { produto: null, preco: 0, preco_por_kg: Infinity };
-  const s = savegnagoById[id]?.sort((x, y) => x.preco_por_kg - y.preco_por_kg)[0]
-           || { produto: null, preco: 0, preco_por_kg: Infinity };
+  const g = goodbomById[id].sort((a, b) => safeNumber(a.preco_por_kg) - safeNumber(b.preco_por_kg))[0];
+  const t = tendaById[id].sort((a, b) => safeNumber(a.preco_por_kg) - safeNumber(b.preco_por_kg))[0];
+  const a = arenaById[id]?.sort((x, y) => safeNumber(x.preco_por_kg) - safeNumber(y.preco_por_kg))[0]
+           || { produto: null, preco: 0, preco_por_kg: 0 };
+  const s = savegnagoById[id]?.sort((x, y) => safeNumber(x.preco_por_kg) - safeNumber(y.preco_por_kg))[0]
+           || { produto: null, preco: 0, preco_por_kg: 0 };
 
   // Totais = somatória por kg
-  totalGoodbom   += g.preco_por_kg;
-  totalTenda     += t.preco_por_kg;
-  totalArena     += a.preco_por_kg;
-  totalSavegnago += s.preco_por_kg;
+  totalGoodbom   += safeNumber(g.preco_por_kg);
+  totalTenda     += safeNumber(t.preco_por_kg);
+  totalArena     += safeNumber(a.preco_por_kg);
+  totalSavegnago += safeNumber(s.preco_por_kg);
+
+  // Determinar mais barato ignorando zeros
+  const preços = [
+    { loja: "Goodbom", preco: safeNumber(g.preco_por_kg) },
+    { loja: "Tenda", preco: safeNumber(t.preco_por_kg) },
+    { loja: "Arena", preco: safeNumber(a.preco_por_kg) },
+    { loja: "Savegnago", preco: safeNumber(s.preco_por_kg) },
+  ].filter(p => p.preco > 0);
+
+  const mais_barato = preços.length
+    ? preços.reduce((min, p) => (p.preco < min.preco ? p : min), preços[0]).loja
+    : null;
 
   escolhidos.push({
     id,
@@ -64,16 +82,7 @@ for (const id of ids) {
     tenda:     { nome: t.produto, preco: t.preco, preco_por_kg: t.preco_por_kg },
     arena:     { nome: a.produto, preco: a.preco, preco_por_kg: a.preco_por_kg },
     savegnago: { nome: s.produto, preco: s.preco, preco_por_kg: s.preco_por_kg },
-    mais_barato:
-      g.preco_por_kg <= t.preco_por_kg &&
-      g.preco_por_kg <= a.preco_por_kg &&
-      g.preco_por_kg <= s.preco_por_kg
-        ? "Goodbom"
-        : t.preco_por_kg <= a.preco_por_kg && t.preco_por_kg <= s.preco_por_kg
-        ? "Tenda"
-        : a.preco_por_kg <= s.preco_por_kg
-        ? "Arena"
-        : "Savegnago"
+    mais_barato
   });
 }
 
