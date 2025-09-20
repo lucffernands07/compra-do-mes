@@ -1,8 +1,8 @@
 {
-  "totalGoodbom": "1478.80",
-  "totalTenda": "1631.88",
-  "totalArena": "Infinity",
-  "totalSavegnago": "2065.23",
+  "totalGoodbom": "1538.01",
+  "totalTenda": "1762.15",
+  "totalArena": "2262.96",
+  "totalSavegnago": "2601.90",
   "produtos": [
     {
       "id": "3",
@@ -46,9 +46,9 @@
         "preco_por_kg": 19.9
       },
       "savegnago": {
-        "nome": "Linguiça Tipo Calabresa Seara Bandeja 480g",
-        "preco": 9.45,
-        "preco_por_kg": 19.69
+        "nome": "Linguiça Chimichurri Churrasco Seara 600g",
+        "preco": 13.9,
+        "preco_por_kg": 23.17
       },
       "mais_barato": "Tenda"
     },
@@ -218,7 +218,7 @@
         "preco": 0,
         "preco_por_kg": 0
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Tenda"
     },
     {
       "id": "21",
@@ -290,7 +290,7 @@
         "preco": 0,
         "preco_por_kg": 0
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "24",
@@ -307,7 +307,7 @@
       "arena": {
         "nome": null,
         "preco": 0,
-        "preco_por_kg": null
+        "preco_por_kg": 0
       },
       "savegnago": {
         "nome": "Abobrinha Bandeja 800g",
@@ -574,9 +574,9 @@
         "preco_por_kg": 12.9
       },
       "savegnago": {
-        "nome": "Banana Prata Bandeja 900g",
-        "preco": 4.35,
-        "preco_por_kg": 4.83
+        "nome": "Banana Nanica Exportação - 1kg",
+        "preco": 7.49,
+        "preco_por_kg": 7.49
       },
       "mais_barato": "Tenda"
     },
@@ -602,7 +602,7 @@
         "preco": 0,
         "preco_por_kg": 0
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Tenda"
     },
     {
       "id": "38",
@@ -650,7 +650,7 @@
         "preco": 0,
         "preco_por_kg": 0
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Arena"
     },
     {
       "id": "41",
@@ -694,9 +694,9 @@
         "preco_por_kg": 5.89
       },
       "savegnago": {
-        "nome": "Leite Italac Integral Com Tampa 1L",
-        "preco": 5.15,
-        "preco_por_kg": 5.15
+        "nome": "Leite em Pó Ninho Integral Sachê 575g",
+        "preco": 32.4,
+        "preco_por_kg": 56.35
       },
       "mais_barato": "Tenda"
     },
@@ -814,9 +814,9 @@
         "preco_por_kg": 3.86
       },
       "savegnago": {
-        "nome": "Arroz Branco Tipo 1 - 5kg Camil",
-        "preco": 21.9,
-        "preco_por_kg": 4.38
+        "nome": "Arroz Carreteiro Na Panelinha Seara 300g",
+        "preco": 25.9,
+        "preco_por_kg": 86.33
       },
       "mais_barato": "Arena"
     },
@@ -910,9 +910,9 @@
         "preco_por_kg": 21.12
       },
       "savegnago": {
-        "nome": "Milho Verde Fugini 170g Sachê",
-        "preco": 3.69,
-        "preco_por_kg": 21.71
+        "nome": "MILHO",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Goodbom"
     },
@@ -1034,7 +1034,7 @@
         "preco": 0,
         "preco_por_kg": 0
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "83",
@@ -1202,30 +1202,6 @@
         "preco": 0,
         "preco_por_kg": 0
       },
-      "mais_barato": "Savegnago"
-    },
-    {
-      "id": "97",
-      "goodbom": {
-        "nome": "GELEIA FALEX FRUTAS 200G",
-        "preco": 6.79,
-        "preco_por_kg": 33.95
-      },
-      "tenda": {
-        "nome": "Geleia Framboesa Predilecta 230g",
-        "preco": 13.45,
-        "preco_por_kg": 58.48
-      },
-      "arena": {
-        "nome": "Geleia De Morango Turma Da Monica Purifruti 230gr",
-        "preco": 9.99,
-        "preco_por_kg": 43.43
-      },
-      "savegnago": {
-        "nome": "Geleia Predilecta 230g Goiaba Vidro",
-        "preco": 16.2,
-        "preco_por_kg": 70.43
-      },
       "mais_barato": "Goodbom"
     },
     {
@@ -1274,7 +1250,7 @@
         "preco": 0,
         "preco_por_kg": 0
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Arena"
     },
     {
       "id": "105",
@@ -1298,7 +1274,7 @@
         "preco": 0,
         "preco_por_kg": 0
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "107",
@@ -1469,26 +1445,98 @@
       "mais_barato": "Savegnago"
     },
     {
-      "id": "123",
+      "id": "126",
       "goodbom": {
-        "nome": "DESINFETANTE BARBAREX VIOLEX 2L",
-        "preco": 5.49,
-        "preco_por_kg": 2.75
+        "nome": "FRALDA PERSONAL BABY XG.C/18",
+        "preco": 25.99,
+        "preco_por_kg": 25.99
       },
       "tenda": {
-        "nome": "Desinfetante Jasmim Select 2L",
-        "preco": 5.1,
-        "preco_por_kg": 2.55
+        "nome": "Fralda Infantil Premium Hiper G Select 60 Unidades",
+        "preco": 65,
+        "preco_por_kg": 65
       },
       "arena": {
-        "nome": "Desinfetante Barbarex Sensações 5l",
-        "preco": 11.59,
-        "preco_por_kg": 2.32
+        "nome": "Fralda Descartável Little Baby Mega",
+        "preco": 28.9,
+        "preco_por_kg": 28.9
       },
       "savegnago": {
-        "nome": "Desinfetante Lysoform 2L Original",
-        "preco": 23.04,
-        "preco_por_kg": 11.52
+        "nome": "Fralda Babysec Ultra Hiper C/56 XG",
+        "preco": 77.9,
+        "preco_por_kg": 77.9
+      },
+      "mais_barato": "Goodbom"
+    },
+    {
+      "id": "127",
+      "goodbom": {
+        "nome": "PAPEL HIGIÊNICO FOLHA DUPLA DUETTO NEUTRO C/4",
+        "preco": 7.99,
+        "preco_por_kg": 7.99
+      },
+      "tenda": {
+        "nome": "Papel Higiênico Folha Simples Select 30m 4un",
+        "preco": 4.3,
+        "preco_por_kg": 4.3
+      },
+      "arena": {
+        "nome": "Papel Higiênico Folha Dupla Neutro Cotton 30m",
+        "preco": 19.99,
+        "preco_por_kg": 19.99
+      },
+      "savegnago": {
+        "nome": "Papel Higiênico Personal Vip Folha Dupla com 12 rolos de 30 metros",
+        "preco": 17.9,
+        "preco_por_kg": 17.9
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "129",
+      "goodbom": {
+        "nome": "ESCOVA DE DENTE COLGATE CLASSIC CLEAN 3 UNID",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
+      },
+      "tenda": {
+        "nome": "Escova de Dente Select 5 Unidades",
+        "preco": 12,
+        "preco_por_kg": 12
+      },
+      "arena": {
+        "nome": null,
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "savegnago": {
+        "nome": "Escova de Dente Colgate Classic Clean 1 unid",
+        "preco": 6.35,
+        "preco_por_kg": 6.35
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
+      "id": "130",
+      "goodbom": {
+        "nome": "CREME DENTAL COLGATE TOTAL 12 ANTI TÁRTARO 180G",
+        "preco": 8.99,
+        "preco_por_kg": 49.94
+      },
+      "tenda": {
+        "nome": "Creme Dental Colgate Total Carvão Ativado 90g",
+        "preco": 9.9,
+        "preco_por_kg": 110
+      },
+      "arena": {
+        "nome": "Creme Dental Sorriso Dentes Brancos 90g",
+        "preco": 3.79,
+        "preco_por_kg": 42.11
+      },
+      "savegnago": {
+        "nome": "Creme Dental Sensodyne Proteção Completa 90g com 2 unidades",
+        "preco": 35.9,
+        "preco_por_kg": 398.89
       },
       "mais_barato": "Arena"
     },
@@ -1658,7 +1706,7 @@
         "preco": 0,
         "preco_por_kg": 0
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Arena"
     }
   ]
 }
