@@ -36,14 +36,14 @@ async function buscarProduto(page, termo) {
           card.querySelector("h3.TitleCardComponent")?.innerText.trim() ||
           "Produto sem nome";
 
-        // captura e limpa preço
-        const precoTxt = card.querySelector("div.SimplePriceComponent")?.innerText || "0";
+        const precoTxt =
+          card.querySelector("div.SimplePriceComponent")?.innerText || "0";
         const preco = parseFloat(
           precoTxt
-            .replace(/\s/g, "")       // remove espaços normais e nbsp
+            .replace(/\s/g, "")
             .replace("R$", "")
             .replace(",", ".")
-            .replace(/[^\d.]/g, "")   // remove qualquer caractere que não seja número ou ponto
+            .replace(/[^\d.]/g, "")
         ) || 0;
 
         return { nome, preco };
@@ -58,23 +58,39 @@ async function main() {
   });
   const page = await browser.newPage();
 
-  // Abrir site e preencher CEP (se necessário)
-  await page.goto("https://www.tendaatacado.com.br", {
+  // 1️⃣ Abre a página inicial
+  await page.goto("https://www.tendaatacado.com.br/busca?q=", {
     waitUntil: "domcontentloaded",
     timeout: 60000
   });
 
+  // 2️⃣ Fecha popup “Agora não” se aparecer
   try {
-    await page.waitForSelector("#shipping-cep", { timeout: 10000 });
-    await page.type("#shipping-cep", "13187166", { delay: 100 });
-    await page.keyboard.press("Enter");
-    await page.waitForTimeout(4000);
-    console.log("✅ CEP configurado");
+    await page.waitForSelector('button.btn.btn-transparent', { timeout: 5000 });
+    await page.click('button.btn.btn-transparent');
+    console.log("✅ Popup fechado");
   } catch {
-    console.log("⚠️ CEP input não encontrado, talvez já esteja configurado.");
+    console.log("ℹ️ Popup não apareceu");
   }
 
-  // Ler lista de produtos
+  // 3️⃣ Clicar em "Informe seu cep" e digitar CEP
+  try {
+    // botão “Informe seu cep”
+    await page.waitForSelector('span:has-text("Informe seu cep")', { timeout: 8000 });
+    await page.click('span:has-text("Informe seu cep")');
+    console.log("✅ Clique no botão CEP");
+
+    // input do CEP
+    await page.waitForSelector('#shipping-cep', { timeout: 8000 });
+    await page.type('#shipping-cep', '13187166', { delay: 100 });
+    await page.keyboard.press('Enter');
+    await page.waitForTimeout(6000);
+    console.log("✅ CEP configurado");
+  } catch (err) {
+    console.log("⚠️ Falha ao configurar CEP (talvez já esteja setado):", err.message);
+  }
+
+  // 4️⃣ Ler lista de produtos
   const produtos = fs
     .readFileSync(INPUT_FILE, "utf-8")
     .split("\n")
@@ -84,12 +100,11 @@ async function main() {
   let resultados = [];
 
   for (const [index, termo] of produtos.entries()) {
-    const id = index + 1; // ID baseado na ordem do products.txt
+    const id = index + 1;
     try {
       console.log(`🔍 Buscando: ${termo}`);
       const encontrados = await buscarProduto(page, termo);
 
-      // ✅ Filtrar preços válidos e nome começando com o termo buscado
       const termoLower = termo.toLowerCase();
       const validos = encontrados.filter(p => {
         const nomeLower = p.nome.toLowerCase();
@@ -100,11 +115,10 @@ async function main() {
       });
 
       if (validos.length === 0) {
-        console.log(`⚠️ Nenhum preço válido encontrado para ${termo}`);
+        console.log(`⚠️ Nenhum preço válido para ${termo}`);
         continue;
       }
 
-      // Selecionar o mais barato
       const maisBarato = validos.reduce((a, b) =>
         a.preco < b.preco ? a : b
       );
@@ -118,9 +132,7 @@ async function main() {
         preco_por_kg: +(maisBarato.preco / peso).toFixed(2)
       });
 
-      console.log(
-        `✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`
-      );
+      console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
     } catch (err) {
       console.error(`❌ Erro ao buscar ${termo}:`, err.message);
     }
@@ -128,7 +140,6 @@ async function main() {
 
   await browser.close();
 
-  // Salvar JSON
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(resultados, null, 2), "utf-8");
   console.log(`💾 Resultados salvos em ${OUTPUT_FILE}`);
 }
