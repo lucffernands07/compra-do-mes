@@ -1,17 +1,29 @@
 // scrapers/scraper_arena.js
+const puppeteer = require("puppeteer");
 const fs = require("fs");
 const path = require("path");
-const puppeteer = require("puppeteer");
 
-const outputFile = path.join(__dirname, "..", "docs", "prices", "prices_arena.json");
-const productsFile = path.join(__dirname, "..", "products.txt");
+// Caminhos
+const produtosTxtPath = path.join(__dirname, "..", "products.txt");
+const outDir = path.join(__dirname, "..", "docs", "prices");
 
 // Lê lista de produtos
-const produtos = fs.existsSync(productsFile)
-  ? fs.readFileSync(productsFile, "utf-8").split("\n").map(p => p.trim()).filter(Boolean)
-  : [];
+const produtos = fs.readFileSync(produtosTxtPath, "utf-8")
+  .split("\n")
+  .map(l => l.trim())
+  .filter(Boolean);
 
-// Função auxiliar para extrair e formatar preços
+// Extrai peso em kg/l do nome do produto
+function extrairPeso(nome) {
+  const match = nome.toLowerCase().match(/(\d+)\s*(g|kg|ml|l)/);
+  if (!match) return 1;
+  let qtd = parseFloat(match[1]);
+  const unidade = match[2];
+  if (unidade === "g" || unidade === "ml") qtd /= 1000;
+  return qtd || 1;
+}
+
+// Converte texto de preço para número
 function parsePreco(txt) {
   if (!txt) return 0;
   return parseFloat(
@@ -19,87 +31,75 @@ function parsePreco(txt) {
   ) || 0;
 }
 
-// Função auxiliar para calcular preço por kg/l se houver
-function parsePrecoPorKg(nome, preco) {
-  const match = nome.match(/(\d+)[ ]?(g|kg|ml|l)/i);
-  if (!match) return preco;
-  let quantidade = parseFloat(match[1]);
-  const unidade = match[2].toLowerCase();
-
-  if (unidade === "g" || unidade === "ml") quantidade /= 1000; // converter para kg/l
-  return preco / quantidade;
-}
-
-async function buscarProdutos(page, termo) {
-  const url = `https://www.arenaatacado.com.br/on/demandware.store/Sites-Arena-Site/pt_BR/Search-Show?q=${encodeURIComponent(termo)}&lang=`;
-  await page.goto(url, { waitUntil: "networkidle2", timeout: 60000 });
-
-  return await page.evaluate(() => {
-    const nomes = Array.from(document.querySelectorAll("span.productCard__title"));
-    const precos = Array.from(document.querySelectorAll("span.productPrice__price"));
-
-    return nomes.slice(0, 3).map((el, i) => {
-      const nome = el.innerText.trim();
-      const precoTxt = precos[i] ? precos[i].innerText.trim() : "0";
-      return { nome, precoTxt };
-    });
-  });
-}
-
-(async () => {
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: ["--no-sandbox", "--disable-setuid-sandbox"]
-  });
+async function main() {
+  const browser = await puppeteer.launch({ headless: "new", args: ["--no-sandbox"] });
   const page = await browser.newPage();
 
-  const results = [];
+  const resultado = [];
 
-  for (const [index, termo] of produtos.entries()) {
-    try {
-      const encontrados = await buscarProdutos(page, termo);
+  try {
+    for (const [index, produto] of produtos.entries()) {
+      const id = index + 1;
 
-      const validos = encontrados
-        .map(p => ({ nome: p.nome, preco: parsePreco(p.precoTxt) }))
-        .filter(p => p.preco > 0);
+      await page.goto(
+        `https://www.arenaatacado.com.br/on/demandware.store/Sites-Arena-Site/pt_BR/Search-Show?q=${encodeURIComponent(produto)}`,
+        { waitUntil: "networkidle2", timeout: 60000 }
+      );
+
+      const items = await page.evaluate(() => {
+        const nomes = Array.from(document.querySelectorAll("span.productCard__title"));
+        const precos = Array.from(document.querySelectorAll("span.productPrice__price"));
+
+        return nomes.slice(0, 3).map((el, i) => {
+          const nome = el.innerText.trim();
+          const precoTxt = precos[i] ? precos[i].innerText.trim() : "0";
+          return { nome, precoTxt };
+        });
+      });
+
+      // Formata preços e calcula preço por kg/l
+      const validos = items
+        .map(it => {
+          const preco = parsePreco(it.precoTxt);
+          const peso = extrairPeso(it.nome);
+          return {
+            nome: it.nome,
+            preco,
+            preco_por_kg: parseFloat((preco / peso).toFixed(2))
+          };
+        })
+        .filter(it => it.preco > 0);
 
       if (validos.length > 0) {
-        const maisBarato = validos.reduce((a, b) => (a.preco < b.preco ? a : b));
-        results.push({
-          id: index + 1, // id sequencial, você pode ajustar para usar algum mapeamento do products.txt
+        const maisBarato = validos.sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
+
+        resultado.push({
+          id,
           supermercado: "Arena",
           produto: maisBarato.nome,
           preco: maisBarato.preco,
-          preco_por_kg: parsePrecoPorKg(maisBarato.nome, maisBarato.preco)
+          preco_por_kg: maisBarato.preco_por_kg
         });
+
         console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
       } else {
-        results.push({
-          id: index + 1,
-          supermercado: "Arena",
-          produto: termo,
-          preco: 0,
-          preco_por_kg: 0
-        });
-        console.log(`⚠️ Nenhum preço válido encontrado para "${termo}"`);
+        console.log(`⚠️ Nenhum resultado para: ${produto}`);
       }
-    } catch (err) {
-      console.error(`❌ Erro ao buscar ${termo}:`, err.message);
-      results.push({
-        id: index + 1,
-        supermercado: "Arena",
-        produto: termo,
-        preco: 0,
-        preco_por_kg: 0
-      });
     }
+
+    // Salvar JSON
+    if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
+    fs.writeFileSync(
+      path.join(outDir, "prices_arena.json"),
+      JSON.stringify(resultado, null, 2)
+    );
+
+    console.log("💾 Preços Arena salvos com sucesso!");
+  } catch (err) {
+    console.error("❌ Erro no scraper Arena:", err.message);
+  } finally {
+    await browser.close();
   }
+}
 
-  await browser.close();
-
-  // Salvar JSON
-  if (!fs.existsSync(path.dirname(outputFile))) fs.mkdirSync(path.dirname(outputFile), { recursive: true });
-  fs.writeFileSync(outputFile, JSON.stringify(results, null, 2), "utf-8");
-
-  console.log(`💾 Preços da Arena salvos em ${outputFile}`);
-})();
+main();
