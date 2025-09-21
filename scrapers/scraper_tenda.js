@@ -48,15 +48,11 @@ async function buscarProduto(page, termo) {
           card.querySelector("h3.TitleCardComponent")?.innerText.trim() ||
           "Produto sem nome";
 
+        // Captura preço usando regex segura
         const precoTxt =
           card.querySelector("div.SimplePriceComponent")?.innerText || "0";
-        const preco = parseFloat(
-          precoTxt
-            .replace(/\s/g, "")
-            .replace("R$", "")
-            .replace(",", ".")
-            .replace(/[^\d.]/g, "")
-        ) || 0;
+        const match = precoTxt.match(/(\d+[.,]?\d*)/);
+        const preco = match ? parseFloat(match[1].replace(",", ".")) : 0;
 
         return { nome, preco };
       });
