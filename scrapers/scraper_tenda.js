@@ -36,19 +36,19 @@ function normalizar(str) {
     .toLowerCase();
 }
 
+// Buscar produtos usando apenas classes do produto e preço
 async function buscarProduto(page, termo) {
   const url = `https://www.tendaatacado.com.br/busca?q=${encodeURIComponent(termo)}`;
   await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
 
   return await page.evaluate(() => {
-    return Array.from(document.querySelectorAll("a.showcase-card-content"))
-      .slice(0, 3)
+    return Array.from(document.querySelectorAll("div.ShowcaseCardComponent"))
+      .slice(0, 5) // agora pega até 5 produtos
       .map(card => {
         const nome =
           card.querySelector("h3.TitleCardComponent")?.innerText.trim() ||
           "Produto sem nome";
 
-        // Captura preço usando regex segura
         const precoTxt =
           card.querySelector("div.SimplePriceComponent")?.innerText || "0";
         const match = precoTxt.match(/(\d+[.,]?\d*)/);
