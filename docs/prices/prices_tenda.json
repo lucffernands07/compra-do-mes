@@ -1,19 +1,5 @@
 [
   {
-    "id": 2,
-    "supermercado": "Tenda",
-    "produto": "Bacon Pedaço Sadia 500g",
-    "preco": 14.75,
-    "preco_por_kg": 29.5
-  },
-  {
-    "id": 3,
-    "supermercado": "Tenda",
-    "produto": "Linguiça Calabresa Brasa 400g",
-    "preco": 13.39,
-    "preco_por_kg": 33.48
-  },
-  {
     "id": 5,
     "supermercado": "Tenda",
     "produto": "Linguiça Toscana Congelada Pérola 500g",
@@ -75,6 +61,13 @@
     "produto": "Pimentão Amarelo Bandeja 350g",
     "preco": 11.89,
     "preco_por_kg": 33.97
+  },
+  {
+    "id": 22,
+    "supermercado": "Tenda",
+    "produto": "Vagem Macarrão Bandeja 340g",
+    "preco": 4.99,
+    "preco_por_kg": 14.68
   },
   {
     "id": 23,
@@ -203,13 +196,6 @@
     "preco_por_kg": 44.94
   },
   {
-    "id": 44,
-    "supermercado": "Tenda",
-    "produto": "Mortadela Defumada Sadia Fatiada 180g",
-    "preco": 5.45,
-    "preco_por_kg": 30.28
-  },
-  {
     "id": 45,
     "supermercado": "Tenda",
     "produto": "Batata Congelada Select 2kg",
@@ -231,11 +217,11 @@
     "preco_por_kg": 14.71
   },
   {
-    "id": 52,
+    "id": 54,
     "supermercado": "Tenda",
-    "produto": "Arroz Tipo 1 Select 1Kg",
-    "preco": 4,
-    "preco_por_kg": 4
+    "produto": "Macarrão de Arroz Espaguete Urbano 500g",
+    "preco": 3.75,
+    "preco_por_kg": 7.5
   },
   {
     "id": 56,
@@ -306,13 +292,6 @@
     "produto": "Suco Concentrado de Caju Imbiara 500ml",
     "preco": 5.25,
     "preco_por_kg": 10.5
-  },
-  {
-    "id": 75,
-    "supermercado": "Tenda",
-    "produto": "Catchup Tradicional Quero 400g",
-    "preco": 7.39,
-    "preco_por_kg": 18.47
   },
   {
     "id": 76,
@@ -420,6 +399,13 @@
     "preco_por_kg": 2.55
   },
   {
+    "id": 107,
+    "supermercado": "Tenda",
+    "produto": "Papel Higiênico Folha Simples Select 30m 4un",
+    "preco": 4.3,
+    "preco_por_kg": 4.3
+  },
+  {
     "id": 109,
     "supermercado": "Tenda",
     "produto": "Escova de Dente Select 5 Unidades",
@@ -481,13 +467,6 @@
     "produto": "Areia para Gatos Classic Pipicat 12kg",
     "preco": 36.5,
     "preco_por_kg": 3.04
-  },
-  {
-    "id": 121,
-    "supermercado": "Tenda",
-    "produto": "Fubá Mimoso Yoki Pacote 500g",
-    "preco": 3.69,
-    "preco_por_kg": 7.38
   },
   {
     "id": 122,

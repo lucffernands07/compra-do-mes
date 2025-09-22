@@ -1,57 +1,9 @@
 {
-  "totalGoodbom": "1195.95",
-  "totalTenda": "1868.19",
-  "totalArena": "2224.31",
-  "totalSavegnago": "1128.68",
+  "totalGoodbom": "1074.71",
+  "totalTenda": "1771.56",
+  "totalArena": "2182.27",
+  "totalSavegnago": "1322.54",
   "produtos": [
-    {
-      "id": "2",
-      "goodbom": {
-        "nome": "BACON PEDAÇO",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "tenda": {
-        "nome": "Bacon Pedaço Sadia 500g",
-        "preco": 14.75,
-        "preco_por_kg": 29.5
-      },
-      "arena": {
-        "nome": null,
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "savegnago": {
-        "nome": "BACON PEDAÇO",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "3",
-      "goodbom": {
-        "nome": "LINGUIÇA CALABRESA CERATTI FATIADO 100G",
-        "preco": 11.99,
-        "preco_por_kg": 119.9
-      },
-      "tenda": {
-        "nome": "Linguiça Calabresa Brasa 400g",
-        "preco": 13.39,
-        "preco_por_kg": 33.48
-      },
-      "arena": {
-        "nome": "Linguiça Tipo Calabresa Defumada 400g",
-        "preco": 11.49,
-        "preco_por_kg": 28.72
-      },
-      "savegnago": {
-        "nome": "Linguiça Calabresa Cozida Defumada Sadia 400g",
-        "preco": 14.9,
-        "preco_por_kg": 37.25
-      },
-      "mais_barato": "Arena"
-    },
     {
       "id": "5",
       "goodbom": {
@@ -265,6 +217,30 @@
         "nome": "PIMENTÃO AMARELO",
         "preco": 0,
         "preco_por_kg": 0
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "22",
+      "goodbom": {
+        "nome": "VAGEM MACARRÃO KG",
+        "preco": 19.99,
+        "preco_por_kg": 19.99
+      },
+      "tenda": {
+        "nome": "Vagem Macarrão Bandeja 340g",
+        "preco": 4.99,
+        "preco_por_kg": 14.68
+      },
+      "arena": {
+        "nome": "Vagem Congelada De Marchi 1,02kg",
+        "preco": 26.99,
+        "preco_por_kg": 13.49
+      },
+      "savegnago": {
+        "nome": "Vagem Bandeja 500g",
+        "preco": 9.25,
+        "preco_por_kg": 18.5
       },
       "mais_barato": "Arena"
     },
@@ -701,30 +677,6 @@
       "mais_barato": "Arena"
     },
     {
-      "id": "44",
-      "goodbom": {
-        "nome": "MORTADELA AURORA 400G",
-        "preco": 5.98,
-        "preco_por_kg": 14.95
-      },
-      "tenda": {
-        "nome": "Mortadela Defumada Sadia Fatiada 180g",
-        "preco": 5.45,
-        "preco_por_kg": 30.28
-      },
-      "arena": {
-        "nome": "Mortadela Aurora 1kg",
-        "preco": 12.49,
-        "preco_por_kg": 12.49
-      },
-      "savegnago": {
-        "nome": "Mortadela Defumada Seara Gourmet Fatiada 180g",
-        "preco": 6.59,
-        "preco_por_kg": 36.61
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "45",
       "goodbom": {
         "nome": "BATATA CONGELADA SWIFT 400G",
@@ -797,28 +749,28 @@
       "mais_barato": "Arena"
     },
     {
-      "id": "52",
+      "id": "54",
       "goodbom": {
-        "nome": "ARROZ INTEGRAL BROTO LEGAL 1KG",
-        "preco": 5.59,
-        "preco_por_kg": 5.59
-      },
-      "tenda": {
-        "nome": "Arroz Tipo 1 Select 1Kg",
-        "preco": 4,
-        "preco_por_kg": 4
-      },
-      "arena": {
-        "nome": "Arroz Solito Agulhinha 5kg",
-        "preco": 19.29,
-        "preco_por_kg": 3.86
-      },
-      "savegnago": {
-        "nome": "ARROZ",
+        "nome": "MACARRÃO DE ARROZ ESPAGUETE",
         "preco": 0,
         "preco_por_kg": 0
       },
-      "mais_barato": "Arena"
+      "tenda": {
+        "nome": "Macarrão de Arroz Espaguete Urbano 500g",
+        "preco": 3.75,
+        "preco_por_kg": 7.5
+      },
+      "arena": {
+        "nome": null,
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "savegnago": {
+        "nome": "MACARRÃO DE ARROZ ESPAGUETE",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "56",
@@ -1061,30 +1013,6 @@
       "mais_barato": "Arena"
     },
     {
-      "id": "75",
-      "goodbom": {
-        "nome": "CATCHUP",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "tenda": {
-        "nome": "Catchup Tradicional Quero 400g",
-        "preco": 7.39,
-        "preco_por_kg": 18.47
-      },
-      "arena": {
-        "nome": "Ketchup Tradicional Cepêra Squeeze 210g",
-        "preco": 5.39,
-        "preco_por_kg": 25.67
-      },
-      "savegnago": {
-        "nome": "CATCHUP",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Tenda"
-    },
-    {
       "id": "76",
       "goodbom": {
         "nome": "MAIONESE VEGETAL NOT MAYO ORIGINAL SACHE 200G",
@@ -1097,9 +1025,9 @@
         "preco_por_kg": 31.01
       },
       "arena": {
-        "nome": "Maionese Salada Balde 3kg",
-        "preco": 29.9,
-        "preco_por_kg": 9.97
+        "nome": "Maionese Salada Pet 500g",
+        "preco": 5.59,
+        "preco_por_kg": 11.18
       },
       "savegnago": {
         "nome": "Maionese Hellmann's Tradicional 600gr",
@@ -1438,11 +1366,35 @@
         "preco_por_kg": 2.32
       },
       "savegnago": {
-        "nome": "Desinfetante Lysoform 2L Suave Odor",
+        "nome": "Desinfetante Líquido Lysoform Lavanda 2L",
         "preco": 23.04,
         "preco_por_kg": 11.52
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "107",
+      "goodbom": {
+        "nome": "PAPEL HIGIÊNICO FOLHA DUPLA DUETTO NEUTRO C/4",
+        "preco": 7.99,
+        "preco_por_kg": 7.99
+      },
+      "tenda": {
+        "nome": "Papel Higiênico Folha Simples Select 30m 4un",
+        "preco": 4.3,
+        "preco_por_kg": 4.3
+      },
+      "arena": {
+        "nome": "Papel Higiênico Folha Dupla Neutro Cotton 30m",
+        "preco": 19.99,
+        "preco_por_kg": 19.99
+      },
+      "savegnago": {
+        "nome": "Papel Higiênico Personal Vip Folha Dupla com 12 rolos de 30 metros",
+        "preco": 21.4,
+        "preco_por_kg": 21.4
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "109",
@@ -1486,9 +1438,9 @@
         "preco_por_kg": 42.11
       },
       "savegnago": {
-        "nome": "Creme Dental Sensodyne Rápido Alívio 140g",
-        "preco": 23.95,
-        "preco_por_kg": 171.07
+        "nome": "Creme Dental Sensodyne Proteção Completa 90g com 2 unidades",
+        "preco": 35.9,
+        "preco_por_kg": 398.89
       },
       "mais_barato": "Tenda"
     },
@@ -1659,30 +1611,6 @@
         "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
-    },
-    {
-      "id": "121",
-      "goodbom": {
-        "nome": "FUBÁ MIMOSO DEUSA 500G",
-        "preco": 4.39,
-        "preco_por_kg": 8.78
-      },
-      "tenda": {
-        "nome": "Fubá Mimoso Yoki Pacote 500g",
-        "preco": 3.69,
-        "preco_por_kg": 7.38
-      },
-      "arena": {
-        "nome": "Fubá Kisabor Mimoso 1kg",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
-      },
-      "savegnago": {
-        "nome": "FUBÁ",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Arena"
     },
     {
       "id": "122",
