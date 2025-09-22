@@ -6,6 +6,14 @@ const path = require("path");
 const OUTPUT_FILE = path.join(__dirname, "..", "docs", "prices", "prices_savegnago.json");
 const INPUT_FILE = path.join(__dirname, "..", "products.txt");
 
+// 🔎 Normaliza texto: minúsculo + sem acento
+function normalizar(txt) {
+  return txt
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+}
+
 // Extrair peso/unidade
 function extrairPeso(nome) {
   nome = nome.toLowerCase();
@@ -22,7 +30,7 @@ function extrairPeso(nome) {
   match = nome.match(/(\d+[.,]?\d*)\s*l/);
   if (match) return parseFloat(match[1].replace(",", "."));
 
-  return 1; // fallback
+  return 1;
 }
 
 async function buscarProdutos(page, termo) {
@@ -62,13 +70,14 @@ function parsePreco(txt) {
     .filter(Boolean);
 
   const results = [];
+  let totalEncontrados = 0;
 
   for (const [index, termo] of produtos.entries()) {
     try {
       console.log(`🔍 Buscando: ${termo}`);
       const encontrados = await buscarProdutos(page, termo);
 
-      const termoLower = termo.toLowerCase();
+      const termoNorm = normalizar(termo);
       const validos = encontrados
         .map(p => ({
           nome: p.nome,
@@ -77,8 +86,7 @@ function parsePreco(txt) {
         }))
         .filter(p =>
           p.preco > 0 &&
-          (p.nome.toLowerCase().startsWith(termoLower) ||
-           p.nome.toLowerCase().startsWith(termoLower + " "))
+          normalizar(p.nome).includes(termoNorm) // ✅ filtro CONTÉM ignorando acento/maiúsculas
         );
 
       if (validos.length > 0) {
@@ -98,6 +106,7 @@ function parsePreco(txt) {
           preco_por_kg: maisBarato.preco_por_kg
         });
 
+        totalEncontrados++;
         console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
       } else {
         results.push({
@@ -118,4 +127,5 @@ function parsePreco(txt) {
 
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(results, null, 2), "utf-8");
   console.log(`💾 Resultados Savegnago salvos em ${OUTPUT_FILE}`);
+  console.log(`📊 Total de produtos encontrados: ${totalEncontrados}/${produtos.length}`);
 })();
