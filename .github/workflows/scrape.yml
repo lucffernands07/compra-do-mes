@@ -1,7 +1,9 @@
 name: Scraper Preços
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:        # permite rodar manualmente
+  schedule:
+    - cron: "0 */2 * * *"   # roda de 2 em 2 horas
 
 jobs:
   scrape:
