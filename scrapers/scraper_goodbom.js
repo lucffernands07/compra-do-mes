@@ -13,6 +13,15 @@ const produtos = fs.readFileSync(produtosTxtPath, "utf-8")
   .map(l => l.trim())
   .filter(Boolean);
 
+// Normalizar texto: remover acentos, espaços extras e lowercase
+function normalizar(txt) {
+  return txt
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim();
+}
+
 // Função para extrair peso em kg do nome do produto
 function extrairPeso(nome) {
   const matchG = nome.toLowerCase().match(/(\d+)\s*g/);
@@ -35,11 +44,12 @@ async function main() {
   const page = await browser.newPage();
 
   const resultado = [];
+  let encontrados = 0; // contador de produtos com preço válido
 
   try {
     for (const [index, produto] of produtos.entries()) {
-      const id = index + 1; // ID baseado na ordem do products.txt
-      const termoLower = produto.toLowerCase();
+      const id = index + 1;
+      const termoNorm = normalizar(produto);
 
       await page.goto(
         `https://www.goodbom.com.br/hortolandia/busca?q=${encodeURIComponent(produto)}`,
@@ -48,7 +58,7 @@ async function main() {
 
       const items = await page.evaluate(() => {
         const spans = Array.from(document.querySelectorAll("span.product-name"));
-        return spans.slice(0, 3).map(span => {
+        return spans.slice(0, 5).map(span => {
           const nome = span.innerText.trim();
           const precoSpan = span.closest("a")?.querySelector("span.price");
           const precoTxt = precoSpan
@@ -59,13 +69,10 @@ async function main() {
         });
       });
 
-      // 🔎 Filtrar apenas produtos cujo nome comece com o termo pesquisado
+      // 🔎 Filtrar produtos cujo nome contenha o termo (ignora acento e maiúsculas/minúsculas)
       const filtrados = items.filter(item => {
-        const nomeLower = item.nome.toLowerCase();
-        return (
-          nomeLower.startsWith(termoLower) ||
-          nomeLower.startsWith(termoLower + " ")
-        );
+        const nomeNorm = normalizar(item.nome);
+        return nomeNorm.includes(termoNorm);
       });
 
       // Calcular preco_por_kg
@@ -75,8 +82,9 @@ async function main() {
       });
 
       if (filtrados.length > 0) {
-        // Pega o mais barato por kg
         const maisBarato = filtrados.sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
+
+        if (maisBarato.preco > 0) encontrados++; // ✅ incrementa contador
 
         resultado.push({
           id,
@@ -88,7 +96,6 @@ async function main() {
 
         console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
       } else {
-        // Nenhum válido, salva com preço 0
         resultado.push({
           id,
           supermercado: "Goodbom",
@@ -109,6 +116,7 @@ async function main() {
     );
 
     console.log("💾 Preços GoodBom salvos com sucesso!");
+    console.log(`📊 Total de produtos com preço válido: ${encontrados}/${produtos.length}`);
   } catch (err) {
     console.error("❌ Erro no scraper GoodBom:", err.message);
   } finally {
