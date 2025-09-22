@@ -1,27 +1,34 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 
-// Arquivos de entrada/saída
 const INPUT_FILE = "products.txt";
 const OUTPUT_FILE = "docs/prices/prices_tenda.json";
 
-// Função para extrair peso do nome do produto
+// 🔎 Normaliza texto para minúsculo e sem acento
+function normalizar(txt) {
+  return txt
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+}
+
+// Extrair peso do nome do produto
 function extrairPeso(nome) {
   nome = nome.toLowerCase();
 
   let match = nome.match(/(\d+)\s*g/);
-  if (match) return parseInt(match[1], 10) / 1000; // g → kg
+  if (match) return parseInt(match[1], 10) / 1000;
 
   match = nome.match(/(\d+[.,]?\d*)\s*kg/);
-  if (match) return parseFloat(match[1].replace(",", ".")); // kg direto
+  if (match) return parseFloat(match[1].replace(",", "."));
 
   match = nome.match(/(\d+[.,]?\d*)\s*ml/);
-  if (match) return parseFloat(match[1].replace(",", ".")) / 1000; // ml → litro
+  if (match) return parseFloat(match[1].replace(",", ".")) / 1000;
 
   match = nome.match(/(\d+[.,]?\d*)\s*l/);
-  if (match) return parseFloat(match[1].replace(",", ".")); // litro direto
+  if (match) return parseFloat(match[1].replace(",", "."));
 
-  return 1; // fallback
+  return 1;
 }
 
 async function buscarProduto(page, termo) {
@@ -30,20 +37,19 @@ async function buscarProduto(page, termo) {
 
   return await page.evaluate(() => {
     return Array.from(document.querySelectorAll("a.showcase-card-content"))
-      .slice(0, 3)
+      .slice(0, 5) // pode aumentar para 5 se quiser mais resultados
       .map(card => {
         const nome =
           card.querySelector("h3.TitleCardComponent")?.innerText.trim() ||
           "Produto sem nome";
 
-        // captura e limpa preço
         const precoTxt = card.querySelector("div.SimplePriceComponent")?.innerText || "0";
         const preco = parseFloat(
           precoTxt
-            .replace(/\s/g, "")       // remove espaços normais e nbsp
+            .replace(/\s/g, "")
             .replace("R$", "")
             .replace(",", ".")
-            .replace(/[^\d.]/g, "")   // remove qualquer caractere que não seja número ou ponto
+            .replace(/[^\d.]/g, "")
         ) || 0;
 
         return { nome, preco };
@@ -74,7 +80,6 @@ async function main() {
     console.log("⚠️ CEP input não encontrado, talvez já esteja configurado.");
   }
 
-  // Ler lista de produtos
   const produtos = fs
     .readFileSync(INPUT_FILE, "utf-8")
     .split("\n")
@@ -82,29 +87,24 @@ async function main() {
     .filter(Boolean);
 
   let resultados = [];
+  let totalEncontrados = 0;
 
   for (const [index, termo] of produtos.entries()) {
-    const id = index + 1; // ID baseado na ordem do products.txt
+    const id = index + 1;
     try {
       console.log(`🔍 Buscando: ${termo}`);
       const encontrados = await buscarProduto(page, termo);
 
-      // ✅ Filtrar preços válidos e nome começando com o termo buscado
-      const termoLower = termo.toLowerCase();
-      const validos = encontrados.filter(p => {
-        const nomeLower = p.nome.toLowerCase();
-        return (
-          p.preco > 0 &&
-          (nomeLower.startsWith(termoLower) || nomeLower.startsWith(termoLower + " "))
-        );
-      });
+      const termoNorm = normalizar(termo);
+      const validos = encontrados.filter(p =>
+        p.preco > 0 && normalizar(p.nome).includes(termoNorm)
+      );
 
       if (validos.length === 0) {
         console.log(`⚠️ Nenhum preço válido encontrado para ${termo}`);
         continue;
       }
 
-      // Selecionar o mais barato
       const maisBarato = validos.reduce((a, b) =>
         a.preco < b.preco ? a : b
       );
@@ -118,9 +118,8 @@ async function main() {
         preco_por_kg: +(maisBarato.preco / peso).toFixed(2)
       });
 
-      console.log(
-        `✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`
-      );
+      totalEncontrados++;
+      console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
     } catch (err) {
       console.error(`❌ Erro ao buscar ${termo}:`, err.message);
     }
@@ -128,13 +127,12 @@ async function main() {
 
   await browser.close();
 
-  // Salvar JSON
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(resultados, null, 2), "utf-8");
   console.log(`💾 Resultados salvos em ${OUTPUT_FILE}`);
+  console.log(`📊 Total de produtos encontrados: ${totalEncontrados}/${produtos.length}`);
 }
 
 main().catch(err => {
   console.error("❌ Erro no scraper:", err);
   process.exit(1);
 });
-    
