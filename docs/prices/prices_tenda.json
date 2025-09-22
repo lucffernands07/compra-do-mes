@@ -133,53 +133,11 @@
     "preco_por_kg": 4.29
   },
   {
-    "id": 31,
-    "supermercado": "Tenda",
-    "produto": "Alface Mimosa Unidade",
-    "preco": 4.49,
-    "preco_por_kg": 4.49
-  },
-  {
-    "id": 32,
-    "supermercado": "Tenda",
-    "produto": "Repolho Verde Unidade",
-    "preco": 3.79,
-    "preco_por_kg": 3.79
-  },
-  {
-    "id": 33,
-    "supermercado": "Tenda",
-    "produto": "Alho Descascado Kamar 200g",
-    "preco": 9.89,
-    "preco_por_kg": 49.45
-  },
-  {
     "id": 34,
     "supermercado": "Tenda",
     "produto": "Refresco em pó Tang Laranja Mamão 18g",
     "preco": 1.09,
     "preco_por_kg": 60.56
-  },
-  {
-    "id": 35,
-    "supermercado": "Tenda",
-    "produto": "Banana Nanica Unidade",
-    "preco": 0.91,
-    "preco_por_kg": 0.91
-  },
-  {
-    "id": 36,
-    "supermercado": "Tenda",
-    "produto": "Uva Vitória MIMO 400g",
-    "preco": 7.99,
-    "preco_por_kg": 19.97
-  },
-  {
-    "id": 37,
-    "supermercado": "Tenda",
-    "produto": "Bebida de Soja Sabor Maçã Mupy 200ml",
-    "preco": 2.59,
-    "preco_por_kg": 12.95
   },
   {
     "id": 38,
@@ -201,41 +159,6 @@
     "produto": "Leite Zero Lactose Semidesnatado Piracanjuba 1L",
     "preco": 5.49,
     "preco_por_kg": 5.49
-  },
-  {
-    "id": 42,
-    "supermercado": "Tenda",
-    "produto": "Queijo Mussarela Portofino 200g",
-    "preco": 6.38,
-    "preco_por_kg": 31.9
-  },
-  {
-    "id": 43,
-    "supermercado": "Tenda",
-    "produto": "Presunto Cozido Fatiado Seara 180g",
-    "preco": 8.09,
-    "preco_por_kg": 44.94
-  },
-  {
-    "id": 44,
-    "supermercado": "Tenda",
-    "produto": "Mortadela Marbinha 400g",
-    "preco": 4.59,
-    "preco_por_kg": 11.47
-  },
-  {
-    "id": 45,
-    "supermercado": "Tenda",
-    "produto": "Batata Congelada Select 2kg",
-    "preco": 21.9,
-    "preco_por_kg": 10.95
-  },
-  {
-    "id": 47,
-    "supermercado": "Tenda",
-    "produto": "Mandioca 500g",
-    "preco": 1.5,
-    "preco_por_kg": 3
   },
   {
     "id": 48,
@@ -280,13 +203,6 @@
     "preco_por_kg": 7.5
   },
   {
-    "id": 56,
-    "supermercado": "Tenda",
-    "produto": "Macarrão de Arroz Parafuso Urbano 500g",
-    "preco": 3.75,
-    "preco_por_kg": 7.5
-  },
-  {
     "id": 57,
     "supermercado": "Tenda",
     "produto": "Queijo Ralado Italac 40g",
@@ -320,6 +236,27 @@
     "produto": "Óleo de Soja Select 900ml",
     "preco": 7.35,
     "preco_por_kg": 8.17
+  },
+  {
+    "id": 67,
+    "supermercado": "Tenda",
+    "produto": "Vinagre de Álcool Vitalia 750ml",
+    "preco": 2.69,
+    "preco_por_kg": 3.59
+  },
+  {
+    "id": 68,
+    "supermercado": "Tenda",
+    "produto": "Milho Verde Predilecta 170g",
+    "preco": 2.95,
+    "preco_por_kg": 17.35
+  },
+  {
+    "id": 69,
+    "supermercado": "Tenda",
+    "produto": "Seleta de Legumes Select 170g",
+    "preco": 3.49,
+    "preco_por_kg": 20.53
   },
   {
     "id": 70,
@@ -399,13 +336,6 @@
     "preco_por_kg": 53.8
   },
   {
-    "id": 82,
-    "supermercado": "Tenda",
-    "produto": "Chá de Hortelã Leão 15g",
-    "preco": 6.29,
-    "preco_por_kg": 419.33
-  },
-  {
     "id": 87,
     "supermercado": "Tenda",
     "produto": "Massa de Tapioca Tradicional Select 500g",
@@ -418,13 +348,6 @@
     "produto": "Desinfetante Uso Geral Original Lysoform 2L",
     "preco": 22.9,
     "preco_por_kg": 11.45
-  },
-  {
-    "id": 89,
-    "supermercado": "Tenda",
-    "produto": "Álcool Líquido Tradicional 46,2 INPM Flops 500ml",
-    "preco": 3.25,
-    "preco_por_kg": 6.5
   },
   {
     "id": 90,
@@ -453,6 +376,69 @@
     "produto": "Detergente Líquido Minuano Fresh 500ml",
     "preco": 2.2,
     "preco_por_kg": 4.4
+  },
+  {
+    "id": 101,
+    "supermercado": "Tenda",
+    "produto": "Limpador Multiuso Original Azulim Squeeze 500ml",
+    "preco": 2.75,
+    "preco_por_kg": 5.5
+  },
+  {
+    "id": 103,
+    "supermercado": "Tenda",
+    "produto": "Desinfetante Lavanda Select 2L",
+    "preco": 5.1,
+    "preco_por_kg": 2.55
+  },
+  {
+    "id": 105,
+    "supermercado": "Tenda",
+    "produto": "Esponja de Aço Bombril 60g 8 unidades",
+    "preco": 2.5,
+    "preco_por_kg": 41.67
+  },
+  {
+    "id": 107,
+    "supermercado": "Tenda",
+    "produto": "Papel Higiênico Folha Simples Select 30m 4un",
+    "preco": 4.3,
+    "preco_por_kg": 4.3
+  },
+  {
+    "id": 109,
+    "supermercado": "Tenda",
+    "produto": "Escova de Dente Select 5 Unidades",
+    "preco": 12,
+    "preco_por_kg": 12
+  },
+  {
+    "id": 111,
+    "supermercado": "Tenda",
+    "produto": "Sabonete Líquido Erva Doce Select Refil 500ml",
+    "preco": 5.85,
+    "preco_por_kg": 11.7
+  },
+  {
+    "id": 112,
+    "supermercado": "Tenda",
+    "produto": "Sabonete Flor de Ypê Frésia e Pêssego 85g",
+    "preco": 1.75,
+    "preco_por_kg": 20.59
+  },
+  {
+    "id": 114,
+    "supermercado": "Tenda",
+    "produto": "Gel Fixador Incolor Soft Fix 250g",
+    "preco": 4.9,
+    "preco_por_kg": 19.6
+  },
+  {
+    "id": 118,
+    "supermercado": "Tenda",
+    "produto": "Solução Bucal Cool Mint Listerine 250ml",
+    "preco": 16.05,
+    "preco_por_kg": 64.2
   },
   {
     "id": 119,
