@@ -17,8 +17,8 @@
     "id": 3,
     "supermercado": "Savegnago",
     "produto": "Linguiça Calabresa Cozida Defumada Sadia 400g",
-    "preco": 14.95,
-    "preco_por_kg": 37.37
+    "preco": 14.9,
+    "preco_por_kg": 37.25
   },
   {
     "id": 4,
@@ -31,15 +31,15 @@
     "id": 5,
     "supermercado": "Savegnago",
     "produto": "Linguiça Toscana Churrasco Seara 700g",
-    "preco": 24.5,
-    "preco_por_kg": 35
+    "preco": 24.9,
+    "preco_por_kg": 35.57
   },
   {
     "id": 6,
     "supermercado": "Savegnago",
     "produto": "Salsicha Hot Dog Perdigão 500g",
-    "preco": 11.95,
-    "preco_por_kg": 23.9
+    "preco": 11.9,
+    "preco_por_kg": 23.8
   },
   {
     "id": 7,
@@ -87,8 +87,8 @@
     "id": 13,
     "supermercado": "Savegnago",
     "produto": "Ovo Branco Grande Coag Com 12",
-    "preco": 8.9,
-    "preco_por_kg": 8.9
+    "preco": 7.9,
+    "preco_por_kg": 7.9
   },
   {
     "id": 14,
@@ -220,8 +220,8 @@
     "id": 32,
     "supermercado": "Savegnago",
     "produto": "Repolho Verde 2Kg",
-    "preco": 5.49,
-    "preco_por_kg": 2.75
+    "preco": 5.55,
+    "preco_por_kg": 2.77
   },
   {
     "id": 33,
@@ -234,15 +234,15 @@
     "id": 34,
     "supermercado": "Savegnago",
     "produto": "Mamão Papaya Golden 1,2Kg",
-    "preco": 1.19,
-    "preco_por_kg": 0.99
+    "preco": 1.59,
+    "preco_por_kg": 1.33
   },
   {
     "id": 35,
     "supermercado": "Savegnago",
-    "produto": "Banana Nanica Exportação - 1kg",
+    "produto": "Banana Maçã Bandeja 550g",
     "preco": 7.49,
-    "preco_por_kg": 7.49
+    "preco_por_kg": 13.62
   },
   {
     "id": 36,
@@ -311,8 +311,8 @@
     "id": 45,
     "supermercado": "Savegnago",
     "produto": "Batata Congelada Bem Brasil Palito Mais Batata 2kg",
-    "preco": 24.9,
-    "preco_por_kg": 12.45
+    "preco": 28.9,
+    "preco_por_kg": 14.45
   },
   {
     "id": 46,
@@ -457,9 +457,9 @@
   {
     "id": 66,
     "supermercado": "Savegnago",
-    "produto": "Óleo de Soja Liza Pet 900ml",
-    "preco": 7.75,
-    "preco_por_kg": 8.61
+    "produto": "Óleo de Soja Soya Pet 900ml",
+    "preco": 6.95,
+    "preco_por_kg": 7.72
   },
   {
     "id": 67,
@@ -581,6 +581,13 @@
     "preco_por_kg": 0
   },
   {
+    "id": 84,
+    "supermercado": "Savegnago",
+    "produto": "BIFUM",
+    "preco": 0,
+    "preco_por_kg": 0
+  },
+  {
     "id": 85,
     "supermercado": "Savegnago",
     "produto": "CUSCUZ",
@@ -618,7 +625,7 @@
   {
     "id": 90,
     "supermercado": "Savegnago",
-    "produto": "Limpador Perfumado Veja Flores do Mediterrâneo- 2L",
+    "produto": "Limpador Perfumado Veja Lírio Do Nilo 2L",
     "preco": 9.56,
     "preco_por_kg": 4.78
   },
@@ -667,9 +674,9 @@
   {
     "id": 97,
     "supermercado": "Savegnago",
-    "produto": "Lava Roupa Líquido Omo Ultra Power 1,8L",
-    "preco": 27.9,
-    "preco_por_kg": 15.5
+    "produto": "Lava Roupa Líquido Omo Puro Cuidado 3l",
+    "preco": 47.9,
+    "preco_por_kg": 15.97
   },
   {
     "id": 98,
@@ -689,8 +696,8 @@
     "id": 100,
     "supermercado": "Savegnago",
     "produto": "Detergente Ypê Clear 500ml",
-    "preco": 2.15,
-    "preco_por_kg": 4.3
+    "preco": 2.59,
+    "preco_por_kg": 5.18
   },
   {
     "id": 101,
@@ -709,7 +716,7 @@
   {
     "id": 103,
     "supermercado": "Savegnago",
-    "produto": "Desinfetante Líquido Lysoform Citrus 2L",
+    "produto": "Desinfetante Líquido Lysoform Lavanda 2L",
     "preco": 23.04,
     "preco_por_kg": 11.52
   },
@@ -738,8 +745,8 @@
     "id": 107,
     "supermercado": "Savegnago",
     "produto": "Papel Higiênico Personal Vip Folha Dupla com 12 rolos de 30 metros",
-    "preco": 17.9,
-    "preco_por_kg": 17.9
+    "preco": 21.4,
+    "preco_por_kg": 21.4
   },
   {
     "id": 108,
@@ -814,9 +821,9 @@
   {
     "id": 118,
     "supermercado": "Savegnago",
-    "produto": "Listerine Cuidado Total 14 Benefícios em 1 Enxaguante Bucal Sem Álcool, 500mL",
-    "preco": 24.5,
-    "preco_por_kg": 49
+    "produto": "LISTERINE",
+    "preco": 0,
+    "preco_por_kg": 0
   },
   {
     "id": 119,

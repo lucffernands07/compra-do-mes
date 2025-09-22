@@ -10,8 +10,8 @@
     "id": 3,
     "supermercado": "Tenda",
     "produto": "Linguiça Calabresa Brasa 400g",
-    "preco": 10.9,
-    "preco_por_kg": 27.25
+    "preco": 13.39,
+    "preco_por_kg": 33.48
   },
   {
     "id": 5,
@@ -24,8 +24,8 @@
     "id": 6,
     "supermercado": "Tenda",
     "produto": "Salsicha Hot Dog Aurora Pacote 3kg",
-    "preco": 29.67,
-    "preco_por_kg": 9.89
+    "preco": 26.97,
+    "preco_por_kg": 8.99
   },
   {
     "id": 7,
@@ -103,13 +103,6 @@
     "produto": "Gengibre Unidade",
     "preco": 1.48,
     "preco_por_kg": 1.48
-  },
-  {
-    "id": 27,
-    "supermercado": "Tenda",
-    "produto": "Cenoura Bandeja 500g",
-    "preco": 2.99,
-    "preco_por_kg": 5.98
   },
   {
     "id": 28,
@@ -220,8 +213,8 @@
     "id": 45,
     "supermercado": "Tenda",
     "produto": "Batata Congelada Select 2kg",
-    "preco": 21.75,
-    "preco_por_kg": 10.88
+    "preco": 21.9,
+    "preco_por_kg": 10.95
   },
   {
     "id": 47,
@@ -238,6 +231,20 @@
     "preco_por_kg": 14.71
   },
   {
+    "id": 52,
+    "supermercado": "Tenda",
+    "produto": "Arroz Tipo 1 Select 1Kg",
+    "preco": 4,
+    "preco_por_kg": 4
+  },
+  {
+    "id": 54,
+    "supermercado": "Tenda",
+    "produto": "Macarrão de Arroz Espaguete Urbano 500g",
+    "preco": 3.75,
+    "preco_por_kg": 7.5
+  },
+  {
     "id": 56,
     "supermercado": "Tenda",
     "produto": "Macarrão de Arroz Parafuso Urbano 500g",
@@ -247,9 +254,9 @@
   {
     "id": 60,
     "supermercado": "Tenda",
-    "produto": "Azeite Extra Virgem Cocinero 500ml",
-    "preco": 27.89,
-    "preco_por_kg": 55.78
+    "produto": "Azeite Extra Virgem Famiglia D'Oro 500ml",
+    "preco": 24.9,
+    "preco_por_kg": 49.8
   },
   {
     "id": 63,
@@ -294,13 +301,6 @@
     "preco_por_kg": 41.52
   },
   {
-    "id": 72,
-    "supermercado": "Tenda",
-    "produto": "Açúcar Mascavo Jp Pereira 1 Kg",
-    "preco": 14.9,
-    "preco_por_kg": 14.9
-  },
-  {
     "id": 74,
     "supermercado": "Tenda",
     "produto": "Suco Concentrado de Caju Imbiara 500ml",
@@ -317,16 +317,16 @@
   {
     "id": 76,
     "supermercado": "Tenda",
-    "produto": "Maionese Hellmanns 500g 2 Unidades",
-    "preco": 22.5,
-    "preco_por_kg": 45
+    "produto": "Maionese Hellmann's Tradicional 335g",
+    "preco": 10.39,
+    "preco_por_kg": 31.01
   },
   {
     "id": 77,
     "supermercado": "Tenda",
-    "produto": "Mostarda Select 180g",
-    "preco": 8.39,
-    "preco_por_kg": 46.61
+    "produto": "Mostarda Tradicional Quero 190g",
+    "preco": 5.79,
+    "preco_por_kg": 30.47
   },
   {
     "id": 78,
@@ -341,6 +341,13 @@
     "produto": "Creme de Leite Italac 200g",
     "preco": 3.25,
     "preco_por_kg": 16.25
+  },
+  {
+    "id": 80,
+    "supermercado": "Tenda",
+    "produto": "Capsula de Café Cerrado Mineiro Compativel com Nespresso 3 Corações 10 unid",
+    "preco": 22.65,
+    "preco_por_kg": 22.65
   },
   {
     "id": 81,
@@ -455,13 +462,6 @@
     "preco_por_kg": 19.6
   },
   {
-    "id": 115,
-    "supermercado": "Tenda",
-    "produto": "Haste Flexível Johnsons 150un",
-    "preco": 13.2,
-    "preco_por_kg": 13.2
-  },
-  {
     "id": 117,
     "supermercado": "Tenda",
     "produto": "Algodão Hidrófilo Rolo Select 50g",
@@ -471,28 +471,21 @@
   {
     "id": 119,
     "supermercado": "Tenda",
-    "produto": "Bisnaguinha Seven Boys 300g",
-    "preco": 4.99,
-    "preco_por_kg": 16.63
+    "produto": "Bisnaguinha Select 300g",
+    "preco": 5.5,
+    "preco_por_kg": 18.33
   },
   {
     "id": 120,
     "supermercado": "Tenda",
-    "produto": "Areia para Gatos Putz 4kg",
-    "preco": 10.2,
-    "preco_por_kg": 2.55
-  },
-  {
-    "id": 121,
-    "supermercado": "Tenda",
-    "produto": "Fubá Mimoso Yoki Pacote 500g",
-    "preco": 3.69,
-    "preco_por_kg": 7.38
+    "produto": "Areia para Gatos Classic Pipicat 12kg",
+    "preco": 36.5,
+    "preco_por_kg": 3.04
   },
   {
     "id": 122,
     "supermercado": "Tenda",
-    "produto": "Alimento para Gatos Sabor Atum Whiskas 85g",
+    "produto": "Alimento para Gatos Filhotes Sabor Carne Whiskas Junior 85g",
     "preco": 2.4,
     "preco_por_kg": 28.24
   }
