@@ -1,8 +1,8 @@
 {
-  "totalGoodbom": "1222.42",
-  "totalTenda": "1894.67",
-  "totalArena": "1910.94",
-  "totalSavegnago": "1332.27",
+  "totalGoodbom": "861.15",
+  "totalTenda": "1599.10",
+  "totalArena": "1629.58",
+  "totalSavegnago": "863.72",
   "produtos": [
     {
       "id": "2",
@@ -197,30 +197,6 @@
       "mais_barato": "Tenda"
     },
     {
-      "id": "18",
-      "goodbom": {
-        "nome": "PIMENTÃO VERDE KG",
-        "preco": 15.99,
-        "preco_por_kg": 15.99
-      },
-      "tenda": {
-        "nome": "Pimentão Verde Bandeja 250g",
-        "preco": 6.69,
-        "preco_por_kg": 26.76
-      },
-      "arena": {
-        "nome": "Pimentão Verde Bandeja",
-        "preco": 13.89,
-        "preco_por_kg": 13.89
-      },
-      "savegnago": {
-        "nome": "PIMENTÃO VERDE",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "19",
       "goodbom": {
         "nome": "PIMENTÃO VERMELHO KG",
@@ -243,78 +219,6 @@
         "preco_por_kg": 0
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "20",
-      "goodbom": {
-        "nome": "PIMENTÃO AMARELO KG",
-        "preco": 31.99,
-        "preco_por_kg": 31.99
-      },
-      "tenda": {
-        "nome": "Pimentão Amarelo Bandeja 350g",
-        "preco": 11.89,
-        "preco_por_kg": 33.97
-      },
-      "arena": {
-        "nome": "Pimentão Amarelo Kg",
-        "preco": 24.89,
-        "preco_por_kg": 24.89
-      },
-      "savegnago": {
-        "nome": "PIMENTÃO AMARELO",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "22",
-      "goodbom": {
-        "nome": "VAGEM MACARRÃO KG",
-        "preco": 19.99,
-        "preco_por_kg": 19.99
-      },
-      "tenda": {
-        "nome": "Vagem Macarrão Bandeja 340g",
-        "preco": 4.99,
-        "preco_por_kg": 14.68
-      },
-      "arena": {
-        "nome": "Vagem Congelada De Marchi 1,02kg",
-        "preco": 26.99,
-        "preco_por_kg": 13.49
-      },
-      "savegnago": {
-        "nome": "Vagem Bandeja 500g",
-        "preco": 9.25,
-        "preco_por_kg": 18.5
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "23",
-      "goodbom": {
-        "nome": "ABOBRINHA ITÁLIA KG",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
-      },
-      "tenda": {
-        "nome": "Abobrinha Italiana Unidade",
-        "preco": 2.75,
-        "preco_por_kg": 2.75
-      },
-      "arena": {
-        "nome": null,
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "savegnago": {
-        "nome": "Abobrinha Bandeja 800g",
-        "preco": 22.85,
-        "preco_por_kg": 28.56
-      },
-      "mais_barato": "Tenda"
     },
     {
       "id": "24",
@@ -838,35 +742,11 @@
         "preco_por_kg": 3.86
       },
       "savegnago": {
-        "nome": "Arroz Carreteiro Na Panelinha Seara 300g",
-        "preco": 25.9,
-        "preco_por_kg": 86.33
+        "nome": "Arroz Branco Tipo 1 - 5kg Camil",
+        "preco": 23.9,
+        "preco_por_kg": 4.78
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "54",
-      "goodbom": {
-        "nome": "MACARRÃO DE ARROZ ESPAGUETE",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "tenda": {
-        "nome": "Macarrão de Arroz Espaguete Urbano 500g",
-        "preco": 3.75,
-        "preco_por_kg": 7.5
-      },
-      "arena": {
-        "nome": null,
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "savegnago": {
-        "nome": "MACARRÃO DE ARROZ ESPAGUETE",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Tenda"
     },
     {
       "id": "56",
@@ -887,30 +767,6 @@
       },
       "savegnago": {
         "nome": "MACARRÃO DE ARROZ PARAFUSO",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "60",
-      "goodbom": {
-        "nome": "AZEITE EXTRA VIRGEM BORGES VD.500ML",
-        "preco": 39.99,
-        "preco_por_kg": 79.98
-      },
-      "tenda": {
-        "nome": "Azeite Extra Virgem Famiglia D'Oro 500ml",
-        "preco": 24.9,
-        "preco_por_kg": 49.8
-      },
-      "arena": {
-        "nome": null,
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "savegnago": {
-        "nome": "AZEITE EXTRA VIRGEM",
         "preco": 0,
         "preco_por_kg": 0
       },
@@ -1007,8 +863,8 @@
       },
       "savegnago": {
         "nome": "Milho Verde Irmãos Pimenta Bandeja 600g",
-        "preco": 5.25,
-        "preco_por_kg": 8.75
+        "preco": 4.95,
+        "preco_por_kg": 8.25
       },
       "mais_barato": "Arena"
     },
@@ -1081,30 +937,6 @@
         "nome": "Açúcar Mascavo Rosa Lima 500g",
         "preco": 6.49,
         "preco_por_kg": 12.98
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "74",
-      "goodbom": {
-        "nome": "SUCO CONCENTRADO MAGUARY CAJU 500ML",
-        "preco": 5.69,
-        "preco_por_kg": 11.38
-      },
-      "tenda": {
-        "nome": "Suco Concentrado de Caju Imbiara 500ml",
-        "preco": 5.25,
-        "preco_por_kg": 10.5
-      },
-      "arena": {
-        "nome": "Suco Maguary Concentrado Cajú Pet 1l",
-        "preco": 8.95,
-        "preco_por_kg": 8.95
-      },
-      "savegnago": {
-        "nome": "Suco Concentrado Dafruta 1L Caju",
-        "preco": 9.19,
-        "preco_por_kg": 9.19
       },
       "mais_barato": "Arena"
     },
@@ -1266,8 +1098,8 @@
       },
       "arena": {
         "nome": "Café Bom Jesus Tradicional Vacuo 500g",
-        "preco": 28.9,
-        "preco_por_kg": 57.8
+        "preco": 26.9,
+        "preco_por_kg": 53.8
       },
       "savegnago": {
         "nome": "CAFÉ TRADICIONAL",
@@ -1299,30 +1131,6 @@
         "preco_por_kg": 0
       },
       "mais_barato": "Goodbom"
-    },
-    {
-      "id": "87",
-      "goodbom": {
-        "nome": "TAPIOCA DA TERRINHA 1KG",
-        "preco": 14.99,
-        "preco_por_kg": 14.99
-      },
-      "tenda": {
-        "nome": "Tapioca Delioca Premium Da Terrinha 560g",
-        "preco": 14.25,
-        "preco_por_kg": 25.45
-      },
-      "arena": {
-        "nome": "Tapioca Da Terrinha 1kg",
-        "preco": 12.99,
-        "preco_por_kg": 12.99
-      },
-      "savegnago": {
-        "nome": "TAPIOCA",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Arena"
     },
     {
       "id": "89",
@@ -1361,9 +1169,9 @@
         "preco_por_kg": 96.25
       },
       "arena": {
-        "nome": "Limpador Perfumado Coala Orquídea Negra 120ml",
-        "preco": 11.59,
-        "preco_por_kg": 96.58
+        "nome": "Limpador Perfumado Ypê Tropical 1l",
+        "preco": 7.99,
+        "preco_por_kg": 7.99
       },
       "savegnago": {
         "nome": "Limpador Perfumado Veja Lírio Do Nilo 2L",
@@ -1445,30 +1253,6 @@
       "mais_barato": "Tenda"
     },
     {
-      "id": "101",
-      "goodbom": {
-        "nome": "LIMPADOR MULTIUSO UAU FLORES FOLHAS 500ML",
-        "preco": 4.99,
-        "preco_por_kg": 9.98
-      },
-      "tenda": {
-        "nome": "Limpador Multiuso Original Azulim Squeeze 500ml",
-        "preco": 2.75,
-        "preco_por_kg": 5.5
-      },
-      "arena": {
-        "nome": "Limpador Multiuso Ype Floral Senses 500ml",
-        "preco": 3.85,
-        "preco_por_kg": 7.7
-      },
-      "savegnago": {
-        "nome": "Limpador Multiuso Veja Gold Original 750ml Embalagem Econômica",
-        "preco": 5.85,
-        "preco_por_kg": 7.8
-      },
-      "mais_barato": "Tenda"
-    },
-    {
       "id": "103",
       "goodbom": {
         "nome": "DESINFETANTE BARBAREX VIOLEX 2L",
@@ -1515,102 +1299,6 @@
         "preco_por_kg": 21.4
       },
       "mais_barato": "Tenda"
-    },
-    {
-      "id": "109",
-      "goodbom": {
-        "nome": "ESCOVA DE DENTE COLGATE CLASSIC CLEAN 3 UNID",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
-      },
-      "tenda": {
-        "nome": "Escova de Dente Select 5 Unidades",
-        "preco": 12,
-        "preco_por_kg": 12
-      },
-      "arena": {
-        "nome": null,
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "savegnago": {
-        "nome": "Escova de Dente Colgate Classic Clean 1 unid",
-        "preco": 6.35,
-        "preco_por_kg": 6.35
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
-      "id": "110",
-      "goodbom": {
-        "nome": "CREME DENTAL COLGATE TOTAL 12 ANTI TÁRTARO 180G",
-        "preco": 8.99,
-        "preco_por_kg": 49.94
-      },
-      "tenda": {
-        "nome": "Creme Dental Ice Clean 70g",
-        "preco": 2.5,
-        "preco_por_kg": 35.71
-      },
-      "arena": {
-        "nome": "Creme Dental Sorriso Dentes Brancos 90g",
-        "preco": 3.79,
-        "preco_por_kg": 42.11
-      },
-      "savegnago": {
-        "nome": "Creme Dental Sensodyne Sensibilidade e Esmalte Branqueador 100g",
-        "preco": 24.95,
-        "preco_por_kg": 249.5
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "111",
-      "goodbom": {
-        "nome": "SABONETE LÍQUIDO LUX GARDENIA 250ML",
-        "preco": 12.99,
-        "preco_por_kg": 51.96
-      },
-      "tenda": {
-        "nome": "Sabonete Líquido Erva Doce Select Refil 500ml",
-        "preco": 5.85,
-        "preco_por_kg": 11.7
-      },
-      "arena": {
-        "nome": "Sabonete Líquido Lux Rosas Francesas Refil Econômico 900ml",
-        "preco": 24.99,
-        "preco_por_kg": 27.77
-      },
-      "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
-        "preco": 6.85,
-        "preco_por_kg": 34.25
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "112",
-      "goodbom": {
-        "nome": "SABONETE LUX SUAVE LIRIO AZUL 125G",
-        "preco": 4.29,
-        "preco_por_kg": 34.32
-      },
-      "tenda": {
-        "nome": "Sabonete Flor de Ypê Frésia e Pêssego 85g",
-        "preco": 1.75,
-        "preco_por_kg": 20.59
-      },
-      "arena": {
-        "nome": "Sabonete Ypê Siene Lavanda 85g",
-        "preco": 1.69,
-        "preco_por_kg": 19.88
-      },
-      "savegnago": {
-        "nome": "Sabonete Lux Botanicals Buque de Jasmim 85gr",
-        "preco": 2.75,
-        "preco_por_kg": 32.35
-      },
-      "mais_barato": "Arena"
     },
     {
       "id": "114",
@@ -1707,78 +1395,6 @@
         "preco_por_kg": 23.3
       },
       "mais_barato": "Tenda"
-    },
-    {
-      "id": "120",
-      "goodbom": {
-        "nome": "AREIA PARA GATOS",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "tenda": {
-        "nome": "Areia para Gatos Classic Pipicat 12kg",
-        "preco": 36.5,
-        "preco_por_kg": 3.04
-      },
-      "arena": {
-        "nome": "Areia Higiênica Catzone Para Gato 4kg",
-        "preco": 15.9,
-        "preco_por_kg": 3.98
-      },
-      "savegnago": {
-        "nome": "AREIA PARA GATOS",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "121",
-      "goodbom": {
-        "nome": "FUBÁ MIMOSO DEUSA 500G",
-        "preco": 4.39,
-        "preco_por_kg": 8.78
-      },
-      "tenda": {
-        "nome": "Fubá Mimoso Yoki Pacote 500g",
-        "preco": 3.69,
-        "preco_por_kg": 7.38
-      },
-      "arena": {
-        "nome": "Fubá Kisabor Mimoso 1kg",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
-      },
-      "savegnago": {
-        "nome": "FUBÁ",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "122",
-      "goodbom": {
-        "nome": "ALIMENTO PARA GATOS DOMUS AD.MIX 1KG",
-        "preco": 15.99,
-        "preco_por_kg": 15.99
-      },
-      "tenda": {
-        "nome": "Alimento para Gatos Filhotes Sabor Carne Whiskas Junior 85g",
-        "preco": 2.4,
-        "preco_por_kg": 28.24
-      },
-      "arena": {
-        "nome": "Alimento Para Gatos Whiskas Adulto Mix Carne 2,7kg",
-        "preco": 49.9,
-        "preco_por_kg": 7.13
-      },
-      "savegnago": {
-        "nome": "ALIMENTO PARA GATOS",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Arena"
     }
   ]
 }
