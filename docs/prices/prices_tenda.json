@@ -1,5 +1,40 @@
 [
   {
+    "id": 2,
+    "supermercado": "Tenda",
+    "produto": "Bacon Pedaço Sadia 500g",
+    "preco": 14.75,
+    "preco_por_kg": 29.5
+  },
+  {
+    "id": 3,
+    "supermercado": "Tenda",
+    "produto": "Linguiça Calabresa Brasa 400g",
+    "preco": 9.9,
+    "preco_por_kg": 24.75
+  },
+  {
+    "id": 4,
+    "supermercado": "Tenda",
+    "produto": "Hambúrguer de Carne Bovina Air Fryer Seara 150g",
+    "preco": 3.99,
+    "preco_por_kg": 26.6
+  },
+  {
+    "id": 6,
+    "supermercado": "Tenda",
+    "produto": "Salsicha Hot Dog Aurora Pacote 3kg",
+    "preco": 26.97,
+    "preco_por_kg": 8.99
+  },
+  {
+    "id": 7,
+    "supermercado": "Tenda",
+    "produto": "Coxa com Sobrecoxa de Frango Congelado 500g",
+    "preco": 4.45,
+    "preco_por_kg": 8.9
+  },
+  {
     "id": 10,
     "supermercado": "Tenda",
     "produto": "Miolo da Alcatra Bovina Resfriado em Bifes bandeja 400g",
@@ -19,13 +54,6 @@
     "produto": "Muscúlo bovino pedaço Resfriado bandeja 400g",
     "preco": 11.96,
     "preco_por_kg": 29.9
-  },
-  {
-    "id": 18,
-    "supermercado": "Tenda",
-    "produto": "Pimentão Verde Bandeja 250g",
-    "preco": 6.69,
-    "preco_por_kg": 26.76
   },
   {
     "id": 19,
@@ -56,13 +84,6 @@
     "preco_por_kg": 2.75
   },
   {
-    "id": 24,
-    "supermercado": "Tenda",
-    "produto": "Beterraba Saco 1Kg",
-    "preco": 2.99,
-    "preco_por_kg": 2.99
-  },
-  {
     "id": 26,
     "supermercado": "Tenda",
     "produto": "Gengibre Unidade",
@@ -77,18 +98,18 @@
     "preco_por_kg": 17
   },
   {
-    "id": 30,
+    "id": 28,
     "supermercado": "Tenda",
-    "produto": "Cheiro Verde Maço Unidade",
-    "preco": 4.29,
-    "preco_por_kg": 4.29
+    "produto": "Chuchu Unidade",
+    "preco": 1.85,
+    "preco_por_kg": 1.85
   },
   {
-    "id": 31,
+    "id": 29,
     "supermercado": "Tenda",
-    "produto": "Alface Mimosa Unidade",
-    "preco": 4.49,
-    "preco_por_kg": 4.49
+    "produto": "Mandioquinha Unidade",
+    "preco": 2.06,
+    "preco_por_kg": 2.06
   },
   {
     "id": 32,
@@ -96,20 +117,6 @@
     "produto": "Repolho Verde Unidade",
     "preco": 3.79,
     "preco_por_kg": 3.79
-  },
-  {
-    "id": 33,
-    "supermercado": "Tenda",
-    "produto": "Alho Descascado Kamar 200g",
-    "preco": 9.89,
-    "preco_por_kg": 49.45
-  },
-  {
-    "id": 34,
-    "supermercado": "Tenda",
-    "produto": "Refresco em pó Tang Laranja Mamão 18g",
-    "preco": 1.09,
-    "preco_por_kg": 60.56
   },
   {
     "id": 35,
@@ -140,18 +147,25 @@
     "preco_por_kg": 7
   },
   {
-    "id": 39,
-    "supermercado": "Tenda",
-    "produto": "Margarina com Sal Dualis 500g",
-    "preco": 3.45,
-    "preco_por_kg": 6.9
-  },
-  {
     "id": 40,
     "supermercado": "Tenda",
     "produto": "Leite Zero Lactose Semidesnatado Piracanjuba 1L",
     "preco": 5.49,
     "preco_por_kg": 5.49
+  },
+  {
+    "id": 42,
+    "supermercado": "Tenda",
+    "produto": "Queijo Mussarela Portofino 200g",
+    "preco": 6.38,
+    "preco_por_kg": 31.9
+  },
+  {
+    "id": 43,
+    "supermercado": "Tenda",
+    "produto": "Presunto Cozido Fatiado Seara 180g",
+    "preco": 8.09,
+    "preco_por_kg": 44.94
   },
   {
     "id": 44,
@@ -161,11 +175,32 @@
     "preco_por_kg": 11.47
   },
   {
+    "id": 45,
+    "supermercado": "Tenda",
+    "produto": "Batata Congelada Select 2kg",
+    "preco": 24.9,
+    "preco_por_kg": 12.45
+  },
+  {
     "id": 47,
     "supermercado": "Tenda",
     "produto": "Mandioca 500g",
     "preco": 1.5,
     "preco_por_kg": 3
+  },
+  {
+    "id": 48,
+    "supermercado": "Tenda",
+    "produto": "Seleta de Legumes Congelados De Marchi 1,02kg",
+    "preco": 13.99,
+    "preco_por_kg": 13.72
+  },
+  {
+    "id": 49,
+    "supermercado": "Tenda",
+    "produto": "Água de Coco Quadrado 200ml",
+    "preco": 1.85,
+    "preco_por_kg": 9.25
   },
   {
     "id": 50,
@@ -196,13 +231,6 @@
     "preco_por_kg": 7.5
   },
   {
-    "id": 56,
-    "supermercado": "Tenda",
-    "produto": "Macarrão de Arroz Parafuso Urbano 500g",
-    "preco": 3.75,
-    "preco_por_kg": 7.5
-  },
-  {
     "id": 57,
     "supermercado": "Tenda",
     "produto": "Queijo Ralado Italac 40g",
@@ -212,16 +240,9 @@
   {
     "id": 60,
     "supermercado": "Tenda",
-    "produto": "Azeite Extra Virgem Oliveira da Serra 500ml",
-    "preco": 24.9,
-    "preco_por_kg": 49.8
-  },
-  {
-    "id": 63,
-    "supermercado": "Tenda",
-    "produto": "Tempero Ajinomoto Pet 100g",
-    "preco": 8.69,
-    "preco_por_kg": 86.9
+    "produto": "Azeite Extra Virgem Select 250ml",
+    "preco": 20.59,
+    "preco_por_kg": 82.36
   },
   {
     "id": 65,
@@ -331,9 +352,9 @@
   {
     "id": 81,
     "supermercado": "Tenda",
-    "produto": "Café Tradicional Canecão 500g",
-    "preco": 26.9,
-    "preco_por_kg": 53.8
+    "produto": "Café Tradicional Melitta 500g",
+    "preco": 33.9,
+    "preco_por_kg": 67.8
   },
   {
     "id": 82,
@@ -341,6 +362,13 @@
     "produto": "Chá de Hortelã Leão 15g",
     "preco": 6.29,
     "preco_por_kg": 419.33
+  },
+  {
+    "id": 87,
+    "supermercado": "Tenda",
+    "produto": "Massa de Tapioca Tradicional Select 500g",
+    "preco": 6.49,
+    "preco_por_kg": 12.98
   },
   {
     "id": 88,
@@ -369,6 +397,41 @@
     "produto": "Lâmpada Led 9,0W 6.5K Bivolt Kian",
     "preco": 4.2,
     "preco_por_kg": 4.2
+  },
+  {
+    "id": 96,
+    "supermercado": "Tenda",
+    "produto": "Água Sanitária Select 1L",
+    "preco": 3.25,
+    "preco_por_kg": 3.25
+  },
+  {
+    "id": 100,
+    "supermercado": "Tenda",
+    "produto": "Detergente Líquido Minuano Fresh 500ml",
+    "preco": 2.2,
+    "preco_por_kg": 4.4
+  },
+  {
+    "id": 101,
+    "supermercado": "Tenda",
+    "produto": "Limpador Multiuso Original Azulim Squeeze 500ml",
+    "preco": 2.75,
+    "preco_por_kg": 5.5
+  },
+  {
+    "id": 103,
+    "supermercado": "Tenda",
+    "produto": "Desinfetante Lavanda Select 2L",
+    "preco": 5.1,
+    "preco_por_kg": 2.55
+  },
+  {
+    "id": 105,
+    "supermercado": "Tenda",
+    "produto": "Esponja de Aço Bombril 60g 8 unidades",
+    "preco": 2.5,
+    "preco_por_kg": 41.67
   },
   {
     "id": 107,
@@ -432,6 +495,20 @@
     "produto": "Solução Bucal Cool Mint Listerine 250ml",
     "preco": 16.05,
     "preco_por_kg": 64.2
+  },
+  {
+    "id": 119,
+    "supermercado": "Tenda",
+    "produto": "Bisnaguinha Kim 300g",
+    "preco": 4.99,
+    "preco_por_kg": 16.63
+  },
+  {
+    "id": 120,
+    "supermercado": "Tenda",
+    "produto": "Areia para Gatos Putz 4kg",
+    "preco": 10.2,
+    "preco_por_kg": 2.55
   },
   {
     "id": 121,
