@@ -1,153 +1,9 @@
 {
-  "totalGoodbom": "1401.62",
-  "totalTenda": "2262.47",
-  "totalArena": "2123.78",
-  "totalSavegnago": "1748.47",
+  "totalGoodbom": "1023.22",
+  "totalTenda": "1937.33",
+  "totalArena": "1844.08",
+  "totalSavegnago": "1323.56",
   "produtos": [
-    {
-      "id": "2",
-      "goodbom": {
-        "nome": "BACON PEDAÇO",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "tenda": {
-        "nome": "Bacon Pedaço Sadia 500g",
-        "preco": 14.75,
-        "preco_por_kg": 29.5
-      },
-      "arena": {
-        "nome": null,
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "savegnago": {
-        "nome": "BACON PEDAÇO",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "3",
-      "goodbom": {
-        "nome": "LINGUIÇA CALABRESA CERATTI FATIADO 100G",
-        "preco": 11.99,
-        "preco_por_kg": 119.9
-      },
-      "tenda": {
-        "nome": "Linguiça Calabresa Brasa 400g",
-        "preco": 9.9,
-        "preco_por_kg": 24.75
-      },
-      "arena": {
-        "nome": "Linguiça Calabresa Sadia Pacote 5kg",
-        "preco": 109.19,
-        "preco_por_kg": 21.84
-      },
-      "savegnago": {
-        "nome": "Linguiça Calabresa Cozida Defumada Sadia 400g",
-        "preco": 14.9,
-        "preco_por_kg": 37.25
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "4",
-      "goodbom": {
-        "nome": "HAMBURGUER DE CARNE BOVINA",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "tenda": {
-        "nome": "Hambúrguer de Carne Bovina Air Fryer Seara 150g",
-        "preco": 3.99,
-        "preco_por_kg": 26.6
-      },
-      "arena": {
-        "nome": "Hambúrguer De Carne Bovina Air Fryer Seara 150g",
-        "preco": 6.29,
-        "preco_por_kg": 41.93
-      },
-      "savegnago": {
-        "nome": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
-        "preco": 21.9,
-        "preco_por_kg": 32.59
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "5",
-      "goodbom": {
-        "nome": "LINGUIÇA TOSCANA SEARA KG",
-        "preco": 19.99,
-        "preco_por_kg": 19.99
-      },
-      "tenda": {
-        "nome": "Linguiça Toscana Churrasco Seara 700g",
-        "preco": 14.49,
-        "preco_por_kg": 20.7
-      },
-      "arena": {
-        "nome": "Linguiça Toscana Churrasco Seara 700g",
-        "preco": 8.99,
-        "preco_por_kg": 12.84
-      },
-      "savegnago": {
-        "nome": "Linguiça Toscana Churrasco Seara 700g",
-        "preco": 24.9,
-        "preco_por_kg": 35.57
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "6",
-      "goodbom": {
-        "nome": "SALSICHA HOT DOG SEARA KG",
-        "preco": 12.79,
-        "preco_por_kg": 12.79
-      },
-      "tenda": {
-        "nome": "Salsicha Hot Dog Aurora Pacote 3kg",
-        "preco": 26.97,
-        "preco_por_kg": 8.99
-      },
-      "arena": {
-        "nome": "Salsicha Hot Dog Copacol Granel Kg",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
-      },
-      "savegnago": {
-        "nome": "Salsicha Hot Dog Aurora 500g",
-        "preco": 10.9,
-        "preco_por_kg": 21.8
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "7",
-      "goodbom": {
-        "nome": "SOBRECOXA DE FRANGO SWIFT 1KG",
-        "preco": 14.5,
-        "preco_por_kg": 14.5
-      },
-      "tenda": {
-        "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
-        "preco": 4.45,
-        "preco_por_kg": 8.9
-      },
-      "arena": {
-        "nome": "Sobrecoxa Congelada Granel Kg",
-        "preco": 11.69,
-        "preco_por_kg": 11.69
-      },
-      "savegnago": {
-        "nome": "Sobrecoxa Seara 1kg",
-        "preco": 17.9,
-        "preco_por_kg": 17.9
-      },
-      "mais_barato": "Tenda"
-    },
     {
       "id": "10",
       "goodbom": {
@@ -411,54 +267,6 @@
         "preco_por_kg": 2.95
       },
       "mais_barato": "Savegnago"
-    },
-    {
-      "id": "28",
-      "goodbom": {
-        "nome": "CHUCHU KG",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
-      },
-      "tenda": {
-        "nome": "Chuchu Unidade",
-        "preco": 1.85,
-        "preco_por_kg": 1.85
-      },
-      "arena": {
-        "nome": "Chuchu Kg",
-        "preco": 4.29,
-        "preco_por_kg": 4.29
-      },
-      "savegnago": {
-        "nome": "Chuchu Em Cubos La Vita 180g",
-        "preco": 3.49,
-        "preco_por_kg": 19.39
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "29",
-      "goodbom": {
-        "nome": "MANDIOQUINHA KG",
-        "preco": 9.99,
-        "preco_por_kg": 9.99
-      },
-      "tenda": {
-        "nome": "Mandioquinha Unidade",
-        "preco": 2.06,
-        "preco_por_kg": 2.06
-      },
-      "arena": {
-        "nome": "Mandioquinha Kg",
-        "preco": 25.9,
-        "preco_por_kg": 25.9
-      },
-      "savegnago": {
-        "nome": "Mandioquinha Vapza 500g",
-        "preco": 21.9,
-        "preco_por_kg": 43.8
-      },
-      "mais_barato": "Tenda"
     },
     {
       "id": "30",
@@ -725,54 +533,6 @@
       "mais_barato": "Tenda"
     },
     {
-      "id": "42",
-      "goodbom": {
-        "nome": "QUEIJO MUSSARELA PEÇA KG",
-        "preco": 49.9,
-        "preco_por_kg": 49.9
-      },
-      "tenda": {
-        "nome": "Queijo Mussarela Portofino 200g",
-        "preco": 6.38,
-        "preco_por_kg": 31.9
-      },
-      "arena": {
-        "nome": "Mussarela Davaca Peça Kg",
-        "preco": 39.9,
-        "preco_por_kg": 39.9
-      },
-      "savegnago": {
-        "nome": "Queijo mussarela fatiado 150g Sadia",
-        "preco": 13.5,
-        "preco_por_kg": 90
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "43",
-      "goodbom": {
-        "nome": "PRESUNTO COZIDO PERDIGÃO KG",
-        "preco": 32.9,
-        "preco_por_kg": 32.9
-      },
-      "tenda": {
-        "nome": "Presunto Cozido Fatiado Seara 180g",
-        "preco": 8.09,
-        "preco_por_kg": 44.94
-      },
-      "arena": {
-        "nome": "Presunto Cozido Nobre Sem Capa Bandeja Kg",
-        "preco": 25.9,
-        "preco_por_kg": 25.9
-      },
-      "savegnago": {
-        "nome": "Lasanha de presunto e queijo Seara 600g",
-        "preco": 17.9,
-        "preco_por_kg": 29.83
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "44",
       "goodbom": {
         "nome": "MORTADELA AURORA 400G",
@@ -797,30 +557,6 @@
       "mais_barato": "Tenda"
     },
     {
-      "id": "45",
-      "goodbom": {
-        "nome": "BATATA CONGELADA SWIFT 400G",
-        "preco": 10.5,
-        "preco_por_kg": 26.25
-      },
-      "tenda": {
-        "nome": "Batata Congelada Select 2kg",
-        "preco": 24.9,
-        "preco_por_kg": 12.45
-      },
-      "arena": {
-        "nome": "Batata Congelada Bem Brasil Crinkle 1,05kg",
-        "preco": 25.9,
-        "preco_por_kg": 5.18
-      },
-      "savegnago": {
-        "nome": "Batata Congelada Bem Brasil Palito Mais Batata 2kg",
-        "preco": 28.9,
-        "preco_por_kg": 14.45
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "47",
       "goodbom": {
         "nome": "MANDIOCA KG",
@@ -843,54 +579,6 @@
         "preco_por_kg": 11.36
       },
       "mais_barato": "Tenda"
-    },
-    {
-      "id": "48",
-      "goodbom": {
-        "nome": "LEGUMES CONGELADO",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "tenda": {
-        "nome": "Seleta de Legumes Congelados De Marchi 1,02kg",
-        "preco": 13.99,
-        "preco_por_kg": 13.72
-      },
-      "arena": {
-        "nome": "Legumes Congelado Grano Mix Salada Russa 1kg",
-        "preco": 15.79,
-        "preco_por_kg": 15.79
-      },
-      "savegnago": {
-        "nome": "LEGUMES CONGELADO",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "49",
-      "goodbom": {
-        "nome": "ÁGUA DE COCO PURO COCO 1L",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
-      },
-      "tenda": {
-        "nome": "Água de Coco Quadrado 200ml",
-        "preco": 1.85,
-        "preco_por_kg": 9.25
-      },
-      "arena": {
-        "nome": "Água De Coco Super Coco 1l",
-        "preco": 9.99,
-        "preco_por_kg": 9.99
-      },
-      "savegnago": {
-        "nome": "Água De Coco Puro Coco 1L",
-        "preco": 12.49,
-        "preco_por_kg": 12.49
-      },
-      "mais_barato": "Goodbom"
     },
     {
       "id": "50",
@@ -1438,7 +1126,7 @@
         "preco_por_kg": 391.5
       },
       "savegnago": {
-        "nome": "Cápsula de café 3 Corações com 10 unidades Café Exotico",
+        "nome": "Cápsula de café 3 corações clássico 10 un",
         "preco": 24.95,
         "preco_por_kg": 24.95
       },
@@ -1486,35 +1174,11 @@
         "preco_por_kg": 734.5
       },
       "savegnago": {
-        "nome": "Cápsula de chá 3 Corações Noites Tranquilas com 10 unidades",
+        "nome": "Cápsula de Chá 3 Corações Erva Doce 10 un",
         "preco": 24.95,
         "preco_por_kg": 24.95
       },
       "mais_barato": "Goodbom"
-    },
-    {
-      "id": "87",
-      "goodbom": {
-        "nome": "TAPIOCA KISABOR 500G",
-        "preco": 6.29,
-        "preco_por_kg": 12.58
-      },
-      "tenda": {
-        "nome": "Massa de Tapioca Tradicional Select 500g",
-        "preco": 6.49,
-        "preco_por_kg": 12.98
-      },
-      "arena": {
-        "nome": "Tapioca Hidratada Kisabor Pacote 500g",
-        "preco": 5.99,
-        "preco_por_kg": 11.98
-      },
-      "savegnago": {
-        "nome": "Goma Pronta Tapioca Siamar 500g Tradicional",
-        "preco": 8.45,
-        "preco_por_kg": 16.9
-      },
-      "mais_barato": "Arena"
     },
     {
       "id": "88",
@@ -1611,126 +1275,6 @@
         "preco_por_kg": 8.99
       },
       "mais_barato": "Tenda"
-    },
-    {
-      "id": "96",
-      "goodbom": {
-        "nome": "ÁGUA SANITÁRIA BARBAREX 2L",
-        "preco": 5.99,
-        "preco_por_kg": 3
-      },
-      "tenda": {
-        "nome": "Água Sanitária Select 1L",
-        "preco": 3.25,
-        "preco_por_kg": 3.25
-      },
-      "arena": {
-        "nome": "Água Sanitária Barbarex 2l",
-        "preco": 4.49,
-        "preco_por_kg": 2.25
-      },
-      "savegnago": {
-        "nome": "Água Sanitária Fazenda Esperança 2L",
-        "preco": 4.55,
-        "preco_por_kg": 2.27
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "100",
-      "goodbom": {
-        "nome": "DETERGENTE CONCENTRADO YPÊ NEUTRO+ 416G",
-        "preco": 7.29,
-        "preco_por_kg": 17.52
-      },
-      "tenda": {
-        "nome": "Detergente Líquido Minuano Fresh 500ml",
-        "preco": 2.2,
-        "preco_por_kg": 4.4
-      },
-      "arena": {
-        "nome": "Detergente Ypê Capim Limão 500ml",
-        "preco": 2.49,
-        "preco_por_kg": 4.98
-      },
-      "savegnago": {
-        "nome": "Detergente Líquido Lava Louças Limpol Neutro 500ml",
-        "preco": 2.65,
-        "preco_por_kg": 5.3
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "101",
-      "goodbom": {
-        "nome": "LIMPADOR MULTIUSO UAU FLORES FOLHAS 500ML",
-        "preco": 6.49,
-        "preco_por_kg": 12.98
-      },
-      "tenda": {
-        "nome": "Limpador Multiuso Original Azulim Squeeze 500ml",
-        "preco": 2.75,
-        "preco_por_kg": 5.5
-      },
-      "arena": {
-        "nome": "Limpador Multiuso Uau Rosas E Sedução 500ml",
-        "preco": 3.59,
-        "preco_por_kg": 7.18
-      },
-      "savegnago": {
-        "nome": "Limpador Multiuso Veja Gold Original 750ml Embalagem Econômica",
-        "preco": 5.85,
-        "preco_por_kg": 7.8
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "103",
-      "goodbom": {
-        "nome": "DESINFETANTE BARBAREX VIOLEX 2L",
-        "preco": 6.99,
-        "preco_por_kg": 3.5
-      },
-      "tenda": {
-        "nome": "Desinfetante Lavanda Select 2L",
-        "preco": 5.1,
-        "preco_por_kg": 2.55
-      },
-      "arena": {
-        "nome": "Desinfetante Barbarex Sensações 5l",
-        "preco": 11.79,
-        "preco_por_kg": 2.36
-      },
-      "savegnago": {
-        "nome": "Desinfetante Lysoform 2L Original",
-        "preco": 23.04,
-        "preco_por_kg": 11.52
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "105",
-      "goodbom": {
-        "nome": "LA ACO BOMBRIL C/6",
-        "preco": 2.99,
-        "preco_por_kg": 2.99
-      },
-      "tenda": {
-        "nome": "Esponja de Aço Bombril 60g 8 unidades",
-        "preco": 2.5,
-        "preco_por_kg": 41.67
-      },
-      "arena": {
-        "nome": "Esponja Bombril Multi Uso Leve 4 Pague 3 Unid.",
-        "preco": 5.59,
-        "preco_por_kg": 5.59
-      },
-      "savegnago": {
-        "nome": "Lã De Aço Bombril Com 6 Unidades",
-        "preco": 2.75,
-        "preco_por_kg": 2.75
-      },
-      "mais_barato": "Savegnago"
     },
     {
       "id": "107",
@@ -1947,54 +1491,6 @@
         "preco_por_kg": 49
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "119",
-      "goodbom": {
-        "nome": "BISNAGUINHA SEVEN BOYS TRAD.300G",
-        "preco": 6.49,
-        "preco_por_kg": 21.63
-      },
-      "tenda": {
-        "nome": "Bisnaguinha Kim 300g",
-        "preco": 4.99,
-        "preco_por_kg": 16.63
-      },
-      "arena": {
-        "nome": "Pão Bisnaguinha Bauducco 260g",
-        "preco": 5.49,
-        "preco_por_kg": 21.12
-      },
-      "savegnago": {
-        "nome": "Bisnaguinha Pullman 300g",
-        "preco": 6.99,
-        "preco_por_kg": 23.3
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "120",
-      "goodbom": {
-        "nome": "AREIA PARA GATOS",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "tenda": {
-        "nome": "Areia para Gatos Putz 4kg",
-        "preco": 10.2,
-        "preco_por_kg": 2.55
-      },
-      "arena": {
-        "nome": null,
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "savegnago": {
-        "nome": "AREIA PARA GATOS",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Tenda"
     },
     {
       "id": "121",
