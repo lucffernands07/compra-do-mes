@@ -161,6 +161,13 @@
     "preco_por_kg": 49.45
   },
   {
+    "id": 34,
+    "supermercado": "Tenda",
+    "produto": "Refresco em pó Tang Laranja Mamão 18g",
+    "preco": 1.09,
+    "preco_por_kg": 60.56
+  },
+  {
     "id": 35,
     "supermercado": "Tenda",
     "produto": "Banana Nanica Unidade",
@@ -170,9 +177,9 @@
   {
     "id": 36,
     "supermercado": "Tenda",
-    "produto": "Néctar de Uva Nutri Néctar 200ml",
-    "preco": 1.69,
-    "preco_por_kg": 8.45
+    "produto": "Uva Crimson Bandeja 500g",
+    "preco": 6.99,
+    "preco_por_kg": 13.98
   },
   {
     "id": 37,
@@ -226,9 +233,9 @@
   {
     "id": 45,
     "supermercado": "Tenda",
-    "produto": "Batata Congelada Select 2kg",
-    "preco": 24.9,
-    "preco_por_kg": 12.45
+    "produto": "Batata Congelada Carinhas Bem Brasil 1,05kg",
+    "preco": 11.49,
+    "preco_por_kg": 10.94
   },
   {
     "id": 47,
@@ -322,13 +329,6 @@
     "preco_por_kg": 8.17
   },
   {
-    "id": 67,
-    "supermercado": "Tenda",
-    "produto": "Vinagre de Álcool Vitalia 750ml",
-    "preco": 2.69,
-    "preco_por_kg": 3.59
-  },
-  {
     "id": 68,
     "supermercado": "Tenda",
     "produto": "Milho Verde Predilecta 170g",
@@ -371,6 +371,62 @@
     "preco_por_kg": 10.38
   },
   {
+    "id": 75,
+    "supermercado": "Tenda",
+    "produto": "Catchup Tradicional Quero 400g",
+    "preco": 7.39,
+    "preco_por_kg": 18.47
+  },
+  {
+    "id": 76,
+    "supermercado": "Tenda",
+    "produto": "Maionese Alho NBA Miami Heat Hellmann's 335g",
+    "preco": 10.39,
+    "preco_por_kg": 31.01
+  },
+  {
+    "id": 77,
+    "supermercado": "Tenda",
+    "produto": "Mostarda Tradicional Cepêra 200g",
+    "preco": 6.59,
+    "preco_por_kg": 32.95
+  },
+  {
+    "id": 78,
+    "supermercado": "Tenda",
+    "produto": "Leite Condensado Semidesnatado Campos do Jordão 395g",
+    "preco": 4.59,
+    "preco_por_kg": 11.62
+  },
+  {
+    "id": 79,
+    "supermercado": "Tenda",
+    "produto": "Creme de Leite Lider 200g",
+    "preco": 2.65,
+    "preco_por_kg": 13.25
+  },
+  {
+    "id": 80,
+    "supermercado": "Tenda",
+    "produto": "Capsula de Café Cerrado Mineiro Compativel com Nespresso 3 Corações 10 unid",
+    "preco": 22.65,
+    "preco_por_kg": 22.65
+  },
+  {
+    "id": 81,
+    "supermercado": "Tenda",
+    "produto": "Café Tradicional Canecão 500g",
+    "preco": 26.9,
+    "preco_por_kg": 53.8
+  },
+  {
+    "id": 82,
+    "supermercado": "Tenda",
+    "produto": "Chá de Capim Cidreira Leão 15g",
+    "preco": 6.29,
+    "preco_por_kg": 419.33
+  },
+  {
     "id": 87,
     "supermercado": "Tenda",
     "produto": "Massa de Tapioca Tradicional Select 500g",
@@ -394,7 +450,7 @@
   {
     "id": 90,
     "supermercado": "Tenda",
-    "produto": "Limpador Perfumado Concentrado Bambu Coala 120ml",
+    "produto": "Limpador Perfumado Essência Concentrada Algodão Coala 120ml",
     "preco": 11.55,
     "preco_por_kg": 96.25
   },
@@ -411,6 +467,13 @@
     "produto": "Água Sanitária Select 1L",
     "preco": 3.25,
     "preco_por_kg": 3.25
+  },
+  {
+    "id": 100,
+    "supermercado": "Tenda",
+    "produto": "Detergente Líquido Minuano Fresh 500ml",
+    "preco": 2.2,
+    "preco_por_kg": 4.4
   },
   {
     "id": 101,
@@ -448,13 +511,6 @@
     "preco_por_kg": 12
   },
   {
-    "id": 110,
-    "supermercado": "Tenda",
-    "produto": "Creme Dental Ice Clean 70g",
-    "preco": 2.5,
-    "preco_por_kg": 35.71
-  },
-  {
     "id": 111,
     "supermercado": "Tenda",
     "produto": "Sabonete Líquido Erva Doce Select Refil 500ml",
@@ -467,5 +523,61 @@
     "produto": "Sabonete Flor de Ypê Frésia e Pêssego 85g",
     "preco": 1.75,
     "preco_por_kg": 20.59
+  },
+  {
+    "id": 114,
+    "supermercado": "Tenda",
+    "produto": "Gel Fixador Incolor Soft Fix 250g",
+    "preco": 4.9,
+    "preco_por_kg": 19.6
+  },
+  {
+    "id": 115,
+    "supermercado": "Tenda",
+    "produto": "Haste Flexível Johnsons 150un",
+    "preco": 13.2,
+    "preco_por_kg": 13.2
+  },
+  {
+    "id": 117,
+    "supermercado": "Tenda",
+    "produto": "Algodão Disco Select 50Un",
+    "preco": 6.5,
+    "preco_por_kg": 6.5
+  },
+  {
+    "id": 118,
+    "supermercado": "Tenda",
+    "produto": "Solução Bucal Cool Mint Listerine 250ml",
+    "preco": 16.05,
+    "preco_por_kg": 64.2
+  },
+  {
+    "id": 119,
+    "supermercado": "Tenda",
+    "produto": "Bisnaguinha Kim 300g",
+    "preco": 4.99,
+    "preco_por_kg": 16.63
+  },
+  {
+    "id": 120,
+    "supermercado": "Tenda",
+    "produto": "Areia para Gatos Putz 4kg",
+    "preco": 10.2,
+    "preco_por_kg": 2.55
+  },
+  {
+    "id": 121,
+    "supermercado": "Tenda",
+    "produto": "Fubá Mimoso Select 500g",
+    "preco": 2.05,
+    "preco_por_kg": 4.1
+  },
+  {
+    "id": 122,
+    "supermercado": "Tenda",
+    "produto": "Alimento para Gatos Sabor Atum Whiskas 85g",
+    "preco": 2.4,
+    "preco_por_kg": 28.24
   }
 ]
