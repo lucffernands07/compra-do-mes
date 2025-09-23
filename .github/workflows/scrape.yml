@@ -38,6 +38,11 @@ jobs:
       - name: Compare prices
         run: node scrapers/compare.js
 
+      - name: Atualizar branch
+        run: |
+          git pull --rebase origin main
+          git push origin main
+
       - name: Commit and push updated prices
         run: |
           git config --global user.name "github-actions"
