@@ -1,12 +1,5 @@
 [
   {
-    "id": 2,
-    "supermercado": "Tenda",
-    "produto": "Bacon Pedaço Sadia 500g",
-    "preco": 14.75,
-    "preco_por_kg": 29.5
-  },
-  {
     "id": 3,
     "supermercado": "Tenda",
     "produto": "Linguiça Calabresa Brasa 400g",
@@ -56,6 +49,13 @@
     "preco_por_kg": 29.9
   },
   {
+    "id": 18,
+    "supermercado": "Tenda",
+    "produto": "Pimentão Verde Bandeja 250g",
+    "preco": 6.69,
+    "preco_por_kg": 26.76
+  },
+  {
     "id": 19,
     "supermercado": "Tenda",
     "produto": "Pimentão Vermelho 350g",
@@ -82,6 +82,13 @@
     "produto": "Abobrinha Italiana Unidade",
     "preco": 2.75,
     "preco_por_kg": 2.75
+  },
+  {
+    "id": 24,
+    "supermercado": "Tenda",
+    "produto": "Beterraba Saco 1Kg",
+    "preco": 2.99,
+    "preco_por_kg": 2.99
   },
   {
     "id": 26,
@@ -112,11 +119,39 @@
     "preco_por_kg": 2.06
   },
   {
+    "id": 30,
+    "supermercado": "Tenda",
+    "produto": "Cheiro Verde Maço Unidade",
+    "preco": 4.29,
+    "preco_por_kg": 4.29
+  },
+  {
+    "id": 31,
+    "supermercado": "Tenda",
+    "produto": "Alface Mimosa Unidade",
+    "preco": 4.49,
+    "preco_por_kg": 4.49
+  },
+  {
     "id": 32,
     "supermercado": "Tenda",
     "produto": "Repolho Verde Unidade",
     "preco": 3.79,
     "preco_por_kg": 3.79
+  },
+  {
+    "id": 33,
+    "supermercado": "Tenda",
+    "produto": "Alho Descascado Kamar 200g",
+    "preco": 9.89,
+    "preco_por_kg": 49.45
+  },
+  {
+    "id": 34,
+    "supermercado": "Tenda",
+    "produto": "Refresco em pó Tang Laranja Mamão 18g",
+    "preco": 1.09,
+    "preco_por_kg": 60.56
   },
   {
     "id": 35,
@@ -145,6 +180,13 @@
     "produto": "Mexerica Murcote 130g",
     "preco": 0.91,
     "preco_por_kg": 7
+  },
+  {
+    "id": 39,
+    "supermercado": "Tenda",
+    "produto": "Margarina com Sal Dualis 500g",
+    "preco": 3.45,
+    "preco_por_kg": 6.9
   },
   {
     "id": 40,
@@ -231,6 +273,13 @@
     "preco_por_kg": 7.5
   },
   {
+    "id": 56,
+    "supermercado": "Tenda",
+    "produto": "Macarrão de Arroz Parafuso Urbano 500g",
+    "preco": 3.75,
+    "preco_por_kg": 7.5
+  },
+  {
     "id": 57,
     "supermercado": "Tenda",
     "produto": "Queijo Ralado Italac 40g",
@@ -238,11 +287,11 @@
     "preco_por_kg": 102.25
   },
   {
-    "id": 60,
+    "id": 63,
     "supermercado": "Tenda",
-    "produto": "Azeite Extra Virgem Select 250ml",
-    "preco": 20.59,
-    "preco_por_kg": 82.36
+    "produto": "Tempero Ajinomoto Pet 100g",
+    "preco": 8.69,
+    "preco_por_kg": 86.9
   },
   {
     "id": 65,
@@ -427,13 +476,6 @@
     "preco_por_kg": 2.55
   },
   {
-    "id": 105,
-    "supermercado": "Tenda",
-    "produto": "Esponja de Aço Bombril 60g 8 unidades",
-    "preco": 2.5,
-    "preco_por_kg": 41.67
-  },
-  {
     "id": 107,
     "supermercado": "Tenda",
     "produto": "Papel Higiênico Folha Simples Select 30m 4un",
@@ -462,20 +504,6 @@
     "preco_por_kg": 11.7
   },
   {
-    "id": 112,
-    "supermercado": "Tenda",
-    "produto": "Sabonete Flor de Ypê Frésia e Pêssego 85g",
-    "preco": 1.75,
-    "preco_por_kg": 20.59
-  },
-  {
-    "id": 114,
-    "supermercado": "Tenda",
-    "produto": "Gel Fixador Incolor Soft Fix 250g",
-    "preco": 4.9,
-    "preco_por_kg": 19.6
-  },
-  {
     "id": 115,
     "supermercado": "Tenda",
     "produto": "Haste Flexível Johnsons 150un",
@@ -497,13 +525,6 @@
     "preco_por_kg": 64.2
   },
   {
-    "id": 119,
-    "supermercado": "Tenda",
-    "produto": "Bisnaguinha Kim 300g",
-    "preco": 4.99,
-    "preco_por_kg": 16.63
-  },
-  {
     "id": 120,
     "supermercado": "Tenda",
     "produto": "Areia para Gatos Putz 4kg",
@@ -516,12 +537,5 @@
     "produto": "Fubá Mimoso Yoki Pacote 500g",
     "preco": 3.69,
     "preco_por_kg": 7.38
-  },
-  {
-    "id": 122,
-    "supermercado": "Tenda",
-    "produto": "Alimento Para Gatos Castrados Sachê Sabor Carne ao Molho Whiskas 85g",
-    "preco": 2.4,
-    "preco_por_kg": 28.24
   }
 ]
