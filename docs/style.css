@@ -22,6 +22,9 @@ table {
   margin: 20px auto;
   border-collapse: collapse;
   text-align: left;
+  display: flex;
+  border-collapse: collapse;
+  text-align: center;  /* centraliza todo o conteúdo das células */
 }
 
 th, td {
