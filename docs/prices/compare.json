@@ -1,9 +1,33 @@
 {
-  "totalGoodbom": "1228.82",
-  "totalTenda": "2049.74",
-  "totalArena": "2029.72",
-  "totalSavegnago": "1552.37",
+  "totalGoodbom": "1375.75",
+  "totalTenda": "2169.47",
+  "totalArena": "2084.23",
+  "totalSavegnago": "1099.80",
   "produtos": [
+    {
+      "id": "2",
+      "goodbom": {
+        "nome": "BACON PEDAÇO",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "tenda": {
+        "nome": "Bacon Pedaço Sadia 500g",
+        "preco": 14.75,
+        "preco_por_kg": 29.5
+      },
+      "arena": {
+        "nome": null,
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "savegnago": {
+        "nome": "BACON PEDAÇO",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "mais_barato": "Tenda"
+    },
     {
       "id": "3",
       "goodbom": {
@@ -22,9 +46,9 @@
         "preco_por_kg": 21.84
       },
       "savegnago": {
-        "nome": "Linguiça Calabresa Cozida Defumada Sadia 400g",
-        "preco": 14.9,
-        "preco_por_kg": 37.25
+        "nome": "LINGUIÇA CALABRESA",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Arena"
     },
@@ -49,54 +73,6 @@
         "nome": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
         "preco": 21.9,
         "preco_por_kg": 32.59
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "6",
-      "goodbom": {
-        "nome": "SALSICHA HOT DOG SEARA KG",
-        "preco": 12.79,
-        "preco_por_kg": 12.79
-      },
-      "tenda": {
-        "nome": "Salsicha Hot Dog Aurora Pacote 3kg",
-        "preco": 26.97,
-        "preco_por_kg": 8.99
-      },
-      "arena": {
-        "nome": "Salsicha Hot Dog Copacol Granel Kg",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
-      },
-      "savegnago": {
-        "nome": "Salsicha Hot Dog Aurora 500g",
-        "preco": 10.9,
-        "preco_por_kg": 21.8
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "7",
-      "goodbom": {
-        "nome": "SOBRECOXA DE FRANGO SWIFT 1KG",
-        "preco": 14.5,
-        "preco_por_kg": 14.5
-      },
-      "tenda": {
-        "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
-        "preco": 4.45,
-        "preco_por_kg": 8.9
-      },
-      "arena": {
-        "nome": "Sobrecoxa Congelada Granel Kg",
-        "preco": 11.69,
-        "preco_por_kg": 11.69
-      },
-      "savegnago": {
-        "nome": "Sobrecoxa Seara 1kg",
-        "preco": 17.9,
-        "preco_por_kg": 17.9
       },
       "mais_barato": "Tenda"
     },
@@ -286,9 +262,9 @@
         "preco_por_kg": 0
       },
       "savegnago": {
-        "nome": "Mix Legumes Pratigel Orgânico Batata Cenoura Abobrinha 200g",
+        "nome": "Abobrinha Bandeja 800g",
         "preco": 22.85,
-        "preco_por_kg": 114.25
+        "preco_por_kg": 28.56
       },
       "mais_barato": "Tenda"
     },
@@ -382,9 +358,9 @@
         "preco_por_kg": 4.29
       },
       "savegnago": {
-        "nome": "Chuchu Em Cubos La Vita 180g",
+        "nome": "Chuchu 1kg",
         "preco": 3.49,
-        "preco_por_kg": 19.39
+        "preco_por_kg": 3.49
       },
       "mais_barato": "Tenda"
     },
@@ -444,9 +420,9 @@
         "preco_por_kg": 2.99
       },
       "tenda": {
-        "nome": "Alface Mimosa Unidade",
-        "preco": 4.49,
-        "preco_por_kg": 4.49
+        "nome": "Alface Crespa Unidade",
+        "preco": 1.99,
+        "preco_por_kg": 1.99
       },
       "arena": {
         "nome": "Alface Crespa Hidropônica Jw Unid.",
@@ -458,7 +434,7 @@
         "preco": 4.75,
         "preco_por_kg": 4.75
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "32",
@@ -479,8 +455,8 @@
       },
       "savegnago": {
         "nome": "Repolho Verde 2Kg",
-        "preco": 5.55,
-        "preco_por_kg": 2.77
+        "preco": 5.9,
+        "preco_por_kg": 2.95
       },
       "mais_barato": "Goodbom"
     },
@@ -694,9 +670,9 @@
         "preco_por_kg": 39.9
       },
       "savegnago": {
-        "nome": "Queijo mussarela fatiado 150g Sadia",
-        "preco": 13.5,
-        "preco_por_kg": 90
+        "nome": "Pizza de mussarela Seara 440g",
+        "preco": 19.7,
+        "preco_por_kg": 44.77
       },
       "mais_barato": "Tenda"
     },
@@ -989,16 +965,16 @@
       "mais_barato": "Arena"
     },
     {
-      "id": "63",
+      "id": "60",
       "goodbom": {
-        "nome": "TEMPERO AJINOMOTO",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "AZEITE EXTRA VIRGEM BORGES VD.500ML",
+        "preco": 39.99,
+        "preco_por_kg": 79.98
       },
       "tenda": {
-        "nome": "Tempero Ajinomoto Pet 100g",
-        "preco": 8.69,
-        "preco_por_kg": 86.9
+        "nome": "Azeite Extra Virgem Select 250ml",
+        "preco": 20.59,
+        "preco_por_kg": 82.36
       },
       "arena": {
         "nome": null,
@@ -1006,11 +982,11 @@
         "preco_por_kg": 0
       },
       "savegnago": {
-        "nome": "TEMPERO AJINOMOTO",
+        "nome": "AZEITE EXTRA VIRGEM",
         "preco": 0,
         "preco_por_kg": 0
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "65",
@@ -1035,30 +1011,6 @@
         "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
-    },
-    {
-      "id": "66",
-      "goodbom": {
-        "nome": "ÓLEO DE SOJA VITALIV PET 900ML",
-        "preco": 7.79,
-        "preco_por_kg": 8.66
-      },
-      "tenda": {
-        "nome": "Óleo de Soja Select 900ml",
-        "preco": 7.35,
-        "preco_por_kg": 8.17
-      },
-      "arena": {
-        "nome": "Óleo De Soja Vila Velha Refinado Bag 18l",
-        "preco": 139,
-        "preco_por_kg": 7.72
-      },
-      "savegnago": {
-        "nome": "Óleo de Soja Soya Pet 900ml",
-        "preco": 6.95,
-        "preco_por_kg": 7.72
-      },
-      "mais_barato": "Arena"
     },
     {
       "id": "67",
@@ -1212,9 +1164,9 @@
         "preco_por_kg": 11.38
       },
       "tenda": {
-        "nome": "Suco Concentrado de Caju Imbiara 500ml",
-        "preco": 5.25,
-        "preco_por_kg": 10.5
+        "nome": "Suco Concentrado de Caju Maguary 500ml",
+        "preco": 5.19,
+        "preco_por_kg": 10.38
       },
       "arena": {
         "nome": null,
@@ -1366,7 +1318,7 @@
         "preco_por_kg": 391.5
       },
       "savegnago": {
-        "nome": "Cápsula de Café 3 Corações Chocolatto 10 un",
+        "nome": "Cápsula de café 3 Corações com 10 unidades Café Exotico",
         "preco": 24.95,
         "preco_por_kg": 24.95
       },
@@ -1582,7 +1534,7 @@
         "preco_por_kg": 4.98
       },
       "savegnago": {
-        "nome": "Detergente Ypê Neutro 500ml",
+        "nome": "Detergente Ypê Clear 500ml",
         "preco": 2.59,
         "preco_por_kg": 5.18
       },
@@ -1637,6 +1589,30 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "105",
+      "goodbom": {
+        "nome": "LA ACO BOMBRIL C/6",
+        "preco": 2.99,
+        "preco_por_kg": 2.99
+      },
+      "tenda": {
+        "nome": "Esponja de Aço Bombril 60g 8 unidades",
+        "preco": 2.5,
+        "preco_por_kg": 41.67
+      },
+      "arena": {
+        "nome": "Esponja Bombril Multi Uso Leve 4 Pague 3 Unid.",
+        "preco": 5.59,
+        "preco_por_kg": 5.59
+      },
+      "savegnago": {
+        "nome": "Lã De Aço Bombril Com 6 Unidades",
+        "preco": 2.75,
+        "preco_por_kg": 2.75
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "107",
       "goodbom": {
         "nome": "PAPEL HIGIÊNICO FOLHA DUPLA DUETTO NEUTRO C/4",
@@ -1654,9 +1630,9 @@
         "preco_por_kg": 14.79
       },
       "savegnago": {
-        "nome": "Papel Higiênico Folha Dupla Mimmo 30m Leve 12 Pague 11",
-        "preco": 16.9,
-        "preco_por_kg": 16.9
+        "nome": "Papel Higiênico Personal Vip Folha Dupla com 12 rolos de 30 metros",
+        "preco": 21.4,
+        "preco_por_kg": 21.4
       },
       "mais_barato": "Tenda"
     },
@@ -1702,9 +1678,9 @@
         "preco_por_kg": 42.11
       },
       "savegnago": {
-        "nome": "Creme Dental Sensodyne Proteção Completa 90g com 2 unidades",
-        "preco": 35.9,
-        "preco_por_kg": 398.89
+        "nome": "Creme Dental Closeup Triple Menta 70g",
+        "preco": 3.85,
+        "preco_por_kg": 55
       },
       "mais_barato": "Tenda"
     },
@@ -1729,6 +1705,54 @@
         "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
         "preco": 6.85,
         "preco_por_kg": 34.25
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "112",
+      "goodbom": {
+        "nome": "SABONETE LUX SUAVE LIRIO AZUL 125G",
+        "preco": 4.29,
+        "preco_por_kg": 34.32
+      },
+      "tenda": {
+        "nome": "Sabonete Flor de Ypê Frésia e Pêssego 85g",
+        "preco": 1.75,
+        "preco_por_kg": 20.59
+      },
+      "arena": {
+        "nome": "Sabonete Ypê Siene Lavanda 85g",
+        "preco": 1.69,
+        "preco_por_kg": 19.88
+      },
+      "savegnago": {
+        "nome": "Sabonete Lux Botanicals Buque de Jasmim 85gr",
+        "preco": 2.75,
+        "preco_por_kg": 32.35
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "114",
+      "goodbom": {
+        "nome": "GEL FIXADOR TRIBAL AZUL 500G",
+        "preco": 12.99,
+        "preco_por_kg": 25.98
+      },
+      "tenda": {
+        "nome": "Gel Fixador Incolor Soft Fix 250g",
+        "preco": 4.9,
+        "preco_por_kg": 19.6
+      },
+      "arena": {
+        "nome": "Gel Fixador Megafix Azul Mega 260g",
+        "preco": 7.59,
+        "preco_por_kg": 29.19
+      },
+      "savegnago": {
+        "nome": "Gel Fixador Clear 300g Controle Caspa",
+        "preco": 17.92,
+        "preco_por_kg": 59.73
       },
       "mais_barato": "Tenda"
     },
@@ -1805,6 +1829,30 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "119",
+      "goodbom": {
+        "nome": "BISNAGUINHA SEVEN BOYS TRAD.300G",
+        "preco": 6.49,
+        "preco_por_kg": 21.63
+      },
+      "tenda": {
+        "nome": "Bisnaguinha Kim 300g",
+        "preco": 4.99,
+        "preco_por_kg": 16.63
+      },
+      "arena": {
+        "nome": "Pão Bisnaguinha Bauducco 260g",
+        "preco": 5.49,
+        "preco_por_kg": 21.12
+      },
+      "savegnago": {
+        "nome": "Bisnaguinha Pullman 300g",
+        "preco": 6.99,
+        "preco_por_kg": 23.3
+      },
+      "mais_barato": "Tenda"
+    },
+    {
       "id": "120",
       "goodbom": {
         "nome": "AREIA PARA GATOS",
@@ -1836,9 +1884,9 @@
         "preco_por_kg": 7.49
       },
       "tenda": {
-        "nome": "Fubá Mimoso Yoki Pacote 500g",
-        "preco": 3.69,
-        "preco_por_kg": 7.38
+        "nome": "Fubá Mimoso Select 500g",
+        "preco": 2.05,
+        "preco_por_kg": 4.1
       },
       "arena": {
         "nome": "Fubá Kisabor Mimoso 1kg",
@@ -1849,6 +1897,30 @@
         "nome": "Fuba Mimoso Siamar 500g",
         "preco": 5.89,
         "preco_por_kg": 11.78
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "122",
+      "goodbom": {
+        "nome": "ALIMENTO PARA GATOS DOMUS AD.MIX 1KG",
+        "preco": 17.98,
+        "preco_por_kg": 17.98
+      },
+      "tenda": {
+        "nome": "Alimento Para Gatos Castrados Sachê Sabor Carne ao Molho Whiskas 85g",
+        "preco": 2.4,
+        "preco_por_kg": 28.24
+      },
+      "arena": {
+        "nome": "Alimento Para Gatos Whiskas Adulto Mix Carne 2,7kg",
+        "preco": 49.9,
+        "preco_por_kg": 7.13
+      },
+      "savegnago": {
+        "nome": "ALIMENTO PARA GATOS",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Arena"
     }

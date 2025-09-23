@@ -1,5 +1,12 @@
 [
   {
+    "id": 2,
+    "supermercado": "Tenda",
+    "produto": "Bacon Pedaço Sadia 500g",
+    "preco": 14.75,
+    "preco_por_kg": 29.5
+  },
+  {
     "id": 3,
     "supermercado": "Tenda",
     "produto": "Linguiça Calabresa Brasa 400g",
@@ -12,20 +19,6 @@
     "produto": "Hambúrguer de Carne Bovina Air Fryer Seara 150g",
     "preco": 3.99,
     "preco_por_kg": 26.6
-  },
-  {
-    "id": 6,
-    "supermercado": "Tenda",
-    "produto": "Salsicha Hot Dog Aurora Pacote 3kg",
-    "preco": 26.97,
-    "preco_por_kg": 8.99
-  },
-  {
-    "id": 7,
-    "supermercado": "Tenda",
-    "produto": "Coxa com Sobrecoxa de Frango Congelado 500g",
-    "preco": 4.45,
-    "preco_por_kg": 8.9
   },
   {
     "id": 10,
@@ -128,9 +121,9 @@
   {
     "id": 31,
     "supermercado": "Tenda",
-    "produto": "Alface Mimosa Unidade",
-    "preco": 4.49,
-    "preco_por_kg": 4.49
+    "produto": "Alface Crespa Unidade",
+    "preco": 1.99,
+    "preco_por_kg": 1.99
   },
   {
     "id": 32,
@@ -287,11 +280,11 @@
     "preco_por_kg": 102.25
   },
   {
-    "id": 63,
+    "id": 60,
     "supermercado": "Tenda",
-    "produto": "Tempero Ajinomoto Pet 100g",
-    "preco": 8.69,
-    "preco_por_kg": 86.9
+    "produto": "Azeite Extra Virgem Select 250ml",
+    "preco": 20.59,
+    "preco_por_kg": 82.36
   },
   {
     "id": 65,
@@ -299,13 +292,6 @@
     "produto": "Biscoito Maisena Mabel 300g",
     "preco": 4.39,
     "preco_por_kg": 14.63
-  },
-  {
-    "id": 66,
-    "supermercado": "Tenda",
-    "produto": "Óleo de Soja Select 900ml",
-    "preco": 7.35,
-    "preco_por_kg": 8.17
   },
   {
     "id": 67,
@@ -352,9 +338,9 @@
   {
     "id": 74,
     "supermercado": "Tenda",
-    "produto": "Suco Concentrado de Caju Imbiara 500ml",
-    "preco": 5.25,
-    "preco_por_kg": 10.5
+    "produto": "Suco Concentrado de Caju Maguary 500ml",
+    "preco": 5.19,
+    "preco_por_kg": 10.38
   },
   {
     "id": 75,
@@ -476,6 +462,13 @@
     "preco_por_kg": 2.55
   },
   {
+    "id": 105,
+    "supermercado": "Tenda",
+    "produto": "Esponja de Aço Bombril 60g 8 unidades",
+    "preco": 2.5,
+    "preco_por_kg": 41.67
+  },
+  {
     "id": 107,
     "supermercado": "Tenda",
     "produto": "Papel Higiênico Folha Simples Select 30m 4un",
@@ -504,6 +497,20 @@
     "preco_por_kg": 11.7
   },
   {
+    "id": 112,
+    "supermercado": "Tenda",
+    "produto": "Sabonete Flor de Ypê Frésia e Pêssego 85g",
+    "preco": 1.75,
+    "preco_por_kg": 20.59
+  },
+  {
+    "id": 114,
+    "supermercado": "Tenda",
+    "produto": "Gel Fixador Incolor Soft Fix 250g",
+    "preco": 4.9,
+    "preco_por_kg": 19.6
+  },
+  {
     "id": 115,
     "supermercado": "Tenda",
     "produto": "Haste Flexível Johnsons 150un",
@@ -525,6 +532,13 @@
     "preco_por_kg": 64.2
   },
   {
+    "id": 119,
+    "supermercado": "Tenda",
+    "produto": "Bisnaguinha Kim 300g",
+    "preco": 4.99,
+    "preco_por_kg": 16.63
+  },
+  {
     "id": 120,
     "supermercado": "Tenda",
     "produto": "Areia para Gatos Putz 4kg",
@@ -534,8 +548,15 @@
   {
     "id": 121,
     "supermercado": "Tenda",
-    "produto": "Fubá Mimoso Yoki Pacote 500g",
-    "preco": 3.69,
-    "preco_por_kg": 7.38
+    "produto": "Fubá Mimoso Select 500g",
+    "preco": 2.05,
+    "preco_por_kg": 4.1
+  },
+  {
+    "id": 122,
+    "supermercado": "Tenda",
+    "produto": "Alimento Para Gatos Castrados Sachê Sabor Carne ao Molho Whiskas 85g",
+    "preco": 2.4,
+    "preco_por_kg": 28.24
   }
 ]
