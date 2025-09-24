@@ -1,8 +1,8 @@
 {
-  "totalGoodbom": "1365.36",
-  "totalTenda": "2147.90",
-  "totalArena": "2096.67",
-  "totalSavegnago": "1523.39",
+  "totalGoodbom": "1389.22",
+  "totalTenda": "2158.05",
+  "totalArena": "2123.67",
+  "totalSavegnago": "1522.08",
   "produtos": [
     {
       "id": "2",
@@ -1181,6 +1181,30 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "69",
+      "goodbom": {
+        "nome": "SELETA DE LEGUMES LATA QUERO 170G",
+        "preco": 5.99,
+        "preco_por_kg": 35.24
+      },
+      "tenda": {
+        "nome": "Seleta de Legumes Select 170g",
+        "preco": 3.49,
+        "preco_por_kg": 20.53
+      },
+      "arena": {
+        "nome": "Seleta De Legumes Predilecta Lata 170g",
+        "preco": 4.59,
+        "preco_por_kg": 27
+      },
+      "savegnago": {
+        "nome": "Seleta De Legumes 300g Agroverts",
+        "preco": 5.15,
+        "preco_por_kg": 17.17
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "70",
       "goodbom": {
         "nome": "SARDINHA EM ÓLEO",
@@ -1251,30 +1275,6 @@
         "preco_por_kg": 12.98
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "74",
-      "goodbom": {
-        "nome": "SUCO CONCENTRADO MAGUARY CAJU 500ML",
-        "preco": 5.69,
-        "preco_por_kg": 11.38
-      },
-      "tenda": {
-        "nome": "Suco Concentrado de Caju Maguary 500ml",
-        "preco": 5.19,
-        "preco_por_kg": 10.38
-      },
-      "arena": {
-        "nome": null,
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "savegnago": {
-        "nome": "Suco Concentrado Dafruta 1L Caju",
-        "preco": 9.19,
-        "preco_por_kg": 9.19
-      },
-      "mais_barato": "Savegnago"
     },
     {
       "id": "75",
@@ -1414,7 +1414,7 @@
         "preco_por_kg": 391.5
       },
       "savegnago": {
-        "nome": "Cápsula de Café 3 Corações Chocolatto 10 un",
+        "nome": "Cápsula de café 3 corações clássico 10 un",
         "preco": 24.95,
         "preco_por_kg": 24.95
       },
@@ -1846,9 +1846,9 @@
         "preco_por_kg": 0
       },
       "savegnago": {
-        "nome": "Haste Flexível Cotonetes Com 75 Unidades",
-        "preco": 9.29,
-        "preco_por_kg": 9.29
+        "nome": "HASTE FLEXÍVEL",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Goodbom"
     },
