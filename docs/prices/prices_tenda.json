@@ -35,6 +35,41 @@
     "preco_por_kg": 8.9
   },
   {
+    "id": 10,
+    "supermercado": "Tenda",
+    "produto": "Miolo da Alcatra Bovina Resfriado em Bifes bandeja 400g",
+    "preco": 18.76,
+    "preco_por_kg": 46.9
+  },
+  {
+    "id": 11,
+    "supermercado": "Tenda",
+    "produto": "Contra Filé Bovino em Bifes Resfriado Bandeja 400g",
+    "preco": 21.16,
+    "preco_por_kg": 52.9
+  },
+  {
+    "id": 12,
+    "supermercado": "Tenda",
+    "produto": "Muscúlo bovino pedaço Resfriado bandeja 400g",
+    "preco": 11.96,
+    "preco_por_kg": 29.9
+  },
+  {
+    "id": 18,
+    "supermercado": "Tenda",
+    "produto": "Pimentão Verde Bandeja 250g",
+    "preco": 6.69,
+    "preco_por_kg": 26.76
+  },
+  {
+    "id": 19,
+    "supermercado": "Tenda",
+    "produto": "Pimentão Vermelho 350g",
+    "preco": 11.89,
+    "preco_por_kg": 33.97
+  },
+  {
     "id": 20,
     "supermercado": "Tenda",
     "produto": "Pimentão Amarelo Bandeja 350g",
@@ -82,6 +117,27 @@
     "produto": "Chuchu Unidade",
     "preco": 1.85,
     "preco_por_kg": 1.85
+  },
+  {
+    "id": 29,
+    "supermercado": "Tenda",
+    "produto": "Mandioquinha Unidade",
+    "preco": 2.06,
+    "preco_por_kg": 2.06
+  },
+  {
+    "id": 30,
+    "supermercado": "Tenda",
+    "produto": "Cheiro Verde Maço Unidade",
+    "preco": 4.29,
+    "preco_por_kg": 4.29
+  },
+  {
+    "id": 31,
+    "supermercado": "Tenda",
+    "produto": "Alface Crespa Unidade",
+    "preco": 1.99,
+    "preco_por_kg": 1.99
   },
   {
     "id": 32,
@@ -245,46 +301,11 @@
     "preco_por_kg": 82.36
   },
   {
-    "id": 63,
-    "supermercado": "Tenda",
-    "produto": "Tempero Ajinomoto Pet 100g",
-    "preco": 8.69,
-    "preco_por_kg": 86.9
-  },
-  {
     "id": 65,
     "supermercado": "Tenda",
     "produto": "Biscoito Maisena Mabel 300g",
     "preco": 4.39,
     "preco_por_kg": 14.63
-  },
-  {
-    "id": 66,
-    "supermercado": "Tenda",
-    "produto": "Óleo de Soja Select 900ml",
-    "preco": 7.35,
-    "preco_por_kg": 8.17
-  },
-  {
-    "id": 67,
-    "supermercado": "Tenda",
-    "produto": "Vinagre de Álcool Colorido Vitalia 750ml",
-    "preco": 2.69,
-    "preco_por_kg": 3.59
-  },
-  {
-    "id": 68,
-    "supermercado": "Tenda",
-    "produto": "Milho Verde Predilecta 170g",
-    "preco": 2.95,
-    "preco_por_kg": 17.35
-  },
-  {
-    "id": 69,
-    "supermercado": "Tenda",
-    "produto": "Seleta de Legumes Select 170g",
-    "preco": 3.49,
-    "preco_por_kg": 20.53
   },
   {
     "id": 71,
@@ -294,25 +315,46 @@
     "preco_por_kg": 5.59
   },
   {
-    "id": 72,
+    "id": 77,
     "supermercado": "Tenda",
-    "produto": "Paçoquinha com Açúcar Mascavo DaColônia 210g",
-    "preco": 10.75,
-    "preco_por_kg": 51.19
+    "produto": "Mostarda Tradicional Quero 190g",
+    "preco": 5.79,
+    "preco_por_kg": 30.47
   },
   {
-    "id": 74,
+    "id": 78,
     "supermercado": "Tenda",
-    "produto": "Suco Concentrado de Caju Maguary 500ml",
-    "preco": 5.19,
-    "preco_por_kg": 10.38
+    "produto": "Leite Condensado Semidesnatado Campos do Jordão 395g",
+    "preco": 4.59,
+    "preco_por_kg": 11.62
   },
   {
-    "id": 75,
+    "id": 79,
     "supermercado": "Tenda",
-    "produto": "Catchup Tradicional Quero 400g",
-    "preco": 7.39,
-    "preco_por_kg": 18.47
+    "produto": "Mistura Láctea Creme de Leite Daus 200g",
+    "preco": 1.79,
+    "preco_por_kg": 8.95
+  },
+  {
+    "id": 80,
+    "supermercado": "Tenda",
+    "produto": "Cápsula de Café Torrado e Moído Caffè Matinal Nescafé Dolce Gusto 80g 10 Unidades",
+    "preco": 20.99,
+    "preco_por_kg": 262.38
+  },
+  {
+    "id": 81,
+    "supermercado": "Tenda",
+    "produto": "Café Tradicional Canecão 500g",
+    "preco": 26.9,
+    "preco_por_kg": 53.8
+  },
+  {
+    "id": 82,
+    "supermercado": "Tenda",
+    "produto": "Chá Matte Natural Leão 10 Sachês",
+    "preco": 3.29,
+    "preco_por_kg": 3.29
   },
   {
     "id": 87,
@@ -334,6 +376,13 @@
     "produto": "Álcool Líquido Tradicional 46,2 INPM Flops 500ml",
     "preco": 3.25,
     "preco_por_kg": 6.5
+  },
+  {
+    "id": 90,
+    "supermercado": "Tenda",
+    "produto": "Limpador Perfumado Agradable Casa & Perfume 500ml",
+    "preco": 5.25,
+    "preco_por_kg": 10.5
   },
   {
     "id": 93,
@@ -439,40 +488,5 @@
     "produto": "Algodão Disco Select 50Un",
     "preco": 6.5,
     "preco_por_kg": 6.5
-  },
-  {
-    "id": 118,
-    "supermercado": "Tenda",
-    "produto": "Solução Bucal Cool Mint Listerine 250ml",
-    "preco": 16.05,
-    "preco_por_kg": 64.2
-  },
-  {
-    "id": 119,
-    "supermercado": "Tenda",
-    "produto": "Bisnaguinha Kim 300g",
-    "preco": 4.99,
-    "preco_por_kg": 16.63
-  },
-  {
-    "id": 120,
-    "supermercado": "Tenda",
-    "produto": "Areia para Gatos Putz 4kg",
-    "preco": 10.2,
-    "preco_por_kg": 2.55
-  },
-  {
-    "id": 121,
-    "supermercado": "Tenda",
-    "produto": "Fubá Mimoso Select 500g",
-    "preco": 2.05,
-    "preco_por_kg": 4.1
-  },
-  {
-    "id": 122,
-    "supermercado": "Tenda",
-    "produto": "Alimento para Gatos Sabor Carne Kitekat 70g",
-    "preco": 2,
-    "preco_por_kg": 28.57
   }
 ]
