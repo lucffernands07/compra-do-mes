@@ -58,14 +58,14 @@ async function main() {
 
       await page.goto(
         `https://www.arenaatacado.com.br/on/demandware.store/Sites-Arena-Site/pt_BR/Search-Show?q=${encodeURIComponent(produto)}`,
-        { waitUntil: "networkidle2", timeout: 60000 }
+        { waitUntil: "networkidle2", timeout: 90000 }
       );
 
       const items = await page.evaluate(() => {
         const nomes = Array.from(document.querySelectorAll("span.productCard__title"));
         const precos = Array.from(document.querySelectorAll("span.productPrice__price"));
 
-        return nomes.slice(0, 5).map((el, i) => {
+        return nomes.slice(0, 9).map((el, i) => {
           const nome = el.innerText.trim();
           const precoTxt = precos[i] ? precos[i].innerText.trim() : "0";
           return { nome, precoTxt };
