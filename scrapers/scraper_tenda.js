@@ -33,11 +33,11 @@ function extrairPeso(nome) {
 
 async function buscarProduto(page, termo) {
   const url = `https://www.tendaatacado.com.br/busca?q=${encodeURIComponent(termo)}`;
-  await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
+  await page.goto(url, { waitUntil: "domcontentloaded", timeout: 90000 });
 
   return await page.evaluate(() => {
     return Array.from(document.querySelectorAll("a.showcase-card-content"))
-      .slice(0, 5) // pode aumentar para 5 se quiser mais resultados
+      .slice(0, 9) // pode aumentar para 5 se quiser menos resultados
       .map(card => {
         const nome =
           card.querySelector("h3.TitleCardComponent")?.innerText.trim() ||
