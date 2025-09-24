@@ -21,20 +21,6 @@
     "preco_por_kg": 26.6
   },
   {
-    "id": 5,
-    "supermercado": "Tenda",
-    "produto": "Linguiça Toscana Churrasco Seara 700g",
-    "preco": 14.49,
-    "preco_por_kg": 20.7
-  },
-  {
-    "id": 6,
-    "supermercado": "Tenda",
-    "produto": "Salsicha Hot Dog Aurora Pacote 3kg",
-    "preco": 26.97,
-    "preco_por_kg": 8.99
-  },
-  {
     "id": 7,
     "supermercado": "Tenda",
     "produto": "Coxa com Sobrecoxa de Frango Congelado 500g",
@@ -140,13 +126,6 @@
     "preco_por_kg": 4.29
   },
   {
-    "id": 31,
-    "supermercado": "Tenda",
-    "produto": "Alface Crespa Unidade",
-    "preco": 1.99,
-    "preco_por_kg": 1.99
-  },
-  {
     "id": 32,
     "supermercado": "Tenda",
     "produto": "Repolho Verde Unidade",
@@ -198,9 +177,9 @@
   {
     "id": 39,
     "supermercado": "Tenda",
-    "produto": "Margarina com Sal Dualis 500g",
-    "preco": 3.45,
-    "preco_por_kg": 6.9
+    "produto": "Margarina Cremosa com Sal Claybom Pote 500g",
+    "preco": 4.29,
+    "preco_por_kg": 8.58
   },
   {
     "id": 40,
@@ -271,6 +250,13 @@
     "produto": "Arroz Tipo 1 Select 1Kg",
     "preco": 4,
     "preco_por_kg": 4
+  },
+  {
+    "id": 53,
+    "supermercado": "Tenda",
+    "produto": "Feijão Preto Tipo 1 Select 1kg",
+    "preco": 4.8,
+    "preco_por_kg": 4.8
   },
   {
     "id": 54,
@@ -539,10 +525,45 @@
     "preco_por_kg": 13.2
   },
   {
+    "id": 117,
+    "supermercado": "Tenda",
+    "produto": "Algodão Disco Select 50Un",
+    "preco": 6.5,
+    "preco_por_kg": 6.5
+  },
+  {
+    "id": 118,
+    "supermercado": "Tenda",
+    "produto": "Solução Bucal Cool Mint Listerine 250ml",
+    "preco": 16.05,
+    "preco_por_kg": 64.2
+  },
+  {
+    "id": 119,
+    "supermercado": "Tenda",
+    "produto": "Bisnaguinha Kim 300g",
+    "preco": 4.99,
+    "preco_por_kg": 16.63
+  },
+  {
     "id": 120,
     "supermercado": "Tenda",
     "produto": "Areia para Gatos Putz 4kg",
     "preco": 10.2,
     "preco_por_kg": 2.55
+  },
+  {
+    "id": 121,
+    "supermercado": "Tenda",
+    "produto": "Fubá Mimoso Select 500g",
+    "preco": 2.05,
+    "preco_por_kg": 4.1
+  },
+  {
+    "id": 122,
+    "supermercado": "Tenda",
+    "produto": "Alimento para Gatos Sabor Atum Whiskas 85g",
+    "preco": 2.4,
+    "preco_por_kg": 28.24
   }
 ]
