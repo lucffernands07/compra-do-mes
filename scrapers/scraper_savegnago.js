@@ -35,13 +35,13 @@ function extrairPeso(nome) {
 
 async function buscarProdutos(page, termo) {
   const url = `https://www.savegnago.com.br/${encodeURIComponent(termo)}?_q=${encodeURIComponent(termo)}`;
-  await page.goto(url, { waitUntil: "networkidle2", timeout: 60000 });
+  await page.goto(url, { waitUntil: "networkidle2", timeout: 90000 });
 
   return await page.evaluate(() => {
     const nomes = Array.from(document.querySelectorAll("span.vtex-product-summary-2-x-productBrand"));
     const precos = Array.from(document.querySelectorAll("p.savegnagoio-store-theme-15-x-priceUnit"));
 
-    return nomes.slice(0, 3).map((el, i) => {
+    return nomes.slice(0, 9).map((el, i) => {
       const nome = el.innerText.trim();
       const precoTxt = precos[i] ? precos[i].innerText.trim() : "0";
       return { nome, precoTxt };
