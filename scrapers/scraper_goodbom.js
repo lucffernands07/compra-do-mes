@@ -53,12 +53,12 @@ async function main() {
 
       await page.goto(
         `https://www.goodbom.com.br/hortolandia/busca?q=${encodeURIComponent(produto)}`,
-        { waitUntil: "networkidle2", timeout: 60000 }
+        { waitUntil: "networkidle2", timeout: 90000 }
       );
 
       const items = await page.evaluate(() => {
         const spans = Array.from(document.querySelectorAll("span.product-name"));
-        return spans.slice(0, 5).map(span => {
+        return spans.slice(0, 9).map(span => {
           const nome = span.innerText.trim();
           const precoSpan = span.closest("a")?.querySelector("span.price");
           const precoTxt = precoSpan
