@@ -1,33 +1,9 @@
 {
-  "totalGoodbom": "1357.33",
-  "totalTenda": "2141.13",
-  "totalArena": "2079.13",
-  "totalSavegnago": "1169.63",
+  "totalGoodbom": "1400.60",
+  "totalTenda": "2138.93",
+  "totalArena": "2123.63",
+  "totalSavegnago": "1632.80",
   "produtos": [
-    {
-      "id": "2",
-      "goodbom": {
-        "nome": "BACON PEDAÇO",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "tenda": {
-        "nome": "Bacon Pedaço Sadia 500g",
-        "preco": 14.75,
-        "preco_por_kg": 29.5
-      },
-      "arena": {
-        "nome": null,
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "savegnago": {
-        "nome": "BACON PEDAÇO",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Tenda"
-    },
     {
       "id": "3",
       "goodbom": {
@@ -334,9 +310,9 @@
         "preco_por_kg": 0
       },
       "savegnago": {
-        "nome": "Abobrinha Bandeja 800g",
+        "nome": "Mix Legumes Pratigel Orgânico Batata Cenoura Abobrinha 200g",
         "preco": 22.85,
-        "preco_por_kg": 28.56
+        "preco_por_kg": 114.25
       },
       "mais_barato": "Tenda"
     },
@@ -598,9 +574,9 @@
         "preco_por_kg": 6.9
       },
       "savegnago": {
-        "nome": "Banana Prata 1Kg",
-        "preco": 7.49,
-        "preco_por_kg": 7.49
+        "nome": "Banana Nanica Exportação - 1kg",
+        "preco": 12.55,
+        "preco_por_kg": 12.55
       },
       "mais_barato": "Tenda"
     },
@@ -742,9 +718,9 @@
         "preco_por_kg": 39.9
       },
       "savegnago": {
-        "nome": "Queijo mussarela fatiado 150g Sadia",
-        "preco": 13.5,
-        "preco_por_kg": 90
+        "nome": "Pizza de mussarela Seara 440g",
+        "preco": 19.7,
+        "preco_por_kg": 44.77
       },
       "mais_barato": "Tenda"
     },
@@ -766,9 +742,9 @@
         "preco_por_kg": 25.9
       },
       "savegnago": {
-        "nome": "Presunto cozido Aurora fatiado 180g",
-        "preco": 8.75,
-        "preco_por_kg": 48.61
+        "nome": "Lasanha de presunto e queijo Seara 600g",
+        "preco": 17.9,
+        "preco_por_kg": 29.83
       },
       "mais_barato": "Arena"
     },
@@ -934,9 +910,9 @@
         "preco_por_kg": 3.8
       },
       "savegnago": {
-        "nome": "Arroz Branco Tipo 1 - 5kg Camil",
-        "preco": 23.9,
-        "preco_por_kg": 4.78
+        "nome": "Cereal Mucilon Arroz 180g Sachê",
+        "preco": 7.56,
+        "preco_por_kg": 42
       },
       "mais_barato": "Arena"
     },
@@ -1129,6 +1105,30 @@
         "nome": "Óleo de Soja Soya Pet 900ml",
         "preco": 6.95,
         "preco_por_kg": 7.72
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "67",
+      "goodbom": {
+        "nome": "VINAGRE CASTELO ALCOOL COLOR 750ML",
+        "preco": 3.99,
+        "preco_por_kg": 5.32
+      },
+      "tenda": {
+        "nome": "Vinagre de Álcool Vitalia 750ml",
+        "preco": 2.69,
+        "preco_por_kg": 3.59
+      },
+      "arena": {
+        "nome": "Vinagre Palladio Álcool Colorido Pet 750ml",
+        "preco": 1.79,
+        "preco_por_kg": 2.39
+      },
+      "savegnago": {
+        "nome": "Vinagre Galo de Barcelos 750ml Álcool",
+        "preco": 2.75,
+        "preco_por_kg": 3.67
       },
       "mais_barato": "Arena"
     },
@@ -1414,7 +1414,7 @@
         "preco_por_kg": 391.5
       },
       "savegnago": {
-        "nome": "Cápsula de café 3 Corações com 10 unidades Café Exotico",
+        "nome": "Cápsula de café 3 corações Espresso Forza 10 un",
         "preco": 24.95,
         "preco_por_kg": 24.95
       },
@@ -1462,7 +1462,7 @@
         "preco_por_kg": 734.5
       },
       "savegnago": {
-        "nome": "Cápsula de Chá 3 Corações Erva Doce 10 un",
+        "nome": "Cápsula de chá 3 Corações Noites Tranquilas com 10 unidades",
         "preco": 24.95,
         "preco_por_kg": 24.95
       },
@@ -1558,7 +1558,7 @@
         "preco_por_kg": 7.99
       },
       "savegnago": {
-        "nome": "Limpador Perfumado Veja Flores do Mediterrâneo- 2L",
+        "nome": "Limpador Perfumado Veja Lírio Do Nilo 2L",
         "preco": 9.56,
         "preco_por_kg": 4.78
       },
@@ -1678,9 +1678,9 @@
         "preco_por_kg": 2.36
       },
       "savegnago": {
-        "nome": "Desinfetante Lysoform 2L Suave Odor",
-        "preco": 23.04,
-        "preco_por_kg": 11.52
+        "nome": "Desinfetante Lysoform Bruto Original 1L",
+        "preco": 16.72,
+        "preco_por_kg": 16.72
       },
       "mais_barato": "Arena"
     },
@@ -1733,28 +1733,28 @@
       "mais_barato": "Tenda"
     },
     {
-      "id": "109",
+      "id": "110",
       "goodbom": {
-        "nome": "ESCOVA DE DENTE COLGATE CLASSIC CLEAN 3 UNID",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
+        "nome": "CREME DENTAL COLGATE TOTAL 12 ANTI TÁRTARO 180G",
+        "preco": 8.99,
+        "preco_por_kg": 49.94
       },
       "tenda": {
-        "nome": "Escova de Dente Select 5 Unidades",
-        "preco": 12,
-        "preco_por_kg": 12
+        "nome": "Creme Dental Ice Clean 70g",
+        "preco": 2.5,
+        "preco_por_kg": 35.71
       },
       "arena": {
-        "nome": null,
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Creme Dental Sorriso Dentes Brancos 90g",
+        "preco": 3.79,
+        "preco_por_kg": 42.11
       },
       "savegnago": {
-        "nome": "Escova de Dente Colgate Classic Clean 1 unid",
-        "preco": 6.35,
-        "preco_por_kg": 6.35
+        "nome": "Creme Dental Sensodyne Proteção Completa 90g com 2 unidades",
+        "preco": 35.9,
+        "preco_por_kg": 398.89
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Tenda"
     },
     {
       "id": "111",
@@ -1966,9 +1966,9 @@
         "preco_por_kg": 5.99
       },
       "savegnago": {
-        "nome": "Fuba Mimoso Siamar 500g",
-        "preco": 5.89,
-        "preco_por_kg": 11.78
+        "nome": "Fuba Mimoso Yoki 500g",
+        "preco": 4.79,
+        "preco_por_kg": 9.58
       },
       "mais_barato": "Tenda"
     },
