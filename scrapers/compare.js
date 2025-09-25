@@ -7,7 +7,7 @@ const goodbomFile   = path.join(__dirname, "..", "docs", "prices", "prices_goodb
 const tendaFile     = path.join(__dirname, "..", "docs", "prices", "prices_tenda.json");
 const arenaFile     = path.join(__dirname, "..", "docs", "prices", "prices_arena.json");
 const savegnagoFile = path.join(__dirname, "..", "docs", "prices", "prices_savegnago.json");
-const outputFile    = path.join(__dirname, "..", "docs", "prices", "compare.json"); // JSON final para o front
+const outputFile    = path.join(__dirname, "..", "docs", "prices", "compare.json");
 
 // Função para carregar JSON
 function load(file) {
@@ -20,7 +20,7 @@ const tenda     = load(tendaFile);
 const arena     = load(arenaFile);
 const savegnago = load(savegnagoFile);
 
-// Função para garantir número válido
+// Garante número válido
 function safeNumber(n) {
   n = parseFloat(n);
   return isNaN(n) || !isFinite(n) || n <= 0 ? 0 : n;
@@ -41,7 +41,7 @@ const tendaById     = groupById(tenda);
 const arenaById     = groupById(arena);
 const savegnagoById = groupById(savegnago);
 
-// Comparar apenas ids que existem nos dois mercados originais (Goodbom e Tenda)
+// IDs presentes em Goodbom e Tenda
 const ids = Object.keys(goodbomById).filter(id => tendaById[id]);
 
 let totalGoodbom   = 0;
@@ -58,23 +58,27 @@ for (const id of ids) {
   const s = savegnagoById[id]?.sort((x, y) => safeNumber(x.preco_por_kg) - safeNumber(y.preco_por_kg))[0]
            || { produto: null, preco: 0, preco_por_kg: 0 };
 
+  // >>> NOVO FILTRO: só inclui se TODOS os mercados têm preço_por_kg > 0
+  const gVal = safeNumber(g.preco_por_kg);
+  const tVal = safeNumber(t.preco_por_kg);
+  const aVal = safeNumber(a.preco_por_kg);
+  const sVal = safeNumber(s.preco_por_kg);
+  if (gVal <= 0 || tVal <= 0 || aVal <= 0 || sVal <= 0) continue;
+
   // Totais = somatória por kg
-  totalGoodbom   += safeNumber(g.preco_por_kg);
-  totalTenda     += safeNumber(t.preco_por_kg);
-  totalArena     += safeNumber(a.preco_por_kg);
-  totalSavegnago += safeNumber(s.preco_por_kg);
+  totalGoodbom   += gVal;
+  totalTenda     += tVal;
+  totalArena     += aVal;
+  totalSavegnago += sVal;
 
-  // Determinar mais barato ignorando zeros
+  // Determinar mais barato (todos > 0)
   const preços = [
-    { loja: "Goodbom", preco: safeNumber(g.preco_por_kg) },
-    { loja: "Tenda", preco: safeNumber(t.preco_por_kg) },
-    { loja: "Arena", preco: safeNumber(a.preco_por_kg) },
-    { loja: "Savegnago", preco: safeNumber(s.preco_por_kg) },
-  ].filter(p => p.preco > 0);
-
-  const mais_barato = preços.length
-    ? preços.reduce((min, p) => (p.preco < min.preco ? p : min), preços[0]).loja
-    : null;
+    { loja: "Goodbom", preco: gVal },
+    { loja: "Tenda", preco: tVal },
+    { loja: "Arena", preco: aVal },
+    { loja: "Savegnago", preco: sVal },
+  ];
+  const mais_barato = preços.reduce((min, p) => (p.preco < min.preco ? p : min), preços[0]).loja;
 
   escolhidos.push({
     id,
@@ -99,8 +103,7 @@ if (!fs.existsSync(path.dirname(outputFile))) fs.mkdirSync(path.dirname(outputFi
 fs.writeFileSync(outputFile, JSON.stringify(jsonFinal, null, 2), "utf-8");
 console.log(`💾 JSON final salvo em ${outputFile}`);
 
-// Log resumido
-console.log("Produtos considerados:", ids.length);
+console.log("Produtos considerados:", escolhidos.length);
 console.log("🛒 Total GoodBom:",   totalGoodbom.toFixed(2));
 console.log("🛒 Total Tenda:",     totalTenda.toFixed(2));
 console.log("🛒 Total Arena:",     totalArena.toFixed(2));
@@ -110,7 +113,7 @@ console.table(escolhidos.map(e => ({
   ID: e.id,
   GoodBom:   `${e.goodbom.nome} - R$${e.goodbom.preco} (R$${e.goodbom.preco_por_kg}/kg)`,
   Tenda:     `${e.tenda.nome} - R$${e.tenda.preco} (R$${e.tenda.preco_por_kg}/kg)`,
-  Arena:     `${e.arena.nome || "Sem nome"} - R$${e.arena.preco} (R$${e.arena.preco_por_kg}/kg)`,
-  Savegnago: `${e.savegnago.nome || "Sem nome"} - R$${e.savegnago.preco} (R$${e.savegnago.preco_por_kg}/kg)`,
+  Arena:     `${e.arena.nome} - R$${e.arena.preco} (R$${e.arena.preco_por_kg}/kg)`,
+  Savegnago: `${e.savegnago.nome} - R$${e.savegnago.preco} (R$${e.savegnago.preco_por_kg}/kg)`,
   "Mais barato": e.mais_barato
 })));
