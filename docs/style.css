@@ -92,6 +92,7 @@ li.item {
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   border-bottom: 1px solid #555; /* linha cinza escuro */
+  font-size: 24px;
 }
 
 li.item:last-child {
@@ -99,7 +100,7 @@ li.item:last-child {
 }
 
 .nome {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: bold;
   flex: 1;                       /* ocupa só o espaço disponível */
   min-width: 0;                  /* permite encolher sem empurrar o preço */
