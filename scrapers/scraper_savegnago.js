@@ -125,7 +125,14 @@ function parsePreco(txt) {
 
   await browser.close();
 
-  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(results, null, 2), "utf-8");
-  console.log(`💾 Resultados Savegnago salvos em ${OUTPUT_FILE}`);
-  console.log(`📊 Total de produtos encontrados: ${totalEncontrados}/${produtos.length}`);
-})();
+  fs.writeFileSync(
+  OUTPUT_FILE,
+  JSON.stringify({
+    encontrados: totalEncontrados,      // ✅ contador real
+    totalProdutos: produtos.length,     // total consultado
+    itens: results                       // lista de preços
+  }, null, 2),
+  "utf-8"
+);
+console.log(`💾 Resultados Savegnago salvos em ${OUTPUT_FILE}`);
+console.log(`📊 Total de produtos encontrados: ${totalEncontrados}/${produtos.length}`);
