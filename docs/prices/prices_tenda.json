@@ -21,6 +21,34 @@
     "preco_por_kg": 26.6
   },
   {
+    "id": 5,
+    "supermercado": "Tenda",
+    "produto": "Linguiça Toscana Fina Sabor de Bragança 500g",
+    "preco": 13.95,
+    "preco_por_kg": 27.9
+  },
+  {
+    "id": 6,
+    "supermercado": "Tenda",
+    "produto": "Salsicha Hot Dog Seara 500g",
+    "preco": 9.99,
+    "preco_por_kg": 19.98
+  },
+  {
+    "id": 7,
+    "supermercado": "Tenda",
+    "produto": "Coxa com Sobrecoxa de Frango Congelado 500g",
+    "preco": 4.45,
+    "preco_por_kg": 8.9
+  },
+  {
+    "id": 10,
+    "supermercado": "Tenda",
+    "produto": "Miolo da Alcatra Bovina Resfriado em Bifes bandeja 400g",
+    "preco": 18.76,
+    "preco_por_kg": 46.9
+  },
+  {
     "id": 11,
     "supermercado": "Tenda",
     "produto": "Contra Filé Bovino em Bifes Resfriado Bandeja 400g",
@@ -45,8 +73,8 @@
     "id": 19,
     "supermercado": "Tenda",
     "produto": "Pimentão Vermelho 350g",
-    "preco": 11.89,
-    "preco_por_kg": 33.97
+    "preco": 13.89,
+    "preco_por_kg": 39.69
   },
   {
     "id": 20,
@@ -157,8 +185,8 @@
     "id": 37,
     "supermercado": "Tenda",
     "produto": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
-    "preco": 1.75,
-    "preco_por_kg": 1.75
+    "preco": 1.5,
+    "preco_por_kg": 1.5
   },
   {
     "id": 38,
@@ -184,9 +212,9 @@
   {
     "id": 42,
     "supermercado": "Tenda",
-    "produto": "Queijo Mussarela Portofino 200g",
-    "preco": 6.38,
-    "preco_por_kg": 31.9
+    "produto": "Queijo Mussarela Apolo Fatiado 200g",
+    "preco": 7.58,
+    "preco_por_kg": 37.9
   },
   {
     "id": 43,
@@ -234,15 +262,15 @@
     "id": 50,
     "supermercado": "Tenda",
     "produto": "Leite Fermentado Baunilha Frutap 170g",
-    "preco": 2.19,
-    "preco_por_kg": 12.88
+    "preco": 2.09,
+    "preco_por_kg": 12.29
   },
   {
     "id": 52,
     "supermercado": "Tenda",
     "produto": "Arroz Tipo 1 Select 1Kg",
-    "preco": 4,
-    "preco_por_kg": 4
+    "preco": 3.8,
+    "preco_por_kg": 3.8
   },
   {
     "id": 53,
@@ -296,9 +324,9 @@
   {
     "id": 66,
     "supermercado": "Tenda",
-    "produto": "Óleo de Soja Select 900ml",
-    "preco": 7.35,
-    "preco_por_kg": 8.17
+    "produto": "Óleo de Soja Cocamar 900ml",
+    "preco": 7.4,
+    "preco_por_kg": 8.22
   },
   {
     "id": 67,
@@ -310,9 +338,16 @@
   {
     "id": 68,
     "supermercado": "Tenda",
-    "produto": "Milho Verde Predilecta 170g",
-    "preco": 2.95,
-    "preco_por_kg": 17.35
+    "produto": "Milho Verde Quero Lata 170g",
+    "preco": 2.89,
+    "preco_por_kg": 17
+  },
+  {
+    "id": 69,
+    "supermercado": "Tenda",
+    "produto": "Seleta de Legumes Select 170g",
+    "preco": 3.49,
+    "preco_por_kg": 20.53
   },
   {
     "id": 70,
@@ -327,20 +362,6 @@
     "produto": "Paçoquinha com Açúcar Mascavo DaColônia 210g",
     "preco": 10.75,
     "preco_por_kg": 51.19
-  },
-  {
-    "id": 74,
-    "supermercado": "Tenda",
-    "produto": "Suco Concentrado de Caju Maguary 500ml",
-    "preco": 5.19,
-    "preco_por_kg": 10.38
-  },
-  {
-    "id": 75,
-    "supermercado": "Tenda",
-    "produto": "Catchup Tradicional Quero 400g",
-    "preco": 7.39,
-    "preco_por_kg": 18.47
   },
   {
     "id": 76,
@@ -373,9 +394,9 @@
   {
     "id": 80,
     "supermercado": "Tenda",
-    "produto": "Cápsula de Café Torrado e Moído Caffè Matinal Nescafé Dolce Gusto 80g 10 Unidades",
-    "preco": 20.99,
-    "preco_por_kg": 262.38
+    "produto": "Capsula de Café Cerrado Mineiro Compativel com Nespresso 3 Corações 10 unid",
+    "preco": 16.99,
+    "preco_por_kg": 16.99
   },
   {
     "id": 81,
@@ -504,13 +525,6 @@
     "preco_por_kg": 10
   },
   {
-    "id": 114,
-    "supermercado": "Tenda",
-    "produto": "Gel Fixador Incolor Soft Fix 250g",
-    "preco": 4.9,
-    "preco_por_kg": 19.6
-  },
-  {
     "id": 115,
     "supermercado": "Tenda",
     "produto": "Haste Flexível Johnsons 150un",
@@ -551,13 +565,6 @@
     "produto": "Areia para Gatos Putz 4kg",
     "preco": 10.2,
     "preco_por_kg": 2.55
-  },
-  {
-    "id": 121,
-    "supermercado": "Tenda",
-    "produto": "Fubá Mimoso Select 500g",
-    "preco": 2.05,
-    "preco_por_kg": 4.1
   },
   {
     "id": 122,
