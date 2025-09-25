@@ -15,18 +15,24 @@ function load(file) {
   return JSON.parse(fs.readFileSync(file, "utf-8"));
 }
 
-const goodbom   = load(goodbomFile);
-const tenda     = load(tendaFile);
-const arena     = load(arenaFile);
-const savegnago = load(savegnagoFile);
+// === Carrega dados brutos para contagem ===
+const rawGoodbom   = load(goodbomFile);
+const rawTenda     = load(tendaFile);
+const rawArena     = load(arenaFile);
+const rawSavegnago = load(savegnagoFile);
 
-// Garante número válido
+// Contagem bruta de produtos encontrados em cada scraper
+const encontradosGoodbom   = rawGoodbom.length;
+const encontradosTenda     = rawTenda.length;
+const encontradosArena     = rawArena.length;
+const encontradosSavegnago = rawSavegnago.length;
+
+// === Usa dados brutos para agrupar por id ===
 function safeNumber(n) {
   n = parseFloat(n);
   return isNaN(n) || !isFinite(n) || n <= 0 ? 0 : n;
 }
 
-// Agrupar por id
 function groupById(data) {
   const map = {};
   for (const item of data) {
@@ -36,12 +42,12 @@ function groupById(data) {
   return map;
 }
 
-const goodbomById   = groupById(goodbom);
-const tendaById     = groupById(tenda);
-const arenaById     = groupById(arena);
-const savegnagoById = groupById(savegnago);
+const goodbomById   = groupById(rawGoodbom);
+const tendaById     = groupById(rawTenda);
+const arenaById     = groupById(rawArena);
+const savegnagoById = groupById(rawSavegnago);
 
-// IDs presentes em Goodbom e Tenda
+// IDs presentes em Goodbom e Tenda (base obrigatória)
 const ids = Object.keys(goodbomById).filter(id => tendaById[id]);
 
 let totalGoodbom   = 0;
@@ -58,20 +64,20 @@ for (const id of ids) {
   const s = savegnagoById[id]?.sort((x, y) => safeNumber(x.preco_por_kg) - safeNumber(y.preco_por_kg))[0]
            || { produto: null, preco: 0, preco_por_kg: 0 };
 
-  // >>> NOVO FILTRO: só inclui se TODOS os mercados têm preço_por_kg > 0
+  // Só inclui se TODOS tiverem preço > 0
   const gVal = safeNumber(g.preco_por_kg);
   const tVal = safeNumber(t.preco_por_kg);
   const aVal = safeNumber(a.preco_por_kg);
   const sVal = safeNumber(s.preco_por_kg);
   if (gVal <= 0 || tVal <= 0 || aVal <= 0 || sVal <= 0) continue;
 
-  // Totais = somatória por kg
+  // Totais
   totalGoodbom   += gVal;
   totalTenda     += tVal;
   totalArena     += aVal;
   totalSavegnago += sVal;
 
-  // Determinar mais barato (todos > 0)
+  // Determinar mais barato
   const preços = [
     { loja: "Goodbom", preco: gVal },
     { loja: "Tenda", preco: tVal },
@@ -90,28 +96,30 @@ for (const id of ids) {
   });
 }
 
-// ✅ JSON final com contagem bruta + comparados
+// ✅ JSON final
 const jsonFinal = {
   totalGoodbom:   totalGoodbom.toFixed(2),
   totalTenda:     totalTenda.toFixed(2),
   totalArena:     totalArena.toFixed(2),
   totalSavegnago: totalSavegnago.toFixed(2),
 
-  // Contagem de produtos encontrados em cada site (bruto)
-  encontradosGoodbom:   goodbom.length,
-  encontradosTenda:     tenda.length,
-  encontradosArena:     arena.length,
-  encontradosSavegnago: savegnago.length,
+  // Contagem de produtos encontrados (bruto de cada scraper)
+  encontradosGoodbom,
+  encontradosTenda,
+  encontradosArena,
+  encontradosSavegnago,
 
   // Produtos realmente comparados
   produtos: escolhidos
 };
 
-if (!fs.existsSync(path.dirname(outputFile))) fs.mkdirSync(path.dirname(outputFile), { recursive: true });
+if (!fs.existsSync(path.dirname(outputFile))) {
+  fs.mkdirSync(path.dirname(outputFile), { recursive: true });
+}
 fs.writeFileSync(outputFile, JSON.stringify(jsonFinal, null, 2), "utf-8");
-console.log(`💾 JSON final salvo em ${outputFile}`);
 
-console.log("Produtos considerados:", escolhidos.length);
+console.log(`💾 JSON final salvo em ${outputFile}`);
+console.log("Produtos comparados:", escolhidos.length);
 console.log("🛒 Total GoodBom:",   totalGoodbom.toFixed(2));
 console.log("🛒 Total Tenda:",     totalTenda.toFixed(2));
 console.log("🛒 Total Arena:",     totalArena.toFixed(2));
