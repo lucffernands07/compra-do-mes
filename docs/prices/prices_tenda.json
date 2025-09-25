@@ -1,1 +1,401 @@
-[]
+[
+  {
+    "id": 3,
+    "supermercado": "Tenda",
+    "produto": "Linguiça Calabresa Perdigão 400g",
+    "preco": 12.99,
+    "preco_por_kg": 32.48
+  },
+  {
+    "id": 4,
+    "supermercado": "Tenda",
+    "produto": "Hambúrguer de Carne Bovina Air Fryer Seara 150g",
+    "preco": 3.99,
+    "preco_por_kg": 26.6
+  },
+  {
+    "id": 5,
+    "supermercado": "Tenda",
+    "produto": "Linguiça Toscana Fina Sabor de Bragança 500g",
+    "preco": 13.95,
+    "preco_por_kg": 27.9
+  },
+  {
+    "id": 6,
+    "supermercado": "Tenda",
+    "produto": "Salsicha Hot Dog Seara 500g",
+    "preco": 10.89,
+    "preco_por_kg": 21.78
+  },
+  {
+    "id": 7,
+    "supermercado": "Tenda",
+    "produto": "Coxa com Sobrecoxa de Frango Congelado 500g",
+    "preco": 4.45,
+    "preco_por_kg": 8.9
+  },
+  {
+    "id": 10,
+    "supermercado": "Tenda",
+    "produto": "Miolo da Alcatra Bovina Resfriado em Bifes bandeja 400g",
+    "preco": 18.76,
+    "preco_por_kg": 46.9
+  },
+  {
+    "id": 11,
+    "supermercado": "Tenda",
+    "produto": "Contra Filé Bovino em Bifes Resfriado Bandeja 400g",
+    "preco": 21.16,
+    "preco_por_kg": 52.9
+  },
+  {
+    "id": 12,
+    "supermercado": "Tenda",
+    "produto": "Muscúlo bovino pedaço Resfriado bandeja 400g",
+    "preco": 11.96,
+    "preco_por_kg": 29.9
+  },
+  {
+    "id": 18,
+    "supermercado": "Tenda",
+    "produto": "Pimentão Verde Bandeja 250g",
+    "preco": 6.69,
+    "preco_por_kg": 26.76
+  },
+  {
+    "id": 19,
+    "supermercado": "Tenda",
+    "produto": "Pimentão Vermelho 350g",
+    "preco": 11.89,
+    "preco_por_kg": 33.97
+  },
+  {
+    "id": 20,
+    "supermercado": "Tenda",
+    "produto": "Pimentão Amarelo Bandeja 350g",
+    "preco": 13.89,
+    "preco_por_kg": 39.69
+  },
+  {
+    "id": 22,
+    "supermercado": "Tenda",
+    "produto": "Vagem Macarrão Bandeja 340g",
+    "preco": 4.99,
+    "preco_por_kg": 14.68
+  },
+  {
+    "id": 23,
+    "supermercado": "Tenda",
+    "produto": "Abobrinha Italiana Unidade",
+    "preco": 2.75,
+    "preco_por_kg": 2.75
+  },
+  {
+    "id": 24,
+    "supermercado": "Tenda",
+    "produto": "Beterraba Saco 1Kg",
+    "preco": 2.99,
+    "preco_por_kg": 2.99
+  },
+  {
+    "id": 26,
+    "supermercado": "Tenda",
+    "produto": "Gengibre Unidade",
+    "preco": 1.48,
+    "preco_por_kg": 1.48
+  },
+  {
+    "id": 27,
+    "supermercado": "Tenda",
+    "produto": "Iogurte Natural Laranja, Cenoura e Mel Frutap 150g",
+    "preco": 2.79,
+    "preco_por_kg": 18.6
+  },
+  {
+    "id": 28,
+    "supermercado": "Tenda",
+    "produto": "Chuchu Unidade",
+    "preco": 1.85,
+    "preco_por_kg": 1.85
+  },
+  {
+    "id": 29,
+    "supermercado": "Tenda",
+    "produto": "Mandioquinha Unidade",
+    "preco": 2.06,
+    "preco_por_kg": 2.06
+  },
+  {
+    "id": 30,
+    "supermercado": "Tenda",
+    "produto": "Cheiro Verde Maço Unidade",
+    "preco": 4.29,
+    "preco_por_kg": 4.29
+  },
+  {
+    "id": 32,
+    "supermercado": "Tenda",
+    "produto": "Repolho Verde Unidade",
+    "preco": 3.79,
+    "preco_por_kg": 3.79
+  },
+  {
+    "id": 33,
+    "supermercado": "Tenda",
+    "produto": "Alho Descascado Kamar 200g",
+    "preco": 9.89,
+    "preco_por_kg": 49.45
+  },
+  {
+    "id": 34,
+    "supermercado": "Tenda",
+    "produto": "Refresco em pó Tang Laranja Mamão 18g",
+    "preco": 1.09,
+    "preco_por_kg": 60.56
+  },
+  {
+    "id": 35,
+    "supermercado": "Tenda",
+    "produto": "Banana Nanica Unidade",
+    "preco": 0.91,
+    "preco_por_kg": 0.91
+  },
+  {
+    "id": 36,
+    "supermercado": "Tenda",
+    "produto": "Néctar sabor Uva Frut Del Valle 1L",
+    "preco": 5.69,
+    "preco_por_kg": 5.69
+  },
+  {
+    "id": 37,
+    "supermercado": "Tenda",
+    "produto": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
+    "preco": 1.75,
+    "preco_por_kg": 1.75
+  },
+  {
+    "id": 38,
+    "supermercado": "Tenda",
+    "produto": "Mexerica Murcote 130g",
+    "preco": 0.91,
+    "preco_por_kg": 7
+  },
+  {
+    "id": 39,
+    "supermercado": "Tenda",
+    "produto": "Margarina com Sal Dualis 500g",
+    "preco": 3.45,
+    "preco_por_kg": 6.9
+  },
+  {
+    "id": 40,
+    "supermercado": "Tenda",
+    "produto": "Leite Zero Lactose Semidesnatado Piracanjuba 1L",
+    "preco": 5.49,
+    "preco_por_kg": 5.49
+  },
+  {
+    "id": 42,
+    "supermercado": "Tenda",
+    "produto": "Queijo Mussarela Portofino 200g",
+    "preco": 6.38,
+    "preco_por_kg": 31.9
+  },
+  {
+    "id": 43,
+    "supermercado": "Tenda",
+    "produto": "Presunto Cozido Fatiado Aurora 180g",
+    "preco": 7.69,
+    "preco_por_kg": 42.72
+  },
+  {
+    "id": 44,
+    "supermercado": "Tenda",
+    "produto": "Mortadela Marbinha 400g",
+    "preco": 4.59,
+    "preco_por_kg": 11.47
+  },
+  {
+    "id": 45,
+    "supermercado": "Tenda",
+    "produto": "Batata Congelada Carinhas Bem Brasil 1,05kg",
+    "preco": 11.49,
+    "preco_por_kg": 10.94
+  },
+  {
+    "id": 47,
+    "supermercado": "Tenda",
+    "produto": "Mandioca 500g",
+    "preco": 1.5,
+    "preco_por_kg": 3
+  },
+  {
+    "id": 48,
+    "supermercado": "Tenda",
+    "produto": "Seleta de Legumes Congelados De Marchi 1,02kg",
+    "preco": 12.29,
+    "preco_por_kg": 12.05
+  },
+  {
+    "id": 50,
+    "supermercado": "Tenda",
+    "produto": "Leite Fermentado Baunilha Frutap 170g",
+    "preco": 2.19,
+    "preco_por_kg": 12.88
+  },
+  {
+    "id": 52,
+    "supermercado": "Tenda",
+    "produto": "Arroz Tipo 1 Select 1Kg",
+    "preco": 4,
+    "preco_por_kg": 4
+  },
+  {
+    "id": 53,
+    "supermercado": "Tenda",
+    "produto": "Feijão Carioca 5 Estrelas 1kg",
+    "preco": 4.19,
+    "preco_por_kg": 4.19
+  },
+  {
+    "id": 54,
+    "supermercado": "Tenda",
+    "produto": "Macarrão de Arroz Espaguete Urbano 500g",
+    "preco": 3.75,
+    "preco_por_kg": 7.5
+  },
+  {
+    "id": 56,
+    "supermercado": "Tenda",
+    "produto": "Macarrão de Arroz Parafuso Urbano 500g",
+    "preco": 3.75,
+    "preco_por_kg": 7.5
+  },
+  {
+    "id": 57,
+    "supermercado": "Tenda",
+    "produto": "Queijo Ralado Italac 40g",
+    "preco": 4.09,
+    "preco_por_kg": 102.25
+  },
+  {
+    "id": 60,
+    "supermercado": "Tenda",
+    "produto": "Azeite Extra Virgem Select 250ml",
+    "preco": 20.59,
+    "preco_por_kg": 82.36
+  },
+  {
+    "id": 63,
+    "supermercado": "Tenda",
+    "produto": "Tempero Ajinomoto Pet 100g",
+    "preco": 8.69,
+    "preco_por_kg": 86.9
+  },
+  {
+    "id": 65,
+    "supermercado": "Tenda",
+    "produto": "Biscoito Maisena Mabel 300g",
+    "preco": 4.39,
+    "preco_por_kg": 14.63
+  },
+  {
+    "id": 66,
+    "supermercado": "Tenda",
+    "produto": "Óleo de Soja Select 900ml",
+    "preco": 7.35,
+    "preco_por_kg": 8.17
+  },
+  {
+    "id": 67,
+    "supermercado": "Tenda",
+    "produto": "Vinagre de Álcool Colorido Vitalia 750ml",
+    "preco": 2.69,
+    "preco_por_kg": 3.59
+  },
+  {
+    "id": 68,
+    "supermercado": "Tenda",
+    "produto": "Milho Verde Predilecta 170g",
+    "preco": 2.95,
+    "preco_por_kg": 17.35
+  },
+  {
+    "id": 69,
+    "supermercado": "Tenda",
+    "produto": "Seleta de Legumes Select 170g",
+    "preco": 3.49,
+    "preco_por_kg": 20.53
+  },
+  {
+    "id": 71,
+    "supermercado": "Tenda",
+    "produto": "Açúcar Demerara Caravelas 1kg",
+    "preco": 5.59,
+    "preco_por_kg": 5.59
+  },
+  {
+    "id": 72,
+    "supermercado": "Tenda",
+    "produto": "Paçoquinha com Açúcar Mascavo DaColônia 210g",
+    "preco": 10.75,
+    "preco_por_kg": 51.19
+  },
+  {
+    "id": 74,
+    "supermercado": "Tenda",
+    "produto": "Suco Concentrado de Caju Maguary 500ml",
+    "preco": 5.19,
+    "preco_por_kg": 10.38
+  },
+  {
+    "id": 75,
+    "supermercado": "Tenda",
+    "produto": "Catchup Tradicional Quero 400g",
+    "preco": 7.39,
+    "preco_por_kg": 18.47
+  },
+  {
+    "id": 76,
+    "supermercado": "Tenda",
+    "produto": "Maionese Alho NBA Miami Heat Hellmann's 335g",
+    "preco": 10.39,
+    "preco_por_kg": 31.01
+  },
+  {
+    "id": 77,
+    "supermercado": "Tenda",
+    "produto": "Mostarda Tradicional Quero 190g",
+    "preco": 5.79,
+    "preco_por_kg": 30.47
+  },
+  {
+    "id": 78,
+    "supermercado": "Tenda",
+    "produto": "Leite Condensado Semidesnatado Campos do Jordão 395g",
+    "preco": 4.59,
+    "preco_por_kg": 11.62
+  },
+  {
+    "id": 79,
+    "supermercado": "Tenda",
+    "produto": "Mistura Láctea Creme de Leite Daus 200g",
+    "preco": 1.79,
+    "preco_por_kg": 8.95
+  },
+  {
+    "id": 80,
+    "supermercado": "Tenda",
+    "produto": "Cápsula de Café Torrado e Moído Caffè Matinal Nescafé Dolce Gusto 80g 10 Unidades",
+    "preco": 20.99,
+    "preco_por_kg": 262.38
+  },
+  {
+    "id": 81,
+    "supermercado": "Tenda",
+    "produto": "Café Tradicional Canecão 500g",
+    "preco": 26.9,
+    "preco_por_kg": 53.8
+  }
+]
