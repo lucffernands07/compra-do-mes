@@ -30,14 +30,11 @@ async function carregarDados() {
     let totalArena     = toNumber(data.totalArena);
     let totalSavegnago = toNumber(data.totalSavegnago);
 
-    // 🔢 NOVO: contar produtos válidos de cada supermercado
-    const countValid = key =>
-      produtos.filter(p => toNumber(p[key]?.preco) > 0).length;
-
-    const qtdGoodbom   = countValid("goodbom");
-    const qtdTenda     = countValid("tenda");
-    const qtdArena     = countValid("arena");
-    const qtdSavegnago = countValid("savegnago");
+    // ✅ usar diretamente os encontrados do compare.json
+    const qtdGoodbom   = toNumber(data.encontradosGoodbom);
+    const qtdTenda     = toNumber(data.encontradosTenda);
+    const qtdArena     = toNumber(data.encontradosArena);
+    const qtdSavegnago = toNumber(data.encontradosSavegnago);
 
     // determinar mais barato
     const valores = {
