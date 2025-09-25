@@ -108,10 +108,13 @@ async function main() {
     }
 
     // Salvar JSON
-    if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
     fs.writeFileSync(
       path.join(outDir, "prices_goodbom.json"),
-      JSON.stringify(resultado, null, 2),
+      JSON.stringify({
+        encontrados,           // ✅ novo campo
+        totalProdutos: produtos.length,
+        itens: resultado       // mantém a lista original
+          }, null, 2),
       "utf-8"
     );
 
