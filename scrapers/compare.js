@@ -90,12 +90,20 @@ for (const id of ids) {
   });
 }
 
-// Salvar JSON final
+// ✅ JSON final com contagem bruta + comparados
 const jsonFinal = {
   totalGoodbom:   totalGoodbom.toFixed(2),
   totalTenda:     totalTenda.toFixed(2),
   totalArena:     totalArena.toFixed(2),
   totalSavegnago: totalSavegnago.toFixed(2),
+
+  // Contagem de produtos encontrados em cada site (bruto)
+  encontradosGoodbom:   goodbom.length,
+  encontradosTenda:     tenda.length,
+  encontradosArena:     arena.length,
+  encontradosSavegnago: savegnago.length,
+
+  // Produtos realmente comparados
   produtos: escolhidos
 };
 
