@@ -21,13 +21,6 @@
     "preco_por_kg": 26.6
   },
   {
-    "id": 5,
-    "supermercado": "Tenda",
-    "produto": "Linguiça Toscana Fina Sabor de Bragança 500g",
-    "preco": 13.95,
-    "preco_por_kg": 27.9
-  },
-  {
     "id": 6,
     "supermercado": "Tenda",
     "produto": "Salsicha Hot Dog Seara 500g",
@@ -301,13 +294,6 @@
     "preco_por_kg": 102.25
   },
   {
-    "id": 60,
-    "supermercado": "Tenda",
-    "produto": "Azeite Extra Virgem Select 250ml",
-    "preco": 20.59,
-    "preco_por_kg": 82.36
-  },
-  {
     "id": 63,
     "supermercado": "Tenda",
     "produto": "Tempero Ajinomoto Pet 100g",
@@ -322,13 +308,6 @@
     "preco_por_kg": 14.63
   },
   {
-    "id": 66,
-    "supermercado": "Tenda",
-    "produto": "Óleo de Soja Cocamar 900ml",
-    "preco": 7.4,
-    "preco_por_kg": 8.22
-  },
-  {
     "id": 67,
     "supermercado": "Tenda",
     "produto": "Vinagre de Álcool Colorido Vitalia 750ml",
@@ -341,27 +320,6 @@
     "produto": "Milho Verde Quero Lata 170g",
     "preco": 2.89,
     "preco_por_kg": 17
-  },
-  {
-    "id": 69,
-    "supermercado": "Tenda",
-    "produto": "Seleta de Legumes Select 170g",
-    "preco": 3.49,
-    "preco_por_kg": 20.53
-  },
-  {
-    "id": 70,
-    "supermercado": "Tenda",
-    "produto": "Sardinha em Óleo Pescador 125g",
-    "preco": 4.79,
-    "preco_por_kg": 38.32
-  },
-  {
-    "id": 72,
-    "supermercado": "Tenda",
-    "produto": "Paçoquinha com Açúcar Mascavo DaColônia 210g",
-    "preco": 10.75,
-    "preco_por_kg": 51.19
   },
   {
     "id": 76,
@@ -383,27 +341,6 @@
     "produto": "Leite Condensado Semidesnatado Campos do Jordão 395g",
     "preco": 4.59,
     "preco_por_kg": 11.62
-  },
-  {
-    "id": 79,
-    "supermercado": "Tenda",
-    "produto": "Mistura Láctea Creme de Leite Daus 200g",
-    "preco": 1.79,
-    "preco_por_kg": 8.95
-  },
-  {
-    "id": 80,
-    "supermercado": "Tenda",
-    "produto": "Capsula de Café Cerrado Mineiro Compativel com Nespresso 3 Corações 10 unid",
-    "preco": 16.99,
-    "preco_por_kg": 16.99
-  },
-  {
-    "id": 81,
-    "supermercado": "Tenda",
-    "produto": "Café Tradicional Canecão 500g",
-    "preco": 26.9,
-    "preco_por_kg": 53.8
   },
   {
     "id": 82,
@@ -464,16 +401,16 @@
   {
     "id": 100,
     "supermercado": "Tenda",
-    "produto": "Detergente Líquido Minuano Neutro 500ml",
-    "preco": 2.05,
-    "preco_por_kg": 4.1
+    "produto": "Detergentes Liquido Neutro Conde 500ml",
+    "preco": 1.5,
+    "preco_por_kg": 3
   },
   {
     "id": 101,
     "supermercado": "Tenda",
-    "produto": "Limpador Multiuso Original Azulim Squeeze 500ml",
-    "preco": 2.75,
-    "preco_por_kg": 5.5
+    "produto": "Limpador Multiuso Limão Azulim 500ml",
+    "preco": 2.55,
+    "preco_por_kg": 5.1
   },
   {
     "id": 103,
@@ -520,9 +457,16 @@
   {
     "id": 112,
     "supermercado": "Tenda",
-    "produto": "Sabonete em Barra Hidratante Limão Siciliano Farnese 85g",
-    "preco": 0.85,
-    "preco_por_kg": 10
+    "produto": "Sabonete Ypê Siene Rosas Vermelhas 85g",
+    "preco": 1,
+    "preco_por_kg": 11.76
+  },
+  {
+    "id": 114,
+    "supermercado": "Tenda",
+    "produto": "Gel Fixador Incolor Soft Fix 250g",
+    "preco": 4.9,
+    "preco_por_kg": 19.6
   },
   {
     "id": 115,
@@ -565,6 +509,13 @@
     "produto": "Areia para Gatos Putz 4kg",
     "preco": 10.2,
     "preco_por_kg": 2.55
+  },
+  {
+    "id": 121,
+    "supermercado": "Tenda",
+    "produto": "Fubá Mimoso Select 500g",
+    "preco": 2.05,
+    "preco_por_kg": 4.1
   },
   {
     "id": 122,
