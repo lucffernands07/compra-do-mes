@@ -1,8 +1,8 @@
 {
-  "totalGoodbom": "720.84",
-  "totalTenda": "1167.42",
-  "totalArena": "660.70",
-  "totalSavegnago": "423.01",
+  "totalGoodbom": "780.93",
+  "totalTenda": "680.12",
+  "totalArena": "525.18",
+  "totalSavegnago": "693.24",
   "produtos": [
     {
       "id": "3",
@@ -12,9 +12,9 @@
         "preco_por_kg": 119.9
       },
       "tenda": {
-        "nome": "Linguiça Calabresa Brasa 400g",
-        "preco": 9.9,
-        "preco_por_kg": 24.75
+        "nome": "Linguiça Calabresa Perdigão 400g",
+        "preco": 12.99,
+        "preco_por_kg": 32.48
       },
       "arena": {
         "nome": "Linguiça Calabresa Sadia Pacote 5kg",
@@ -53,6 +53,30 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "6",
+      "goodbom": {
+        "nome": "SALSICHA HOT DOG AURORA KG",
+        "preco": 8.99,
+        "preco_por_kg": 8.99
+      },
+      "tenda": {
+        "nome": "Salsicha Hot Dog Perdigão 500g",
+        "preco": 11.89,
+        "preco_por_kg": 23.78
+      },
+      "arena": {
+        "nome": "Salsicha Hot Dog Copacol Granel Kg",
+        "preco": 8.99,
+        "preco_por_kg": 8.99
+      },
+      "savegnago": {
+        "nome": "Salsicha hot dog Seara 500g",
+        "preco": 8.98,
+        "preco_por_kg": 17.96
+      },
+      "mais_barato": "Goodbom"
+    },
+    {
       "id": "7",
       "goodbom": {
         "nome": "SOBRECOXA DE FRANGO SWIFT 1KG",
@@ -77,146 +101,26 @@
       "mais_barato": "Tenda"
     },
     {
-      "id": "10",
+      "id": "22",
       "goodbom": {
-        "nome": "MIOLO DA ALCATRA",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "VAGEM MACARRÃO KG",
+        "preco": 19.99,
+        "preco_por_kg": 19.99
       },
       "tenda": {
-        "nome": "Miolo da Alcatra Bovina Resfriado em Bifes bandeja 400g",
-        "preco": 18.76,
-        "preco_por_kg": 46.9
+        "nome": "Vagem Macarrão Bandeja 340g",
+        "preco": 4.99,
+        "preco_por_kg": 14.68
       },
       "arena": {
-        "nome": null,
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Vagem Congelada De Marchi 1,02kg",
+        "preco": 26.99,
+        "preco_por_kg": 13.49
       },
       "savegnago": {
-        "nome": "MIOLO DA ALCATRA",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "11",
-      "goodbom": {
-        "nome": "CONTRA FILÉ BOVINO",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "tenda": {
-        "nome": "Contra Filé Bovino em Bifes Resfriado Bandeja 400g",
-        "preco": 21.16,
-        "preco_por_kg": 52.9
-      },
-      "arena": {
-        "nome": "Contra Filé Bovino Porcionado Embalado À Vácuo Kg",
-        "preco": 46.9,
-        "preco_por_kg": 46.9
-      },
-      "savegnago": {
-        "nome": "Contra Filé Bovino Peça Vácuo 3,5kg",
-        "preco": 98.9,
-        "preco_por_kg": 28.26
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
-      "id": "12",
-      "goodbom": {
-        "nome": "MÚSCULO BOVINO",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "tenda": {
-        "nome": "Muscúlo bovino pedaço Resfriado bandeja 400g",
-        "preco": 11.96,
-        "preco_por_kg": 29.9
-      },
-      "arena": {
-        "nome": "Músculo Bovino Bandeja Kg",
-        "preco": 39.9,
-        "preco_por_kg": 39.9
-      },
-      "savegnago": {
-        "nome": "MÚSCULO BOVINO",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "18",
-      "goodbom": {
-        "nome": "PIMENTÃO VERDE KG",
-        "preco": 15.99,
-        "preco_por_kg": 15.99
-      },
-      "tenda": {
-        "nome": "Pimentão Verde Bandeja 250g",
-        "preco": 6.69,
-        "preco_por_kg": 26.76
-      },
-      "arena": {
-        "nome": "Pimentão Verde Bandeja",
-        "preco": 13.89,
-        "preco_por_kg": 13.89
-      },
-      "savegnago": {
-        "nome": "PIMENTÃO VERDE",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "19",
-      "goodbom": {
-        "nome": "PIMENTÃO VERMELHO KG",
-        "preco": 24.99,
-        "preco_por_kg": 24.99
-      },
-      "tenda": {
-        "nome": "Pimentão Vermelho 350g",
-        "preco": 11.89,
-        "preco_por_kg": 33.97
-      },
-      "arena": {
-        "nome": "Pimentão Vermelho Kg",
-        "preco": 24.89,
-        "preco_por_kg": 24.89
-      },
-      "savegnago": {
-        "nome": "PIMENTÃO VERMELHO",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "20",
-      "goodbom": {
-        "nome": "PIMENTÃO AMARELO KG",
-        "preco": 24.99,
-        "preco_por_kg": 24.99
-      },
-      "tenda": {
-        "nome": "Pimentão Amarelo Bandeja 350g",
-        "preco": 11.89,
-        "preco_por_kg": 33.97
-      },
-      "arena": {
-        "nome": "Pimentão Amarelo Kg",
-        "preco": 24.89,
-        "preco_por_kg": 24.89
-      },
-      "savegnago": {
-        "nome": "PIMENTÃO AMARELO",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Vagem Irmãos Pimenta Bandeja 300g",
+        "preco": 9.25,
+        "preco_por_kg": 30.83
       },
       "mais_barato": "Arena"
     },
@@ -277,8 +181,8 @@
       },
       "tenda": {
         "nome": "Iogurte Natural Laranja, Cenoura e Mel Frutap 150g",
-        "preco": 2.49,
-        "preco_por_kg": 16.6
+        "preco": 2.79,
+        "preco_por_kg": 18.6
       },
       "arena": {
         "nome": "Cenoura Kg",
@@ -291,6 +195,54 @@
         "preco_por_kg": 2.95
       },
       "mais_barato": "Savegnago"
+    },
+    {
+      "id": "28",
+      "goodbom": {
+        "nome": "CHUCHU KG",
+        "preco": 7.99,
+        "preco_por_kg": 7.99
+      },
+      "tenda": {
+        "nome": "Chuchu Unidade",
+        "preco": 1.85,
+        "preco_por_kg": 1.85
+      },
+      "arena": {
+        "nome": "Chuchu Kg",
+        "preco": 4.29,
+        "preco_por_kg": 4.29
+      },
+      "savegnago": {
+        "nome": "Chuchu 1kg",
+        "preco": 3.49,
+        "preco_por_kg": 3.49
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "29",
+      "goodbom": {
+        "nome": "MANDIOQUINHA KG",
+        "preco": 9.99,
+        "preco_por_kg": 9.99
+      },
+      "tenda": {
+        "nome": "Mandioquinha Unidade",
+        "preco": 2.06,
+        "preco_por_kg": 2.06
+      },
+      "arena": {
+        "nome": "Mandioquinha Kg",
+        "preco": 25.9,
+        "preco_por_kg": 25.9
+      },
+      "savegnago": {
+        "nome": "Caldo Swift 350g Mandioquinha com Frango",
+        "preco": 3.79,
+        "preco_por_kg": 10.83
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "30",
@@ -319,14 +271,14 @@
     {
       "id": "31",
       "goodbom": {
-        "nome": "ALFACE CRESPA UN",
-        "preco": 2.99,
-        "preco_por_kg": 2.99
+        "nome": "SEMENTE FELTRIN ALFACE CRESPA",
+        "preco": 2.49,
+        "preco_por_kg": 2.49
       },
       "tenda": {
-        "nome": "Alface Crespa Unidade",
-        "preco": 1.99,
-        "preco_por_kg": 1.99
+        "nome": "Alface Mimosa Unidade",
+        "preco": 4.49,
+        "preco_por_kg": 4.49
       },
       "arena": {
         "nome": "Alface Crespa Hidropônica Jw Unid.",
@@ -338,151 +290,7 @@
         "preco": 4.75,
         "preco_por_kg": 4.75
       },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "34",
-      "goodbom": {
-        "nome": "MAMÃO PAPAYA KG",
-        "preco": 6.99,
-        "preco_por_kg": 6.99
-      },
-      "tenda": {
-        "nome": "Refresco em pó Tang Laranja Mamão 18g",
-        "preco": 1.09,
-        "preco_por_kg": 60.56
-      },
-      "arena": {
-        "nome": "Iogurte Desnatado Batavo Pense Zero Zero Lactose Mamão 1,150kg",
-        "preco": 6.98,
-        "preco_por_kg": 0.05
-      },
-      "savegnago": {
-        "nome": "Mamão Formosa - 1kg",
-        "preco": 1.59,
-        "preco_por_kg": 1.59
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "36",
-      "goodbom": {
-        "nome": "UVA THOMPSON 500G",
-        "preco": 8.99,
-        "preco_por_kg": 17.98
-      },
-      "tenda": {
-        "nome": "Néctar de Uva Nutri Néctar 200ml",
-        "preco": 1.69,
-        "preco_por_kg": 8.45
-      },
-      "arena": {
-        "nome": "Suco Integral Geração S Uva 1,35l",
-        "preco": 2.79,
-        "preco_por_kg": 0.08
-      },
-      "savegnago": {
-        "nome": "Refrigerante Fanta 2l Pet Uva",
-        "preco": 7.49,
-        "preco_por_kg": 3.75
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "37",
-      "goodbom": {
-        "nome": "MAÇÃ PACOTE 1KG",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
-      },
-      "tenda": {
-        "nome": "Maçã Pink Lady 155g",
-        "preco": 2,
-        "preco_por_kg": 12.9
-      },
-      "arena": {
-        "nome": "Suco Maguary Seleção Maça Pet 1,35l",
-        "preco": 16.19,
-        "preco_por_kg": 0.46
-      },
-      "savegnago": {
-        "nome": "Maçã Importada Argentina Kg",
-        "preco": 2.35,
-        "preco_por_kg": 2.35
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "38",
-      "goodbom": {
-        "nome": "REFRIGERANTE BIOLEVE ZERO MEXERICA 1,5L",
-        "preco": 5.99,
-        "preco_por_kg": 3.99
-      },
-      "tenda": {
-        "nome": "Mexerica Murcote 130g",
-        "preco": 0.91,
-        "preco_por_kg": 7
-      },
-      "arena": {
-        "nome": "Refrigerante Bioleve Mexerica E Limão Zero Pet 1,5l",
-        "preco": 5.39,
-        "preco_por_kg": 1.08
-      },
-      "savegnago": {
-        "nome": "Bebida Gaseificada Zero Mexerica 1,5L Bioleve",
-        "preco": 5.89,
-        "preco_por_kg": 3.93
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "39",
-      "goodbom": {
-        "nome": "MARGARINA DORIANA CREM.C/S 1KG",
-        "preco": 17.79,
-        "preco_por_kg": 17.79
-      },
-      "tenda": {
-        "nome": "Margarina com Sal Dualis 500g",
-        "preco": 3.45,
-        "preco_por_kg": 6.9
-      },
-      "arena": {
-        "nome": "Margarina Dualis Com Sal 500g",
-        "preco": 3.89,
-        "preco_por_kg": 7.78
-      },
-      "savegnago": {
-        "nome": "Margarina cremosa com sal Doriana 500g",
-        "preco": 6.79,
-        "preco_por_kg": 13.58
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "40",
-      "goodbom": {
-        "nome": "LEITE ZERO",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "tenda": {
-        "nome": "Leite Zero Lactose Semidesnatado Piracanjuba 1L",
-        "preco": 5.49,
-        "preco_por_kg": 5.49
-      },
-      "arena": {
-        "nome": null,
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "savegnago": {
-        "nome": "LEITE ZERO",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "42",
@@ -507,6 +315,30 @@
         "preco_por_kg": 22.7
       },
       "mais_barato": "Savegnago"
+    },
+    {
+      "id": "43",
+      "goodbom": {
+        "nome": "PRESUNTO COZIDO AURORA SEM CAPA KG",
+        "preco": 26.9,
+        "preco_por_kg": 26.9
+      },
+      "tenda": {
+        "nome": "Presunto Cozido Fatiado Aurora 180g",
+        "preco": 7.69,
+        "preco_por_kg": 42.72
+      },
+      "arena": {
+        "nome": "Presunto Cozido Nobre Sem Capa Bandeja Kg",
+        "preco": 25.9,
+        "preco_por_kg": 25.9
+      },
+      "savegnago": {
+        "nome": "Presunto cozido Aurora fatiado 180g",
+        "preco": 8.75,
+        "preco_por_kg": 48.61
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "44",
@@ -577,30 +409,6 @@
         "nome": "Farinha Mandioca Siamar 1k Grossa",
         "preco": 10.65,
         "preco_por_kg": 10.65
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "48",
-      "goodbom": {
-        "nome": "LEGUMES CONGELADO",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "tenda": {
-        "nome": "Seleta de Legumes Congelados De Marchi 1,02kg",
-        "preco": 13.99,
-        "preco_por_kg": 13.72
-      },
-      "arena": {
-        "nome": "Legumes Congelado Grano Mix Salada Russa 1kg",
-        "preco": 15.79,
-        "preco_por_kg": 15.79
-      },
-      "savegnago": {
-        "nome": "LEGUMES CONGELADO",
-        "preco": 0,
-        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
@@ -677,76 +485,52 @@
       "mais_barato": "Arena"
     },
     {
-      "id": "56",
+      "id": "53",
       "goodbom": {
-        "nome": "MACARRÃO DE ARROZ PARAFUSO",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "FEIJÃO CARIOCA OLIRON 1KG",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
       },
       "tenda": {
-        "nome": "Macarrão de Arroz Parafuso Urbano 500g",
-        "preco": 3.75,
+        "nome": "Feijão Carioca 5 Estrelas 1kg",
+        "preco": 4.19,
+        "preco_por_kg": 4.19
+      },
+      "arena": {
+        "nome": "Feijão Carioca Du Divino 1kg",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "savegnago": {
+        "nome": "Feijão Preto Serrazul 1kg",
+        "preco": 4.29,
+        "preco_por_kg": 4.29
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "66",
+      "goodbom": {
+        "nome": "ÓLEO DE SOJA VITALIV PET 900ML",
+        "preco": 7.79,
+        "preco_por_kg": 8.66
+      },
+      "tenda": {
+        "nome": "Óleo de Soja Select 900ml",
+        "preco": 7.35,
+        "preco_por_kg": 8.17
+      },
+      "arena": {
+        "nome": "Óleo De Soja Vila Velha Refinado Bag 18l",
+        "preco": 135,
         "preco_por_kg": 7.5
       },
-      "arena": {
-        "nome": null,
-        "preco": 0,
-        "preco_por_kg": 0
-      },
       "savegnago": {
-        "nome": "MACARRÃO DE ARROZ PARAFUSO",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "57",
-      "goodbom": {
-        "nome": "QUEIJO RALADO VALEZA FINO 50G",
-        "preco": 4.99,
-        "preco_por_kg": 99.8
-      },
-      "tenda": {
-        "nome": "Queijo Ralado Italac 40g",
-        "preco": 4.09,
-        "preco_por_kg": 102.25
-      },
-      "arena": {
-        "nome": "Queijo Ralado Pamfis Mussarela 500g",
-        "preco": 27.89,
-        "preco_por_kg": 55.78
-      },
-      "savegnago": {
-        "nome": "QUEIJO RALADO",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Óleo de Soja Soya Pet 900ml",
+        "preco": 7.89,
+        "preco_por_kg": 8.77
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "63",
-      "goodbom": {
-        "nome": "TEMPERO AJINOMOTO",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "tenda": {
-        "nome": "Tempero Ajinomoto Pet 100g",
-        "preco": 8.69,
-        "preco_por_kg": 86.9
-      },
-      "arena": {
-        "nome": null,
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "savegnago": {
-        "nome": "TEMPERO AJINOMOTO",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Tenda"
     },
     {
       "id": "67",
@@ -769,6 +553,30 @@
         "nome": "Vinagre Galo de Barcelos 750ml Colorido",
         "preco": 2.75,
         "preco_por_kg": 3.67
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "68",
+      "goodbom": {
+        "nome": "MILHO VERDE BANDEJA 700G",
+        "preco": 5.99,
+        "preco_por_kg": 8.56
+      },
+      "tenda": {
+        "nome": "Milho Verde Predilecta 170g",
+        "preco": 2.95,
+        "preco_por_kg": 17.35
+      },
+      "arena": {
+        "nome": "Milho Verde Stella D'Oro Sachê 1,7kg",
+        "preco": 26.9,
+        "preco_por_kg": 3.84
+      },
+      "savegnago": {
+        "nome": "Milho Verde Irmãos Pimenta Bandeja 600g",
+        "preco": 5.25,
+        "preco_por_kg": 8.75
       },
       "mais_barato": "Arena"
     },
@@ -797,6 +605,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "72",
+      "goodbom": {
+        "nome": "AÇUCAR MASCAVO FALEX 1KG",
+        "preco": 15.98,
+        "preco_por_kg": 15.98
+      },
+      "tenda": {
+        "nome": "Paçoquinha com Açúcar Mascavo DaColônia 210g",
+        "preco": 10.75,
+        "preco_por_kg": 51.19
+      },
+      "arena": {
+        "nome": "Paçoca Dacolônia Açucar Mascavo Pote 1,008kg",
+        "preco": 32.99,
+        "preco_por_kg": 4.12
+      },
+      "savegnago": {
+        "nome": "Açúcar Mascavo Rosa Lima 500g",
+        "preco": 6.49,
+        "preco_por_kg": 12.98
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "76",
       "goodbom": {
         "nome": "MAIONESE TRADICIONAL QUERO 495G",
@@ -804,9 +636,9 @@
         "preco_por_kg": 16.14
       },
       "tenda": {
-        "nome": "Maionese Arisco Tradicional 500 GR",
-        "preco": 6.59,
-        "preco_por_kg": 13.18
+        "nome": "Maionese Alho NBA Miami Heat Hellmann's 335g",
+        "preco": 10.39,
+        "preco_por_kg": 31.01
       },
       "arena": {
         "nome": "Maionese Quero Big Sachê 1,02kg",
@@ -893,54 +725,6 @@
       "mais_barato": "Arena"
     },
     {
-      "id": "80",
-      "goodbom": {
-        "nome": "CAPSULA DE CAFÉ",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "tenda": {
-        "nome": "Cápsula de Café Torrado e Moído Caffè Matinal Nescafé Dolce Gusto 80g 10 Unidades",
-        "preco": 20.99,
-        "preco_por_kg": 262.38
-      },
-      "arena": {
-        "nome": "Capsula De Café Espresso Ameno 3 Corações 10 Unid. 80g",
-        "preco": 15.99,
-        "preco_por_kg": 199.88
-      },
-      "savegnago": {
-        "nome": "Cápsula de Café Tres Corações Espresso Chapada Diamantina 10 unidades",
-        "preco": 24.95,
-        "preco_por_kg": 24.95
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
-      "id": "81",
-      "goodbom": {
-        "nome": "CAFÉ TRADICIONAL SÃO JOAQUIM 500G",
-        "preco": 26.99,
-        "preco_por_kg": 53.98
-      },
-      "tenda": {
-        "nome": "Café Tradicional Canecão 500g",
-        "preco": 26.9,
-        "preco_por_kg": 53.8
-      },
-      "arena": {
-        "nome": null,
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "savegnago": {
-        "nome": "CAFÉ TRADICIONAL",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Tenda"
-    },
-    {
       "id": "82",
       "goodbom": {
         "nome": "CHÁ LEÃO DE CAMOMILA 10 SACHES",
@@ -961,6 +745,30 @@
         "nome": "Chá Lipton Ice Tea Limão 1,5L Garrafa",
         "preco": 4.99,
         "preco_por_kg": 3.33
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "87",
+      "goodbom": {
+        "nome": "GOMA MANDIOCA TAPIOCA AKIO 320G",
+        "preco": 3.99,
+        "preco_por_kg": 12.47
+      },
+      "tenda": {
+        "nome": "Massa de Tapioca Tradicional Select 500g",
+        "preco": 6.49,
+        "preco_por_kg": 12.98
+      },
+      "arena": {
+        "nome": "Tapioca Hidratada Kisabor Pacote 500g",
+        "preco": 5.99,
+        "preco_por_kg": 11.98
+      },
+      "savegnago": {
+        "nome": "Goma Pronta Tapioca Tradicional Siamar 1kg",
+        "preco": 15.95,
+        "preco_por_kg": 15.95
       },
       "mais_barato": "Arena"
     },
@@ -1037,52 +845,28 @@
       "mais_barato": "Savegnago"
     },
     {
-      "id": "93",
+      "id": "96",
       "goodbom": {
-        "nome": "LÂMPADA LED OUROLUX FRIA 20W BIVOLT",
-        "preco": 10.99,
-        "preco_por_kg": 10.99
+        "nome": "ÁGUA SANITÁRIA YPÊ 2 LITROS",
+        "preco": 4.99,
+        "preco_por_kg": 2.5
       },
       "tenda": {
-        "nome": "Lâmpada Led 9,0W 6.5K Bivolt Kian",
-        "preco": 4.2,
-        "preco_por_kg": 4.2
+        "nome": "Água Sanitária Select 1L",
+        "preco": 3.25,
+        "preco_por_kg": 3.25
       },
       "arena": {
-        "nome": null,
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Água Sanitária Bio-Kriss 2l",
+        "preco": 3.75,
+        "preco_por_kg": 1.88
       },
       "savegnago": {
-        "nome": "Lâmpada Led Taschibra TKL80 12W 3000K",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
+        "nome": "Água Sanitária Fazenda Esperança 2L",
+        "preco": 4.55,
+        "preco_por_kg": 2.27
       },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "97",
-      "goodbom": {
-        "nome": "LAVA ROUPA LÍQUIDO OMO",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "tenda": {
-        "nome": "Lava Roupa Líquido Omo Poder Acelerador 3L",
-        "preco": 42.9,
-        "preco_por_kg": 14.3
-      },
-      "arena": {
-        "nome": null,
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "savegnago": {
-        "nome": "Lava Roupa Líquido Omo Lavanda 3L",
-        "preco": 47.9,
-        "preco_por_kg": 15.97
-      },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "100",
@@ -1107,6 +891,294 @@
         "preco_por_kg": 5.18
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "101",
+      "goodbom": {
+        "nome": "LIMPADOR MULTIUSO UAU FLORES FOLHAS 500ML",
+        "preco": 4.99,
+        "preco_por_kg": 9.98
+      },
+      "tenda": {
+        "nome": "Limpador Multiuso Original Azulim Squeeze 500ml",
+        "preco": 2.75,
+        "preco_por_kg": 5.5
+      },
+      "arena": {
+        "nome": "Limpador Multiuso Uau Rosas E Sedução 500ml",
+        "preco": 3.59,
+        "preco_por_kg": 7.18
+      },
+      "savegnago": {
+        "nome": "Limpador Multiuso Veja Gold Original 750ml Embalagem Econômica",
+        "preco": 5.85,
+        "preco_por_kg": 7.8
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "103",
+      "goodbom": {
+        "nome": "DESINFETANTE SANOL LAVANDA 2L",
+        "preco": 5.99,
+        "preco_por_kg": 3
+      },
+      "tenda": {
+        "nome": "Desinfetante Lavanda Select 2L",
+        "preco": 5.1,
+        "preco_por_kg": 2.55
+      },
+      "arena": {
+        "nome": "Desinfetante Barbarex Sensações 5l",
+        "preco": 11.79,
+        "preco_por_kg": 2.36
+      },
+      "savegnago": {
+        "nome": "Desinfetante Triex 5L Flores da Primavera",
+        "preco": 14.55,
+        "preco_por_kg": 2.91
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "105",
+      "goodbom": {
+        "nome": "LA ACO BOMBRIL C/6",
+        "preco": 2.99,
+        "preco_por_kg": 2.99
+      },
+      "tenda": {
+        "nome": "Esponja de Aço Bombril 60g 8 unidades",
+        "preco": 2.5,
+        "preco_por_kg": 41.67
+      },
+      "arena": {
+        "nome": "Esponja Bombril Multi Uso Leve 4 Pague 3 Unid.",
+        "preco": 5.59,
+        "preco_por_kg": 5.59
+      },
+      "savegnago": {
+        "nome": "Lã De Aço Bombril Com 6 Unidades",
+        "preco": 2.75,
+        "preco_por_kg": 2.75
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
+      "id": "107",
+      "goodbom": {
+        "nome": "PAPEL HIGIÊNICO FOLHA DUPLA DUETTO NEUTRO C/4",
+        "preco": 7.99,
+        "preco_por_kg": 7.99
+      },
+      "tenda": {
+        "nome": "Papel Higiênico Folha Simples Select 30m 4un",
+        "preco": 4.3,
+        "preco_por_kg": 4.3
+      },
+      "arena": {
+        "nome": "Papel Higiênico Familiar Folha Dupla 30m C/ 4 Rolos",
+        "preco": 6.59,
+        "preco_por_kg": 6.59
+      },
+      "savegnago": {
+        "nome": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
+        "preco": 16.9,
+        "preco_por_kg": 1.41
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
+      "id": "110",
+      "goodbom": {
+        "nome": "CREME DENTAL COLGATE TRIPLA AÇÃO XTRA WHITE 120G",
+        "preco": 6.49,
+        "preco_por_kg": 54.08
+      },
+      "tenda": {
+        "nome": "Creme Dental Ice Clean 70g",
+        "preco": 2.5,
+        "preco_por_kg": 35.71
+      },
+      "arena": {
+        "nome": "Creme Dental Close Up Tripla Proteção Menta 150g",
+        "preco": 6.09,
+        "preco_por_kg": 40.6
+      },
+      "savegnago": {
+        "nome": "Creme Dental Closeup Triple Menta 70g",
+        "preco": 1.99,
+        "preco_por_kg": 28.43
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
+      "id": "111",
+      "goodbom": {
+        "nome": "SABONETE LÍQUIDO MONANGE F.LAVANDA 240ML",
+        "preco": 8.99,
+        "preco_por_kg": 37.46
+      },
+      "tenda": {
+        "nome": "Sabonete Líquido Erva Doce Select Refil 500ml",
+        "preco": 5.85,
+        "preco_por_kg": 11.7
+      },
+      "arena": {
+        "nome": "Sabonete Líquido Deoline Erva Doce Suave Refil1l",
+        "preco": 9.59,
+        "preco_por_kg": 9.59
+      },
+      "savegnago": {
+        "nome": "Sabonete Líquido Palmolive Natur 900ml Ref Suav Delic Jasmim",
+        "preco": 21.65,
+        "preco_por_kg": 24.06
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "112",
+      "goodbom": {
+        "nome": "SABONETE LUX GARDENIA 85G",
+        "preco": 2.59,
+        "preco_por_kg": 30.47
+      },
+      "tenda": {
+        "nome": "Sabonete em Barra Hidratante Limão Siciliano Farnese 85g",
+        "preco": 0.97,
+        "preco_por_kg": 11.41
+      },
+      "arena": {
+        "nome": "Sabonete Ypê Siene Lavanda 85g",
+        "preco": 1.69,
+        "preco_por_kg": 19.88
+      },
+      "savegnago": {
+        "nome": "Sabonete Lux 85g Botanicals Flor De Lotus",
+        "preco": 2.15,
+        "preco_por_kg": 25.29
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "114",
+      "goodbom": {
+        "nome": "GEL FIXADOR TRIBAL AZUL 500G",
+        "preco": 12.99,
+        "preco_por_kg": 25.98
+      },
+      "tenda": {
+        "nome": "Gel Fixador Incolor Soft Fix 250g",
+        "preco": 4.9,
+        "preco_por_kg": 19.6
+      },
+      "arena": {
+        "nome": "Gel Fixador Megafix Azul Mega 260g",
+        "preco": 7.59,
+        "preco_por_kg": 29.19
+      },
+      "savegnago": {
+        "nome": "Gel Fixador Clear 300g Controle Caspa",
+        "preco": 17.92,
+        "preco_por_kg": 59.73
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "116",
+      "goodbom": {
+        "nome": "LENÇO UMEDECIDO INTIMUS C/16",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
+      },
+      "tenda": {
+        "nome": "Lenço Umedecido Toque da Seda Neve 48 unidades",
+        "preco": 11.5,
+        "preco_por_kg": 11.5
+      },
+      "arena": {
+        "nome": "Lenço Umedecido Lysoform Original C/ 36 Unid.",
+        "preco": 23.99,
+        "preco_por_kg": 23.99
+      },
+      "savegnago": {
+        "nome": "Lenço Umedecido Neve Supreme com 48 unidades",
+        "preco": 15.25,
+        "preco_por_kg": 15.25
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "117",
+      "goodbom": {
+        "nome": "ALGODAO TOPZ DISCO 50 UNID.",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
+      },
+      "tenda": {
+        "nome": "Algodão Disco Select 50Un",
+        "preco": 6.5,
+        "preco_por_kg": 6.5
+      },
+      "arena": {
+        "nome": "Algodão Disco Bellacotton C/ 50 Unid.",
+        "preco": 10.89,
+        "preco_por_kg": 10.89
+      },
+      "savegnago": {
+        "nome": "Amaciante Roupa Vida Macia Glicerina E Algodão 1L",
+        "preco": 14.25,
+        "preco_por_kg": 14.25
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "119",
+      "goodbom": {
+        "nome": "BISNAGUINHA SEVEN BOYS TRAD.300G",
+        "preco": 4.99,
+        "preco_por_kg": 16.63
+      },
+      "tenda": {
+        "nome": "Bisnaguinha Kim 300g",
+        "preco": 4.99,
+        "preco_por_kg": 16.63
+      },
+      "arena": {
+        "nome": "Pão Bisnaguinha Bauducco 260g",
+        "preco": 5.49,
+        "preco_por_kg": 21.12
+      },
+      "savegnago": {
+        "nome": "Pão Seven Boys 300g Bisnaguinha",
+        "preco": 6.99,
+        "preco_por_kg": 23.3
+      },
+      "mais_barato": "Goodbom"
+    },
+    {
+      "id": "121",
+      "goodbom": {
+        "nome": "FUBÁ MIMOSO KISABOR 1KG",
+        "preco": 7.49,
+        "preco_por_kg": 7.49
+      },
+      "tenda": {
+        "nome": "Fubá Mimoso Select 500g",
+        "preco": 2.05,
+        "preco_por_kg": 4.1
+      },
+      "arena": {
+        "nome": "Fubá Kisabor Mimoso 1kg",
+        "preco": 5.99,
+        "preco_por_kg": 5.99
+      },
+      "savegnago": {
+        "nome": "Fuba Mimoso Siamar 1k",
+        "preco": 3.69,
+        "preco_por_kg": 3.69
+      },
+      "mais_barato": "Savegnago"
     }
   ]
 }
