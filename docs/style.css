@@ -55,21 +55,9 @@ ul {
 ul li {
   background-color: #f9f9f9;
   margin-bottom: 8px;
-  padding: 20px 10px; /* adicionei padding interno */
   border-radius: 6px;
+  height: 220px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  font-size: 32px;
-  font-weight: bold;
-}
-
-/* Nome do produto em verde e bold */
-ul li strong {
-  color: green;
-}
-
-/* Preços em vermelho e bold */
-ul li span.preco {
-  color: red;
 }
 
 /* Titulos em azul após tabela*/
@@ -82,32 +70,35 @@ p {
 li.item {
   display: flex;
   justify-content: space-between; /* nome à esquerda, preço à direita */
-  align-items: flex-start;        /* alinha ao topo */
-  gap: 10px;                      /* espaço entre nome e preço */
+  align-items: center;        /* alinha ao centro */
   background-color: #f9f9f9;
-  margin-bottom: 8px;
-  padding: 8px 12px;
+  margin-botton: 8px;
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   border-bottom: 1px solid #555; /* linha cinza escuro */
-  font-size: 24px;
+  gap: 40px;
 }
 
 li.item:last-child {
   border-bottom: none; /* remove a linha do último */
 }
 
-.nome {
-  font-size: 24px;
+strong {
   font-weight: bold;
-  flex: 1;                       /* ocupa só o espaço disponível */
-  min-width: 0;                  /* permite encolher sem empurrar o preço */
+  font-size: 50px;
+  color: green;
   overflow-wrap: break-word;     /* quebra palavras longas */
+  flex: 1;
+  min-width: 0;                  /* permite encolher sem empurrar o preço */
+  overflow-wrap: break-word;
 }
 
-.preco {
-  font-size: 16px;
-  color: green;
+span.preco {
+  font-weight: bold;
+  font-size: 50px;
+  color: red;
   white-space: nowrap;           /* impede o preço de quebrar */
-  margin-left: auto;             /* gruda na direita */
+  margin-left: auto;
+  display: flex;
+  align-itens: botton;        
 }
