@@ -136,3 +136,4 @@ function parsePreco(txt) {
 );
 console.log(`💾 Resultados Savegnago salvos em ${OUTPUT_FILE}`);
 console.log(`📊 Total de produtos encontrados: ${totalEncontrados}/${produtos.length}`);
+})();  
