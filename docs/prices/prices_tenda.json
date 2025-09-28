@@ -21,11 +21,18 @@
     "preco_por_kg": 26.6
   },
   {
+    "id": 5,
+    "supermercado": "Tenda",
+    "produto": "Linguiça Toscana Fina Sabor de Bragança 500g",
+    "preco": 13.95,
+    "preco_por_kg": 27.9
+  },
+  {
     "id": 6,
     "supermercado": "Tenda",
-    "produto": "Salsicha Hot Dog Seara 500g",
-    "preco": 9.99,
-    "preco_por_kg": 19.98
+    "produto": "Salsicha Hot Dog Aurora 500g",
+    "preco": 9.49,
+    "preco_por_kg": 18.98
   },
   {
     "id": 7,
@@ -170,16 +177,16 @@
   {
     "id": 36,
     "supermercado": "Tenda",
-    "produto": "Néctar sabor Uva Frut Del Valle 1L",
-    "preco": 5.69,
-    "preco_por_kg": 5.69
+    "produto": "Suco de Uva e Maçã Natural One 180ml",
+    "preco": 3.39,
+    "preco_por_kg": 18.83
   },
   {
     "id": 37,
     "supermercado": "Tenda",
-    "produto": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
-    "preco": 1.5,
-    "preco_por_kg": 1.5
+    "produto": "Bebida de Soja Sabor Maçã Mupy 200ml",
+    "preco": 2.79,
+    "preco_por_kg": 13.95
   },
   {
     "id": 38,
@@ -212,16 +219,16 @@
   {
     "id": 43,
     "supermercado": "Tenda",
-    "produto": "Presunto Cozido Fatiado Aurora 180g",
-    "preco": 7.69,
-    "preco_por_kg": 42.72
+    "produto": "Presunto Cozido sem Capa de Gordura Fatiado Frimesa 200g",
+    "preco": 6.69,
+    "preco_por_kg": 33.45
   },
   {
     "id": 44,
     "supermercado": "Tenda",
-    "produto": "Mortadela Marbinha 400g",
-    "preco": 4.59,
-    "preco_por_kg": 11.47
+    "produto": "Mortadela Aurora 400g",
+    "preco": 3.89,
+    "preco_por_kg": 9.72
   },
   {
     "id": 45,
@@ -241,8 +248,8 @@
     "id": 48,
     "supermercado": "Tenda",
     "produto": "Seleta de Legumes Congelados De Marchi 1,02kg",
-    "preco": 12.29,
-    "preco_por_kg": 12.05
+    "preco": 11.59,
+    "preco_por_kg": 11.36
   },
   {
     "id": 49,
@@ -268,9 +275,9 @@
   {
     "id": 53,
     "supermercado": "Tenda",
-    "produto": "Feijão Carioca 5 Estrelas 1kg",
-    "preco": 4.19,
-    "preco_por_kg": 4.19
+    "produto": "Feijão Preto Tipo 1 Select 1kg",
+    "preco": 4.45,
+    "preco_por_kg": 4.45
   },
   {
     "id": 54,
@@ -294,6 +301,13 @@
     "preco_por_kg": 102.25
   },
   {
+    "id": 60,
+    "supermercado": "Tenda",
+    "produto": "Azeite Extra Virgem Select 250ml",
+    "preco": 20.59,
+    "preco_por_kg": 82.36
+  },
+  {
     "id": 63,
     "supermercado": "Tenda",
     "produto": "Tempero Ajinomoto Pet 100g",
@@ -306,6 +320,13 @@
     "produto": "Biscoito Maisena Mabel 300g",
     "preco": 4.39,
     "preco_por_kg": 14.63
+  },
+  {
+    "id": 66,
+    "supermercado": "Tenda",
+    "produto": "Óleo de Soja Cocamar 900ml",
+    "preco": 7.4,
+    "preco_por_kg": 8.22
   },
   {
     "id": 67,
@@ -322,11 +343,53 @@
     "preco_por_kg": 17
   },
   {
+    "id": 69,
+    "supermercado": "Tenda",
+    "produto": "Seleta de Legumes Select 170g",
+    "preco": 3.49,
+    "preco_por_kg": 20.53
+  },
+  {
+    "id": 70,
+    "supermercado": "Tenda",
+    "produto": "Sardinha em Óleo Pescador 125g",
+    "preco": 4.79,
+    "preco_por_kg": 38.32
+  },
+  {
+    "id": 71,
+    "supermercado": "Tenda",
+    "produto": "Açúcar Demerara Caravelas 1kg",
+    "preco": 5.59,
+    "preco_por_kg": 5.59
+  },
+  {
+    "id": 72,
+    "supermercado": "Tenda",
+    "produto": "Paçoquinha com Açúcar Mascavo DaColônia 210g",
+    "preco": 10.75,
+    "preco_por_kg": 51.19
+  },
+  {
+    "id": 74,
+    "supermercado": "Tenda",
+    "produto": "Suco Concentrado de Caju Maguary 500ml",
+    "preco": 5.19,
+    "preco_por_kg": 10.38
+  },
+  {
+    "id": 75,
+    "supermercado": "Tenda",
+    "produto": "Catchup Tradicional Konsumo Sachê",
+    "preco": 10,
+    "preco_por_kg": 10
+  },
+  {
     "id": 76,
     "supermercado": "Tenda",
-    "produto": "Maionese Alho NBA Miami Heat Hellmann's 335g",
-    "preco": 10.39,
-    "preco_por_kg": 31.01
+    "produto": "Maionese Tradicional Quero 495g",
+    "preco": 6.89,
+    "preco_por_kg": 13.92
   },
   {
     "id": 77,
@@ -341,6 +404,27 @@
     "produto": "Leite Condensado Semidesnatado Campos do Jordão 395g",
     "preco": 4.59,
     "preco_por_kg": 11.62
+  },
+  {
+    "id": 79,
+    "supermercado": "Tenda",
+    "produto": "Mistura Láctea Creme de Leite Daus 200g",
+    "preco": 1.79,
+    "preco_por_kg": 8.95
+  },
+  {
+    "id": 80,
+    "supermercado": "Tenda",
+    "produto": "Capsula de Café Cerrado Mineiro Compativel com Nespresso 3 Corações 10 unid",
+    "preco": 16.99,
+    "preco_por_kg": 16.99
+  },
+  {
+    "id": 81,
+    "supermercado": "Tenda",
+    "produto": "Café Tradicional Canecão 500g",
+    "preco": 26.9,
+    "preco_por_kg": 53.8
   },
   {
     "id": 82,
@@ -401,16 +485,16 @@
   {
     "id": 100,
     "supermercado": "Tenda",
-    "produto": "Detergentes Liquido Neutro Conde 500ml",
-    "preco": 1.5,
-    "preco_por_kg": 3
+    "produto": "Detergente Líquido Minuano Fresh 500ml",
+    "preco": 2.05,
+    "preco_por_kg": 4.1
   },
   {
     "id": 101,
     "supermercado": "Tenda",
-    "produto": "Limpador Multiuso Limão Azulim 500ml",
-    "preco": 2.55,
-    "preco_por_kg": 5.1
+    "produto": "Limpador Multiuso Original Azulim Squeeze 500ml",
+    "preco": 2.75,
+    "preco_por_kg": 5.5
   },
   {
     "id": 103,
@@ -436,16 +520,16 @@
   {
     "id": 109,
     "supermercado": "Tenda",
-    "produto": "Escova de Dente Colgate Twister 4 unid Preço Especial",
-    "preco": 26.5,
-    "preco_por_kg": 26.5
+    "produto": "Escova de Dente Select 5 Unidades",
+    "preco": 12,
+    "preco_por_kg": 12
   },
   {
     "id": 110,
     "supermercado": "Tenda",
     "produto": "Creme Dental Ice Clean 70g",
-    "preco": 2.5,
-    "preco_por_kg": 35.71
+    "preco": 1.5,
+    "preco_por_kg": 21.43
   },
   {
     "id": 111,
@@ -457,9 +541,9 @@
   {
     "id": 112,
     "supermercado": "Tenda",
-    "produto": "Sabonete Ypê Siene Rosas Vermelhas 85g",
-    "preco": 1,
-    "preco_por_kg": 11.76
+    "produto": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
+    "preco": 1.5,
+    "preco_por_kg": 1.5
   },
   {
     "id": 114,
@@ -520,7 +604,7 @@
   {
     "id": 122,
     "supermercado": "Tenda",
-    "produto": "Alimento para Gatos Sabor Peixe Kitekat 70g",
+    "produto": "Alimento para Gatos Sabor Carne Kitekat 70g",
     "preco": 2,
     "preco_por_kg": 28.57
   }
