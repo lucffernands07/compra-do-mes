@@ -72,7 +72,7 @@ async function main() {
       // 🔎 Filtrar produtos cujo nome contenha o termo (ignora acento/maiúsculas)
       const filtrados = items.filter(item => {
         const nomeNorm = normalizar(item.nome);
-        return nomeNorm.includes(termoNorm);
+        return item.preco > 0 && nomeNorm.includes(termoNorm);
       });
 
       // Calcular preco_por_kg
@@ -83,8 +83,7 @@ async function main() {
 
       if (filtrados.length > 0) {
         const maisBarato = filtrados.sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
-
-        if (maisBarato.preco > 0) encontrados++; // ✅ incrementa contador
+        encontrados++; // ✅ incrementa contador
 
         resultado.push({
           id,
@@ -96,19 +95,12 @@ async function main() {
 
         console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
       } else {
-        // Mantém a posição mesmo sem preço válido
-        resultado.push({
-          id,
-          supermercado: "Goodbom",
-          produto,
-          preco: 0,
-          preco_por_kg: 0
-        });
+        // ❌ Não salva produto com preço 0 (apenas loga)
         console.log(`⚠️ Nenhum resultado válido para: ${produto}`);
       }
     }
 
-    // ✅ Salvar como ARRAY puro (compatível com compare.js)
+    // ✅ Salvar apenas os produtos com preço válido
     fs.writeFileSync(
       path.join(outDir, "prices_goodbom.json"),
       JSON.stringify(resultado, null, 2),
