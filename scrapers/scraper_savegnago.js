@@ -70,7 +70,7 @@ function parsePreco(txt) {
     .filter(Boolean);
 
   const results = [];
-  let totalEncontrados = 0;
+  let totalEncontrados = 0; // ✅ contador real de produtos com preço válido
 
   for (const [index, termo] of produtos.entries()) {
     try {
@@ -86,7 +86,7 @@ function parsePreco(txt) {
         }))
         .filter(p =>
           p.preco > 0 &&
-          normalizar(p.nome).includes(termoNorm) // ✅ filtro CONTÉM ignorando acento/maiúsculas
+          normalizar(p.nome).includes(termoNorm)
         );
 
       if (validos.length > 0) {
@@ -98,6 +98,9 @@ function parsePreco(txt) {
           a.preco_por_kg < b.preco_por_kg ? a : b
         );
 
+        // ✅ apenas se tiver preço válido
+        totalEncontrados++;
+
         results.push({
           id: index + 1,
           supermercado: "Savegnago",
@@ -106,9 +109,9 @@ function parsePreco(txt) {
           preco_por_kg: maisBarato.preco_por_kg
         });
 
-        totalEncontrados++;
         console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
       } else {
+        // Mantém a posição, mas sem preço
         results.push({
           id: index + 1,
           supermercado: "Savegnago",
@@ -120,6 +123,13 @@ function parsePreco(txt) {
       }
     } catch (err) {
       console.error(`❌ Erro ao buscar ${termo}:`, err.message);
+      results.push({
+        id: index + 1,
+        supermercado: "Savegnago",
+        produto: termo,
+        preco: 0,
+        preco_por_kg: 0
+      });
     }
   }
 
@@ -130,6 +140,7 @@ function parsePreco(txt) {
     JSON.stringify(results, null, 2),
     "utf-8"
   );
+
   console.log(`💾 Resultados Savegnago salvos em ${OUTPUT_FILE}`);
-  console.log(`📊 Total de produtos encontrados: ${totalEncontrados}/${produtos.length}`);
+  console.log(`📊 Total de produtos com preço válido: ${totalEncontrados}/${produtos.length}`);
 })();
