@@ -69,7 +69,7 @@ async function main() {
         });
       });
 
-      // 🔎 Filtrar produtos cujo nome contenha o termo (ignora acento e maiúsculas/minúsculas)
+      // 🔎 Filtrar produtos cujo nome contenha o termo (ignora acento/maiúsculas)
       const filtrados = items.filter(item => {
         const nomeNorm = normalizar(item.nome);
         return nomeNorm.includes(termoNorm);
@@ -96,6 +96,7 @@ async function main() {
 
         console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
       } else {
+        // Mantém a posição mesmo sem preço válido
         resultado.push({
           id,
           supermercado: "Goodbom",
@@ -107,14 +108,10 @@ async function main() {
       }
     }
 
-    // Salvar JSON
+    // ✅ Salvar como ARRAY puro (compatível com compare.js)
     fs.writeFileSync(
       path.join(outDir, "prices_goodbom.json"),
-      JSON.stringify({
-        encontrados,           // ✅ novo campo
-        totalProdutos: produtos.length,
-        itens: resultado       // mantém a lista original
-          }, null, 2),
+      JSON.stringify(resultado, null, 2),
       "utf-8"
     );
 
