@@ -24,8 +24,7 @@ Este projeto utiliza **GitHub Actions** para rodar os scrapers de preços automa
 - ⏱️ **Agendamento:** a cada **2 horas** (`cron: "0 */2 * * *"`)  
 - 🔄 **Processo:** executa os scripts de scraping, atualiza os arquivos JSON com os preços mais recentes  
 - ☁️ **Hospedagem:** o resultado é salvo automaticamente na pasta `/docs/prices` e publicado via **GitHub Pages**
-
-🌐https://lucffernands07.github.io/compra-do-mes/
+🌐 https://lucffernands07.github.io/compra-do-mes/
 
 ---
 
