@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "751.62",
-  "totalTenda": "715.78",
-  "totalArena": "903.05",
-  "totalSavegnago": "755.82",
+  "totalGoodbom": "768.26",
+  "totalTenda": "725.28",
+  "totalArena": "908.76",
+  "totalSavegnago": "775.24",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 86,
+  "encontradosTenda": 85,
   "encontradosArena": 78,
   "encontradosSavegnago": 72,
   "produtos": [
@@ -334,8 +334,8 @@
       },
       "arena": {
         "nome": "Iogurte Desnatado Batavo Pense Zero Zero Lactose Mamão 1,150kg",
-        "preco": 6.99,
-        "preco_por_kg": 0.05
+        "preco": 16.99,
+        "preco_por_kg": 0.11
       },
       "savegnago": {
         "nome": "Mamão Formosa - 1kg",
@@ -382,8 +382,8 @@
       },
       "arena": {
         "nome": "Suco Integral Geração S Uva 1,35l",
-        "preco": 2.79,
-        "preco_por_kg": 0.08
+        "preco": 17.59,
+        "preco_por_kg": 0.5
       },
       "savegnago": {
         "nome": "Refrigerante Fanta 2l Pet Uva",
@@ -549,9 +549,9 @@
         "preco_por_kg": 16.09
       },
       "arena": {
-        "nome": "Batata Congelada Bem Brasil Crinkle 1,05kg",
-        "preco": 4.49,
-        "preco_por_kg": 0.9
+        "nome": "Batata Congelada Bem Brasil Dadinho Com Queijo - 1,05kg",
+        "preco": 14.99,
+        "preco_por_kg": 3
       },
       "savegnago": {
         "nome": "Batata Congelada Bem Brasil Palito Mais Batata 2kg",
@@ -645,9 +645,9 @@
         "preco_por_kg": 4
       },
       "arena": {
-        "nome": "Arroz Tipo 1 Meu Biju Pacote 5 Kg",
-        "preco": 16.9,
-        "preco_por_kg": 3.38
+        "nome": "Arroz Solito Agulhinha 5kg",
+        "preco": 18.19,
+        "preco_por_kg": 3.64
       },
       "savegnago": {
         "nome": "Arroz Pop Branco Tipo 1 5Kg",
@@ -717,7 +717,7 @@
         "preco_por_kg": 3.59
       },
       "arena": {
-        "nome": "Vinagre Palladio Álcool Colorido Pet 750ml",
+        "nome": "Vinagre Fortaleza Álcool Pet 750ml",
         "preco": 1.79,
         "preco_por_kg": 2.39
       },
@@ -797,6 +797,30 @@
         "nome": "Açúcar Mascavo Rosa Lima 500g",
         "preco": 6.49,
         "preco_por_kg": 12.98
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "76",
+      "goodbom": {
+        "nome": "MAIONESE TRADICIONAL LIZA 450G",
+        "preco": 7.49,
+        "preco_por_kg": 16.64
+      },
+      "tenda": {
+        "nome": "Maionese Mariana 1kg",
+        "preco": 9.5,
+        "preco_por_kg": 9.5
+      },
+      "arena": {
+        "nome": "Maionese Saúde Sachê 1kg",
+        "preco": 7.49,
+        "preco_por_kg": 7.49
+      },
+      "savegnago": {
+        "nome": "Maionese Hellmann's Tradicional 600gr",
+        "preco": 11.65,
+        "preco_por_kg": 19.42
       },
       "mais_barato": "Arena"
     },
@@ -910,8 +934,8 @@
       },
       "arena": {
         "nome": "Tapioca Hidratada Kisabor Pacote 500g",
-        "preco": 4.99,
-        "preco_por_kg": 9.98
+        "preco": 5.99,
+        "preco_por_kg": 11.98
       },
       "savegnago": {
         "nome": "Goma Pronta Tapioca Da Terrinha 1kg",
@@ -957,7 +981,7 @@
         "preco_por_kg": 6.5
       },
       "arena": {
-        "nome": "Álcool Duratto Limpador Uso Geral Lavanda 1l",
+        "nome": "Álcool Duratto Limpador Uso Geral Neutro 1l",
         "preco": 5.89,
         "preco_por_kg": 5.89
       },
@@ -1030,8 +1054,8 @@
       },
       "arena": {
         "nome": "Detergente Ypê Clear 5l",
-        "preco": 22.23,
-        "preco_por_kg": 4.45
+        "preco": 22.99,
+        "preco_por_kg": 4.6
       },
       "savegnago": {
         "nome": "Detergente Líquido Minuano 1300 500ml Clear",
@@ -1173,16 +1197,16 @@
         "preco_por_kg": 10.18
       },
       "arena": {
-        "nome": "Sabonete Liquido Premisse Guaraná E Açai - Refil 450ml",
-        "preco": 7.59,
-        "preco_por_kg": 16.87
+        "nome": "Sabonete Líquido Deoline Erva Doce Suave Refil1l",
+        "preco": 9.59,
+        "preco_por_kg": 9.59
       },
       "savegnago": {
         "nome": "Sabonete Líquido Palmolive Natur 900ml Ref Suav Delic Jasmim",
         "preco": 21.65,
         "preco_por_kg": 24.06
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "112",
@@ -1293,9 +1317,9 @@
         "preco_por_kg": 16.3
       },
       "arena": {
-        "nome": "Pão Bisnaguinha Bauducco 260g",
-        "preco": 5.49,
-        "preco_por_kg": 21.12
+        "nome": "Pão Bisnaguinha De Panes 300g",
+        "preco": 6.49,
+        "preco_por_kg": 21.63
       },
       "savegnago": {
         "nome": "Pão Bisnaguinha Visconti 240g",
