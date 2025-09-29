@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "664.72",
-  "totalTenda": "815.51",
-  "totalArena": "500.63",
-  "totalSavegnago": "703.26",
+  "totalGoodbom": "536.97",
+  "totalTenda": "681.81",
+  "totalArena": "381.73",
+  "totalSavegnago": "534.64",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 78,
+  "encontradosTenda": 71,
   "encontradosArena": 78,
   "encontradosSavegnago": 72,
   "produtos": [
@@ -26,11 +26,11 @@
         "preco_por_kg": 21.84
       },
       "savegnago": {
-        "nome": "Linguiça Calabresa Aurora 400g Defumada",
-        "preco": 12.7,
-        "preco_por_kg": 31.75
+        "nome": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
+        "preco": 10.45,
+        "preco_por_kg": 20.9
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "5",
@@ -122,9 +122,9 @@
         "preco_por_kg": 13.49
       },
       "savegnago": {
-        "nome": "Vagem Irmãos Pimenta Bandeja 300g",
+        "nome": "Vagem Bandeja 500g",
         "preco": 9.25,
-        "preco_por_kg": 30.83
+        "preco_por_kg": 18.5
       },
       "mais_barato": "Goodbom"
     },
@@ -132,8 +132,8 @@
       "id": "24",
       "goodbom": {
         "nome": "BETERRABA KG",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
+        "preco": 2.99,
+        "preco_por_kg": 2.99
       },
       "tenda": {
         "nome": "Beterraba Saco 1Kg",
@@ -180,8 +180,8 @@
       "id": "27",
       "goodbom": {
         "nome": "CENOURA KG",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
+        "preco": 2.99,
+        "preco_por_kg": 2.99
       },
       "tenda": {
         "nome": "Iogurte Natural Laranja, Cenoura e Mel Frutap 150g",
@@ -275,9 +275,9 @@
     {
       "id": "31",
       "goodbom": {
-        "nome": "SEMENTE FELTRIN ALFACE CRESPA",
-        "preco": 2.49,
-        "preco_por_kg": 2.49
+        "nome": "ALFACE HIDROPONICA UN",
+        "preco": 1.99,
+        "preco_por_kg": 1.99
       },
       "tenda": {
         "nome": "Alface Mimosa Unidade",
@@ -300,8 +300,8 @@
       "id": "32",
       "goodbom": {
         "nome": "REPOLHO LISO KG",
-        "preco": 2.99,
-        "preco_por_kg": 2.99
+        "preco": 1.99,
+        "preco_por_kg": 1.99
       },
       "tenda": {
         "nome": "Repolho Verde Unidade",
@@ -318,14 +318,14 @@
         "preco": 5.55,
         "preco_por_kg": 2.77
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "34",
       "goodbom": {
         "nome": "MAMÃO PAPAYA KG",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
+        "preco": 5.99,
+        "preco_por_kg": 5.99
       },
       "tenda": {
         "nome": "Refresco em pó Tang Laranja Mamão 18g",
@@ -348,8 +348,8 @@
       "id": "35",
       "goodbom": {
         "nome": "BANANA NANICA KG",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "tenda": {
         "nome": "Banana Nanica Unidade",
@@ -362,9 +362,9 @@
         "preco_por_kg": 0.12
       },
       "savegnago": {
-        "nome": "Banana Terra Bandeja 600g",
-        "preco": 2.99,
-        "preco_por_kg": 4.98
+        "nome": "Banana Maçã 1kg",
+        "preco": 2.55,
+        "preco_por_kg": 2.55
       },
       "mais_barato": "Arena"
     },
@@ -396,8 +396,8 @@
       "id": "37",
       "goodbom": {
         "nome": "MAÇÃ PACOTE 1KG",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
+        "preco": 8.99,
+        "preco_por_kg": 8.99
       },
       "tenda": {
         "nome": "Maçã Pink Lady 155g",
@@ -420,8 +420,8 @@
       "id": "38",
       "goodbom": {
         "nome": "REFRIGERANTE BIOLEVE ZERO MEXERICA 1,5L",
-        "preco": 5.99,
-        "preco_por_kg": 3.99
+        "preco": 6.49,
+        "preco_por_kg": 4.33
       },
       "tenda": {
         "nome": "Mexerica Murcote 130g",
@@ -506,9 +506,9 @@
         "preco_por_kg": 25.9
       },
       "savegnago": {
-        "nome": "Presunto cozido Aurora fatiado 180g",
-        "preco": 8.75,
-        "preco_por_kg": 48.61
+        "nome": "Presunto Cozido Perdigão 200g Fatiado Vacuo",
+        "preco": 9.89,
+        "preco_por_kg": 49.45
       },
       "mais_barato": "Arena"
     },
@@ -1067,9 +1067,9 @@
     {
       "id": "101",
       "goodbom": {
-        "nome": "LIMPADOR MULTIUSO CANDURA COM CLORO 500ML",
-        "preco": 5.49,
-        "preco_por_kg": 10.98
+        "nome": "LIMPADOR MULTIUSO UAU FLORES FOLHAS 500ML",
+        "preco": 3.99,
+        "preco_por_kg": 7.98
       },
       "tenda": {
         "nome": "Limpador Multiuso Original Azulim Squeeze 500ml",
@@ -1111,126 +1111,6 @@
         "preco_por_kg": 2.91
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "110",
-      "goodbom": {
-        "nome": "CREME DENTAL ORAL-B 1-2-3 70G",
-        "preco": 3.79,
-        "preco_por_kg": 54.14
-      },
-      "tenda": {
-        "nome": "Creme Dental Kids Ice Fresh 50g",
-        "preco": 4.35,
-        "preco_por_kg": 87
-      },
-      "arena": {
-        "nome": "Creme Dental Close Up Tripla Proteção Menta 150g",
-        "preco": 6.09,
-        "preco_por_kg": 40.6
-      },
-      "savegnago": {
-        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
-        "preco": 2.35,
-        "preco_por_kg": 33.57
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
-      "id": "114",
-      "goodbom": {
-        "nome": "GEL FIXADOR TRIBAL AZUL 500G",
-        "preco": 12.99,
-        "preco_por_kg": 25.98
-      },
-      "tenda": {
-        "nome": "Gel Fixador Incolor Soft Fix 250g",
-        "preco": 4.9,
-        "preco_por_kg": 19.6
-      },
-      "arena": {
-        "nome": "Gel Fixador Ny Looks Condicionante Azul Fator 4 240g",
-        "preco": 9.99,
-        "preco_por_kg": 41.63
-      },
-      "savegnago": {
-        "nome": "Gel Fixador Clear 300g Controle Caspa",
-        "preco": 22.4,
-        "preco_por_kg": 74.67
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "116",
-      "goodbom": {
-        "nome": "LENÇO UMEDECIDO INTIMUS C/16",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
-      },
-      "tenda": {
-        "nome": "Lenço Umedecido Toque da Seda Neve 48 unidades",
-        "preco": 16.5,
-        "preco_por_kg": 16.5
-      },
-      "arena": {
-        "nome": "Lenço Umedecido Lysoform Original C/ 36 Unid.",
-        "preco": 23.99,
-        "preco_por_kg": 23.99
-      },
-      "savegnago": {
-        "nome": "Lenço Umedecido Neve Supreme com 48 unidades",
-        "preco": 15.25,
-        "preco_por_kg": 15.25
-      },
-      "mais_barato": "Goodbom"
-    },
-    {
-      "id": "117",
-      "goodbom": {
-        "nome": "ALGODAO TOPZ DISCO 50 UNID.",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
-      },
-      "tenda": {
-        "nome": "Algodão Disco Select 50Un",
-        "preco": 6.5,
-        "preco_por_kg": 6.5
-      },
-      "arena": {
-        "nome": "Algodão Disco Bellacotton Leve 100 Pague 80 Unid.",
-        "preco": 6.69,
-        "preco_por_kg": 6.69
-      },
-      "savegnago": {
-        "nome": "Oléo composto de Milho e Algodão para fritura Liza 500ml",
-        "preco": 6.49,
-        "preco_por_kg": 12.98
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "121",
-      "goodbom": {
-        "nome": "FUBÁ MIMOSO KISABOR 1KG",
-        "preco": 7.49,
-        "preco_por_kg": 7.49
-      },
-      "tenda": {
-        "nome": "Fubá Mimoso Select 500g",
-        "preco": 2.05,
-        "preco_por_kg": 4.1
-      },
-      "arena": {
-        "nome": "Fubá Kisabor Mimoso 1kg",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
-      },
-      "savegnago": {
-        "nome": "Fuba Mimoso Yoki 500g",
-        "preco": 3.69,
-        "preco_por_kg": 7.38
-      },
-      "mais_barato": "Tenda"
     }
   ]
 }
