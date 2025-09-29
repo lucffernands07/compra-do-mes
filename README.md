@@ -116,14 +116,6 @@ Savegnago	Arroz 5kg	25.50	5.10
 
 (valores meramente ilustrativos)
 
-
----
-
-📝 Licença
-
-Este projeto está sob a licença MIT – veja o arquivo LICENSE para mais detalhes.
-
-
 ---
 
 💡 Dica:
@@ -131,3 +123,19 @@ Para incluir novos supermercados basta criar um novo arquivo em scrapers/ seguin
 
 ---
 
+# 📜 Licença & Uso
+
+Este é um **projeto pessoal**, desenvolvido apenas para **uso próprio** e estudo.  
+📌 **Não é permitido** copiar, redistribuir ou utilizar o código sem autorização prévia.
+
+### 🌐 Fontes de preços
+Os dados de preços são coletados de sites públicos dos supermercados:
+
+- 🛒 [GoodBom](https://www.supermercadosgoodbom.com.br/)
+- 🛒 [Tenda Atacado](https://www.tendaatacado.com.br/)
+- 🛒 [Arena Atacado](https://www.arenasuper.com.br/)
+- 🛒 [Savegnago](https://www.savegnago.com.br/)
+
+### ⚠️ Aviso Legal
+As marcas, nomes e sites mencionados pertencem exclusivamente aos seus **respectivos proprietários**.  
+Este projeto **não possui vínculo**, **parceria** ou **endosso oficial** de nenhuma dessas empresas.
