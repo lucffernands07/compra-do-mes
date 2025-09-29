@@ -110,22 +110,6 @@ Puppeteer	Automação de navegação e scraping
 GitHub Actions	CI/CD para atualização automática
 HTML/CSS/JS	Front-end estático (GitHub Pages)
 
-
-
----
-
-📊 Demonstração
-
-💡 Exemplo de resultado exibido no site:
-
-Supermercado	Produto	Preço (R$)	Preço/kg
-
-GoodBom	Arroz 5kg	23.90	4.78
-Savegnago	Arroz 5kg	25.50	5.10
-
-
-(valores meramente ilustrativos)
-
 ---
 
 💡 Dica:
