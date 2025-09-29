@@ -98,7 +98,7 @@ async function carregarDados() {
       .map(p => {
         const nome = p[maisBaratoKey]?.nome || "Sem nome";
         const preco = toNumber(p[maisBaratoKey]?.preco);
-        return `<li class="item"><div><strong>${nome}</strong></div><div><span class="preco">R$ ${preco.toFixed(2)}</span></div></li>`;
+        return `<div class="container-li"><li class="item"><div><strong>${nome}</strong></div><div><span class="preco">R$ ${preco.toFixed(2)}</span></div></li></div>`;
       }).join("");
 
     const listaHtml = `<h3>Produtos do ${maisBaratoName}</h3>${
