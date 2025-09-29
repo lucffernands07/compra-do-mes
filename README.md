@@ -18,6 +18,15 @@ Um **robô de busca de preços** que compara automaticamente os valores de uma l
 
 ---
 
+### ⚡ Automação
+
+Este projeto utiliza **GitHub Actions** para rodar os scrapers de preços automaticamente.  
+- ⏱️ **Agendamento:** a cada **2 horas** (`cron: "0 */2 * * *"`)  
+- 🔄 **Processo:** executa os scripts de scraping, atualiza os arquivos JSON com os preços mais recentes  
+- ☁️ **Hospedagem:** o resultado é salvo automaticamente na pasta `/docs/prices` e publicado via **GitHub Pages**
+
+---
+
 ## 🗂️ Estrutura do Projeto
 ```
 📦 compra-do-mes
