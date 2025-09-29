@@ -20,7 +20,29 @@ Um **robô de busca de preços** que compara automaticamente os valores de uma l
 
 ## 🗂️ Estrutura do Projeto
 ```
-📦 compra-do-mes ├─ 📁 docs/                 # Front-end estático (GitHub Pages) │  ├─ 📁 prices/             # JSONs gerados pelos scrapers │  │   ├─ prices_goodbom.json │  │   ├─ prices_savegnago.json │  │   └─ ... │  ├─ index.html             # Página principal com a tabela comparativa │  ├─ style.css              # Estilo da interface │  └─ script.js              # Lógica de exibição dos preços │ ├─ 📁 scrapers/             # Robôs de scraping (Node + Puppeteer) │  ├─ scraper_goodbom.js │  ├─ scraper_savegnago.js │  └─ ... │ ├─ .github/ │  └─ workflows/ │      └─ scrape.yml        # GitHub Action que executa os scrapers │ ├─ products.txt             # Lista de produtos a pesquisar (1 por linha) ├─ package.json └─ README.md
+📦 compra-do-mes
+├─ 📁 docs/
+│  ├─ 📁 prices/
+│  │   ├─ compare.json
+│  │   ├─ prices_goodbom.json
+│  │   ├─ prices_savegnago.json
+│  │ . ├─ prices_arena.json
+│  │   └─ prices_tenda.json
+│  ├─ index.html
+│  ├─ style.css
+│  └─ script.js
+├─ 📁 scrapers/
+│  ├─ compare.js
+│  ├─ scraper_goodbom.js
+│  ├─ scraper_savegnago.js
+│. ├─ scraper_arena.js
+│  └─ scraper_tenda.js
+├─ 📁.github/
+│  └─ workflows/
+│      └─ scrape.yml
+├─ products.txt
+├─ package.json
+└─ README.md
 ```
 ---
 
