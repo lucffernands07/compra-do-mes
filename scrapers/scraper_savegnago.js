@@ -1,4 +1,3 @@
-// scrapers/scraper_savegnago.js
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 const path = require("path");
@@ -7,7 +6,7 @@ const OUTPUT_FILE = path.join(__dirname, "..", "docs", "prices", "prices_savegna
 const INPUT_FILE = path.join(__dirname, "..", "products.txt");
 
 function normalizar(txt) {
-  return txt.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  return txt.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
 }
 
 function extrairPeso(nome) {
@@ -24,11 +23,7 @@ function extrairPeso(nome) {
 }
 
 function parsePreco(txt) {
-  const n = parseFloat(
-    txt.replace("R$", "")
-       .replace(",", ".")
-       .replace(/[^\d.]/g, "")
-  );
+  const n = parseFloat(txt.replace("R$", "").replace(",", ".").replace(/[^\d.]/g, ""));
   return isNaN(n) ? 0 : n;
 }
 
@@ -46,46 +41,34 @@ async function buscarProdutos(page, termo) {
 }
 
 (async () => {
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: ["--no-sandbox", "--disable-setuid-sandbox"]
-  });
+  const browser = await puppeteer.launch({ headless: "new", args: ["--no-sandbox"] });
   const page = await browser.newPage();
 
   const produtos = fs.readFileSync(INPUT_FILE, "utf-8")
     .split("\n").map(p => p.trim()).filter(Boolean);
 
   const results = [];
-  let totalEncontrados = 0; // ✅ só soma quando realmente tem preço > 0
+  let encontrados = 0; // ✅ apenas produtos com preço válido
 
   for (const [index, termo] of produtos.entries()) {
     try {
       console.log(`🔍 Buscando: ${termo}`);
-      const encontrados = await buscarProdutos(page, termo);
+      const encontradosProd = await buscarProdutos(page, termo);
       const termoNorm = normalizar(termo);
 
-      const validos = encontrados
+      const filtrados = encontradosProd
         .map(p => ({
           nome: p.nome,
           preco: parsePreco(p.precoTxt),
           peso: extrairPeso(p.nome)
         }))
-        .filter(p =>
-          p.preco > 0 && normalizar(p.nome).includes(termoNorm)
-        );
+        .filter(p => p.preco > 0 && normalizar(p.nome).includes(termoNorm));
 
-      if (validos.length > 0) {
-        validos.forEach(p => p.preco_por_kg = +(p.preco / p.peso).toFixed(2));
-        const maisBarato = validos.reduce((a, b) =>
-          a.preco_por_kg < b.preco_por_kg ? a : b
-        );
+      if (filtrados.length > 0) {
+        filtrados.forEach(p => p.preco_por_kg = +(p.preco / p.peso).toFixed(2));
+        const maisBarato = filtrados.sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
 
-        // ✅ só incrementa se realmente tem preço > 0
-        if (maisBarato.preco > 0) {
-          totalEncontrados++;
-        } else {
-          console.log(`⚠️ Ignorado (preço 0): ${maisBarato.nome}`);
-        }
+        encontrados++; // ✅ só incrementa se preço > 0
 
         results.push({
           id: index + 1,
@@ -97,29 +80,18 @@ async function buscarProdutos(page, termo) {
 
         console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
       } else {
-        results.push({
-          id: index + 1,
-          supermercado: "Savegnago",
-          produto: termo,
-          preco: 0,
-          preco_por_kg: 0
-        });
-        console.log(`⚠️ Nenhum preço válido para "${termo}"`);
+        console.log(`⚠️ Nenhum resultado válido para: ${termo}`);
       }
     } catch (err) {
       console.error(`❌ Erro ao buscar ${termo}:`, err.message);
-      results.push({
-        id: index + 1,
-        supermercado: "Savegnago",
-        produto: termo,
-        preco: 0,
-        preco_por_kg: 0
-      });
     }
   }
 
   await browser.close();
+
+  // ✅ Salvar apenas produtos com preço válido
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(results, null, 2), "utf-8");
+
   console.log(`💾 Resultados salvos em ${OUTPUT_FILE}`);
-  console.log(`📊 Total de produtos com preço válido: ${totalEncontrados}/${produtos.length}`);
+  console.log(`📊 Total de produtos com preço válido: ${encontrados}/${produtos.length}`);
 })();
