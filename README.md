@@ -101,9 +101,7 @@ Isso garante preços sempre atualizados no GitHub Pages sem intervenção manual
 
 ---
 
-🧩 Tecnologias Utilizadas
-
-Tecnologia	Uso no Projeto
+### 🧩 Tecnologias Utilizadas
 
 Node.js	Ambiente de execução dos scrapers
 Puppeteer	Automação de navegação e scraping
@@ -112,7 +110,7 @@ HTML/CSS/JS	Front-end estático (GitHub Pages)
 
 ---
 
-💡 Dica:
+### 💡 Dica:
 Para incluir novos supermercados basta criar um novo arquivo em scrapers/ seguindo o padrão dos existentes e adicioná-lo ao workflow do GitHub.
 
 ---
