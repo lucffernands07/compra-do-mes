@@ -1,6 +1,6 @@
 
 # 🛒 Compra do Mês
-## Comparador de Preços de Supermercados
+## Comparador de Preços de Supermercados de Hortolândia/SP
 
 [![Node.js](https://img.shields.io/badge/Node.js-18.x-green?logo=node.js)](https://nodejs.org/)  
 Um **robô de busca de preços** que compara automaticamente os valores de uma lista de produtos entre diferentes supermercados on-line.
