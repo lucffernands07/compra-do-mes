@@ -100,5 +100,6 @@ span.preco {
   white-space: nowrap;           /* impede o preço de quebrar */
   margin-left: auto;
   display: flex;
-  align-itens: botton;        
+  align-itens: botton;     
+  padding-top: 40px;
 }
