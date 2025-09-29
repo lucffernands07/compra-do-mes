@@ -89,7 +89,7 @@ async function carregarDados() {
       <p>Supermercado mais barato: ${maisBaratoName} (R$ ${valorMaisBarato.toFixed(2)})</p>
 
       <p>Total de produtos comparados: ${totalProdutos}</p>
-      
+
     `;
 
     // lista produtos do mais barato
@@ -98,7 +98,7 @@ async function carregarDados() {
       .map(p => {
         const nome = p[maisBaratoKey]?.nome || "Sem nome";
         const preco = toNumber(p[maisBaratoKey]?.preco);
-        return `li"><li class="item"><div><strong>${nome}</strong></div><div><span class="preco">R$ ${preco.toFixed(2)}</span></div></li>`;
+        return `<li class="item"><div><strong>${nome}</strong></div><div><span class="preco">R$ ${preco.toFixed(2)}</span></div></li>`;
       }).join("");
 
     const listaHtml = `<h3>Produtos do ${maisBaratoName}</h3>${
