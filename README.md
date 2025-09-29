@@ -1,6 +1,6 @@
-
 # 🛒 Compra do Mês
-## Comparador de Preços de Supermercados de Hortolândia/SP
+
+## Comparador de Preços de Supermercados de Hortolândia-SP 
 
 [![Node.js](https://img.shields.io/badge/Node.js-18.x-green?logo=node.js)](https://nodejs.org/)  
 Um **robô de busca de preços** que compara automaticamente os valores de uma lista de produtos entre diferentes supermercados on-line.
@@ -19,60 +19,9 @@ Um **robô de busca de preços** que compara automaticamente os valores de uma l
 ---
 
 ## 🗂️ Estrutura do Projeto
-
-
 ```
-📁 .github
-  📁 workflows
-    📄 scraper.yml
-📁 scrapers
-  📄 compare.js
-  📄 scraper_tenda.js
-  📄 scraper_goodbom.js
-  📄 scraper_arena.js
-📁 docs
-  📄 app.js
-  📄 index.html
-  📄 style.css
-  📁 prices
-    📄 compare.json
-    📄 prices_tenda.json
-    📄 prices_goodbom.json
-    📄 prices_arena.json
-📄 package.json
-📄 products.txt
-📄 README.md
+📦 compra-do-mes ├─ 📁 docs/                 # Front-end estático (GitHub Pages) │  ├─ 📁 prices/             # JSONs gerados pelos scrapers │  │   ├─ prices_goodbom.json │  │   ├─ prices_savegnago.json │  │   └─ ... │  ├─ index.html             # Página principal com a tabela comparativa │  ├─ style.css              # Estilo da interface │  └─ script.js              # Lógica de exibição dos preços │ ├─ 📁 scrapers/             # Robôs de scraping (Node + Puppeteer) │  ├─ scraper_goodbom.js │  ├─ scraper_savegnago.js │  └─ ... │ ├─ .github/ │  └─ workflows/ │      └─ scrape.yml        # GitHub Action que executa os scrapers │ ├─ products.txt             # Lista de produtos a pesquisar (1 por linha) ├─ package.json └─ README.md
 ```
----
-
-## 🚀 Como Rodar Localmente
-
-> **Pré-requisitos:**  
-> - [Node.js](https://nodejs.org/) 18+  
-> - [Puppeteer](https://pptr.dev/) (instalado via `npm install`)
-
-```bash
-# 1️⃣ Instalar dependências
-npm install
-
-# 2️⃣ Editar a lista de produtos
-nano products.txt   # ou qualquer editor de texto
-
-# 3️⃣ Executar um scraper específico
-node scrapers/scraper_goodbom.js
-node scrapers/scraper_savegnago.js
-
-# 4️⃣ Abrir o front-end localmente
-# basta abrir docs/index.html no navegador
-
-Aqui vai um README.md bem caprichado para você colocar no GitHub.
-Ele usa Markdown + emojis e descreve a estrutura e funcionalidades do projeto de forma clara e profissional:
-
-```
----
-
-# 🛒 Compra do Mês – Comparador de 
-
 ---
 
 ## 🚀 Como Rodar Localmente
