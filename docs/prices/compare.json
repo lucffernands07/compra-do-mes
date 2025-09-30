@@ -1,9 +1,9 @@
 {
-  "totalGoodbom": "761.06",
-  "totalTenda": "911.67",
-  "totalArena": "554.63",
-  "totalSavegnago": "776.64",
-  "encontradosGoodbom": 80,
+  "totalGoodbom": "750.36",
+  "totalTenda": "906.72",
+  "totalArena": "551.74",
+  "totalSavegnago": "750.60",
+  "encontradosGoodbom": 78,
   "encontradosTenda": 85,
   "encontradosArena": 78,
   "encontradosSavegnago": 72,
@@ -74,9 +74,9 @@
         "preco_por_kg": 8.99
       },
       "savegnago": {
-        "nome": "Salsicha Hot Dog Swift 500g",
-        "preco": 10.5,
-        "preco_por_kg": 21
+        "nome": "Salsicha Hot Dog Aurora 500g",
+        "preco": 8.35,
+        "preco_por_kg": 16.7
       },
       "mais_barato": "Arena"
     },
@@ -285,9 +285,9 @@
         "preco_por_kg": 4.49
       },
       "arena": {
-        "nome": "Alface Crespa Hidropônica Jw Unid.",
-        "preco": 4.19,
-        "preco_por_kg": 4.19
+        "nome": "Alface Roxa Jw Unid.",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "savegnago": {
         "nome": "Alface Crespa Org Solo Vivo",
@@ -338,9 +338,9 @@
         "preco_por_kg": 0.05
       },
       "savegnago": {
-        "nome": "Mamão Formosa - 1kg",
+        "nome": "Mamão Papaya Golden 1,2Kg",
         "preco": 1.59,
-        "preco_por_kg": 1.59
+        "preco_por_kg": 1.33
       },
       "mais_barato": "Arena"
     },
@@ -362,9 +362,9 @@
         "preco_por_kg": 0.12
       },
       "savegnago": {
-        "nome": "Banana Maçã 1kg",
-        "preco": 2.55,
-        "preco_por_kg": 2.55
+        "nome": "Banana Prata Turma da Mônica 750g",
+        "preco": 2.99,
+        "preco_por_kg": 3.99
       },
       "mais_barato": "Arena"
     },
@@ -472,7 +472,7 @@
         "preco_por_kg": 29.99
       },
       "tenda": {
-        "nome": "Queijo Mussarela Lactovale Fatiado 200g",
+        "nome": "Queijo Mussarela Apolo Fatiado 200g",
         "preco": 7.58,
         "preco_por_kg": 37.9
       },
@@ -482,11 +482,11 @@
         "preco_por_kg": 39.9
       },
       "savegnago": {
-        "nome": "Pizza Frango com Requeijão e Mussarela Sadia 460g",
-        "preco": 15.9,
-        "preco_por_kg": 34.57
+        "nome": "Pizza Sadia 440g Mussarela",
+        "preco": 6.35,
+        "preco_por_kg": 14.43
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "43",
@@ -506,11 +506,11 @@
         "preco_por_kg": 25.9
       },
       "savegnago": {
-        "nome": "Lasanha de presunto e queijo Seara 600g",
-        "preco": 14.95,
-        "preco_por_kg": 24.92
+        "nome": "Presunto Cozido Frimesa 200g Fatiado Sem Capa De Gordura",
+        "preco": 6.45,
+        "preco_por_kg": 32.25
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Arena"
     },
     {
       "id": "44",
@@ -530,9 +530,9 @@
         "preco_por_kg": 10.5
       },
       "savegnago": {
-        "nome": "Mortadela Perdigao 1kg Mista",
-        "preco": 9.95,
-        "preco_por_kg": 9.95
+        "nome": "Mortadela mini Confiança",
+        "preco": 8.69,
+        "preco_por_kg": 8.69
       },
       "mais_barato": "Savegnago"
     },
@@ -583,30 +583,6 @@
         "preco_por_kg": 10.65
       },
       "mais_barato": "Tenda"
-    },
-    {
-      "id": "49",
-      "goodbom": {
-        "nome": "ÁGUA DE COCO PURO COCO MORANGO 180ML",
-        "preco": 1.89,
-        "preco_por_kg": 10.5
-      },
-      "tenda": {
-        "nome": "Água de Coco Nocoko Caixa 200ml",
-        "preco": 0.99,
-        "preco_por_kg": 4.95
-      },
-      "arena": {
-        "nome": "Água De Coco Puro Coco 1l",
-        "preco": 2.69,
-        "preco_por_kg": 2.69
-      },
-      "savegnago": {
-        "nome": "Água De Coco Puro Coco 1L",
-        "preco": 8.85,
-        "preco_por_kg": 8.85
-      },
-      "mais_barato": "Arena"
     },
     {
       "id": "50",
@@ -875,9 +851,9 @@
     {
       "id": "79",
       "goodbom": {
-        "nome": "CREME DE LEITE SHEFA 200G TP",
-        "preco": 3.79,
-        "preco_por_kg": 18.95
+        "nome": "CREME DE LEITE ITALAC 200G TP",
+        "preco": 3.99,
+        "preco_por_kg": 19.95
       },
       "tenda": {
         "nome": "Mistura Láctea Creme de Leite Daus 200g",
@@ -1139,9 +1115,9 @@
     {
       "id": "107",
       "goodbom": {
-        "nome": "PAPEL HIGIÊNICO FOLHA DUPLA DUETTO NEUTRO C/4",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
+        "nome": "PAPEL HIGIÊNICO FOLHA DUPLA MILI NEUTRO 30MT.C/4",
+        "preco": 6.79,
+        "preco_por_kg": 6.79
       },
       "tenda": {
         "nome": "Papel Higiênico Folha Simples Select 30m 4un",
