@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "713.41",
-  "totalTenda": "835.50",
-  "totalArena": "545.04",
-  "totalSavegnago": "730.60",
+  "totalGoodbom": "760.86",
+  "totalTenda": "847.20",
+  "totalArena": "554.63",
+  "totalSavegnago": "755.91",
   "encontradosGoodbom": 82,
   "encontradosTenda": 85,
   "encontradosArena": 78,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -338,9 +338,9 @@
         "preco_por_kg": 0.05
       },
       "savegnago": {
-        "nome": "Mamão Papaya Golden 1,2Kg",
+        "nome": "Mamão Formosa - 1kg",
         "preco": 1.59,
-        "preco_por_kg": 1.33
+        "preco_por_kg": 1.59
       },
       "mais_barato": "Arena"
     },
@@ -362,9 +362,9 @@
         "preco_por_kg": 0.12
       },
       "savegnago": {
-        "nome": "Banana Prata Turma da Mônica 750g",
+        "nome": "Banana Terra Bandeja 600g",
         "preco": 2.99,
-        "preco_por_kg": 3.99
+        "preco_por_kg": 4.98
       },
       "mais_barato": "Arena"
     },
@@ -1183,6 +1183,30 @@
         "preco_por_kg": 33.57
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "111",
+      "goodbom": {
+        "nome": "SABONETE LÍQUIDO LUX GARDENIA REFIL 200ML",
+        "preco": 9.49,
+        "preco_por_kg": 47.45
+      },
+      "tenda": {
+        "nome": "Sabonete Líquido Erva Doce Select Refil 500ml",
+        "preco": 5.85,
+        "preco_por_kg": 11.7
+      },
+      "arena": {
+        "nome": "Sabonete Líquido Deoline Erva Doce Suave Refil1l",
+        "preco": 9.59,
+        "preco_por_kg": 9.59
+      },
+      "savegnago": {
+        "nome": "Sabonete Líquido Palmolive Natur 900ml Ref Suav Delic Jasmim",
+        "preco": 21.65,
+        "preco_por_kg": 24.06
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "112",
