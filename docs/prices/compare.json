@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "760.86",
-  "totalTenda": "847.20",
-  "totalArena": "554.43",
-  "totalSavegnago": "764.78",
-  "encontradosGoodbom": 81,
+  "totalGoodbom": "713.41",
+  "totalTenda": "835.50",
+  "totalArena": "545.04",
+  "totalSavegnago": "730.60",
+  "encontradosGoodbom": 82,
   "encontradosTenda": 85,
   "encontradosArena": 78,
-  "encontradosSavegnago": 72,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -26,11 +26,11 @@
         "preco_por_kg": 21.84
       },
       "savegnago": {
-        "nome": "Linguiça Calabresa Aurora 400g Defumada",
-        "preco": 12.7,
-        "preco_por_kg": 31.75
+        "nome": "Linguiça Calabresa Cozida Defumada Sadia 400g",
+        "preco": 8.65,
+        "preco_por_kg": 21.63
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "5",
@@ -285,9 +285,9 @@
         "preco_por_kg": 4.49
       },
       "arena": {
-        "nome": "Alface Roxa Jw Unid.",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
+        "nome": "Alface Crespa Hidropônica Jw Unid.",
+        "preco": 4.19,
+        "preco_por_kg": 4.19
       },
       "savegnago": {
         "nome": "Alface Crespa Org Solo Vivo",
@@ -1183,30 +1183,6 @@
         "preco_por_kg": 33.57
       },
       "mais_barato": "Tenda"
-    },
-    {
-      "id": "111",
-      "goodbom": {
-        "nome": "SABONETE LÍQUIDO LUX GARDENIA REFIL 200ML",
-        "preco": 9.49,
-        "preco_por_kg": 47.45
-      },
-      "tenda": {
-        "nome": "Sabonete Líquido Erva Doce Select Refil 500ml",
-        "preco": 5.85,
-        "preco_por_kg": 11.7
-      },
-      "arena": {
-        "nome": "Sabonete Líquido Deoline Erva Doce Suave Refil1l",
-        "preco": 9.59,
-        "preco_por_kg": 9.59
-      },
-      "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Natur 900ml Ref Suav Delic Jasmim",
-        "preco": 21.65,
-        "preco_por_kg": 24.06
-      },
-      "mais_barato": "Arena"
     },
     {
       "id": "112",
