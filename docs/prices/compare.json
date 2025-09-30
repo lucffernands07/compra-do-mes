@@ -1,9 +1,9 @@
 {
-  "totalGoodbom": "750.36",
-  "totalTenda": "906.72",
-  "totalArena": "551.74",
-  "totalSavegnago": "750.60",
-  "encontradosGoodbom": 78,
+  "totalGoodbom": "760.86",
+  "totalTenda": "847.20",
+  "totalArena": "554.43",
+  "totalSavegnago": "764.78",
+  "encontradosGoodbom": 81,
   "encontradosTenda": 85,
   "encontradosArena": 78,
   "encontradosSavegnago": 72,
@@ -315,8 +315,8 @@
       },
       "savegnago": {
         "nome": "Repolho Verde 2Kg",
-        "preco": 5.55,
-        "preco_por_kg": 2.77
+        "preco": 5.9,
+        "preco_por_kg": 2.95
       },
       "mais_barato": "Goodbom"
     },
@@ -386,9 +386,9 @@
         "preco_por_kg": 0.08
       },
       "savegnago": {
-        "nome": "Refrigerante Fanta 2l Pet Uva",
-        "preco": 6.99,
-        "preco_por_kg": 3.5
+        "nome": "Ades Frutas Sabor Uva TP 1L",
+        "preco": 8.65,
+        "preco_por_kg": 8.65
       },
       "mais_barato": "Arena"
     },
@@ -583,6 +583,30 @@
         "preco_por_kg": 10.65
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "49",
+      "goodbom": {
+        "nome": "ÁGUA DE COCO PURO COCO MORANGO 180ML",
+        "preco": 1.89,
+        "preco_por_kg": 10.5
+      },
+      "tenda": {
+        "nome": "Água de Coco Nocoko Caixa 200ml",
+        "preco": 0.99,
+        "preco_por_kg": 4.95
+      },
+      "arena": {
+        "nome": "Água De Coco Puro Coco 1l",
+        "preco": 2.69,
+        "preco_por_kg": 2.69
+      },
+      "savegnago": {
+        "nome": "Água De Coco Puro Coco 1L",
+        "preco": 8.85,
+        "preco_por_kg": 8.85
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "50",
@@ -1024,9 +1048,9 @@
         "preco_por_kg": 5.18
       },
       "tenda": {
-        "nome": "Detergentes Liquido Neutro Conde 500ml",
-        "preco": 1.5,
-        "preco_por_kg": 3
+        "nome": "Detergente Líquido Minuano Fresh 500ml",
+        "preco": 2.05,
+        "preco_por_kg": 4.1
       },
       "arena": {
         "nome": "Detergente Ypê Clear 5l",
@@ -1038,7 +1062,7 @@
         "preco": 1.78,
         "preco_por_kg": 3.56
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "101",
@@ -1144,9 +1168,9 @@
         "preco_por_kg": 54.14
       },
       "tenda": {
-        "nome": "Creme Dental Kids Ice Fresh 50g",
-        "preco": 4.35,
-        "preco_por_kg": 87
+        "nome": "Creme Dental Ice Clean 70g",
+        "preco": 1.5,
+        "preco_por_kg": 21.43
       },
       "arena": {
         "nome": "Creme Dental Close Up Tripla Proteção Menta 150g",
@@ -1158,7 +1182,7 @@
         "preco": 2.35,
         "preco_por_kg": 33.57
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Tenda"
     },
     {
       "id": "111",
