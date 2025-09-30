@@ -114,7 +114,7 @@
   {
     "id": 27,
     "supermercado": "Tenda",
-    "produto": "Iogurte Natural Laranja, Cenoura e Mel Frutap 150g",
+    "produto": "Iogurte Natural Laranja, Cenoura e Mel Viv Vigor 150g",
     "preco": 2.79,
     "preco_por_kg": 18.6
   },
@@ -198,9 +198,9 @@
   {
     "id": 39,
     "supermercado": "Tenda",
-    "produto": "Margarina com Sal Dualis 500g",
-    "preco": 3.45,
-    "preco_por_kg": 6.9
+    "produto": "Margarina Cremosa com Sal Claybom Pote 250g",
+    "preco": 1.99,
+    "preco_por_kg": 7.96
   },
   {
     "id": 40,
@@ -212,7 +212,7 @@
   {
     "id": 42,
     "supermercado": "Tenda",
-    "produto": "Queijo Mussarela Apolo Fatiado 200g",
+    "produto": "Queijo Mussarela Lactovale Fatiado 200g",
     "preco": 7.58,
     "preco_por_kg": 37.9
   },
@@ -292,6 +292,13 @@
     "produto": "Macarrão de Arroz Parafuso Urbano 500g",
     "preco": 3.75,
     "preco_por_kg": 7.5
+  },
+  {
+    "id": 57,
+    "supermercado": "Tenda",
+    "produto": "Queijo Ralado Italac 40g",
+    "preco": 4.09,
+    "preco_por_kg": 102.25
   },
   {
     "id": 60,
@@ -374,8 +381,8 @@
     "id": 76,
     "supermercado": "Tenda",
     "produto": "Maionese Mariana 1kg",
-    "preco": 9.5,
-    "preco_por_kg": 9.5
+    "preco": 6.89,
+    "preco_por_kg": 6.89
   },
   {
     "id": 77,
@@ -462,13 +469,6 @@
     "preco_por_kg": 3.25
   },
   {
-    "id": 97,
-    "supermercado": "Tenda",
-    "produto": "Lava Roupa Líquido Omo Poder Acelerador 3L",
-    "preco": 42.9,
-    "preco_por_kg": 14.3
-  },
-  {
     "id": 100,
     "supermercado": "Tenda",
     "produto": "Detergentes Liquido Neutro Conde 500ml",
@@ -488,6 +488,104 @@
     "produto": "Desinfetante Lavanda Select 2L",
     "preco": 5.1,
     "preco_por_kg": 2.55
+  },
+  {
+    "id": 105,
+    "supermercado": "Tenda",
+    "produto": "Esponja de Aço Bombril 60g 8 unidades",
+    "preco": 2.5,
+    "preco_por_kg": 41.67
+  },
+  {
+    "id": 107,
+    "supermercado": "Tenda",
+    "produto": "Papel Higiênico Folha Simples Select 30m 4un",
+    "preco": 4.2,
+    "preco_por_kg": 4.2
+  },
+  {
+    "id": 109,
+    "supermercado": "Tenda",
+    "produto": "Escova de Dente Colgate Classic Clean 4 unid Promo c/ Desconto",
+    "preco": 13.7,
+    "preco_por_kg": 13.7
+  },
+  {
+    "id": 110,
+    "supermercado": "Tenda",
+    "produto": "Creme Dental Kids Ice Fresh 50g",
+    "preco": 4.35,
+    "preco_por_kg": 87
+  },
+  {
+    "id": 111,
+    "supermercado": "Tenda",
+    "produto": "Sabonete Líquido Erva Doce Select Refil 500ml",
+    "preco": 5.85,
+    "preco_por_kg": 11.7
+  },
+  {
+    "id": 112,
+    "supermercado": "Tenda",
+    "produto": "Sabonete em Barra Suave Amarelo Francis 85g",
+    "preco": 1.7,
+    "preco_por_kg": 20
+  },
+  {
+    "id": 114,
+    "supermercado": "Tenda",
+    "produto": "Gel Fixador Incolor Soft Fix 250g",
+    "preco": 4.9,
+    "preco_por_kg": 19.6
+  },
+  {
+    "id": 115,
+    "supermercado": "Tenda",
+    "produto": "Haste Flexível Johnsons 150un",
+    "preco": 13.2,
+    "preco_por_kg": 13.2
+  },
+  {
+    "id": 116,
+    "supermercado": "Tenda",
+    "produto": "Lenço Umedecido Toque da Seda Neve 48 unidades",
+    "preco": 16.5,
+    "preco_por_kg": 16.5
+  },
+  {
+    "id": 117,
+    "supermercado": "Tenda",
+    "produto": "Algodão Disco Select 50Un",
+    "preco": 6.5,
+    "preco_por_kg": 6.5
+  },
+  {
+    "id": 118,
+    "supermercado": "Tenda",
+    "produto": "Solução Bucal Cool Mint Listerine 250ml",
+    "preco": 16.05,
+    "preco_por_kg": 64.2
+  },
+  {
+    "id": 119,
+    "supermercado": "Tenda",
+    "produto": "Bisnaguinha Kim 300g",
+    "preco": 4.89,
+    "preco_por_kg": 16.3
+  },
+  {
+    "id": 120,
+    "supermercado": "Tenda",
+    "produto": "Areia para Gatos Putz 4kg",
+    "preco": 10.2,
+    "preco_por_kg": 2.55
+  },
+  {
+    "id": 121,
+    "supermercado": "Tenda",
+    "produto": "Fubá Mimoso Select 500g",
+    "preco": 2.05,
+    "preco_por_kg": 4.1
   },
   {
     "id": 122,
