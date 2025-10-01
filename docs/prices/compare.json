@@ -1,37 +1,13 @@
 {
-  "totalGoodbom": "760.25",
-  "totalTenda": "788.42",
-  "totalArena": "563.23",
-  "totalSavegnago": "758.86",
+  "totalGoodbom": "691.64",
+  "totalTenda": "739.34",
+  "totalArena": "524.29",
+  "totalSavegnago": "669.49",
   "encontradosGoodbom": 82,
-  "encontradosTenda": 84,
+  "encontradosTenda": 68,
   "encontradosArena": 78,
   "encontradosSavegnago": 71,
   "produtos": [
-    {
-      "id": "3",
-      "goodbom": {
-        "nome": "LINGUIÇA CALABRESA FINA SWIFT 500G",
-        "preco": 21.9,
-        "preco_por_kg": 43.8
-      },
-      "tenda": {
-        "nome": "Linguiça Calabresa Brasa 400g",
-        "preco": 11.39,
-        "preco_por_kg": 28.48
-      },
-      "arena": {
-        "nome": "Linguiça Calabresa Sadia Pacote 5kg",
-        "preco": 109.19,
-        "preco_por_kg": 21.84
-      },
-      "savegnago": {
-        "nome": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
-        "preco": 10.45,
-        "preco_por_kg": 20.9
-      },
-      "mais_barato": "Savegnago"
-    },
     {
       "id": "5",
       "goodbom": {
@@ -79,30 +55,6 @@
         "preco_por_kg": 16.7
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "7",
-      "goodbom": {
-        "nome": "SOBRECOXA DE FRANGO SWIFT 1KG",
-        "preco": 14.5,
-        "preco_por_kg": 14.5
-      },
-      "tenda": {
-        "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
-        "preco": 4.45,
-        "preco_por_kg": 8.9
-      },
-      "arena": {
-        "nome": "Coxa Solteira Sobrecoxa Frango Familiar Bandeja Kg",
-        "preco": 10.99,
-        "preco_por_kg": 10.99
-      },
-      "savegnago": {
-        "nome": "Sobrecoxa Frango Swift 1Kg",
-        "preco": 14.5,
-        "preco_por_kg": 14.5
-      },
-      "mais_barato": "Tenda"
     },
     {
       "id": "22",
@@ -242,9 +194,9 @@
         "preco_por_kg": 25.9
       },
       "savegnago": {
-        "nome": "Bisnaguinha Cenoura e Mandioquinha Nutrella 300g",
-        "preco": 12.5,
-        "preco_por_kg": 41.67
+        "nome": "Caldo de Mandioquinha com Frango Na Panelinha Seara 300g",
+        "preco": 3.79,
+        "preco_por_kg": 12.63
       },
       "mais_barato": "Tenda"
     },
@@ -273,30 +225,6 @@
       "mais_barato": "Goodbom"
     },
     {
-      "id": "32",
-      "goodbom": {
-        "nome": "REPOLHO LISO KG",
-        "preco": 1.99,
-        "preco_por_kg": 1.99
-      },
-      "tenda": {
-        "nome": "Repolho Verde Unidade",
-        "preco": 3.79,
-        "preco_por_kg": 3.79
-      },
-      "arena": {
-        "nome": "Repolho Verde Kg",
-        "preco": 3.98,
-        "preco_por_kg": 3.98
-      },
-      "savegnago": {
-        "nome": "Repolho Verde 2Kg",
-        "preco": 5.9,
-        "preco_por_kg": 2.95
-      },
-      "mais_barato": "Goodbom"
-    },
-    {
       "id": "34",
       "goodbom": {
         "nome": "MAMÃO PAPAYA KG",
@@ -317,30 +245,6 @@
         "nome": "Mamão Formosa - 1kg",
         "preco": 1.85,
         "preco_por_kg": 1.85
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "35",
-      "goodbom": {
-        "nome": "BANANA NANICA KG",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
-      },
-      "tenda": {
-        "nome": "Banana Nanica Unidade",
-        "preco": 0.91,
-        "preco_por_kg": 0.91
-      },
-      "arena": {
-        "nome": "Iogurte Semi Desnatado Batavo Maçã/Banana/Cereal 1,150kg",
-        "preco": 14.29,
-        "preco_por_kg": 0.1
-      },
-      "savegnago": {
-        "nome": "Banana Marmelo Bandeja 700g",
-        "preco": 2.89,
-        "preco_por_kg": 4.13
       },
       "mais_barato": "Arena"
     },
@@ -393,30 +297,6 @@
       "mais_barato": "Arena"
     },
     {
-      "id": "38",
-      "goodbom": {
-        "nome": "REFRIGERANTE BIOLEVE ZERO MEXERICA 1,5L",
-        "preco": 6.49,
-        "preco_por_kg": 4.33
-      },
-      "tenda": {
-        "nome": "Mexerica Murcote 130g",
-        "preco": 0.91,
-        "preco_por_kg": 7
-      },
-      "arena": {
-        "nome": "Refrigerante Bioleve Mexerica E Limão Zero Pet 1,5l",
-        "preco": 5.39,
-        "preco_por_kg": 1.08
-      },
-      "savegnago": {
-        "nome": "Bebida Gaseificada Zero Mexerica 1,5L Bioleve",
-        "preco": 6.25,
-        "preco_por_kg": 4.17
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "39",
       "goodbom": {
         "nome": "MARGARINA DORIANA SEM SAL 500G",
@@ -459,8 +339,8 @@
       },
       "savegnago": {
         "nome": "Pizza Sadia 440g Mussarela",
-        "preco": 11.75,
-        "preco_por_kg": 26.7
+        "preco": 5.85,
+        "preco_por_kg": 13.3
       },
       "mais_barato": "Savegnago"
     },
@@ -669,9 +549,9 @@
         "preco_por_kg": 8.22
       },
       "arena": {
-        "nome": "Óleo De Soja Vila Velha Galão 18l",
-        "preco": 145,
-        "preco_por_kg": 8.06
+        "nome": "Óleo De Soja Vila Velha Refinado Bag 18l",
+        "preco": 127.9,
+        "preco_por_kg": 7.11
       },
       "savegnago": {
         "nome": "Óleo de Soja Soya Pet 900ml",
@@ -1082,9 +962,9 @@
         "preco_por_kg": 2.36
       },
       "savegnago": {
-        "nome": "Desinfetante Triex 5L Flores da Primavera",
-        "preco": 14.55,
-        "preco_por_kg": 2.91
+        "nome": "Desinfetante Triex 2L Aromas Da Noite",
+        "preco": 5.59,
+        "preco_por_kg": 2.79
       },
       "mais_barato": "Tenda"
     },
@@ -1107,8 +987,8 @@
       },
       "savegnago": {
         "nome": "Lã De Aço Bombril Com 6 Unidades",
-        "preco": 2.75,
-        "preco_por_kg": 2.75
+        "preco": 2.59,
+        "preco_por_kg": 2.59
       },
       "mais_barato": "Savegnago"
     },
