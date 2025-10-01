@@ -1,13 +1,37 @@
 {
-  "totalGoodbom": "761.42",
-  "totalTenda": "813.14",
-  "totalArena": "594.06",
-  "totalSavegnago": "730.40",
+  "totalGoodbom": "799.23",
+  "totalTenda": "885.82",
+  "totalArena": "611.61",
+  "totalSavegnago": "750.63",
   "encontradosGoodbom": 82,
-  "encontradosTenda": 84,
-  "encontradosArena": 78,
+  "encontradosTenda": 85,
+  "encontradosArena": 77,
   "encontradosSavegnago": 71,
   "produtos": [
+    {
+      "id": "3",
+      "goodbom": {
+        "nome": "LINGUIÇA CALABRESA FINA SWIFT 500G",
+        "preco": 21.9,
+        "preco_por_kg": 43.8
+      },
+      "tenda": {
+        "nome": "Linguiça Calabresa Brasa 400g",
+        "preco": 11.39,
+        "preco_por_kg": 28.48
+      },
+      "arena": {
+        "nome": "Linguiça Calabresa Sadia Pacote 5kg",
+        "preco": 109.19,
+        "preco_por_kg": 21.84
+      },
+      "savegnago": {
+        "nome": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
+        "preco": 10.45,
+        "preco_por_kg": 20.9
+      },
+      "mais_barato": "Savegnago"
+    },
     {
       "id": "5",
       "goodbom": {
@@ -40,9 +64,9 @@
         "preco_por_kg": 10.79
       },
       "tenda": {
-        "nome": "Salsicha Hot Dog Aurora 500g",
-        "preco": 9.49,
-        "preco_por_kg": 18.98
+        "nome": "Salsicha Hot Dog Seara 500g",
+        "preco": 9.69,
+        "preco_por_kg": 19.38
       },
       "arena": {
         "nome": "Salsicha Hot Dog Copacol Granel Kg",
@@ -177,30 +201,6 @@
       "mais_barato": "Savegnago"
     },
     {
-      "id": "28",
-      "goodbom": {
-        "nome": "CHUCHU KG",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
-      },
-      "tenda": {
-        "nome": "Chuchu Unidade",
-        "preco": 1.85,
-        "preco_por_kg": 1.85
-      },
-      "arena": {
-        "nome": "Chuchu Kg",
-        "preco": 4.29,
-        "preco_por_kg": 4.29
-      },
-      "savegnago": {
-        "nome": "Chuchu 1kg",
-        "preco": 4.39,
-        "preco_por_kg": 4.39
-      },
-      "mais_barato": "Tenda"
-    },
-    {
       "id": "29",
       "goodbom": {
         "nome": "MANDIOQUINHA KG",
@@ -218,9 +218,9 @@
         "preco_por_kg": 25.9
       },
       "savegnago": {
-        "nome": "Caldo de Mandioquinha com Frango Na Panelinha Seara 300g",
+        "nome": "Caldo Swift 350g Mandioquinha com Frango",
         "preco": 3.79,
-        "preco_por_kg": 12.63
+        "preco_por_kg": 10.83
       },
       "mais_barato": "Tenda"
     },
@@ -376,9 +376,9 @@
         "preco_por_kg": 15.98
       },
       "tenda": {
-        "nome": "Néctar de Uva Nutri Néctar 200ml",
-        "preco": 1.69,
-        "preco_por_kg": 8.45
+        "nome": "Refresco em pó Tang Uva 18g",
+        "preco": 0.79,
+        "preco_por_kg": 43.89
       },
       "arena": {
         "nome": "Suco Integral Geração S Uva 1,35l",
@@ -472,9 +472,9 @@
         "preco_por_kg": 29.99
       },
       "tenda": {
-        "nome": "Queijo Mussarela Litoral Fatiado 200g",
-        "preco": 7.7,
-        "preco_por_kg": 38.5
+        "nome": "Queijo Mussarela Apolo Fatiado 200g",
+        "preco": 7.5,
+        "preco_por_kg": 37.5
       },
       "arena": {
         "nome": "Mussarela Davaca Peça Kg",
@@ -496,9 +496,9 @@
         "preco_por_kg": 28.9
       },
       "tenda": {
-        "nome": "Empanado Presunto e Queijo Seara 110g",
-        "preco": 4.79,
-        "preco_por_kg": 43.55
+        "nome": "Presunto Cozido sem Capa de Gordura Fatiado Frimesa 200g",
+        "preco": 6.69,
+        "preco_por_kg": 33.45
       },
       "arena": {
         "nome": "Presunto Cozido Nobre Sem Capa Bandeja Kg",
@@ -818,9 +818,9 @@
         "preco_por_kg": 7.49
       },
       "savegnago": {
-        "nome": "Maionese Arisco Tradicional 500g",
-        "preco": 6.95,
-        "preco_por_kg": 13.9
+        "nome": "Maionese Hellmann's Tradicional 600gr",
+        "preco": 11.65,
+        "preco_por_kg": 19.42
       },
       "mais_barato": "Tenda"
     },
@@ -1000,7 +1000,7 @@
         "preco_por_kg": 8.49
       },
       "tenda": {
-        "nome": "Limpador Perfumado Capim Limão Coala 120ml",
+        "nome": "Limpador Perfumado Essência Lavanda Coala 120ml",
         "preco": 9.9,
         "preco_por_kg": 82.5
       },
@@ -1048,9 +1048,9 @@
         "preco_por_kg": 5.2
       },
       "tenda": {
-        "nome": "Detergentes Liquido Neutro Conde 500ml",
-        "preco": 1.5,
-        "preco_por_kg": 3
+        "nome": "Detergente Líquido Minuano Neutro 500ml",
+        "preco": 2.2,
+        "preco_por_kg": 4.4
       },
       "arena": {
         "nome": "Detergente Ypê Clear 5l",
@@ -1062,7 +1062,7 @@
         "preco": 1.78,
         "preco_por_kg": 3.56
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "101",
@@ -1216,9 +1216,9 @@
         "preco_por_kg": 29.29
       },
       "tenda": {
-        "nome": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
+        "nome": "Sabonete Flor De Ypê Suave - Azul - Rosas Brancas e Avelã 85G - Glicerina e Óleos Essenciais",
         "preco": 1.85,
-        "preco_por_kg": 1.85
+        "preco_por_kg": 21.76
       },
       "arena": {
         "nome": "Sabonete Ypê Siene Lavanda 85g",
@@ -1230,7 +1230,7 @@
         "preco": 2.29,
         "preco_por_kg": 26.94
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "114",

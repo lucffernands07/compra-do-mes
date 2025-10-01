@@ -1,5 +1,12 @@
 [
   {
+    "id": 3,
+    "supermercado": "Savegnago",
+    "produto": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
+    "preco": 10.45,
+    "preco_por_kg": 20.9
+  },
+  {
     "id": 4,
     "supermercado": "Savegnago",
     "produto": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
@@ -77,18 +84,11 @@
     "preco_por_kg": 2.95
   },
   {
-    "id": 28,
-    "supermercado": "Savegnago",
-    "produto": "Chuchu 1kg",
-    "preco": 4.39,
-    "preco_por_kg": 4.39
-  },
-  {
     "id": 29,
     "supermercado": "Savegnago",
-    "produto": "Caldo de Mandioquinha com Frango Na Panelinha Seara 300g",
+    "produto": "Caldo Swift 350g Mandioquinha com Frango",
     "preco": 3.79,
-    "preco_por_kg": 12.63
+    "preco_por_kg": 10.83
   },
   {
     "id": 30,
@@ -282,9 +282,9 @@
   {
     "id": 76,
     "supermercado": "Savegnago",
-    "produto": "Maionese Arisco Tradicional 500g",
-    "preco": 6.95,
-    "preco_por_kg": 13.9
+    "produto": "Maionese Hellmann's Tradicional 600gr",
+    "preco": 11.65,
+    "preco_por_kg": 19.42
   },
   {
     "id": 77,
