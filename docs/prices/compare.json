@@ -1,37 +1,13 @@
 {
-  "totalGoodbom": "730.00",
-  "totalTenda": "769.27",
-  "totalArena": "539.07",
-  "totalSavegnago": "707.56",
+  "totalGoodbom": "761.42",
+  "totalTenda": "813.14",
+  "totalArena": "594.06",
+  "totalSavegnago": "730.40",
   "encontradosGoodbom": 82,
   "encontradosTenda": 84,
   "encontradosArena": 78,
   "encontradosSavegnago": 71,
   "produtos": [
-    {
-      "id": "3",
-      "goodbom": {
-        "nome": "LINGUIÇA CALABRESA FINA SWIFT 500G",
-        "preco": 21.9,
-        "preco_por_kg": 43.8
-      },
-      "tenda": {
-        "nome": "Linguiça Calabresa Brasa 400g",
-        "preco": 11.39,
-        "preco_por_kg": 28.48
-      },
-      "arena": {
-        "nome": "Linguiça Calabresa Sadia Pacote 5kg",
-        "preco": 109.19,
-        "preco_por_kg": 21.84
-      },
-      "savegnago": {
-        "nome": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
-        "preco": 10.45,
-        "preco_por_kg": 20.9
-      },
-      "mais_barato": "Savegnago"
-    },
     {
       "id": "5",
       "goodbom": {
@@ -50,11 +26,11 @@
         "preco_por_kg": 21.9
       },
       "savegnago": {
-        "nome": "Linguiça Toscana Perdigão Nabrasa 700g",
+        "nome": "Linguiça Toscana Mini Camari 1Kg",
         "preco": 14.85,
-        "preco_por_kg": 21.21
+        "preco_por_kg": 14.85
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "6",
@@ -137,8 +113,8 @@
       },
       "tenda": {
         "nome": "Beterraba Saco 1Kg",
-        "preco": 2.99,
-        "preco_por_kg": 2.99
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "arena": {
         "nome": "Beterraba Kg",
@@ -233,8 +209,8 @@
       },
       "tenda": {
         "nome": "Mandioquinha Unidade",
-        "preco": 2.06,
-        "preco_por_kg": 2.06
+        "preco": 1.79,
+        "preco_por_kg": 1.79
       },
       "arena": {
         "nome": "Mandioquinha Kg",
@@ -305,8 +281,8 @@
       },
       "tenda": {
         "nome": "Repolho Verde Unidade",
-        "preco": 3.79,
-        "preco_por_kg": 3.79
+        "preco": 5.43,
+        "preco_por_kg": 5.43
       },
       "arena": {
         "nome": "Repolho Verde Kg",
@@ -319,6 +295,30 @@
         "preco_por_kg": 2.95
       },
       "mais_barato": "Goodbom"
+    },
+    {
+      "id": "33",
+      "goodbom": {
+        "nome": "ALHO DESCASCADO 500G",
+        "preco": 19.99,
+        "preco_por_kg": 39.98
+      },
+      "tenda": {
+        "nome": "Alho Descascado Kamar 200g",
+        "preco": 9.89,
+        "preco_por_kg": 49.45
+      },
+      "arena": {
+        "nome": "Alho Descascado Hortmix 600g",
+        "preco": 29.9,
+        "preco_por_kg": 49.83
+      },
+      "savegnago": {
+        "nome": "Alho descascado Natari 1Kg",
+        "preco": 34.9,
+        "preco_por_kg": 34.9
+      },
+      "mais_barato": "Savegnago"
     },
     {
       "id": "34",
@@ -506,9 +506,9 @@
         "preco_por_kg": 25.9
       },
       "savegnago": {
-        "nome": "Presunto Cozido Frimesa 200g Fatiado Sem Capa De Gordura",
-        "preco": 6.45,
-        "preco_por_kg": 32.25
+        "nome": "Presunto Cozido Seara 180g Fatiado",
+        "preco": 5.45,
+        "preco_por_kg": 30.28
       },
       "mais_barato": "Arena"
     },
@@ -751,6 +751,30 @@
         "preco_por_kg": 8.75
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "69",
+      "goodbom": {
+        "nome": "SELETA DE LEGUMES LATA QUERO 170G",
+        "preco": 5.99,
+        "preco_por_kg": 35.24
+      },
+      "tenda": {
+        "nome": "Seleta de Legumes Select 170g",
+        "preco": 3.49,
+        "preco_por_kg": 20.53
+      },
+      "arena": {
+        "nome": "Seleta De Legumes Predilecta Lata 170g",
+        "preco": 4.59,
+        "preco_por_kg": 27
+      },
+      "savegnago": {
+        "nome": "Seleta De Legumes 300g Agroverts",
+        "preco": 5.15,
+        "preco_por_kg": 17.17
+      },
+      "mais_barato": "Savegnago"
     },
     {
       "id": "72",
