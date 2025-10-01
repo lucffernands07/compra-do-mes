@@ -1,13 +1,37 @@
 {
-  "totalGoodbom": "691.64",
-  "totalTenda": "739.34",
-  "totalArena": "524.29",
-  "totalSavegnago": "669.49",
+  "totalGoodbom": "730.00",
+  "totalTenda": "769.27",
+  "totalArena": "539.07",
+  "totalSavegnago": "707.56",
   "encontradosGoodbom": 82,
-  "encontradosTenda": 68,
+  "encontradosTenda": 84,
   "encontradosArena": 78,
   "encontradosSavegnago": 71,
   "produtos": [
+    {
+      "id": "3",
+      "goodbom": {
+        "nome": "LINGUIÇA CALABRESA FINA SWIFT 500G",
+        "preco": 21.9,
+        "preco_por_kg": 43.8
+      },
+      "tenda": {
+        "nome": "Linguiça Calabresa Brasa 400g",
+        "preco": 11.39,
+        "preco_por_kg": 28.48
+      },
+      "arena": {
+        "nome": "Linguiça Calabresa Sadia Pacote 5kg",
+        "preco": 109.19,
+        "preco_por_kg": 21.84
+      },
+      "savegnago": {
+        "nome": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
+        "preco": 10.45,
+        "preco_por_kg": 20.9
+      },
+      "mais_barato": "Savegnago"
+    },
     {
       "id": "5",
       "goodbom": {
@@ -55,6 +79,30 @@
         "preco_por_kg": 16.7
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "7",
+      "goodbom": {
+        "nome": "SOBRECOXA DE FRANGO SWIFT 1KG",
+        "preco": 14.5,
+        "preco_por_kg": 14.5
+      },
+      "tenda": {
+        "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
+        "preco": 4.45,
+        "preco_por_kg": 8.9
+      },
+      "arena": {
+        "nome": "Coxa Solteira Sobrecoxa Frango Familiar Bandeja Kg",
+        "preco": 10.99,
+        "preco_por_kg": 10.99
+      },
+      "savegnago": {
+        "nome": "Sobrecoxa Frango Swift 1Kg",
+        "preco": 14.5,
+        "preco_por_kg": 14.5
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "22",
@@ -201,6 +249,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "30",
+      "goodbom": {
+        "nome": "CHEIRO VERDE MC",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "tenda": {
+        "nome": "Cheiro Verde Maço Unidade",
+        "preco": 4.29,
+        "preco_por_kg": 4.29
+      },
+      "arena": {
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.79,
+        "preco_por_kg": 3.79
+      },
+      "savegnago": {
+        "nome": "Cheiro Verde Organico Solo Vivo",
+        "preco": 8.59,
+        "preco_por_kg": 8.59
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "31",
       "goodbom": {
         "nome": "ALFACE HIDROPONICA UN",
@@ -208,9 +280,9 @@
         "preco_por_kg": 1.99
       },
       "tenda": {
-        "nome": "Alface Roxa Unidade",
-        "preco": 4.49,
-        "preco_por_kg": 4.49
+        "nome": "Alface Crespa Unidade",
+        "preco": 0.99,
+        "preco_por_kg": 0.99
       },
       "arena": {
         "nome": "Alface Crespa Hidropônica Jw Unid.",
@@ -221,6 +293,30 @@
         "nome": "Alface Crespa Org Solo Vivo",
         "preco": 3.99,
         "preco_por_kg": 3.99
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "32",
+      "goodbom": {
+        "nome": "REPOLHO LISO KG",
+        "preco": 1.99,
+        "preco_por_kg": 1.99
+      },
+      "tenda": {
+        "nome": "Repolho Verde Unidade",
+        "preco": 3.79,
+        "preco_por_kg": 3.79
+      },
+      "arena": {
+        "nome": "Repolho Verde Kg",
+        "preco": 3.98,
+        "preco_por_kg": 3.98
+      },
+      "savegnago": {
+        "nome": "Repolho Verde 2Kg",
+        "preco": 5.9,
+        "preco_por_kg": 2.95
       },
       "mais_barato": "Goodbom"
     },
@@ -245,6 +341,30 @@
         "nome": "Mamão Formosa - 1kg",
         "preco": 1.85,
         "preco_por_kg": 1.85
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "35",
+      "goodbom": {
+        "nome": "BANANA NANICA KG",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
+      },
+      "tenda": {
+        "nome": "Banana Prata Unidade",
+        "preco": 1.5,
+        "preco_por_kg": 1.5
+      },
+      "arena": {
+        "nome": "Iogurte Semi Desnatado Batavo Maçã/Banana/Cereal 1,150kg",
+        "preco": 14.29,
+        "preco_por_kg": 0.1
+      },
+      "savegnago": {
+        "nome": "Banana Marmelo Bandeja 700g",
+        "preco": 2.89,
+        "preco_por_kg": 4.13
       },
       "mais_barato": "Arena"
     },
@@ -293,6 +413,30 @@
         "nome": "Maçã Fuji Kg",
         "preco": 2.29,
         "preco_por_kg": 2.29
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "38",
+      "goodbom": {
+        "nome": "REFRIGERANTE BIOLEVE ZERO MEXERICA 1,5L",
+        "preco": 6.49,
+        "preco_por_kg": 4.33
+      },
+      "tenda": {
+        "nome": "Mexerica Murcote 130g",
+        "preco": 0.91,
+        "preco_por_kg": 7
+      },
+      "arena": {
+        "nome": "Refrigerante Bioleve Mexerica E Limão Zero Pet 1,5l",
+        "preco": 5.39,
+        "preco_por_kg": 1.08
+      },
+      "savegnago": {
+        "nome": "Bebida Gaseificada Zero Mexerica 1,5L Bioleve",
+        "preco": 6.25,
+        "preco_por_kg": 4.17
       },
       "mais_barato": "Arena"
     },
@@ -607,30 +751,6 @@
         "preco_por_kg": 8.75
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "69",
-      "goodbom": {
-        "nome": "SELETA DE LEGUMES LATA QUERO 170G",
-        "preco": 5.99,
-        "preco_por_kg": 35.24
-      },
-      "tenda": {
-        "nome": "Seleta de Legumes Select 170g",
-        "preco": 3.49,
-        "preco_por_kg": 20.53
-      },
-      "arena": {
-        "nome": "Seleta De Legumes Predilecta Lata 170g",
-        "preco": 4.59,
-        "preco_por_kg": 27
-      },
-      "savegnago": {
-        "nome": "Seleta De Legumes 300g Agroverts",
-        "preco": 5.15,
-        "preco_por_kg": 17.17
-      },
-      "mais_barato": "Savegnago"
     },
     {
       "id": "72",
