@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "794.50",
-  "totalTenda": "821.74",
-  "totalArena": "590.20",
-  "totalSavegnago": "750.56",
+  "totalGoodbom": "800.07",
+  "totalTenda": "835.34",
+  "totalArena": "596.09",
+  "totalSavegnago": "763.27",
   "encontradosGoodbom": 82,
   "encontradosTenda": 85,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 69,
   "produtos": [
     {
       "id": "3",
@@ -363,8 +363,8 @@
       },
       "savegnago": {
         "nome": "Banana Prata Bandeja 900g",
-        "preco": 3.15,
-        "preco_por_kg": 3.5
+        "preco": 5.95,
+        "preco_por_kg": 6.61
       },
       "mais_barato": "Arena"
     },
@@ -386,9 +386,9 @@
         "preco_por_kg": 0.08
       },
       "savegnago": {
-        "nome": "Isotônico Jungle Low Carb Uva 500ml",
-        "preco": 5.89,
-        "preco_por_kg": 11.78
+        "nome": "Refrigerante Fanta 2l Pet Uva",
+        "preco": 7.65,
+        "preco_por_kg": 3.83
       },
       "mais_barato": "Arena"
     },
@@ -496,9 +496,9 @@
         "preco_por_kg": 28.9
       },
       "tenda": {
-        "nome": "Presunto Cozido sem Capa de Gordura Fatiado Frimesa 200g",
-        "preco": 6.69,
-        "preco_por_kg": 33.45
+        "nome": "Presunto Cozido Fatiado Aurora 180g",
+        "preco": 7.69,
+        "preco_por_kg": 42.72
       },
       "arena": {
         "nome": "Presunto Cozido Nobre Sem Capa Bandeja Kg",
@@ -587,7 +587,7 @@
     {
       "id": "49",
       "goodbom": {
-        "nome": "ÁGUA DE COCO PURO COCO MORANGO 180ML",
+        "nome": "ÁGUA DE COCO PURO COCO MARACUJA 180ML",
         "preco": 1.89,
         "preco_por_kg": 10.5
       },
@@ -688,9 +688,9 @@
         "preco_por_kg": 9.43
       },
       "tenda": {
-        "nome": "Óleo de Soja Cocamar 900ml",
-        "preco": 7.4,
-        "preco_por_kg": 8.22
+        "nome": "Óleo de Soja Coamo 900ml",
+        "preco": 6.98,
+        "preco_por_kg": 7.76
       },
       "arena": {
         "nome": "Óleo De Soja Vila Velha Refinado Bag 18l",
@@ -827,9 +827,9 @@
     {
       "id": "77",
       "goodbom": {
-        "nome": "MOSTARDA KISABOR 1,01L",
-        "preco": 10.99,
-        "preco_por_kg": 10.88
+        "nome": "MOSTARDA CEPERA 1010G",
+        "preco": 13.99,
+        "preco_por_kg": 13.85
       },
       "tenda": {
         "nome": "Mostarda Tradicional Quero 190g",
@@ -897,6 +897,30 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "82",
+      "goodbom": {
+        "nome": "CHÁ LEÃO DE CAMOMILA 10 SACHES",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
+      },
+      "tenda": {
+        "nome": "Chá Matte Natural Leão 10 Sachês",
+        "preco": 2.49,
+        "preco_por_kg": 2.49
+      },
+      "arena": {
+        "nome": "Chá Branco Natural Tea Lichia 1l",
+        "preco": 6.59,
+        "preco_por_kg": 6.59
+      },
+      "savegnago": {
+        "nome": "Chá Lipton Ice Tea Limão 1,5L Garrafa",
+        "preco": 4.99,
+        "preco_por_kg": 3.33
+      },
+      "mais_barato": "Tenda"
+    },
+    {
       "id": "87",
       "goodbom": {
         "nome": "TAPIOCA KISABOR 500G",
@@ -941,6 +965,30 @@
         "nome": "Desinfetante Líquido Lysoform Lavanda 2L",
         "preco": 26.95,
         "preco_por_kg": 13.47
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "89",
+      "goodbom": {
+        "nome": "ALCOOL SAFRA BICARBONATO 1L",
+        "preco": 6.59,
+        "preco_por_kg": 6.59
+      },
+      "tenda": {
+        "nome": "Álcool Líquido Tradicional 46,2 INPM Flops 500ml",
+        "preco": 3.25,
+        "preco_por_kg": 6.5
+      },
+      "arena": {
+        "nome": "Álcool Duratto Limpador Uso Geral Neutro 1l",
+        "preco": 5.89,
+        "preco_por_kg": 5.89
+      },
+      "savegnago": {
+        "nome": "Álcool Start 46° 1L",
+        "preco": 15.8,
+        "preco_por_kg": 15.8
       },
       "mais_barato": "Arena"
     },
@@ -1085,30 +1133,6 @@
         "nome": "Lã De Aço Bombril Com 6 Unidades",
         "preco": 2.59,
         "preco_por_kg": 2.59
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
-      "id": "107",
-      "goodbom": {
-        "nome": "PAPEL HIGIÊNICO FOLHA DUPLA MILI NEUTRO 30MT.C/4",
-        "preco": 7.98,
-        "preco_por_kg": 7.98
-      },
-      "tenda": {
-        "nome": "Papel Higiênico Folha Simples Select 30m 4un",
-        "preco": 4.2,
-        "preco_por_kg": 4.2
-      },
-      "arena": {
-        "nome": "Papel Higiênico Familiar Folha Dupla 30m C/ 4 Rolos",
-        "preco": 6.59,
-        "preco_por_kg": 6.59
-      },
-      "savegnago": {
-        "nome": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
-        "preco": 18.95,
-        "preco_por_kg": 1.58
       },
       "mais_barato": "Savegnago"
     },
