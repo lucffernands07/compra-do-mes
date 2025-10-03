@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "767.63",
-  "totalTenda": "804.44",
-  "totalArena": "581.27",
-  "totalSavegnago": "731.35",
+  "totalGoodbom": "776.53",
+  "totalTenda": "834.91",
+  "totalArena": "587.56",
+  "totalSavegnago": "758.83",
   "encontradosGoodbom": 82,
-  "encontradosTenda": 84,
+  "encontradosTenda": 85,
   "encontradosArena": 78,
   "encontradosSavegnago": 72,
   "produtos": [
@@ -362,9 +362,9 @@
         "preco_por_kg": 0.1
       },
       "savegnago": {
-        "nome": "Banana Maçã 1kg",
-        "preco": 2.55,
-        "preco_por_kg": 2.55
+        "nome": "Banana Prata Turma da Mônica 750g",
+        "preco": 3.15,
+        "preco_por_kg": 4.2
       },
       "mais_barato": "Arena"
     },
@@ -821,6 +821,30 @@
         "nome": "Maionese Arisco Tradicional 500g",
         "preco": 9.95,
         "preco_por_kg": 19.9
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "77",
+      "goodbom": {
+        "nome": "MOSTARDA CEPERA 1010G",
+        "preco": 8.99,
+        "preco_por_kg": 8.9
+      },
+      "tenda": {
+        "nome": "Mostarda Tradicional Quero 190g",
+        "preco": 5.79,
+        "preco_por_kg": 30.47
+      },
+      "arena": {
+        "nome": "Mostarda Lanchero - 1,01kg",
+        "preco": 6.29,
+        "preco_por_kg": 6.29
+      },
+      "savegnago": {
+        "nome": "Mostarda Predilecta 180g Bisnaga",
+        "preco": 4.65,
+        "preco_por_kg": 25.83
       },
       "mais_barato": "Arena"
     },
