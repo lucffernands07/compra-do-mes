@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "764.53",
-  "totalTenda": "814.64",
-  "totalArena": "566.22",
-  "totalSavegnago": "752.28",
+  "totalGoodbom": "850.48",
+  "totalTenda": "859.06",
+  "totalArena": "607.51",
+  "totalSavegnago": "778.60",
   "encontradosGoodbom": 83,
-  "encontradosTenda": 84,
+  "encontradosTenda": 86,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -201,6 +201,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "28",
+      "goodbom": {
+        "nome": "CHUCHU KG",
+        "preco": 5.99,
+        "preco_por_kg": 5.99
+      },
+      "tenda": {
+        "nome": "Chuchu Unidade",
+        "preco": 1.85,
+        "preco_por_kg": 1.85
+      },
+      "arena": {
+        "nome": "Chuchu Kg",
+        "preco": 4.69,
+        "preco_por_kg": 4.69
+      },
+      "savegnago": {
+        "nome": "Chuchu 1kg",
+        "preco": 4.39,
+        "preco_por_kg": 4.39
+      },
+      "mais_barato": "Tenda"
+    },
+    {
       "id": "29",
       "goodbom": {
         "nome": "MANDIOQUINHA KG",
@@ -291,8 +315,8 @@
       },
       "savegnago": {
         "nome": "Repolho Verde 2Kg",
-        "preco": 5.55,
-        "preco_por_kg": 2.77
+        "preco": 5.9,
+        "preco_por_kg": 2.95
       },
       "mais_barato": "Goodbom"
     },
@@ -598,8 +622,8 @@
       },
       "arena": {
         "nome": "Água De Coco Puro Coco 1l",
-        "preco": 0.99,
-        "preco_por_kg": 0.99
+        "preco": 2.69,
+        "preco_por_kg": 2.69
       },
       "savegnago": {
         "nome": "Água De Coco Puro Coco 1L",
@@ -1178,9 +1202,9 @@
         "preco_por_kg": 40.6
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso Tripla Limpeza Completa 70g",
-        "preco": 3.19,
-        "preco_por_kg": 45.57
+        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
+        "preco": 4.49,
+        "preco_por_kg": 37.42
       },
       "mais_barato": "Tenda"
     },
@@ -1279,6 +1303,30 @@
         "preco_por_kg": 14.25
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "118",
+      "goodbom": {
+        "nome": "ANTISSÉPTICO LISTERINE COOL MINT 250ML",
+        "preco": 19.99,
+        "preco_por_kg": 79.96
+      },
+      "tenda": {
+        "nome": "Solução Bucal Listerine Cool Mint L500P350ml",
+        "preco": 14.9,
+        "preco_por_kg": 42.57
+      },
+      "arena": {
+        "nome": "Antisséptico Listerine Cool Mint Leve Mais Por Menos 1l",
+        "preco": 34.9,
+        "preco_por_kg": 34.9
+      },
+      "savegnago": {
+        "nome": "Enxaguante Bucal Listerine Cool Mint 1L",
+        "preco": 29.9,
+        "preco_por_kg": 29.9
+      },
+      "mais_barato": "Savegnago"
     },
     {
       "id": "119",
