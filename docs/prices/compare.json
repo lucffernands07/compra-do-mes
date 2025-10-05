@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "763.54",
-  "totalTenda": "772.80",
-  "totalArena": "561.52",
-  "totalSavegnago": "781.92",
+  "totalGoodbom": "843.97",
+  "totalTenda": "703.67",
+  "totalArena": "566.31",
+  "totalSavegnago": "793.02",
   "encontradosGoodbom": 81,
-  "encontradosTenda": 85,
+  "encontradosTenda": 86,
   "encontradosArena": 77,
   "encontradosSavegnago": 72,
   "produtos": [
@@ -129,6 +129,30 @@
       "mais_barato": "Goodbom"
     },
     {
+      "id": "24",
+      "goodbom": {
+        "nome": "BETERRABA KG",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
+      },
+      "tenda": {
+        "nome": "Beterraba Saco 1Kg",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
+      },
+      "arena": {
+        "nome": "Beterraba Kg",
+        "preco": 4.79,
+        "preco_por_kg": 4.79
+      },
+      "savegnago": {
+        "nome": "Beterraba 1Kg",
+        "preco": 2.95,
+        "preco_por_kg": 2.95
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "26",
       "goodbom": {
         "nome": "GENGIBRE KG",
@@ -227,9 +251,9 @@
     {
       "id": "30",
       "goodbom": {
-        "nome": "CHEIRO VERDE MC",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
+        "nome": "TEMPERO MAGGI MEU SEGREDO CHEIRO VERDE 49G",
+        "preco": 3.99,
+        "preco_por_kg": 81.43
       },
       "tenda": {
         "nome": "Cheiro Verde Maço Unidade",
@@ -400,9 +424,9 @@
         "preco_por_kg": 11.99
       },
       "tenda": {
-        "nome": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
-        "preco": 1.3,
-        "preco_por_kg": 1.3
+        "nome": "Maçã Pink Lady 155g",
+        "preco": 2,
+        "preco_por_kg": 12.9
       },
       "arena": {
         "nome": "Suco Maguary Seleção Maça Pet 1,35l",
@@ -448,9 +472,9 @@
         "preco_por_kg": 12.98
       },
       "tenda": {
-        "nome": "Margarina com Sal Dualis 500g",
-        "preco": 3.45,
-        "preco_por_kg": 6.9
+        "nome": "Margarina Cremosa com Sal Claybom Pote 250g",
+        "preco": 2.95,
+        "preco_por_kg": 11.8
       },
       "arena": {
         "nome": "Margarina Dualis Com Sal 500g",
@@ -462,7 +486,7 @@
         "preco": 9.29,
         "preco_por_kg": 18.58
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "42",
@@ -472,9 +496,9 @@
         "preco_por_kg": 29.99
       },
       "tenda": {
-        "nome": "Queijo Mussarela Litoral Fatiado 200g",
-        "preco": 7.7,
-        "preco_por_kg": 38.5
+        "nome": "Queijo Mussarela Apolo Fatiado 200g",
+        "preco": 7.5,
+        "preco_por_kg": 37.5
       },
       "arena": {
         "nome": "Mussarela Davaca Peça Kg",
@@ -496,9 +520,9 @@
         "preco_por_kg": 26.9
       },
       "tenda": {
-        "nome": "Presunto Cozido Fatiado Seara 180g",
-        "preco": 8.09,
-        "preco_por_kg": 44.94
+        "nome": "Salgadinho Concha Presunto Fofura 60G",
+        "preco": 1.79,
+        "preco_por_kg": 29.83
       },
       "arena": {
         "nome": "Presunto Cozido Nobre Sem Capa Bandeja Kg",
@@ -664,9 +688,9 @@
         "preco_por_kg": 4.99
       },
       "tenda": {
-        "nome": "Feijão Preto Tipo 1 Select 1kg",
-        "preco": 4.5,
-        "preco_por_kg": 4.5
+        "nome": "Feijão Carioca 5 Estrelas 1kg",
+        "preco": 4.19,
+        "preco_por_kg": 4.19
       },
       "arena": {
         "nome": "Feijão Carioca Du Divino 1kg",
@@ -678,7 +702,7 @@
         "preco": 4.39,
         "preco_por_kg": 4.39
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Tenda"
     },
     {
       "id": "66",
@@ -1000,9 +1024,9 @@
         "preco_por_kg": 7
       },
       "tenda": {
-        "nome": "Limpador Perfumado Essência Eucalipto Citriodora Coala 120ml",
-        "preco": 9.9,
-        "preco_por_kg": 82.5
+        "nome": "Limpador Perfumado Agradable Casa & Perfume 1L",
+        "preco": 9.3,
+        "preco_por_kg": 9.3
       },
       "arena": {
         "nome": "Limpador Perfumado Casa & Perfume Agradable 2lt",
@@ -1019,7 +1043,7 @@
     {
       "id": "96",
       "goodbom": {
-        "nome": "ÁGUA SANITÁRIA CANDURA 2L",
+        "nome": "ÁGUA SANITÁRIA YPÊ 2 LITROS",
         "preco": 4.99,
         "preco_por_kg": 2.5
       },
@@ -1154,9 +1178,9 @@
         "preco_por_kg": 40.6
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
-        "preco": 4.49,
-        "preco_por_kg": 37.42
+        "nome": "Creme Dental Sorriso Tripla Limpeza Completa 70g",
+        "preco": 3.19,
+        "preco_por_kg": 45.57
       },
       "mais_barato": "Tenda"
     },
