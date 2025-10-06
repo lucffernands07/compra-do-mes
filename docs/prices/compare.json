@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "854.10",
-  "totalTenda": "803.73",
-  "totalArena": "595.31",
-  "totalSavegnago": "771.89",
+  "totalGoodbom": "807.97",
+  "totalTenda": "787.23",
+  "totalArena": "574.19",
+  "totalSavegnago": "748.85",
   "encontradosGoodbom": 83,
-  "encontradosTenda": 84,
+  "encontradosTenda": 82,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -60,8 +60,8 @@
       "id": "5",
       "goodbom": {
         "nome": "LINGUIÇA TOSCANA SEARA KG",
-        "preco": 19.99,
-        "preco_por_kg": 19.99
+        "preco": 17.99,
+        "preco_por_kg": 17.99
       },
       "tenda": {
         "nome": "Linguiça Toscana Fina Apimentada Sabor de Bragança 500g",
@@ -78,7 +78,7 @@
         "preco": 20.35,
         "preco_por_kg": 20.35
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "6",
@@ -204,8 +204,8 @@
       "id": "29",
       "goodbom": {
         "nome": "MANDIOQUINHA KG",
-        "preco": 14.99,
-        "preco_por_kg": 14.99
+        "preco": 8.99,
+        "preco_por_kg": 8.99
       },
       "tenda": {
         "nome": "Mandioquinha Unidade",
@@ -251,9 +251,9 @@
     {
       "id": "31",
       "goodbom": {
-        "nome": "SEMENTE FELTRIN ALFACE CRESPA",
-        "preco": 2.49,
-        "preco_por_kg": 2.49
+        "nome": "ALFACE CRESPA UN",
+        "preco": 1.99,
+        "preco_por_kg": 1.99
       },
       "tenda": {
         "nome": "Alface Mimosa Unidade",
@@ -300,8 +300,8 @@
       "id": "34",
       "goodbom": {
         "nome": "MAMÃO PAPAYA KG",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
+        "preco": 5.99,
+        "preco_por_kg": 5.99
       },
       "tenda": {
         "nome": "Refresco em pó Tang Laranja Mamão 18g",
@@ -314,9 +314,9 @@
         "preco_por_kg": 0.11
       },
       "savegnago": {
-        "nome": "Mamão Papaya Golden 1,2Kg",
+        "nome": "Mamão Formosa - 1kg",
         "preco": 1.59,
-        "preco_por_kg": 1.33
+        "preco_por_kg": 1.59
       },
       "mais_barato": "Arena"
     },
@@ -324,8 +324,8 @@
       "id": "35",
       "goodbom": {
         "nome": "BANANA NANICA KG",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "tenda": {
         "nome": "Banana Nanica Unidade",
@@ -372,8 +372,8 @@
       "id": "37",
       "goodbom": {
         "nome": "MAÇÃ PACOTE 1KG",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
+        "preco": 8.99,
+        "preco_por_kg": 8.99
       },
       "tenda": {
         "nome": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
@@ -467,9 +467,9 @@
     {
       "id": "43",
       "goodbom": {
-        "nome": "PRESUNTO COZIDO AURORA SEM CAPA KG",
-        "preco": 31.9,
-        "preco_por_kg": 31.9
+        "nome": "PRESUNTO COZIDO SEARA SEM CAPA KG",
+        "preco": 28.9,
+        "preco_por_kg": 28.9
       },
       "tenda": {
         "nome": "Presunto Cozido Fatiado Seara 180g",
@@ -852,8 +852,8 @@
       "id": "79",
       "goodbom": {
         "nome": "CREME DE LEITE SHEFA 200G TP",
-        "preco": 3.79,
-        "preco_por_kg": 18.95
+        "preco": 2.99,
+        "preco_por_kg": 14.95
       },
       "tenda": {
         "nome": "Mistura Láctea Creme de Leite Daus 200g",
@@ -1253,30 +1253,6 @@
         "nome": "Amaciante Roupa Vida Macia Glicerina E Algodão 1L",
         "preco": 14.25,
         "preco_por_kg": 14.25
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "119",
-      "goodbom": {
-        "nome": "BISNAGUINHA SEVEN BOYS TRAD.300G",
-        "preco": 6.49,
-        "preco_por_kg": 21.63
-      },
-      "tenda": {
-        "nome": "Bisnaguinha Kim 300g",
-        "preco": 4.95,
-        "preco_por_kg": 16.5
-      },
-      "arena": {
-        "nome": "Pão Bisnaguinha Bauducco 260g",
-        "preco": 5.49,
-        "preco_por_kg": 21.12
-      },
-      "savegnago": {
-        "nome": "Bisnaguinha Pullman 300g",
-        "preco": 6.99,
-        "preco_por_kg": 23.3
       },
       "mais_barato": "Tenda"
     },
