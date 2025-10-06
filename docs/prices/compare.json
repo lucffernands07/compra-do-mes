@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "811.37",
-  "totalTenda": "695.98",
-  "totalArena": "549.73",
-  "totalSavegnago": "753.83",
+  "totalGoodbom": "834.27",
+  "totalTenda": "686.63",
+  "totalArena": "551.47",
+  "totalSavegnago": "773.72",
   "encontradosGoodbom": 81,
-  "encontradosTenda": 84,
+  "encontradosTenda": 85,
   "encontradosArena": 77,
   "encontradosSavegnago": 72,
   "produtos": [
@@ -93,16 +93,16 @@
         "preco_por_kg": 8.9
       },
       "arena": {
-        "nome": "Coxa Com Sobrecoxa Frango Familiar Bandeja Kg",
-        "preco": 7.98,
-        "preco_por_kg": 7.98
+        "nome": "Coxa E Sobrecoxa Congelada Pacote Kg",
+        "preco": 9.59,
+        "preco_por_kg": 9.59
       },
       "savegnago": {
         "nome": "Sobrecoxa de Frango Congelada Sadia 1kg",
         "preco": 15.9,
         "preco_por_kg": 15.9
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "22",
@@ -406,8 +406,8 @@
       },
       "arena": {
         "nome": "Suco Integral Geração S Uva 1,35l",
-        "preco": 2.79,
-        "preco_por_kg": 0.08
+        "preco": 17.59,
+        "preco_por_kg": 0.5
       },
       "savegnago": {
         "nome": "Refrigerante Fanta 2l Pet Uva",
@@ -646,8 +646,8 @@
       },
       "arena": {
         "nome": "Leite Fermentado Desnatado Frutap 1,2kg",
-        "preco": 6.69,
-        "preco_por_kg": 3.35
+        "preco": 6.35,
+        "preco_por_kg": 3.17
       },
       "savegnago": {
         "nome": "Leite Fermentado Itambé 1,150kg",
@@ -717,9 +717,9 @@
         "preco_por_kg": 8.22
       },
       "arena": {
-        "nome": "Óleo De Soja Vila Velha Refinado Bag 18l",
-        "preco": 127.9,
-        "preco_por_kg": 7.11
+        "nome": "Óleo De Soja Vila Velha Galão 18l",
+        "preco": 7.98,
+        "preco_por_kg": 0.44
       },
       "savegnago": {
         "nome": "Óleo de Soja Liza Pet 900ml",
@@ -765,9 +765,9 @@
         "preco_por_kg": 17.35
       },
       "arena": {
-        "nome": "Milho Verde Stella D'Oro Sachê 1,7kg",
-        "preco": 26.9,
-        "preco_por_kg": 3.84
+        "nome": "Milho Verde Predilecta Lata 1,7kg",
+        "preco": 2.99,
+        "preco_por_kg": 0.43
       },
       "savegnago": {
         "nome": "Milho Verde Irmãos Pimenta Bandeja 600g",
@@ -825,26 +825,50 @@
       "mais_barato": "Arena"
     },
     {
-      "id": "77",
+      "id": "76",
       "goodbom": {
-        "nome": "MOSTARDA CEPERA 1010G",
-        "preco": 8.99,
-        "preco_por_kg": 8.9
+        "nome": "MAIONESE TRADICIONAL LIZA 450G",
+        "preco": 7.49,
+        "preco_por_kg": 16.64
       },
       "tenda": {
-        "nome": "Mostarda Tradicional Quero 190g",
-        "preco": 5.79,
-        "preco_por_kg": 30.47
+        "nome": "Maionese Mariana 1kg",
+        "preco": 9.5,
+        "preco_por_kg": 9.5
       },
       "arena": {
-        "nome": "Mostarda Lanchero - 1,01kg",
-        "preco": 6.29,
-        "preco_por_kg": 6.29
+        "nome": "Maionese Saúde Sachê 1kg",
+        "preco": 7.49,
+        "preco_por_kg": 7.49
       },
       "savegnago": {
-        "nome": "Mostarda Predilecta 180g Bisnaga",
-        "preco": 4.65,
-        "preco_por_kg": 25.83
+        "nome": "Maionese Arisco Tradicional 500g",
+        "preco": 9.95,
+        "preco_por_kg": 19.9
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "78",
+      "goodbom": {
+        "nome": "LEITE CONDENSADO SEMIDESNATADO ITALAC 395G TP",
+        "preco": 5.99,
+        "preco_por_kg": 15.16
+      },
+      "tenda": {
+        "nome": "Leite Condensado Semidesnatado Campos do Jordão 395g",
+        "preco": 4.59,
+        "preco_por_kg": 11.62
+      },
+      "arena": {
+        "nome": "Leite Condensado Zero Lactose Italac - 395g",
+        "preco": 3.59,
+        "preco_por_kg": 9.09
+      },
+      "savegnago": {
+        "nome": "Leite Condensado TP Semidesnatado Italac 395g",
+        "preco": 5.89,
+        "preco_por_kg": 14.91
       },
       "mais_barato": "Arena"
     },
@@ -957,7 +981,7 @@
         "preco_por_kg": 6.5
       },
       "arena": {
-        "nome": "Álcool Duratto Limpador Uso Geral Neutro 1l",
+        "nome": "Álcool Duratto Limpador Uso Geral Lavanda 1l",
         "preco": 5.89,
         "preco_por_kg": 5.89
       },
@@ -1005,9 +1029,9 @@
         "preco_por_kg": 3.25
       },
       "arena": {
-        "nome": "Água Sanitária Barbarex 5l",
-        "preco": 10.99,
-        "preco_por_kg": 2.2
+        "nome": "Água Sanitária Bio-Kriss 2l",
+        "preco": 3.75,
+        "preco_por_kg": 1.88
       },
       "savegnago": {
         "nome": "Água Sanitária Triex 5L",
@@ -1130,9 +1154,9 @@
         "preco_por_kg": 40.6
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
-        "preco": 4.49,
-        "preco_por_kg": 37.42
+        "nome": "Creme Dental Sorriso Dentes Brancos 90g",
+        "preco": 4.35,
+        "preco_por_kg": 48.33
       },
       "mais_barato": "Tenda"
     },
