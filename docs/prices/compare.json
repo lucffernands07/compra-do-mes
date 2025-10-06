@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "859.11",
-  "totalTenda": "784.31",
-  "totalArena": "590.43",
-  "totalSavegnago": "793.61",
+  "totalGoodbom": "845.12",
+  "totalTenda": "788.13",
+  "totalArena": "582.86",
+  "totalSavegnago": "758.42",
   "encontradosGoodbom": 83,
   "encontradosTenda": 84,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 70,
   "produtos": [
     {
       "id": "3",
@@ -338,9 +338,9 @@
         "preco_por_kg": 0.1
       },
       "savegnago": {
-        "nome": "Banana Prata Bandeja 900g",
-        "preco": 3.15,
-        "preco_por_kg": 3.5
+        "nome": "Banana Maçã 1kg",
+        "preco": 2.89,
+        "preco_por_kg": 2.89
       },
       "mais_barato": "Arena"
     },
@@ -357,16 +357,16 @@
         "preco_por_kg": 8.45
       },
       "arena": {
-        "nome": "Suco Integral Geração S Uva 1,35l",
-        "preco": 17.59,
-        "preco_por_kg": 0.5
+        "nome": "Suco Salton Integral Uva 1,5l",
+        "preco": 26.9,
+        "preco_por_kg": 5.38
       },
       "savegnago": {
         "nome": "Refrigerante Fanta 2l Pet Uva",
         "preco": 7.65,
         "preco_por_kg": 3.83
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "37",
@@ -435,8 +435,8 @@
       },
       "savegnago": {
         "nome": "Margarina cremosa com sal Doriana 500g",
-        "preco": 9.29,
-        "preco_por_kg": 18.58
+        "preco": 5.99,
+        "preco_por_kg": 11.98
       },
       "mais_barato": "Arena"
     },
@@ -448,9 +448,9 @@
         "preco_por_kg": 29.99
       },
       "tenda": {
-        "nome": "Queijo Mussarela Apolo Fatiado 200g",
-        "preco": 7.5,
-        "preco_por_kg": 37.5
+        "nome": "Queijo Mussarela Litoral Fatiado 200g",
+        "preco": 7.7,
+        "preco_por_kg": 38.5
       },
       "arena": {
         "nome": "Mussarela Davaca Peça Kg",
@@ -458,11 +458,11 @@
         "preco_por_kg": 39.9
       },
       "savegnago": {
-        "nome": "Pizza de mussarela Seara 440g",
-        "preco": 19.7,
-        "preco_por_kg": 44.77
+        "nome": "Pizza Sadia 440g Mussarela",
+        "preco": 12.25,
+        "preco_por_kg": 27.84
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "43",
@@ -482,9 +482,9 @@
         "preco_por_kg": 25.9
       },
       "savegnago": {
-        "nome": "Lasanha de presunto e queijo Seara 600g",
-        "preco": 17.9,
-        "preco_por_kg": 29.83
+        "nome": "Presunto Cozido Frimesa 200g Fatiado Sem Capa De Gordura",
+        "preco": 6.45,
+        "preco_por_kg": 32.25
       },
       "mais_barato": "Arena"
     },
@@ -520,9 +520,9 @@
         "preco_por_kg": 26.25
       },
       "tenda": {
-        "nome": "Batata Congelada Corte Especial 9X18 Bem Brasil 1,05kg",
-        "preco": 15.89,
-        "preco_por_kg": 15.13
+        "nome": "Batata Congelada Carinhas Bem Brasil 1,05kg",
+        "preco": 11.49,
+        "preco_por_kg": 10.94
       },
       "arena": {
         "nome": "Batata Congelada Bem Brasil Dadinho Com Queijo - 1,05kg",
@@ -784,9 +784,9 @@
         "preco_por_kg": 16.64
       },
       "tenda": {
-        "nome": "Maionese Mariana 1kg",
-        "preco": 9.5,
-        "preco_por_kg": 9.5
+        "nome": "Maionese Hellmann's Tradicional 335g",
+        "preco": 10.39,
+        "preco_por_kg": 31.01
       },
       "arena": {
         "nome": "Maionese Saúde Sachê 1kg",
@@ -921,30 +921,6 @@
       "mais_barato": "Goodbom"
     },
     {
-      "id": "88",
-      "goodbom": {
-        "nome": "DESINFETANTE LYSOFORM CITRUS 2L",
-        "preco": 27.99,
-        "preco_por_kg": 13.99
-      },
-      "tenda": {
-        "nome": "Desinfetante Bruto Original Lysoform 1L",
-        "preco": 15.6,
-        "preco_por_kg": 15.6
-      },
-      "arena": {
-        "nome": "Desinfetante Lysoform Original 2l",
-        "preco": 24.89,
-        "preco_por_kg": 12.45
-      },
-      "savegnago": {
-        "nome": "Desinfetante Líquido Lysoform Lavanda 2L",
-        "preco": 26.95,
-        "preco_por_kg": 13.47
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "89",
       "goodbom": {
         "nome": "ALCOOL SAFRA 46,2° 1L",
@@ -1024,9 +1000,9 @@
         "preco_por_kg": 5.18
       },
       "tenda": {
-        "nome": "Detergentes Liquido Neutro Conde 500ml",
-        "preco": 1.5,
-        "preco_por_kg": 3
+        "nome": "Detergente Líquido Minuano Neutro 500ml",
+        "preco": 2.05,
+        "preco_por_kg": 4.1
       },
       "arena": {
         "nome": "Detergente Ypê Clear 5l",
@@ -1168,7 +1144,7 @@
         "preco_por_kg": 37.46
       },
       "tenda": {
-        "nome": "Sabonete Líquido Erva Doce Select Refil 500ml",
+        "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
         "preco": 6.5,
         "preco_por_kg": 13
       },
