@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "845.12",
-  "totalTenda": "788.13",
-  "totalArena": "582.86",
-  "totalSavegnago": "758.42",
+  "totalGoodbom": "854.10",
+  "totalTenda": "803.73",
+  "totalArena": "595.31",
+  "totalSavegnago": "771.89",
   "encontradosGoodbom": 83,
   "encontradosTenda": 84,
   "encontradosArena": 77,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -155,9 +155,9 @@
     {
       "id": "26",
       "goodbom": {
-        "nome": "GENGIBRE KG",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
+        "nome": "CHÁ REAL ANIS CURCUMA/GENGIBRE 10 SACHES",
+        "preco": 6.98,
+        "preco_por_kg": 6.98
       },
       "tenda": {
         "nome": "Gengibre Unidade",
@@ -919,6 +919,30 @@
         "preco_por_kg": 15.95
       },
       "mais_barato": "Goodbom"
+    },
+    {
+      "id": "88",
+      "goodbom": {
+        "nome": "DESINFETANTE LYSOFORM CITRUS 2L",
+        "preco": 27.99,
+        "preco_por_kg": 13.99
+      },
+      "tenda": {
+        "nome": "Desinfetante Bruto Original Lysoform 1L",
+        "preco": 15.6,
+        "preco_por_kg": 15.6
+      },
+      "arena": {
+        "nome": "Desinfetante Lysoform Original 2l",
+        "preco": 24.89,
+        "preco_por_kg": 12.45
+      },
+      "savegnago": {
+        "nome": "Desinfetante Líquido Lysoform Lavanda 2L",
+        "preco": 26.95,
+        "preco_por_kg": 13.47
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "89",
