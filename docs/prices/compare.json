@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "834.27",
-  "totalTenda": "686.63",
-  "totalArena": "551.47",
-  "totalSavegnago": "773.72",
+  "totalGoodbom": "841.18",
+  "totalTenda": "710.11",
+  "totalArena": "552.87",
+  "totalSavegnago": "785.92",
   "encontradosGoodbom": 81,
-  "encontradosTenda": 85,
+  "encontradosTenda": 84,
   "encontradosArena": 77,
   "encontradosSavegnago": 72,
   "produtos": [
@@ -40,7 +40,7 @@
         "preco_por_kg": 19.99
       },
       "tenda": {
-        "nome": "Linguiça Toscana Fina Sabor de Bragança 500g",
+        "nome": "Linguiça Toscana Fina Apimentada Sabor de Bragança 500g",
         "preco": 13.95,
         "preco_por_kg": 27.9
       },
@@ -293,30 +293,6 @@
         "nome": "Alface Crespa Felicio Maço",
         "preco": 3.75,
         "preco_por_kg": 3.75
-      },
-      "mais_barato": "Goodbom"
-    },
-    {
-      "id": "32",
-      "goodbom": {
-        "nome": "REPOLHO LISO KG",
-        "preco": 1.99,
-        "preco_por_kg": 1.99
-      },
-      "tenda": {
-        "nome": "Repolho Roxo Unidade",
-        "preco": 6.99,
-        "preco_por_kg": 6.99
-      },
-      "arena": {
-        "nome": "Repolho Verde Kg",
-        "preco": 4.89,
-        "preco_por_kg": 4.89
-      },
-      "savegnago": {
-        "nome": "Repolho Verde 2Kg",
-        "preco": 8.75,
-        "preco_por_kg": 4.38
       },
       "mais_barato": "Goodbom"
     },
@@ -849,6 +825,30 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "77",
+      "goodbom": {
+        "nome": "MOSTARDA CEPERA 1010G",
+        "preco": 8.99,
+        "preco_por_kg": 8.9
+      },
+      "tenda": {
+        "nome": "Mostarda Tradicional Quero 190g",
+        "preco": 5.79,
+        "preco_por_kg": 30.47
+      },
+      "arena": {
+        "nome": "Mostarda Lanchero - 1,01kg",
+        "preco": 6.29,
+        "preco_por_kg": 6.29
+      },
+      "savegnago": {
+        "nome": "Mostarda Predilecta 180g Bisnaga",
+        "preco": 4.65,
+        "preco_por_kg": 25.83
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "78",
       "goodbom": {
         "nome": "LEITE CONDENSADO SEMIDESNATADO ITALAC 395G TP",
@@ -1154,9 +1154,9 @@
         "preco_por_kg": 40.6
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso Dentes Brancos 90g",
-        "preco": 4.35,
-        "preco_por_kg": 48.33
+        "nome": "Creme Dental Sorriso Dentes Brancos 120g Preço Especial",
+        "preco": 4.69,
+        "preco_por_kg": 39.08
       },
       "mais_barato": "Tenda"
     },
