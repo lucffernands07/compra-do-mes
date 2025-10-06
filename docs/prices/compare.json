@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "764.74",
-  "totalTenda": "710.11",
-  "totalArena": "552.39",
-  "totalSavegnago": "769.40",
-  "encontradosGoodbom": 81,
+  "totalGoodbom": "858.30",
+  "totalTenda": "776.53",
+  "totalArena": "595.22",
+  "totalSavegnago": "812.48",
+  "encontradosGoodbom": 83,
   "encontradosTenda": 85,
   "encontradosArena": 77,
-  "encontradosSavegnago": 72,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -31,6 +31,30 @@
         "preco_por_kg": 25.4
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "4",
+      "goodbom": {
+        "nome": "HAMBÚRGUER DE CARNE BOVINA WAGYU SWIFT 165G",
+        "preco": 15.9,
+        "preco_por_kg": 96.36
+      },
+      "tenda": {
+        "nome": "Hambúrguer de Carne Bovina Air Fryer Seara 150g",
+        "preco": 3.99,
+        "preco_por_kg": 26.6
+      },
+      "arena": {
+        "nome": "Hambúrguer De Carne Bovina Air Fryer Seara 150g",
+        "preco": 6.29,
+        "preco_por_kg": 41.93
+      },
+      "savegnago": {
+        "nome": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
+        "preco": 21.9,
+        "preco_por_kg": 32.59
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "5",
@@ -201,30 +225,6 @@
       "mais_barato": "Savegnago"
     },
     {
-      "id": "28",
-      "goodbom": {
-        "nome": "CHUCHU KG",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
-      },
-      "tenda": {
-        "nome": "Chuchu Unidade",
-        "preco": 1.85,
-        "preco_por_kg": 1.85
-      },
-      "arena": {
-        "nome": "Chuchu Kg",
-        "preco": 4.69,
-        "preco_por_kg": 4.69
-      },
-      "savegnago": {
-        "nome": "Chuchu 1kg",
-        "preco": 4.39,
-        "preco_por_kg": 4.39
-      },
-      "mais_barato": "Tenda"
-    },
-    {
       "id": "29",
       "goodbom": {
         "nome": "MANDIOQUINHA KG",
@@ -362,9 +362,9 @@
         "preco_por_kg": 0.1
       },
       "savegnago": {
-        "nome": "Banana Maçã Bandeja 550g",
+        "nome": "Banana Prata Bandeja 900g",
         "preco": 3.15,
-        "preco_por_kg": 5.73
+        "preco_por_kg": 3.5
       },
       "mais_barato": "Arena"
     },
@@ -1091,9 +1091,9 @@
     {
       "id": "103",
       "goodbom": {
-        "nome": "DESINFETANTE SANOL LAVANDA 2L",
-        "preco": 5.99,
-        "preco_por_kg": 3
+        "nome": "DESINFETANTE CANDURA LAVANDA 5L",
+        "preco": 15.99,
+        "preco_por_kg": 3.2
       },
       "tenda": {
         "nome": "Desinfetante Lavanda Select 2L",
@@ -1111,6 +1111,30 @@
         "preco_por_kg": 2.79
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "105",
+      "goodbom": {
+        "nome": "LA ACO BOMBRIL C/6",
+        "preco": 2.99,
+        "preco_por_kg": 2.99
+      },
+      "tenda": {
+        "nome": "Esponja de Aço Bombril 60g 8 unidades",
+        "preco": 2.5,
+        "preco_por_kg": 41.67
+      },
+      "arena": {
+        "nome": "Esponja Bombril Multi Uso Leve 4 Pague 3 Unid.",
+        "preco": 5.59,
+        "preco_por_kg": 5.59
+      },
+      "savegnago": {
+        "nome": "Lã De Aço Bombril Com 6 Unidades",
+        "preco": 2.59,
+        "preco_por_kg": 2.59
+      },
+      "mais_barato": "Savegnago"
     },
     {
       "id": "107",
@@ -1154,9 +1178,9 @@
         "preco_por_kg": 40.6
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
-        "preco": 4.49,
-        "preco_por_kg": 37.42
+        "nome": "Creme Dental Colgate Tripla Ação 180g Preço Especial",
+        "preco": 9.35,
+        "preco_por_kg": 51.94
       },
       "mais_barato": "Tenda"
     },
