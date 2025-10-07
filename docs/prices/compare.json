@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "870.61",
-  "totalTenda": "887.75",
-  "totalArena": "620.72",
-  "totalSavegnago": "810.41",
-  "encontradosGoodbom": 83,
-  "encontradosTenda": 85,
+  "totalGoodbom": "920.61",
+  "totalTenda": "877.84",
+  "totalArena": "619.30",
+  "totalSavegnago": "769.03",
+  "encontradosGoodbom": 82,
+  "encontradosTenda": 86,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 69,
   "produtos": [
     {
       "id": "3",
@@ -105,30 +105,6 @@
       "mais_barato": "Arena"
     },
     {
-      "id": "7",
-      "goodbom": {
-        "nome": "SOBRECOXA DE FRANGO SWIFT 1KG",
-        "preco": 14.5,
-        "preco_por_kg": 14.5
-      },
-      "tenda": {
-        "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
-        "preco": 4.45,
-        "preco_por_kg": 8.9
-      },
-      "arena": {
-        "nome": "Coxa E Sobrecoxa Congelada Pacote Kg",
-        "preco": 9.59,
-        "preco_por_kg": 9.59
-      },
-      "savegnago": {
-        "nome": "Sobrecoxa Frango Swift 1Kg",
-        "preco": 14.5,
-        "preco_por_kg": 14.5
-      },
-      "mais_barato": "Tenda"
-    },
-    {
       "id": "22",
       "goodbom": {
         "nome": "VAGEM MACARRÃO KG",
@@ -151,6 +127,30 @@
         "preco_por_kg": 21.6
       },
       "mais_barato": "Goodbom"
+    },
+    {
+      "id": "24",
+      "goodbom": {
+        "nome": "BETERRABA KG",
+        "preco": 2.99,
+        "preco_por_kg": 2.99
+      },
+      "tenda": {
+        "nome": "Beterraba Saco 1Kg",
+        "preco": 1.99,
+        "preco_por_kg": 1.99
+      },
+      "arena": {
+        "nome": "Beterraba Kg",
+        "preco": 4.79,
+        "preco_por_kg": 4.79
+      },
+      "savegnago": {
+        "nome": "Beterraba 1Kg",
+        "preco": 2.95,
+        "preco_por_kg": 2.95
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "26",
@@ -227,9 +227,9 @@
     {
       "id": "30",
       "goodbom": {
-        "nome": "CHEIRO VERDE MC",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
+        "nome": "CHEIRO VERDE LA VITA 60G",
+        "preco": 3.99,
+        "preco_por_kg": 66.5
       },
       "tenda": {
         "nome": "Cheiro Verde Maço Unidade",
@@ -266,9 +266,9 @@
         "preco_por_kg": 4.19
       },
       "savegnago": {
-        "nome": "Alface Crespa Org Solo Vivo",
-        "preco": 4.55,
-        "preco_por_kg": 4.55
+        "nome": "Alface Crespa Felicio Maço",
+        "preco": 3.75,
+        "preco_por_kg": 3.75
       },
       "mais_barato": "Goodbom"
     },
@@ -357,16 +357,16 @@
         "preco_por_kg": 0.91
       },
       "arena": {
-        "nome": "Iogurte Semi Desnatado Batavo Maçã/Banana/Cereal 1,150kg",
-        "preco": 17.59,
-        "preco_por_kg": 0.12
+        "nome": "Bala De Banana Oliveira 500g",
+        "preco": 1.75,
+        "preco_por_kg": 3.5
       },
       "savegnago": {
         "nome": "Banana Maçã Bandeja 550g",
         "preco": 3.15,
         "preco_por_kg": 5.73
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "36",
@@ -482,11 +482,11 @@
         "preco_por_kg": 39.9
       },
       "savegnago": {
-        "nome": "Pizza de mussarela Seara 440g",
-        "preco": 19.7,
-        "preco_por_kg": 44.77
+        "nome": "Pizza Sadia 440g Mussarela",
+        "preco": 12.25,
+        "preco_por_kg": 27.84
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "43",
@@ -506,9 +506,9 @@
         "preco_por_kg": 25.9
       },
       "savegnago": {
-        "nome": "Lasanha de presunto e queijo Seara 600g",
-        "preco": 17.9,
-        "preco_por_kg": 29.83
+        "nome": "Presunto Cozido Frimesa 200g Fatiado Sem Capa De Gordura",
+        "preco": 6.45,
+        "preco_por_kg": 32.25
       },
       "mais_barato": "Arena"
     },
@@ -928,9 +928,9 @@
         "preco_por_kg": 11.53
       },
       "tenda": {
-        "nome": "Massa de Tapioca Tradicional Select 500g",
-        "preco": 6.49,
-        "preco_por_kg": 12.98
+        "nome": "Massa de Tapioca Beijubom 500g",
+        "preco": 4.99,
+        "preco_por_kg": 9.98
       },
       "arena": {
         "nome": "Tapioca Hidratada Kisabor Pacote 500g",
@@ -942,7 +942,7 @@
         "preco": 15.95,
         "preco_por_kg": 15.95
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "88",
@@ -1178,9 +1178,9 @@
         "preco_por_kg": 40.6
       },
       "savegnago": {
-        "nome": "Creme Dental Colgate Tripla Ação 180g Preço Especial",
-        "preco": 9.35,
-        "preco_por_kg": 51.94
+        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
+        "preco": 4.49,
+        "preco_por_kg": 37.42
       },
       "mais_barato": "Tenda"
     },
