@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "920.61",
-  "totalTenda": "877.84",
-  "totalArena": "619.30",
-  "totalSavegnago": "769.03",
-  "encontradosGoodbom": 82,
-  "encontradosTenda": 86,
+  "totalGoodbom": "873.60",
+  "totalTenda": "886.74",
+  "totalArena": "628.89",
+  "totalSavegnago": "781.30",
+  "encontradosGoodbom": 83,
+  "encontradosTenda": 85,
   "encontradosArena": 77,
-  "encontradosSavegnago": 69,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -103,6 +103,30 @@
         "preco_por_kg": 16.7
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "7",
+      "goodbom": {
+        "nome": "SOBRECOXA DE FRANGO SWIFT 1KG",
+        "preco": 14.5,
+        "preco_por_kg": 14.5
+      },
+      "tenda": {
+        "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
+        "preco": 4.45,
+        "preco_por_kg": 8.9
+      },
+      "arena": {
+        "nome": "Coxa E Sobrecoxa Congelada Pacote Kg",
+        "preco": 9.59,
+        "preco_por_kg": 9.59
+      },
+      "savegnago": {
+        "nome": "Sobrecoxa Frango Swift 1Kg",
+        "preco": 14.5,
+        "preco_por_kg": 14.5
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "22",
@@ -227,9 +251,9 @@
     {
       "id": "30",
       "goodbom": {
-        "nome": "CHEIRO VERDE LA VITA 60G",
-        "preco": 3.99,
-        "preco_por_kg": 66.5
+        "nome": "CHEIRO VERDE MC",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
       },
       "tenda": {
         "nome": "Cheiro Verde Maço Unidade",
@@ -362,9 +386,9 @@
         "preco_por_kg": 3.5
       },
       "savegnago": {
-        "nome": "Banana Maçã Bandeja 550g",
+        "nome": "Banana Prata Bandeja 900g",
         "preco": 3.15,
-        "preco_por_kg": 5.73
+        "preco_por_kg": 3.5
       },
       "mais_barato": "Tenda"
     },
