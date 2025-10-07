@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "853.93",
-  "totalTenda": "814.62",
-  "totalArena": "608.11",
-  "totalSavegnago": "780.98",
-  "encontradosGoodbom": 83,
-  "encontradosTenda": 84,
+  "totalGoodbom": "864.83",
+  "totalTenda": "883.65",
+  "totalArena": "616.12",
+  "totalSavegnago": "798.86",
+  "encontradosGoodbom": 82,
+  "encontradosTenda": 85,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -549,9 +549,9 @@
         "preco_por_kg": 10.94
       },
       "arena": {
-        "nome": "Batata Congelada Bem Brasil Fininhas 1,5kg",
-        "preco": 4.49,
-        "preco_por_kg": 0.9
+        "nome": "Batata Congelada Mccain Tradicional 2kg",
+        "preco": 4.99,
+        "preco_por_kg": 2.5
       },
       "savegnago": {
         "nome": "Batata Congelada Bem Brasil Palito Mais Batata 2kg",
@@ -849,6 +849,30 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "78",
+      "goodbom": {
+        "nome": "LEITE CONDENSADO SEMIDESNATADO TRIANGULO 395G TP",
+        "preco": 6.59,
+        "preco_por_kg": 16.68
+      },
+      "tenda": {
+        "nome": "Leite Condensado Semidesnatado Campos do Jordão 395g",
+        "preco": 4.59,
+        "preco_por_kg": 11.62
+      },
+      "arena": {
+        "nome": "Leite Condensado Moça Lata - 395g",
+        "preco": 4.35,
+        "preco_por_kg": 11.01
+      },
+      "savegnago": {
+        "nome": "Leite Condensado TP Semidesnatado Italac 395g",
+        "preco": 5.89,
+        "preco_por_kg": 14.91
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "79",
       "goodbom": {
         "nome": "CREME DE LEITE SHEFA 200G TP",
@@ -976,9 +1000,9 @@
         "preco_por_kg": 8.49
       },
       "tenda": {
-        "nome": "Limpador Perfumado Agradable Casa & Perfume 1L",
-        "preco": 9.3,
-        "preco_por_kg": 9.3
+        "nome": "Limpador Perfumado Essência Lavanda Coala 120ml",
+        "preco": 9.9,
+        "preco_por_kg": 82.5
       },
       "arena": {
         "nome": "Limpador Perfumado Casa & Perfume Agradable 2lt",
@@ -1015,30 +1039,6 @@
         "preco_por_kg": 1.76
       },
       "mais_barato": "Savegnago"
-    },
-    {
-      "id": "100",
-      "goodbom": {
-        "nome": "DETERGENTE YPÊ COCO 500ML",
-        "preco": 2.89,
-        "preco_por_kg": 5.78
-      },
-      "tenda": {
-        "nome": "Detergente Líquido Minuano Fresh 500ml",
-        "preco": 2.05,
-        "preco_por_kg": 4.1
-      },
-      "arena": {
-        "nome": "Detergente Ypê Clear 5l",
-        "preco": 22.99,
-        "preco_por_kg": 4.6
-      },
-      "savegnago": {
-        "nome": "Detergente Ypê Clear 500ml",
-        "preco": 2.59,
-        "preco_por_kg": 5.18
-      },
-      "mais_barato": "Tenda"
     },
     {
       "id": "101",
@@ -1154,9 +1154,9 @@
         "preco_por_kg": 40.6
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
-        "preco": 4.49,
-        "preco_por_kg": 37.42
+        "nome": "Creme Dental Sorriso Tripla Limpeza Completa 70g",
+        "preco": 3.19,
+        "preco_por_kg": 45.57
       },
       "mais_barato": "Tenda"
     },
@@ -1192,9 +1192,9 @@
         "preco_por_kg": 34.32
       },
       "tenda": {
-        "nome": "Sabonete Ypê Siene Rosas Vermelhas 85g",
-        "preco": 1.1,
-        "preco_por_kg": 12.94
+        "nome": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
+        "preco": 1.25,
+        "preco_por_kg": 1.25
       },
       "arena": {
         "nome": "Sabonete Ypê Siene Lavanda 85g",
