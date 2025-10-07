@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "807.97",
-  "totalTenda": "787.23",
-  "totalArena": "574.19",
-  "totalSavegnago": "748.85",
+  "totalGoodbom": "870.61",
+  "totalTenda": "826.57",
+  "totalArena": "629.30",
+  "totalSavegnago": "797.24",
   "encontradosGoodbom": 83,
-  "encontradosTenda": 82,
+  "encontradosTenda": 85,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -64,7 +64,7 @@
         "preco_por_kg": 17.99
       },
       "tenda": {
-        "nome": "Linguiça Toscana Fina Apimentada Sabor de Bragança 500g",
+        "nome": "Linguiça Toscana Fina Sabor de Bragança 500g",
         "preco": 13.95,
         "preco_por_kg": 27.9
       },
@@ -83,9 +83,9 @@
     {
       "id": "6",
       "goodbom": {
-        "nome": "SALSICHA HOT DOG SEARA KG",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
+        "nome": "SALSICHA HOT DOG AURORA KG",
+        "preco": 10.99,
+        "preco_por_kg": 10.99
       },
       "tenda": {
         "nome": "Salsicha Hot Dog Aurora 500g",
@@ -102,7 +102,7 @@
         "preco": 8.35,
         "preco_por_kg": 16.7
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Arena"
     },
     {
       "id": "7",
@@ -213,9 +213,9 @@
         "preco_por_kg": 1.79
       },
       "arena": {
-        "nome": "Mandioquinha Kg",
-        "preco": 25.9,
-        "preco_por_kg": 25.9
+        "nome": "Caldo Mandioquinha Com Frango Seara Na Panelinha Congelado 300g",
+        "preco": 15.99,
+        "preco_por_kg": 53.3
       },
       "savegnago": {
         "nome": "Caldo Swift 350g Mandioquinha com Frango",
@@ -266,9 +266,33 @@
         "preco_por_kg": 4.19
       },
       "savegnago": {
-        "nome": "Alface Crespa Felicio Maço",
-        "preco": 3.75,
-        "preco_por_kg": 3.75
+        "nome": "Alface Crespa Org Solo Vivo",
+        "preco": 7.79,
+        "preco_por_kg": 7.79
+      },
+      "mais_barato": "Goodbom"
+    },
+    {
+      "id": "32",
+      "goodbom": {
+        "nome": "REPOLHO LISO KG",
+        "preco": 1.99,
+        "preco_por_kg": 1.99
+      },
+      "tenda": {
+        "nome": "Repolho Verde Unidade",
+        "preco": 5.43,
+        "preco_por_kg": 5.43
+      },
+      "arena": {
+        "nome": "Repolho Verde Kg",
+        "preco": 4.89,
+        "preco_por_kg": 4.89
+      },
+      "savegnago": {
+        "nome": "Repolho Verde 2Kg",
+        "preco": 8.75,
+        "preco_por_kg": 4.38
       },
       "mais_barato": "Goodbom"
     },
@@ -314,9 +338,9 @@
         "preco_por_kg": 0.11
       },
       "savegnago": {
-        "nome": "Mamão Formosa - 1kg",
+        "nome": "Mamão Papaya Golden 1,2Kg",
         "preco": 1.59,
-        "preco_por_kg": 1.59
+        "preco_por_kg": 1.33
       },
       "mais_barato": "Arena"
     },
@@ -338,9 +362,9 @@
         "preco_por_kg": 0.1
       },
       "savegnago": {
-        "nome": "Banana Maçã 1kg",
-        "preco": 2.89,
-        "preco_por_kg": 2.89
+        "nome": "Banana Maçã Bandeja 550g",
+        "preco": 3.15,
+        "preco_por_kg": 5.73
       },
       "mais_barato": "Arena"
     },
@@ -376,9 +400,9 @@
         "preco_por_kg": 8.99
       },
       "tenda": {
-        "nome": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
-        "preco": 1.25,
-        "preco_por_kg": 1.25
+        "nome": "Maçã Pink Lady 155g",
+        "preco": 1.08,
+        "preco_por_kg": 6.97
       },
       "arena": {
         "nome": "Suco Maguary Seleção Maça Pet 1,35l",
@@ -396,8 +420,8 @@
       "id": "38",
       "goodbom": {
         "nome": "REFRIGERANTE BIOLEVE ZERO MEXERICA 1,5L",
-        "preco": 4.49,
-        "preco_por_kg": 2.99
+        "preco": 6.49,
+        "preco_por_kg": 4.33
       },
       "tenda": {
         "nome": "Mexerica Murcote 130g",
@@ -420,8 +444,8 @@
       "id": "39",
       "goodbom": {
         "nome": "MARGARINA DORIANA SEM SAL 500G",
-        "preco": 6.49,
-        "preco_por_kg": 12.98
+        "preco": 8.99,
+        "preco_por_kg": 17.98
       },
       "tenda": {
         "nome": "Margarina Cremosa com Sal Claybom Pote 250g",
@@ -443,9 +467,9 @@
     {
       "id": "42",
       "goodbom": {
-        "nome": "QUEIJO MUSSARELA PEÇA KG",
-        "preco": 29.99,
-        "preco_por_kg": 29.99
+        "nome": "PIZZA MUSSARELA GB.KG",
+        "preco": 39.99,
+        "preco_por_kg": 39.99
       },
       "tenda": {
         "nome": "Queijo Mussarela Litoral Fatiado 200g",
@@ -458,11 +482,11 @@
         "preco_por_kg": 39.9
       },
       "savegnago": {
-        "nome": "Pizza Sadia 440g Mussarela",
-        "preco": 12.25,
-        "preco_por_kg": 27.84
+        "nome": "Pizza de mussarela Seara 440g",
+        "preco": 19.7,
+        "preco_por_kg": 44.77
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Tenda"
     },
     {
       "id": "43",
@@ -482,9 +506,9 @@
         "preco_por_kg": 25.9
       },
       "savegnago": {
-        "nome": "Presunto Cozido Frimesa 200g Fatiado Sem Capa De Gordura",
-        "preco": 6.45,
-        "preco_por_kg": 32.25
+        "nome": "Lasanha de presunto e queijo Seara 600g",
+        "preco": 17.9,
+        "preco_por_kg": 29.83
       },
       "mais_barato": "Arena"
     },
@@ -563,9 +587,9 @@
     {
       "id": "49",
       "goodbom": {
-        "nome": "ÁGUA DE COCO PURO COCO 1L",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
+        "nome": "ÁGUA DE COCO PURO COCO MARACUJA 180ML",
+        "preco": 1.89,
+        "preco_por_kg": 10.5
       },
       "tenda": {
         "nome": "Água de Coco Nocoko Caixa 200ml",
@@ -574,8 +598,8 @@
       },
       "arena": {
         "nome": "Água De Coco Puro Coco 1l",
-        "preco": 0.99,
-        "preco_por_kg": 0.99
+        "preco": 2.69,
+        "preco_por_kg": 2.69
       },
       "savegnago": {
         "nome": "Água De Coco Puro Coco 1L",
@@ -588,8 +612,8 @@
       "id": "50",
       "goodbom": {
         "nome": "LEITE FERMENTADO FRUTAP 850G",
-        "preco": 9.99,
-        "preco_por_kg": 11.75
+        "preco": 11.49,
+        "preco_por_kg": 13.52
       },
       "tenda": {
         "nome": "Leite Fermentado Baunilha Frutap 170g",
@@ -804,8 +828,8 @@
       "id": "77",
       "goodbom": {
         "nome": "MOSTARDA CEPERA 1010G",
-        "preco": 8.99,
-        "preco_por_kg": 8.9
+        "preco": 13.99,
+        "preco_por_kg": 13.85
       },
       "tenda": {
         "nome": "Mostarda Tradicional Quero 190g",
@@ -827,9 +851,9 @@
     {
       "id": "78",
       "goodbom": {
-        "nome": "LEITE CONDENSADO SEMIDESNATADO ITALAC 395G TP",
-        "preco": 5.99,
-        "preco_por_kg": 15.16
+        "nome": "LEITE CONDENSADO SEMIDESNATADO TRIANGULO 395G TP",
+        "preco": 6.59,
+        "preco_por_kg": 16.68
       },
       "tenda": {
         "nome": "Leite Condensado Semidesnatado Campos do Jordão 395g",
@@ -972,8 +996,8 @@
       "id": "90",
       "goodbom": {
         "nome": "LIMPADOR PERFUMADO YPÊ CHÁ BRANCO 2L",
-        "preco": 13.99,
-        "preco_por_kg": 7
+        "preco": 16.99,
+        "preco_por_kg": 8.49
       },
       "tenda": {
         "nome": "Limpador Perfumado Agradable Casa & Perfume 1L",
@@ -995,9 +1019,9 @@
     {
       "id": "96",
       "goodbom": {
-        "nome": "ÁGUA SANITÁRIA YPÊ 2 LITROS",
-        "preco": 4.99,
-        "preco_por_kg": 2.5
+        "nome": "ÁGUA SANITÁRIA CANDURA 1L",
+        "preco": 2.59,
+        "preco_por_kg": 2.59
       },
       "tenda": {
         "nome": "Água Sanitária Select 1L",
@@ -1020,11 +1044,11 @@
       "id": "100",
       "goodbom": {
         "nome": "DETERGENTE YPÊ COCO 500ML",
-        "preco": 2.59,
-        "preco_por_kg": 5.18
+        "preco": 2.89,
+        "preco_por_kg": 5.78
       },
       "tenda": {
-        "nome": "Detergente Líquido Minuano Neutro 500ml",
+        "nome": "Detergente Líquido Minuano Fresh 500ml",
         "preco": 2.05,
         "preco_por_kg": 4.1
       },
@@ -1067,9 +1091,9 @@
     {
       "id": "103",
       "goodbom": {
-        "nome": "DESINFETANTE SANOL LAVANDA 2L",
-        "preco": 5.99,
-        "preco_por_kg": 3
+        "nome": "DESINFETANTE CANDURA LAVANDA 5L",
+        "preco": 15.99,
+        "preco_por_kg": 3.2
       },
       "tenda": {
         "nome": "Desinfetante Lavanda Select 2L",
@@ -1163,9 +1187,9 @@
     {
       "id": "111",
       "goodbom": {
-        "nome": "SABONETE LÍQUIDO MONANGE F.LAVANDA 240ML",
-        "preco": 8.99,
-        "preco_por_kg": 37.46
+        "nome": "SABONETE LÍQUIDO ANTIBACTERIANO PROTEX CREAM 650ML",
+        "preco": 25.99,
+        "preco_por_kg": 39.98
       },
       "tenda": {
         "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
@@ -1187,14 +1211,14 @@
     {
       "id": "112",
       "goodbom": {
-        "nome": "SABONETE LUX GARDENIA 85G",
-        "preco": 2.49,
-        "preco_por_kg": 29.29
+        "nome": "SABONETE LUX SUAVE LIRIO AZUL 125G",
+        "preco": 4.29,
+        "preco_por_kg": 34.32
       },
       "tenda": {
-        "nome": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
-        "preco": 1.25,
-        "preco_por_kg": 1.25
+        "nome": "Sabonete Ypê Siene Rosas Vermelhas 85g",
+        "preco": 1.1,
+        "preco_por_kg": 12.94
       },
       "arena": {
         "nome": "Sabonete Ypê Siene Lavanda 85g",
@@ -1253,6 +1277,30 @@
         "nome": "Amaciante Roupa Vida Macia Glicerina E Algodão 1L",
         "preco": 14.25,
         "preco_por_kg": 14.25
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "119",
+      "goodbom": {
+        "nome": "BISNAGUINHA SEVEN BOYS TRAD.300G",
+        "preco": 6.49,
+        "preco_por_kg": 21.63
+      },
+      "tenda": {
+        "nome": "Bisnaguinha Kim 300g",
+        "preco": 4.95,
+        "preco_por_kg": 16.5
+      },
+      "arena": {
+        "nome": "Pão Bisnaguinha Bauducco 260g",
+        "preco": 5.49,
+        "preco_por_kg": 21.12
+      },
+      "savegnago": {
+        "nome": "Pão Bisnaguinha Visconti 240g",
+        "preco": 5.49,
+        "preco_por_kg": 22.88
       },
       "mais_barato": "Tenda"
     },

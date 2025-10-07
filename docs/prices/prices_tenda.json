@@ -23,7 +23,7 @@
   {
     "id": 5,
     "supermercado": "Tenda",
-    "produto": "Linguiça Toscana Fina Apimentada Sabor de Bragança 500g",
+    "produto": "Linguiça Toscana Fina Sabor de Bragança 500g",
     "preco": 13.95,
     "preco_por_kg": 27.9
   },
@@ -140,6 +140,13 @@
     "preco_por_kg": 4.49
   },
   {
+    "id": 32,
+    "supermercado": "Tenda",
+    "produto": "Repolho Verde Unidade",
+    "preco": 5.43,
+    "preco_por_kg": 5.43
+  },
+  {
     "id": 33,
     "supermercado": "Tenda",
     "produto": "Alho Descascado Kamar 200g",
@@ -170,9 +177,9 @@
   {
     "id": 37,
     "supermercado": "Tenda",
-    "produto": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
-    "preco": 1.25,
-    "preco_por_kg": 1.25
+    "produto": "Maçã Pink Lady 155g",
+    "preco": 1.08,
+    "preco_por_kg": 6.97
   },
   {
     "id": 38,
@@ -289,9 +296,9 @@
   {
     "id": 60,
     "supermercado": "Tenda",
-    "produto": "Azeite Extra Virgem Select 250ml",
-    "preco": 20.59,
-    "preco_por_kg": 82.36
+    "produto": "Azeite Extra Virgem Seleção Serrata 250ml",
+    "preco": 17.89,
+    "preco_por_kg": 71.56
   },
   {
     "id": 63,
@@ -457,7 +464,7 @@
   {
     "id": 100,
     "supermercado": "Tenda",
-    "produto": "Detergente Líquido Minuano Neutro 500ml",
+    "produto": "Detergente Líquido Minuano Fresh 500ml",
     "preco": 2.05,
     "preco_por_kg": 4.1
   },
@@ -520,9 +527,9 @@
   {
     "id": 112,
     "supermercado": "Tenda",
-    "produto": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
-    "preco": 1.25,
-    "preco_por_kg": 1.25
+    "produto": "Sabonete Ypê Siene Rosas Vermelhas 85g",
+    "preco": 1.1,
+    "preco_por_kg": 12.94
   },
   {
     "id": 114,
@@ -551,6 +558,20 @@
     "produto": "Algodão Disco Select 50Un",
     "preco": 6.5,
     "preco_por_kg": 6.5
+  },
+  {
+    "id": 118,
+    "supermercado": "Tenda",
+    "produto": "Solução Bucal Listerine Cool Mint L500P350ml",
+    "preco": 14.9,
+    "preco_por_kg": 42.57
+  },
+  {
+    "id": 119,
+    "supermercado": "Tenda",
+    "produto": "Bisnaguinha Kim 300g",
+    "preco": 4.95,
+    "preco_por_kg": 16.5
   },
   {
     "id": 120,
