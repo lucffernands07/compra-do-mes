@@ -1,9 +1,9 @@
 {
-  "totalGoodbom": "828.67",
-  "totalTenda": "777.57",
-  "totalArena": "563.40",
-  "totalSavegnago": "737.54",
-  "encontradosGoodbom": 82,
+  "totalGoodbom": "874.42",
+  "totalTenda": "799.00",
+  "totalArena": "604.00",
+  "totalSavegnago": "779.78",
+  "encontradosGoodbom": 83,
   "encontradosTenda": 87,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
@@ -280,7 +280,7 @@
         "preco_por_kg": 1.99
       },
       "tenda": {
-        "nome": "Alface Mimosa Unidade",
+        "nome": "Alface Roxa Unidade",
         "preco": 4.49,
         "preco_por_kg": 4.49
       },
@@ -410,9 +410,9 @@
         "preco_por_kg": 0.32
       },
       "savegnago": {
-        "nome": "Refrigerante Fanta 2l Pet Uva",
-        "preco": 7.65,
-        "preco_por_kg": 3.83
+        "nome": "Ades Frutas Sabor Uva TP 1L",
+        "preco": 8.65,
+        "preco_por_kg": 8.65
       },
       "mais_barato": "Arena"
     },
@@ -1183,6 +1183,30 @@
         "preco_por_kg": 1.65
       },
       "mais_barato": "Savegnago"
+    },
+    {
+      "id": "110",
+      "goodbom": {
+        "nome": "CREME DENTAL COLGATE TRIPLA AÇÃO XTRA WHITE 120G",
+        "preco": 5.49,
+        "preco_por_kg": 45.75
+      },
+      "tenda": {
+        "nome": "Creme Dental Ice Clean 70g",
+        "preco": 1.5,
+        "preco_por_kg": 21.43
+      },
+      "arena": {
+        "nome": "Creme Dental Close Up Tripla Proteção Menta 150g",
+        "preco": 6.09,
+        "preco_por_kg": 40.6
+      },
+      "savegnago": {
+        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
+        "preco": 4.49,
+        "preco_por_kg": 37.42
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "111",
