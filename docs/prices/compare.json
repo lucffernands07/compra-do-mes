@@ -1,9 +1,9 @@
 {
-  "totalGoodbom": "977.42",
-  "totalTenda": "899.62",
-  "totalArena": "616.72",
-  "totalSavegnago": "784.35",
-  "encontradosGoodbom": 82,
+  "totalGoodbom": "1031.98",
+  "totalTenda": "933.95",
+  "totalArena": "639.18",
+  "totalSavegnago": "838.81",
+  "encontradosGoodbom": 83,
   "encontradosTenda": 86,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
@@ -386,9 +386,9 @@
         "preco_por_kg": 1.99
       },
       "savegnago": {
-        "nome": "Banana Maçã Bandeja 550g",
+        "nome": "Banana Prata Bandeja 900g",
         "preco": 3.15,
-        "preco_por_kg": 5.73
+        "preco_por_kg": 3.5
       },
       "mais_barato": "Tenda"
     },
@@ -410,9 +410,9 @@
         "preco_por_kg": 0.32
       },
       "savegnago": {
-        "nome": "Refrigerante Fanta 2l Pet Uva",
-        "preco": 7.65,
-        "preco_por_kg": 3.83
+        "nome": "Isotônico Powerade Sabor Uva PET 500ML",
+        "preco": 5.35,
+        "preco_por_kg": 10.7
       },
       "mais_barato": "Arena"
     },
@@ -506,9 +506,9 @@
         "preco_por_kg": 39.9
       },
       "savegnago": {
-        "nome": "Pizza de mussarela Seara 440g",
-        "preco": 19.7,
-        "preco_por_kg": 44.77
+        "nome": "Pizza Frango com Requeijão e Mussarela Sadia 460g",
+        "preco": 21.9,
+        "preco_por_kg": 47.61
       },
       "mais_barato": "Goodbom"
     },
@@ -530,11 +530,11 @@
         "preco_por_kg": 25.9
       },
       "savegnago": {
-        "nome": "Lasanha de presunto e queijo Seara 600g",
-        "preco": 13.9,
-        "preco_por_kg": 23.17
+        "nome": "Presunto Cozido Frimesa 200g Fatiado Sem Capa De Gordura",
+        "preco": 6.45,
+        "preco_por_kg": 32.25
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Arena"
     },
     {
       "id": "44",
@@ -1187,9 +1187,9 @@
     {
       "id": "110",
       "goodbom": {
-        "nome": "CREME DENTAL COLGATE TRIPLA AÇÃO XTRA WHITE 120G",
-        "preco": 5.49,
-        "preco_por_kg": 45.75
+        "nome": "CREME DENTAL SORRISO KOLYNOS 90G EDIÇÃO LIMITADA",
+        "preco": 3.99,
+        "preco_por_kg": 44.33
       },
       "tenda": {
         "nome": "Creme Dental Ice Clean 70g",
@@ -1240,9 +1240,9 @@
         "preco_por_kg": 34.32
       },
       "tenda": {
-        "nome": "Sabonete em Barra Rosas Francesas Lux 85g",
-        "preco": 1.8,
-        "preco_por_kg": 21.18
+        "nome": "Sabonete Ypê Siene Rosas Vermelhas 85g",
+        "preco": 1.1,
+        "preco_por_kg": 12.94
       },
       "arena": {
         "nome": "Sabonete Líquido Coala Verbena 1l",
@@ -1254,7 +1254,7 @@
         "preco": 2.29,
         "preco_por_kg": 26.94
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "114",
@@ -1269,9 +1269,9 @@
         "preco_por_kg": 19.6
       },
       "arena": {
-        "nome": "Gel Fixador Ny Looks Condicionante Azul Fator 4 240g",
-        "preco": 9.99,
-        "preco_por_kg": 41.63
+        "nome": "Gel Fixador Megafix Azul Mega 260g",
+        "preco": 7.59,
+        "preco_por_kg": 29.19
       },
       "savegnago": {
         "nome": "Gel Fixador Clear 300g Controle Caspa",
@@ -1305,9 +1305,33 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "118",
+      "goodbom": {
+        "nome": "ANTISSÉPTICO LISTERINE COOL MINT 500ML",
+        "preco": 27.99,
+        "preco_por_kg": 55.98
+      },
+      "tenda": {
+        "nome": "Solução Bucal Listerine Cool Mint L500P350ml",
+        "preco": 14.9,
+        "preco_por_kg": 42.57
+      },
+      "arena": {
+        "nome": "Antisséptico Listerine Cool Mint Leve Mais Por Menos 1l",
+        "preco": 34.9,
+        "preco_por_kg": 34.9
+      },
+      "savegnago": {
+        "nome": "Antisséptico Bucal Listerine Cool Mint 500ml Leve Mais Pague Menos",
+        "preco": 18.95,
+        "preco_por_kg": 37.9
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "119",
       "goodbom": {
-        "nome": "BISNAGUINHA SEVEN BOYS TRAD.300G",
+        "nome": "BISNAGUINHA SEVEN BOYS TRADICIONAL 300G",
         "preco": 6.49,
         "preco_por_kg": 21.63
       },
@@ -1346,7 +1370,7 @@
         "preco_por_kg": 5.99
       },
       "savegnago": {
-        "nome": "Fuba Mimoso Yoki 500g",
+        "nome": "Fuba Mimoso Siamar 500g",
         "preco": 2.99,
         "preco_por_kg": 5.98
       },
