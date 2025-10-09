@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "1032.77",
-  "totalTenda": "899.30",
+  "totalGoodbom": "1021.56",
+  "totalTenda": "887.66",
   "totalArena": "646.27",
-  "totalSavegnago": "805.63",
+  "totalSavegnago": "810.57",
   "encontradosGoodbom": 83,
   "encontradosTenda": 86,
   "encontradosArena": 77,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -83,9 +83,9 @@
     {
       "id": "6",
       "goodbom": {
-        "nome": "SALSICHA HOT DOG AURORA KG",
-        "preco": 10.99,
-        "preco_por_kg": 10.99
+        "nome": "SALSICHA HOT DOG SEARA KG",
+        "preco": 8.99,
+        "preco_por_kg": 8.99
       },
       "tenda": {
         "nome": "Salsicha Hot Dog Aurora 500g",
@@ -102,7 +102,7 @@
         "preco": 9.75,
         "preco_por_kg": 19.5
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "7",
@@ -156,8 +156,8 @@
       "id": "24",
       "goodbom": {
         "nome": "BETERRABA KG",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
+        "preco": 2.99,
+        "preco_por_kg": 2.99
       },
       "tenda": {
         "nome": "Beterraba Saco 1Kg",
@@ -174,7 +174,7 @@
         "preco": 3.55,
         "preco_por_kg": 3.55
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "26",
@@ -372,8 +372,8 @@
       "id": "35",
       "goodbom": {
         "nome": "BANANA NANICA KG",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
+        "preco": 7.99,
+        "preco_por_kg": 7.99
       },
       "tenda": {
         "nome": "Banana Nanica Unidade",
@@ -386,9 +386,9 @@
         "preco_por_kg": 1.99
       },
       "savegnago": {
-        "nome": "Banana Prata Bandeja 900g",
-        "preco": 3.15,
-        "preco_por_kg": 3.5
+        "nome": "Banana Maçã 1kg",
+        "preco": 2.89,
+        "preco_por_kg": 2.89
       },
       "mais_barato": "Tenda"
     },
@@ -468,8 +468,8 @@
       "id": "39",
       "goodbom": {
         "nome": "MARGARINA DORIANA SEM SAL 500G",
-        "preco": 8.99,
-        "preco_por_kg": 17.98
+        "preco": 6.49,
+        "preco_por_kg": 12.98
       },
       "tenda": {
         "nome": "Margarina Cremosa com Sal Claybom Pote 250g",
@@ -492,8 +492,8 @@
       "id": "42",
       "goodbom": {
         "nome": "QUEIJO MUSSARELA PEÇA KG",
-        "preco": 29.99,
-        "preco_por_kg": 29.99
+        "preco": 34.99,
+        "preco_por_kg": 34.99
       },
       "tenda": {
         "nome": "Queijo Mussarela Lactovale Fatiado 200g",
@@ -515,9 +515,9 @@
     {
       "id": "43",
       "goodbom": {
-        "nome": "PRESUNTO COZIDO PERDIGÃO KG",
-        "preco": 28.9,
-        "preco_por_kg": 28.9
+        "nome": "PRESUNTO COZIDO AURORA SEM CAPA KG",
+        "preco": 26.9,
+        "preco_por_kg": 26.9
       },
       "tenda": {
         "nome": "Salgadinho Presunto Elma Chips Fandangos 35G",
@@ -875,9 +875,9 @@
     {
       "id": "78",
       "goodbom": {
-        "nome": "LEITE CONDENSADO SEMIDESNATADO TRIANGULO 395G TP",
-        "preco": 6.59,
-        "preco_por_kg": 16.68
+        "nome": "LEITE CONDENSADO SEMIDESNATADO ITALAC 395G TP",
+        "preco": 5.99,
+        "preco_por_kg": 15.16
       },
       "tenda": {
         "nome": "Leite Condensado Semidesnatado Campos do Jordão 395g",
@@ -948,8 +948,8 @@
       "id": "87",
       "goodbom": {
         "nome": "GOMA MANDIOCA TAPIOCA AKIO 320G",
-        "preco": 3.69,
-        "preco_por_kg": 11.53
+        "preco": 2.99,
+        "preco_por_kg": 9.34
       },
       "tenda": {
         "nome": "Massa de Tapioca Beijubom 500g",
@@ -966,7 +966,7 @@
         "preco": 15.95,
         "preco_por_kg": 15.95
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "88",
@@ -995,9 +995,9 @@
     {
       "id": "89",
       "goodbom": {
-        "nome": "ALCOOL SAFRA BICARBONATO 1L",
-        "preco": 6.59,
-        "preco_por_kg": 6.59
+        "nome": "ALCOOL SAFRA 46,2° 1L",
+        "preco": 5.99,
+        "preco_por_kg": 5.99
       },
       "tenda": {
         "nome": "Álcool Etílico Hidratado Tradicional Flops 1L",
@@ -1043,9 +1043,9 @@
     {
       "id": "96",
       "goodbom": {
-        "nome": "ÁGUA SANITÁRIA CANDURA 5L",
-        "preco": 11.49,
-        "preco_por_kg": 2.3
+        "nome": "ÁGUA SANITÁRIA BARBAREX 2L",
+        "preco": 3.99,
+        "preco_por_kg": 2
       },
       "tenda": {
         "nome": "Água Sanitária Select 1L",
@@ -1058,9 +1058,9 @@
         "preco_por_kg": 0.8
       },
       "savegnago": {
-        "nome": "Água Sanitária Rajja 5L",
-        "preco": 11.8,
-        "preco_por_kg": 2.36
+        "nome": "Água Sanitária Fazenda Esperança 2L",
+        "preco": 4.55,
+        "preco_por_kg": 2.27
       },
       "mais_barato": "Arena"
     },
@@ -1115,9 +1115,9 @@
     {
       "id": "103",
       "goodbom": {
-        "nome": "DESINFETANTE CANDURA LAVANDA 5L",
-        "preco": 15.99,
-        "preco_por_kg": 3.2
+        "nome": "DESINFETANTE BARBAREX JASMIN 5L",
+        "preco": 12.99,
+        "preco_por_kg": 2.6
       },
       "tenda": {
         "nome": "Desinfetante Lavanda Select 2L",
@@ -1202,9 +1202,9 @@
         "preco_por_kg": 40.6
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso Tripla Limpeza Completa 70g",
-        "preco": 3.19,
-        "preco_por_kg": 45.57
+        "nome": "Creme Dental Sorriso Dentes Brancos 90g",
+        "preco": 4.35,
+        "preco_por_kg": 48.33
       },
       "mais_barato": "Tenda"
     },
@@ -1240,9 +1240,9 @@
         "preco_por_kg": 34.32
       },
       "tenda": {
-        "nome": "Sabonete Ypê Siene Rosas Vermelhas 85g",
-        "preco": 1.1,
-        "preco_por_kg": 12.94
+        "nome": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
+        "preco": 1.3,
+        "preco_por_kg": 1.3
       },
       "arena": {
         "nome": "Sabonete Líquido Coala Verbena 1l",
@@ -1250,9 +1250,9 @@
         "preco_por_kg": 14.59
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 21.65,
-        "preco_por_kg": 24.06
+        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
+        "preco": 2.29,
+        "preco_por_kg": 26.94
       },
       "mais_barato": "Tenda"
     },
