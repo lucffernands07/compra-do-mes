@@ -1,5 +1,19 @@
 [
   {
+    "id": 2,
+    "supermercado": "Tenda",
+    "produto": "Bacon Pedaço Sadia 500g",
+    "preco": 14.45,
+    "preco_por_kg": 28.9
+  },
+  {
+    "id": 4,
+    "supermercado": "Tenda",
+    "produto": "Hambúrguer de Carne Bovina Sadia 113g",
+    "preco": 4.09,
+    "preco_por_kg": 36.19
+  },
+  {
     "id": 5,
     "supermercado": "Tenda",
     "produto": "Linguiça Toscana Fina Apimentada Sabor de Bragança 500g",
@@ -40,13 +54,6 @@
     "produto": "Muscúlo bovino pedaço Resfriado bandeja 400g",
     "preco": 13.96,
     "preco_por_kg": 34.9
-  },
-  {
-    "id": 18,
-    "supermercado": "Tenda",
-    "produto": "Pimentão Verde Bandeja 250g",
-    "preco": 6.69,
-    "preco_por_kg": 26.76
   },
   {
     "id": 19,
@@ -474,20 +481,6 @@
     "produto": "Desinfetante Lavanda Select 2L",
     "preco": 4.75,
     "preco_por_kg": 2.38
-  },
-  {
-    "id": 105,
-    "supermercado": "Tenda",
-    "produto": "Esponja de Aço Bombril 60g 8 unidades",
-    "preco": 2.5,
-    "preco_por_kg": 41.67
-  },
-  {
-    "id": 107,
-    "supermercado": "Tenda",
-    "produto": "Papel Higiênico Folha Simples Select 30m 4un",
-    "preco": 4.2,
-    "preco_por_kg": 4.2
   },
   {
     "id": 109,

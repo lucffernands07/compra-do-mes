@@ -1,13 +1,37 @@
 {
-  "totalGoodbom": "906.38",
-  "totalTenda": "923.24",
-  "totalArena": "567.95",
-  "totalSavegnago": "744.35",
+  "totalGoodbom": "991.76",
+  "totalTenda": "913.56",
+  "totalArena": "596.90",
+  "totalSavegnago": "764.50",
   "encontradosGoodbom": 83,
-  "encontradosTenda": 83,
+  "encontradosTenda": 82,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
   "produtos": [
+    {
+      "id": "4",
+      "goodbom": {
+        "nome": "HAMBÚRGUER DE CARNE BOVINA WAGYU SWIFT 165G",
+        "preco": 15.9,
+        "preco_por_kg": 96.36
+      },
+      "tenda": {
+        "nome": "Hambúrguer de Carne Bovina Sadia 113g",
+        "preco": 4.09,
+        "preco_por_kg": 36.19
+      },
+      "arena": {
+        "nome": "Hambúrguer De Carne Bovina Air Fryer Seara 150g",
+        "preco": 6.29,
+        "preco_por_kg": 41.93
+      },
+      "savegnago": {
+        "nome": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
+        "preco": 23.7,
+        "preco_por_kg": 35.27
+      },
+      "mais_barato": "Savegnago"
+    },
     {
       "id": "5",
       "goodbom": {
@@ -338,9 +362,9 @@
         "preco_por_kg": 3.7
       },
       "savegnago": {
-        "nome": "Banana Maçã Bandeja 550g",
+        "nome": "Banana Prata Turma da Mônica 750g",
         "preco": 3.15,
-        "preco_por_kg": 5.73
+        "preco_por_kg": 4.2
       },
       "mais_barato": "Tenda"
     },
@@ -362,9 +386,9 @@
         "preco_por_kg": 0.36
       },
       "savegnago": {
-        "nome": "Ades Frutas Sabor Uva TP 1L",
-        "preco": 8.65,
-        "preco_por_kg": 8.65
+        "nome": "Refrigerante Fanta 2l Pet Uva",
+        "preco": 7.65,
+        "preco_por_kg": 3.83
       },
       "mais_barato": "Arena"
     },
@@ -1089,54 +1113,6 @@
       "mais_barato": "Tenda"
     },
     {
-      "id": "105",
-      "goodbom": {
-        "nome": "LÃ ACO BOMBRIL C/6",
-        "preco": 2.99,
-        "preco_por_kg": 2.99
-      },
-      "tenda": {
-        "nome": "Esponja de Aço Bombril 60g 8 unidades",
-        "preco": 2.5,
-        "preco_por_kg": 41.67
-      },
-      "arena": {
-        "nome": "Esponja Bombril Multi Uso Leve 4 Pague 3 Unid.",
-        "preco": 5.59,
-        "preco_por_kg": 5.59
-      },
-      "savegnago": {
-        "nome": "Lã De Aço Bombril Com 6 Unidades",
-        "preco": 2.59,
-        "preco_por_kg": 2.59
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
-      "id": "107",
-      "goodbom": {
-        "nome": "PAPEL HIGIÊNICO FOLHA DUPLA DUETTO NEUTRO C/4",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
-      },
-      "tenda": {
-        "nome": "Papel Higiênico Folha Simples Select 30m 4un",
-        "preco": 4.2,
-        "preco_por_kg": 4.2
-      },
-      "arena": {
-        "nome": "Papel Higiênico Familiar Folha Dupla 30m C/ 4 Rolos",
-        "preco": 7.39,
-        "preco_por_kg": 7.39
-      },
-      "savegnago": {
-        "nome": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
-        "preco": 19.7,
-        "preco_por_kg": 1.64
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
       "id": "110",
       "goodbom": {
         "nome": "CREME DENTAL SORRISO KOLYNOS 90G EDIÇÃO LIMITADA",
@@ -1154,9 +1130,9 @@
         "preco_por_kg": 40.6
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso Dentes Brancos 120g Preço Especial",
-        "preco": 4.69,
-        "preco_por_kg": 39.08
+        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
+        "preco": 4.49,
+        "preco_por_kg": 37.42
       },
       "mais_barato": "Tenda"
     },
@@ -1202,9 +1178,9 @@
         "preco_por_kg": 14.59
       },
       "savegnago": {
-        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
-        "preco": 2.29,
-        "preco_por_kg": 26.94
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 21.65,
+        "preco_por_kg": 24.06
       },
       "mais_barato": "Tenda"
     },
