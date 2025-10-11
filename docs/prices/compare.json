@@ -1,9 +1,9 @@
 {
-  "totalGoodbom": "1049.54",
-  "totalTenda": "964.61",
-  "totalArena": "670.45",
-  "totalSavegnago": "808.60",
-  "encontradosGoodbom": 82,
+  "totalGoodbom": "1058.53",
+  "totalTenda": "954.27",
+  "totalArena": "671.21",
+  "totalSavegnago": "811.21",
+  "encontradosGoodbom": 83,
   "encontradosTenda": 86,
   "encontradosArena": 78,
   "encontradosSavegnago": 71,
@@ -74,7 +74,7 @@
         "preco_por_kg": 14.98
       },
       "savegnago": {
-        "nome": "Linguiça Toscana Swift 700g",
+        "nome": "Linguiça Toscana Aurora Congelada 700g",
         "preco": 11.95,
         "preco_por_kg": 17.07
       },
@@ -280,14 +280,14 @@
         "preco_por_kg": 1.99
       },
       "tenda": {
-        "nome": "Alface Roxa Unidade",
+        "nome": "Alface Mimosa Unidade",
         "preco": 4.49,
         "preco_por_kg": 4.49
       },
       "arena": {
-        "nome": "Alface Roxa Jw Unid.",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
+        "nome": "Alface Crespa Unid.",
+        "preco": 4.69,
+        "preco_por_kg": 4.69
       },
       "savegnago": {
         "nome": "Alface Crespa Felicio Maço",
@@ -315,10 +315,10 @@
       },
       "savegnago": {
         "nome": "Repolho Verde 2Kg",
-        "preco": 8.75,
-        "preco_por_kg": 4.38
+        "preco": 5.9,
+        "preco_por_kg": 2.95
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "33",
@@ -386,9 +386,9 @@
         "preco_por_kg": 3.7
       },
       "savegnago": {
-        "nome": "Banana Prata Bandeja 900g",
+        "nome": "Banana Terra Bandeja 600g",
         "preco": 3.15,
-        "preco_por_kg": 3.5
+        "preco_por_kg": 5.25
       },
       "mais_barato": "Tenda"
     },
@@ -413,6 +413,30 @@
         "nome": "Refrigerante Fanta 2l Pet Uva",
         "preco": 7.65,
         "preco_por_kg": 3.83
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "37",
+      "goodbom": {
+        "nome": "MAÇÃ PACOTE 1KG",
+        "preco": 8.99,
+        "preco_por_kg": 8.99
+      },
+      "tenda": {
+        "nome": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
+        "preco": 1.3,
+        "preco_por_kg": 1.3
+      },
+      "arena": {
+        "nome": "Suco Maguary Seleção Maça Pet 1,35l",
+        "preco": 1.99,
+        "preco_por_kg": 0.06
+      },
+      "savegnago": {
+        "nome": "Maçã Fuji Kg",
+        "preco": 2.29,
+        "preco_por_kg": 2.29
       },
       "mais_barato": "Arena"
     },
@@ -1216,9 +1240,9 @@
         "preco_por_kg": 34.32
       },
       "tenda": {
-        "nome": "Sabonete Ypê Siene Rosas Vermelhas 85g",
-        "preco": 1.1,
-        "preco_por_kg": 12.94
+        "nome": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
+        "preco": 1.3,
+        "preco_por_kg": 1.3
       },
       "arena": {
         "nome": "Sabonete Ypê Siene Lavanda 85g",
