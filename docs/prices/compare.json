@@ -1,13 +1,37 @@
 {
-  "totalGoodbom": "991.76",
-  "totalTenda": "913.56",
-  "totalArena": "596.90",
-  "totalSavegnago": "764.50",
+  "totalGoodbom": "1046.54",
+  "totalTenda": "965.40",
+  "totalArena": "633.86",
+  "totalSavegnago": "801.63",
   "encontradosGoodbom": 83,
-  "encontradosTenda": 82,
+  "encontradosTenda": 86,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
   "produtos": [
+    {
+      "id": "3",
+      "goodbom": {
+        "nome": "LINGUIÇA CALABRESA FINA SWIFT 500G",
+        "preco": 21.9,
+        "preco_por_kg": 43.8
+      },
+      "tenda": {
+        "nome": "Linguiça Calabresa Brasa 400g",
+        "preco": 11.39,
+        "preco_por_kg": 28.48
+      },
+      "arena": {
+        "nome": "Linguiça Calabresa Pamplona Bandeja Kg",
+        "preco": 24.89,
+        "preco_por_kg": 24.89
+      },
+      "savegnago": {
+        "nome": "Linguiça Calabresa Resfriada Swift 500g Fina",
+        "preco": 12.7,
+        "preco_por_kg": 25.4
+      },
+      "mais_barato": "Arena"
+    },
     {
       "id": "4",
       "goodbom": {
@@ -261,9 +285,9 @@
         "preco_por_kg": 4.49
       },
       "arena": {
-        "nome": "Alface Crespa Unid.",
-        "preco": 4.9,
-        "preco_por_kg": 4.9
+        "nome": "Alface Roxa Jw Unid.",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "savegnago": {
         "nome": "Alface Crespa Felicio Maço",
@@ -291,10 +315,10 @@
       },
       "savegnago": {
         "nome": "Repolho Verde 2Kg",
-        "preco": 5.9,
-        "preco_por_kg": 2.95
+        "preco": 8.75,
+        "preco_por_kg": 4.38
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "33",
@@ -362,9 +386,9 @@
         "preco_por_kg": 3.7
       },
       "savegnago": {
-        "nome": "Banana Prata Turma da Mônica 750g",
+        "nome": "Banana Maçã Bandeja 550g",
         "preco": 3.15,
-        "preco_por_kg": 4.2
+        "preco_por_kg": 5.73
       },
       "mais_barato": "Tenda"
     },
@@ -568,9 +592,9 @@
         "preco_por_kg": 4.99
       },
       "tenda": {
-        "nome": "Farinha de Mandioca Tipo 1 Fina Yoki Pacote 500g",
-        "preco": 4.69,
-        "preco_por_kg": 9.38
+        "nome": "Farinha de Mandioca Grossa PQ 500g",
+        "preco": 4.19,
+        "preco_por_kg": 8.38
       },
       "arena": {
         "nome": "Mandioca Kg",
@@ -808,9 +832,9 @@
         "preco_por_kg": 16.64
       },
       "tenda": {
-        "nome": "Maionese Hellmann's Tradicional 335g",
-        "preco": 10.39,
-        "preco_por_kg": 31.01
+        "nome": "Maionese Mariana 1kg",
+        "preco": 9.5,
+        "preco_por_kg": 9.5
       },
       "arena": {
         "nome": "Maionese Saúde Sachê 1kg",
@@ -1113,6 +1137,54 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "105",
+      "goodbom": {
+        "nome": "LÃ ACO BOMBRIL C/6",
+        "preco": 2.99,
+        "preco_por_kg": 2.99
+      },
+      "tenda": {
+        "nome": "Esponja de Aço Bombril 60g 8 unidades",
+        "preco": 2.5,
+        "preco_por_kg": 41.67
+      },
+      "arena": {
+        "nome": "Esponja Bombril Multi Uso Leve 4 Pague 3 Unid.",
+        "preco": 5.59,
+        "preco_por_kg": 5.59
+      },
+      "savegnago": {
+        "nome": "Lã De Aço Bombril Com 6 Unidades",
+        "preco": 2.59,
+        "preco_por_kg": 2.59
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
+      "id": "107",
+      "goodbom": {
+        "nome": "PAPEL HIGIÊNICO FOLHA DUPLA DUETTO NEUTRO C/4",
+        "preco": 7.99,
+        "preco_por_kg": 7.99
+      },
+      "tenda": {
+        "nome": "Papel Higiênico Folha Simples Select 30m 4un",
+        "preco": 4.2,
+        "preco_por_kg": 4.2
+      },
+      "arena": {
+        "nome": "Papel Higiênico Familiar Folha Dupla 30m C/ 4 Rolos",
+        "preco": 7.39,
+        "preco_por_kg": 7.39
+      },
+      "savegnago": {
+        "nome": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
+        "preco": 19.7,
+        "preco_por_kg": 1.64
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "110",
       "goodbom": {
         "nome": "CREME DENTAL SORRISO KOLYNOS 90G EDIÇÃO LIMITADA",
@@ -1130,9 +1202,9 @@
         "preco_por_kg": 40.6
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
-        "preco": 4.49,
-        "preco_por_kg": 37.42
+        "nome": "Creme Dental Sorriso Dentes Brancos 120g Preço Especial",
+        "preco": 4.69,
+        "preco_por_kg": 39.08
       },
       "mais_barato": "Tenda"
     },
@@ -1178,9 +1250,9 @@
         "preco_por_kg": 14.59
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 21.65,
-        "preco_por_kg": 24.06
+        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
+        "preco": 2.29,
+        "preco_por_kg": 26.94
       },
       "mais_barato": "Tenda"
     },
