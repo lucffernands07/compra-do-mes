@@ -1,1 +1,583 @@
-[]
+[
+  {
+    "id": 3,
+    "supermercado": "Goodbom",
+    "produto": "LINGUIÇA CALABRESA CERATTI FATIADO 100G",
+    "preco": 10.39,
+    "preco_por_kg": 103.9
+  },
+  {
+    "id": 4,
+    "supermercado": "Goodbom",
+    "produto": "HAMBÚRGUER DE CARNE BOVINA WAGYU SWIFT 165G",
+    "preco": 15.9,
+    "preco_por_kg": 96.36
+  },
+  {
+    "id": 5,
+    "supermercado": "Goodbom",
+    "produto": "LINGUIÇA TOSCANA SEARA KG",
+    "preco": 18.99,
+    "preco_por_kg": 18.99
+  },
+  {
+    "id": 6,
+    "supermercado": "Goodbom",
+    "produto": "SALSICHA HOT DOG SEARA KG",
+    "preco": 8.99,
+    "preco_por_kg": 8.99
+  },
+  {
+    "id": 7,
+    "supermercado": "Goodbom",
+    "produto": "SOBRECOXA DE FRANGO SWIFT 1KG",
+    "preco": 14.5,
+    "preco_por_kg": 14.5
+  },
+  {
+    "id": 14,
+    "supermercado": "Goodbom",
+    "produto": "BATATA KG",
+    "preco": 5.99,
+    "preco_por_kg": 5.99
+  },
+  {
+    "id": 15,
+    "supermercado": "Goodbom",
+    "produto": "CEBOLA KG",
+    "preco": 1.99,
+    "preco_por_kg": 1.99
+  },
+  {
+    "id": 18,
+    "supermercado": "Goodbom",
+    "produto": "PIMENTÃO VERDE KG",
+    "preco": 18.99,
+    "preco_por_kg": 18.99
+  },
+  {
+    "id": 19,
+    "supermercado": "Goodbom",
+    "produto": "PIMENTÃO VERMELHO KG",
+    "preco": 21.99,
+    "preco_por_kg": 21.99
+  },
+  {
+    "id": 20,
+    "supermercado": "Goodbom",
+    "produto": "PIMENTÃO AMARELO KG",
+    "preco": 21.99,
+    "preco_por_kg": 21.99
+  },
+  {
+    "id": 21,
+    "supermercado": "Goodbom",
+    "produto": "CAROLINA D'GUST LIMÃO KG",
+    "preco": 79.9,
+    "preco_por_kg": 79.9
+  },
+  {
+    "id": 22,
+    "supermercado": "Goodbom",
+    "produto": "VAGEM MACARRÃO KG",
+    "preco": 11.99,
+    "preco_por_kg": 11.99
+  },
+  {
+    "id": 23,
+    "supermercado": "Goodbom",
+    "produto": "ABOBRINHA ITÁLIA KG",
+    "preco": 3.99,
+    "preco_por_kg": 3.99
+  },
+  {
+    "id": 24,
+    "supermercado": "Goodbom",
+    "produto": "BETERRABA KG",
+    "preco": 2.99,
+    "preco_por_kg": 2.99
+  },
+  {
+    "id": 25,
+    "supermercado": "Goodbom",
+    "produto": "INHAME KG",
+    "preco": 8.99,
+    "preco_por_kg": 8.99
+  },
+  {
+    "id": 26,
+    "supermercado": "Goodbom",
+    "produto": "CHÁ REAL ANIS CURCUMA/GENGIBRE 10 SACHES",
+    "preco": 6.98,
+    "preco_por_kg": 6.98
+  },
+  {
+    "id": 27,
+    "supermercado": "Goodbom",
+    "produto": "CENOURA KG",
+    "preco": 3.99,
+    "preco_por_kg": 3.99
+  },
+  {
+    "id": 28,
+    "supermercado": "Goodbom",
+    "produto": "CHUCHU KG",
+    "preco": 3.99,
+    "preco_por_kg": 3.99
+  },
+  {
+    "id": 29,
+    "supermercado": "Goodbom",
+    "produto": "MANDIOQUINHA KG",
+    "preco": 12.99,
+    "preco_por_kg": 12.99
+  },
+  {
+    "id": 30,
+    "supermercado": "Goodbom",
+    "produto": "CHEIRO VERDE MAÇO",
+    "preco": 4.99,
+    "preco_por_kg": 4.99
+  },
+  {
+    "id": 31,
+    "supermercado": "Goodbom",
+    "produto": "ALFACE CRESPA UN",
+    "preco": 1.99,
+    "preco_por_kg": 1.99
+  },
+  {
+    "id": 32,
+    "supermercado": "Goodbom",
+    "produto": "REPOLHO LISO KG",
+    "preco": 2.99,
+    "preco_por_kg": 2.99
+  },
+  {
+    "id": 33,
+    "supermercado": "Goodbom",
+    "produto": "ALHO DESCASCADO 500G",
+    "preco": 19.99,
+    "preco_por_kg": 39.98
+  },
+  {
+    "id": 34,
+    "supermercado": "Goodbom",
+    "produto": "MAMÃO PAPAYA KG",
+    "preco": 7.99,
+    "preco_por_kg": 7.99
+  },
+  {
+    "id": 35,
+    "supermercado": "Goodbom",
+    "produto": "BANANA NANICA KG",
+    "preco": 7.99,
+    "preco_por_kg": 7.99
+  },
+  {
+    "id": 36,
+    "supermercado": "Goodbom",
+    "produto": "UVA CRIMSON 500G",
+    "preco": 9.99,
+    "preco_por_kg": 19.98
+  },
+  {
+    "id": 37,
+    "supermercado": "Goodbom",
+    "produto": "MAÇÃ PACOTE 1KG",
+    "preco": 8.99,
+    "preco_por_kg": 8.99
+  },
+  {
+    "id": 38,
+    "supermercado": "Goodbom",
+    "produto": "REFRIGERANTE BIOLEVE ZERO MEXERICA 1,5L",
+    "preco": 6.49,
+    "preco_por_kg": 4.33
+  },
+  {
+    "id": 39,
+    "supermercado": "Goodbom",
+    "produto": "MARGARINA DORIANA SEM SAL 500G",
+    "preco": 6.49,
+    "preco_por_kg": 12.98
+  },
+  {
+    "id": 42,
+    "supermercado": "Goodbom",
+    "produto": "QUEIJO MUSSARELA PEÇA KG",
+    "preco": 29.99,
+    "preco_por_kg": 29.99
+  },
+  {
+    "id": 43,
+    "supermercado": "Goodbom",
+    "produto": "PRESUNTO COZIDO AURORA SEM CAPA KG",
+    "preco": 26.9,
+    "preco_por_kg": 26.9
+  },
+  {
+    "id": 44,
+    "supermercado": "Goodbom",
+    "produto": "MORTADELA AURORA 400G",
+    "preco": 5.98,
+    "preco_por_kg": 14.95
+  },
+  {
+    "id": 45,
+    "supermercado": "Goodbom",
+    "produto": "BATATA CONGELADA SWIFT 400G",
+    "preco": 10.5,
+    "preco_por_kg": 26.25
+  },
+  {
+    "id": 47,
+    "supermercado": "Goodbom",
+    "produto": "MANDIOCA KG",
+    "preco": 4.99,
+    "preco_por_kg": 4.99
+  },
+  {
+    "id": 49,
+    "supermercado": "Goodbom",
+    "produto": "ÁGUA DE COCO PURO COCO MARACUJA 180ML",
+    "preco": 1.89,
+    "preco_por_kg": 10.5
+  },
+  {
+    "id": 50,
+    "supermercado": "Goodbom",
+    "produto": "LEITE FERMENTADO FRUTAP 850G",
+    "preco": 11.49,
+    "preco_por_kg": 13.52
+  },
+  {
+    "id": 52,
+    "supermercado": "Goodbom",
+    "produto": "ARROZ INTEGRAL BROTO LEGAL 1KG",
+    "preco": 5.99,
+    "preco_por_kg": 5.99
+  },
+  {
+    "id": 53,
+    "supermercado": "Goodbom",
+    "produto": "FEIJÃO PRETO OLIRON 1KG",
+    "preco": 4.99,
+    "preco_por_kg": 4.99
+  },
+  {
+    "id": 57,
+    "supermercado": "Goodbom",
+    "produto": "QUEIJO RALADO VALEZA FINO 50G",
+    "preco": 4.99,
+    "preco_por_kg": 99.8
+  },
+  {
+    "id": 60,
+    "supermercado": "Goodbom",
+    "produto": "AZEITE EXTRA VIRGEM GOMES DA COSTA VD. 500ML",
+    "preco": 32.99,
+    "preco_por_kg": 65.98
+  },
+  {
+    "id": 61,
+    "supermercado": "Goodbom",
+    "produto": "AZEITONA SEM CAROÇO VALE FERTIL SACHET 120G",
+    "preco": 6.99,
+    "preco_por_kg": 58.25
+  },
+  {
+    "id": 65,
+    "supermercado": "Goodbom",
+    "produto": "BISCOITO SOL MAISENA 350G",
+    "preco": 5.39,
+    "preco_por_kg": 15.4
+  },
+  {
+    "id": 66,
+    "supermercado": "Goodbom",
+    "produto": "ÓLEO DE SOJA VITALIV PET 900ML",
+    "preco": 8.49,
+    "preco_por_kg": 9.43
+  },
+  {
+    "id": 67,
+    "supermercado": "Goodbom",
+    "produto": "VINAGRE CASTELO ALCOOL COLOR 750ML",
+    "preco": 3.99,
+    "preco_por_kg": 5.32
+  },
+  {
+    "id": 68,
+    "supermercado": "Goodbom",
+    "produto": "MILHO VERDE BANDEJA 700G",
+    "preco": 6.99,
+    "preco_por_kg": 9.99
+  },
+  {
+    "id": 69,
+    "supermercado": "Goodbom",
+    "produto": "SELETA DE LEGUMES LATA QUERO 170G",
+    "preco": 5.99,
+    "preco_por_kg": 35.24
+  },
+  {
+    "id": 71,
+    "supermercado": "Goodbom",
+    "produto": "AÇUCAR DEMERARA CARAVELAS 1KG",
+    "preco": 5.99,
+    "preco_por_kg": 5.99
+  },
+  {
+    "id": 72,
+    "supermercado": "Goodbom",
+    "produto": "AÇUCAR MASCAVO FALEX 1KG",
+    "preco": 15.98,
+    "preco_por_kg": 15.98
+  },
+  {
+    "id": 73,
+    "supermercado": "Goodbom",
+    "produto": "SAL HIMALAIA LEBRE MOIDO 100G",
+    "preco": 6.59,
+    "preco_por_kg": 65.9
+  },
+  {
+    "id": 74,
+    "supermercado": "Goodbom",
+    "produto": "SUCO CONCENTRADO MAGUARY MARACUJA 500ML",
+    "preco": 11.99,
+    "preco_por_kg": 23.98
+  },
+  {
+    "id": 76,
+    "supermercado": "Goodbom",
+    "produto": "MAIONESE TRADICIONAL LIZA 450G",
+    "preco": 7.49,
+    "preco_por_kg": 16.64
+  },
+  {
+    "id": 77,
+    "supermercado": "Goodbom",
+    "produto": "MOSTARDA CEPERA 1010G",
+    "preco": 13.99,
+    "preco_por_kg": 13.85
+  },
+  {
+    "id": 78,
+    "supermercado": "Goodbom",
+    "produto": "LEITE CONDENSADO SEMIDESNATADO ITALAC 395G TP",
+    "preco": 5.99,
+    "preco_por_kg": 15.16
+  },
+  {
+    "id": 79,
+    "supermercado": "Goodbom",
+    "produto": "CREME DE LEITE SHEFA 200G TP",
+    "preco": 2.99,
+    "preco_por_kg": 14.95
+  },
+  {
+    "id": 81,
+    "supermercado": "Goodbom",
+    "produto": "CAFÉ TRADICIONAL SÃO JOAQUIM 500G",
+    "preco": 28.99,
+    "preco_por_kg": 57.98
+  },
+  {
+    "id": 82,
+    "supermercado": "Goodbom",
+    "produto": "CHÁ LEÃO DE CAMOMILA 10 SACHES",
+    "preco": 3.99,
+    "preco_por_kg": 3.99
+  },
+  {
+    "id": 86,
+    "supermercado": "Goodbom",
+    "produto": "PÃO SEM GLÚTEN WICKBOLD 300G",
+    "preco": 24.99,
+    "preco_por_kg": 83.3
+  },
+  {
+    "id": 87,
+    "supermercado": "Goodbom",
+    "produto": "GOMA MANDIOCA TAPIOCA AKIO 320G",
+    "preco": 2.99,
+    "preco_por_kg": 9.34
+  },
+  {
+    "id": 88,
+    "supermercado": "Goodbom",
+    "produto": "DESINFETANTE LYSOFORM CITRUS 2L",
+    "preco": 27.99,
+    "preco_por_kg": 13.99
+  },
+  {
+    "id": 89,
+    "supermercado": "Goodbom",
+    "produto": "ALCOOL SAFRA 46,2° 1L",
+    "preco": 5.99,
+    "preco_por_kg": 5.99
+  },
+  {
+    "id": 90,
+    "supermercado": "Goodbom",
+    "produto": "LIMPADOR PERFUMADO YPÊ CHÁ BRANCO 2L",
+    "preco": 16.99,
+    "preco_por_kg": 8.49
+  },
+  {
+    "id": 91,
+    "supermercado": "Goodbom",
+    "produto": "REMOVEDOR ESMALTE ACEMAR S/ACETONA MOR 90ML",
+    "preco": 4.99,
+    "preco_por_kg": 55.44
+  },
+  {
+    "id": 93,
+    "supermercado": "Goodbom",
+    "produto": "LÂMPADA LED OUROLUX FRIA 20W BIVOLT",
+    "preco": 9.98,
+    "preco_por_kg": 9.98
+  },
+  {
+    "id": 96,
+    "supermercado": "Goodbom",
+    "produto": "ÁGUA SANITÁRIA BARBAREX 2L",
+    "preco": 3.99,
+    "preco_por_kg": 2
+  },
+  {
+    "id": 100,
+    "supermercado": "Goodbom",
+    "produto": "DETERGENTE YPÊ COCO 500ML",
+    "preco": 2.89,
+    "preco_por_kg": 5.78
+  },
+  {
+    "id": 101,
+    "supermercado": "Goodbom",
+    "produto": "LIMPADOR MULTIUSO UAU FLORES FOLHAS 500ML",
+    "preco": 3.99,
+    "preco_por_kg": 7.98
+  },
+  {
+    "id": 103,
+    "supermercado": "Goodbom",
+    "produto": "DESINFETANTE BARBAREX JASMIN 5L",
+    "preco": 12.99,
+    "preco_por_kg": 2.6
+  },
+  {
+    "id": 104,
+    "supermercado": "Goodbom",
+    "produto": "BUCHA SUPERMIX REDUTORA ROSCA 3/4 X 1/2 REF.617",
+    "preco": 4.98,
+    "preco_por_kg": 4.98
+  },
+  {
+    "id": 105,
+    "supermercado": "Goodbom",
+    "produto": "LÃ ACO BOMBRIL C/6",
+    "preco": 2.99,
+    "preco_por_kg": 2.99
+  },
+  {
+    "id": 107,
+    "supermercado": "Goodbom",
+    "produto": "PAPEL HIGIÊNICO FOLHA DUPLA DUETTO NEUTRO C/4",
+    "preco": 7.99,
+    "preco_por_kg": 7.99
+  },
+  {
+    "id": 109,
+    "supermercado": "Goodbom",
+    "produto": "ESCOVA DE DENTE COLGATE CLASSIC CLEAN 3 UNID",
+    "preco": 11.99,
+    "preco_por_kg": 11.99
+  },
+  {
+    "id": 110,
+    "supermercado": "Goodbom",
+    "produto": "CREME DENTAL SORRISO KOLYNOS 90G EDIÇÃO LIMITADA",
+    "preco": 3.99,
+    "preco_por_kg": 44.33
+  },
+  {
+    "id": 111,
+    "supermercado": "Goodbom",
+    "produto": "SABONETE LÍQUIDO MONANGE F.LAVANDA 240ML",
+    "preco": 8.99,
+    "preco_por_kg": 37.46
+  },
+  {
+    "id": 112,
+    "supermercado": "Goodbom",
+    "produto": "SABONETE LUX SUAVE LIRIO AZUL 125G",
+    "preco": 4.29,
+    "preco_por_kg": 34.32
+  },
+  {
+    "id": 113,
+    "supermercado": "Goodbom",
+    "produto": "SABONETE BEBE CALÊNDULA 90G",
+    "preco": 5.99,
+    "preco_por_kg": 66.56
+  },
+  {
+    "id": 114,
+    "supermercado": "Goodbom",
+    "produto": "GEL FIXADOR TRIBAL AZUL 500G",
+    "preco": 12.99,
+    "preco_por_kg": 25.98
+  },
+  {
+    "id": 115,
+    "supermercado": "Goodbom",
+    "produto": "HASTE FLEXIVEL PIQUITUCHO C/68",
+    "preco": 2.49,
+    "preco_por_kg": 2.49
+  },
+  {
+    "id": 116,
+    "supermercado": "Goodbom",
+    "produto": "LENÇO UMEDECIDO INTIMUS C/16",
+    "preco": 11.99,
+    "preco_por_kg": 11.99
+  },
+  {
+    "id": 117,
+    "supermercado": "Goodbom",
+    "produto": "ALGODAO SUSSEX BOLA 50G",
+    "preco": 5.79,
+    "preco_por_kg": 115.8
+  },
+  {
+    "id": 118,
+    "supermercado": "Goodbom",
+    "produto": "ANTISSÉPTICO LISTERINE COOL MINT 250ML",
+    "preco": 19.99,
+    "preco_por_kg": 79.96
+  },
+  {
+    "id": 119,
+    "supermercado": "Goodbom",
+    "produto": "BISNAGUINHA SEVEN BOYS TRADICIONAL 300G",
+    "preco": 6.49,
+    "preco_por_kg": 21.63
+  },
+  {
+    "id": 121,
+    "supermercado": "Goodbom",
+    "produto": "FUBÁ MIMOSO KISABOR 1KG",
+    "preco": 7.49,
+    "preco_por_kg": 7.49
+  },
+  {
+    "id": 122,
+    "supermercado": "Goodbom",
+    "produto": "ALIMENTO PARA GATOS DOMUS AD.MIX 1KG",
+    "preco": 15.99,
+    "preco_por_kg": 15.99
+  }
+]
