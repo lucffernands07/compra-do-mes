@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "982.27",
-  "totalTenda": "926.21",
-  "totalArena": "692.62",
-  "totalSavegnago": "862.51",
+  "totalGoodbom": "950.04",
+  "totalTenda": "890.25",
+  "totalArena": "685.17",
+  "totalSavegnago": "850.62",
   "encontradosGoodbom": 83,
   "encontradosTenda": 85,
   "encontradosArena": 78,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 70,
   "produtos": [
     {
       "id": "3",
@@ -64,7 +64,7 @@
         "preco_por_kg": 18.99
       },
       "tenda": {
-        "nome": "Linguiça Toscana Fina Sabor de Bragança 500g",
+        "nome": "Linguiça Toscana Fina Apimentada Sabor de Bragança 500g",
         "preco": 13.95,
         "preco_por_kg": 27.9
       },
@@ -132,8 +132,8 @@
       "id": "22",
       "goodbom": {
         "nome": "VAGEM MACARRÃO KG",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
+        "preco": 6.99,
+        "preco_por_kg": 6.99
       },
       "tenda": {
         "nome": "Vagem Macarrão Bandeja 340g",
@@ -204,8 +204,8 @@
       "id": "27",
       "goodbom": {
         "nome": "CENOURA KG",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
+        "preco": 2.99,
+        "preco_por_kg": 2.99
       },
       "tenda": {
         "nome": "Iogurte Natural Laranja, Cenoura e Mel Frutap 150g",
@@ -228,8 +228,8 @@
       "id": "29",
       "goodbom": {
         "nome": "MANDIOQUINHA KG",
-        "preco": 12.99,
-        "preco_por_kg": 12.99
+        "preco": 8.99,
+        "preco_por_kg": 8.99
       },
       "tenda": {
         "nome": "Mandioquinha Unidade",
@@ -300,8 +300,8 @@
       "id": "32",
       "goodbom": {
         "nome": "REPOLHO LISO KG",
-        "preco": 2.99,
-        "preco_por_kg": 2.99
+        "preco": 1.99,
+        "preco_por_kg": 1.99
       },
       "tenda": {
         "nome": "Repolho Roxo Unidade",
@@ -318,7 +318,7 @@
         "preco": 5.9,
         "preco_por_kg": 2.95
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "33",
@@ -348,8 +348,8 @@
       "id": "34",
       "goodbom": {
         "nome": "MAMÃO PAPAYA KG",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
+        "preco": 5.99,
+        "preco_por_kg": 5.99
       },
       "tenda": {
         "nome": "Refresco em pó Tang Laranja Mamão 18g",
@@ -372,8 +372,8 @@
       "id": "35",
       "goodbom": {
         "nome": "BANANA NANICA KG",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "tenda": {
         "nome": "Banana Nanica Unidade",
@@ -387,22 +387,22 @@
       },
       "savegnago": {
         "nome": "Banana Prata Bandeja 900g",
-        "preco": 3.15,
-        "preco_por_kg": 3.5
+        "preco": 4.35,
+        "preco_por_kg": 4.83
       },
       "mais_barato": "Tenda"
     },
     {
       "id": "36",
       "goodbom": {
-        "nome": "UVA CRIMSON 500G",
-        "preco": 9.99,
-        "preco_por_kg": 19.98
+        "nome": "UVA THOMPSON 500G",
+        "preco": 8.99,
+        "preco_por_kg": 17.98
       },
       "tenda": {
-        "nome": "Suco Sabor Uva Frut Del Valle 450ml",
-        "preco": 3.29,
-        "preco_por_kg": 7.31
+        "nome": "Néctar de Uva Nutri Néctar 200ml",
+        "preco": 1.69,
+        "preco_por_kg": 8.45
       },
       "arena": {
         "nome": "Suco Pomares Néctar Uva 1,35l",
@@ -424,9 +424,9 @@
         "preco_por_kg": 8.99
       },
       "tenda": {
-        "nome": "Maçã Pink Lady 155g",
-        "preco": 2,
-        "preco_por_kg": 12.9
+        "nome": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
+        "preco": 1.85,
+        "preco_por_kg": 1.85
       },
       "arena": {
         "nome": "Suco Maguary Seleção Maça Pet 1,35l",
@@ -472,9 +472,9 @@
         "preco_por_kg": 12.98
       },
       "tenda": {
-        "nome": "Margarina Cremosa com Sal Claybom Pote 250g",
-        "preco": 2.95,
-        "preco_por_kg": 11.8
+        "nome": "Margarina com Sal Dualis 500g",
+        "preco": 3.45,
+        "preco_por_kg": 6.9
       },
       "arena": {
         "nome": "Margarina Claybom C/ Sal 1kg",
@@ -496,9 +496,9 @@
         "preco_por_kg": 29.99
       },
       "tenda": {
-        "nome": "Queijo Mussarela Litoral Fatiado 200g",
-        "preco": 7.7,
-        "preco_por_kg": 38.5
+        "nome": "Queijo Mussarela Apolo Fatiado 200g",
+        "preco": 7.5,
+        "preco_por_kg": 37.5
       },
       "arena": {
         "nome": "Mussarela Davaca Peça Kg",
@@ -568,9 +568,9 @@
         "preco_por_kg": 26.25
       },
       "tenda": {
-        "nome": "Batata Congelada Corte Especial 9X18 Bem Brasil 1,05kg",
-        "preco": 16.89,
-        "preco_por_kg": 16.09
+        "nome": "Batata Congelada Carinhas Bem Brasil 1,05kg",
+        "preco": 11.49,
+        "preco_por_kg": 10.94
       },
       "arena": {
         "nome": "Batata Congelada Mccain Tradicional 2kg",
@@ -756,8 +756,8 @@
       "id": "68",
       "goodbom": {
         "nome": "MILHO VERDE BANDEJA 700G",
-        "preco": 6.99,
-        "preco_por_kg": 9.99
+        "preco": 5.99,
+        "preco_por_kg": 8.56
       },
       "tenda": {
         "nome": "Milho Verde Stella D'Oro 170g",
@@ -948,8 +948,8 @@
       "id": "87",
       "goodbom": {
         "nome": "GOMA MANDIOCA TAPIOCA AKIO 320G",
-        "preco": 2.99,
-        "preco_por_kg": 9.34
+        "preco": 3.69,
+        "preco_por_kg": 11.53
       },
       "tenda": {
         "nome": "Massa de Tapioca Beijubom 500g",
@@ -966,31 +966,7 @@
         "preco": 15.95,
         "preco_por_kg": 15.95
       },
-      "mais_barato": "Goodbom"
-    },
-    {
-      "id": "88",
-      "goodbom": {
-        "nome": "DESINFETANTE LYSOFORM CITRUS 2L",
-        "preco": 27.99,
-        "preco_por_kg": 13.99
-      },
-      "tenda": {
-        "nome": "Desinfetante Lysoform Suave 1L",
-        "preco": 15.6,
-        "preco_por_kg": 15.6
-      },
-      "arena": {
-        "nome": "Desinfetante Lysoform Lavanda 2l",
-        "preco": 14.9,
-        "preco_por_kg": 7.45
-      },
-      "savegnago": {
-        "nome": "Desinfetante Líquido Lysoform Lavanda 2L",
-        "preco": 21.56,
-        "preco_por_kg": 10.78
-      },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "89",
@@ -1072,7 +1048,7 @@
         "preco_por_kg": 5.78
       },
       "tenda": {
-        "nome": "Detergente Líquido Minuano Neutro 500ml",
+        "nome": "Detergente Líquido Minuano Marine 500ml",
         "preco": 2.2,
         "preco_por_kg": 4.4
       },
@@ -1096,9 +1072,9 @@
         "preco_por_kg": 7.98
       },
       "tenda": {
-        "nome": "Limpador Multiuso Limão Azulim 500ml",
-        "preco": 2.55,
-        "preco_por_kg": 5.1
+        "nome": "Limpador Multiuso Original Azulim Squeeze 500ml",
+        "preco": 2.75,
+        "preco_por_kg": 5.5
       },
       "arena": {
         "nome": "Limpador Multiuso Uau Rosas E Sedução 500ml",
@@ -1202,9 +1178,9 @@
         "preco_por_kg": 40.6
       },
       "savegnago": {
-        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
-        "preco": 2.79,
-        "preco_por_kg": 39.86
+        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
+        "preco": 4.49,
+        "preco_por_kg": 37.42
       },
       "mais_barato": "Tenda"
     },
@@ -1384,9 +1360,9 @@
         "preco_por_kg": 7.49
       },
       "tenda": {
-        "nome": "Fubá Mimoso Select 500g",
-        "preco": 2.05,
-        "preco_por_kg": 4.1
+        "nome": "Fubá Mimoso PQ 500g",
+        "preco": 2.15,
+        "preco_por_kg": 4.3
       },
       "arena": {
         "nome": "Fubá Kisabor Mimoso 1kg",
