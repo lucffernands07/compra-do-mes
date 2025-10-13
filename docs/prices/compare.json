@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "981.13",
-  "totalTenda": "864.64",
-  "totalArena": "653.80",
-  "totalSavegnago": "852.63",
+  "totalGoodbom": "954.17",
+  "totalTenda": "856.59",
+  "totalArena": "630.98",
+  "totalSavegnago": "838.47",
   "encontradosGoodbom": 83,
-  "encontradosTenda": 84,
+  "encontradosTenda": 83,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -585,6 +585,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "49",
+      "goodbom": {
+        "nome": "ÁGUA DE COCO PURO COCO MARACUJA 180ML",
+        "preco": 1.89,
+        "preco_por_kg": 10.5
+      },
+      "tenda": {
+        "nome": "Água de Coco Nocoko Caixa 200ml",
+        "preco": 0.99,
+        "preco_por_kg": 4.95
+      },
+      "arena": {
+        "nome": "Água De Coco Sococo Mais Uva 200ml",
+        "preco": 0.99,
+        "preco_por_kg": 4.95
+      },
+      "savegnago": {
+        "nome": "Água De Coco Puro Coco 1L",
+        "preco": 9.9,
+        "preco_por_kg": 9.9
+      },
+      "mais_barato": "Tenda"
+    },
+    {
       "id": "50",
       "goodbom": {
         "nome": "LEITE FERMENTADO FRUTAP 850G",
@@ -1157,30 +1181,6 @@
         "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
         "preco": 4.49,
         "preco_por_kg": 37.42
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "111",
-      "goodbom": {
-        "nome": "SABONETE LÍQUIDO MONANGE F.LAVANDA 240ML",
-        "preco": 8.99,
-        "preco_por_kg": 37.46
-      },
-      "tenda": {
-        "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
-        "preco": 6.5,
-        "preco_por_kg": 13
-      },
-      "arena": {
-        "nome": "Sabonete Líquido Lux Buquê De Jasmim Refil Econômico 900ml",
-        "preco": 24.99,
-        "preco_por_kg": 27.77
-      },
-      "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 21.65,
-        "preco_por_kg": 24.06
       },
       "mais_barato": "Tenda"
     },
