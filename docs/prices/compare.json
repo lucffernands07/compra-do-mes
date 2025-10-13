@@ -1,8 +1,8 @@
 {
-  "totalGoodbom": "954.17",
-  "totalTenda": "856.59",
-  "totalArena": "630.98",
-  "totalSavegnago": "838.47",
+  "totalGoodbom": "991.63",
+  "totalTenda": "869.59",
+  "totalArena": "664.57",
+  "totalSavegnago": "862.53",
   "encontradosGoodbom": 83,
   "encontradosTenda": 83,
   "encontradosArena": 78,
@@ -622,8 +622,8 @@
       },
       "arena": {
         "nome": "Leite Fermentado Desnatado Frutap 1,2kg",
-        "preco": 6.29,
-        "preco_por_kg": 3.15
+        "preco": 7.19,
+        "preco_por_kg": 3.6
       },
       "savegnago": {
         "nome": "Leite Fermentado Itambé 1,150kg",
@@ -861,9 +861,9 @@
         "preco_por_kg": 11.62
       },
       "arena": {
-        "nome": "Leite Condensado Zero Lactose Italac - 395g",
-        "preco": 3.8,
-        "preco_por_kg": 9.62
+        "nome": "Leite Condensado Semidesnatado Campos Do Jordão - 395g",
+        "preco": 4.35,
+        "preco_por_kg": 11.01
       },
       "savegnago": {
         "nome": "Leite Condensado TP Semidesnatado Italac 395g",
@@ -885,9 +885,9 @@
         "preco_por_kg": 10.25
       },
       "arena": {
-        "nome": "Creme De Leite Lider Leve Tp - 1,03kg",
+        "nome": "Margarina Delícia Com Creme De Leite Com Sal 1kg",
         "preco": 3.59,
-        "preco_por_kg": 1.2
+        "preco_por_kg": 3.59
       },
       "savegnago": {
         "nome": "Creme De Leite Jussara 200G",
@@ -981,7 +981,7 @@
         "preco_por_kg": 5.4
       },
       "arena": {
-        "nome": "Álcool Duratto Limpador Uso Geral Neutro 1l",
+        "nome": "Álcool Duratto Limpador Uso Geral Lavanda 1l",
         "preco": 5.89,
         "preco_por_kg": 5.89
       },
@@ -1005,16 +1005,16 @@
         "preco_por_kg": 7.78
       },
       "arena": {
-        "nome": "Limpador Perfumado Casa & Perfume Agradable 2lt",
-        "preco": 12.99,
-        "preco_por_kg": 6.5
+        "nome": "Limpador Perfumado Casa & Perfume Sensualidad 2lt",
+        "preco": 17.79,
+        "preco_por_kg": 8.89
       },
       "savegnago": {
         "nome": "Limpador Perfumado Casa&Perfume 1L Agradable",
         "preco": 8.95,
         "preco_por_kg": 8.95
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "96",
@@ -1150,8 +1150,8 @@
       },
       "arena": {
         "nome": "Papel Higiênico Familiar Folha Dupla 30m C/ 4 Rolos",
-        "preco": 7.39,
-        "preco_por_kg": 7.39
+        "preco": 6.59,
+        "preco_por_kg": 6.59
       },
       "savegnago": {
         "nome": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
@@ -1181,6 +1181,30 @@
         "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
         "preco": 4.49,
         "preco_por_kg": 37.42
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "111",
+      "goodbom": {
+        "nome": "SABONETE LÍQUIDO MONANGE F.LAVANDA 240ML",
+        "preco": 8.99,
+        "preco_por_kg": 37.46
+      },
+      "tenda": {
+        "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
+        "preco": 6.5,
+        "preco_por_kg": 13
+      },
+      "arena": {
+        "nome": "Sabonete Líquido Lux Buquê De Jasmim Refil Econômico 900ml",
+        "preco": 24.99,
+        "preco_por_kg": 27.77
+      },
+      "savegnago": {
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 21.65,
+        "preco_por_kg": 24.06
       },
       "mais_barato": "Tenda"
     },
