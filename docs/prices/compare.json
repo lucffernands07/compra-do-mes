@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "959.07",
-  "totalTenda": "843.87",
-  "totalArena": "653.54",
-  "totalSavegnago": "859.78",
+  "totalGoodbom": "955.84",
+  "totalTenda": "866.81",
+  "totalArena": "665.65",
+  "totalSavegnago": "847.37",
   "encontradosGoodbom": 83,
-  "encontradosTenda": 80,
+  "encontradosTenda": 82,
   "encontradosArena": 78,
-  "encontradosSavegnago": 69,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -74,9 +74,9 @@
         "preco_por_kg": 14.98
       },
       "savegnago": {
-        "nome": "Linguiça Toscana Churrasco Seara 700g",
-        "preco": 24.95,
-        "preco_por_kg": 35.64
+        "nome": "Linguiça Toscana Aurora Congelada 700g",
+        "preco": 17.9,
+        "preco_por_kg": 25.57
       },
       "mais_barato": "Arena"
     },
@@ -247,6 +247,30 @@
         "preco_por_kg": 7.69
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "30",
+      "goodbom": {
+        "nome": "CHEIRO VERDE MAÇO",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "tenda": {
+        "nome": "Cheiro Verde Maço Unidade",
+        "preco": 4.29,
+        "preco_por_kg": 4.29
+      },
+      "arena": {
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.7,
+        "preco_por_kg": 3.7
+      },
+      "savegnago": {
+        "nome": "Cheiro Verde Organico Solo Vivo",
+        "preco": 8.59,
+        "preco_por_kg": 8.59
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "31",
@@ -621,16 +645,16 @@
         "preco_por_kg": 12.2
       },
       "arena": {
-        "nome": "Leite Fermentado Desnatado Frutap 1,2kg",
-        "preco": 4.89,
-        "preco_por_kg": 2.44
+        "nome": "Leite Fermentado Desnatado Chamyto C/6 Unid. 450g",
+        "preco": 6.35,
+        "preco_por_kg": 14.11
       },
       "savegnago": {
         "nome": "Leite Fermentado Itambé 1,150kg",
         "preco": 14.95,
         "preco_por_kg": 13
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "52",
@@ -779,9 +803,9 @@
     {
       "id": "72",
       "goodbom": {
-        "nome": "AÇUCAR MASCAVO FALEX 1KG",
-        "preco": 15.98,
-        "preco_por_kg": 15.98
+        "nome": "AÇUCAR MASCAVO TERRANA",
+        "preco": 17.9,
+        "preco_por_kg": 17.9
       },
       "tenda": {
         "nome": "Paçoquinha com Açúcar Mascavo DaColônia 210g",
@@ -945,6 +969,30 @@
       "mais_barato": "Goodbom"
     },
     {
+      "id": "88",
+      "goodbom": {
+        "nome": "DESINFETANTE LYSOFORM CITRUS 2L",
+        "preco": 27.99,
+        "preco_por_kg": 13.99
+      },
+      "tenda": {
+        "nome": "Desinfetante Lysoform Suave 1L",
+        "preco": 15.6,
+        "preco_por_kg": 15.6
+      },
+      "arena": {
+        "nome": "Desinfetante Lysoform Lavanda 2l",
+        "preco": 14.9,
+        "preco_por_kg": 7.45
+      },
+      "savegnago": {
+        "nome": "Desinfetante Líquido Lysoform Lavanda 2L",
+        "preco": 21.56,
+        "preco_por_kg": 10.78
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "89",
       "goodbom": {
         "nome": "ALCOOL SAFRA 46,2° 1L",
@@ -1017,26 +1065,26 @@
       "mais_barato": "Arena"
     },
     {
-      "id": "100",
+      "id": "101",
       "goodbom": {
-        "nome": "DETERGENTE YPÊ COCO 500ML",
-        "preco": 2.89,
-        "preco_por_kg": 5.78
+        "nome": "LIMPADOR MULTIUSO CANDURA COM CLORO 500ML",
+        "preco": 3.99,
+        "preco_por_kg": 7.98
       },
       "tenda": {
-        "nome": "Detergente Líquido Minuano Neutro 500ml",
-        "preco": 2.2,
-        "preco_por_kg": 4.4
+        "nome": "Limpador Multiuso Limão Azulim 500ml",
+        "preco": 2.55,
+        "preco_por_kg": 5.1
       },
       "arena": {
-        "nome": "Detergente Ypê Clear 5l",
-        "preco": 22.99,
-        "preco_por_kg": 4.6
+        "nome": "Limpador Multiuso Uau Rosas E Sedução 500ml",
+        "preco": 3.59,
+        "preco_por_kg": 7.18
       },
       "savegnago": {
-        "nome": "Detergente Ypê Clear 500ml",
-        "preco": 2.59,
-        "preco_por_kg": 5.18
+        "nome": "Limpador Multiuso Veja Gold Original 750ml Embalagem Econômica",
+        "preco": 6.25,
+        "preco_por_kg": 8.33
       },
       "mais_barato": "Tenda"
     },
@@ -1065,6 +1113,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "107",
+      "goodbom": {
+        "nome": "PAPEL HIGIÊNICO FOLHA DUPLA DUETTO NEUTRO C/4",
+        "preco": 7.99,
+        "preco_por_kg": 7.99
+      },
+      "tenda": {
+        "nome": "Papel Higiênico Folha Simples Select 30m 4un",
+        "preco": 4.2,
+        "preco_por_kg": 4.2
+      },
+      "arena": {
+        "nome": "Papel Higiênico Familiar Folha Dupla 30m C/ 4 Rolos",
+        "preco": 6.59,
+        "preco_por_kg": 6.59
+      },
+      "savegnago": {
+        "nome": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
+        "preco": 19.7,
+        "preco_por_kg": 1.64
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "110",
       "goodbom": {
         "nome": "CREME DENTAL SORRISO KOLYNOS 90G EDIÇÃO LIMITADA",
@@ -1082,9 +1154,9 @@
         "preco_por_kg": 40.6
       },
       "savegnago": {
-        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
-        "preco": 2.79,
-        "preco_por_kg": 39.86
+        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
+        "preco": 4.49,
+        "preco_por_kg": 37.42
       },
       "mais_barato": "Tenda"
     },
@@ -1104,30 +1176,6 @@
         "nome": "Sabonete Líquido Lux Buquê De Jasmim Refil Econômico 900ml",
         "preco": 24.99,
         "preco_por_kg": 27.77
-      },
-      "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 21.65,
-        "preco_por_kg": 24.06
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "112",
-      "goodbom": {
-        "nome": "SABONETE LUX SUAVE LIRIO AZUL 125G",
-        "preco": 4.29,
-        "preco_por_kg": 34.32
-      },
-      "tenda": {
-        "nome": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
-        "preco": 1.85,
-        "preco_por_kg": 1.85
-      },
-      "arena": {
-        "nome": "Sabonete Ypê Siene Lavanda 85g",
-        "preco": 1.69,
-        "preco_por_kg": 19.88
       },
       "savegnago": {
         "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
