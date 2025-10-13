@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "991.63",
-  "totalTenda": "872.29",
-  "totalArena": "677.28",
-  "totalSavegnago": "864.97",
+  "totalGoodbom": "951.85",
+  "totalTenda": "820.84",
+  "totalArena": "656.20",
+  "totalSavegnago": "801.82",
   "encontradosGoodbom": 83,
-  "encontradosTenda": 84,
+  "encontradosTenda": 80,
   "encontradosArena": 78,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -256,7 +256,7 @@
         "preco_por_kg": 1.99
       },
       "tenda": {
-        "nome": "Alface Roxa Unidade",
+        "nome": "Alface Mimosa Unidade",
         "preco": 4.49,
         "preco_por_kg": 4.49
       },
@@ -362,9 +362,9 @@
         "preco_por_kg": 7.89
       },
       "savegnago": {
-        "nome": "Banana Terra Bandeja 600g",
-        "preco": 3.15,
-        "preco_por_kg": 5.25
+        "nome": "Banana Prata Bandeja 900g",
+        "preco": 4.35,
+        "preco_por_kg": 4.83
       },
       "mais_barato": "Tenda"
     },
@@ -376,9 +376,9 @@
         "preco_por_kg": 19.98
       },
       "tenda": {
-        "nome": "Néctar de Uva Nutri Néctar 200ml",
-        "preco": 1.69,
-        "preco_por_kg": 8.45
+        "nome": "Suco Sabor Uva Frut Del Valle 450ml",
+        "preco": 3.29,
+        "preco_por_kg": 7.31
       },
       "arena": {
         "nome": "Suco Pomares Néctar Uva 1,35l",
@@ -386,9 +386,9 @@
         "preco_por_kg": 0.36
       },
       "savegnago": {
-        "nome": "Ades Frutas Sabor Uva TP 1L",
-        "preco": 8.65,
-        "preco_por_kg": 8.65
+        "nome": "Refrigerante Fanta 2l Pet Uva",
+        "preco": 6.99,
+        "preco_por_kg": 3.5
       },
       "mais_barato": "Arena"
     },
@@ -657,30 +657,6 @@
       "mais_barato": "Arena"
     },
     {
-      "id": "53",
-      "goodbom": {
-        "nome": "FEIJÃO PRETO OLIRON 1KG",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
-      },
-      "tenda": {
-        "nome": "Feijão Carioca 5 Estrelas 1kg",
-        "preco": 4.19,
-        "preco_por_kg": 4.19
-      },
-      "arena": {
-        "nome": "Feijão Preto Camil Pacote 1kg",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
-      },
-      "savegnago": {
-        "nome": "Feijão Preto Serrazul 1kg",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
-      },
-      "mais_barato": "Tenda"
-    },
-    {
       "id": "66",
       "goodbom": {
         "nome": "ÓLEO DE SOJA VITALIV PET 900ML",
@@ -747,8 +723,8 @@
       },
       "savegnago": {
         "nome": "Milho Verde Irmãos Pimenta Bandeja 600g",
-        "preco": 4.95,
-        "preco_por_kg": 8.25
+        "preco": 5.45,
+        "preco_por_kg": 9.08
       },
       "mais_barato": "Arena"
     },
@@ -825,30 +801,6 @@
       "mais_barato": "Arena"
     },
     {
-      "id": "77",
-      "goodbom": {
-        "nome": "MOSTARDA CEPERA 1010G",
-        "preco": 13.99,
-        "preco_por_kg": 13.85
-      },
-      "tenda": {
-        "nome": "Mostarda Tradicional Quero 190g",
-        "preco": 5.79,
-        "preco_por_kg": 30.47
-      },
-      "arena": {
-        "nome": "Mostarda Lanchero - 1,01kg",
-        "preco": 6.29,
-        "preco_por_kg": 6.29
-      },
-      "savegnago": {
-        "nome": "Mostarda Predilecta 180g Bisnaga",
-        "preco": 3.72,
-        "preco_por_kg": 20.67
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "78",
       "goodbom": {
         "nome": "LEITE CONDENSADO SEMIDESNATADO ITALAC 395G TP",
@@ -871,30 +823,6 @@
         "preco_por_kg": 14.91
       },
       "mais_barato": "Tenda"
-    },
-    {
-      "id": "79",
-      "goodbom": {
-        "nome": "CREME DE LEITE SHEFA 200G TP",
-        "preco": 2.99,
-        "preco_por_kg": 14.95
-      },
-      "tenda": {
-        "nome": "Mistura Láctea Creme de Leite Daus 200g",
-        "preco": 2.05,
-        "preco_por_kg": 10.25
-      },
-      "arena": {
-        "nome": "Margarina Delícia Com Creme De Leite Com Sal 1kg",
-        "preco": 3.91,
-        "preco_por_kg": 3.91
-      },
-      "savegnago": {
-        "nome": "Creme De Leite Jussara 200G",
-        "preco": 3.39,
-        "preco_por_kg": 16.95
-      },
-      "mais_barato": "Arena"
     },
     {
       "id": "82",
@@ -967,30 +895,6 @@
         "preco_por_kg": 10.78
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "89",
-      "goodbom": {
-        "nome": "ALCOOL SAFRA 46,2° 1L",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
-      },
-      "tenda": {
-        "nome": "Álcool Etílico Hidratado Tradicional Flops 1L",
-        "preco": 5.4,
-        "preco_por_kg": 5.4
-      },
-      "arena": {
-        "nome": "Álcool Duratto Limpador Uso Geral Lavanda 1l",
-        "preco": 5.89,
-        "preco_por_kg": 5.89
-      },
-      "savegnago": {
-        "nome": "Álcool Start 46° 1L",
-        "preco": 15.8,
-        "preco_por_kg": 15.8
-      },
-      "mais_barato": "Tenda"
     },
     {
       "id": "90",
