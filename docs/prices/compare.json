@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "977.97",
-  "totalTenda": "887.84",
-  "totalArena": "679.80",
-  "totalSavegnago": "840.91",
+  "totalGoodbom": "983.75",
+  "totalTenda": "892.24",
+  "totalArena": "684.40",
+  "totalSavegnago": "842.16",
   "encontradosGoodbom": 83,
   "encontradosTenda": 84,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -554,9 +554,9 @@
         "preco_por_kg": 10.5
       },
       "savegnago": {
-        "nome": "Mortadela mini Confiança",
-        "preco": 13.9,
-        "preco_por_kg": 13.9
+        "nome": "Mortadela Perdigão 400g",
+        "preco": 3.99,
+        "preco_por_kg": 9.97
       },
       "mais_barato": "Tenda"
     },
@@ -1039,6 +1039,30 @@
         "preco_por_kg": 2.27
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "100",
+      "goodbom": {
+        "nome": "DETERGENTE YPÊ COCO 500ML",
+        "preco": 2.89,
+        "preco_por_kg": 5.78
+      },
+      "tenda": {
+        "nome": "Detergente Líquido Minuano Marine 500ml",
+        "preco": 2.2,
+        "preco_por_kg": 4.4
+      },
+      "arena": {
+        "nome": "Detergente Ypê Clear 5l",
+        "preco": 22.99,
+        "preco_por_kg": 4.6
+      },
+      "savegnago": {
+        "nome": "Detergente Ypê Clear 500ml",
+        "preco": 2.59,
+        "preco_por_kg": 5.18
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "101",
