@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "867.67",
-  "totalTenda": "867.66",
-  "totalArena": "650.69",
-  "totalSavegnago": "831.54",
+  "totalGoodbom": "990.18",
+  "totalTenda": "900.46",
+  "totalArena": "692.62",
+  "totalSavegnago": "857.41",
   "encontradosGoodbom": 83,
-  "encontradosTenda": 84,
+  "encontradosTenda": 85,
   "encontradosArena": 78,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -26,11 +26,35 @@
         "preco_por_kg": 21.84
       },
       "savegnago": {
-        "nome": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
-        "preco": 11.95,
-        "preco_por_kg": 23.9
+        "nome": "Linguiça Calabresa Aurora 400g Defumada",
+        "preco": 12.7,
+        "preco_por_kg": 31.75
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "4",
+      "goodbom": {
+        "nome": "HAMBÚRGUER DE CARNE BOVINA WAGYU SWIFT 165G",
+        "preco": 15.9,
+        "preco_por_kg": 96.36
+      },
+      "tenda": {
+        "nome": "Hambúrguer de Carne Bovina Sadia 113g",
+        "preco": 4.09,
+        "preco_por_kg": 36.19
+      },
+      "arena": {
+        "nome": "Hambúrguer De Carne Bovina Air Fryer Seara 150g",
+        "preco": 6.29,
+        "preco_por_kg": 41.93
+      },
+      "savegnago": {
+        "nome": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
+        "preco": 23.7,
+        "preco_por_kg": 35.27
+      },
+      "mais_barato": "Savegnago"
     },
     {
       "id": "5",
@@ -251,9 +275,9 @@
     {
       "id": "31",
       "goodbom": {
-        "nome": "ALFACE CRESPA UN",
-        "preco": 1.99,
-        "preco_por_kg": 1.99
+        "nome": "SEMENTE FELTRIN ALFACE CRESPA",
+        "preco": 2.49,
+        "preco_por_kg": 2.49
       },
       "tenda": {
         "nome": "Alface Mimosa Unidade",
@@ -386,9 +410,9 @@
         "preco_por_kg": 0.36
       },
       "savegnago": {
-        "nome": "Ades Frutas Sabor Uva TP 1L",
-        "preco": 8.65,
-        "preco_por_kg": 8.65
+        "nome": "Refrigerante Fanta 2l Pet Uva",
+        "preco": 6.99,
+        "preco_por_kg": 3.5
       },
       "mais_barato": "Arena"
     },
@@ -444,8 +468,8 @@
       "id": "39",
       "goodbom": {
         "nome": "MARGARINA DORIANA SEM SAL 500G",
-        "preco": 6.49,
-        "preco_por_kg": 12.98
+        "preco": 8.99,
+        "preco_por_kg": 17.98
       },
       "tenda": {
         "nome": "Margarina com Sal Dualis 500g",
@@ -467,9 +491,9 @@
     {
       "id": "42",
       "goodbom": {
-        "nome": "QUEIJO MUSSARELA PEÇA KG",
-        "preco": 29.99,
-        "preco_por_kg": 29.99
+        "nome": "PIZZA SEARA MUSSARELA 440GR",
+        "preco": 19.49,
+        "preco_por_kg": 44.3
       },
       "tenda": {
         "nome": "Queijo Mussarela Apolo Fatiado 200g",
@@ -482,18 +506,18 @@
         "preco_por_kg": 39.9
       },
       "savegnago": {
-        "nome": "Pizza Frango com Requeijão e Mussarela Sadia 460g",
-        "preco": 21.9,
-        "preco_por_kg": 47.61
+        "nome": "Pizza de mussarela Seara 440g",
+        "preco": 19.7,
+        "preco_por_kg": 44.77
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "43",
       "goodbom": {
-        "nome": "PRESUNTO COZIDO AURORA SEM CAPA KG",
-        "preco": 26.9,
-        "preco_por_kg": 26.9
+        "nome": "PRESUNTO COZIDO SEARA SEM CAPA KG",
+        "preco": 28.9,
+        "preco_por_kg": 28.9
       },
       "tenda": {
         "nome": "Salgadinho Presunto Elma Chips Fandangos 35G",
@@ -506,9 +530,9 @@
         "preco_por_kg": 19.89
       },
       "savegnago": {
-        "nome": "Presunto Cozido Perdigão 200g Fatiado Vacuo",
-        "preco": 7.99,
-        "preco_por_kg": 39.95
+        "nome": "Lasanha de presunto e queijo Seara 600g",
+        "preco": 16.95,
+        "preco_por_kg": 28.25
       },
       "mais_barato": "Arena"
     },
@@ -809,8 +833,8 @@
       },
       "tenda": {
         "nome": "Maionese Mariana 1kg",
-        "preco": 9.5,
-        "preco_por_kg": 9.5
+        "preco": 6.89,
+        "preco_por_kg": 6.89
       },
       "arena": {
         "nome": "Maionese Saúde Balde 3kg",
@@ -851,9 +875,9 @@
     {
       "id": "78",
       "goodbom": {
-        "nome": "LEITE CONDENSADO SEMIDESNATADO ITALAC 395G TP",
-        "preco": 5.99,
-        "preco_por_kg": 15.16
+        "nome": "LEITE CONDENSADO SEMIDESNATADO TRIANGULO 395G TP",
+        "preco": 6.59,
+        "preco_por_kg": 16.68
       },
       "tenda": {
         "nome": "Leite Condensado Semidesnatado Campos do Jordão 395g",
@@ -929,8 +953,8 @@
       },
       "tenda": {
         "nome": "Massa de Tapioca Beijubom 500g",
-        "preco": 5.15,
-        "preco_por_kg": 10.3
+        "preco": 4.99,
+        "preco_por_kg": 9.98
       },
       "arena": {
         "nome": "Tapioca Hidratada Kisabor Pacote 500g",
@@ -1019,9 +1043,9 @@
     {
       "id": "96",
       "goodbom": {
-        "nome": "ÁGUA SANITÁRIA BARBAREX 2L",
-        "preco": 3.99,
-        "preco_por_kg": 2
+        "nome": "ÁGUA SANITÁRIA CANDURA 5L",
+        "preco": 11.49,
+        "preco_por_kg": 2.3
       },
       "tenda": {
         "nome": "Água Sanitária Suprema 2L",
@@ -1178,18 +1202,18 @@
         "preco_por_kg": 40.6
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
-        "preco": 4.49,
-        "preco_por_kg": 37.42
+        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
+        "preco": 2.79,
+        "preco_por_kg": 39.86
       },
       "mais_barato": "Tenda"
     },
     {
       "id": "111",
       "goodbom": {
-        "nome": "SABONETE LÍQUIDO MONANGE F.LAVANDA 240ML",
-        "preco": 8.99,
-        "preco_por_kg": 37.46
+        "nome": "SABONETE LÍQUIDO ANTIBACTERIANO PROTEX CREAM 650ML",
+        "preco": 25.99,
+        "preco_por_kg": 39.98
       },
       "tenda": {
         "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
@@ -1337,8 +1361,8 @@
       },
       "tenda": {
         "nome": "Bisnaguinha Kim 300g",
-        "preco": 4.99,
-        "preco_por_kg": 16.63
+        "preco": 4.85,
+        "preco_por_kg": 16.17
       },
       "arena": {
         "nome": "Pão Bisnaguinha Bauducco 260g",
