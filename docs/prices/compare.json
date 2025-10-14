@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "983.75",
-  "totalTenda": "892.24",
-  "totalArena": "684.40",
-  "totalSavegnago": "842.16",
+  "totalGoodbom": "993.18",
+  "totalTenda": "900.46",
+  "totalArena": "688.87",
+  "totalSavegnago": "853.48",
   "encontradosGoodbom": 83,
-  "encontradosTenda": 84,
+  "encontradosTenda": 85,
   "encontradosArena": 78,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -309,9 +309,9 @@
         "preco_por_kg": 6.99
       },
       "arena": {
-        "nome": "Repolho Verde Kg",
-        "preco": 4.89,
-        "preco_por_kg": 4.89
+        "nome": "Repolho Roxo Kg",
+        "preco": 2.98,
+        "preco_por_kg": 2.98
       },
       "savegnago": {
         "nome": "Repolho Verde 2Kg",
@@ -358,8 +358,8 @@
       },
       "arena": {
         "nome": "Iogurte Desnatado Batavo Pense Zero Zero Lactose Mamão 1,150kg",
-        "preco": 16.99,
-        "preco_por_kg": 0.11
+        "preco": 6.98,
+        "preco_por_kg": 0.05
       },
       "savegnago": {
         "nome": "Mamão Formosa - 1kg",
@@ -406,8 +406,8 @@
       },
       "arena": {
         "nome": "Suco Pomares Néctar Uva 1,35l",
-        "preco": 12.59,
-        "preco_por_kg": 0.36
+        "preco": 1.59,
+        "preco_por_kg": 0.05
       },
       "savegnago": {
         "nome": "Refrigerante Fanta 2l Pet Uva",
@@ -573,9 +573,9 @@
         "preco_por_kg": 10.94
       },
       "arena": {
-        "nome": "Batata Congelada Mccain Tradicional 2kg",
+        "nome": "Batata Congelada Bem Brasil Dadinho Com Queijo - 1,05kg",
         "preco": 4.49,
-        "preco_por_kg": 2.25
+        "preco_por_kg": 0.9
       },
       "savegnago": {
         "nome": "Batata Congelada Bem Brasil Palito Mais Batata 2kg",
@@ -669,9 +669,9 @@
         "preco_por_kg": 4
       },
       "arena": {
-        "nome": "Arroz Tipo 1 Puro & Nobre Pacote 5kg",
-        "preco": 16.59,
-        "preco_por_kg": 3.32
+        "nome": "Arroz Tipo 1 Saboroso Agulhinha Pacote 5kg",
+        "preco": 15.99,
+        "preco_por_kg": 3.2
       },
       "savegnago": {
         "nome": "Arroz Pop Branco Tipo 1 5Kg",
@@ -701,6 +701,30 @@
         "nome": "Feijão Preto Serrazul 1kg",
         "preco": 4.99,
         "preco_por_kg": 4.99
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "66",
+      "goodbom": {
+        "nome": "ÓLEO DE SOJA VITALIV PET 900ML",
+        "preco": 8.49,
+        "preco_por_kg": 9.43
+      },
+      "tenda": {
+        "nome": "Óleo de Soja Cocamar 900ml",
+        "preco": 7.4,
+        "preco_por_kg": 8.22
+      },
+      "arena": {
+        "nome": "Óleo De Soja Vila Velha Galão 18l",
+        "preco": 148,
+        "preco_por_kg": 8.22
+      },
+      "savegnago": {
+        "nome": "Óleo de Soja Soya Pet 900ml",
+        "preco": 7.99,
+        "preco_por_kg": 8.88
       },
       "mais_barato": "Tenda"
     },
@@ -1178,9 +1202,9 @@
         "preco_por_kg": 40.6
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
-        "preco": 4.49,
-        "preco_por_kg": 37.42
+        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
+        "preco": 2.79,
+        "preco_por_kg": 39.86
       },
       "mais_barato": "Tenda"
     },
