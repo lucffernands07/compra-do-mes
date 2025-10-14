@@ -1,8 +1,8 @@
 {
-  "totalGoodbom": "1040.54",
-  "totalTenda": "836.86",
-  "totalArena": "650.09",
-  "totalSavegnago": "804.54",
+  "totalGoodbom": "986.76",
+  "totalTenda": "864.87",
+  "totalArena": "643.06",
+  "totalSavegnago": "799.32",
   "encontradosGoodbom": 84,
   "encontradosTenda": 85,
   "encontradosArena": 78,
@@ -26,42 +26,18 @@
         "preco_por_kg": 21.84
       },
       "savegnago": {
-        "nome": "Linguiça Calabresa Aurora 400g Defumada",
-        "preco": 12.7,
-        "preco_por_kg": 31.75
+        "nome": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
+        "preco": 11.95,
+        "preco_por_kg": 23.9
       },
       "mais_barato": "Arena"
     },
     {
-      "id": "4",
-      "goodbom": {
-        "nome": "HAMBÚRGUER DE CARNE BOVINA WAGYU SWIFT 165G",
-        "preco": 15.9,
-        "preco_por_kg": 96.36
-      },
-      "tenda": {
-        "nome": "Hambúrguer de Carne Bovina Sadia 113g",
-        "preco": 4.09,
-        "preco_por_kg": 36.19
-      },
-      "arena": {
-        "nome": "Hambúrguer De Carne Bovina Air Fryer Seara 150g",
-        "preco": 6.29,
-        "preco_por_kg": 41.93
-      },
-      "savegnago": {
-        "nome": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
-        "preco": 23.7,
-        "preco_por_kg": 35.27
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
       "id": "5",
       "goodbom": {
-        "nome": "LINGUIÇA TOSCANA AURORA KG",
-        "preco": 19.99,
-        "preco_por_kg": 19.99
+        "nome": "LINGUIÇA TOSCANA SEARA KG",
+        "preco": 18.99,
+        "preco_por_kg": 18.99
       },
       "tenda": {
         "nome": "Linguiça Toscana Fina Apimentada Sabor de Bragança 500g",
@@ -83,9 +59,9 @@
     {
       "id": "6",
       "goodbom": {
-        "nome": "SALSICHA HOT DOG AURORA KG",
-        "preco": 10.99,
-        "preco_por_kg": 10.99
+        "nome": "SALSICHA HOT DOG SEARA KG",
+        "preco": 8.99,
+        "preco_por_kg": 8.99
       },
       "tenda": {
         "nome": "Salsicha Hot Dog Aurora 500g",
@@ -102,7 +78,7 @@
         "preco": 10.7,
         "preco_por_kg": 21.4
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "7",
@@ -444,8 +420,8 @@
       "id": "39",
       "goodbom": {
         "nome": "MARGARINA DORIANA SEM SAL 500G",
-        "preco": 8.99,
-        "preco_por_kg": 17.98
+        "preco": 8.49,
+        "preco_por_kg": 16.98
       },
       "tenda": {
         "nome": "Margarina com Sal Dualis 500g",
@@ -636,8 +612,8 @@
       "id": "52",
       "goodbom": {
         "nome": "ARROZ INTEGRAL BROTO LEGAL 1KG",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
+        "preco": 5.59,
+        "preco_por_kg": 5.59
       },
       "tenda": {
         "nome": "Arroz Tipo 1 Select 1Kg",
@@ -1010,7 +986,7 @@
         "preco_por_kg": 7.99
       },
       "savegnago": {
-        "nome": "Limpador Perfumado Casa&Perfume 1L Agradable",
+        "nome": "Limpador Perfumado Casa&Perfume 1L Amable",
         "preco": 8.95,
         "preco_por_kg": 8.95
       },
@@ -1303,6 +1279,30 @@
         "preco_por_kg": 14.25
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "118",
+      "goodbom": {
+        "nome": "ANTISSÉPTICO LISTERINE COOL MINT 1L",
+        "preco": 46.98,
+        "preco_por_kg": 46.98
+      },
+      "tenda": {
+        "nome": "Solução Bucal Cool Mint Listerine 250ml",
+        "preco": 16.05,
+        "preco_por_kg": 64.2
+      },
+      "arena": {
+        "nome": "Antisséptico Listerine Cool Mint Leve Mais Por Menos 1l",
+        "preco": 34.9,
+        "preco_por_kg": 34.9
+      },
+      "savegnago": {
+        "nome": "Antisséptico Bucal Listerine Cool Mint 500ml Leve Mais Pague Menos",
+        "preco": 18.95,
+        "preco_por_kg": 37.9
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "119",
