@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "950.04",
-  "totalTenda": "890.25",
-  "totalArena": "685.17",
-  "totalSavegnago": "850.62",
+  "totalGoodbom": "867.67",
+  "totalTenda": "867.66",
+  "totalArena": "650.69",
+  "totalSavegnago": "831.54",
   "encontradosGoodbom": 83,
-  "encontradosTenda": 85,
+  "encontradosTenda": 84,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -31,30 +31,6 @@
         "preco_por_kg": 23.9
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "4",
-      "goodbom": {
-        "nome": "HAMBÚRGUER DE CARNE BOVINA WAGYU SWIFT 165G",
-        "preco": 15.9,
-        "preco_por_kg": 96.36
-      },
-      "tenda": {
-        "nome": "Hambúrguer de Carne Bovina Sadia 113g",
-        "preco": 4.09,
-        "preco_por_kg": 36.19
-      },
-      "arena": {
-        "nome": "Hambúrguer De Carne Bovina Air Fryer Seara 150g",
-        "preco": 6.29,
-        "preco_por_kg": 41.93
-      },
-      "savegnago": {
-        "nome": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
-        "preco": 23.7,
-        "preco_por_kg": 35.27
-      },
-      "mais_barato": "Savegnago"
     },
     {
       "id": "5",
@@ -161,8 +137,8 @@
       },
       "tenda": {
         "nome": "Beterraba Saco 1Kg",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
+        "preco": 1.99,
+        "preco_por_kg": 1.99
       },
       "arena": {
         "nome": "Beterraba Kg",
@@ -174,7 +150,7 @@
         "preco": 3.55,
         "preco_por_kg": 3.55
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "26",
@@ -362,9 +338,9 @@
         "preco_por_kg": 0.11
       },
       "savegnago": {
-        "nome": "Mamão Papaya Golden 1,2Kg",
+        "nome": "Mamão Formosa - 1kg",
         "preco": 1.59,
-        "preco_por_kg": 1.33
+        "preco_por_kg": 1.59
       },
       "mais_barato": "Arena"
     },
@@ -410,9 +386,9 @@
         "preco_por_kg": 0.36
       },
       "savegnago": {
-        "nome": "Refrigerante Fanta 2l Pet Uva",
-        "preco": 6.99,
-        "preco_por_kg": 3.5
+        "nome": "Ades Frutas Sabor Uva TP 1L",
+        "preco": 8.65,
+        "preco_por_kg": 8.65
       },
       "mais_barato": "Arena"
     },
@@ -967,6 +943,30 @@
         "preco_por_kg": 15.95
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "88",
+      "goodbom": {
+        "nome": "DESINFETANTE LYSOFORM CITRUS 2L",
+        "preco": 27.99,
+        "preco_por_kg": 13.99
+      },
+      "tenda": {
+        "nome": "Desinfetante Lysoform Suave 1L",
+        "preco": 15.6,
+        "preco_por_kg": 15.6
+      },
+      "arena": {
+        "nome": "Desinfetante Lysoform Lavanda 2l",
+        "preco": 14.9,
+        "preco_por_kg": 7.45
+      },
+      "savegnago": {
+        "nome": "Desinfetante Líquido Lysoform Lavanda 2L",
+        "preco": 21.56,
+        "preco_por_kg": 10.78
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "89",
