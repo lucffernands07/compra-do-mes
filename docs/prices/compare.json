@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "945.46",
-  "totalTenda": "866.61",
-  "totalArena": "655.95",
-  "totalSavegnago": "821.71",
+  "totalGoodbom": "1086.03",
+  "totalTenda": "889.97",
+  "totalArena": "684.32",
+  "totalSavegnago": "854.29",
   "encontradosGoodbom": 83,
-  "encontradosTenda": 79,
+  "encontradosTenda": 84,
   "encontradosArena": 78,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -338,9 +338,9 @@
         "preco_por_kg": 0.05
       },
       "savegnago": {
-        "nome": "Mamão Formosa - 1kg",
+        "nome": "Mamão Papaya Golden 1,2Kg",
         "preco": 1.59,
-        "preco_por_kg": 1.59
+        "preco_por_kg": 1.33
       },
       "mais_barato": "Arena"
     },
@@ -352,9 +352,9 @@
         "preco_por_kg": 3.99
       },
       "tenda": {
-        "nome": "Banana Prata Unidade",
-        "preco": 1.5,
-        "preco_por_kg": 1.5
+        "nome": "Banana Nanica Unidade",
+        "preco": 0.91,
+        "preco_por_kg": 0.91
       },
       "arena": {
         "nome": "Banana Nanica Kg",
@@ -389,6 +389,30 @@
         "nome": "Refrigerante Fanta 2l Pet Uva",
         "preco": 6.99,
         "preco_por_kg": 3.5
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "37",
+      "goodbom": {
+        "nome": "MAÇÃ PACOTE 1KG",
+        "preco": 8.99,
+        "preco_por_kg": 8.99
+      },
+      "tenda": {
+        "nome": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
+        "preco": 1.85,
+        "preco_por_kg": 1.85
+      },
+      "arena": {
+        "nome": "Suco Maguary Seleção Maça Pet 1,35l",
+        "preco": 15.99,
+        "preco_por_kg": 0.46
+      },
+      "savegnago": {
+        "nome": "Maçã Fuji Kg",
+        "preco": 2.29,
+        "preco_por_kg": 2.29
       },
       "mais_barato": "Arena"
     },
@@ -971,9 +995,9 @@
     {
       "id": "90",
       "goodbom": {
-        "nome": "LIMPADOR PERFUMADO YPÊ CHÁ BRANCO 2L",
-        "preco": 16.99,
-        "preco_por_kg": 8.49
+        "nome": "LIMPADOR PERFUMADO COALA BAMBU 120ML",
+        "preco": 12.99,
+        "preco_por_kg": 108.25
       },
       "tenda": {
         "nome": "Limpador Perfumado Ypê Chá Branco 1 Litro",
@@ -991,6 +1015,30 @@
         "preco_por_kg": 8.95
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "96",
+      "goodbom": {
+        "nome": "ÁGUA SANITÁRIA CANDURA 5L",
+        "preco": 11.49,
+        "preco_por_kg": 2.3
+      },
+      "tenda": {
+        "nome": "Água Sanitária Suprema 2L",
+        "preco": 3.25,
+        "preco_por_kg": 1.63
+      },
+      "arena": {
+        "nome": "Água Sanitária Candura 5l",
+        "preco": 3.99,
+        "preco_por_kg": 0.8
+      },
+      "savegnago": {
+        "nome": "Água Sanitária Fazenda Esperança 2L",
+        "preco": 4.55,
+        "preco_por_kg": 2.27
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "100",
@@ -1043,9 +1091,9 @@
     {
       "id": "103",
       "goodbom": {
-        "nome": "DESINFETANTE BARBAREX JASMIN 5L",
-        "preco": 12.99,
-        "preco_por_kg": 2.6
+        "nome": "DESINFETANTE SANOL LAVANDA 2L",
+        "preco": 5.99,
+        "preco_por_kg": 3
       },
       "tenda": {
         "nome": "Desinfetante Lavanda Select 2L",
@@ -1279,6 +1327,54 @@
         "preco_por_kg": 37.9
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "119",
+      "goodbom": {
+        "nome": "BISNAGUINHA SEVEN BOYS TRADICIONAL 300G",
+        "preco": 6.49,
+        "preco_por_kg": 21.63
+      },
+      "tenda": {
+        "nome": "Bisnaguinha Kim 300g",
+        "preco": 4.85,
+        "preco_por_kg": 16.17
+      },
+      "arena": {
+        "nome": "Pão Bisnaguinha Bauducco 260g",
+        "preco": 5.49,
+        "preco_por_kg": 21.12
+      },
+      "savegnago": {
+        "nome": "Bisnaguinha Pullman 300g",
+        "preco": 6.99,
+        "preco_por_kg": 23.3
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "121",
+      "goodbom": {
+        "nome": "FUBÁ MIMOSO KISABOR 1KG",
+        "preco": 7.49,
+        "preco_por_kg": 7.49
+      },
+      "tenda": {
+        "nome": "Fubá Mimoso PQ 500g",
+        "preco": 2.15,
+        "preco_por_kg": 4.3
+      },
+      "arena": {
+        "nome": "Fubá Kisabor Mimoso 1kg",
+        "preco": 5.99,
+        "preco_por_kg": 5.99
+      },
+      "savegnago": {
+        "nome": "Fuba Mimoso Siamar 500g",
+        "preco": 2.49,
+        "preco_por_kg": 4.98
+      },
+      "mais_barato": "Tenda"
     }
   ]
 }
