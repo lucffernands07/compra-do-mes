@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "1006.71",
-  "totalTenda": "763.14",
-  "totalArena": "600.63",
-  "totalSavegnago": "761.87",
-  "encontradosGoodbom": 74,
+  "totalGoodbom": "1085.11",
+  "totalTenda": "863.47",
+  "totalArena": "688.97",
+  "totalSavegnago": "837.66",
+  "encontradosGoodbom": 84,
   "encontradosTenda": 86,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -149,6 +149,174 @@
         "nome": "Vagem Irmãos Pimenta Bandeja 300g",
         "preco": 6,
         "preco_por_kg": 20
+      },
+      "mais_barato": "Goodbom"
+    },
+    {
+      "id": "24",
+      "goodbom": {
+        "nome": "BETERRABA KG",
+        "preco": 2.99,
+        "preco_por_kg": 2.99
+      },
+      "tenda": {
+        "nome": "Beterraba Saco 1Kg",
+        "preco": 1.99,
+        "preco_por_kg": 1.99
+      },
+      "arena": {
+        "nome": "Beterraba Kg",
+        "preco": 4.79,
+        "preco_por_kg": 4.79
+      },
+      "savegnago": {
+        "nome": "Beterraba 1Kg",
+        "preco": 3.55,
+        "preco_por_kg": 3.55
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "26",
+      "goodbom": {
+        "nome": "CHÁ REAL ANIS CURCUMA/GENGIBRE 10 SACHES",
+        "preco": 6.98,
+        "preco_por_kg": 6.98
+      },
+      "tenda": {
+        "nome": "Gengibre Unidade",
+        "preco": 1.48,
+        "preco_por_kg": 1.48
+      },
+      "arena": {
+        "nome": "Chá Verde Natural Tea Laranja E Gengibre 1l",
+        "preco": 6.59,
+        "preco_por_kg": 6.59
+      },
+      "savegnago": {
+        "nome": "Cápsula de Chá 3 Corações verde com limão e gengibre 10 Unidades",
+        "preco": 6.75,
+        "preco_por_kg": 6.75
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "27",
+      "goodbom": {
+        "nome": "CENOURA KG",
+        "preco": 2.99,
+        "preco_por_kg": 2.99
+      },
+      "tenda": {
+        "nome": "Iogurte Natural Laranja, Cenoura e Mel Frutap 150g",
+        "preco": 2.79,
+        "preco_por_kg": 18.6
+      },
+      "arena": {
+        "nome": "Cenoura Kg",
+        "preco": 4.49,
+        "preco_por_kg": 4.49
+      },
+      "savegnago": {
+        "nome": "Cenoura 1Kg",
+        "preco": 2.95,
+        "preco_por_kg": 2.95
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
+      "id": "29",
+      "goodbom": {
+        "nome": "MANDIOQUINHA KG",
+        "preco": 8.99,
+        "preco_por_kg": 8.99
+      },
+      "tenda": {
+        "nome": "Mandioquinha Unidade",
+        "preco": 1.79,
+        "preco_por_kg": 1.79
+      },
+      "arena": {
+        "nome": "Mandioquinha Kg",
+        "preco": 25.9,
+        "preco_por_kg": 25.9
+      },
+      "savegnago": {
+        "nome": "Caldo Swift 350g Mandioquinha com Frango",
+        "preco": 2.69,
+        "preco_por_kg": 7.69
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "30",
+      "goodbom": {
+        "nome": "CHEIRO VERDE MAÇO",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "tenda": {
+        "nome": "Cheiro Verde Maço Unidade",
+        "preco": 4.29,
+        "preco_por_kg": 4.29
+      },
+      "arena": {
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.7,
+        "preco_por_kg": 3.7
+      },
+      "savegnago": {
+        "nome": "Cheiro Verde Organico Solo Vivo",
+        "preco": 8.59,
+        "preco_por_kg": 8.59
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "31",
+      "goodbom": {
+        "nome": "SEMENTE FELTRIN ALFACE CRESPA",
+        "preco": 2.49,
+        "preco_por_kg": 2.49
+      },
+      "tenda": {
+        "nome": "Alface Crespa Unidade",
+        "preco": 0.99,
+        "preco_por_kg": 0.99
+      },
+      "arena": {
+        "nome": "Alface Roxa Jw Unid.",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
+      },
+      "savegnago": {
+        "nome": "Alface Crespa Felicio Maço",
+        "preco": 3.75,
+        "preco_por_kg": 3.75
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "32",
+      "goodbom": {
+        "nome": "REPOLHO LISO KG",
+        "preco": 1.99,
+        "preco_por_kg": 1.99
+      },
+      "tenda": {
+        "nome": "Repolho Roxo Unidade",
+        "preco": 6.99,
+        "preco_por_kg": 6.99
+      },
+      "arena": {
+        "nome": "Repolho Verde Kg",
+        "preco": 3.98,
+        "preco_por_kg": 3.98
+      },
+      "savegnago": {
+        "nome": "Repolho Verde 2Kg",
+        "preco": 5.9,
+        "preco_por_kg": 2.95
       },
       "mais_barato": "Goodbom"
     },
@@ -1034,9 +1202,9 @@
         "preco_por_kg": 40.6
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
-        "preco": 4.49,
-        "preco_por_kg": 37.42
+        "nome": "Creme Dental Sorriso Dentes Brancos 120g Preço Especial",
+        "preco": 4.69,
+        "preco_por_kg": 39.08
       },
       "mais_barato": "Tenda"
     },
@@ -1159,6 +1327,30 @@
         "preco_por_kg": 14.25
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "118",
+      "goodbom": {
+        "nome": "ANTISSÉPTICO LISTERINE COOL MINT 1L",
+        "preco": 46.98,
+        "preco_por_kg": 46.98
+      },
+      "tenda": {
+        "nome": "Solução Bucal Cool Mint Listerine 250ml",
+        "preco": 16.05,
+        "preco_por_kg": 64.2
+      },
+      "arena": {
+        "nome": "Antisséptico Listerine Cool Mint Leve Mais Por Menos 1l",
+        "preco": 34.9,
+        "preco_por_kg": 34.9
+      },
+      "savegnago": {
+        "nome": "Antisséptico Bucal Listerine Cool Mint 500ml Leve Mais Pague Menos",
+        "preco": 18.95,
+        "preco_por_kg": 37.9
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "119",
