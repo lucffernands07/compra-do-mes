@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "1045.13",
-  "totalTenda": "806.89",
-  "totalArena": "643.77",
-  "totalSavegnago": "805.39",
+  "totalGoodbom": "1084.71",
+  "totalTenda": "856.34",
+  "totalArena": "693.60",
+  "totalSavegnago": "832.14",
   "encontradosGoodbom": 84,
   "encontradosTenda": 86,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -319,6 +319,30 @@
         "preco_por_kg": 2.95
       },
       "mais_barato": "Goodbom"
+    },
+    {
+      "id": "33",
+      "goodbom": {
+        "nome": "ALHO DESCASCADO 500G",
+        "preco": 19.99,
+        "preco_por_kg": 39.98
+      },
+      "tenda": {
+        "nome": "Alho Descascado Kamar 200g",
+        "preco": 9.89,
+        "preco_por_kg": 49.45
+      },
+      "arena": {
+        "nome": "Alho Descascado Hortmix 600g",
+        "preco": 29.9,
+        "preco_por_kg": 49.83
+      },
+      "savegnago": {
+        "nome": "Alho descascado Natari 1Kg",
+        "preco": 34.9,
+        "preco_por_kg": 34.9
+      },
+      "mais_barato": "Savegnago"
     },
     {
       "id": "34",
@@ -1091,9 +1115,9 @@
     {
       "id": "103",
       "goodbom": {
-        "nome": "DESINFETANTE SANOL LAVANDA 2L",
-        "preco": 5.99,
-        "preco_por_kg": 3
+        "nome": "DESINFETANTE BARBAREX JASMIN 5L",
+        "preco": 12.99,
+        "preco_por_kg": 2.6
       },
       "tenda": {
         "nome": "Desinfetante Lavanda Select 2L",
@@ -1178,9 +1202,9 @@
         "preco_por_kg": 40.6
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso Tripla Limpeza Completa 70g",
-        "preco": 3.19,
-        "preco_por_kg": 45.57
+        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
+        "preco": 4.49,
+        "preco_por_kg": 37.42
       },
       "mais_barato": "Tenda"
     },
