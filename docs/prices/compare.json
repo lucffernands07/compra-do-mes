@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "1146.53",
-  "totalTenda": "820.36",
-  "totalArena": "660.83",
-  "totalSavegnago": "755.93",
+  "totalGoodbom": "1082.92",
+  "totalTenda": "928.38",
+  "totalArena": "687.72",
+  "totalSavegnago": "819.31",
   "encontradosGoodbom": 84,
-  "encontradosTenda": 85,
+  "encontradosTenda": 84,
   "encontradosArena": 78,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -17,8 +17,8 @@
       },
       "tenda": {
         "nome": "Linguiça Calabresa Brasa 400g",
-        "preco": 11.39,
-        "preco_por_kg": 28.48
+        "preco": 9.9,
+        "preco_por_kg": 24.75
       },
       "arena": {
         "nome": "Linguiça Calabresa Sadia Pacote 5kg",
@@ -74,9 +74,9 @@
         "preco_por_kg": 14.98
       },
       "savegnago": {
-        "nome": "Linguiça Toscana Swift 700g",
-        "preco": 11.95,
-        "preco_por_kg": 17.07
+        "nome": "Linguiça Toscana Aurora Congelada 700g",
+        "preco": 17.9,
+        "preco_por_kg": 25.57
       },
       "mais_barato": "Arena"
     },
@@ -89,8 +89,8 @@
       },
       "tenda": {
         "nome": "Salsicha Hot Dog Aurora 500g",
-        "preco": 8.89,
-        "preco_por_kg": 17.78
+        "preco": 8.99,
+        "preco_por_kg": 17.98
       },
       "arena": {
         "nome": "Salsicha Hot Dog Copacol Granel Kg",
@@ -137,8 +137,8 @@
       },
       "tenda": {
         "nome": "Vagem Macarrão Bandeja 340g",
-        "preco": 4.49,
-        "preco_por_kg": 13.21
+        "preco": 4.99,
+        "preco_por_kg": 14.68
       },
       "arena": {
         "nome": "Vagem Congelada De Marchi 1,02kg",
@@ -249,30 +249,6 @@
       "mais_barato": "Tenda"
     },
     {
-      "id": "30",
-      "goodbom": {
-        "nome": "TEMPERO MAGGI MEU SEGREDO CHEIRO VERDE 49G",
-        "preco": 4.39,
-        "preco_por_kg": 89.59
-      },
-      "tenda": {
-        "nome": "Cheiro Verde Maço Unidade",
-        "preco": 4.29,
-        "preco_por_kg": 4.29
-      },
-      "arena": {
-        "nome": "Cheiro Verde Jw Unid.",
-        "preco": 3.7,
-        "preco_por_kg": 3.7
-      },
-      "savegnago": {
-        "nome": "Cheiro Verde Organico Solo Vivo",
-        "preco": 8.59,
-        "preco_por_kg": 8.59
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "31",
       "goodbom": {
         "nome": "SEMENTE FELTRIN ALFACE CRESPA",
@@ -280,9 +256,9 @@
         "preco_por_kg": 2.49
       },
       "tenda": {
-        "nome": "Alface Crespa Unidade",
-        "preco": 0.99,
-        "preco_por_kg": 0.99
+        "nome": "Alface Roxa Unidade",
+        "preco": 4.49,
+        "preco_por_kg": 4.49
       },
       "arena": {
         "nome": "Alface Roxa Jw Unid.",
@@ -294,7 +270,7 @@
         "preco": 4.5,
         "preco_por_kg": 4.5
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "32",
@@ -425,8 +401,8 @@
       },
       "tenda": {
         "nome": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
-        "preco": 1.5,
-        "preco_por_kg": 1.5
+        "preco": 1.85,
+        "preco_por_kg": 1.85
       },
       "arena": {
         "nome": "Suco Maguary Seleção Maça Pet 1,35l",
@@ -641,8 +617,8 @@
       },
       "tenda": {
         "nome": "Leite Fermentado Patati Patata Frutap 450g",
-        "preco": 5.49,
-        "preco_por_kg": 12.2
+        "preco": 4.79,
+        "preco_por_kg": 10.64
       },
       "arena": {
         "nome": "Leite Fermentado Desnatado Chamyto C/6 Unid. 450g",
@@ -665,8 +641,8 @@
       },
       "tenda": {
         "nome": "Arroz Tipo 1 Select 1Kg",
-        "preco": 4,
-        "preco_por_kg": 4
+        "preco": 3.6,
+        "preco_por_kg": 3.6
       },
       "arena": {
         "nome": "Arroz Tipo 1 Saboroso Agulhinha Pacote 5kg",
@@ -761,8 +737,8 @@
       },
       "tenda": {
         "nome": "Milho Verde Predilecta 170g",
-        "preco": 2.99,
-        "preco_por_kg": 17.59
+        "preco": 2.95,
+        "preco_por_kg": 17.35
       },
       "arena": {
         "nome": "Milho Verde Stella D'Oro Sachê 1,7kg",
@@ -904,9 +880,9 @@
         "preco_por_kg": 18.95
       },
       "tenda": {
-        "nome": "Mistura Láctea Creme de Leite Daus 200g",
-        "preco": 2.05,
-        "preco_por_kg": 10.25
+        "nome": "Mistura Láctea Creme de Leite Mococa 200g",
+        "preco": 1.89,
+        "preco_por_kg": 9.45
       },
       "arena": {
         "nome": "Margarina Delícia Com Creme De Leite Com Sal 1kg",
@@ -929,8 +905,8 @@
       },
       "tenda": {
         "nome": "Chá Matte Natural Leão 10 Sachês",
-        "preco": 3.29,
-        "preco_por_kg": 3.29
+        "preco": 3.49,
+        "preco_por_kg": 3.49
       },
       "arena": {
         "nome": "Chá Branco Natural Tea Lichia 1l",
@@ -942,7 +918,7 @@
         "preco": 4.99,
         "preco_por_kg": 3.33
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "87",
@@ -953,8 +929,8 @@
       },
       "tenda": {
         "nome": "Massa de Tapioca Beijubom 500g",
-        "preco": 4.99,
-        "preco_por_kg": 9.98
+        "preco": 5.15,
+        "preco_por_kg": 10.3
       },
       "arena": {
         "nome": "Tapioca Hidratada Kisabor Pacote 500g",
@@ -1024,9 +1000,9 @@
         "preco_por_kg": 108.25
       },
       "tenda": {
-        "nome": "Limpador Perfumado Ypê Chá Branco 1 Litro",
-        "preco": 7.78,
-        "preco_por_kg": 7.78
+        "nome": "Limpador Perfumado Essência Lavanda Coala 120ml",
+        "preco": 11.95,
+        "preco_por_kg": 99.58
       },
       "arena": {
         "nome": "Limpador Perfumado Ypê Tropical 1l",
@@ -1038,7 +1014,7 @@
         "preco": 17.95,
         "preco_por_kg": 8.97
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "96",
@@ -1048,14 +1024,14 @@
         "preco_por_kg": 2.3
       },
       "tenda": {
-        "nome": "Água Sanitária Suprema 2L",
+        "nome": "Água Sanitária Select 1L",
         "preco": 3.25,
-        "preco_por_kg": 1.63
+        "preco_por_kg": 3.25
       },
       "arena": {
-        "nome": "Água Sanitária Candura 5l",
-        "preco": 3.99,
-        "preco_por_kg": 0.8
+        "nome": "Água Sanitária Barbarex 5l",
+        "preco": 10.99,
+        "preco_por_kg": 2.2
       },
       "savegnago": {
         "nome": "Água Sanitária Fazenda Esperança 2L",
@@ -1144,9 +1120,9 @@
         "preco_por_kg": 2.99
       },
       "tenda": {
-        "nome": "Esponja de Aço Bombril 60g 8 unidades",
-        "preco": 2.5,
-        "preco_por_kg": 41.67
+        "nome": "Esponja de Aço Eco Bombril 45g 6 Unidades",
+        "preco": 1.95,
+        "preco_por_kg": 43.33
       },
       "arena": {
         "nome": "Esponja Bombril Multi Uso Leve 4 Pague 3 Unid.",
@@ -1193,8 +1169,8 @@
       },
       "tenda": {
         "nome": "Creme Dental Ice Clean 70g",
-        "preco": 1.3,
-        "preco_por_kg": 18.57
+        "preco": 1.1,
+        "preco_por_kg": 15.71
       },
       "arena": {
         "nome": "Creme Dental Sorriso Dentes Brancos Tamanho Família 180g",
@@ -1241,8 +1217,8 @@
       },
       "tenda": {
         "nome": "Sabonete Ypê Siene Rosas Vermelhas 85g",
-        "preco": 1,
-        "preco_por_kg": 11.76
+        "preco": 1.1,
+        "preco_por_kg": 12.94
       },
       "arena": {
         "nome": "Sabonete Ypê Siene Lavanda 85g",
@@ -1253,6 +1229,30 @@
         "nome": "Sabonete Palmolive Naturals Hidratação Refrescante Melancia e Lichia 150g",
         "preco": 3.6,
         "preco_por_kg": 24
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "114",
+      "goodbom": {
+        "nome": "GEL FIXADOR TRIBAL AZUL 500G",
+        "preco": 12.99,
+        "preco_por_kg": 25.98
+      },
+      "tenda": {
+        "nome": "Gel Fixador Incolor Soft Fix 250g",
+        "preco": 4.9,
+        "preco_por_kg": 19.6
+      },
+      "arena": {
+        "nome": "Gel Fixador Megafix Azul Mega 260g",
+        "preco": 7.59,
+        "preco_por_kg": 29.19
+      },
+      "savegnago": {
+        "nome": "Gel Fixador Clear 300g Controle Caspa",
+        "preco": 19.04,
+        "preco_por_kg": 63.47
       },
       "mais_barato": "Tenda"
     },
