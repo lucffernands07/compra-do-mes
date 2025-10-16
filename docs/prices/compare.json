@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "1071.27",
-  "totalTenda": "925.73",
-  "totalArena": "683.09",
-  "totalSavegnago": "813.88",
+  "totalGoodbom": "1050.31",
+  "totalTenda": "932.62",
+  "totalArena": "690.23",
+  "totalSavegnago": "824.16",
   "encontradosGoodbom": 83,
-  "encontradosTenda": 84,
+  "encontradosTenda": 85,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -59,7 +59,7 @@
     {
       "id": "5",
       "goodbom": {
-        "nome": "LINGUIÇA TOSCANA AURORA KG",
+        "nome": "LINGUIÇA TOSCANA SEARA KG",
         "preco": 19.99,
         "preco_por_kg": 19.99
       },
@@ -107,9 +107,9 @@
     {
       "id": "7",
       "goodbom": {
-        "nome": "SOBRECOXA DE FRANGO SWIFT 1KG",
-        "preco": 14.5,
-        "preco_por_kg": 14.5
+        "nome": "SOBRECOXA KG",
+        "preco": 12.99,
+        "preco_por_kg": 12.99
       },
       "tenda": {
         "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
@@ -156,8 +156,8 @@
       "id": "24",
       "goodbom": {
         "nome": "BETERRABA KG",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
+        "preco": 2.99,
+        "preco_por_kg": 2.99
       },
       "tenda": {
         "nome": "Beterraba Saco 1Kg",
@@ -174,7 +174,7 @@
         "preco": 3.55,
         "preco_por_kg": 3.55
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "26",
@@ -204,8 +204,8 @@
       "id": "27",
       "goodbom": {
         "nome": "CENOURA KG",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
+        "preco": 2.99,
+        "preco_por_kg": 2.99
       },
       "tenda": {
         "nome": "Cenoura Bandeja 500g",
@@ -300,8 +300,8 @@
       "id": "32",
       "goodbom": {
         "nome": "REPOLHO LISO KG",
-        "preco": 2.99,
-        "preco_por_kg": 2.99
+        "preco": 1.99,
+        "preco_por_kg": 1.99
       },
       "tenda": {
         "nome": "Repolho Verde Unidade",
@@ -318,7 +318,7 @@
         "preco": 5.9,
         "preco_por_kg": 2.95
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "33",
@@ -372,8 +372,8 @@
       "id": "35",
       "goodbom": {
         "nome": "BANANA NANICA KG",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
+        "preco": 7.99,
+        "preco_por_kg": 7.99
       },
       "tenda": {
         "nome": "Banana Nanica Unidade",
@@ -410,9 +410,9 @@
         "preco_por_kg": 0.05
       },
       "savegnago": {
-        "nome": "Ades Frutas Sabor Uva TP 1L",
-        "preco": 8.65,
-        "preco_por_kg": 8.65
+        "nome": "Refrigerante Fanta 2l Pet Uva",
+        "preco": 6.99,
+        "preco_por_kg": 3.5
       },
       "mais_barato": "Arena"
     },
@@ -468,8 +468,8 @@
       "id": "39",
       "goodbom": {
         "nome": "MARGARINA DORIANA SEM SAL 500G",
-        "preco": 8.49,
-        "preco_por_kg": 16.98
+        "preco": 6.49,
+        "preco_por_kg": 12.98
       },
       "tenda": {
         "nome": "Margarina com Sal Dualis 500g",
@@ -491,9 +491,9 @@
     {
       "id": "42",
       "goodbom": {
-        "nome": "PIZZA MUSSARELA GB.KG",
-        "preco": 39.99,
-        "preco_por_kg": 39.99
+        "nome": "QUEIJO MUSSARELA PEÇA KG",
+        "preco": 34.99,
+        "preco_por_kg": 34.99
       },
       "tenda": {
         "nome": "Queijo Mussarela Apolo Fatiado 200g",
@@ -510,14 +510,14 @@
         "preco": 16.99,
         "preco_por_kg": 38.61
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "43",
       "goodbom": {
-        "nome": "PRESUNTO COZIDO SEARA SEM CAPA KG",
-        "preco": 28.9,
-        "preco_por_kg": 28.9
+        "nome": "PRESUNTO COZIDO PERDIGÃO KG",
+        "preco": 27.9,
+        "preco_por_kg": 27.9
       },
       "tenda": {
         "nome": "Presunto Cozido Fatiado Seara 180g",
@@ -825,11 +825,35 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "76",
+      "goodbom": {
+        "nome": "MAIONESE TRADICIONAL LIZA 450G",
+        "preco": 7.49,
+        "preco_por_kg": 16.64
+      },
+      "tenda": {
+        "nome": "Maionese Mariana 1kg",
+        "preco": 6.89,
+        "preco_por_kg": 6.89
+      },
+      "arena": {
+        "nome": "Maionese Saúde Balde 3kg",
+        "preco": 19.9,
+        "preco_por_kg": 6.63
+      },
+      "savegnago": {
+        "nome": "Maionese Hellmann's Tradicional 600gr",
+        "preco": 9.26,
+        "preco_por_kg": 15.43
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "77",
       "goodbom": {
         "nome": "MOSTARDA CEPERA 1010G",
-        "preco": 13.99,
-        "preco_por_kg": 13.85
+        "preco": 8.99,
+        "preco_por_kg": 8.9
       },
       "tenda": {
         "nome": "Mostarda Tradicional Quero 190g",
@@ -851,9 +875,9 @@
     {
       "id": "78",
       "goodbom": {
-        "nome": "LEITE CONDENSADO SEMIDESNATADO TRIANGULO 395G TP",
-        "preco": 6.59,
-        "preco_por_kg": 16.68
+        "nome": "LEITE CONDENSADO SEMIDESNATADO PIRACANJUBA 395G TP",
+        "preco": 5.99,
+        "preco_por_kg": 15.16
       },
       "tenda": {
         "nome": "Leite Condensado Semidesnatado Campos do Jordão 395g",
@@ -876,8 +900,8 @@
       "id": "79",
       "goodbom": {
         "nome": "CREME DE LEITE SHEFA 200G TP",
-        "preco": 3.79,
-        "preco_por_kg": 18.95
+        "preco": 2.99,
+        "preco_por_kg": 14.95
       },
       "tenda": {
         "nome": "Mistura Láctea Creme de Leite Mococa 200g",
@@ -1091,9 +1115,9 @@
     {
       "id": "103",
       "goodbom": {
-        "nome": "DESINFETANTE BARBAREX JASMIN 5L",
-        "preco": 12.99,
-        "preco_por_kg": 2.6
+        "nome": "DESINFETANTE CANDURA HERBAL 2L",
+        "preco": 4.79,
+        "preco_por_kg": 2.4
       },
       "tenda": {
         "nome": "Desinfetante Lavanda Select 2L",
@@ -1187,9 +1211,9 @@
     {
       "id": "111",
       "goodbom": {
-        "nome": "SABONETE LÍQUIDO MONANGE F.LAVANDA 240ML",
-        "preco": 8.99,
-        "preco_por_kg": 37.46
+        "nome": "SABONETE LÍQUIDO LUX GARDENIA REFIL 200ML",
+        "preco": 6.99,
+        "preco_por_kg": 34.95
       },
       "tenda": {
         "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
@@ -1211,9 +1235,9 @@
     {
       "id": "112",
       "goodbom": {
-        "nome": "SABONETE LUX SUAVE LIRIO AZUL 125G",
-        "preco": 4.29,
-        "preco_por_kg": 34.32
+        "nome": "SABONETE LUX GARDENIA 85G",
+        "preco": 1.99,
+        "preco_por_kg": 23.41
       },
       "tenda": {
         "nome": "Sabonete Ypê Siene Rosas Vermelhas 85g",
@@ -1341,9 +1365,9 @@
         "preco_por_kg": 16.17
       },
       "arena": {
-        "nome": "Pão Bisnaguinha Bauducco 260g",
-        "preco": 5.49,
-        "preco_por_kg": 21.12
+        "nome": "Pão Bisnaguinha De Panes 300g",
+        "preco": 6.49,
+        "preco_por_kg": 21.63
       },
       "savegnago": {
         "nome": "Bisnaguinha Pullman 300g",
