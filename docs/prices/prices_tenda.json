@@ -1,5 +1,26 @@
 [
   {
+    "id": 2,
+    "supermercado": "Tenda",
+    "produto": "Bacon Pedaço Sadia 500g",
+    "preco": 14.45,
+    "preco_por_kg": 28.9
+  },
+  {
+    "id": 3,
+    "supermercado": "Tenda",
+    "produto": "Linguiça Calabresa Brasa 400g",
+    "preco": 9.9,
+    "preco_por_kg": 24.75
+  },
+  {
+    "id": 4,
+    "supermercado": "Tenda",
+    "produto": "Hambúrguer de Carne Bovina Sadia 113g",
+    "preco": 4.09,
+    "preco_por_kg": 36.19
+  },
+  {
     "id": 5,
     "supermercado": "Tenda",
     "produto": "Linguiça Toscana Congelada Pérola 500g",
@@ -112,9 +133,16 @@
     "preco_por_kg": 1.79
   },
   {
+    "id": 30,
+    "supermercado": "Tenda",
+    "produto": "Cheiro Verde Maço Unidade",
+    "preco": 4.29,
+    "preco_por_kg": 4.29
+  },
+  {
     "id": 31,
     "supermercado": "Tenda",
-    "produto": "Alface Roxa Unidade",
+    "produto": "Alface Mimosa Unidade",
     "preco": 4.49,
     "preco_por_kg": 4.49
   },
@@ -380,9 +408,9 @@
   {
     "id": 80,
     "supermercado": "Tenda",
-    "produto": "Cápsula de Café Torrado e Moído Espresso Dolce Gusto Nescafé 6g 10 Unidades",
+    "produto": "Cápsula de Café Torrado e Moído Caffè Matinal Nescafé Dolce Gusto 80g 10 Unidades",
     "preco": 16.9,
-    "preco_por_kg": 2816.67
+    "preco_por_kg": 211.25
   },
   {
     "id": 81,
@@ -397,6 +425,20 @@
     "produto": "Chá Matte Natural Leão 10 Sachês",
     "preco": 3.49,
     "preco_por_kg": 3.49
+  },
+  {
+    "id": 87,
+    "supermercado": "Tenda",
+    "produto": "Massa de Tapioca Beijubom 500g",
+    "preco": 5.15,
+    "preco_por_kg": 10.3
+  },
+  {
+    "id": 88,
+    "supermercado": "Tenda",
+    "produto": "Desinfetante Lysoform Suave 1L",
+    "preco": 15.6,
+    "preco_por_kg": 15.6
   },
   {
     "id": 89,
@@ -418,6 +460,13 @@
     "produto": "Lâmpada Led 9,0W 6.5K Bivolt Kian",
     "preco": 4.2,
     "preco_por_kg": 4.2
+  },
+  {
+    "id": 96,
+    "supermercado": "Tenda",
+    "produto": "Água Sanitária Select 1L",
+    "preco": 3.25,
+    "preco_por_kg": 3.25
   },
   {
     "id": 100,
@@ -483,11 +532,32 @@
     "preco_por_kg": 12.94
   },
   {
+    "id": 114,
+    "supermercado": "Tenda",
+    "produto": "Gel Fixador Incolor Soft Fix 250g",
+    "preco": 4.9,
+    "preco_por_kg": 19.6
+  },
+  {
     "id": 115,
     "supermercado": "Tenda",
     "produto": "Haste Flexível Johnsons 150un",
     "preco": 13.2,
     "preco_por_kg": 13.2
+  },
+  {
+    "id": 116,
+    "supermercado": "Tenda",
+    "produto": "Lenço Umedecido Care On The Go Neve 16 Unidades",
+    "preco": 6,
+    "preco_por_kg": 6
+  },
+  {
+    "id": 117,
+    "supermercado": "Tenda",
+    "produto": "Algodão Disco Select 50Un",
+    "preco": 6.5,
+    "preco_por_kg": 6.5
   },
   {
     "id": 118,
@@ -502,5 +572,26 @@
     "produto": "Bisnaguinha Kim 300g",
     "preco": 4.85,
     "preco_por_kg": 16.17
+  },
+  {
+    "id": 120,
+    "supermercado": "Tenda",
+    "produto": "Areia para Gatos Putz 4kg",
+    "preco": 10.2,
+    "preco_por_kg": 2.55
+  },
+  {
+    "id": 121,
+    "supermercado": "Tenda",
+    "produto": "Fubá Mimoso PQ 500g",
+    "preco": 2.15,
+    "preco_por_kg": 4.3
+  },
+  {
+    "id": 122,
+    "supermercado": "Tenda",
+    "produto": "Alimento para Gatos Sabor Atum Whiskas 85g",
+    "preco": 2.5,
+    "preco_por_kg": 29.41
   }
 ]

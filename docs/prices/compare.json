@@ -1,13 +1,61 @@
 {
-  "totalGoodbom": "797.40",
-  "totalTenda": "801.84",
-  "totalArena": "525.56",
-  "totalSavegnago": "639.98",
+  "totalGoodbom": "1087.92",
+  "totalTenda": "932.62",
+  "totalArena": "689.72",
+  "totalSavegnago": "836.64",
   "encontradosGoodbom": 84,
-  "encontradosTenda": 72,
+  "encontradosTenda": 85,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
   "produtos": [
+    {
+      "id": "3",
+      "goodbom": {
+        "nome": "LINGUIÇA CALABRESA CERATTI FATIADO 100G",
+        "preco": 10.39,
+        "preco_por_kg": 103.9
+      },
+      "tenda": {
+        "nome": "Linguiça Calabresa Brasa 400g",
+        "preco": 9.9,
+        "preco_por_kg": 24.75
+      },
+      "arena": {
+        "nome": "Linguiça Calabresa Sadia Pacote 5kg",
+        "preco": 109.19,
+        "preco_por_kg": 21.84
+      },
+      "savegnago": {
+        "nome": "Linguiça Calabresa Aurora 400g Defumada",
+        "preco": 12.7,
+        "preco_por_kg": 31.75
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "4",
+      "goodbom": {
+        "nome": "HAMBÚRGUER DE CARNE BOVINA WAGYU SWIFT 165G",
+        "preco": 15.9,
+        "preco_por_kg": 96.36
+      },
+      "tenda": {
+        "nome": "Hambúrguer de Carne Bovina Sadia 113g",
+        "preco": 4.09,
+        "preco_por_kg": 36.19
+      },
+      "arena": {
+        "nome": "Hambúrguer De Carne Bovina Air Fryer Seara 150g",
+        "preco": 6.29,
+        "preco_por_kg": 41.93
+      },
+      "savegnago": {
+        "nome": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
+        "preco": 17.9,
+        "preco_por_kg": 26.64
+      },
+      "mais_barato": "Savegnago"
+    },
     {
       "id": "5",
       "goodbom": {
@@ -201,6 +249,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "30",
+      "goodbom": {
+        "nome": "CHEIRO VERDE MAÇO",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "tenda": {
+        "nome": "Cheiro Verde Maço Unidade",
+        "preco": 4.29,
+        "preco_por_kg": 4.29
+      },
+      "arena": {
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.7,
+        "preco_por_kg": 3.7
+      },
+      "savegnago": {
+        "nome": "Cheiro Verde Organico Solo Vivo",
+        "preco": 8.59,
+        "preco_por_kg": 8.59
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "31",
       "goodbom": {
         "nome": "SEMENTE FELTRIN ALFACE CRESPA",
@@ -208,7 +280,7 @@
         "preco_por_kg": 2.49
       },
       "tenda": {
-        "nome": "Alface Roxa Unidade",
+        "nome": "Alface Mimosa Unidade",
         "preco": 4.49,
         "preco_por_kg": 4.49
       },
@@ -218,9 +290,9 @@
         "preco_por_kg": 3.99
       },
       "savegnago": {
-        "nome": "Alface Crespa Org Solo Vivo",
-        "preco": 4.5,
-        "preco_por_kg": 4.5
+        "nome": "Alface Crespa Felicio Maço",
+        "preco": 3.75,
+        "preco_por_kg": 3.75
       },
       "mais_barato": "Goodbom"
     },
@@ -411,8 +483,8 @@
       },
       "savegnago": {
         "nome": "Margarina Qualy 500g Com Sal",
-        "preco": 6.9,
-        "preco_por_kg": 13.8
+        "preco": 7.99,
+        "preco_por_kg": 15.98
       },
       "mais_barato": "Arena"
     },
@@ -873,6 +945,54 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "87",
+      "goodbom": {
+        "nome": "GOMA MANDIOCA TAPIOCA AKIO 320G",
+        "preco": 3.69,
+        "preco_por_kg": 11.53
+      },
+      "tenda": {
+        "nome": "Massa de Tapioca Beijubom 500g",
+        "preco": 5.15,
+        "preco_por_kg": 10.3
+      },
+      "arena": {
+        "nome": "Tapioca Hidratada Kisabor Pacote 500g",
+        "preco": 5.99,
+        "preco_por_kg": 11.98
+      },
+      "savegnago": {
+        "nome": "Goma Pronta Tapioca Tradicional Siamar 1kg",
+        "preco": 15.95,
+        "preco_por_kg": 15.95
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "88",
+      "goodbom": {
+        "nome": "DESINFETANTE LYSOFORM CITRUS 2L",
+        "preco": 27.99,
+        "preco_por_kg": 13.99
+      },
+      "tenda": {
+        "nome": "Desinfetante Lysoform Suave 1L",
+        "preco": 15.6,
+        "preco_por_kg": 15.6
+      },
+      "arena": {
+        "nome": "Desinfetante Lysoform Original 2l",
+        "preco": 24.89,
+        "preco_por_kg": 12.45
+      },
+      "savegnago": {
+        "nome": "Desinfetante Lysoform Lavanda 1 litro",
+        "preco": 10.32,
+        "preco_por_kg": 10.32
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "89",
       "goodbom": {
         "nome": "ALCOOL SAFRA 46,2° 1L",
@@ -917,6 +1037,30 @@
         "nome": "Limpador Perfumado Veja Lavanda da França - 2L",
         "preco": 17.95,
         "preco_por_kg": 8.97
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "96",
+      "goodbom": {
+        "nome": "ÁGUA SANITÁRIA CANDURA 5L",
+        "preco": 11.49,
+        "preco_por_kg": 2.3
+      },
+      "tenda": {
+        "nome": "Água Sanitária Select 1L",
+        "preco": 3.25,
+        "preco_por_kg": 3.25
+      },
+      "arena": {
+        "nome": "Água Sanitária Barbarex 5l",
+        "preco": 10.99,
+        "preco_por_kg": 2.2
+      },
+      "savegnago": {
+        "nome": "Água Sanitária Fazenda Esperança 2L",
+        "preco": 4.55,
+        "preco_por_kg": 2.27
       },
       "mais_barato": "Arena"
     },
@@ -1106,9 +1250,81 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Palmolive Naturals Hidratação Refrescante Melancia e Lichia 150g",
-        "preco": 3.6,
-        "preco_por_kg": 24
+        "nome": "Sabonete Lux Botanicals Buque de Jasmim 85gr",
+        "preco": 2.18,
+        "preco_por_kg": 25.65
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "114",
+      "goodbom": {
+        "nome": "GEL FIXADOR TRIBAL AZUL 500G",
+        "preco": 12.99,
+        "preco_por_kg": 25.98
+      },
+      "tenda": {
+        "nome": "Gel Fixador Incolor Soft Fix 250g",
+        "preco": 4.9,
+        "preco_por_kg": 19.6
+      },
+      "arena": {
+        "nome": "Gel Fixador Megafix Azul Mega 260g",
+        "preco": 7.59,
+        "preco_por_kg": 29.19
+      },
+      "savegnago": {
+        "nome": "Gel Fixador Clear 300g Controle Caspa",
+        "preco": 19.04,
+        "preco_por_kg": 63.47
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "116",
+      "goodbom": {
+        "nome": "LENÇO UMEDECIDO INTIMUS C/16",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
+      },
+      "tenda": {
+        "nome": "Lenço Umedecido Care On The Go Neve 16 Unidades",
+        "preco": 6,
+        "preco_por_kg": 6
+      },
+      "arena": {
+        "nome": "Lenço Umedecido Lysoform Original C/ 36 Unid.",
+        "preco": 23.99,
+        "preco_por_kg": 23.99
+      },
+      "savegnago": {
+        "nome": "Lenço Umedecido Huggies Rosto e Corpo com 48 unidades",
+        "preco": 12.96,
+        "preco_por_kg": 12.96
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "117",
+      "goodbom": {
+        "nome": "ALGODAO TOPZ DISCO 50 UNID.",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
+      },
+      "tenda": {
+        "nome": "Algodão Disco Select 50Un",
+        "preco": 6.5,
+        "preco_por_kg": 6.5
+      },
+      "arena": {
+        "nome": "Algodão Disco Bellacotton C/ 50 Unid.",
+        "preco": 10.89,
+        "preco_por_kg": 10.89
+      },
+      "savegnago": {
+        "nome": "Amaciante Roupa Vida Macia Glicerina E Algodão 1L",
+        "preco": 14.25,
+        "preco_por_kg": 14.25
       },
       "mais_barato": "Tenda"
     },
@@ -1159,6 +1375,30 @@
         "preco_por_kg": 23.3
       },
       "mais_barato": "Goodbom"
+    },
+    {
+      "id": "121",
+      "goodbom": {
+        "nome": "FUBÁ MIMOSO KISABOR 1KG",
+        "preco": 7.49,
+        "preco_por_kg": 7.49
+      },
+      "tenda": {
+        "nome": "Fubá Mimoso PQ 500g",
+        "preco": 2.15,
+        "preco_por_kg": 4.3
+      },
+      "arena": {
+        "nome": "Fubá Kisabor Mimoso 1kg",
+        "preco": 5.99,
+        "preco_por_kg": 5.99
+      },
+      "savegnago": {
+        "nome": "Fuba Mimoso Siamar 500g",
+        "preco": 3.69,
+        "preco_por_kg": 7.38
+      },
+      "mais_barato": "Tenda"
     }
   ]
 }
