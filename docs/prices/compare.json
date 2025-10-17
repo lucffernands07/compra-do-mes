@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "1053.26",
-  "totalTenda": "1256.21",
-  "totalArena": "689.77",
-  "totalSavegnago": "822.71",
+  "totalGoodbom": "1065.25",
+  "totalTenda": "1253.79",
+  "totalArena": "685.27",
+  "totalSavegnago": "807.55",
   "encontradosGoodbom": 83,
-  "encontradosTenda": 84,
+  "encontradosTenda": 85,
   "encontradosArena": 77,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -74,9 +74,9 @@
         "preco_por_kg": 14.98
       },
       "savegnago": {
-        "nome": "Linguiça Toscana Aurora Congelada 700g",
-        "preco": 17.9,
-        "preco_por_kg": 25.57
+        "nome": "Linguiça Toscana Mini Camari 1Kg",
+        "preco": 20.95,
+        "preco_por_kg": 20.95
       },
       "mais_barato": "Arena"
     },
@@ -98,9 +98,9 @@
         "preco_por_kg": 8.99
       },
       "savegnago": {
-        "nome": "Salsicha Defumada Perdigão 500g 12 Unidades",
-        "preco": 10.7,
-        "preco_por_kg": 21.4
+        "nome": "Salsicha Hot Dog Aurora 500g",
+        "preco": 9.75,
+        "preco_por_kg": 19.5
       },
       "mais_barato": "Goodbom"
     },
@@ -417,6 +417,30 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "37",
+      "goodbom": {
+        "nome": "MAÇÃ PACOTE 1KG",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
+      },
+      "tenda": {
+        "nome": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
+        "preco": 1.85,
+        "preco_por_kg": 1.85
+      },
+      "arena": {
+        "nome": "Suco Maguary Seleção Maça Pet 1,35l",
+        "preco": 15.99,
+        "preco_por_kg": 0.46
+      },
+      "savegnago": {
+        "nome": "Maçã Gala - 1kg",
+        "preco": 2.29,
+        "preco_por_kg": 2.29
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "38",
       "goodbom": {
         "nome": "REFRIGERANTE BIOLEVE ZERO MEXERICA 1,5L",
@@ -496,9 +520,9 @@
         "preco_por_kg": 27.9
       },
       "tenda": {
-        "nome": "Presunto Cozido Fatiado Seara 180g",
-        "preco": 8.09,
-        "preco_por_kg": 44.94
+        "nome": "Presunto Cozido sem Capa de Gordura Fatiado Frimesa 200g",
+        "preco": 6.69,
+        "preco_por_kg": 33.45
       },
       "arena": {
         "nome": "Presunto Cozido Pamplona Sem Capa De Gordura Peça Kg",
@@ -688,9 +712,9 @@
         "preco_por_kg": 8.88
       },
       "tenda": {
-        "nome": "Óleo de Soja Soya Pet 900ml",
-        "preco": 7.19,
-        "preco_por_kg": 7.99
+        "nome": "Óleo de Soja Cocamar 900ml",
+        "preco": 7.4,
+        "preco_por_kg": 8.22
       },
       "arena": {
         "nome": "Óleo De Soja Vila Velha Refinado Bag 18l",
@@ -722,9 +746,9 @@
         "preco_por_kg": 2.39
       },
       "savegnago": {
-        "nome": "Vinagre Galo de Barcelos 750ml Álcool",
-        "preco": 2.75,
-        "preco_por_kg": 3.67
+        "nome": "Vinagre Belmont 750ml Álcool Colorido",
+        "preco": 2.09,
+        "preco_por_kg": 2.79
       },
       "mais_barato": "Arena"
     },
@@ -808,9 +832,9 @@
         "preco_por_kg": 16.64
       },
       "tenda": {
-        "nome": "Maionese Mariana 1kg",
-        "preco": 6.89,
-        "preco_por_kg": 6.89
+        "nome": "Maionese Arisco Tradicional 500 GR",
+        "preco": 7.39,
+        "preco_por_kg": 14.78
       },
       "arena": {
         "nome": "Maionese Saúde Balde 3kg",
@@ -938,9 +962,9 @@
         "preco_por_kg": 11.98
       },
       "savegnago": {
-        "nome": "Goma Pronta Tapioca Tradicional Siamar 1kg",
-        "preco": 15.95,
-        "preco_por_kg": 15.95
+        "nome": "Goma Pronta Tapioca Da Terrinha 1kg",
+        "preco": 15.85,
+        "preco_por_kg": 15.85
       },
       "mais_barato": "Tenda"
     },
@@ -981,7 +1005,7 @@
         "preco_por_kg": 6.5
       },
       "arena": {
-        "nome": "Álcool Duratto Limpador Uso Geral Lavanda 1l",
+        "nome": "Álcool Duratto Limpador Uso Geral Neutro 1l",
         "preco": 5.89,
         "preco_por_kg": 5.89
       },
@@ -1005,9 +1029,9 @@
         "preco_por_kg": 9.9
       },
       "arena": {
-        "nome": "Limpador Perfumado Ypê Tropical 1l",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
+        "nome": "Limpador Perfumado Casa & Perfume Agradable 2lt",
+        "preco": 13.49,
+        "preco_por_kg": 6.75
       },
       "savegnago": {
         "nome": "Limpador Perfumado Veja Lavanda da França - 2L",
@@ -1024,14 +1048,14 @@
         "preco_por_kg": 3
       },
       "tenda": {
-        "nome": "Água Sanitária Select 1L",
-        "preco": 3.25,
-        "preco_por_kg": 3.25
+        "nome": "Água Sanitária Ypê 1L - Alveja - Desinfeta - Bactericida",
+        "preco": 3,
+        "preco_por_kg": 3
       },
       "arena": {
-        "nome": "Água Sanitária Barbarex 5l",
-        "preco": 10.99,
-        "preco_por_kg": 2.2
+        "nome": "Água Sanitária Bio-Kriss 2l",
+        "preco": 3.75,
+        "preco_por_kg": 1.88
       },
       "savegnago": {
         "nome": "Água Sanitária Fazenda Esperança 2L",
@@ -1150,8 +1174,8 @@
       },
       "arena": {
         "nome": "Papel Higiênico Familiar Folha Dupla 30m C/ 4 Rolos",
-        "preco": 6.59,
-        "preco_por_kg": 6.59
+        "preco": 7.39,
+        "preco_por_kg": 7.39
       },
       "savegnago": {
         "nome": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
@@ -1289,13 +1313,13 @@
       },
       "tenda": {
         "nome": "Algodão Disco Select 50Un",
-        "preco": 6.5,
-        "preco_por_kg": 6.5
+        "preco": 5.85,
+        "preco_por_kg": 5.85
       },
       "arena": {
-        "nome": "Algodão Disco Bellacotton C/ 50 Unid.",
-        "preco": 10.89,
-        "preco_por_kg": 10.89
+        "nome": "Algodão Disco Bellacotton Leve 100 Pague 80 Unid.",
+        "preco": 6.69,
+        "preco_por_kg": 6.69
       },
       "savegnago": {
         "nome": "Amaciante Roupa Vida Macia Glicerina E Algodão 1L",
@@ -1322,11 +1346,11 @@
         "preco_por_kg": 34.9
       },
       "savegnago": {
-        "nome": "Enxaguante Bucal Sem Álcool Listerine 1L Cool Mint",
-        "preco": 37.9,
-        "preco_por_kg": 37.9
+        "nome": "Enxaguante Bucal Listerine Cool Mint 1L",
+        "preco": 27.95,
+        "preco_por_kg": 27.95
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "119",
