@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "1046.23",
-  "totalTenda": "1154.40",
-  "totalArena": "670.18",
-  "totalSavegnago": "766.56",
+  "totalGoodbom": "1056.98",
+  "totalTenda": "1204.29",
+  "totalArena": "675.71",
+  "totalSavegnago": "775.55",
   "encontradosGoodbom": 84,
-  "encontradosTenda": 84,
+  "encontradosTenda": 83,
   "encontradosArena": 77,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -674,9 +674,9 @@
         "preco_por_kg": 1.1
       },
       "savegnago": {
-        "nome": "Arroz Agulhinha 4r 5kg Tipo1",
-        "preco": 15.9,
-        "preco_por_kg": 3.18
+        "nome": "Arroz Pop Branco Tipo 1 5Kg",
+        "preco": 14.9,
+        "preco_por_kg": 2.98
       },
       "mais_barato": "Arena"
     },
@@ -703,30 +703,6 @@
         "preco_por_kg": 4.99
       },
       "mais_barato": "Tenda"
-    },
-    {
-      "id": "66",
-      "goodbom": {
-        "nome": "ÓLEO DE SOJA LIZA PET 900ML",
-        "preco": 7.99,
-        "preco_por_kg": 8.88
-      },
-      "tenda": {
-        "nome": "Óleo de Soja Cocamar 900ml",
-        "preco": 7.4,
-        "preco_por_kg": 8.22
-      },
-      "arena": {
-        "nome": "Óleo De Soja Vila Velha Refinado Bag 18l",
-        "preco": 135.9,
-        "preco_por_kg": 7.55
-      },
-      "savegnago": {
-        "nome": "Óleo de Soja Soya Pet 900ml",
-        "preco": 8.09,
-        "preco_por_kg": 8.99
-      },
-      "mais_barato": "Arena"
     },
     {
       "id": "67",
@@ -821,6 +797,30 @@
         "nome": "Açúcar Mascavo Rosa Lima 500g",
         "preco": 6.49,
         "preco_por_kg": 12.98
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "76",
+      "goodbom": {
+        "nome": "MAIONESE TRADICIONAL LIZA 450G",
+        "preco": 7.49,
+        "preco_por_kg": 16.64
+      },
+      "tenda": {
+        "nome": "Maionese Arisco Tradicional 500 GR",
+        "preco": 7.39,
+        "preco_por_kg": 14.78
+      },
+      "arena": {
+        "nome": "Maionese Saúde Sachê 1kg",
+        "preco": 7.49,
+        "preco_por_kg": 7.49
+      },
+      "savegnago": {
+        "nome": "Maionese Hellmann's Tradicional 600gr",
+        "preco": 9.26,
+        "preco_por_kg": 15.43
       },
       "mais_barato": "Arena"
     },
@@ -1113,6 +1113,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "105",
+      "goodbom": {
+        "nome": "LÃ ACO BOMBRIL C/6",
+        "preco": 2.99,
+        "preco_por_kg": 2.99
+      },
+      "tenda": {
+        "nome": "Esponja de Aço Eco Bombril 45g 6 Unidades",
+        "preco": 1.95,
+        "preco_por_kg": 43.33
+      },
+      "arena": {
+        "nome": "Esponja Bombril Multi Uso Leve 4 Pague 3 Unid.",
+        "preco": 5.59,
+        "preco_por_kg": 5.59
+      },
+      "savegnago": {
+        "nome": "Lã De Aço Bombril Com 6 Unidades",
+        "preco": 2.75,
+        "preco_por_kg": 2.75
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "107",
       "goodbom": {
         "nome": "PAPEL HIGIÊNICO FOLHA DUPLA DUETTO NEUTRO C/4",
@@ -1202,7 +1226,7 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Palmolive Naturals Frescor Purificante 150g",
+        "nome": "Sabonete Palmolive Naturals 150g Argila e Eucalipto",
         "preco": 3.6,
         "preco_por_kg": 24
       },
