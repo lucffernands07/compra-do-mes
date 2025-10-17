@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "1056.98",
-  "totalTenda": "1204.29",
-  "totalArena": "675.71",
-  "totalSavegnago": "775.55",
+  "totalGoodbom": "1065.86",
+  "totalTenda": "1212.51",
+  "totalArena": "682.65",
+  "totalSavegnago": "783.83",
   "encontradosGoodbom": 84,
-  "encontradosTenda": 83,
+  "encontradosTenda": 85,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -285,9 +285,9 @@
         "preco_por_kg": 4.49
       },
       "arena": {
-        "nome": "Alface Crespa Unid.",
-        "preco": 4.69,
-        "preco_por_kg": 4.69
+        "nome": "Alface Roxa Jw Unid.",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "savegnago": {
         "nome": "Alface Crespa Felicio Maço",
@@ -309,9 +309,9 @@
         "preco_por_kg": 6.99
       },
       "arena": {
-        "nome": "Repolho Verde Kg",
-        "preco": 4.89,
-        "preco_por_kg": 4.89
+        "nome": "Repolho Roxo Kg",
+        "preco": 4.98,
+        "preco_por_kg": 4.98
       },
       "savegnago": {
         "nome": "Repolho Verde 2Kg",
@@ -703,6 +703,30 @@
         "preco_por_kg": 4.99
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "66",
+      "goodbom": {
+        "nome": "ÓLEO DE SOJA LIZA PET 900ML",
+        "preco": 7.99,
+        "preco_por_kg": 8.88
+      },
+      "tenda": {
+        "nome": "Óleo de Soja Cocamar 900ml",
+        "preco": 7.4,
+        "preco_por_kg": 8.22
+      },
+      "arena": {
+        "nome": "Óleo De Soja Vila Velha Refinado Bag 18l",
+        "preco": 135.9,
+        "preco_por_kg": 7.55
+      },
+      "savegnago": {
+        "nome": "Óleo de Soja Liza Pet 900ml",
+        "preco": 7.45,
+        "preco_por_kg": 8.28
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "67",
@@ -1226,7 +1250,7 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Palmolive Naturals 150g Argila e Eucalipto",
+        "nome": "Sabonete Palmolive Naturals Toque Nutritivo Framboesa e Amora 150g",
         "preco": 3.6,
         "preco_por_kg": 24
       },
