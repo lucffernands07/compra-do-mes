@@ -1,9 +1,9 @@
 {
-  "totalGoodbom": "1039.29",
-  "totalTenda": "1203.44",
-  "totalArena": "672.92",
-  "totalSavegnago": "799.22",
-  "encontradosGoodbom": 81,
+  "totalGoodbom": "1066.46",
+  "totalTenda": "1255.95",
+  "totalArena": "678.52",
+  "totalSavegnago": "807.69",
+  "encontradosGoodbom": 83,
   "encontradosTenda": 85,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
@@ -117,7 +117,7 @@
         "preco_por_kg": 8.9
       },
       "arena": {
-        "nome": "Sobrecoxa Congelada Granel Kg",
+        "nome": "Coxa Com Sobrecoxa Frango Familiar Bandeja Kg",
         "preco": 9.98,
         "preco_por_kg": 9.98
       },
@@ -304,9 +304,9 @@
         "preco_por_kg": 1.99
       },
       "tenda": {
-        "nome": "Repolho Verde Unidade",
-        "preco": 5.43,
-        "preco_por_kg": 5.43
+        "nome": "Repolho Roxo Unidade",
+        "preco": 6.99,
+        "preco_por_kg": 6.99
       },
       "arena": {
         "nome": "Repolho Verde Kg",
@@ -365,6 +365,54 @@
         "nome": "Mamão Papaya Golden 1,2Kg",
         "preco": 1.19,
         "preco_por_kg": 0.99
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "35",
+      "goodbom": {
+        "nome": "BANANA NANICA KG",
+        "preco": 7.99,
+        "preco_por_kg": 7.99
+      },
+      "tenda": {
+        "nome": "Banana Nanica Unidade",
+        "preco": 0.91,
+        "preco_por_kg": 0.91
+      },
+      "arena": {
+        "nome": "Açaí Split Todo Dia Banana 1,02kg",
+        "preco": 6.9,
+        "preco_por_kg": 3.45
+      },
+      "savegnago": {
+        "nome": "Banana Prata Bandeja 900g",
+        "preco": 2.99,
+        "preco_por_kg": 3.32
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "36",
+      "goodbom": {
+        "nome": "UVA THOMPSON 500G",
+        "preco": 8.99,
+        "preco_por_kg": 17.98
+      },
+      "tenda": {
+        "nome": "Refresco em Pó Sabor Uva Frisco 18g",
+        "preco": 0.89,
+        "preco_por_kg": 49.44
+      },
+      "arena": {
+        "nome": "Suco Pomares Néctar Uva 1,35l",
+        "preco": 1.59,
+        "preco_por_kg": 0.05
+      },
+      "savegnago": {
+        "nome": "Refrigerante Fanta 2l Pet Uva",
+        "preco": 6.99,
+        "preco_por_kg": 3.5
       },
       "mais_barato": "Arena"
     },
@@ -755,9 +803,9 @@
     {
       "id": "72",
       "goodbom": {
-        "nome": "AÇUCAR MASCAVO NATURAL LIFE 1KG",
-        "preco": 19.98,
-        "preco_por_kg": 19.98
+        "nome": "AÇUCAR MASCAVO NATURAL LIFE 500G",
+        "preco": 10.59,
+        "preco_por_kg": 21.18
       },
       "tenda": {
         "nome": "Paçoquinha com Açúcar Mascavo DaColônia 210g",
@@ -789,9 +837,9 @@
         "preco_por_kg": 14.78
       },
       "arena": {
-        "nome": "Maionese Saúde Balde 3kg",
-        "preco": 19.9,
-        "preco_por_kg": 6.63
+        "nome": "Maionese Saúde Sachê 1kg",
+        "preco": 7.49,
+        "preco_por_kg": 7.49
       },
       "savegnago": {
         "nome": "Maionese Hellmann's Tradicional 600gr",
@@ -981,9 +1029,9 @@
         "preco_por_kg": 9.9
       },
       "arena": {
-        "nome": "Limpador Perfumado Casa & Perfume Agradable 2lt",
-        "preco": 13.49,
-        "preco_por_kg": 6.75
+        "nome": "Limpador Perfumado Ypê Tropical 1l",
+        "preco": 7.99,
+        "preco_por_kg": 7.99
       },
       "savegnago": {
         "nome": "Limpador Perfumado Veja Lavanda da França - 2L",
@@ -1048,9 +1096,9 @@
         "preco_por_kg": 10.98
       },
       "tenda": {
-        "nome": "Limpador Multiuso Original Azulim Squeeze 500ml",
-        "preco": 2.75,
-        "preco_por_kg": 5.5
+        "nome": "Limpador Multiuso Ypê Antibac 500ml",
+        "preco": 3.05,
+        "preco_por_kg": 6.1
       },
       "arena": {
         "nome": "Limpador Multiuso Uau Rosas E Sedução 500ml",
@@ -1202,9 +1250,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Palmolive Naturals Frescor Purificante 150g",
-        "preco": 3.6,
-        "preco_por_kg": 24
+        "nome": "Sabonete Lux Botanicals Buque de Jasmim 85gr",
+        "preco": 2.18,
+        "preco_por_kg": 25.65
       },
       "mais_barato": "Tenda"
     },
@@ -1298,7 +1346,7 @@
         "preco_por_kg": 34.9
       },
       "savegnago": {
-        "nome": "Enxaguante Bucal Listerine Cool Mint 1L",
+        "nome": "Enxaguante Bucal Sem Álcool Listerine 1L Cool Mint",
         "preco": 27.95,
         "preco_por_kg": 27.95
       },
