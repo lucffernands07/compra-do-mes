@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "1066.34",
-  "totalTenda": "1216.34",
-  "totalArena": "678.40",
-  "totalSavegnago": "787.62",
+  "totalGoodbom": "1041.72",
+  "totalTenda": "1156.84",
+  "totalArena": "647.38",
+  "totalSavegnago": "763.22",
   "encontradosGoodbom": 84,
-  "encontradosTenda": 85,
+  "encontradosTenda": 84,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 70,
   "produtos": [
     {
       "id": "3",
@@ -93,7 +93,7 @@
         "preco_por_kg": 17.98
       },
       "arena": {
-        "nome": "Salsicha Hot Dog Copacol Granel Kg",
+        "nome": "Salsicha Hot Dog Nobre Bandeja Kg",
         "preco": 8.99,
         "preco_por_kg": 8.99
       },
@@ -285,7 +285,7 @@
         "preco_por_kg": 4.49
       },
       "arena": {
-        "nome": "Alface Crespa Unid.",
+        "nome": "Alface Crespa Hidropônica Jw Unid.",
         "preco": 4.69,
         "preco_por_kg": 4.69
       },
@@ -549,16 +549,16 @@
         "preco_por_kg": 9.97
       },
       "arena": {
-        "nome": "Mortadela Aurora 1kg",
-        "preco": 12.49,
-        "preco_por_kg": 12.49
+        "nome": "Mortadela Confiança 1 Kg",
+        "preco": 8.69,
+        "preco_por_kg": 8.69
       },
       "savegnago": {
         "nome": "Mortadela Perdigao 1kg Mista",
         "preco": 12.9,
         "preco_por_kg": 12.9
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "45",
@@ -1137,30 +1137,6 @@
       "mais_barato": "Tenda"
     },
     {
-      "id": "105",
-      "goodbom": {
-        "nome": "LÃ ACO BOMBRIL C/6",
-        "preco": 2.99,
-        "preco_por_kg": 2.99
-      },
-      "tenda": {
-        "nome": "Esponja de Aço Eco Bombril 45g 6 Unidades",
-        "preco": 1.95,
-        "preco_por_kg": 43.33
-      },
-      "arena": {
-        "nome": "Esponja Bombril Multi Uso Leve 4 Pague 3 Unid.",
-        "preco": 5.59,
-        "preco_por_kg": 5.59
-      },
-      "savegnago": {
-        "nome": "Lã De Aço Bombril Com 6 Unidades",
-        "preco": 2.75,
-        "preco_por_kg": 2.75
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
       "id": "107",
       "goodbom": {
         "nome": "PAPEL HIGIÊNICO FOLHA DUPLA DUETTO NEUTRO C/4",
@@ -1250,9 +1226,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Palmolive Naturals Frescor Nutritivo Tangerina e Alecrim 150g",
-        "preco": 3.6,
-        "preco_por_kg": 24
+        "nome": "Sabonete Lux Botanicals Buque de Jasmim 85gr",
+        "preco": 2.18,
+        "preco_por_kg": 25.65
       },
       "mais_barato": "Tenda"
     },
@@ -1351,30 +1327,6 @@
         "preco_por_kg": 27.95
       },
       "mais_barato": "Savegnago"
-    },
-    {
-      "id": "119",
-      "goodbom": {
-        "nome": "BISNAGUINHA SEVEN BOYS TRADICIONAL 300G",
-        "preco": 6.49,
-        "preco_por_kg": 21.63
-      },
-      "tenda": {
-        "nome": "Bisnaguinha Kim 300g",
-        "preco": 4.85,
-        "preco_por_kg": 16.17
-      },
-      "arena": {
-        "nome": "Pão Bisnaguinha Pullman 300g",
-        "preco": 6.49,
-        "preco_por_kg": 21.63
-      },
-      "savegnago": {
-        "nome": "Bisnaguinha Pullman 300g",
-        "preco": 6.99,
-        "preco_por_kg": 23.3
-      },
-      "mais_barato": "Tenda"
     },
     {
       "id": "121",
