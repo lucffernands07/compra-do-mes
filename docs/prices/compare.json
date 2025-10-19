@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "1064.35",
-  "totalTenda": "1203.30",
-  "totalArena": "673.61",
-  "totalSavegnago": "784.73",
+  "totalGoodbom": "1066.34",
+  "totalTenda": "1216.34",
+  "totalArena": "678.40",
+  "totalSavegnago": "787.62",
   "encontradosGoodbom": 84,
-  "encontradosTenda": 83,
+  "encontradosTenda": 85,
   "encontradosArena": 77,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -297,6 +297,30 @@
       "mais_barato": "Goodbom"
     },
     {
+      "id": "32",
+      "goodbom": {
+        "nome": "REPOLHO LISO KG",
+        "preco": 1.99,
+        "preco_por_kg": 1.99
+      },
+      "tenda": {
+        "nome": "Repolho Verde Unidade",
+        "preco": 5.43,
+        "preco_por_kg": 5.43
+      },
+      "arena": {
+        "nome": "Repolho Verde Kg",
+        "preco": 4.79,
+        "preco_por_kg": 4.79
+      },
+      "savegnago": {
+        "nome": "Repolho Verde 2Kg",
+        "preco": 5.9,
+        "preco_por_kg": 2.95
+      },
+      "mais_barato": "Goodbom"
+    },
+    {
       "id": "33",
       "goodbom": {
         "nome": "ALHO DESCASCADO 500G",
@@ -376,9 +400,9 @@
         "preco_por_kg": 17.98
       },
       "tenda": {
-        "nome": "Néctar de Uva Nutri Néctar 200ml",
-        "preco": 1.69,
-        "preco_por_kg": 8.45
+        "nome": "Suco Sabor Uva Frut Del Valle 450ml",
+        "preco": 3.29,
+        "preco_por_kg": 7.31
       },
       "arena": {
         "nome": "Suco Pomares Néctar Uva 1,35l",
@@ -400,9 +424,9 @@
         "preco_por_kg": 11.99
       },
       "tenda": {
-        "nome": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
-        "preco": 1.85,
-        "preco_por_kg": 1.85
+        "nome": "Maçã Pink Lady 155g",
+        "preco": 1.55,
+        "preco_por_kg": 10
       },
       "arena": {
         "nome": "Suco Maguary Seleção Maça Pet 1,35l",
@@ -1072,9 +1096,9 @@
         "preco_por_kg": 10.98
       },
       "tenda": {
-        "nome": "Limpador Multiuso Original Azulim Squeeze 500ml",
-        "preco": 2.75,
-        "preco_por_kg": 5.5
+        "nome": "Limpador Multiuso Ypê Antibac 500ml",
+        "preco": 3.05,
+        "preco_por_kg": 6.1
       },
       "arena": {
         "nome": "Limpador Multiuso Uau Rosas E Sedução 500ml",
@@ -1226,9 +1250,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 21.65,
-        "preco_por_kg": 24.06
+        "nome": "Sabonete Palmolive Naturals Frescor Nutritivo Tangerina e Alecrim 150g",
+        "preco": 3.6,
+        "preco_por_kg": 24
       },
       "mais_barato": "Tenda"
     },
