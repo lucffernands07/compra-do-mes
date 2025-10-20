@@ -28,6 +28,13 @@
     "preco_por_kg": 8.9
   },
   {
+    "id": 11,
+    "supermercado": "Tenda",
+    "produto": "Contra Filé Bovino em Bifes Resfriado Bandeja 400g",
+    "preco": 20.76,
+    "preco_por_kg": 51.9
+  },
+  {
     "id": 12,
     "supermercado": "Tenda",
     "produto": "Muscúlo bovino pedaço Resfriado bandeja 400g",
@@ -70,6 +77,13 @@
     "preco_por_kg": 10.89
   },
   {
+    "id": 26,
+    "supermercado": "Tenda",
+    "produto": "Gengibre Unidade",
+    "preco": 1.48,
+    "preco_por_kg": 1.48
+  },
+  {
     "id": 28,
     "supermercado": "Tenda",
     "produto": "Chuchu Unidade",
@@ -77,11 +91,32 @@
     "preco_por_kg": 1.85
   },
   {
+    "id": 30,
+    "supermercado": "Tenda",
+    "produto": "Cheiro Verde Maço Unidade",
+    "preco": 4.29,
+    "preco_por_kg": 4.29
+  },
+  {
     "id": 31,
     "supermercado": "Tenda",
     "produto": "Alface Roxa Unidade",
     "preco": 4.49,
     "preco_por_kg": 4.49
+  },
+  {
+    "id": 33,
+    "supermercado": "Tenda",
+    "produto": "Alho Descascado Kamar 200g",
+    "preco": 9.89,
+    "preco_por_kg": 49.45
+  },
+  {
+    "id": 34,
+    "supermercado": "Tenda",
+    "produto": "Refresco em pó Tang Laranja Mamão 18g",
+    "preco": 1.09,
+    "preco_por_kg": 60.56
   },
   {
     "id": 36,
@@ -96,13 +131,6 @@
     "produto": "Mexerica Murcote 130g",
     "preco": 0.91,
     "preco_por_kg": 7
-  },
-  {
-    "id": 39,
-    "supermercado": "Tenda",
-    "produto": "Margarina com Sal Dualis 500g",
-    "preco": 3.45,
-    "preco_por_kg": 6.9
   },
   {
     "id": 42,
@@ -147,18 +175,11 @@
     "preco_por_kg": 4.95
   },
   {
-    "id": 52,
+    "id": 54,
     "supermercado": "Tenda",
-    "produto": "Arroz Tipo 1 Select 1Kg",
-    "preco": 4,
-    "preco_por_kg": 4
-  },
-  {
-    "id": 53,
-    "supermercado": "Tenda",
-    "produto": "Feijão Carioca 5 Estrelas 1kg",
-    "preco": 4.19,
-    "preco_por_kg": 4.19
+    "produto": "Macarrão de Arroz Espaguete Urbano 500g",
+    "preco": 3.75,
+    "preco_por_kg": 7.5
   },
   {
     "id": 60,
@@ -173,6 +194,13 @@
     "produto": "Biscoito Maisena Mabel 300g",
     "preco": 4.39,
     "preco_por_kg": 14.63
+  },
+  {
+    "id": 67,
+    "supermercado": "Tenda",
+    "produto": "Vinagre de Álcool Neval 750ml",
+    "preco": 2.05,
+    "preco_por_kg": 2.73
   },
   {
     "id": 69,
@@ -196,6 +224,13 @@
     "preco_por_kg": 51.19
   },
   {
+    "id": 74,
+    "supermercado": "Tenda",
+    "produto": "Suco Concentrado de Caju Maguary 500ml",
+    "preco": 5.19,
+    "preco_por_kg": 10.38
+  },
+  {
     "id": 75,
     "supermercado": "Tenda",
     "produto": "Catchup Tradicional Quero 400g",
@@ -217,11 +252,11 @@
     "preco_por_kg": 30.47
   },
   {
-    "id": 79,
+    "id": 78,
     "supermercado": "Tenda",
-    "produto": "Mistura Láctea Creme de Leite Daus 200g",
-    "preco": 1.99,
-    "preco_por_kg": 9.95
+    "produto": "Leite Condensado Semidesnatado Campos do Jordão 395g",
+    "preco": 4.59,
+    "preco_por_kg": 11.62
   },
   {
     "id": 80,
@@ -231,13 +266,6 @@
     "preco_por_kg": 22.65
   },
   {
-    "id": 87,
-    "supermercado": "Tenda",
-    "produto": "Massa de Tapioca Tradicional Select 500g",
-    "preco": 6.49,
-    "preco_por_kg": 12.98
-  },
-  {
     "id": 88,
     "supermercado": "Tenda",
     "produto": "Desinfetante Lysoform Suave 1L",
@@ -245,11 +273,25 @@
     "preco_por_kg": 15.6
   },
   {
+    "id": 89,
+    "supermercado": "Tenda",
+    "produto": "Álcool Líquido Tradicional 46,2 INPM Flops 500ml",
+    "preco": 3.25,
+    "preco_por_kg": 6.5
+  },
+  {
     "id": 90,
     "supermercado": "Tenda",
     "produto": "Limpador Perfumado Essência Eucalipto Citriodora Coala 120ml",
     "preco": 11.95,
     "preco_por_kg": 99.58
+  },
+  {
+    "id": 93,
+    "supermercado": "Tenda",
+    "produto": "Lâmpada Led 9,0W 6.5K Bivolt Kian",
+    "preco": 4.2,
+    "preco_por_kg": 4.2
   },
   {
     "id": 100,
@@ -292,6 +334,13 @@
     "produto": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
     "preco": 6.5,
     "preco_por_kg": 13
+  },
+  {
+    "id": 112,
+    "supermercado": "Tenda",
+    "produto": "Sabonete Ypê Siene Rosas Vermelhas 85g",
+    "preco": 1.1,
+    "preco_por_kg": 12.94
   },
   {
     "id": 115,
