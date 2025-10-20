@@ -1,31 +1,10 @@
 [
   {
-    "id": 3,
-    "supermercado": "Savegnago",
-    "produto": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
-    "preco": 10.45,
-    "preco_por_kg": 20.9
-  },
-  {
-    "id": 4,
-    "supermercado": "Savegnago",
-    "produto": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
-    "preco": 22.9,
-    "preco_por_kg": 34.08
-  },
-  {
-    "id": 5,
-    "supermercado": "Savegnago",
-    "produto": "Linguiça Toscana Aurora Congelada 700g",
-    "preco": 17.9,
-    "preco_por_kg": 25.57
-  },
-  {
     "id": 6,
     "supermercado": "Savegnago",
-    "produto": "Salsicha Hot Dog Swift 500g",
-    "preco": 10.5,
-    "preco_por_kg": 21
+    "produto": "Salsicha Hot Dog Aurora 500g",
+    "preco": 6.99,
+    "preco_por_kg": 13.98
   },
   {
     "id": 7,
@@ -40,6 +19,13 @@
     "produto": "Contra Filé Bovino Peça Vácuo 3,5kg",
     "preco": 99.9,
     "preco_por_kg": 28.54
+  },
+  {
+    "id": 13,
+    "supermercado": "Savegnago",
+    "produto": "Ovo Branco Grande Coag Com 12",
+    "preco": 7.9,
+    "preco_por_kg": 7.9
   },
   {
     "id": 22,
@@ -77,6 +63,20 @@
     "preco_por_kg": 2.95
   },
   {
+    "id": 29,
+    "supermercado": "Savegnago",
+    "produto": "Caldo Swift 350g Mandioquinha com Frango",
+    "preco": 3.79,
+    "preco_por_kg": 10.83
+  },
+  {
+    "id": 31,
+    "supermercado": "Savegnago",
+    "produto": "Alface Crespa Felicio Maço",
+    "preco": 3.75,
+    "preco_por_kg": 3.75
+  },
+  {
     "id": 32,
     "supermercado": "Savegnago",
     "produto": "Repolho Verde 2Kg",
@@ -91,11 +91,32 @@
     "preco_por_kg": 34.9
   },
   {
+    "id": 34,
+    "supermercado": "Savegnago",
+    "produto": "Mamão Formosa - 1kg",
+    "preco": 1.59,
+    "preco_por_kg": 1.59
+  },
+  {
     "id": 35,
     "supermercado": "Savegnago",
-    "produto": "Banana Prata Bandeja 900g",
+    "produto": "Banana Terra Bandeja 600g",
     "preco": 2.99,
-    "preco_por_kg": 3.32
+    "preco_por_kg": 4.98
+  },
+  {
+    "id": 36,
+    "supermercado": "Savegnago",
+    "produto": "Refrigerante Fanta 2l Pet Uva",
+    "preco": 7.65,
+    "preco_por_kg": 3.83
+  },
+  {
+    "id": 37,
+    "supermercado": "Savegnago",
+    "produto": "Maçã Fuji Kg",
+    "preco": 2.29,
+    "preco_por_kg": 2.29
   },
   {
     "id": 38,
@@ -105,6 +126,41 @@
     "preco_por_kg": 4.17
   },
   {
+    "id": 39,
+    "supermercado": "Savegnago",
+    "produto": "Margarina Claybom 500g Com Sal",
+    "preco": 5.99,
+    "preco_por_kg": 11.98
+  },
+  {
+    "id": 42,
+    "supermercado": "Savegnago",
+    "produto": "Pizza Frango com Requeijão e Mussarela Sadia 460g",
+    "preco": 17.9,
+    "preco_por_kg": 38.91
+  },
+  {
+    "id": 43,
+    "supermercado": "Savegnago",
+    "produto": "Lasanha de presunto e queijo Seara 600g",
+    "preco": 17.9,
+    "preco_por_kg": 29.83
+  },
+  {
+    "id": 44,
+    "supermercado": "Savegnago",
+    "produto": "Mortadela mini Confiança",
+    "preco": 13.9,
+    "preco_por_kg": 13.9
+  },
+  {
+    "id": 45,
+    "supermercado": "Savegnago",
+    "produto": "Batata Congelada Bem Brasil Palito Mais Batata 2kg",
+    "preco": 35.9,
+    "preco_por_kg": 17.95
+  },
+  {
     "id": 47,
     "supermercado": "Savegnago",
     "produto": "Farinha Mandioca Siamar 1k Grossa",
@@ -112,11 +168,32 @@
     "preco_por_kg": 10.65
   },
   {
+    "id": 49,
+    "supermercado": "Savegnago",
+    "produto": "Água de Coco Ducoco 200ml",
+    "preco": 1.87,
+    "preco_por_kg": 9.35
+  },
+  {
+    "id": 52,
+    "supermercado": "Savegnago",
+    "produto": "Arroz Agulhinha Serrazul 5kg Tipo 1",
+    "preco": 17.9,
+    "preco_por_kg": 3.58
+  },
+  {
     "id": 53,
     "supermercado": "Savegnago",
     "produto": "Feijão Carioca Serrazul 1KG",
     "preco": 4.85,
     "preco_por_kg": 4.85
+  },
+  {
+    "id": 66,
+    "supermercado": "Savegnago",
+    "produto": "Óleo de Soja Soya Pet 900ml",
+    "preco": 8.09,
+    "preco_por_kg": 8.99
   },
   {
     "id": 67,
@@ -133,11 +210,11 @@
     "preco_por_kg": 17.17
   },
   {
-    "id": 74,
+    "id": 72,
     "supermercado": "Savegnago",
-    "produto": "Suco Concentrado Tropical Dafruta Abacaxi 950ml",
-    "preco": 8.49,
-    "preco_por_kg": 8.94
+    "produto": "Açúcar Mascavo Rosa Lima 500g",
+    "preco": 6.49,
+    "preco_por_kg": 12.98
   },
   {
     "id": 75,
@@ -161,11 +238,18 @@
     "preco_por_kg": 25.11
   },
   {
-    "id": 80,
+    "id": 78,
     "supermercado": "Savegnago",
-    "produto": "Cápsula de Café Portinari Peneirando Café 1957 3 Corações 10 unid",
-    "preco": 24.95,
-    "preco_por_kg": 24.95
+    "produto": "Leite Condensado TP Semidesnatado Italac 395g",
+    "preco": 6.99,
+    "preco_por_kg": 17.7
+  },
+  {
+    "id": 82,
+    "supermercado": "Savegnago",
+    "produto": "Chá Lipton Ice Tea Limão 1,5L Garrafa",
+    "preco": 4.99,
+    "preco_por_kg": 3.33
   },
   {
     "id": 84,
@@ -185,22 +269,15 @@
     "id": 89,
     "supermercado": "Savegnago",
     "produto": "Álcool Start 46° 1L",
-    "preco": 12.07,
-    "preco_por_kg": 12.07
+    "preco": 15.8,
+    "preco_por_kg": 15.8
   },
   {
-    "id": 90,
+    "id": 93,
     "supermercado": "Savegnago",
-    "produto": "Limpador Perfumado Veja Lavanda da França - 2L",
-    "preco": 17.95,
-    "preco_por_kg": 8.97
-  },
-  {
-    "id": 96,
-    "supermercado": "Savegnago",
-    "produto": "Água Sanitária Fazenda Esperança 2L",
-    "preco": 4.55,
-    "preco_por_kg": 2.27
+    "produto": "Lâmpada Led Taschibra TKL90 15W 6500K",
+    "preco": 8.99,
+    "preco_por_kg": 8.99
   },
   {
     "id": 97,
@@ -217,6 +294,20 @@
     "preco_por_kg": 5.18
   },
   {
+    "id": 101,
+    "supermercado": "Savegnago",
+    "produto": "Limpador Multiuso Veja Gold Original 750ml Embalagem Econômica",
+    "preco": 6.25,
+    "preco_por_kg": 8.33
+  },
+  {
+    "id": 103,
+    "supermercado": "Savegnago",
+    "produto": "Desinfetante Triex 2L Aromas Da Noite",
+    "preco": 5.59,
+    "preco_por_kg": 2.79
+  },
+  {
     "id": 104,
     "supermercado": "Savegnago",
     "produto": "Bucha Parafuso Com 10 N6",
@@ -231,10 +322,59 @@
     "preco_por_kg": 2.75
   },
   {
+    "id": 107,
+    "supermercado": "Savegnago",
+    "produto": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
+    "preco": 16.9,
+    "preco_por_kg": 1.41
+  },
+  {
+    "id": 112,
+    "supermercado": "Savegnago",
+    "produto": "Sabonete Lux Botanicals Buque de Jasmim 85gr",
+    "preco": 2.18,
+    "preco_por_kg": 25.65
+  },
+  {
+    "id": 114,
+    "supermercado": "Savegnago",
+    "produto": "Gel Fixador Clear 300g Controle Caspa",
+    "preco": 19.04,
+    "preco_por_kg": 63.47
+  },
+  {
+    "id": 115,
+    "supermercado": "Savegnago",
+    "produto": "Haste Flexível Cotonetes Com 75 Unidades",
+    "preco": 9.29,
+    "preco_por_kg": 9.29
+  },
+  {
     "id": 116,
     "supermercado": "Savegnago",
     "produto": "Lenço Umedecido Huggies Rosto e Corpo com 48 unidades",
     "preco": 12.96,
     "preco_por_kg": 12.96
+  },
+  {
+    "id": 118,
+    "supermercado": "Savegnago",
+    "produto": "Enxaguante Bucal Listerine Cool Mint 1L",
+    "preco": 37.9,
+    "preco_por_kg": 37.9
+  },
+  {
+    "id": 119,
+    "supermercado": "Savegnago",
+    "produto": "Bisnaguinha Pullman 300g",
+    "preco": 6.99,
+    "preco_por_kg": 23.3
+  },
+  {
+    "id": 121,
+    "supermercado": "Savegnago",
+    "produto": "Fuba Mimoso Siamar 500g",
+    "preco": 2.99,
+    "preco_por_kg": 5.98
   }
 ]
