@@ -21,6 +21,13 @@
     "preco_por_kg": 17.98
   },
   {
+    "id": 7,
+    "supermercado": "Tenda",
+    "produto": "Coxa com Sobrecoxa de Frango Congelado 500g",
+    "preco": 4.45,
+    "preco_por_kg": 8.9
+  },
+  {
     "id": 12,
     "supermercado": "Tenda",
     "produto": "Muscúlo bovino pedaço Resfriado bandeja 400g",
@@ -28,11 +35,32 @@
     "preco_por_kg": 29.9
   },
   {
+    "id": 18,
+    "supermercado": "Tenda",
+    "produto": "Pimentão Verde Bandeja 250g",
+    "preco": 6.69,
+    "preco_por_kg": 26.76
+  },
+  {
     "id": 19,
     "supermercado": "Tenda",
     "produto": "Pimentão Vermelho 350g",
     "preco": 13.89,
     "preco_por_kg": 39.69
+  },
+  {
+    "id": 20,
+    "supermercado": "Tenda",
+    "produto": "Pimentão Amarelo Bandeja 350g",
+    "preco": 13.89,
+    "preco_por_kg": 39.69
+  },
+  {
+    "id": 22,
+    "supermercado": "Tenda",
+    "produto": "Vagem Macarrão Bandeja 340g",
+    "preco": 4.99,
+    "preco_por_kg": 14.68
   },
   {
     "id": 23,
@@ -49,11 +77,39 @@
     "preco_por_kg": 1.85
   },
   {
+    "id": 31,
+    "supermercado": "Tenda",
+    "produto": "Alface Roxa Unidade",
+    "preco": 4.49,
+    "preco_por_kg": 4.49
+  },
+  {
+    "id": 36,
+    "supermercado": "Tenda",
+    "produto": "Néctar de Uva Nutri Néctar 200ml",
+    "preco": 1.69,
+    "preco_por_kg": 8.45
+  },
+  {
+    "id": 38,
+    "supermercado": "Tenda",
+    "produto": "Mexerica Murcote 130g",
+    "preco": 0.91,
+    "preco_por_kg": 7
+  },
+  {
     "id": 39,
     "supermercado": "Tenda",
     "produto": "Margarina com Sal Dualis 500g",
     "preco": 3.45,
     "preco_por_kg": 6.9
+  },
+  {
+    "id": 42,
+    "supermercado": "Tenda",
+    "produto": "Queijo Mussarela Portofino 200g",
+    "preco": 5.18,
+    "preco_por_kg": 25.9
   },
   {
     "id": 43,
@@ -105,13 +161,6 @@
     "preco_por_kg": 4.19
   },
   {
-    "id": 57,
-    "supermercado": "Tenda",
-    "produto": "Queijo Ralado Italac 40g",
-    "preco": 4.09,
-    "preco_por_kg": 102.25
-  },
-  {
     "id": 60,
     "supermercado": "Tenda",
     "produto": "Azeite Extra Virgem Select 250ml",
@@ -126,13 +175,6 @@
     "preco_por_kg": 14.63
   },
   {
-    "id": 67,
-    "supermercado": "Tenda",
-    "produto": "Vinagre de Álcool Neval 750ml",
-    "preco": 2.05,
-    "preco_por_kg": 2.73
-  },
-  {
     "id": 69,
     "supermercado": "Tenda",
     "produto": "Seleta de Legumes Select 170g",
@@ -140,11 +182,25 @@
     "preco_por_kg": 20.53
   },
   {
+    "id": 70,
+    "supermercado": "Tenda",
+    "produto": "Sardinha em Óleo Pescador 125g",
+    "preco": 4.39,
+    "preco_por_kg": 35.12
+  },
+  {
     "id": 72,
     "supermercado": "Tenda",
     "produto": "Paçoquinha com Açúcar Mascavo DaColônia 210g",
     "preco": 10.75,
     "preco_por_kg": 51.19
+  },
+  {
+    "id": 75,
+    "supermercado": "Tenda",
+    "produto": "Catchup Tradicional Quero 400g",
+    "preco": 7.39,
+    "preco_por_kg": 18.47
   },
   {
     "id": 76,
@@ -166,6 +222,13 @@
     "produto": "Mistura Láctea Creme de Leite Daus 200g",
     "preco": 1.99,
     "preco_por_kg": 9.95
+  },
+  {
+    "id": 80,
+    "supermercado": "Tenda",
+    "produto": "Capsula de Café Cerrado Mineiro Compativel com Nespresso 3 Corações 10 unid",
+    "preco": 22.65,
+    "preco_por_kg": 22.65
   },
   {
     "id": 87,
@@ -250,5 +313,12 @@
     "produto": "Areia para Gatos Putz 4kg",
     "preco": 10.2,
     "preco_por_kg": 2.55
+  },
+  {
+    "id": 121,
+    "supermercado": "Tenda",
+    "produto": "Fubá Mimoso PQ 500g",
+    "preco": 2.15,
+    "preco_por_kg": 4.3
   }
 ]
