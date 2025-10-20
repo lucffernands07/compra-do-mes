@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "1143.37",
-  "totalTenda": "1226.46",
-  "totalArena": "673.90",
-  "totalSavegnago": "828.75",
+  "totalGoodbom": "1065.34",
+  "totalTenda": "1322.13",
+  "totalArena": "662.71",
+  "totalSavegnago": "807.07",
   "encontradosGoodbom": 84,
   "encontradosTenda": 84,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 70,
   "produtos": [
     {
       "id": "3",
@@ -17,8 +17,8 @@
       },
       "tenda": {
         "nome": "Linguiça Calabresa Brasa 400g",
-        "preco": 9.9,
-        "preco_por_kg": 24.75
+        "preco": 11.39,
+        "preco_por_kg": 28.48
       },
       "arena": {
         "nome": "Linguiça Calabresa Sadia Pacote 5kg",
@@ -208,9 +208,9 @@
         "preco_por_kg": 2.99
       },
       "tenda": {
-        "nome": "Cenoura Bandeja 500g",
-        "preco": 2.99,
-        "preco_por_kg": 5.98
+        "nome": "Iogurte Natural Laranja, Cenoura e Mel Viv Vigor 150g",
+        "preco": 2.29,
+        "preco_por_kg": 15.27
       },
       "arena": {
         "nome": "Cenoura Kg",
@@ -247,30 +247,6 @@
         "preco_por_kg": 10.83
       },
       "mais_barato": "Tenda"
-    },
-    {
-      "id": "30",
-      "goodbom": {
-        "nome": "CHEIRO VERDE LA VITA 60G",
-        "preco": 3.99,
-        "preco_por_kg": 66.5
-      },
-      "tenda": {
-        "nome": "Cheiro Verde Maço Unidade",
-        "preco": 4.29,
-        "preco_por_kg": 4.29
-      },
-      "arena": {
-        "nome": "Cheiro Verde Jw Unid.",
-        "preco": 3.7,
-        "preco_por_kg": 3.7
-      },
-      "savegnago": {
-        "nome": "Cheiro Verde Organico Solo Vivo",
-        "preco": 8.59,
-        "preco_por_kg": 8.59
-      },
-      "mais_barato": "Arena"
     },
     {
       "id": "31",
@@ -544,9 +520,9 @@
         "preco_por_kg": 14.95
       },
       "tenda": {
-        "nome": "Mortadela Aurora 400g",
-        "preco": 3.99,
-        "preco_por_kg": 9.97
+        "nome": "Mortadela Mista Perdigão 400g",
+        "preco": 5.15,
+        "preco_por_kg": 12.88
       },
       "arena": {
         "nome": "Mortadela Confiança 1 Kg",
@@ -665,8 +641,8 @@
       },
       "tenda": {
         "nome": "Arroz Tipo 1 Select 1Kg",
-        "preco": 3.6,
-        "preco_por_kg": 3.6
+        "preco": 4,
+        "preco_por_kg": 4
       },
       "arena": {
         "nome": "Arroz Broto Legal Kangai Longo Japonês 5kg",
@@ -760,9 +736,9 @@
         "preco_por_kg": 9.99
       },
       "tenda": {
-        "nome": "Milho Verde Stella D'Oro 170g",
-        "preco": 2.89,
-        "preco_por_kg": 17
+        "nome": "Milho Verde Predilecta 170g",
+        "preco": 3.19,
+        "preco_por_kg": 18.76
       },
       "arena": {
         "nome": "Milho Verde Stella D'Oro Sachê 1,7kg",
@@ -885,16 +861,16 @@
         "preco_por_kg": 11.62
       },
       "arena": {
-        "nome": "Leite Condensado Piracanjuba Semidesnatado 395g",
-        "preco": 3.69,
-        "preco_por_kg": 9.34
+        "nome": "Leite Condensado Semidesnatado Campos Do Jordão - 395g",
+        "preco": 5.59,
+        "preco_por_kg": 14.15
       },
       "savegnago": {
         "nome": "Leite Condensado TP Semidesnatado Italac 395g",
         "preco": 6.99,
         "preco_por_kg": 17.7
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "79",
@@ -910,8 +886,8 @@
       },
       "arena": {
         "nome": "Margarina Delícia Com Creme De Leite Com Sal 1kg",
-        "preco": 3.91,
-        "preco_por_kg": 3.91
+        "preco": 3.59,
+        "preco_por_kg": 3.59
       },
       "savegnago": {
         "nome": "Creme De Leite Jussara 200G",
@@ -943,30 +919,6 @@
         "preco_por_kg": 3.33
       },
       "mais_barato": "Savegnago"
-    },
-    {
-      "id": "87",
-      "goodbom": {
-        "nome": "GOMA MANDIOCA TAPIOCA AKIO 320G",
-        "preco": 3.69,
-        "preco_por_kg": 11.53
-      },
-      "tenda": {
-        "nome": "Massa de Tapioca Beijubom 500g",
-        "preco": 5.15,
-        "preco_por_kg": 10.3
-      },
-      "arena": {
-        "nome": "Tapioca Hidratada Kisabor Pacote 500g",
-        "preco": 5.99,
-        "preco_por_kg": 11.98
-      },
-      "savegnago": {
-        "nome": "Goma Pronta Tapioca Da Terrinha 1kg",
-        "preco": 15.85,
-        "preco_por_kg": 15.85
-      },
-      "mais_barato": "Tenda"
     },
     {
       "id": "88",
@@ -1024,9 +976,9 @@
         "preco_por_kg": 108.25
       },
       "tenda": {
-        "nome": "Limpador Perfumado Jasmim do Caribe Veja 2L",
-        "preco": 11.5,
-        "preco_por_kg": 5.75
+        "nome": "Limpador Perfumado Essência Eucalipto Citriodora Coala 120ml",
+        "preco": 11.95,
+        "preco_por_kg": 99.58
       },
       "arena": {
         "nome": "Limpador Perfumado Ypê Tropical 1l",
@@ -1038,7 +990,7 @@
         "preco": 17.95,
         "preco_por_kg": 8.97
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "96",
@@ -1144,9 +1096,9 @@
         "preco_por_kg": 2.99
       },
       "tenda": {
-        "nome": "Esponja de Aço Eco Bombril 45g 6 Unidades",
-        "preco": 1.95,
-        "preco_por_kg": 43.33
+        "nome": "Esponja de Aço Bombril 60g 8 unidades",
+        "preco": 2.5,
+        "preco_por_kg": 41.67
       },
       "arena": {
         "nome": "Esponja Bombril Multi Uso Leve 4 Pague 3 Unid.",
@@ -1202,9 +1154,9 @@
         "preco_por_kg": 37.72
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso Tripla Limpeza Completa 70g",
-        "preco": 3.19,
-        "preco_por_kg": 45.57
+        "nome": "Creme Dental Sorriso Dentes Brancos 90g",
+        "preco": 4.35,
+        "preco_por_kg": 48.33
       },
       "mais_barato": "Tenda"
     },
