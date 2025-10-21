@@ -1,8 +1,8 @@
 {
-  "totalGoodbom": "1099.44",
-  "totalTenda": "1315.36",
-  "totalArena": "1026.36",
-  "totalSavegnago": "786.67",
+  "totalGoodbom": "1122.10",
+  "totalTenda": "1323.95",
+  "totalArena": "1023.94",
+  "totalSavegnago": "804.09",
   "encontradosGoodbom": 84,
   "encontradosTenda": 84,
   "encontradosArena": 77,
@@ -243,10 +243,10 @@
       },
       "savegnago": {
         "nome": "Cheiro Verde Organico Solo Vivo",
-        "preco": 8.59,
-        "preco_por_kg": 8.59
+        "preco": 4.15,
+        "preco_por_kg": 4.15
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "31",
@@ -386,9 +386,9 @@
         "preco_por_kg": 0.05
       },
       "savegnago": {
-        "nome": "Ades Frutas Sabor Uva TP 1L",
-        "preco": 8.65,
-        "preco_por_kg": 8.65
+        "nome": "Refrigerante Fanta 2l Pet Uva",
+        "preco": 7.69,
+        "preco_por_kg": 3.85
       },
       "mais_barato": "Arena"
     },
@@ -483,10 +483,10 @@
       },
       "savegnago": {
         "nome": "Pizza Frango com Requeijão e Mussarela Sadia 460g",
-        "preco": 12.25,
-        "preco_por_kg": 26.63
+        "preco": 17.9,
+        "preco_por_kg": 38.91
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Tenda"
     },
     {
       "id": "43",
@@ -533,6 +533,30 @@
         "nome": "Mortadela mini Confiança",
         "preco": 13.9,
         "preco_por_kg": 13.9
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "45",
+      "goodbom": {
+        "nome": "BATATA CONGELADA SWIFT 400G",
+        "preco": 10.5,
+        "preco_por_kg": 26.25
+      },
+      "tenda": {
+        "nome": "Batata Congelada Corte Especial 9X18 Bem Brasil 1,05kg",
+        "preco": 16.89,
+        "preco_por_kg": 16.09
+      },
+      "arena": {
+        "nome": "Batata Congelada Bem Brasil Fininhas 1,5kg",
+        "preco": 4.49,
+        "preco_por_kg": 0.9
+      },
+      "savegnago": {
+        "nome": "Batata Congelada Bem Brasil Palito Mais Batata 2kg",
+        "preco": 35.9,
+        "preco_por_kg": 17.95
       },
       "mais_barato": "Arena"
     },
@@ -607,30 +631,6 @@
         "preco_por_kg": 13.88
       },
       "mais_barato": "Goodbom"
-    },
-    {
-      "id": "52",
-      "goodbom": {
-        "nome": "ARROZ INTEGRAL BROTO LEGAL 1KG",
-        "preco": 5.59,
-        "preco_por_kg": 5.59
-      },
-      "tenda": {
-        "nome": "Macarrão de Arroz Espaguete Urbano 500g",
-        "preco": 3.75,
-        "preco_por_kg": 7.5
-      },
-      "arena": {
-        "nome": "Arroz Tipo 1 Puro & Nobre Pacote 5kg",
-        "preco": 16.59,
-        "preco_por_kg": 3.32
-      },
-      "savegnago": {
-        "nome": "Arroz Agulhinha Serrazul 5kg Tipo 1",
-        "preco": 17.9,
-        "preco_por_kg": 3.58
-      },
-      "mais_barato": "Arena"
     },
     {
       "id": "53",
@@ -923,9 +923,9 @@
     {
       "id": "88",
       "goodbom": {
-        "nome": "DESINFETANTE LYSOFORM CITRUS 2L",
-        "preco": 27.99,
-        "preco_por_kg": 13.99
+        "nome": "DESINFETANTE LYSOFORM BRUTO LAVANDA 1L",
+        "preco": 15.99,
+        "preco_por_kg": 15.99
       },
       "tenda": {
         "nome": "Desinfetante Lysoform Suave 1L",
@@ -1010,9 +1010,9 @@
         "preco_por_kg": 1.88
       },
       "savegnago": {
-        "nome": "Água Sanitária Fazenda Esperança 2L",
-        "preco": 4.55,
-        "preco_por_kg": 2.27
+        "nome": "Água Sanitária Triex 5L",
+        "preco": 11.39,
+        "preco_por_kg": 2.28
       },
       "mais_barato": "Arena"
     },
