@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "1111.70",
-  "totalTenda": "1315.85",
-  "totalArena": "1017.38",
-  "totalSavegnago": "791.46",
+  "totalGoodbom": "1125.69",
+  "totalTenda": "1331.45",
+  "totalArena": "1029.83",
+  "totalSavegnago": "810.71",
   "encontradosGoodbom": 84,
   "encontradosTenda": 84,
   "encontradosArena": 77,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -945,6 +945,30 @@
       "mais_barato": "Goodbom"
     },
     {
+      "id": "88",
+      "goodbom": {
+        "nome": "DESINFETANTE LYSOFORM CITRUS 2L",
+        "preco": 27.99,
+        "preco_por_kg": 13.99
+      },
+      "tenda": {
+        "nome": "Desinfetante Lysoform Suave 1L",
+        "preco": 15.6,
+        "preco_por_kg": 15.6
+      },
+      "arena": {
+        "nome": "Desinfetante Lysoform Original 2l",
+        "preco": 24.89,
+        "preco_por_kg": 12.45
+      },
+      "savegnago": {
+        "nome": "Desinfetante Líquido Lysoform Citrus 2L",
+        "preco": 13.5,
+        "preco_por_kg": 6.75
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "89",
       "goodbom": {
         "nome": "ALCOOL SAFRA 46,2° 1L",
@@ -1154,9 +1178,9 @@
         "preco_por_kg": 37.72
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
-        "preco": 4.49,
-        "preco_por_kg": 37.42
+        "nome": "Creme Dental Sorriso Dentes Brancos 90g",
+        "preco": 4.35,
+        "preco_por_kg": 48.33
       },
       "mais_barato": "Tenda"
     },
@@ -1202,9 +1226,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 21.65,
-        "preco_por_kg": 24.06
+        "nome": "Sabonete Lux Botanicals Buque de Jasmim 85gr",
+        "preco": 2.18,
+        "preco_por_kg": 25.65
       },
       "mais_barato": "Tenda"
     },
