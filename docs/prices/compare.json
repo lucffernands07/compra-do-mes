@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "1063.68",
-  "totalTenda": "1320.44",
-  "totalArena": "659.23",
-  "totalSavegnago": "792.50",
+  "totalGoodbom": "1013.87",
+  "totalTenda": "1330.44",
+  "totalArena": "1033.75",
+  "totalSavegnago": "820.33",
   "encontradosGoodbom": 84,
-  "encontradosTenda": 83,
+  "encontradosTenda": 85,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -261,16 +261,16 @@
         "preco_por_kg": 4.29
       },
       "arena": {
-        "nome": "Cheiro Verde Jw Unid.",
-        "preco": 3.7,
-        "preco_por_kg": 3.7
+        "nome": "Cheiro Verde Kisabor Folha 8g",
+        "preco": 2.79,
+        "preco_por_kg": 348.75
       },
       "savegnago": {
         "nome": "Cheiro Verde Organico Solo Vivo",
         "preco": 8.59,
         "preco_por_kg": 8.59
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "31",
@@ -285,9 +285,9 @@
         "preco_por_kg": 4.49
       },
       "arena": {
-        "nome": "Alface Crespa Hidropônica Jw Unid.",
-        "preco": 2.99,
-        "preco_por_kg": 2.99
+        "nome": "Alface Crespa Unid.",
+        "preco": 4.69,
+        "preco_por_kg": 4.69
       },
       "savegnago": {
         "nome": "Alface Crespa Felicio Maço",
@@ -386,9 +386,9 @@
         "preco_por_kg": 7.89
       },
       "savegnago": {
-        "nome": "Banana Prata Turma da Mônica 750g",
+        "nome": "Banana Prata Org Solo Vivo 800g",
         "preco": 2.99,
-        "preco_por_kg": 3.99
+        "preco_por_kg": 3.74
       },
       "mais_barato": "Tenda"
     },
@@ -650,9 +650,9 @@
         "preco_por_kg": 14.11
       },
       "savegnago": {
-        "nome": "Leite Fermentado Nestlé Chamyto® 720G com 6 unidades",
-        "preco": 9.99,
-        "preco_por_kg": 13.88
+        "nome": "Leite Fermentado Itambé 1,150kg",
+        "preco": 14.95,
+        "preco_por_kg": 13
       },
       "mais_barato": "Goodbom"
     },
@@ -952,9 +952,9 @@
         "preco_por_kg": 11.53
       },
       "tenda": {
-        "nome": "Massa de Tapioca Tradicional Select 500g",
-        "preco": 6.49,
-        "preco_por_kg": 12.98
+        "nome": "Massa de Tapioca Beijubom 500g",
+        "preco": 4.99,
+        "preco_por_kg": 9.98
       },
       "arena": {
         "nome": "Tapioca Hidratada Kisabor Pacote 500g",
@@ -966,7 +966,7 @@
         "preco": 15.85,
         "preco_por_kg": 15.85
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "88",
@@ -1019,9 +1019,9 @@
     {
       "id": "90",
       "goodbom": {
-        "nome": "LIMPADOR PERFUMADO COALA BAMBU 120ML",
-        "preco": 12.99,
-        "preco_por_kg": 108.25
+        "nome": "LIMPADOR PERFUMADO UAU CHÁ BRANCO 1L LV+ PG-",
+        "preco": 10.99,
+        "preco_por_kg": 10.99
       },
       "tenda": {
         "nome": "Limpador Perfumado Essência Eucalipto Citriodora Coala 120ml",
@@ -1202,9 +1202,33 @@
         "preco_por_kg": 37.72
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso Dentes Brancos 120g Preço Especial",
-        "preco": 4.69,
-        "preco_por_kg": 39.08
+        "nome": "Creme Dental Sorriso Tripla Limpeza Completa 70g",
+        "preco": 3.19,
+        "preco_por_kg": 45.57
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "111",
+      "goodbom": {
+        "nome": "SABONETE LÍQUIDO LUX GARDENIA REFIL 200ML",
+        "preco": 9.49,
+        "preco_por_kg": 47.45
+      },
+      "tenda": {
+        "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
+        "preco": 6.5,
+        "preco_por_kg": 13
+      },
+      "arena": {
+        "nome": "Sabonete Líquido Lux Rosas Francesas Refil Econômico 900ml",
+        "preco": 24.99,
+        "preco_por_kg": 27.77
+      },
+      "savegnago": {
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 21.65,
+        "preco_por_kg": 24.06
       },
       "mais_barato": "Tenda"
     },
@@ -1226,9 +1250,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Lux Botanicals Buque de Jasmim 85gr",
-        "preco": 2.18,
-        "preco_por_kg": 25.65
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 21.65,
+        "preco_por_kg": 24.06
       },
       "mais_barato": "Tenda"
     },
