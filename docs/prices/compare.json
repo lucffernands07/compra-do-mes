@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "1071.44",
-  "totalTenda": "1333.27",
-  "totalArena": "1029.83",
-  "totalSavegnago": "807.95",
+  "totalGoodbom": "1111.70",
+  "totalTenda": "1315.85",
+  "totalArena": "1017.38",
+  "totalSavegnago": "791.46",
   "encontradosGoodbom": 84,
   "encontradosTenda": 84,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 70,
   "produtos": [
     {
       "id": "3",
@@ -65,8 +65,8 @@
       },
       "tenda": {
         "nome": "Linguiça Toscana Congelada Pérola 500g",
-        "preco": 8.99,
-        "preco_por_kg": 17.98
+        "preco": 7.85,
+        "preco_por_kg": 15.7
       },
       "arena": {
         "nome": "Linguiça Toscana Sulita Sabor & Grill 600g",
@@ -107,9 +107,9 @@
     {
       "id": "7",
       "goodbom": {
-        "nome": "SOBRECOXA KG",
-        "preco": 12.99,
-        "preco_por_kg": 12.99
+        "nome": "SOBRECOXA DE FRANGO SWIFT 1KG",
+        "preco": 14.5,
+        "preco_por_kg": 14.5
       },
       "tenda": {
         "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
@@ -444,8 +444,8 @@
       "id": "39",
       "goodbom": {
         "nome": "MARGARINA DORIANA SEM SAL 500G",
-        "preco": 6.49,
-        "preco_por_kg": 12.98
+        "preco": 8.49,
+        "preco_por_kg": 16.98
       },
       "tenda": {
         "nome": "Margarina com Sal Dualis 500g",
@@ -467,9 +467,9 @@
     {
       "id": "42",
       "goodbom": {
-        "nome": "QUEIJO MUSSARELA PEÇA KG",
-        "preco": 29.99,
-        "preco_por_kg": 29.99
+        "nome": "PIZZA SEARA MUSSARELA 440GR",
+        "preco": 19.49,
+        "preco_por_kg": 44.3
       },
       "tenda": {
         "nome": "Queijo Mussarela Portofino 200g",
@@ -491,7 +491,7 @@
     {
       "id": "43",
       "goodbom": {
-        "nome": "PRESUNTO COZIDO PERDIGÃO KG",
+        "nome": "PRESUNTO COZIDO AURORA SEM CAPA KG",
         "preco": 27.9,
         "preco_por_kg": 27.9
       },
@@ -683,9 +683,9 @@
     {
       "id": "66",
       "goodbom": {
-        "nome": "ÓLEO DE SOJA LIZA PET 900ML",
-        "preco": 7.99,
-        "preco_por_kg": 8.88
+        "nome": "ÓLEO DE SOJA VITALIV PET 900ML",
+        "preco": 8.49,
+        "preco_por_kg": 9.43
       },
       "tenda": {
         "nome": "Óleo de Soja Cocamar 900ml",
@@ -828,8 +828,8 @@
       "id": "77",
       "goodbom": {
         "nome": "MOSTARDA CEPÊRA 1010G",
-        "preco": 8.99,
-        "preco_por_kg": 8.9
+        "preco": 13.99,
+        "preco_por_kg": 13.85
       },
       "tenda": {
         "nome": "Mostarda Tradicional Quero 190g",
@@ -851,9 +851,9 @@
     {
       "id": "78",
       "goodbom": {
-        "nome": "LEITE CONDENSADO SEMIDESNATADO PIRACANJUBA 395G TP",
-        "preco": 5.99,
-        "preco_por_kg": 15.16
+        "nome": "LEITE CONDENSADO SEMIDESNATADO TRIANGULO 395G TP",
+        "preco": 6.59,
+        "preco_por_kg": 16.68
       },
       "tenda": {
         "nome": "Leite Condensado Semidesnatado Campos do Jordão 395g",
@@ -876,8 +876,8 @@
       "id": "79",
       "goodbom": {
         "nome": "CREME DE LEITE SHEFA 200G TP",
-        "preco": 2.99,
-        "preco_por_kg": 14.95
+        "preco": 3.79,
+        "preco_por_kg": 18.95
       },
       "tenda": {
         "nome": "Mistura Láctea Creme de Leite Daus 200g",
@@ -943,30 +943,6 @@
         "preco_por_kg": 15.85
       },
       "mais_barato": "Goodbom"
-    },
-    {
-      "id": "88",
-      "goodbom": {
-        "nome": "DESINFETANTE LYSOFORM CITRUS 2L",
-        "preco": 27.99,
-        "preco_por_kg": 13.99
-      },
-      "tenda": {
-        "nome": "Desinfetante Lysoform Suave 1L",
-        "preco": 15.6,
-        "preco_por_kg": 15.6
-      },
-      "arena": {
-        "nome": "Desinfetante Lysoform Original 2l",
-        "preco": 24.89,
-        "preco_por_kg": 12.45
-      },
-      "savegnago": {
-        "nome": "Desinfetante Líquido Lysoform Citrus 2L",
-        "preco": 13.5,
-        "preco_por_kg": 6.75
-      },
-      "mais_barato": "Savegnago"
     },
     {
       "id": "89",
@@ -1178,9 +1154,9 @@
         "preco_por_kg": 37.72
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso Tripla Limpeza Completa 70g",
-        "preco": 3.19,
-        "preco_por_kg": 45.57
+        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
+        "preco": 4.49,
+        "preco_por_kg": 37.42
       },
       "mais_barato": "Tenda"
     },
@@ -1188,8 +1164,8 @@
       "id": "111",
       "goodbom": {
         "nome": "SABONETE LÍQUIDO LUX GARDENIA REFIL 200ML",
-        "preco": 6.99,
-        "preco_por_kg": 34.95
+        "preco": 9.49,
+        "preco_por_kg": 47.45
       },
       "tenda": {
         "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
@@ -1211,9 +1187,9 @@
     {
       "id": "112",
       "goodbom": {
-        "nome": "SABONETE LUX GARDENIA 85G",
-        "preco": 1.99,
-        "preco_por_kg": 23.41
+        "nome": "SABONETE LUX SUAVE LIRIO AZUL 125G",
+        "preco": 4.29,
+        "preco_por_kg": 34.32
       },
       "tenda": {
         "nome": "Sabonete Ypê Siene Rosas Vermelhas 85g",
@@ -1226,9 +1202,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Lux Botanicals Buque de Jasmim 85gr",
-        "preco": 2.18,
-        "preco_por_kg": 25.65
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 21.65,
+        "preco_por_kg": 24.06
       },
       "mais_barato": "Tenda"
     },
@@ -1337,8 +1313,8 @@
       },
       "tenda": {
         "nome": "Bisnaguinha Kim 300g",
-        "preco": 4.85,
-        "preco_por_kg": 16.17
+        "preco": 4.99,
+        "preco_por_kg": 16.63
       },
       "arena": {
         "nome": "Pão Bisnaguinha Bauducco 260g",
