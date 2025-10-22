@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "984.99",
-  "totalTenda": "1377.51",
-  "totalArena": "1019.49",
-  "totalSavegnago": "800.61",
+  "totalGoodbom": "917.68",
+  "totalTenda": "1331.52",
+  "totalArena": "955.83",
+  "totalSavegnago": "768.43",
   "encontradosGoodbom": 82,
   "encontradosTenda": 85,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 68,
   "produtos": [
     {
       "id": "3",
@@ -129,30 +129,6 @@
       "mais_barato": "Tenda"
     },
     {
-      "id": "22",
-      "goodbom": {
-        "nome": "VAGEM MACARRÃO KG",
-        "preco": 6.99,
-        "preco_por_kg": 6.99
-      },
-      "tenda": {
-        "nome": "Vagem Macarrão Bandeja 340g",
-        "preco": 4.99,
-        "preco_por_kg": 14.68
-      },
-      "arena": {
-        "nome": "Vagem Congelada De Marchi 1,02kg",
-        "preco": 26.99,
-        "preco_por_kg": 13.49
-      },
-      "savegnago": {
-        "nome": "Vagem Irmãos Pimenta Bandeja 300g",
-        "preco": 6.99,
-        "preco_por_kg": 23.3
-      },
-      "mais_barato": "Goodbom"
-    },
-    {
       "id": "24",
       "goodbom": {
         "nome": "BETERRABA KG",
@@ -170,9 +146,9 @@
         "preco_por_kg": 4.79
       },
       "savegnago": {
-        "nome": "Beterraba 1Kg",
+        "nome": "Beterraba Irmãos Pimenta Bandeja 600g",
         "preco": 3.55,
-        "preco_por_kg": 3.55
+        "preco_por_kg": 5.92
       },
       "mais_barato": "Tenda"
     },
@@ -266,9 +242,9 @@
         "preco_por_kg": 348.75
       },
       "savegnago": {
-        "nome": "Cheiro Verde Organico Solo Vivo",
-        "preco": 8.59,
-        "preco_por_kg": 8.59
+        "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
+        "preco": 7.99,
+        "preco_por_kg": 53.27
       },
       "mais_barato": "Tenda"
     },
@@ -363,8 +339,8 @@
       },
       "savegnago": {
         "nome": "Mamão Formosa - 1kg",
-        "preco": 1.59,
-        "preco_por_kg": 1.59
+        "preco": 2.69,
+        "preco_por_kg": 2.69
       },
       "mais_barato": "Arena"
     },
@@ -387,8 +363,8 @@
       },
       "savegnago": {
         "nome": "Banana Prata Bandeja 900g",
-        "preco": 2.99,
-        "preco_por_kg": 3.32
+        "preco": 4.35,
+        "preco_por_kg": 4.83
       },
       "mais_barato": "Tenda"
     },
@@ -650,11 +626,11 @@
         "preco_por_kg": 3.4
       },
       "savegnago": {
-        "nome": "Arroz Pop Branco Tipo 1 5Kg",
-        "preco": 19.7,
-        "preco_por_kg": 3.94
+        "nome": "Arroz Agulhinha 4r 5kg Tipo1",
+        "preco": 14.5,
+        "preco_por_kg": 2.9
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "53",
@@ -674,9 +650,9 @@
         "preco_por_kg": 4.99
       },
       "savegnago": {
-        "nome": "Feijão Preto Serrazul 1kg",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
+        "nome": "Feijão Carioca Empório São João 1kg",
+        "preco": 4.95,
+        "preco_por_kg": 4.95
       },
       "mais_barato": "Tenda"
     },
@@ -698,11 +674,11 @@
         "preco_por_kg": 8.61
       },
       "savegnago": {
-        "nome": "Óleo de Soja Soya Pet 900ml",
-        "preco": 8.09,
-        "preco_por_kg": 8.99
+        "nome": "Óleo de Soja Liza Pet 900ml",
+        "preco": 6.95,
+        "preco_por_kg": 7.72
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "67",
@@ -945,30 +921,6 @@
       "mais_barato": "Tenda"
     },
     {
-      "id": "88",
-      "goodbom": {
-        "nome": "DESINFETANTE LYSOFORM BRUTO LAVANDA 1L",
-        "preco": 15.99,
-        "preco_por_kg": 15.99
-      },
-      "tenda": {
-        "nome": "Desinfetante Lysoform Suave 1L",
-        "preco": 15.6,
-        "preco_por_kg": 15.6
-      },
-      "arena": {
-        "nome": "Desinfetante Lysoform Original 2l",
-        "preco": 24.89,
-        "preco_por_kg": 12.45
-      },
-      "savegnago": {
-        "nome": "Desinfetante Líquido Lysoform Citrus 2L",
-        "preco": 13.5,
-        "preco_por_kg": 6.75
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
       "id": "89",
       "goodbom": {
         "nome": "ALCOOL SAFRA 46,2° 1L",
@@ -1159,30 +1111,6 @@
         "preco_por_kg": 1.64
       },
       "mais_barato": "Savegnago"
-    },
-    {
-      "id": "110",
-      "goodbom": {
-        "nome": "CREME DENTAL SORRISO KOLYNOS 90G EDIÇÃO LIMITADA",
-        "preco": 3.99,
-        "preco_por_kg": 44.33
-      },
-      "tenda": {
-        "nome": "Creme Dental Ice Clean 70g",
-        "preco": 1.1,
-        "preco_por_kg": 15.71
-      },
-      "arena": {
-        "nome": "Creme Dental Sorriso Dentes Brancos Tamanho Família 180g",
-        "preco": 6.79,
-        "preco_por_kg": 37.72
-      },
-      "savegnago": {
-        "nome": "Creme Dental Colgate Tripla Ação 180g Preço Especial",
-        "preco": 8.9,
-        "preco_por_kg": 49.44
-      },
-      "mais_barato": "Tenda"
     },
     {
       "id": "111",
