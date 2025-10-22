@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "984.03",
-  "totalTenda": "1309.00",
-  "totalArena": "1023.34",
-  "totalSavegnago": "793.05",
+  "totalGoodbom": "1013.86",
+  "totalTenda": "1393.60",
+  "totalArena": "1035.54",
+  "totalSavegnago": "828.08",
   "encontradosGoodbom": 84,
-  "encontradosTenda": 84,
+  "encontradosTenda": 85,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -51,8 +51,8 @@
       },
       "savegnago": {
         "nome": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
-        "preco": 22.9,
-        "preco_por_kg": 34.08
+        "preco": 23.7,
+        "preco_por_kg": 35.27
       },
       "mais_barato": "Savegnago"
     },
@@ -507,10 +507,10 @@
       },
       "savegnago": {
         "nome": "Pizza Frango com Requeijão e Mussarela Sadia 460g",
-        "preco": 17.9,
-        "preco_por_kg": 38.91
+        "preco": 12.25,
+        "preco_por_kg": 26.63
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "43",
@@ -573,7 +573,7 @@
         "preco_por_kg": 16.09
       },
       "arena": {
-        "nome": "Batata Congelada Bem Brasil Fininhas 1,5kg",
+        "nome": "Batata Congelada Bem Brasil Dadinho Com Queijo - 1,05kg",
         "preco": 4.49,
         "preco_por_kg": 0.9
       },
@@ -669,14 +669,14 @@
         "preco_por_kg": 4
       },
       "arena": {
-        "nome": "Arroz Tipo 1 Puro & Nobre Pacote 5kg",
-        "preco": 16.59,
-        "preco_por_kg": 3.32
+        "nome": "Arroz Tipo 1 Broto Legal Pacote 5kg",
+        "preco": 16.99,
+        "preco_por_kg": 3.4
       },
       "savegnago": {
-        "nome": "Arroz Agulhinha Serrazul 5kg Tipo 1",
-        "preco": 17.9,
-        "preco_por_kg": 3.58
+        "nome": "Arroz Pop Branco Tipo 1 5Kg",
+        "preco": 19.7,
+        "preco_por_kg": 3.94
       },
       "mais_barato": "Arena"
     },
@@ -698,9 +698,9 @@
         "preco_por_kg": 4.99
       },
       "savegnago": {
-        "nome": "Feijão Carioca Serrazul 1KG",
-        "preco": 4.85,
-        "preco_por_kg": 4.85
+        "nome": "Feijão Preto Serrazul 1kg",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
       },
       "mais_barato": "Tenda"
     },
@@ -771,8 +771,8 @@
       },
       "savegnago": {
         "nome": "Milho Verde Irmãos Pimenta Bandeja 600g",
-        "preco": 4.45,
-        "preco_por_kg": 7.42
+        "preco": 5.99,
+        "preco_por_kg": 9.98
       },
       "mais_barato": "Arena"
     },
@@ -801,6 +801,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "72",
+      "goodbom": {
+        "nome": "AÇUCAR MASCAVO FALEX 1KG",
+        "preco": 15.98,
+        "preco_por_kg": 15.98
+      },
+      "tenda": {
+        "nome": "Paçoquinha com Açúcar Mascavo DaColônia 210g",
+        "preco": 10.75,
+        "preco_por_kg": 51.19
+      },
+      "arena": {
+        "nome": "Paçoca Dacolônia Açucar Mascavo Pote 1,008kg",
+        "preco": 32.99,
+        "preco_por_kg": 4.12
+      },
+      "savegnago": {
+        "nome": "Açúcar Mascavo Rosa Lima 500g",
+        "preco": 6.49,
+        "preco_por_kg": 12.98
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "76",
       "goodbom": {
         "nome": "MAIONESE TRADICIONAL LIZA 450G",
@@ -821,6 +845,30 @@
         "nome": "Maionese Hellmann's Tradicional 600gr",
         "preco": 14.02,
         "preco_por_kg": 23.37
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "77",
+      "goodbom": {
+        "nome": "MOSTARDA CEPÊRA 1010G",
+        "preco": 13.99,
+        "preco_por_kg": 13.85
+      },
+      "tenda": {
+        "nome": "Mostarda Tradicional Quero 190g",
+        "preco": 5.79,
+        "preco_por_kg": 30.47
+      },
+      "arena": {
+        "nome": "Mostarda Lanchero - 1,01kg",
+        "preco": 6.29,
+        "preco_por_kg": 6.29
+      },
+      "savegnago": {
+        "nome": "Mostarda Predilecta 180g Bisnaga",
+        "preco": 4.52,
+        "preco_por_kg": 25.11
       },
       "mais_barato": "Arena"
     },
@@ -861,9 +909,9 @@
         "preco_por_kg": 9.95
       },
       "arena": {
-        "nome": "Margarina Delícia Com Creme De Leite Com Sal 1kg",
-        "preco": 3.59,
-        "preco_por_kg": 3.59
+        "nome": "Creme De Leite Lider Leve Tp - 1,03kg",
+        "preco": 15.89,
+        "preco_por_kg": 5.3
       },
       "savegnago": {
         "nome": "Creme De Leite Jussara 200G",
@@ -1034,9 +1082,9 @@
         "preco_por_kg": 4.6
       },
       "savegnago": {
-        "nome": "Detergente Ypê Clear 500ml",
-        "preco": 2.59,
-        "preco_por_kg": 5.18
+        "nome": "Detergente Ypê Neutro 500ml",
+        "preco": 2.32,
+        "preco_por_kg": 4.64
       },
       "mais_barato": "Tenda"
     },
@@ -1082,9 +1130,9 @@
         "preco_por_kg": 2.52
       },
       "savegnago": {
-        "nome": "Desinfetante Triex 2L Aromas Da Noite",
-        "preco": 5.59,
-        "preco_por_kg": 2.79
+        "nome": "Desinfetante Triex 5L Flores da Primavera",
+        "preco": 14.55,
+        "preco_por_kg": 2.91
       },
       "mais_barato": "Tenda"
     },
@@ -1131,8 +1179,8 @@
       },
       "savegnago": {
         "nome": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
-        "preco": 16.9,
-        "preco_por_kg": 1.41
+        "preco": 19.7,
+        "preco_por_kg": 1.64
       },
       "mais_barato": "Savegnago"
     },
@@ -1154,9 +1202,9 @@
         "preco_por_kg": 37.72
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso Tripla Limpeza Completa 70g",
-        "preco": 3.19,
-        "preco_por_kg": 45.57
+        "nome": "Creme Dental Colgate Tripla Ação 180g Preço Especial",
+        "preco": 8.9,
+        "preco_por_kg": 49.44
       },
       "mais_barato": "Tenda"
     },
@@ -1202,9 +1250,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Lux Botanicals Buque de Jasmim 85gr",
-        "preco": 2.18,
-        "preco_por_kg": 25.65
+        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
+        "preco": 2.29,
+        "preco_por_kg": 26.94
       },
       "mais_barato": "Tenda"
     },
@@ -1217,8 +1265,8 @@
       },
       "tenda": {
         "nome": "Gel Fixador Incolor Soft Fix 250g",
-        "preco": 4.9,
-        "preco_por_kg": 19.6
+        "preco": 5.69,
+        "preco_por_kg": 22.76
       },
       "arena": {
         "nome": "Gel Fixador Megafix Azul Mega 260g",
@@ -1265,8 +1313,8 @@
       },
       "tenda": {
         "nome": "Algodão Disco Select 50Un",
-        "preco": 5.85,
-        "preco_por_kg": 5.85
+        "preco": 6.09,
+        "preco_por_kg": 6.09
       },
       "arena": {
         "nome": "Algodão Disco Bellacotton C/ 50 Unid.",
@@ -1278,7 +1326,7 @@
         "preco": 14.25,
         "preco_por_kg": 14.25
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "118",
@@ -1313,8 +1361,8 @@
       },
       "tenda": {
         "nome": "Bisnaguinha Kim 300g",
-        "preco": 4.99,
-        "preco_por_kg": 16.63
+        "preco": 4.85,
+        "preco_por_kg": 16.17
       },
       "arena": {
         "nome": "Pão Bisnaguinha Bauducco 260g",
