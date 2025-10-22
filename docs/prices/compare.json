@@ -1,19 +1,19 @@
 {
-  "totalGoodbom": "917.68",
-  "totalTenda": "1331.52",
-  "totalArena": "955.83",
-  "totalSavegnago": "768.43",
+  "totalGoodbom": "969.99",
+  "totalTenda": "1377.51",
+  "totalArena": "1019.49",
+  "totalSavegnago": "840.46",
   "encontradosGoodbom": 82,
   "encontradosTenda": 85,
   "encontradosArena": 77,
-  "encontradosSavegnago": 68,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
       "goodbom": {
         "nome": "LINGUIÇA CALABRESA CERATTI FATIADO 100G",
-        "preco": 11.99,
-        "preco_por_kg": 119.9
+        "preco": 10.79,
+        "preco_por_kg": 107.9
       },
       "tenda": {
         "nome": "Linguiça Calabresa Brasa 400g",
@@ -129,6 +129,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "22",
+      "goodbom": {
+        "nome": "VAGEM MACARRÃO KG",
+        "preco": 6.99,
+        "preco_por_kg": 6.99
+      },
+      "tenda": {
+        "nome": "Vagem Macarrão Bandeja 340g",
+        "preco": 4.99,
+        "preco_por_kg": 14.68
+      },
+      "arena": {
+        "nome": "Vagem Congelada De Marchi 1,02kg",
+        "preco": 26.99,
+        "preco_por_kg": 13.49
+      },
+      "savegnago": {
+        "nome": "Vagem Irmãos Pimenta Bandeja 300g",
+        "preco": 6.99,
+        "preco_por_kg": 23.3
+      },
+      "mais_barato": "Goodbom"
+    },
+    {
       "id": "24",
       "goodbom": {
         "nome": "BETERRABA KG",
@@ -146,9 +170,9 @@
         "preco_por_kg": 4.79
       },
       "savegnago": {
-        "nome": "Beterraba Irmãos Pimenta Bandeja 600g",
+        "nome": "Beterraba 1Kg",
         "preco": 3.55,
-        "preco_por_kg": 5.92
+        "preco_por_kg": 3.55
       },
       "mais_barato": "Tenda"
     },
@@ -339,8 +363,8 @@
       },
       "savegnago": {
         "nome": "Mamão Formosa - 1kg",
-        "preco": 2.69,
-        "preco_por_kg": 2.69
+        "preco": 1.59,
+        "preco_por_kg": 1.59
       },
       "mais_barato": "Arena"
     },
@@ -921,6 +945,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "88",
+      "goodbom": {
+        "nome": "DESINFETANTE LYSOFORM BRUTO LAVANDA 1L",
+        "preco": 15.99,
+        "preco_por_kg": 15.99
+      },
+      "tenda": {
+        "nome": "Desinfetante Lysoform Suave 1L",
+        "preco": 15.6,
+        "preco_por_kg": 15.6
+      },
+      "arena": {
+        "nome": "Desinfetante Lysoform Original 2l",
+        "preco": 24.89,
+        "preco_por_kg": 12.45
+      },
+      "savegnago": {
+        "nome": "Desinfetante Líquido Lysoform Citrus 2L",
+        "preco": 13.5,
+        "preco_por_kg": 6.75
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "89",
       "goodbom": {
         "nome": "ALCOOL SAFRA 46,2° 1L",
@@ -948,8 +996,8 @@
       "id": "90",
       "goodbom": {
         "nome": "LIMPADOR PERFUMADO UAU CHÁ BRANCO 1L LV+ PG-",
-        "preco": 10.99,
-        "preco_por_kg": 10.99
+        "preco": 7.99,
+        "preco_por_kg": 7.99
       },
       "tenda": {
         "nome": "Limpador Perfumado Essência Eucalipto Citriodora Coala 120ml",
@@ -966,7 +1014,7 @@
         "preco": 17.95,
         "preco_por_kg": 8.97
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "96",
@@ -1113,6 +1161,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "110",
+      "goodbom": {
+        "nome": "CREME DENTAL SORRISO KOLYNOS 90G EDIÇÃO LIMITADA",
+        "preco": 3.99,
+        "preco_por_kg": 44.33
+      },
+      "tenda": {
+        "nome": "Creme Dental Ice Clean 70g",
+        "preco": 1.1,
+        "preco_por_kg": 15.71
+      },
+      "arena": {
+        "nome": "Creme Dental Sorriso Dentes Brancos Tamanho Família 180g",
+        "preco": 6.79,
+        "preco_por_kg": 37.72
+      },
+      "savegnago": {
+        "nome": "Creme Dental Sorriso Dentes Brancos 90g",
+        "preco": 4.35,
+        "preco_por_kg": 48.33
+      },
+      "mais_barato": "Tenda"
+    },
+    {
       "id": "111",
       "goodbom": {
         "nome": "SABONETE LÍQUIDO LUX GARDENIA REFIL 200ML",
@@ -1154,9 +1226,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
-        "preco": 2.29,
-        "preco_por_kg": 26.94
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 21.65,
+        "preco_por_kg": 24.06
       },
       "mais_barato": "Tenda"
     },
