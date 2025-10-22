@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "985.88",
-  "totalTenda": "1371.91",
-  "totalArena": "1008.96",
-  "totalSavegnago": "807.08",
+  "totalGoodbom": "1013.87",
+  "totalTenda": "1393.60",
+  "totalArena": "1027.40",
+  "totalSavegnago": "816.06",
   "encontradosGoodbom": 84,
   "encontradosTenda": 85,
   "encontradosArena": 77,
-  "encontradosSavegnago": 69,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -969,6 +969,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "88",
+      "goodbom": {
+        "nome": "DESINFETANTE LYSOFORM BRUTO LAVANDA 1L",
+        "preco": 15.99,
+        "preco_por_kg": 15.99
+      },
+      "tenda": {
+        "nome": "Desinfetante Lysoform Suave 1L",
+        "preco": 15.6,
+        "preco_por_kg": 15.6
+      },
+      "arena": {
+        "nome": "Desinfetante Lysoform Original 2l",
+        "preco": 24.89,
+        "preco_por_kg": 12.45
+      },
+      "savegnago": {
+        "nome": "Desinfetante Líquido Lysoform Citrus 2L",
+        "preco": 13.5,
+        "preco_por_kg": 6.75
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "89",
       "goodbom": {
         "nome": "ALCOOL SAFRA 46,2° 1L",
@@ -1139,9 +1163,9 @@
     {
       "id": "107",
       "goodbom": {
-        "nome": "PAPEL HIGIÊNICO FOLHA DUPLA MILI NEUTRO 30MT.C/4",
-        "preco": 7.98,
-        "preco_por_kg": 7.98
+        "nome": "PAPEL HIGIÊNICO FOLHA DUPLA DUETTO NEUTRO C/4",
+        "preco": 7.99,
+        "preco_por_kg": 7.99
       },
       "tenda": {
         "nome": "Papel Higiênico Folha Simples Select 30m 4un",
@@ -1178,9 +1202,9 @@
         "preco_por_kg": 37.72
       },
       "savegnago": {
-        "nome": "Creme Dental Colgate Tripla Ação 180g Preço Especial",
-        "preco": 8.9,
-        "preco_por_kg": 49.44
+        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
+        "preco": 4.49,
+        "preco_por_kg": 37.42
       },
       "mais_barato": "Tenda"
     },
@@ -1279,6 +1303,30 @@
         "preco_por_kg": 12.96
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "117",
+      "goodbom": {
+        "nome": "ALGODAO TOPZ DISCO 50 UNID.",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
+      },
+      "tenda": {
+        "nome": "Algodão Disco Select 50Un",
+        "preco": 6.09,
+        "preco_por_kg": 6.09
+      },
+      "arena": {
+        "nome": "Algodão Disco Bellacotton C/ 50 Unid.",
+        "preco": 5.99,
+        "preco_por_kg": 5.99
+      },
+      "savegnago": {
+        "nome": "Amaciante Roupa Vida Macia Glicerina E Algodão 1L",
+        "preco": 14.25,
+        "preco_por_kg": 14.25
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "118",
