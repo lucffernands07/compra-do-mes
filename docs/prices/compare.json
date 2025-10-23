@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "980.07",
-  "totalTenda": "1402.67",
-  "totalArena": "1025.48",
-  "totalSavegnago": "810.65",
+  "totalGoodbom": "975.08",
+  "totalTenda": "1407.48",
+  "totalArena": "676.69",
+  "totalSavegnago": "757.38",
   "encontradosGoodbom": 82,
-  "encontradosTenda": 85,
+  "encontradosTenda": 84,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -89,8 +89,8 @@
       },
       "tenda": {
         "nome": "Salsicha Hot Dog Aurora 500g",
-        "preco": 8.99,
-        "preco_por_kg": 17.98
+        "preco": 8.89,
+        "preco_por_kg": 17.78
       },
       "arena": {
         "nome": "Salsicha Hot Dog Copacol Granel Kg",
@@ -208,9 +208,9 @@
         "preco_por_kg": 3.99
       },
       "tenda": {
-        "nome": "Iogurte Natural Laranja, Cenoura e Mel Viv Vigor 150g",
-        "preco": 2.29,
-        "preco_por_kg": 15.27
+        "nome": "Iogurte Natural Laranja, Cenoura e Mel Frutap 150g",
+        "preco": 2.79,
+        "preco_por_kg": 18.6
       },
       "arena": {
         "nome": "Cenoura Kg",
@@ -245,30 +245,6 @@
         "nome": "Caldo Swift 350g Mandioquinha com Frango",
         "preco": 3.79,
         "preco_por_kg": 10.83
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "30",
-      "goodbom": {
-        "nome": "CHEIRO VERDE MAÇO",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
-      },
-      "tenda": {
-        "nome": "Cheiro Verde Maço Unidade",
-        "preco": 4.29,
-        "preco_por_kg": 4.29
-      },
-      "arena": {
-        "nome": "Cheiro Verde Kisabor Folha 8g",
-        "preco": 2.79,
-        "preco_por_kg": 348.75
-      },
-      "savegnago": {
-        "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
-        "preco": 7.99,
-        "preco_por_kg": 53.27
       },
       "mais_barato": "Tenda"
     },
@@ -665,8 +641,8 @@
       },
       "tenda": {
         "nome": "Feijão Carioca 5 Estrelas 1kg",
-        "preco": 4.19,
-        "preco_por_kg": 4.19
+        "preco": 4.2,
+        "preco_por_kg": 4.2
       },
       "arena": {
         "nome": "Feijão Preto Camil Pacote 1kg",
@@ -737,8 +713,8 @@
       },
       "tenda": {
         "nome": "Milho Verde Predilecta 170g",
-        "preco": 3.19,
-        "preco_por_kg": 18.76
+        "preco": 2.99,
+        "preco_por_kg": 17.59
       },
       "arena": {
         "nome": "Milho Verde Stella D'Oro Sachê 1,7kg",
@@ -905,8 +881,8 @@
       },
       "tenda": {
         "nome": "Chá de Camomila Leão 10g",
-        "preco": 3.79,
-        "preco_por_kg": 379
+        "preco": 3.99,
+        "preco_por_kg": 399
       },
       "arena": {
         "nome": "Chá Branco Natural Tea Lichia 1l",
@@ -929,8 +905,8 @@
       },
       "tenda": {
         "nome": "Massa de Tapioca Beijubom 500g",
-        "preco": 4.99,
-        "preco_por_kg": 9.98
+        "preco": 5.15,
+        "preco_por_kg": 10.3
       },
       "arena": {
         "nome": "Tapioca Hidratada Kisabor Pacote 500g",
@@ -953,8 +929,8 @@
       },
       "tenda": {
         "nome": "Desinfetante Lysoform Suave 1L",
-        "preco": 15.6,
-        "preco_por_kg": 15.6
+        "preco": 12.9,
+        "preco_por_kg": 12.9
       },
       "arena": {
         "nome": "Desinfetante Lysoform Original 2l",
@@ -1030,8 +1006,8 @@
       },
       "arena": {
         "nome": "Água Sanitária Bio-Kriss 2l",
-        "preco": 3.75,
-        "preco_por_kg": 1.88
+        "preco": 3.69,
+        "preco_por_kg": 1.84
       },
       "savegnago": {
         "nome": "Água Sanitária Fazenda Esperança 2L",
@@ -1192,9 +1168,9 @@
         "preco_por_kg": 44.33
       },
       "tenda": {
-        "nome": "Creme Dental Ice Clean 70g",
-        "preco": 1.1,
-        "preco_por_kg": 15.71
+        "nome": "Creme Dental Triple Menta Close Up 70g",
+        "preco": 2.5,
+        "preco_por_kg": 35.71
       },
       "arena": {
         "nome": "Creme Dental Sorriso Dentes Brancos Tamanho Família 180g",
@@ -1206,7 +1182,7 @@
         "preco": 1.99,
         "preco_por_kg": 28.43
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "111",
@@ -1240,9 +1216,9 @@
         "preco_por_kg": 34.32
       },
       "tenda": {
-        "nome": "Sabonete Flor de Ypê Frésia e Pêssego 85g",
-        "preco": 1.85,
-        "preco_por_kg": 21.76
+        "nome": "Sabonete Ypê Siene Rosas Vermelhas 85g",
+        "preco": 0.95,
+        "preco_por_kg": 11.18
       },
       "arena": {
         "nome": "Sabonete Ypê Siene Lavanda 85g",
@@ -1254,7 +1230,7 @@
         "preco": 2.29,
         "preco_por_kg": 26.94
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "114",
@@ -1336,9 +1312,9 @@
         "preco_por_kg": 46.98
       },
       "tenda": {
-        "nome": "Solução Bucal Cool Mint Listerine 250ml",
-        "preco": 16.05,
-        "preco_por_kg": 64.2
+        "nome": "Solução Bucal Listerine Cool Mint L500P350ml",
+        "preco": 15.5,
+        "preco_por_kg": 44.29
       },
       "arena": {
         "nome": "Antisséptico Listerine Cool Mint Leve Mais Por Menos 1l",
