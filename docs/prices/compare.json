@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "959.10",
-  "totalTenda": "1392.42",
-  "totalArena": "660.25",
-  "totalSavegnago": "747.91",
-  "encontradosGoodbom": 81,
+  "totalGoodbom": "917.08",
+  "totalTenda": "1357.99",
+  "totalArena": "634.55",
+  "totalSavegnago": "712.51",
+  "encontradosGoodbom": 82,
   "encontradosTenda": 85,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 69,
   "produtos": [
     {
       "id": "3",
@@ -381,9 +381,9 @@
         "preco_por_kg": 8.45
       },
       "arena": {
-        "nome": "Suco Pomares Néctar Uva 1,35l",
+        "nome": "Chopp Bierbaum Redkraft Uva 1,5l",
         "preco": 1.59,
-        "preco_por_kg": 0.05
+        "preco_por_kg": 0.32
       },
       "savegnago": {
         "nome": "Refrigerante Fanta 2l Pet Uva",
@@ -825,30 +825,6 @@
       "mais_barato": "Arena"
     },
     {
-      "id": "78",
-      "goodbom": {
-        "nome": "LEITE CONDENSADO SEMIDESNATADO TRIANGULO 395G TP",
-        "preco": 6.59,
-        "preco_por_kg": 16.68
-      },
-      "tenda": {
-        "nome": "Leite Condensado Semidesnatado Campos do Jordão 395g",
-        "preco": 4.59,
-        "preco_por_kg": 11.62
-      },
-      "arena": {
-        "nome": "Leite Condensado Piracanjuba Semidesnatado Bag 2,5kg",
-        "preco": 3.49,
-        "preco_por_kg": 0.7
-      },
-      "savegnago": {
-        "nome": "Leite Condensado TP Semidesnatado Italac 395g",
-        "preco": 4.95,
-        "preco_por_kg": 12.53
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "79",
       "goodbom": {
         "nome": "CREME DE LEITE SHEFA 200G TP",
@@ -917,6 +893,30 @@
         "nome": "Goma Pronta Tapioca Siamar 500g Tradicional",
         "preco": 4.79,
         "preco_por_kg": 9.58
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
+      "id": "88",
+      "goodbom": {
+        "nome": "DESINFETANTE LYSOFORM BRUTO LAVANDA 1L",
+        "preco": 15.99,
+        "preco_por_kg": 15.99
+      },
+      "tenda": {
+        "nome": "Desinfetante Lysoform Suave 1L",
+        "preco": 12.9,
+        "preco_por_kg": 12.9
+      },
+      "arena": {
+        "nome": "Desinfetante Lysoform Original 2l",
+        "preco": 24.89,
+        "preco_por_kg": 12.45
+      },
+      "savegnago": {
+        "nome": "Desinfetante Líquido Lysoform Citrus 2L",
+        "preco": 16.87,
+        "preco_por_kg": 8.44
       },
       "mais_barato": "Savegnago"
     },
@@ -1137,30 +1137,6 @@
       "mais_barato": "Savegnago"
     },
     {
-      "id": "110",
-      "goodbom": {
-        "nome": "CREME DENTAL SORRISO KOLYNOS 90G EDIÇÃO LIMITADA",
-        "preco": 3.99,
-        "preco_por_kg": 44.33
-      },
-      "tenda": {
-        "nome": "Creme Dental Triple Menta Close Up 70g",
-        "preco": 2.5,
-        "preco_por_kg": 35.71
-      },
-      "arena": {
-        "nome": "Creme Dental Sorriso Dentes Brancos Tamanho Família 180g",
-        "preco": 6.79,
-        "preco_por_kg": 37.72
-      },
-      "savegnago": {
-        "nome": "Creme Dental Closeup Triple Menta 70g",
-        "preco": 1.99,
-        "preco_por_kg": 28.43
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
       "id": "111",
       "goodbom": {
         "nome": "SABONETE LÍQUIDO LUX GARDENIA REFIL 200ML",
@@ -1202,9 +1178,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
-        "preco": 2.29,
-        "preco_por_kg": 26.94
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 21.65,
+        "preco_por_kg": 24.06
       },
       "mais_barato": "Tenda"
     },
@@ -1235,9 +1211,9 @@
     {
       "id": "116",
       "goodbom": {
-        "nome": "LENÇO UMEDECIDO INTIMUS C/16",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
+        "nome": "LENÇO UMEDECIDO GRANADO C/50",
+        "preco": 14.99,
+        "preco_por_kg": 14.99
       },
       "tenda": {
         "nome": "Lenço Umedecido Care On The Go Neve 16 Unidades",
