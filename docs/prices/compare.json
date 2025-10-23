@@ -1,8 +1,8 @@
 {
-  "totalGoodbom": "969.99",
-  "totalTenda": "1377.51",
-  "totalArena": "1019.49",
-  "totalSavegnago": "840.46",
+  "totalGoodbom": "974.97",
+  "totalTenda": "1402.67",
+  "totalArena": "1025.48",
+  "totalSavegnago": "842.56",
   "encontradosGoodbom": 82,
   "encontradosTenda": 85,
   "encontradosArena": 77,
@@ -161,8 +161,8 @@
       },
       "tenda": {
         "nome": "Beterraba Saco 1Kg",
-        "preco": 1.99,
-        "preco_por_kg": 1.99
+        "preco": 2.99,
+        "preco_por_kg": 2.99
       },
       "arena": {
         "nome": "Beterraba Kg",
@@ -174,7 +174,7 @@
         "preco": 3.55,
         "preco_por_kg": 3.55
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "26",
@@ -185,8 +185,8 @@
       },
       "tenda": {
         "nome": "Gengibre Unidade",
-        "preco": 1.48,
-        "preco_por_kg": 1.48
+        "preco": 1.15,
+        "preco_por_kg": 1.15
       },
       "arena": {
         "nome": "Chá Verde Natural Tea Laranja E Gengibre 1l",
@@ -233,8 +233,8 @@
       },
       "tenda": {
         "nome": "Mandioquinha Unidade",
-        "preco": 1.79,
-        "preco_por_kg": 1.79
+        "preco": 1.52,
+        "preco_por_kg": 1.52
       },
       "arena": {
         "nome": "Mandioquinha Kg",
@@ -280,7 +280,7 @@
         "preco_por_kg": 1.99
       },
       "tenda": {
-        "nome": "Alface Roxa Unidade",
+        "nome": "Alface Mimosa Unidade",
         "preco": 4.49,
         "preco_por_kg": 4.49
       },
@@ -305,8 +305,8 @@
       },
       "tenda": {
         "nome": "Repolho Verde Unidade",
-        "preco": 5.43,
-        "preco_por_kg": 5.43
+        "preco": 4.07,
+        "preco_por_kg": 4.07
       },
       "arena": {
         "nome": "Repolho Verde Kg",
@@ -410,9 +410,9 @@
         "preco_por_kg": 0.05
       },
       "savegnago": {
-        "nome": "Refrigerante Fanta 2l Pet Uva",
-        "preco": 6.99,
-        "preco_por_kg": 3.5
+        "nome": "Ades Frutas Sabor Uva TP 1L",
+        "preco": 8.65,
+        "preco_por_kg": 8.65
       },
       "mais_barato": "Arena"
     },
@@ -424,9 +424,9 @@
         "preco_por_kg": 8.99
       },
       "tenda": {
-        "nome": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
-        "preco": 1.85,
-        "preco_por_kg": 1.85
+        "nome": "Maçã Pink Lady 155g",
+        "preco": 2,
+        "preco_por_kg": 12.9
       },
       "arena": {
         "nome": "Suco Maguary Seleção Maça Pet 1,35l",
@@ -569,8 +569,8 @@
       },
       "tenda": {
         "nome": "Mandioca 500g",
-        "preco": 1.5,
-        "preco_por_kg": 3
+        "preco": 2,
+        "preco_por_kg": 4
       },
       "arena": {
         "nome": "Farinha De Mandioca Pandora Branca Grossa 500g",
@@ -904,7 +904,7 @@
         "preco_por_kg": 3.99
       },
       "tenda": {
-        "nome": "Chá de Hortelã Leão 10g",
+        "nome": "Chá de Camomila Leão 10g",
         "preco": 3.79,
         "preco_por_kg": 379
       },
@@ -1113,6 +1113,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "104",
+      "goodbom": {
+        "nome": "BUCHA SUPERMIX REDUTORA ROSCA 3/4 X 1/2 REF.617",
+        "preco": 4.98,
+        "preco_por_kg": 4.98
+      },
+      "tenda": {
+        "nome": "Bucha Vegetal Bio Nature Aromasil",
+        "preco": 5.25,
+        "preco_por_kg": 5.25
+      },
+      "arena": {
+        "nome": "Bucha Vegetal Tmk Numero 50",
+        "preco": 5.99,
+        "preco_por_kg": 5.99
+      },
+      "savegnago": {
+        "nome": "Bucha Parafuso Com 10 N6",
+        "preco": 4.98,
+        "preco_por_kg": 4.98
+      },
+      "mais_barato": "Goodbom"
+    },
+    {
       "id": "105",
       "goodbom": {
         "nome": "LÃ ACO BOMBRIL C/6",
@@ -1178,9 +1202,9 @@
         "preco_por_kg": 37.72
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso Dentes Brancos 90g",
-        "preco": 4.35,
-        "preco_por_kg": 48.33
+        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
+        "preco": 4.49,
+        "preco_por_kg": 37.42
       },
       "mais_barato": "Tenda"
     },
@@ -1216,9 +1240,9 @@
         "preco_por_kg": 34.32
       },
       "tenda": {
-        "nome": "Sabonete Ypê Siene Rosas Vermelhas 85g",
-        "preco": 1.1,
-        "preco_por_kg": 12.94
+        "nome": "Sabonete Flor de Ypê Frésia e Pêssego 85g",
+        "preco": 1.85,
+        "preco_por_kg": 21.76
       },
       "arena": {
         "nome": "Sabonete Ypê Siene Lavanda 85g",
@@ -1226,11 +1250,11 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 21.65,
-        "preco_por_kg": 24.06
+        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
+        "preco": 2.29,
+        "preco_por_kg": 26.94
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "114",
