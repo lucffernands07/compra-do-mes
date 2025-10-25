@@ -1,13 +1,37 @@
 {
-  "totalGoodbom": "834.74",
-  "totalTenda": "1258.97",
-  "totalArena": "952.51",
-  "totalSavegnago": "738.40",
-  "encontradosGoodbom": 79,
-  "encontradosTenda": 84,
+  "totalGoodbom": "871.84",
+  "totalTenda": "1283.26",
+  "totalArena": "625.51",
+  "totalSavegnago": "744.71",
+  "encontradosGoodbom": 80,
+  "encontradosTenda": 83,
   "encontradosArena": 77,
   "encontradosSavegnago": 72,
   "produtos": [
+    {
+      "id": "3",
+      "goodbom": {
+        "nome": "LINGUIÇA CALABRESA FINA SWIFT 500G",
+        "preco": 21.9,
+        "preco_por_kg": 43.8
+      },
+      "tenda": {
+        "nome": "Linguiça Calabresa Brasa 400g",
+        "preco": 11.39,
+        "preco_por_kg": 28.48
+      },
+      "arena": {
+        "nome": "Linguiça Calabresa Sadia Pacote 5kg",
+        "preco": 109.19,
+        "preco_por_kg": 21.84
+      },
+      "savegnago": {
+        "nome": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
+        "preco": 10.45,
+        "preco_por_kg": 20.9
+      },
+      "mais_barato": "Savegnago"
+    },
     {
       "id": "4",
       "goodbom": {
@@ -237,16 +261,16 @@
         "preco_por_kg": 4.29
       },
       "arena": {
-        "nome": "Cheiro Verde Kisabor Folha 8g",
-        "preco": 2.79,
-        "preco_por_kg": 348.75
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.7,
+        "preco_por_kg": 3.7
       },
       "savegnago": {
-        "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
-        "preco": 7.99,
-        "preco_por_kg": 53.27
+        "nome": "Salada Cheiro Verde Horticultura Felicio 80g",
+        "preco": 3.49,
+        "preco_por_kg": 43.63
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "31",
@@ -261,7 +285,7 @@
         "preco_por_kg": 4.49
       },
       "arena": {
-        "nome": "Alface Crespa Hidropônica Jw Unid.",
+        "nome": "Alface Crespa Unid.",
         "preco": 4.69,
         "preco_por_kg": 4.69
       },
@@ -467,9 +491,9 @@
     {
       "id": "42",
       "goodbom": {
-        "nome": "PIZZA SEARA MUSSARELA 440GR",
-        "preco": 19.49,
-        "preco_por_kg": 44.3
+        "nome": "PIZZA MUSSARELA GB.KG",
+        "preco": 39.99,
+        "preco_por_kg": 39.99
       },
       "tenda": {
         "nome": "Queijo Mussarela Portofino 200g",
@@ -631,30 +655,6 @@
         "preco_por_kg": 2.9
       },
       "mais_barato": "Savegnago"
-    },
-    {
-      "id": "53",
-      "goodbom": {
-        "nome": "FEIJÃO CARIOCA OLIRON 1KG",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
-      },
-      "tenda": {
-        "nome": "Feijão Carioca 5 Estrelas 1kg",
-        "preco": 4.19,
-        "preco_por_kg": 4.19
-      },
-      "arena": {
-        "nome": "Feijão Preto Camil Pacote 1kg",
-        "preco": 3.79,
-        "preco_por_kg": 3.79
-      },
-      "savegnago": {
-        "nome": "Feijão Carioca Empório São João 1kg",
-        "preco": 4.95,
-        "preco_por_kg": 4.95
-      },
-      "mais_barato": "Arena"
     },
     {
       "id": "66",
@@ -1043,9 +1043,9 @@
     {
       "id": "101",
       "goodbom": {
-        "nome": "LIMPADOR MULTIUSO YPÊ FLORES SENSES 500ML",
-        "preco": 3.79,
-        "preco_por_kg": 7.58
+        "nome": "LIMPADOR MULTIUSO UAU FLORES FOLHAS 500ML",
+        "preco": 4.99,
+        "preco_por_kg": 9.98
       },
       "tenda": {
         "nome": "Limpador Multiuso Original Azulim Squeeze 500ml",
@@ -1067,9 +1067,9 @@
     {
       "id": "103",
       "goodbom": {
-        "nome": "DESINFETANTE SANOL LAVANDA 2L",
-        "preco": 5.99,
-        "preco_por_kg": 3
+        "nome": "DESINFETANTE BARBAREX JASMIN 5L",
+        "preco": 15.99,
+        "preco_por_kg": 3.2
       },
       "tenda": {
         "nome": "Desinfetante Lavanda Select 2L",
