@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "871.84",
-  "totalTenda": "1283.26",
-  "totalArena": "625.51",
-  "totalSavegnago": "744.71",
+  "totalGoodbom": "881.81",
+  "totalTenda": "1383.97",
+  "totalArena": "635.29",
+  "totalSavegnago": "753.80",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 83,
+  "encontradosTenda": 85,
   "encontradosArena": 77,
   "encontradosSavegnago": 72,
   "produtos": [
@@ -386,9 +386,9 @@
         "preco_por_kg": 3.7
       },
       "savegnago": {
-        "nome": "Banana Prata Bandeja 900g",
-        "preco": 4.35,
-        "preco_por_kg": 4.83
+        "nome": "Banana Prata Turma da Mônica 750g",
+        "preco": 2.99,
+        "preco_por_kg": 3.99
       },
       "mais_barato": "Tenda"
     },
@@ -400,9 +400,9 @@
         "preco_por_kg": 23.98
       },
       "tenda": {
-        "nome": "Suco de Uva e Maçã Natural One 180ml",
-        "preco": 2.99,
-        "preco_por_kg": 16.61
+        "nome": "Néctar de Uva Nutri Néctar 1L",
+        "preco": 5.99,
+        "preco_por_kg": 5.99
       },
       "arena": {
         "nome": "Chopp Bierbaum Redkraft Uva 1,5l",
@@ -657,6 +657,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "53",
+      "goodbom": {
+        "nome": "FEIJÃO CARIOCA OLIRON 1KG",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "tenda": {
+        "nome": "Feijão Carioca 5 Estrelas 1kg",
+        "preco": 4.19,
+        "preco_por_kg": 4.19
+      },
+      "arena": {
+        "nome": "Feijão Preto Camil Pacote 1kg",
+        "preco": 3.79,
+        "preco_por_kg": 3.79
+      },
+      "savegnago": {
+        "nome": "Feijão Carioca Empório São João 1kg",
+        "preco": 4.95,
+        "preco_por_kg": 4.95
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "66",
       "goodbom": {
         "nome": "ÓLEO DE SOJA VITALIV PET 900ML",
@@ -784,9 +808,9 @@
         "preco_por_kg": 16.64
       },
       "tenda": {
-        "nome": "Maionese Hellmann's Tradicional 500g",
-        "preco": 12.25,
-        "preco_por_kg": 24.5
+        "nome": "Maionese Heinz Pet 390g",
+        "preco": 12.99,
+        "preco_por_kg": 33.31
       },
       "arena": {
         "nome": "Maionese Saúde Sachê 1kg",
@@ -928,7 +952,7 @@
         "preco_por_kg": 15.99
       },
       "tenda": {
-        "nome": "Desinfetante Lysoform Suave 1L",
+        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
         "preco": 12.9,
         "preco_por_kg": 12.9
       },
@@ -976,9 +1000,9 @@
         "preco_por_kg": 7.99
       },
       "tenda": {
-        "nome": "Limpador Perfumado Ypê Chá Branco 1 Litro",
-        "preco": 6.5,
-        "preco_por_kg": 6.5
+        "nome": "Limpador Perfumado Essência Citronela Coala 120ml",
+        "preco": 11.95,
+        "preco_por_kg": 99.58
       },
       "arena": {
         "nome": "Limpador Perfumado Ypê Tropical 1l",
@@ -1087,6 +1111,30 @@
         "preco_por_kg": 2.91
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "104",
+      "goodbom": {
+        "nome": "BUCHA SUPERMIX REDUTORA ROSCA 3/4 X 1/2 REF.617",
+        "preco": 4.98,
+        "preco_por_kg": 4.98
+      },
+      "tenda": {
+        "nome": "Bucha Vegetal Bio Nature Aromasil",
+        "preco": 5.25,
+        "preco_por_kg": 5.25
+      },
+      "arena": {
+        "nome": "Bucha Vegetal Tmk Numero 50",
+        "preco": 5.99,
+        "preco_por_kg": 5.99
+      },
+      "savegnago": {
+        "nome": "Bucha Parafuso Com 10 N6",
+        "preco": 4.98,
+        "preco_por_kg": 4.98
+      },
+      "mais_barato": "Goodbom"
     },
     {
       "id": "105",
