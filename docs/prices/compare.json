@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "841.79",
-  "totalTenda": "1348.14",
-  "totalArena": "615.00",
-  "totalSavegnago": "733.47",
+  "totalGoodbom": "871.62",
+  "totalTenda": "1374.95",
+  "totalArena": "645.42",
+  "totalSavegnago": "744.52",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 85,
+  "encontradosTenda": 84,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -103,30 +103,6 @@
         "preco_por_kg": 13.98
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "7",
-      "goodbom": {
-        "nome": "SOBRECOXA DE FRANGO SWIFT 1KG",
-        "preco": 14.5,
-        "preco_por_kg": 14.5
-      },
-      "tenda": {
-        "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
-        "preco": 4.45,
-        "preco_por_kg": 8.9
-      },
-      "arena": {
-        "nome": "Sobrecoxa Congelada Granel Kg",
-        "preco": 11.69,
-        "preco_por_kg": 11.69
-      },
-      "savegnago": {
-        "nome": "Sobrecoxa Frango Swift 1Kg",
-        "preco": 12.9,
-        "preco_por_kg": 12.9
-      },
-      "mais_barato": "Tenda"
     },
     {
       "id": "22",
@@ -410,9 +386,9 @@
         "preco_por_kg": 0.32
       },
       "savegnago": {
-        "nome": "Isotônico Jungle Low Carb Uva 500ml",
-        "preco": 3.99,
-        "preco_por_kg": 7.98
+        "nome": "Refrigerante Fanta 2l Pet Uva",
+        "preco": 6.99,
+        "preco_por_kg": 3.5
       },
       "mais_barato": "Arena"
     },
@@ -1181,6 +1157,30 @@
         "nome": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
         "preco": 12.9,
         "preco_por_kg": 1.07
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
+      "id": "110",
+      "goodbom": {
+        "nome": "CREME DENTAL SORRISO KOLYNOS 90G EDIÇÃO LIMITADA",
+        "preco": 3.99,
+        "preco_por_kg": 44.33
+      },
+      "tenda": {
+        "nome": "Creme Dental Triple Menta Close Up 70g",
+        "preco": 2.5,
+        "preco_por_kg": 35.71
+      },
+      "arena": {
+        "nome": "Creme Dental Sorriso Dentes Brancos 90g",
+        "preco": 3.79,
+        "preco_por_kg": 42.11
+      },
+      "savegnago": {
+        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
+        "preco": 1.99,
+        "preco_por_kg": 28.43
       },
       "mais_barato": "Savegnago"
     },
