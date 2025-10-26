@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "958.52",
-  "totalTenda": "1368.15",
-  "totalArena": "642.13",
-  "totalSavegnago": "745.13",
-  "encontradosGoodbom": 79,
+  "totalGoodbom": "898.22",
+  "totalTenda": "1327.05",
+  "totalArena": "590.64",
+  "totalSavegnago": "704.42",
+  "encontradosGoodbom": 73,
   "encontradosTenda": 86,
   "encontradosArena": 77,
-  "encontradosSavegnago": 72,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -55,6 +55,30 @@
         "preco_por_kg": 28.12
       },
       "mais_barato": "Savegnago"
+    },
+    {
+      "id": "5",
+      "goodbom": {
+        "nome": "LINGUIÇA TOSCANA SEARA KG",
+        "preco": 17.99,
+        "preco_por_kg": 17.99
+      },
+      "tenda": {
+        "nome": "Linguiça Toscana Congelada Pérola 500g",
+        "preco": 7.85,
+        "preco_por_kg": 15.7
+      },
+      "arena": {
+        "nome": "Linguiça Toscana Sulita Sabor & Grill 600g",
+        "preco": 8.99,
+        "preco_por_kg": 14.98
+      },
+      "savegnago": {
+        "nome": "Linguiça Toscana Aurora Congelada 700g",
+        "preco": 17.9,
+        "preco_por_kg": 25.57
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "6",
@@ -261,7 +285,7 @@
         "preco_por_kg": 4.49
       },
       "arena": {
-        "nome": "Alface Crespa Unid.",
+        "nome": "Alface Crespa Hidropônica Jw Unid.",
         "preco": 4.69,
         "preco_por_kg": 4.69
       },
@@ -386,9 +410,9 @@
         "preco_por_kg": 0.32
       },
       "savegnago": {
-        "nome": "Isotônico Jungle Low Carb Uva 500ml",
-        "preco": 3.99,
-        "preco_por_kg": 7.98
+        "nome": "Refrigerante Fanta 2l Pet Uva",
+        "preco": 6.99,
+        "preco_por_kg": 3.5
       },
       "mais_barato": "Arena"
     },
@@ -945,30 +969,6 @@
       "mais_barato": "Savegnago"
     },
     {
-      "id": "89",
-      "goodbom": {
-        "nome": "ALCOOL SAFRA 46,2° 1L",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
-      },
-      "tenda": {
-        "nome": "Álcool Líquido Tradicional 46,2 INPM Flops 500ml",
-        "preco": 3.25,
-        "preco_por_kg": 6.5
-      },
-      "arena": {
-        "nome": "Álcool Duratto Bactericida Desinfetante Lavanda 1l",
-        "preco": 5.79,
-        "preco_por_kg": 5.79
-      },
-      "savegnago": {
-        "nome": "Álcool Start 46° 1L",
-        "preco": 12.07,
-        "preco_por_kg": 12.07
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "90",
       "goodbom": {
         "nome": "LIMPADOR PERFUMADO UAU CHÁ BRANCO 500ML",
@@ -1067,9 +1067,9 @@
     {
       "id": "103",
       "goodbom": {
-        "nome": "DESINFETANTE SANOL LAVANDA 2L",
-        "preco": 5.99,
-        "preco_por_kg": 3
+        "nome": "DESINFETANTE BARBAREX VIOLEX 2L",
+        "preco": 4.99,
+        "preco_por_kg": 2.5
       },
       "tenda": {
         "nome": "Desinfetante Lavanda Select 2L",
@@ -1133,54 +1133,6 @@
         "nome": "Lã De Aço Bombril Com 6 Unidades",
         "preco": 2.65,
         "preco_por_kg": 2.65
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
-      "id": "107",
-      "goodbom": {
-        "nome": "PAPEL HIGIÊNICO FOLHA DUPLA DUETTO NEUTRO C/4",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
-      },
-      "tenda": {
-        "nome": "Papel Higiênico Folha Simples Select 30m 4un",
-        "preco": 4.2,
-        "preco_por_kg": 4.2
-      },
-      "arena": {
-        "nome": "Papel Higiênico Familiar Folha Dupla 30m C/ 4 Rolos",
-        "preco": 6.59,
-        "preco_por_kg": 6.59
-      },
-      "savegnago": {
-        "nome": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
-        "preco": 12.9,
-        "preco_por_kg": 1.07
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
-      "id": "110",
-      "goodbom": {
-        "nome": "CREME DENTAL SORRISO KOLYNOS 90G EDIÇÃO LIMITADA",
-        "preco": 3.99,
-        "preco_por_kg": 44.33
-      },
-      "tenda": {
-        "nome": "Creme Dental Triple Menta Close Up 70g",
-        "preco": 2.5,
-        "preco_por_kg": 35.71
-      },
-      "arena": {
-        "nome": "Creme Dental Sorriso Dentes Brancos 90g",
-        "preco": 3.79,
-        "preco_por_kg": 42.11
-      },
-      "savegnago": {
-        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
-        "preco": 1.99,
-        "preco_por_kg": 28.43
       },
       "mais_barato": "Savegnago"
     },
@@ -1281,30 +1233,6 @@
       "mais_barato": "Tenda"
     },
     {
-      "id": "117",
-      "goodbom": {
-        "nome": "ALGODAO TOPZ DISCO 50 UNID.",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
-      },
-      "tenda": {
-        "nome": "Algodão Disco Select 50Un",
-        "preco": 6.09,
-        "preco_por_kg": 6.09
-      },
-      "arena": {
-        "nome": "Algodão Disco Bellacotton C/ 50 Unid.",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
-      },
-      "savegnago": {
-        "nome": "Amaciante Roupa Vida Macia Glicerina E Algodão 1L",
-        "preco": 14.25,
-        "preco_por_kg": 14.25
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "119",
       "goodbom": {
         "nome": "BISNAGUINHA SEVEN BOYS TRADICIONAL 300G",
@@ -1325,30 +1253,6 @@
         "nome": "Bisnaguinha Pullman 300g",
         "preco": 6.99,
         "preco_por_kg": 23.3
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "121",
-      "goodbom": {
-        "nome": "FUBÁ MIMOSO KISABOR 1KG",
-        "preco": 7.49,
-        "preco_por_kg": 7.49
-      },
-      "tenda": {
-        "nome": "Fubá Mimoso PQ 500g",
-        "preco": 2.15,
-        "preco_por_kg": 4.3
-      },
-      "arena": {
-        "nome": "Fubá Kisabor Mimoso 1kg",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
-      },
-      "savegnago": {
-        "nome": "Fuba Mimoso Siamar 500g",
-        "preco": 2.99,
-        "preco_por_kg": 5.98
       },
       "mais_barato": "Tenda"
     }
