@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "875.92",
-  "totalTenda": "1370.95",
-  "totalArena": "644.66",
-  "totalSavegnago": "757.47",
-  "encontradosGoodbom": 80,
+  "totalGoodbom": "958.52",
+  "totalTenda": "1368.15",
+  "totalArena": "642.13",
+  "totalSavegnago": "745.13",
+  "encontradosGoodbom": 79,
   "encontradosTenda": 86,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -55,30 +55,6 @@
         "preco_por_kg": 28.12
       },
       "mais_barato": "Savegnago"
-    },
-    {
-      "id": "5",
-      "goodbom": {
-        "nome": "LINGUIÇA TOSCANA SEARA KG",
-        "preco": 17.99,
-        "preco_por_kg": 17.99
-      },
-      "tenda": {
-        "nome": "Linguiça Toscana Congelada Pérola 500g",
-        "preco": 7.85,
-        "preco_por_kg": 15.7
-      },
-      "arena": {
-        "nome": "Linguiça Toscana Sulita Sabor & Grill 600g",
-        "preco": 8.99,
-        "preco_por_kg": 14.98
-      },
-      "savegnago": {
-        "nome": "Linguiça Toscana Aurora Congelada 700g",
-        "preco": 17.9,
-        "preco_por_kg": 25.57
-      },
-      "mais_barato": "Arena"
     },
     {
       "id": "6",
@@ -251,9 +227,9 @@
     {
       "id": "30",
       "goodbom": {
-        "nome": "CHEIRO VERDE MAÇO",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
+        "nome": "TEMPERO MAGGI MEU SEGREDO CHEIRO VERDE 49G",
+        "preco": 4.39,
+        "preco_por_kg": 89.59
       },
       "tenda": {
         "nome": "Cheiro Verde Maço Unidade",
@@ -410,9 +386,9 @@
         "preco_por_kg": 0.32
       },
       "savegnago": {
-        "nome": "Refrigerante Fanta 2l Pet Uva",
-        "preco": 6.99,
-        "preco_por_kg": 3.5
+        "nome": "Isotônico Jungle Low Carb Uva 500ml",
+        "preco": 3.99,
+        "preco_por_kg": 7.98
       },
       "mais_barato": "Arena"
     },
@@ -626,9 +602,9 @@
         "preco_por_kg": 14.11
       },
       "savegnago": {
-        "nome": "Leite Fermentado Itambé 1,150kg",
-        "preco": 14.95,
-        "preco_por_kg": 13
+        "nome": "Leite Fermentado Nestlé Chamyto® 450G com 6 unidades",
+        "preco": 5.99,
+        "preco_por_kg": 13.31
       },
       "mais_barato": "Savegnago"
     },
@@ -941,6 +917,30 @@
         "nome": "Goma Pronta Tapioca Siamar 500g Tradicional",
         "preco": 4.79,
         "preco_por_kg": 9.58
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
+      "id": "88",
+      "goodbom": {
+        "nome": "DESINFETANTE LYSOFORM BRUTO LAVANDA 1L",
+        "preco": 15.99,
+        "preco_por_kg": 15.99
+      },
+      "tenda": {
+        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
+        "preco": 12.9,
+        "preco_por_kg": 12.9
+      },
+      "arena": {
+        "nome": "Desinfetante Lysoform Original 2l",
+        "preco": 24.89,
+        "preco_por_kg": 12.45
+      },
+      "savegnago": {
+        "nome": "Desinfetante Líquido Lysoform Citrus 2L",
+        "preco": 16.87,
+        "preco_por_kg": 8.44
       },
       "mais_barato": "Savegnago"
     },
