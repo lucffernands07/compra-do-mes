@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "869.94",
-  "totalTenda": "1332.66",
-  "totalArena": "652.99",
-  "totalSavegnago": "760.01",
+  "totalGoodbom": "875.92",
+  "totalTenda": "1370.95",
+  "totalArena": "644.66",
+  "totalSavegnago": "757.47",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 85,
+  "encontradosTenda": 86,
   "encontradosArena": 77,
-  "encontradosSavegnago": 72,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -266,9 +266,9 @@
         "preco_por_kg": 3.7
       },
       "savegnago": {
-        "nome": "Salada Cheiro Verde Horticultura Felicio 80g",
-        "preco": 4.45,
-        "preco_por_kg": 55.63
+        "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
+        "preco": 7.99,
+        "preco_por_kg": 53.27
       },
       "mais_barato": "Arena"
     },
@@ -386,9 +386,9 @@
         "preco_por_kg": 3.7
       },
       "savegnago": {
-        "nome": "Banana Prata Bandeja 900g",
-        "preco": 4.35,
-        "preco_por_kg": 4.83
+        "nome": "Banana Prata Turma da Mônica 750g",
+        "preco": 2.99,
+        "preco_por_kg": 3.99
       },
       "mais_barato": "Tenda"
     },
@@ -777,6 +777,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "72",
+      "goodbom": {
+        "nome": "AÇUCAR MASCAVO FALEX 1KG",
+        "preco": 15.98,
+        "preco_por_kg": 15.98
+      },
+      "tenda": {
+        "nome": "Paçoquinha com Açúcar Mascavo DaColônia 210g",
+        "preco": 10.75,
+        "preco_por_kg": 51.19
+      },
+      "arena": {
+        "nome": "Paçoca Dacolônia Açucar Mascavo Pote 1,008kg",
+        "preco": 32.99,
+        "preco_por_kg": 4.12
+      },
+      "savegnago": {
+        "nome": "Açúcar Mascavo Rosa Lima 500g",
+        "preco": 5.99,
+        "preco_por_kg": 11.98
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "76",
       "goodbom": {
         "nome": "MAIONESE TRADICIONAL LIZA 450G",
@@ -921,30 +945,6 @@
       "mais_barato": "Savegnago"
     },
     {
-      "id": "88",
-      "goodbom": {
-        "nome": "DESINFETANTE LYSOFORM BRUTO LAVANDA 1L",
-        "preco": 15.99,
-        "preco_por_kg": 15.99
-      },
-      "tenda": {
-        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
-        "preco": 12.9,
-        "preco_por_kg": 12.9
-      },
-      "arena": {
-        "nome": "Desinfetante Lysoform Original 2l",
-        "preco": 24.89,
-        "preco_por_kg": 12.45
-      },
-      "savegnago": {
-        "nome": "Desinfetante Líquido Lysoform Citrus 2L",
-        "preco": 16.87,
-        "preco_por_kg": 8.44
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
       "id": "89",
       "goodbom": {
         "nome": "ALCOOL SAFRA 46,2° 1L",
@@ -971,9 +971,9 @@
     {
       "id": "90",
       "goodbom": {
-        "nome": "LIMPADOR PERFUMADO UAU CHÁ BRANCO 1L LV+ PG-",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
+        "nome": "LIMPADOR PERFUMADO UAU CHÁ BRANCO 500ML",
+        "preco": 6.99,
+        "preco_por_kg": 13.98
       },
       "tenda": {
         "nome": "Limpador Perfumado Essência Citronela Coala 120ml",
@@ -1226,9 +1226,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
-        "preco": 2.29,
-        "preco_por_kg": 26.94
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 21.65,
+        "preco_por_kg": 24.06
       },
       "mais_barato": "Tenda"
     },
