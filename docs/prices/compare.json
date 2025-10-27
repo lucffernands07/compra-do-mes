@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "834.11",
-  "totalTenda": "1364.17",
-  "totalArena": "618.55",
-  "totalSavegnago": "691.30",
+  "totalGoodbom": "886.42",
+  "totalTenda": "1391.05",
+  "totalArena": "653.41",
+  "totalSavegnago": "749.08",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 85,
+  "encontradosTenda": 86,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -55,6 +55,30 @@
         "preco_por_kg": 28.12
       },
       "mais_barato": "Savegnago"
+    },
+    {
+      "id": "5",
+      "goodbom": {
+        "nome": "LINGUIÇA TOSCANA SEARA KG",
+        "preco": 17.99,
+        "preco_por_kg": 17.99
+      },
+      "tenda": {
+        "nome": "Linguiça Toscana Congelada Pérola 500g",
+        "preco": 7.85,
+        "preco_por_kg": 15.7
+      },
+      "arena": {
+        "nome": "Linguiça Toscana Sulita Sabor & Grill 600g",
+        "preco": 8.99,
+        "preco_por_kg": 14.98
+      },
+      "savegnago": {
+        "nome": "Linguiça Toscana Aurora Congelada 700g",
+        "preco": 17.9,
+        "preco_por_kg": 25.57
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "6",
@@ -1154,9 +1178,9 @@
         "preco_por_kg": 42.11
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
-        "preco": 4.49,
-        "preco_por_kg": 37.42
+        "nome": "Creme Dental Sorriso Tripla Limpeza Completa 70g",
+        "preco": 3.19,
+        "preco_por_kg": 45.57
       },
       "mais_barato": "Tenda"
     },
@@ -1176,6 +1200,30 @@
         "nome": "Sabonete Líquido Lux Rosas Francesas Refil Econômico 900ml",
         "preco": 24.99,
         "preco_por_kg": 27.77
+      },
+      "savegnago": {
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 21.65,
+        "preco_por_kg": 24.06
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "112",
+      "goodbom": {
+        "nome": "SABONETE LUX SUAVE LIRIO AZUL 125G",
+        "preco": 4.29,
+        "preco_por_kg": 34.32
+      },
+      "tenda": {
+        "nome": "Sabonete Ypê Siene Rosas Vermelhas 85g",
+        "preco": 0.95,
+        "preco_por_kg": 11.18
+      },
+      "arena": {
+        "nome": "Sabonete Ypê Siene Lavanda 85g",
+        "preco": 1.69,
+        "preco_por_kg": 19.88
       },
       "savegnago": {
         "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
