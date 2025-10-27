@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "869.78",
-  "totalTenda": "1357.74",
-  "totalArena": "645.92",
-  "totalSavegnago": "707.37",
-  "encontradosGoodbom": 78,
+  "totalGoodbom": "834.11",
+  "totalTenda": "1364.17",
+  "totalArena": "618.55",
+  "totalSavegnago": "691.30",
+  "encontradosGoodbom": 80,
   "encontradosTenda": 85,
   "encontradosArena": 77,
-  "encontradosSavegnago": 72,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -57,30 +57,6 @@
       "mais_barato": "Savegnago"
     },
     {
-      "id": "5",
-      "goodbom": {
-        "nome": "LINGUIÇA TOSCANA SEARA KG",
-        "preco": 17.99,
-        "preco_por_kg": 17.99
-      },
-      "tenda": {
-        "nome": "Linguiça Toscana Congelada Pérola 500g",
-        "preco": 7.85,
-        "preco_por_kg": 15.7
-      },
-      "arena": {
-        "nome": "Linguiça Toscana Sulita Sabor & Grill 600g",
-        "preco": 8.99,
-        "preco_por_kg": 14.98
-      },
-      "savegnago": {
-        "nome": "Linguiça Toscana Aurora Congelada 700g",
-        "preco": 17.9,
-        "preco_por_kg": 25.57
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "6",
       "goodbom": {
         "nome": "SALSICHA HOT DOG SEARA KG",
@@ -122,7 +98,7 @@
         "preco_por_kg": 11.69
       },
       "savegnago": {
-        "nome": "Sobrecoxa Frango Swift 1Kg",
+        "nome": "Sobrecoxa de Frango Congelada Sadia 1kg",
         "preco": 12.9,
         "preco_por_kg": 12.9
       },
@@ -338,9 +314,9 @@
         "preco_por_kg": 0.05
       },
       "savegnago": {
-        "nome": "Mamão Formosa - 1kg",
-        "preco": 1.15,
-        "preco_por_kg": 1.15
+        "nome": "Mamão Papaya Golden 1,2Kg",
+        "preco": 1.09,
+        "preco_por_kg": 0.91
       },
       "mais_barato": "Arena"
     },
@@ -386,9 +362,9 @@
         "preco_por_kg": 0.32
       },
       "savegnago": {
-        "nome": "Refrigerante Fanta 2l Pet Uva",
-        "preco": 6.99,
-        "preco_por_kg": 3.5
+        "nome": "Ades Frutas Sabor Uva TP 1L",
+        "preco": 8.65,
+        "preco_por_kg": 8.65
       },
       "mais_barato": "Arena"
     },
@@ -458,7 +434,7 @@
         "preco_por_kg": 6.7
       },
       "savegnago": {
-        "nome": "Margarina cremosa com sal Doriana 500g",
+        "nome": "Margarina Delícia com Creme de Leite com Sal 500g",
         "preco": 5.65,
         "preco_por_kg": 11.3
       },
@@ -507,10 +483,10 @@
       },
       "savegnago": {
         "nome": "Lasanha de presunto e queijo Seara 600g",
-        "preco": 11.12,
-        "preco_por_kg": 18.53
+        "preco": 13.52,
+        "preco_por_kg": 22.53
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Arena"
     },
     {
       "id": "44",
@@ -602,11 +578,11 @@
         "preco_por_kg": 14.11
       },
       "savegnago": {
-        "nome": "Leite Fermentado Nestlé Chamyto® 450G com 6 unidades",
-        "preco": 5.99,
-        "preco_por_kg": 13.31
+        "nome": "Leite Fermentado Nestlé Chamyto® 720G com 6 unidades",
+        "preco": 9.99,
+        "preco_por_kg": 13.88
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "52",
@@ -626,11 +602,11 @@
         "preco_por_kg": 3.4
       },
       "savegnago": {
-        "nome": "Arroz Agulhinha 4r 5kg Tipo1",
-        "preco": 17.5,
-        "preco_por_kg": 3.5
+        "nome": "Arroz Pop Branco Tipo 1 5Kg",
+        "preco": 13.9,
+        "preco_por_kg": 2.78
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "53",
@@ -650,9 +626,9 @@
         "preco_por_kg": 3.79
       },
       "savegnago": {
-        "nome": "Feijão Preto Empório São João 1Kg",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
+        "nome": "Feijão Carioca Serrazul 1KG",
+        "preco": 4.85,
+        "preco_por_kg": 4.85
       },
       "mais_barato": "Arena"
     },
@@ -777,6 +753,30 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "76",
+      "goodbom": {
+        "nome": "MAIONESE TRADICIONAL LIZA 450G",
+        "preco": 7.49,
+        "preco_por_kg": 16.64
+      },
+      "tenda": {
+        "nome": "Maionese Heinz Pet 390g",
+        "preco": 12.99,
+        "preco_por_kg": 33.31
+      },
+      "arena": {
+        "nome": "Maionese Saúde Sachê 1kg",
+        "preco": 7.49,
+        "preco_por_kg": 7.49
+      },
+      "savegnago": {
+        "nome": "Maionese Hellmann's Tradicional 600gr",
+        "preco": 12.38,
+        "preco_por_kg": 20.63
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "77",
       "goodbom": {
         "nome": "MOSTARDA CEPÊRA 1010G",
@@ -819,8 +819,8 @@
       },
       "savegnago": {
         "nome": "Leite Condensado TP Semidesnatado Italac 395g",
-        "preco": 5.65,
-        "preco_por_kg": 14.3
+        "preco": 6.99,
+        "preco_por_kg": 17.7
       },
       "mais_barato": "Tenda"
     },
@@ -890,9 +890,9 @@
         "preco_por_kg": 11.98
       },
       "savegnago": {
-        "nome": "Goma Pronta Tapioca Terrinha 500g",
-        "preco": 7.95,
-        "preco_por_kg": 15.9
+        "nome": "Goma Pronta Tapioca Tradicional Siamar 1kg",
+        "preco": 15.95,
+        "preco_por_kg": 15.95
       },
       "mais_barato": "Tenda"
     },
@@ -963,10 +963,10 @@
       },
       "savegnago": {
         "nome": "Limpador Perfumado Veja Lavanda da França - 2L",
-        "preco": 12.9,
-        "preco_por_kg": 6.45
+        "preco": 17.95,
+        "preco_por_kg": 8.97
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Arena"
     },
     {
       "id": "96",
@@ -1154,9 +1154,9 @@
         "preco_por_kg": 42.11
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso Dentes Brancos 120g Preço Especial",
-        "preco": 4.69,
-        "preco_por_kg": 39.08
+        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
+        "preco": 4.49,
+        "preco_por_kg": 37.42
       },
       "mais_barato": "Tenda"
     },
@@ -1176,30 +1176,6 @@
         "nome": "Sabonete Líquido Lux Rosas Francesas Refil Econômico 900ml",
         "preco": 24.99,
         "preco_por_kg": 27.77
-      },
-      "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 21.65,
-        "preco_por_kg": 24.06
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "112",
-      "goodbom": {
-        "nome": "SABONETE LUX SUAVE LIRIO AZUL 125G",
-        "preco": 4.29,
-        "preco_por_kg": 34.32
-      },
-      "tenda": {
-        "nome": "Sabonete Ypê Siene Rosas Vermelhas 85g",
-        "preco": 0.95,
-        "preco_por_kg": 11.18
-      },
-      "arena": {
-        "nome": "Sabonete Ypê Siene Lavanda 85g",
-        "preco": 1.69,
-        "preco_por_kg": 19.88
       },
       "savegnago": {
         "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
