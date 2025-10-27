@@ -3,8 +3,8 @@
     "id": 2,
     "supermercado": "Tenda",
     "produto": "Bacon Pedaço Sadia 500g",
-    "preco": 14.45,
-    "preco_por_kg": 28.9
+    "preco": 11.45,
+    "preco_por_kg": 22.9
   },
   {
     "id": 3,
@@ -52,8 +52,8 @@
     "id": 11,
     "supermercado": "Tenda",
     "produto": "Contra Filé Bovino em Bifes Resfriado Bandeja 400g",
-    "preco": 17.16,
-    "preco_por_kg": 42.9
+    "preco": 20.76,
+    "preco_por_kg": 51.9
   },
   {
     "id": 12,
@@ -133,13 +133,6 @@
     "preco_por_kg": 1.52
   },
   {
-    "id": 30,
-    "supermercado": "Tenda",
-    "produto": "Cheiro Verde Maço Unidade",
-    "preco": 4.29,
-    "preco_por_kg": 4.29
-  },
-  {
     "id": 31,
     "supermercado": "Tenda",
     "produto": "Alface Roxa Unidade",
@@ -177,16 +170,16 @@
   {
     "id": 36,
     "supermercado": "Tenda",
-    "produto": "Néctar de Uva Nutri Néctar 1L",
-    "preco": 5.99,
-    "preco_por_kg": 5.99
+    "produto": "Uva Vitória Bandeja 500g",
+    "preco": 6.99,
+    "preco_por_kg": 13.98
   },
   {
     "id": 37,
     "supermercado": "Tenda",
     "produto": "Maçã Pink Lady 155g",
-    "preco": 1.55,
-    "preco_por_kg": 10
+    "preco": 2,
+    "preco_por_kg": 12.9
   },
   {
     "id": 38,
@@ -271,6 +264,13 @@
     "produto": "Arroz Tipo 1 Select 1Kg",
     "preco": 4,
     "preco_por_kg": 4
+  },
+  {
+    "id": 53,
+    "supermercado": "Tenda",
+    "produto": "Feijão Carioca 5 Estrelas 1kg",
+    "preco": 4.19,
+    "preco_por_kg": 4.19
   },
   {
     "id": 54,
@@ -378,13 +378,6 @@
     "preco_por_kg": 18.47
   },
   {
-    "id": 76,
-    "supermercado": "Tenda",
-    "produto": "Maionese Heinz Pet 390g",
-    "preco": 12.99,
-    "preco_por_kg": 33.31
-  },
-  {
     "id": 77,
     "supermercado": "Tenda",
     "produto": "Mostarda Tradicional Quero 190g",
@@ -443,7 +436,7 @@
   {
     "id": 90,
     "supermercado": "Tenda",
-    "produto": "Limpador Perfumado Essência Citronela Coala 120ml",
+    "produto": "Limpador Perfumado Essência Eucalipto Citriodora Coala 120ml",
     "preco": 11.95,
     "preco_por_kg": 99.58
   },
@@ -462,6 +455,13 @@
     "preco_por_kg": 3
   },
   {
+    "id": 98,
+    "supermercado": "Tenda",
+    "produto": "Amaciante Lírios do Campo Downy 3L",
+    "preco": 61.5,
+    "preco_por_kg": 20.5
+  },
+  {
     "id": 100,
     "supermercado": "Tenda",
     "produto": "Detergente Líquido Minuano Marine 500ml",
@@ -471,9 +471,9 @@
   {
     "id": 101,
     "supermercado": "Tenda",
-    "produto": "Limpador Multiuso Original Azulim Squeeze 500ml",
-    "preco": 2.75,
-    "preco_por_kg": 5.5
+    "produto": "Limpador Multiuso Ypê Antibac 500ml",
+    "preco": 3.05,
+    "preco_por_kg": 6.1
   },
   {
     "id": 103,
@@ -509,6 +509,13 @@
     "produto": "Escova de Dente Select 5 Unidades",
     "preco": 12,
     "preco_por_kg": 12
+  },
+  {
+    "id": 110,
+    "supermercado": "Tenda",
+    "produto": "Creme Dental Triple Menta Close Up 70g",
+    "preco": 2.5,
+    "preco_por_kg": 35.71
   },
   {
     "id": 111,
@@ -583,8 +590,8 @@
   {
     "id": 122,
     "supermercado": "Tenda",
-    "produto": "Alimento para Gatos Sabor Carne Kitekat 70g",
-    "preco": 2,
-    "preco_por_kg": 28.57
+    "produto": "Alimento para Gatos Sabor Frango Whiskas 85g",
+    "preco": 2.5,
+    "preco_por_kg": 29.41
   }
 ]
