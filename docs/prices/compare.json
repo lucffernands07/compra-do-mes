@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "983.42",
-  "totalTenda": "1352.87",
-  "totalArena": "650.87",
-  "totalSavegnago": "726.08",
+  "totalGoodbom": "988.41",
+  "totalTenda": "1357.06",
+  "totalArena": "669.33",
+  "totalSavegnago": "730.63",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 83,
+  "encontradosTenda": 84,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -195,8 +195,8 @@
       },
       "savegnago": {
         "nome": "Chá Pronto Natural Tea 1L Verde Laranja Gengibre",
-        "preco": 6.75,
-        "preco_por_kg": 6.75
+        "preco": 6.45,
+        "preco_por_kg": 6.45
       },
       "mais_barato": "Tenda"
     },
@@ -261,9 +261,9 @@
         "preco_por_kg": 4.49
       },
       "arena": {
-        "nome": "Alface Roxa Jw Unid.",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
+        "nome": "Alface Americana Mais Verdes 200g",
+        "preco": 4.98,
+        "preco_por_kg": 24.9
       },
       "savegnago": {
         "nome": "Alface Crespa Felicio Maço",
@@ -633,6 +633,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "53",
+      "goodbom": {
+        "nome": "FEIJÃO PRETO OLIRON 1KG",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "tenda": {
+        "nome": "Feijão Carioca 5 Estrelas 1kg",
+        "preco": 4.19,
+        "preco_por_kg": 4.19
+      },
+      "arena": {
+        "nome": "Feijão Carioca Saboroso 1kg",
+        "preco": 5.69,
+        "preco_por_kg": 5.69
+      },
+      "savegnago": {
+        "nome": "Feijão Carioca Serrazul 1KG",
+        "preco": 4.85,
+        "preco_por_kg": 4.85
+      },
+      "mais_barato": "Tenda"
+    },
+    {
       "id": "66",
       "goodbom": {
         "nome": "ÓLEO DE SOJA VITALIV PET 900ML",
@@ -813,9 +837,9 @@
         "preco_por_kg": 11.62
       },
       "arena": {
-        "nome": "Leite Condensado Zero Lactose Italac - 395g",
+        "nome": "Leite Condensado Piracanjuba Semidesnatado Bag 2,5kg",
         "preco": 3.49,
-        "preco_por_kg": 8.84
+        "preco_por_kg": 0.7
       },
       "savegnago": {
         "nome": "Leite Condensado TP Semidesnatado Italac 395g",
@@ -904,7 +928,7 @@
         "preco_por_kg": 19.99
       },
       "tenda": {
-        "nome": "Desinfetante Lysoform Suave 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
