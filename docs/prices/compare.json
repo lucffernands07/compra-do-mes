@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "871.48",
-  "totalTenda": "1357.06",
-  "totalArena": "644.73",
-  "totalSavegnago": "747.28",
+  "totalGoodbom": "876.47",
+  "totalTenda": "1345.65",
+  "totalArena": "648.43",
+  "totalSavegnago": "800.67",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 84,
+  "encontradosTenda": 86,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -64,9 +64,9 @@
         "preco_por_kg": 18.99
       },
       "tenda": {
-        "nome": "Linguiça Toscana Fina Apimentada Sabor de Bragança 500g",
-        "preco": 13.95,
-        "preco_por_kg": 27.9
+        "nome": "Linguiça Toscana Congelada Pérola 500g",
+        "preco": 7.85,
+        "preco_por_kg": 15.7
       },
       "arena": {
         "nome": "Linguiça Toscana Sulita Sabor & Grill 600g",
@@ -247,6 +247,30 @@
         "preco_por_kg": 7.69
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "30",
+      "goodbom": {
+        "nome": "CHEIRO VERDE MAÇO",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "tenda": {
+        "nome": "Cheiro Verde Maço Unidade",
+        "preco": 4.29,
+        "preco_por_kg": 4.29
+      },
+      "arena": {
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.7,
+        "preco_por_kg": 3.7
+      },
+      "savegnago": {
+        "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
+        "preco": 7.99,
+        "preco_por_kg": 53.27
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "31",
@@ -616,9 +640,9 @@
         "preco_por_kg": 5.59
       },
       "tenda": {
-        "nome": "Macarrão de Arroz Espaguete Urbano 500g",
-        "preco": 3.75,
-        "preco_por_kg": 7.5
+        "nome": "Arroz Tipo 1 Select 1Kg",
+        "preco": 4,
+        "preco_por_kg": 4
       },
       "arena": {
         "nome": "Arroz Tipo 1 Puro & Nobre Pacote 5kg",
@@ -1178,9 +1202,9 @@
         "preco_por_kg": 37.72
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso Dentes Brancos 90g",
-        "preco": 4.35,
-        "preco_por_kg": 48.33
+        "nome": "Creme Dental Sorriso Tripla Limpeza Completa 70g",
+        "preco": 3.19,
+        "preco_por_kg": 45.57
       },
       "mais_barato": "Tenda"
     },
@@ -1226,9 +1250,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 21.65,
-        "preco_por_kg": 24.06
+        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
+        "preco": 2.29,
+        "preco_por_kg": 26.94
       },
       "mais_barato": "Tenda"
     },
