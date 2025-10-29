@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "972.43",
-  "totalTenda": "1287.76",
-  "totalArena": "652.44",
-  "totalSavegnago": "721.00",
-  "encontradosGoodbom": 79,
-  "encontradosTenda": 82,
+  "totalGoodbom": "1056.37",
+  "totalTenda": "1326.61",
+  "totalArena": "640.29",
+  "totalSavegnago": "761.53",
+  "encontradosGoodbom": 80,
+  "encontradosTenda": 84,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -247,6 +247,30 @@
         "preco_por_kg": 7.69
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "30",
+      "goodbom": {
+        "nome": "TEMPERO MAGGI MEU SEGREDO CHEIRO VERDE 49G",
+        "preco": 4.39,
+        "preco_por_kg": 89.59
+      },
+      "tenda": {
+        "nome": "Cheiro Verde Maço Unidade",
+        "preco": 4.29,
+        "preco_por_kg": 4.29
+      },
+      "arena": {
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.7,
+        "preco_por_kg": 3.7
+      },
+      "savegnago": {
+        "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
+        "preco": 7.99,
+        "preco_por_kg": 53.27
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "31",
@@ -753,6 +777,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "72",
+      "goodbom": {
+        "nome": "AÇUCAR MASCAVO FALEX 1KG",
+        "preco": 15.98,
+        "preco_por_kg": 15.98
+      },
+      "tenda": {
+        "nome": "Paçoquinha com Açúcar Mascavo DaColônia 210g",
+        "preco": 10.75,
+        "preco_por_kg": 51.19
+      },
+      "arena": {
+        "nome": "Paçoca Dacolônia Açucar Mascavo Pote 1,008kg",
+        "preco": 32.99,
+        "preco_por_kg": 4.12
+      },
+      "savegnago": {
+        "nome": "Açúcar Mascavo Rosa Lima 500g",
+        "preco": 5.99,
+        "preco_por_kg": 11.98
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "76",
       "goodbom": {
         "nome": "MAIONESE TRADICIONAL LIZA 450G",
@@ -1154,9 +1202,9 @@
         "preco_por_kg": 42.11
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso Dentes Brancos 90g",
-        "preco": 4.35,
-        "preco_por_kg": 48.33
+        "nome": "Creme Dental Sorriso Tripla Limpeza Completa 70g",
+        "preco": 3.19,
+        "preco_por_kg": 45.57
       },
       "mais_barato": "Tenda"
     },
@@ -1279,30 +1327,6 @@
         "preco_por_kg": 15.78
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "119",
-      "goodbom": {
-        "nome": "BISNAGUINHA SEVEN BOYS TRADICIONAL 300G",
-        "preco": 6.49,
-        "preco_por_kg": 21.63
-      },
-      "tenda": {
-        "nome": "Bisnaguinha Kim 300g",
-        "preco": 4.99,
-        "preco_por_kg": 16.63
-      },
-      "arena": {
-        "nome": "Pão Bisnaguinha Panco 300g",
-        "preco": 5.99,
-        "preco_por_kg": 19.97
-      },
-      "savegnago": {
-        "nome": "Bisnaguinha Gold Boys 250G",
-        "preco": 5.49,
-        "preco_por_kg": 21.96
-      },
-      "mais_barato": "Tenda"
     },
     {
       "id": "121",
