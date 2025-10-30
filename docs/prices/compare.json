@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "868.86",
-  "totalTenda": "1192.50",
-  "totalArena": "635.47",
-  "totalSavegnago": "756.33",
+  "totalGoodbom": "873.85",
+  "totalTenda": "1196.69",
+  "totalArena": "641.16",
+  "totalSavegnago": "777.75",
   "encontradosGoodbom": 79,
-  "encontradosTenda": 84,
+  "encontradosTenda": 85,
   "encontradosArena": 77,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -256,7 +256,7 @@
         "preco_por_kg": 2.49
       },
       "tenda": {
-        "nome": "Alface Roxa Unidade",
+        "nome": "Alface Mimosa Unidade",
         "preco": 4.49,
         "preco_por_kg": 4.49
       },
@@ -482,11 +482,11 @@
         "preco_por_kg": 39.9
       },
       "savegnago": {
-        "nome": "Pizza de mussarela Seara 440g",
-        "preco": 15.76,
-        "preco_por_kg": 35.82
+        "nome": "Pizza Frango com Requeijão e Mussarela Sadia 460g",
+        "preco": 12.65,
+        "preco_por_kg": 27.5
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "43",
@@ -506,9 +506,9 @@
         "preco_por_kg": 19.89
       },
       "savegnago": {
-        "nome": "Lasanha de presunto e queijo Seara 600g",
-        "preco": 14.32,
-        "preco_por_kg": 23.87
+        "nome": "Presunto Cozido Frimesa 200g Fatiado Sem Capa De Gordura",
+        "preco": 10.3,
+        "preco_por_kg": 51.5
       },
       "mais_barato": "Arena"
     },
@@ -631,6 +631,30 @@
         "preco_por_kg": 2.9
       },
       "mais_barato": "Savegnago"
+    },
+    {
+      "id": "53",
+      "goodbom": {
+        "nome": "FEIJÃO PRETO OLIRON 1KG",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "tenda": {
+        "nome": "Feijão Carioca 5 Estrelas 1kg",
+        "preco": 4.19,
+        "preco_por_kg": 4.19
+      },
+      "arena": {
+        "nome": "Feijão Carioca Saboroso 1kg",
+        "preco": 5.69,
+        "preco_por_kg": 5.69
+      },
+      "savegnago": {
+        "nome": "Feijão Preto Empório São João 1Kg",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "66",
@@ -1202,9 +1226,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Flor de Ypê Rosas Brancas e Avelã 85g",
-        "preco": 2.29,
-        "preco_por_kg": 26.94
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 21.65,
+        "preco_por_kg": 24.06
       },
       "mais_barato": "Tenda"
     },
