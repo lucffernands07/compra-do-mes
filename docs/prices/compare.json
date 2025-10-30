@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "861.19",
-  "totalTenda": "1180.89",
-  "totalArena": "627.28",
-  "totalSavegnago": "757.46",
-  "encontradosGoodbom": 78,
-  "encontradosTenda": 85,
+  "totalGoodbom": "880.76",
+  "totalTenda": "1199.18",
+  "totalArena": "644.86",
+  "totalSavegnago": "845.05",
+  "encontradosGoodbom": 80,
+  "encontradosTenda": 86,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -249,6 +249,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "30",
+      "goodbom": {
+        "nome": "CHEIRO VERDE MAÇO",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "tenda": {
+        "nome": "Cheiro Verde Maço Unidade",
+        "preco": 2.49,
+        "preco_por_kg": 2.49
+      },
+      "arena": {
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.7,
+        "preco_por_kg": 3.7
+      },
+      "savegnago": {
+        "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
+        "preco": 7.99,
+        "preco_por_kg": 53.27
+      },
+      "mais_barato": "Tenda"
+    },
+    {
       "id": "31",
       "goodbom": {
         "nome": "SEMENTE FELTRIN ALFACE CRESPA",
@@ -483,10 +507,10 @@
       },
       "savegnago": {
         "nome": "Pizza Frango com Requeijão e Mussarela Sadia 460g",
-        "preco": 12.65,
-        "preco_por_kg": 27.5
+        "preco": 17.9,
+        "preco_por_kg": 38.91
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Tenda"
     },
     {
       "id": "43",
@@ -945,6 +969,54 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "89",
+      "goodbom": {
+        "nome": "ALCOOL SAFRA BICARBONATO 1L",
+        "preco": 6.59,
+        "preco_por_kg": 6.59
+      },
+      "tenda": {
+        "nome": "Álcool Líquido Tradicional 46,2 INPM Flops 500ml",
+        "preco": 3.25,
+        "preco_por_kg": 6.5
+      },
+      "arena": {
+        "nome": "Álcool Duratto Limpador Uso Geral Lavanda 1l",
+        "preco": 5.89,
+        "preco_por_kg": 5.89
+      },
+      "savegnago": {
+        "nome": "Álcool Start 46° 1L",
+        "preco": 12.07,
+        "preco_por_kg": 12.07
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "90",
+      "goodbom": {
+        "nome": "LIMPADOR PERFUMADO UAU CHÁ BRANCO 1L LV+ PG-",
+        "preco": 7.99,
+        "preco_por_kg": 7.99
+      },
+      "tenda": {
+        "nome": "Limpador Perfumado Agradable Casa & Perfume 1L",
+        "preco": 9.3,
+        "preco_por_kg": 9.3
+      },
+      "arena": {
+        "nome": "Limpador Perfumado Ypê Tropical 1l",
+        "preco": 7.99,
+        "preco_por_kg": 7.99
+      },
+      "savegnago": {
+        "nome": "Limpador Perfumado Veja Lavanda da França - 2L",
+        "preco": 16.8,
+        "preco_por_kg": 8.4
+      },
+      "mais_barato": "Goodbom"
+    },
+    {
       "id": "96",
       "goodbom": {
         "nome": "ÁGUA SANITÁRIA BARBAREX 2L",
@@ -1130,11 +1202,11 @@
         "preco_por_kg": 37.72
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
-        "preco": 4.49,
-        "preco_por_kg": 37.42
+        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
+        "preco": 2.79,
+        "preco_por_kg": 39.86
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Arena"
     },
     {
       "id": "111",
@@ -1269,7 +1341,7 @@
         "preco_por_kg": 16.17
       },
       "arena": {
-        "nome": "Pão Bisnaguinha Panco 300g",
+        "nome": "Pão Bisnaguinha De Panes 300g",
         "preco": 5.99,
         "preco_por_kg": 19.97
       },
