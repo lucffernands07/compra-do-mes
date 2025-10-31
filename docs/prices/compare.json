@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "911.62",
-  "totalTenda": "1151.38",
-  "totalArena": "590.99",
-  "totalSavegnago": "789.94",
-  "encontradosGoodbom": 77,
-  "encontradosTenda": 85,
+  "totalGoodbom": "934.31",
+  "totalTenda": "1220.12",
+  "totalArena": "627.23",
+  "totalSavegnago": "823.01",
+  "encontradosGoodbom": 80,
+  "encontradosTenda": 86,
   "encontradosArena": 77,
-  "encontradosSavegnago": 72,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -321,6 +321,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "33",
+      "goodbom": {
+        "nome": "ALHO DESCASCADO 500G",
+        "preco": 19.99,
+        "preco_por_kg": 39.98
+      },
+      "tenda": {
+        "nome": "Alho Descascado Kamar 200g",
+        "preco": 9.89,
+        "preco_por_kg": 49.45
+      },
+      "arena": {
+        "nome": "Alho Descascado Hortmix 600g",
+        "preco": 29.9,
+        "preco_por_kg": 49.83
+      },
+      "savegnago": {
+        "nome": "Alho descascado Natari 1Kg",
+        "preco": 34.9,
+        "preco_por_kg": 34.9
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "34",
       "goodbom": {
         "nome": "MAMÃO PAPAYA KG",
@@ -419,9 +443,9 @@
     {
       "id": "38",
       "goodbom": {
-        "nome": "REFRIGERANTE BIOLEVE ZERO MEXERICA 1,5L",
-        "preco": 6.49,
-        "preco_por_kg": 4.33
+        "nome": "REFRIGERANTE BIOLEVE ZERO MEXERICA 510ML",
+        "preco": 3.79,
+        "preco_por_kg": 7.43
       },
       "tenda": {
         "nome": "Mexerica Murcote 130g",
@@ -797,6 +821,30 @@
         "nome": "Maionese Hellmann's Tradicional 600gr",
         "preco": 10.42,
         "preco_por_kg": 17.37
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "77",
+      "goodbom": {
+        "nome": "MOSTARDA CEPÊRA 1010G",
+        "preco": 8.99,
+        "preco_por_kg": 8.9
+      },
+      "tenda": {
+        "nome": "Mostarda Tradicional Quero 190g",
+        "preco": 5.79,
+        "preco_por_kg": 30.47
+      },
+      "arena": {
+        "nome": "Mostarda Lanchero - 1,01kg",
+        "preco": 6.29,
+        "preco_por_kg": 6.29
+      },
+      "savegnago": {
+        "nome": "Mostarda Predilecta 180g Bisnaga",
+        "preco": 4.52,
+        "preco_por_kg": 25.11
       },
       "mais_barato": "Arena"
     },
@@ -1181,30 +1229,6 @@
         "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
         "preco": 21.65,
         "preco_por_kg": 24.06
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "112",
-      "goodbom": {
-        "nome": "SABONETE LUX GARDENIA 85G",
-        "preco": 2.49,
-        "preco_por_kg": 29.29
-      },
-      "tenda": {
-        "nome": "Sabonete Ypê Siene Rosas Vermelhas 85g",
-        "preco": 0.95,
-        "preco_por_kg": 11.18
-      },
-      "arena": {
-        "nome": "Sabonete Ypê Siene Lavanda 85g",
-        "preco": 1.69,
-        "preco_por_kg": 19.88
-      },
-      "savegnago": {
-        "nome": "Sabonete Flor de Ypê Rosas Brancas e Avelã 85g",
-        "preco": 2.29,
-        "preco_por_kg": 26.94
       },
       "mais_barato": "Tenda"
     },
