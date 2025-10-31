@@ -1,13 +1,61 @@
 {
-  "totalGoodbom": "798.36",
-  "totalTenda": "1143.48",
-  "totalArena": "562.66",
-  "totalSavegnago": "756.67",
-  "encontradosGoodbom": 76,
-  "encontradosTenda": 86,
+  "totalGoodbom": "911.62",
+  "totalTenda": "1151.38",
+  "totalArena": "590.99",
+  "totalSavegnago": "789.94",
+  "encontradosGoodbom": 77,
+  "encontradosTenda": 85,
   "encontradosArena": 77,
   "encontradosSavegnago": 72,
   "produtos": [
+    {
+      "id": "3",
+      "goodbom": {
+        "nome": "LINGUIÇA CALABRESA FINA SWIFT 500G",
+        "preco": 21.9,
+        "preco_por_kg": 43.8
+      },
+      "tenda": {
+        "nome": "Linguiça Calabresa Brasa 400g",
+        "preco": 9.9,
+        "preco_por_kg": 24.75
+      },
+      "arena": {
+        "nome": "Linguiça Calabresa Sadia Pacote 5kg",
+        "preco": 109.19,
+        "preco_por_kg": 21.84
+      },
+      "savegnago": {
+        "nome": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
+        "preco": 10.45,
+        "preco_por_kg": 20.9
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
+      "id": "4",
+      "goodbom": {
+        "nome": "HAMBÚRGUER DE CARNE BOVINA WAGYU SWIFT 165G",
+        "preco": 15.9,
+        "preco_por_kg": 96.36
+      },
+      "tenda": {
+        "nome": "Hambúrguer de Carne Bovina Sadia 113g",
+        "preco": 4.09,
+        "preco_por_kg": 36.19
+      },
+      "arena": {
+        "nome": "Hambúrguer De Carne Bovina Air Fryer Seara 150g",
+        "preco": 6.29,
+        "preco_por_kg": 41.93
+      },
+      "savegnago": {
+        "nome": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
+        "preco": 23.7,
+        "preco_por_kg": 35.27
+      },
+      "mais_barato": "Savegnago"
+    },
     {
       "id": "5",
       "goodbom": {
@@ -26,11 +74,59 @@
         "preco_por_kg": 14.98
       },
       "savegnago": {
-        "nome": "Linguiça Toscana Perdigão Nabrasa 700g",
+        "nome": "Linguiça Toscana Swift 700g",
         "preco": 12.85,
         "preco_por_kg": 18.36
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "6",
+      "goodbom": {
+        "nome": "SALSICHA HOT DOG SEARA KG",
+        "preco": 8.99,
+        "preco_por_kg": 8.99
+      },
+      "tenda": {
+        "nome": "Salsicha Hot Dog Aurora 500g",
+        "preco": 8.99,
+        "preco_por_kg": 17.98
+      },
+      "arena": {
+        "nome": "Salsicha Hot Dog Copacol Granel Kg",
+        "preco": 8.99,
+        "preco_por_kg": 8.99
+      },
+      "savegnago": {
+        "nome": "Salsicha Hot Dog Aurora 500g",
+        "preco": 9.95,
+        "preco_por_kg": 19.9
+      },
+      "mais_barato": "Goodbom"
+    },
+    {
+      "id": "7",
+      "goodbom": {
+        "nome": "SOBRECOXA KG",
+        "preco": 12.99,
+        "preco_por_kg": 12.99
+      },
+      "tenda": {
+        "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
+        "preco": 4.45,
+        "preco_por_kg": 8.9
+      },
+      "arena": {
+        "nome": "Sobrecoxa Congelada Granel Kg",
+        "preco": 11.69,
+        "preco_por_kg": 11.69
+      },
+      "savegnago": {
+        "nome": "Sobrecoxa de Frango Congelada Sadia 1kg",
+        "preco": 12.9,
+        "preco_por_kg": 12.9
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "22",
@@ -221,30 +317,6 @@
         "nome": "Repolho Verde 2Kg",
         "preco": 5.9,
         "preco_por_kg": 2.95
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
-      "id": "33",
-      "goodbom": {
-        "nome": "ALHO DESCASCADO 500G",
-        "preco": 19.99,
-        "preco_por_kg": 39.98
-      },
-      "tenda": {
-        "nome": "Alho Descascado Kamar 200g",
-        "preco": 9.89,
-        "preco_por_kg": 49.45
-      },
-      "arena": {
-        "nome": "Alho Descascado Hortmix 600g",
-        "preco": 29.9,
-        "preco_por_kg": 49.83
-      },
-      "savegnago": {
-        "nome": "Alho descascado Natari 1Kg",
-        "preco": 34.9,
-        "preco_por_kg": 34.9
       },
       "mais_barato": "Savegnago"
     },
@@ -729,30 +801,6 @@
       "mais_barato": "Arena"
     },
     {
-      "id": "77",
-      "goodbom": {
-        "nome": "MOSTARDA CEPÊRA 1010G",
-        "preco": 8.99,
-        "preco_por_kg": 8.9
-      },
-      "tenda": {
-        "nome": "Mostarda Tradicional Quero 190g",
-        "preco": 5.79,
-        "preco_por_kg": 30.47
-      },
-      "arena": {
-        "nome": "Mostarda Lanchero - 1,01kg",
-        "preco": 6.29,
-        "preco_por_kg": 6.29
-      },
-      "savegnago": {
-        "nome": "Mostarda Predilecta 180g Bisnaga",
-        "preco": 4.52,
-        "preco_por_kg": 25.11
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "78",
       "goodbom": {
         "nome": "LEITE CONDENSADO SEMIDESNATADO PIRACANJUBA 395G TP",
@@ -1106,9 +1154,9 @@
         "preco_por_kg": 37.72
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso Dentes Brancos 120g Preço Especial",
-        "preco": 4.69,
-        "preco_por_kg": 39.08
+        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
+        "preco": 2.79,
+        "preco_por_kg": 39.86
       },
       "mais_barato": "Arena"
     },
@@ -1154,9 +1202,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Palmolive Naturals Frescor Nutritivo Tangerina e Alecrim 85g",
-        "preco": 1.99,
-        "preco_por_kg": 23.41
+        "nome": "Sabonete Flor de Ypê Rosas Brancas e Avelã 85g",
+        "preco": 2.29,
+        "preco_por_kg": 26.94
       },
       "mais_barato": "Tenda"
     },
