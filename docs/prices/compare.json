@@ -1,61 +1,13 @@
 {
-  "totalGoodbom": "858.59",
-  "totalTenda": "1316.37",
-  "totalArena": "629.30",
-  "totalSavegnago": "773.70",
-  "encontradosGoodbom": 80,
-  "encontradosTenda": 85,
+  "totalGoodbom": "798.36",
+  "totalTenda": "1143.48",
+  "totalArena": "562.66",
+  "totalSavegnago": "756.67",
+  "encontradosGoodbom": 76,
+  "encontradosTenda": 86,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
-    {
-      "id": "3",
-      "goodbom": {
-        "nome": "LINGUIÇA CALABRESA FINA SWIFT 500G",
-        "preco": 21.9,
-        "preco_por_kg": 43.8
-      },
-      "tenda": {
-        "nome": "Linguiça Calabresa Brasa 400g",
-        "preco": 9.9,
-        "preco_por_kg": 24.75
-      },
-      "arena": {
-        "nome": "Linguiça Calabresa Sadia Pacote 5kg",
-        "preco": 109.19,
-        "preco_por_kg": 21.84
-      },
-      "savegnago": {
-        "nome": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
-        "preco": 10.45,
-        "preco_por_kg": 20.9
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
-      "id": "4",
-      "goodbom": {
-        "nome": "HAMBÚRGUER DE CARNE BOVINA WAGYU SWIFT 165G",
-        "preco": 15.9,
-        "preco_por_kg": 96.36
-      },
-      "tenda": {
-        "nome": "Hambúrguer de Carne Bovina Sadia 113g",
-        "preco": 4.09,
-        "preco_por_kg": 36.19
-      },
-      "arena": {
-        "nome": "Hambúrguer De Carne Bovina Air Fryer Seara 150g",
-        "preco": 6.29,
-        "preco_por_kg": 41.93
-      },
-      "savegnago": {
-        "nome": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
-        "preco": 23.7,
-        "preco_por_kg": 35.27
-      },
-      "mais_barato": "Savegnago"
-    },
     {
       "id": "5",
       "goodbom": {
@@ -79,54 +31,6 @@
         "preco_por_kg": 18.36
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "6",
-      "goodbom": {
-        "nome": "SALSICHA HOT DOG SEARA KG",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
-      },
-      "tenda": {
-        "nome": "Salsicha Hot Dog Aurora 500g",
-        "preco": 8.99,
-        "preco_por_kg": 17.98
-      },
-      "arena": {
-        "nome": "Salsicha Hot Dog Copacol Granel Kg",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
-      },
-      "savegnago": {
-        "nome": "Salsicha Hot Dog Aurora 500g",
-        "preco": 9.95,
-        "preco_por_kg": 19.9
-      },
-      "mais_barato": "Goodbom"
-    },
-    {
-      "id": "7",
-      "goodbom": {
-        "nome": "SOBRECOXA KG",
-        "preco": 12.99,
-        "preco_por_kg": 12.99
-      },
-      "tenda": {
-        "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
-        "preco": 4.45,
-        "preco_por_kg": 8.9
-      },
-      "arena": {
-        "nome": "Sobrecoxa Congelada Granel Kg",
-        "preco": 11.69,
-        "preco_por_kg": 11.69
-      },
-      "savegnago": {
-        "nome": "Sobrecoxa de Frango Congelada Sadia 1kg",
-        "preco": 12.9,
-        "preco_por_kg": 12.9
-      },
-      "mais_barato": "Tenda"
     },
     {
       "id": "22",
@@ -208,9 +112,9 @@
         "preco_por_kg": 2.99
       },
       "tenda": {
-        "nome": "Cenoura Bandeja 500g",
-        "preco": 2.99,
-        "preco_por_kg": 5.98
+        "nome": "Iogurte Natural Laranja, Cenoura e Mel Frutap 150g",
+        "preco": 2.79,
+        "preco_por_kg": 18.6
       },
       "arena": {
         "nome": "Cenoura Kg",
@@ -245,6 +149,30 @@
         "nome": "Caldo Swift 350g Mandioquinha com Frango",
         "preco": 2.69,
         "preco_por_kg": 7.69
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "30",
+      "goodbom": {
+        "nome": "TEMPERO MAGGI MEU SEGREDO CHEIRO VERDE 49G",
+        "preco": 4.39,
+        "preco_por_kg": 89.59
+      },
+      "tenda": {
+        "nome": "Cheiro Verde Maço Unidade",
+        "preco": 2.49,
+        "preco_por_kg": 2.49
+      },
+      "arena": {
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.7,
+        "preco_por_kg": 3.7
+      },
+      "savegnago": {
+        "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
+        "preco": 7.99,
+        "preco_por_kg": 53.27
       },
       "mais_barato": "Tenda"
     },
@@ -386,9 +314,9 @@
         "preco_por_kg": 0.53
       },
       "savegnago": {
-        "nome": "Ades Frutas Sabor Uva TP 1L",
-        "preco": 8.65,
-        "preco_por_kg": 8.65
+        "nome": "Isotônico Jungle Low Carb Uva 500ml",
+        "preco": 5.89,
+        "preco_por_kg": 11.78
       },
       "mais_barato": "Arena"
     },
@@ -400,9 +328,9 @@
         "preco_por_kg": 9.99
       },
       "tenda": {
-        "nome": "Maçã Pink Lady 155g",
-        "preco": 2,
-        "preco_por_kg": 12.9
+        "nome": "Suco de Uva e Maçã Natural One 180ml",
+        "preco": 2.99,
+        "preco_por_kg": 16.61
       },
       "arena": {
         "nome": "Suco Maguary Seleção Maça Pet 1,35l",
@@ -583,6 +511,30 @@
         "preco_por_kg": 8.99
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "50",
+      "goodbom": {
+        "nome": "LEITE FERMENTADO FRUTAP 850G",
+        "preco": 11.49,
+        "preco_por_kg": 13.52
+      },
+      "tenda": {
+        "nome": "Leite Fermentado Baunilha Frutap 170g",
+        "preco": 2.39,
+        "preco_por_kg": 14.06
+      },
+      "arena": {
+        "nome": "Leite Fermentado Desnatado Chamyto C/6 Unid. 450g",
+        "preco": 6.35,
+        "preco_por_kg": 14.11
+      },
+      "savegnago": {
+        "nome": "Leite Fermentado Nestlé Chamyto® 720G com 6 unidades",
+        "preco": 9.99,
+        "preco_por_kg": 13.88
+      },
+      "mais_barato": "Goodbom"
     },
     {
       "id": "52",
@@ -904,7 +856,7 @@
         "preco_por_kg": 19.99
       },
       "tenda": {
-        "nome": "Desinfetante Lysoform Suave 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1019,9 +971,9 @@
     {
       "id": "101",
       "goodbom": {
-        "nome": "LIMPADOR MULTIUSO UAU FLORES FOLHAS 500ML",
-        "preco": 4.39,
-        "preco_por_kg": 8.78
+        "nome": "LIMPADOR MULTIUSO YPÊ COM ÁLCOOL 500ML",
+        "preco": 3.79,
+        "preco_por_kg": 7.58
       },
       "tenda": {
         "nome": "Limpador Multiuso Ypê Antibac 500ml",
@@ -1154,11 +1106,11 @@
         "preco_por_kg": 37.72
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
-        "preco": 4.49,
-        "preco_por_kg": 37.42
+        "nome": "Creme Dental Sorriso Dentes Brancos 120g Preço Especial",
+        "preco": 4.69,
+        "preco_por_kg": 39.08
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Arena"
     },
     {
       "id": "111",
@@ -1264,9 +1216,9 @@
         "preco_por_kg": 11.99
       },
       "tenda": {
-        "nome": "Algodão Hidrófilo Rolo Select 50g",
-        "preco": 6.19,
-        "preco_por_kg": 123.8
+        "nome": "Algodão Disco Select 50Un",
+        "preco": 5.85,
+        "preco_por_kg": 5.85
       },
       "arena": {
         "nome": "Algodão Disco Bellacotton C/ 50 Unid.",
@@ -1278,7 +1230,7 @@
         "preco": 14.2,
         "preco_por_kg": 15.78
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "119",
