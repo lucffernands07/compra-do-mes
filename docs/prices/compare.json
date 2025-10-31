@@ -1,13 +1,37 @@
 {
-  "totalGoodbom": "828.31",
-  "totalTenda": "1314.69",
-  "totalArena": "619.32",
-  "totalSavegnago": "769.92",
+  "totalGoodbom": "872.11",
+  "totalTenda": "1339.44",
+  "totalArena": "641.16",
+  "totalSavegnago": "795.62",
   "encontradosGoodbom": 80,
   "encontradosTenda": 85,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
+    {
+      "id": "3",
+      "goodbom": {
+        "nome": "LINGUIÇA CALABRESA FINA SWIFT 500G",
+        "preco": 21.9,
+        "preco_por_kg": 43.8
+      },
+      "tenda": {
+        "nome": "Linguiça Calabresa Brasa 400g",
+        "preco": 9.9,
+        "preco_por_kg": 24.75
+      },
+      "arena": {
+        "nome": "Linguiça Calabresa Sadia Pacote 5kg",
+        "preco": 109.19,
+        "preco_por_kg": 21.84
+      },
+      "savegnago": {
+        "nome": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
+        "preco": 10.45,
+        "preco_por_kg": 20.9
+      },
+      "mais_barato": "Savegnago"
+    },
     {
       "id": "4",
       "goodbom": {
@@ -362,9 +386,9 @@
         "preco_por_kg": 0.32
       },
       "savegnago": {
-        "nome": "Refrigerante Fanta 2l Pet Uva",
-        "preco": 7.69,
-        "preco_por_kg": 3.85
+        "nome": "Ades Frutas Sabor Uva TP 1L",
+        "preco": 8.65,
+        "preco_por_kg": 8.65
       },
       "mais_barato": "Arena"
     },
