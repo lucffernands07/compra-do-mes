@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "894.12",
-  "totalTenda": "1130.26",
-  "totalArena": "654.83",
-  "totalSavegnago": "762.82",
+  "totalGoodbom": "846.66",
+  "totalTenda": "1108.07",
+  "totalArena": "617.27",
+  "totalSavegnago": "778.67",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 84,
+  "encontradosTenda": 86,
   "encontradosArena": 77,
-  "encontradosSavegnago": 72,
+  "encontradosSavegnago": 70,
   "produtos": [
     {
       "id": "3",
@@ -129,30 +129,6 @@
       "mais_barato": "Tenda"
     },
     {
-      "id": "22",
-      "goodbom": {
-        "nome": "VAGEM MACARRÃO KG",
-        "preco": 14.99,
-        "preco_por_kg": 14.99
-      },
-      "tenda": {
-        "nome": "Vagem Macarrão Bandeja 340g",
-        "preco": 4.99,
-        "preco_por_kg": 14.68
-      },
-      "arena": {
-        "nome": "Vagem Congelada De Marchi 1,02kg",
-        "preco": 26.99,
-        "preco_por_kg": 13.49
-      },
-      "savegnago": {
-        "nome": "Vagem Irmãos Pimenta Bandeja 300g",
-        "preco": 7.99,
-        "preco_por_kg": 26.63
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "24",
       "goodbom": {
         "nome": "BETERRABA KG",
@@ -249,6 +225,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "30",
+      "goodbom": {
+        "nome": "CHEIRO VERDE MAÇO",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "tenda": {
+        "nome": "Cheiro Verde Maço Unidade",
+        "preco": 2.49,
+        "preco_por_kg": 2.49
+      },
+      "arena": {
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.7,
+        "preco_por_kg": 3.7
+      },
+      "savegnago": {
+        "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
+        "preco": 7.99,
+        "preco_por_kg": 53.27
+      },
+      "mais_barato": "Tenda"
+    },
+    {
       "id": "31",
       "goodbom": {
         "nome": "SEMENTE FELTRIN ALFACE CRESPA",
@@ -338,9 +338,9 @@
         "preco_por_kg": 0.05
       },
       "savegnago": {
-        "nome": "Mamão Papaya Golden 1,2Kg",
+        "nome": "Iogurte Líquido Batavo Pense Zero 170g Mamão",
         "preco": 2.99,
-        "preco_por_kg": 2.49
+        "preco_por_kg": 17.59
       },
       "mais_barato": "Arena"
     },
@@ -1181,30 +1181,6 @@
         "nome": "Creme Dental Sorriso Dentes Brancos 120g Preço Especial",
         "preco": 4.69,
         "preco_por_kg": 39.08
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "111",
-      "goodbom": {
-        "nome": "SABONETE LÍQUIDO MONANGE F.LAVANDA 240ML",
-        "preco": 8.99,
-        "preco_por_kg": 37.46
-      },
-      "tenda": {
-        "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
-        "preco": 5,
-        "preco_por_kg": 10
-      },
-      "arena": {
-        "nome": "Sabonete Líquido Lux Rosas Francesas Refil Econômico 900ml",
-        "preco": 24.99,
-        "preco_por_kg": 27.77
-      },
-      "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 23.3,
-        "preco_por_kg": 25.89
       },
       "mais_barato": "Tenda"
     },
