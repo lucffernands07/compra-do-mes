@@ -1,61 +1,13 @@
 {
-  "totalGoodbom": "894.12",
-  "totalTenda": "1126.46",
-  "totalArena": "642.96",
-  "totalSavegnago": "761.42",
-  "encontradosGoodbom": 80,
-  "encontradosTenda": 85,
+  "totalGoodbom": "745.97",
+  "totalTenda": "1061.32",
+  "totalArena": "563.55",
+  "totalSavegnago": "703.71",
+  "encontradosGoodbom": 78,
+  "encontradosTenda": 84,
   "encontradosArena": 77,
   "encontradosSavegnago": 72,
   "produtos": [
-    {
-      "id": "3",
-      "goodbom": {
-        "nome": "LINGUIÇA CALABRESA FINA SWIFT 500G",
-        "preco": 21.9,
-        "preco_por_kg": 43.8
-      },
-      "tenda": {
-        "nome": "Linguiça Calabresa Brasa 400g",
-        "preco": 9.9,
-        "preco_por_kg": 24.75
-      },
-      "arena": {
-        "nome": "Linguiça Calabresa Sadia Pacote 5kg",
-        "preco": 109.19,
-        "preco_por_kg": 21.84
-      },
-      "savegnago": {
-        "nome": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
-        "preco": 10.45,
-        "preco_por_kg": 20.9
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
-      "id": "4",
-      "goodbom": {
-        "nome": "HAMBÚRGUER DE CARNE BOVINA WAGYU SWIFT 165G",
-        "preco": 15.9,
-        "preco_por_kg": 96.36
-      },
-      "tenda": {
-        "nome": "Hambúrguer de Carne Bovina Sadia 113g",
-        "preco": 4.09,
-        "preco_por_kg": 36.19
-      },
-      "arena": {
-        "nome": "Hambúrguer De Carne Bovina Air Fryer Seara 150g",
-        "preco": 6.29,
-        "preco_por_kg": 41.93
-      },
-      "savegnago": {
-        "nome": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
-        "preco": 23.7,
-        "preco_por_kg": 35.27
-      },
-      "mais_barato": "Savegnago"
-    },
     {
       "id": "5",
       "goodbom": {
@@ -69,16 +21,16 @@
         "preco_por_kg": 27.9
       },
       "arena": {
-        "nome": "Linguiça Toscana Sulita Sabor & Grill 600g",
-        "preco": 8.99,
-        "preco_por_kg": 14.98
+        "nome": "Linguiça Toscana Frimesa Kg",
+        "preco": 21.9,
+        "preco_por_kg": 21.9
       },
       "savegnago": {
         "nome": "Linguiça Toscana Swift 700g",
         "preco": 12.85,
         "preco_por_kg": 18.36
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "6",
@@ -789,9 +741,9 @@
         "preco_por_kg": 12.64
       },
       "arena": {
-        "nome": "Maionese Saúde Sachê 1kg",
-        "preco": 7.49,
-        "preco_por_kg": 7.49
+        "nome": "Maionese Quero Big Sachê 1,02kg",
+        "preco": 5.39,
+        "preco_por_kg": 2.69
       },
       "savegnago": {
         "nome": "Maionese Hellmann's Tradicional 600gr",
@@ -837,9 +789,9 @@
         "preco_por_kg": 9.59
       },
       "arena": {
-        "nome": "Leite Condensado Zero Lactose Italac - 395g",
+        "nome": "Leite Condensado Piracanjuba Semidesnatado Bag 2,5kg",
         "preco": 3.59,
-        "preco_por_kg": 9.09
+        "preco_por_kg": 0.72
       },
       "savegnago": {
         "nome": "Leite Condensado TP Semidesnatado Italac 395g",
@@ -957,9 +909,9 @@
         "preco_por_kg": 6.5
       },
       "arena": {
-        "nome": "Álcool Duratto Limpador Uso Geral Neutro 1l",
-        "preco": 5.89,
-        "preco_por_kg": 5.89
+        "nome": "Álcool Duratto Bactericida Desinfetante Lavanda 1l",
+        "preco": 5.99,
+        "preco_por_kg": 5.99
       },
       "savegnago": {
         "nome": "Álcool Start 46° 1L",
@@ -1005,9 +957,9 @@
         "preco_por_kg": 3.25
       },
       "arena": {
-        "nome": "Água Sanitária Barbarex 5l",
-        "preco": 10.99,
-        "preco_por_kg": 2.2
+        "nome": "Água Sanitária Ypê 5l",
+        "preco": 10.49,
+        "preco_por_kg": 2.1
       },
       "savegnago": {
         "nome": "Água Sanitária Fazenda Esperança 2L",
@@ -1030,15 +982,15 @@
       },
       "arena": {
         "nome": "Detergente Ypê Clear 5l",
-        "preco": 22.99,
-        "preco_por_kg": 4.6
+        "preco": 2.39,
+        "preco_por_kg": 0.48
       },
       "savegnago": {
         "nome": "Detergente Líquido Minuano 1300 500ml Clear",
         "preco": 1.89,
         "preco_por_kg": 3.78
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Arena"
     },
     {
       "id": "101",
@@ -1053,16 +1005,16 @@
         "preco_por_kg": 6.1
       },
       "arena": {
-        "nome": "Limpador Multiuso Ype Floral Senses 500ml",
-        "preco": 3.79,
-        "preco_por_kg": 7.58
+        "nome": "Limpador Multiuso Coperalcool Segredos Da Natureza Chá Branco Gatilho",
+        "preco": 3.49,
+        "preco_por_kg": 3.49
       },
       "savegnago": {
         "nome": "Limpador Multiuso Ypê Desengordurante 500ml",
         "preco": 4.55,
         "preco_por_kg": 9.1
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "103",
@@ -1137,30 +1089,6 @@
       "mais_barato": "Savegnago"
     },
     {
-      "id": "107",
-      "goodbom": {
-        "nome": "PAPEL HIGIÊNICO FOLHA DUPLA DUETTO NEUTRO C/4",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
-      },
-      "tenda": {
-        "nome": "Papel Higiênico Folha Simples Select 30m 4un",
-        "preco": 4.2,
-        "preco_por_kg": 4.2
-      },
-      "arena": {
-        "nome": "Papel Higiênico Familiar Folha Dupla 30m C/ 4 Rolos",
-        "preco": 6.59,
-        "preco_por_kg": 6.59
-      },
-      "savegnago": {
-        "nome": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
-        "preco": 19.7,
-        "preco_por_kg": 1.64
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
       "id": "110",
       "goodbom": {
         "nome": "CREME DENTAL COLGATE TRIPLA AÇÃO 180G",
@@ -1178,9 +1106,9 @@
         "preco_por_kg": 37.72
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso Dentes Brancos 120g Preço Especial",
-        "preco": 4.69,
-        "preco_por_kg": 39.08
+        "nome": "Creme Dental Sorriso 120g Tripla Limpeza Completa",
+        "preco": 4.49,
+        "preco_por_kg": 37.42
       },
       "mais_barato": "Tenda"
     },
@@ -1226,9 +1154,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 23.3,
-        "preco_por_kg": 25.89
+        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
+        "preco": 2.35,
+        "preco_por_kg": 27.65
       },
       "mais_barato": "Tenda"
     },
@@ -1294,8 +1222,8 @@
       },
       "arena": {
         "nome": "Algodão Disco Bellacotton C/ 50 Unid.",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
+        "preco": 10.89,
+        "preco_por_kg": 10.89
       },
       "savegnago": {
         "nome": "Óleo de Algodão Liza Pet 900ml",
@@ -1317,9 +1245,9 @@
         "preco_por_kg": 16.3
       },
       "arena": {
-        "nome": "Pão Bisnaguinha Bauducco 260g",
-        "preco": 5.49,
-        "preco_por_kg": 21.12
+        "nome": "Pão Bisnaguinha De Panes 300g",
+        "preco": 6.49,
+        "preco_por_kg": 21.63
       },
       "savegnago": {
         "nome": "Pão Bisnaguinha Visconti 240g",
