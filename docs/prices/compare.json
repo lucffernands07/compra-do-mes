@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "846.66",
-  "totalTenda": "1108.07",
-  "totalArena": "617.27",
-  "totalSavegnago": "778.67",
+  "totalGoodbom": "884.12",
+  "totalTenda": "1118.07",
+  "totalArena": "645.04",
+  "totalSavegnago": "805.34",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 86,
+  "encontradosTenda": 84,
   "encontradosArena": 77,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -1178,9 +1178,33 @@
         "preco_por_kg": 37.72
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso Dentes Brancos 120g Preço Especial",
-        "preco": 4.69,
-        "preco_por_kg": 39.08
+        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
+        "preco": 2.79,
+        "preco_por_kg": 39.86
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "111",
+      "goodbom": {
+        "nome": "SABONETE LÍQUIDO MONANGE F.LAVANDA 240ML",
+        "preco": 8.99,
+        "preco_por_kg": 37.46
+      },
+      "tenda": {
+        "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
+        "preco": 5,
+        "preco_por_kg": 10
+      },
+      "arena": {
+        "nome": "Sabonete Líquido Lux Rosas Francesas Refil Econômico 900ml",
+        "preco": 24.99,
+        "preco_por_kg": 27.77
+      },
+      "savegnago": {
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 23.3,
+        "preco_por_kg": 25.89
       },
       "mais_barato": "Tenda"
     },
