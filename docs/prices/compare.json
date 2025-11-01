@@ -1,13 +1,61 @@
 {
-  "totalGoodbom": "753.96",
-  "totalTenda": "1065.52",
-  "totalArena": "578.34",
-  "totalSavegnago": "707.79",
-  "encontradosGoodbom": 78,
+  "totalGoodbom": "896.62",
+  "totalTenda": "1130.26",
+  "totalArena": "642.11",
+  "totalSavegnago": "763.96",
+  "encontradosGoodbom": 80,
   "encontradosTenda": 85,
   "encontradosArena": 77,
   "encontradosSavegnago": 72,
   "produtos": [
+    {
+      "id": "3",
+      "goodbom": {
+        "nome": "LINGUIÇA CALABRESA FINA SWIFT 500G",
+        "preco": 21.9,
+        "preco_por_kg": 43.8
+      },
+      "tenda": {
+        "nome": "Linguiça Calabresa Brasa 400g",
+        "preco": 9.9,
+        "preco_por_kg": 24.75
+      },
+      "arena": {
+        "nome": "Linguiça Calabresa Sadia Pacote 5kg",
+        "preco": 109.19,
+        "preco_por_kg": 21.84
+      },
+      "savegnago": {
+        "nome": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
+        "preco": 10.45,
+        "preco_por_kg": 20.9
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
+      "id": "4",
+      "goodbom": {
+        "nome": "HAMBÚRGUER DE CARNE BOVINA WAGYU SWIFT 165G",
+        "preco": 15.9,
+        "preco_por_kg": 96.36
+      },
+      "tenda": {
+        "nome": "Hambúrguer de Carne Bovina Sadia 113g",
+        "preco": 4.09,
+        "preco_por_kg": 36.19
+      },
+      "arena": {
+        "nome": "Hambúrguer De Carne Bovina Air Fryer Seara 150g",
+        "preco": 6.29,
+        "preco_por_kg": 41.93
+      },
+      "savegnago": {
+        "nome": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
+        "preco": 23.7,
+        "preco_por_kg": 35.27
+      },
+      "mais_barato": "Savegnago"
+    },
     {
       "id": "5",
       "goodbom": {
@@ -203,9 +251,9 @@
     {
       "id": "31",
       "goodbom": {
-        "nome": "SEMENTE FELTRIN ALFACE CRESPA",
-        "preco": 2.49,
-        "preco_por_kg": 2.49
+        "nome": "ALFACE ROXA UN",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
       },
       "tenda": {
         "nome": "Alface Mimosa Unidade",
@@ -222,7 +270,7 @@
         "preco": 4.5,
         "preco_por_kg": 4.5
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "32",
@@ -328,9 +376,9 @@
         "preco_por_kg": 17.98
       },
       "tenda": {
-        "nome": "Refresco Adoçado Uva Maguary 1L",
-        "preco": 4.65,
-        "preco_por_kg": 4.65
+        "nome": "Néctar de Uva Nutri Néctar 200ml",
+        "preco": 1.69,
+        "preco_por_kg": 8.45
       },
       "arena": {
         "nome": "Suco Integral Geração S Uva 1,35l",
@@ -880,7 +928,7 @@
         "preco_por_kg": 19.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
