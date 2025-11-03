@@ -1,13 +1,133 @@
 {
-  "totalGoodbom": "701.47",
-  "totalTenda": "1253.43",
-  "totalArena": "553.68",
-  "totalSavegnago": "662.30",
-  "encontradosGoodbom": 72,
+  "totalGoodbom": "862.61",
+  "totalTenda": "1351.92",
+  "totalArena": "625.78",
+  "totalSavegnago": "707.61",
+  "encontradosGoodbom": 80,
   "encontradosTenda": 85,
   "encontradosArena": 77,
-  "encontradosSavegnago": 72,
+  "encontradosSavegnago": 71,
   "produtos": [
+    {
+      "id": "3",
+      "goodbom": {
+        "nome": "LINGUIÇA CALABRESA FINA SWIFT 500G",
+        "preco": 21.9,
+        "preco_por_kg": 43.8
+      },
+      "tenda": {
+        "nome": "Linguiça Calabresa Brasa 400g",
+        "preco": 11.39,
+        "preco_por_kg": 28.48
+      },
+      "arena": {
+        "nome": "Linguiça Calabresa Sadia Pacote 5kg",
+        "preco": 109.19,
+        "preco_por_kg": 21.84
+      },
+      "savegnago": {
+        "nome": "Linguiça Calabresa Resfriada Swift 500g Fina",
+        "preco": 11.95,
+        "preco_por_kg": 23.9
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "4",
+      "goodbom": {
+        "nome": "HAMBÚRGUER DE CARNE BOVINA WAGYU SWIFT 165G",
+        "preco": 15.9,
+        "preco_por_kg": 96.36
+      },
+      "tenda": {
+        "nome": "Hambúrguer de Carne Bovina Sadia 113g",
+        "preco": 4.09,
+        "preco_por_kg": 36.19
+      },
+      "arena": {
+        "nome": "Hambúrguer De Carne Bovina Air Fryer Seara 150g",
+        "preco": 6.29,
+        "preco_por_kg": 41.93
+      },
+      "savegnago": {
+        "nome": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
+        "preco": 23.7,
+        "preco_por_kg": 35.27
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
+      "id": "5",
+      "goodbom": {
+        "nome": "LINGUIÇA TOSCANA SEARA KG",
+        "preco": 19.99,
+        "preco_por_kg": 19.99
+      },
+      "tenda": {
+        "nome": "Linguiça Toscana Fina Apimentada Sabor de Bragança 500g",
+        "preco": 13.95,
+        "preco_por_kg": 27.9
+      },
+      "arena": {
+        "nome": "Linguiça Toscana Frimesa Kg",
+        "preco": 21.9,
+        "preco_por_kg": 21.9
+      },
+      "savegnago": {
+        "nome": "Linguiça Toscana Swift 700g",
+        "preco": 12.85,
+        "preco_por_kg": 18.36
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
+      "id": "6",
+      "goodbom": {
+        "nome": "SALSICHA HOT DOG SEARA KG",
+        "preco": 8.99,
+        "preco_por_kg": 8.99
+      },
+      "tenda": {
+        "nome": "Salsicha Hot Dog Aurora 500g",
+        "preco": 7.89,
+        "preco_por_kg": 15.78
+      },
+      "arena": {
+        "nome": "Salsicha Hot Dog Copacol Granel Kg",
+        "preco": 8.99,
+        "preco_por_kg": 8.99
+      },
+      "savegnago": {
+        "nome": "Salsicha Hot Dog Aurora 500g",
+        "preco": 9.95,
+        "preco_por_kg": 19.9
+      },
+      "mais_barato": "Goodbom"
+    },
+    {
+      "id": "7",
+      "goodbom": {
+        "nome": "SOBRECOXA KG",
+        "preco": 12.99,
+        "preco_por_kg": 12.99
+      },
+      "tenda": {
+        "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
+        "preco": 4.45,
+        "preco_por_kg": 8.9
+      },
+      "arena": {
+        "nome": "Sobrecoxa Congelada Granel Kg",
+        "preco": 11.69,
+        "preco_por_kg": 11.69
+      },
+      "savegnago": {
+        "nome": "Sobrecoxa Frango Swift 1Kg",
+        "preco": 14.5,
+        "preco_por_kg": 14.5
+      },
+      "mais_barato": "Tenda"
+    },
     {
       "id": "22",
       "goodbom": {
@@ -415,6 +535,30 @@
         "preco_por_kg": 9.98
       },
       "mais_barato": "Savegnago"
+    },
+    {
+      "id": "47",
+      "goodbom": {
+        "nome": "MANDIOCA KG",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "tenda": {
+        "nome": "Mandioca 500g",
+        "preco": 2,
+        "preco_por_kg": 4
+      },
+      "arena": {
+        "nome": "Farinha De Mandioca Pandora Branca Grossa 500g",
+        "preco": 3.69,
+        "preco_por_kg": 7.38
+      },
+      "savegnago": {
+        "nome": "Farinha Mandioca Siamar 1k Grossa",
+        "preco": 10.65,
+        "preco_por_kg": 10.65
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "49",
@@ -1058,9 +1202,9 @@
         "preco_por_kg": 27.77
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Lux Botanicals 500ml Flor de Cerejeira",
-        "preco": 16.83,
-        "preco_por_kg": 33.66
+        "nome": "Sabonete Líquido para Mãos Palmolive Nutrimilk Hidratação 900ml",
+        "preco": 27.95,
+        "preco_por_kg": 31.06
       },
       "mais_barato": "Tenda"
     },
@@ -1085,30 +1229,6 @@
         "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
         "preco": 2.35,
         "preco_por_kg": 27.65
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "114",
-      "goodbom": {
-        "nome": "GEL FIXADOR TRIBAL AZUL 500G",
-        "preco": 12.99,
-        "preco_por_kg": 25.98
-      },
-      "tenda": {
-        "nome": "Gel Fixador Incolor Soft Fix 250g",
-        "preco": 5.69,
-        "preco_por_kg": 22.76
-      },
-      "arena": {
-        "nome": "Gel Fixador Ny Looks Condicionante Azul Fator 4 240g",
-        "preco": 9.99,
-        "preco_por_kg": 41.63
-      },
-      "savegnago": {
-        "nome": "Gel Fixador Clear 300g Controle Caspa",
-        "preco": 22.4,
-        "preco_por_kg": 74.67
       },
       "mais_barato": "Tenda"
     },
