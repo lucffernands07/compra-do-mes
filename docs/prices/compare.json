@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "876.29",
-  "totalTenda": "1367.30",
-  "totalArena": "648.89",
-  "totalSavegnago": "777.08",
-  "encontradosGoodbom": 80,
+  "totalGoodbom": "852.68",
+  "totalTenda": "1345.42",
+  "totalArena": "652.17",
+  "totalSavegnago": "737.74",
+  "encontradosGoodbom": 74,
   "encontradosTenda": 85,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -129,6 +129,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "22",
+      "goodbom": {
+        "nome": "VAGEM MACARRÃO KG",
+        "preco": 14.99,
+        "preco_por_kg": 14.99
+      },
+      "tenda": {
+        "nome": "Vagem Macarrão 300g",
+        "preco": 5.07,
+        "preco_por_kg": 16.9
+      },
+      "arena": {
+        "nome": "Vagem Congelada De Marchi 1,02kg",
+        "preco": 26.99,
+        "preco_por_kg": 13.49
+      },
+      "savegnago": {
+        "nome": "Vagem Irmãos Pimenta Bandeja 300g",
+        "preco": 7.99,
+        "preco_por_kg": 26.63
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "24",
       "goodbom": {
         "nome": "BETERRABA KG",
@@ -218,9 +242,9 @@
         "preco_por_kg": 25.9
       },
       "savegnago": {
-        "nome": "Bisnaguinha Cenoura e Mandioquinha Nutrella 300g",
-        "preco": 12.5,
-        "preco_por_kg": 41.67
+        "nome": "Caldo Swift 350g Mandioquinha com Frango",
+        "preco": 3.79,
+        "preco_por_kg": 10.83
       },
       "mais_barato": "Tenda"
     },
@@ -376,9 +400,9 @@
         "preco_por_kg": 9.99
       },
       "tenda": {
-        "nome": "Maçã Pink Lady 155g",
-        "preco": 2,
-        "preco_por_kg": 12.9
+        "nome": "Maçã Granny Smith Unidade",
+        "preco": 3.38,
+        "preco_por_kg": 3.38
       },
       "arena": {
         "nome": "Suco Maguary Seleção Maça Pet 1,35l",
@@ -609,30 +633,6 @@
       "mais_barato": "Savegnago"
     },
     {
-      "id": "53",
-      "goodbom": {
-        "nome": "FEIJÃO PRETO OLIRON 1KG",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
-      },
-      "tenda": {
-        "nome": "Feijão Carioca 5 Estrelas 1kg",
-        "preco": 4.19,
-        "preco_por_kg": 4.19
-      },
-      "arena": {
-        "nome": "Feijão Carioca Saboroso 1kg",
-        "preco": 5.69,
-        "preco_por_kg": 5.69
-      },
-      "savegnago": {
-        "nome": "Feijão Carioca Empório São João 1kg",
-        "preco": 5.85,
-        "preco_por_kg": 5.85
-      },
-      "mais_barato": "Tenda"
-    },
-    {
       "id": "66",
       "goodbom": {
         "nome": "ÓLEO DE SOJA LIZA PET 900ML",
@@ -797,54 +797,6 @@
         "nome": "Mostarda Predilecta 180g Bisnaga",
         "preco": 4.52,
         "preco_por_kg": 25.11
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "78",
-      "goodbom": {
-        "nome": "LEITE CONDENSADO SEMIDESNATADO PIRACANJUBA 395G TP",
-        "preco": 5.79,
-        "preco_por_kg": 14.66
-      },
-      "tenda": {
-        "nome": "Leite Condensado Semidesnatado Campos do Jordão 395g",
-        "preco": 4.59,
-        "preco_por_kg": 11.62
-      },
-      "arena": {
-        "nome": "Leite Condensado Piracanjuba Semidesnatado Bag 2,5kg",
-        "preco": 8.45,
-        "preco_por_kg": 1.69
-      },
-      "savegnago": {
-        "nome": "Leite Condensado TP Semidesnatado Italac 395g",
-        "preco": 5.85,
-        "preco_por_kg": 14.81
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "79",
-      "goodbom": {
-        "nome": "CREME DE LEITE SHEFA 200G TP",
-        "preco": 3.79,
-        "preco_por_kg": 18.95
-      },
-      "tenda": {
-        "nome": "Creme de Leite 10% Italac 200g",
-        "preco": 2.69,
-        "preco_por_kg": 13.45
-      },
-      "arena": {
-        "nome": "Creme De Leite Lider Leve Tp - 1,03kg",
-        "preco": 8.49,
-        "preco_por_kg": 2.83
-      },
-      "savegnago": {
-        "nome": "Creme De Leite Jussara 200G",
-        "preco": 3.39,
-        "preco_por_kg": 16.95
       },
       "mais_barato": "Arena"
     },
@@ -1187,7 +1139,7 @@
     {
       "id": "112",
       "goodbom": {
-        "nome": "SABONETE LUX GARDENIA 85G",
+        "nome": "SABONETE EM BARRA PALMOLIVE FRESCOR PURIFICANTE COM PARTÍCULAS DE CARVÃO 85G",
         "preco": 2.49,
         "preco_por_kg": 29.29
       },
@@ -1202,9 +1154,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Palmolive Naturals Frescor Nutritivo Tangerina e Alecrim 85g",
-        "preco": 1.99,
-        "preco_por_kg": 23.41
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 23.3,
+        "preco_por_kg": 25.89
       },
       "mais_barato": "Tenda"
     },
