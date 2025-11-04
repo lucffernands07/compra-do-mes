@@ -1,8 +1,8 @@
 {
-  "totalGoodbom": "861.36",
-  "totalTenda": "1539.84",
-  "totalArena": "624.88",
-  "totalSavegnago": "711.82",
+  "totalGoodbom": "805.92",
+  "totalTenda": "1502.70",
+  "totalArena": "578.88",
+  "totalSavegnago": "664.52",
   "encontradosGoodbom": 81,
   "encontradosTenda": 86,
   "encontradosArena": 77,
@@ -261,7 +261,7 @@
         "preco_por_kg": 4.49
       },
       "arena": {
-        "nome": "Alface Crespa Hidropônica Jw Unid.",
+        "nome": "Alface Crespa Unid.",
         "preco": 4.69,
         "preco_por_kg": 4.69
       },
@@ -549,16 +549,16 @@
         "preco_por_kg": 4
       },
       "arena": {
-        "nome": "Farinha De Mandioca Pandora Branca Grossa 500g",
-        "preco": 3.69,
-        "preco_por_kg": 7.38
+        "nome": "Mandioca Kg",
+        "preco": 3.49,
+        "preco_por_kg": 3.49
       },
       "savegnago": {
         "nome": "Farinha Mandioca Siamar 1k Grossa",
         "preco": 10.65,
         "preco_por_kg": 10.65
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "49",
@@ -1161,30 +1161,6 @@
       "mais_barato": "Savegnago"
     },
     {
-      "id": "110",
-      "goodbom": {
-        "nome": "CREME DENTAL SORRISO KOLYNOS 90G EDIÇÃO LIMITADA",
-        "preco": 4.99,
-        "preco_por_kg": 55.44
-      },
-      "tenda": {
-        "nome": "Creme Dental Oral B 1-2-3 70g",
-        "preco": 2.6,
-        "preco_por_kg": 37.14
-      },
-      "arena": {
-        "nome": "Creme Dental Sorriso Dentes Brancos 90g",
-        "preco": 3.79,
-        "preco_por_kg": 42.11
-      },
-      "savegnago": {
-        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
-        "preco": 2.79,
-        "preco_por_kg": 39.86
-      },
-      "mais_barato": "Tenda"
-    },
-    {
       "id": "111",
       "goodbom": {
         "nome": "SABONETE LÍQUIDO LUX GARDENIA REFIL 200ML",
@@ -1202,9 +1178,9 @@
         "preco_por_kg": 27.77
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Camélia e Óleo de Amendoas 650ml",
-        "preco": 22.35,
-        "preco_por_kg": 34.38
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 23.3,
+        "preco_por_kg": 25.89
       },
       "mais_barato": "Tenda"
     },
@@ -1226,9 +1202,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 23.3,
-        "preco_por_kg": 25.89
+        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
+        "preco": 2.29,
+        "preco_por_kg": 26.94
       },
       "mais_barato": "Tenda"
     },
