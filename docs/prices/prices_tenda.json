@@ -133,11 +133,18 @@
     "preco_por_kg": 1.52
   },
   {
+    "id": 30,
+    "supermercado": "Tenda",
+    "produto": "Cheiro Verde Maço Unidade",
+    "preco": 4.29,
+    "preco_por_kg": 4.29
+  },
+  {
     "id": 31,
     "supermercado": "Tenda",
-    "produto": "Alface Roxa Unidade",
-    "preco": 4.49,
-    "preco_por_kg": 4.49
+    "produto": "Alface Crespa Unidade",
+    "preco": 1.49,
+    "preco_por_kg": 1.49
   },
   {
     "id": 32,
@@ -292,6 +299,13 @@
     "produto": "Azeite Extra Virgem Select 250ml",
     "preco": 17.29,
     "preco_por_kg": 69.16
+  },
+  {
+    "id": 63,
+    "supermercado": "Tenda",
+    "produto": "Tempero Ajinomoto 100g",
+    "preco": 11.95,
+    "preco_por_kg": 119.5
   },
   {
     "id": 65,
@@ -583,9 +597,9 @@
   {
     "id": 121,
     "supermercado": "Tenda",
-    "produto": "Fubá Mimoso Select 500g",
-    "preco": 2.05,
-    "preco_por_kg": 4.1
+    "produto": "Fubá Mimoso PQ 500g",
+    "preco": 2.15,
+    "preco_por_kg": 4.3
   },
   {
     "id": 122,

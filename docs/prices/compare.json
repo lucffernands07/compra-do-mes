@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "808.54",
-  "totalTenda": "1539.84",
-  "totalArena": "620.99",
-  "totalSavegnago": "713.94",
+  "totalGoodbom": "810.84",
+  "totalTenda": "1483.77",
+  "totalArena": "619.10",
+  "totalSavegnago": "749.97",
   "encontradosGoodbom": 81,
-  "encontradosTenda": 85,
+  "encontradosTenda": 87,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 70,
   "produtos": [
     {
       "id": "3",
@@ -249,6 +249,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "30",
+      "goodbom": {
+        "nome": "CHEIRO VERDE MAÇO",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "tenda": {
+        "nome": "Cheiro Verde Maço Unidade",
+        "preco": 4.29,
+        "preco_por_kg": 4.29
+      },
+      "arena": {
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.7,
+        "preco_por_kg": 3.7
+      },
+      "savegnago": {
+        "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
+        "preco": 7.99,
+        "preco_por_kg": 53.27
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "31",
       "goodbom": {
         "nome": "SEMENTE FELTRIN ALFACE CRESPA",
@@ -256,9 +280,9 @@
         "preco_por_kg": 2.49
       },
       "tenda": {
-        "nome": "Alface Roxa Unidade",
-        "preco": 4.49,
-        "preco_por_kg": 4.49
+        "nome": "Alface Crespa Unidade",
+        "preco": 1.49,
+        "preco_por_kg": 1.49
       },
       "arena": {
         "nome": "Alface Crespa Unid.",
@@ -270,7 +294,7 @@
         "preco": 4.5,
         "preco_por_kg": 4.5
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "32",
@@ -962,11 +986,11 @@
         "preco_por_kg": 5.99
       },
       "savegnago": {
-        "nome": "Álcool Start 46° 1L",
-        "preco": 12.07,
-        "preco_por_kg": 12.07
+        "nome": "Vinagre Galo de Barcelos 750ml Álcool",
+        "preco": 2.75,
+        "preco_por_kg": 3.67
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "90",
@@ -1113,30 +1137,6 @@
       "mais_barato": "Goodbom"
     },
     {
-      "id": "105",
-      "goodbom": {
-        "nome": "LÃ ACO BOMBRIL C/6",
-        "preco": 2.69,
-        "preco_por_kg": 2.69
-      },
-      "tenda": {
-        "nome": "Esponja de Aço Eco Bombril 45g 6 Unidades",
-        "preco": 2.59,
-        "preco_por_kg": 57.56
-      },
-      "arena": {
-        "nome": "Esponja Bombril Multi Uso Leve 4 Pague 3 Unid.",
-        "preco": 5.59,
-        "preco_por_kg": 5.59
-      },
-      "savegnago": {
-        "nome": "Lã De Aço Bombril Com 6 Unidades",
-        "preco": 2.65,
-        "preco_por_kg": 2.65
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
       "id": "107",
       "goodbom": {
         "nome": "PAPEL HIGIÊNICO FOLHA DUPLA DUETTO NEUTRO C/4",
@@ -1202,9 +1202,9 @@
         "preco_por_kg": 27.77
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
-        "preco": 7.45,
-        "preco_por_kg": 37.25
+        "nome": "Sabonete Líquido para Mãos Palmolive Nutrimilk Hidratação 900ml",
+        "preco": 27.95,
+        "preco_por_kg": 31.06
       },
       "mais_barato": "Tenda"
     },
@@ -1312,9 +1312,9 @@
         "preco_por_kg": 7.49
       },
       "tenda": {
-        "nome": "Fubá Mimoso Select 500g",
-        "preco": 2.05,
-        "preco_por_kg": 4.1
+        "nome": "Fubá Mimoso PQ 500g",
+        "preco": 2.15,
+        "preco_por_kg": 4.3
       },
       "arena": {
         "nome": "Fubá Kisabor Mimoso 1kg",
