@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "831.56",
-  "totalTenda": "1410.72",
-  "totalArena": "624.09",
-  "totalSavegnago": "723.93",
+  "totalGoodbom": "863.44",
+  "totalTenda": "1422.34",
+  "totalArena": "625.78",
+  "totalSavegnago": "738.74",
   "encontradosGoodbom": 80,
   "encontradosTenda": 86,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 70,
   "produtos": [
     {
       "id": "3",
@@ -83,9 +83,9 @@
     {
       "id": "6",
       "goodbom": {
-        "nome": "SALSICHA HOT DOG SEARA KG",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
+        "nome": "SALSICHA FRANGO ALLIZ KG",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
       },
       "tenda": {
         "nome": "Salsicha Hot Dog Aurora 500g",
@@ -102,7 +102,7 @@
         "preco": 9.95,
         "preco_por_kg": 19.9
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Arena"
     },
     {
       "id": "7",
@@ -276,8 +276,8 @@
       "id": "32",
       "goodbom": {
         "nome": "REPOLHO LISO KG",
-        "preco": 2.99,
-        "preco_por_kg": 2.99
+        "preco": 4.99,
+        "preco_por_kg": 4.99
       },
       "tenda": {
         "nome": "Repolho Verde Unidade",
@@ -443,9 +443,9 @@
     {
       "id": "39",
       "goodbom": {
-        "nome": "MARGARINA DORIANA SEM SAL 500G",
-        "preco": 6.49,
-        "preco_por_kg": 12.98
+        "nome": "MARGARINA CLAYBOM CREMOSA COM SAL 250GR",
+        "preco": 3.79,
+        "preco_por_kg": 15.16
       },
       "tenda": {
         "nome": "Margarina com Sal Dualis 500g",
@@ -491,9 +491,9 @@
     {
       "id": "43",
       "goodbom": {
-        "nome": "PRESUNTO COZIDO PERDIGÃO KG",
-        "preco": 27.9,
-        "preco_por_kg": 27.9
+        "nome": "PRESUNTO COZIDO SEARA SEM CAPA KG",
+        "preco": 28.9,
+        "preco_por_kg": 28.9
       },
       "tenda": {
         "nome": "Presunto Cozido Fatiado Seara 180g",
@@ -659,9 +659,9 @@
     {
       "id": "66",
       "goodbom": {
-        "nome": "ÓLEO DE SOJA LIZA PET 900ML",
-        "preco": 7.99,
-        "preco_por_kg": 8.88
+        "nome": "ÓLEO DE SOJA VITALIV PET 900ML",
+        "preco": 8.49,
+        "preco_por_kg": 9.43
       },
       "tenda": {
         "nome": "Óleo de Soja Cocamar 900ml",
@@ -755,9 +755,9 @@
     {
       "id": "72",
       "goodbom": {
-        "nome": "AÇUCAR MASCAVO TERRANA",
-        "preco": 17.9,
-        "preco_por_kg": 17.9
+        "nome": "AÇUCAR MASCAVO NATURAL LIFE 1KG",
+        "preco": 19.98,
+        "preco_por_kg": 19.98
       },
       "tenda": {
         "nome": "Paçoquinha com Açúcar Mascavo DaColônia 210g",
@@ -804,8 +804,8 @@
       "id": "77",
       "goodbom": {
         "nome": "MOSTARDA CEPÊRA 1010G",
-        "preco": 8.99,
-        "preco_por_kg": 8.9
+        "preco": 13.99,
+        "preco_por_kg": 13.85
       },
       "tenda": {
         "nome": "Mostarda Tradicional Cepêra 200g",
@@ -821,6 +821,30 @@
         "nome": "Mostarda Predilecta 180g Bisnaga",
         "preco": 4.52,
         "preco_por_kg": 25.11
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "78",
+      "goodbom": {
+        "nome": "LEITE CONDENSADO SEMIDESNATADO TRIANGULO 395G TP",
+        "preco": 4.99,
+        "preco_por_kg": 12.63
+      },
+      "tenda": {
+        "nome": "Leite Condensado Semidesnatado Campos do Jordão 395g",
+        "preco": 4.59,
+        "preco_por_kg": 11.62
+      },
+      "arena": {
+        "nome": "Leite Condensado Piracanjuba Semidesnatado Bag 2,5kg",
+        "preco": 8.45,
+        "preco_por_kg": 1.69
+      },
+      "savegnago": {
+        "nome": "Leite Condensado TP Semidesnatado Italac 395g",
+        "preco": 5.85,
+        "preco_por_kg": 14.81
       },
       "mais_barato": "Arena"
     },
@@ -1020,8 +1044,8 @@
       "id": "101",
       "goodbom": {
         "nome": "LIMPADOR MULTIUSO YPÊ COM ÁLCOOL 500ML",
-        "preco": 3.79,
-        "preco_por_kg": 7.58
+        "preco": 4.29,
+        "preco_por_kg": 8.58
       },
       "tenda": {
         "nome": "Limpador Multiuso Ypê Antibac 500ml",
@@ -1163,9 +1187,9 @@
     {
       "id": "111",
       "goodbom": {
-        "nome": "SABONETE LÍQUIDO MONANGE F.LAVANDA 240ML",
-        "preco": 8.99,
-        "preco_por_kg": 37.46
+        "nome": "SABONETE LÍQUIDO LUX GARDENIA REFIL 200ML",
+        "preco": 7.99,
+        "preco_por_kg": 39.95
       },
       "tenda": {
         "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
