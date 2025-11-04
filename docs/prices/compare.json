@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "805.92",
-  "totalTenda": "1502.70",
-  "totalArena": "578.88",
-  "totalSavegnago": "664.52",
+  "totalGoodbom": "808.54",
+  "totalTenda": "1539.84",
+  "totalArena": "620.99",
+  "totalSavegnago": "713.94",
   "encontradosGoodbom": 81,
-  "encontradosTenda": 86,
+  "encontradosTenda": 85,
   "encontradosArena": 77,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -35,9 +35,9 @@
     {
       "id": "4",
       "goodbom": {
-        "nome": "HAMBÚRGUER DE CARNE BOVINA WAGYU SWIFT 165G",
-        "preco": 15.9,
-        "preco_por_kg": 96.36
+        "nome": "HAMBÚRGUER DE CARNE BOVINA SABOR PICANHA SWIFT 480G",
+        "preco": 19.9,
+        "preco_por_kg": 41.46
       },
       "tenda": {
         "nome": "Hambúrguer de Carne Bovina Sadia 113g",
@@ -93,7 +93,7 @@
         "preco_por_kg": 15.78
       },
       "arena": {
-        "nome": "Salsicha Hot Dog Nobre Bandeja Kg",
+        "nome": "Salsicha Hot Dog Copacol Granel Kg",
         "preco": 8.99,
         "preco_por_kg": 8.99
       },
@@ -266,9 +266,9 @@
         "preco_por_kg": 4.69
       },
       "savegnago": {
-        "nome": "Alface Lisa Org Solo Vivo",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
+        "nome": "Alface Crespa Org Solo Vivo",
+        "preco": 4.5,
+        "preco_por_kg": 4.5
       },
       "mais_barato": "Goodbom"
     },
@@ -291,8 +291,8 @@
       },
       "savegnago": {
         "nome": "Repolho Verde 2Kg",
-        "preco": 4.5,
-        "preco_por_kg": 2.25
+        "preco": 4.99,
+        "preco_por_kg": 2.5
       },
       "mais_barato": "Savegnago"
     },
@@ -603,10 +603,10 @@
       },
       "savegnago": {
         "nome": "Leite Fermentado Nestlé Chamyto® 720G com 6 unidades",
-        "preco": 9.99,
-        "preco_por_kg": 13.88
+        "preco": 8.15,
+        "preco_por_kg": 11.32
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "52",
@@ -755,9 +755,9 @@
     {
       "id": "72",
       "goodbom": {
-        "nome": "AÇUCAR MASCAVO TERRANA",
-        "preco": 17.9,
-        "preco_por_kg": 17.9
+        "nome": "AÇUCAR MASCAVO NATURAL LIFE 1KG",
+        "preco": 19.98,
+        "preco_por_kg": 19.98
       },
       "tenda": {
         "nome": "Paçoquinha com Açúcar Mascavo DaColônia 210g",
@@ -1161,6 +1161,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "110",
+      "goodbom": {
+        "nome": "CREME DENTAL SORRISO KOLYNOS 90G EDIÇÃO LIMITADA",
+        "preco": 4.99,
+        "preco_por_kg": 55.44
+      },
+      "tenda": {
+        "nome": "Creme Dental Oral B 1-2-3 70g",
+        "preco": 2.6,
+        "preco_por_kg": 37.14
+      },
+      "arena": {
+        "nome": "Creme Dental Sorriso Dentes Brancos 90g",
+        "preco": 3.79,
+        "preco_por_kg": 42.11
+      },
+      "savegnago": {
+        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
+        "preco": 2.79,
+        "preco_por_kg": 39.86
+      },
+      "mais_barato": "Tenda"
+    },
+    {
       "id": "111",
       "goodbom": {
         "nome": "SABONETE LÍQUIDO LUX GARDENIA REFIL 200ML",
@@ -1178,9 +1202,9 @@
         "preco_por_kg": 27.77
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 23.3,
-        "preco_por_kg": 25.89
+        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
+        "preco": 7.45,
+        "preco_por_kg": 37.25
       },
       "mais_barato": "Tenda"
     },
