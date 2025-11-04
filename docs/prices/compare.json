@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "737.15",
-  "totalTenda": "1030.75",
-  "totalArena": "557.26",
-  "totalSavegnago": "700.37",
+  "totalGoodbom": "799.40",
+  "totalTenda": "1541.33",
+  "totalArena": "624.69",
+  "totalSavegnago": "745.65",
   "encontradosGoodbom": 81,
   "encontradosTenda": 87,
   "encontradosArena": 77,
-  "encontradosSavegnago": 65,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -31,6 +31,30 @@
         "preco_por_kg": 23.9
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "4",
+      "goodbom": {
+        "nome": "HAMBÚRGUER DE CARNE BOVINA SABOR PICANHA SWIFT 480G",
+        "preco": 18.9,
+        "preco_por_kg": 39.38
+      },
+      "tenda": {
+        "nome": "Hambúrguer de Carne Bovina Sadia 113g",
+        "preco": 4.09,
+        "preco_por_kg": 36.19
+      },
+      "arena": {
+        "nome": "Hambúrguer De Carne Bovina Air Fryer Seara 150g",
+        "preco": 6.29,
+        "preco_por_kg": 41.93
+      },
+      "savegnago": {
+        "nome": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
+        "preco": 23.7,
+        "preco_por_kg": 35.27
+      },
+      "mais_barato": "Savegnago"
     },
     {
       "id": "5",
@@ -84,8 +108,8 @@
       "id": "7",
       "goodbom": {
         "nome": "SOBRECOXA DE FRANGO SWIFT 1KG",
-        "preco": 14.5,
-        "preco_por_kg": 14.5
+        "preco": 13.9,
+        "preco_por_kg": 13.9
       },
       "tenda": {
         "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
@@ -108,8 +132,8 @@
       "id": "22",
       "goodbom": {
         "nome": "VAGEM MACARRÃO KG",
-        "preco": 14.99,
-        "preco_por_kg": 14.99
+        "preco": 12.99,
+        "preco_por_kg": 12.99
       },
       "tenda": {
         "nome": "Vagem Macarrão 300g",
@@ -126,7 +150,7 @@
         "preco": 7.99,
         "preco_por_kg": 26.63
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "24",
@@ -276,8 +300,8 @@
       "id": "32",
       "goodbom": {
         "nome": "REPOLHO LISO KG",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "tenda": {
         "nome": "Repolho Verde Unidade",
@@ -516,8 +540,8 @@
       "id": "44",
       "goodbom": {
         "nome": "MORTADELA CONFIANCA MINI 1KG",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
+        "preco": 8.99,
+        "preco_por_kg": 8.99
       },
       "tenda": {
         "nome": "Mortadela Bologna Fatiada Aurora 180g",
@@ -534,7 +558,7 @@
         "preco": 9.98,
         "preco_por_kg": 9.98
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "47",
@@ -753,6 +777,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "72",
+      "goodbom": {
+        "nome": "AÇUCAR MASCAVO NATURAL LIFE 1KG",
+        "preco": 19.98,
+        "preco_por_kg": 19.98
+      },
+      "tenda": {
+        "nome": "Paçoquinha com Açúcar Mascavo DaColônia 210g",
+        "preco": 10.75,
+        "preco_por_kg": 51.19
+      },
+      "arena": {
+        "nome": "Paçoca Dacolônia Açucar Mascavo Pote 1,008kg",
+        "preco": 32.99,
+        "preco_por_kg": 4.12
+      },
+      "savegnago": {
+        "nome": "Açúcar Mascavo Rosa Lima 500g",
+        "preco": 5.99,
+        "preco_por_kg": 11.98
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "76",
       "goodbom": {
         "nome": "MAIONESE TRADICIONAL LIZA 450G",
@@ -849,6 +897,30 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "82",
+      "goodbom": {
+        "nome": "CHÁ LEÃO DE CAMOMILA 10 SACHES",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
+      },
+      "tenda": {
+        "nome": "Chá de Camomila Leão 10g",
+        "preco": 4.19,
+        "preco_por_kg": 419
+      },
+      "arena": {
+        "nome": "Chá Branco Natural Tea Lichia 1l",
+        "preco": 6.59,
+        "preco_por_kg": 6.59
+      },
+      "savegnago": {
+        "nome": "Chá Lipton Ice Tea Limão 1,5L Garrafa",
+        "preco": 7.19,
+        "preco_por_kg": 4.79
+      },
+      "mais_barato": "Goodbom"
+    },
+    {
       "id": "87",
       "goodbom": {
         "nome": "GOMA MANDIOCA TAPIOCA AKIO 320G",
@@ -914,11 +986,11 @@
         "preco_por_kg": 5.99
       },
       "savegnago": {
-        "nome": "Álcool Start 46° 1L",
-        "preco": 12.07,
-        "preco_por_kg": 12.07
+        "nome": "Vinagre Galo de Barcelos 750ml Álcool",
+        "preco": 2.75,
+        "preco_por_kg": 3.67
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "90",
@@ -1089,6 +1161,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "107",
+      "goodbom": {
+        "nome": "PAPEL HIGIÊNICO FOLHA DUPLA DUETTO NEUTRO C/4",
+        "preco": 7.99,
+        "preco_por_kg": 7.99
+      },
+      "tenda": {
+        "nome": "Papel Higiênico Folha Simples Select 30m 4un",
+        "preco": 4.2,
+        "preco_por_kg": 4.2
+      },
+      "arena": {
+        "nome": "Papel Higiênico Folha Simples Paloma 30m C/ 16 Rolos Leve Mais Por Menos",
+        "preco": 14.79,
+        "preco_por_kg": 14.79
+      },
+      "savegnago": {
+        "nome": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
+        "preco": 19.7,
+        "preco_por_kg": 1.64
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "110",
       "goodbom": {
         "nome": "CREME DENTAL SORRISO KOLYNOS 90G EDIÇÃO LIMITADA",
@@ -1115,9 +1211,9 @@
     {
       "id": "111",
       "goodbom": {
-        "nome": "SABONETE LÍQUIDO LUX GARDENIA REFIL 200ML",
-        "preco": 7.99,
-        "preco_por_kg": 39.95
+        "nome": "SABONETE LÍQUIDO MONANGE F.LAVANDA 240ML",
+        "preco": 8.99,
+        "preco_por_kg": 37.46
       },
       "tenda": {
         "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",

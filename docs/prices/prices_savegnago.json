@@ -7,6 +7,13 @@
     "preco_por_kg": 23.9
   },
   {
+    "id": 4,
+    "supermercado": "Savegnago",
+    "produto": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
+    "preco": 23.7,
+    "preco_por_kg": 35.27
+  },
+  {
     "id": 5,
     "supermercado": "Savegnago",
     "produto": "Linguiça Toscana Swift 700g",
@@ -252,11 +259,25 @@
     "preco_por_kg": 57.2
   },
   {
+    "id": 72,
+    "supermercado": "Savegnago",
+    "produto": "Açúcar Mascavo Rosa Lima 500g",
+    "preco": 5.99,
+    "preco_por_kg": 11.98
+  },
+  {
     "id": 74,
     "supermercado": "Savegnago",
     "produto": "Suco Concentrado Tropical Dafruta Abacaxi 950ml",
     "preco": 8.49,
     "preco_por_kg": 8.94
+  },
+  {
+    "id": 75,
+    "supermercado": "Savegnago",
+    "produto": "Catchup Predilecta 400g Tradicional Bisnaga",
+    "preco": 5.95,
+    "preco_por_kg": 14.88
   },
   {
     "id": 76,
@@ -289,9 +310,16 @@
   {
     "id": 80,
     "supermercado": "Savegnago",
-    "produto": "Cápsula de café 3 corações Espresso Forza 10 un",
+    "produto": "Cápsula de café 3 corações clássico 10 un",
     "preco": 24.95,
     "preco_por_kg": 24.95
+  },
+  {
+    "id": 82,
+    "supermercado": "Savegnago",
+    "produto": "Chá Lipton Ice Tea Limão 1,5L Garrafa",
+    "preco": 7.19,
+    "preco_por_kg": 4.79
   },
   {
     "id": 84,
@@ -317,9 +345,9 @@
   {
     "id": 89,
     "supermercado": "Savegnago",
-    "produto": "Álcool Start 46° 1L",
-    "preco": 12.07,
-    "preco_por_kg": 12.07
+    "produto": "Vinagre Galo de Barcelos 750ml Álcool",
+    "preco": 2.75,
+    "preco_por_kg": 3.67
   },
   {
     "id": 90,
@@ -383,6 +411,20 @@
     "produto": "Lã De Aço Bombril Com 6 Unidades",
     "preco": 2.65,
     "preco_por_kg": 2.65
+  },
+  {
+    "id": 107,
+    "supermercado": "Savegnago",
+    "produto": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
+    "preco": 19.7,
+    "preco_por_kg": 1.64
+  },
+  {
+    "id": 108,
+    "supermercado": "Savegnago",
+    "produto": "Gel Adesivo Sanitário Pato Com 6 Discos Refil Lavanda",
+    "preco": 16.95,
+    "preco_por_kg": 16.95
   },
   {
     "id": 109,
