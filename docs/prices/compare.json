@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "788.20",
-  "totalTenda": "1360.43",
-  "totalArena": "612.76",
-  "totalSavegnago": "685.03",
+  "totalGoodbom": "793.19",
+  "totalTenda": "1364.30",
+  "totalArena": "616.46",
+  "totalSavegnago": "739.65",
   "encontradosGoodbom": 81,
-  "encontradosTenda": 87,
+  "encontradosTenda": 88,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -247,6 +247,30 @@
         "preco_por_kg": 10.83
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "30",
+      "goodbom": {
+        "nome": "CHEIRO VERDE MAÇO",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "tenda": {
+        "nome": "Cheiro Verde Maço Unidade",
+        "preco": 4.29,
+        "preco_por_kg": 4.29
+      },
+      "arena": {
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.7,
+        "preco_por_kg": 3.7
+      },
+      "savegnago": {
+        "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
+        "preco": 7.99,
+        "preco_por_kg": 53.27
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "31",
@@ -496,9 +520,9 @@
         "preco_por_kg": 28.9
       },
       "tenda": {
-        "nome": "Empanado Presunto e Queijo Seara 110g",
-        "preco": 4.4,
-        "preco_por_kg": 40
+        "nome": "Presunto Cozido Fatiado Seara 180g",
+        "preco": 8.09,
+        "preco_por_kg": 44.94
       },
       "arena": {
         "nome": "Presunto Cozido Pamplona Sem Capa De Gordura Peça Kg",
@@ -808,9 +832,9 @@
         "preco_por_kg": 13.85
       },
       "tenda": {
-        "nome": "Mostarda Tradicional Cepêra 200g",
-        "preco": 6.59,
-        "preco_por_kg": 32.95
+        "nome": "Mostarda Tradicional Quero 190g",
+        "preco": 5.79,
+        "preco_por_kg": 30.47
       },
       "arena": {
         "nome": "Mostarda Lanchero - 1,01kg",
@@ -976,7 +1000,7 @@
         "preco_por_kg": 7.99
       },
       "tenda": {
-        "nome": "Limpador Perfumado Essência Talco Coala 120ml",
+        "nome": "Limpador Perfumado Essência Eucalipto Citriodora Coala 120ml",
         "preco": 11.95,
         "preco_por_kg": 99.58
       },
@@ -1226,9 +1250,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 21.65,
-        "preco_por_kg": 24.06
+        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
+        "preco": 2.29,
+        "preco_por_kg": 26.94
       },
       "mais_barato": "Tenda"
     },
@@ -1274,9 +1298,9 @@
         "preco_por_kg": 10.89
       },
       "savegnago": {
-        "nome": "Óleo de Algodão Liza Pet 900ml",
-        "preco": 14.2,
-        "preco_por_kg": 15.78
+        "nome": "Amaciante Roupa Vida Macia Glicerina E Algodão 1L",
+        "preco": 14.25,
+        "preco_por_kg": 14.25
       },
       "mais_barato": "Tenda"
     },
@@ -1312,9 +1336,9 @@
         "preco_por_kg": 7.49
       },
       "tenda": {
-        "nome": "Fubá Pré-cozido PQ 500g",
-        "preco": 3.49,
-        "preco_por_kg": 6.98
+        "nome": "Fubá Mimoso Select 500g",
+        "preco": 2.05,
+        "preco_por_kg": 4.1
       },
       "arena": {
         "nome": "Fubá Kisabor Mimoso 1kg",
@@ -1326,7 +1350,7 @@
         "preco": 3.45,
         "preco_por_kg": 6.9
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     }
   ]
 }
