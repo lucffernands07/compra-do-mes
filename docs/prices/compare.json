@@ -1,13 +1,37 @@
 {
-  "totalGoodbom": "751.41",
-  "totalTenda": "1449.78",
-  "totalArena": "599.15",
-  "totalSavegnago": "663.55",
+  "totalGoodbom": "795.21",
+  "totalTenda": "1478.26",
+  "totalArena": "612.76",
+  "totalSavegnago": "692.97",
   "encontradosGoodbom": 81,
-  "encontradosTenda": 87,
+  "encontradosTenda": 86,
   "encontradosArena": 77,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
+    {
+      "id": "3",
+      "goodbom": {
+        "nome": "LINGUIÇA CALABRESA FINA SWIFT 500G",
+        "preco": 21.9,
+        "preco_por_kg": 43.8
+      },
+      "tenda": {
+        "nome": "Linguiça Calabresa Brasa 400g",
+        "preco": 11.39,
+        "preco_por_kg": 28.48
+      },
+      "arena": {
+        "nome": "Linguiça Calabresa Sadia Pacote 5kg",
+        "preco": 109.19,
+        "preco_por_kg": 21.84
+      },
+      "savegnago": {
+        "nome": "Linguiça Calabresa Resfriada Swift 500g Fina",
+        "preco": 11.95,
+        "preco_por_kg": 23.9
+      },
+      "mais_barato": "Arena"
+    },
     {
       "id": "4",
       "goodbom": {
@@ -838,8 +862,8 @@
       },
       "arena": {
         "nome": "Creme De Leite Lider Leve Tp - 1,03kg",
-        "preco": 8.49,
-        "preco_por_kg": 2.83
+        "preco": 8.39,
+        "preco_por_kg": 2.8
       },
       "savegnago": {
         "nome": "Creme De Leite Jussara 200G",
@@ -938,11 +962,11 @@
         "preco_por_kg": 5.99
       },
       "savegnago": {
-        "nome": "Vinagre Galo de Barcelos 750ml Álcool",
-        "preco": 2.75,
-        "preco_por_kg": 3.67
+        "nome": "Álcool Start 46° 1L",
+        "preco": 12.07,
+        "preco_por_kg": 12.07
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Arena"
     },
     {
       "id": "90",
@@ -1125,9 +1149,9 @@
         "preco_por_kg": 4.2
       },
       "arena": {
-        "nome": "Papel Higiênico Folha Simples Paloma 30m C/ 16 Rolos Leve Mais Por Menos",
-        "preco": 14.79,
-        "preco_por_kg": 14.79
+        "nome": "Papel Higiênico Familiar Folha Dupla 30m C/ 4 Rolos",
+        "preco": 6.59,
+        "preco_por_kg": 6.59
       },
       "savegnago": {
         "nome": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
@@ -1178,7 +1202,7 @@
         "preco_por_kg": 27.77
       },
       "savegnago": {
-        "nome": "Sabonete Líquido para as Mãos Palmolive Naturals Suavidade Delicada 200ml",
+        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
         "preco": 4.55,
         "preco_por_kg": 22.75
       },
@@ -1202,9 +1226,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
-        "preco": 2.29,
-        "preco_por_kg": 26.94
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 21.65,
+        "preco_por_kg": 24.06
       },
       "mais_barato": "Tenda"
     },
