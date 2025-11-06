@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "675.60",
-  "totalTenda": "1273.22",
-  "totalArena": "544.93",
-  "totalSavegnago": "631.55",
-  "encontradosGoodbom": 81,
-  "encontradosTenda": 80,
+  "totalGoodbom": "846.10",
+  "totalTenda": "1510.46",
+  "totalArena": "647.12",
+  "totalSavegnago": "786.08",
+  "encontradosGoodbom": 82,
+  "encontradosTenda": 88,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -40,9 +40,9 @@
         "preco_por_kg": 39.38
       },
       "tenda": {
-        "nome": "Hambúrguer de Carne Bovina Air Fryer Seara 150g",
-        "preco": 6.09,
-        "preco_por_kg": 40.6
+        "nome": "Hambúrguer de Carne Bovina Sadia 113g",
+        "preco": 4.09,
+        "preco_por_kg": 36.19
       },
       "arena": {
         "nome": "Hambúrguer De Carne Bovina Air Fryer Seara 150g",
@@ -424,9 +424,9 @@
         "preco_por_kg": 9.99
       },
       "tenda": {
-        "nome": "Maçã Pink Lady 155g",
-        "preco": 2,
-        "preco_por_kg": 12.9
+        "nome": "Maçã Granny Smith Unidade",
+        "preco": 3.38,
+        "preco_por_kg": 3.38
       },
       "arena": {
         "nome": "Suco Maguary Seleção Maça Pet 1,35l",
@@ -485,6 +485,54 @@
         "nome": "Margarina Claybom 500g Com Sal",
         "preco": 3.99,
         "preco_por_kg": 7.98
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "42",
+      "goodbom": {
+        "nome": "PIZZA SEARA MUSSARELA 440GR",
+        "preco": 19.49,
+        "preco_por_kg": 44.3
+      },
+      "tenda": {
+        "nome": "Queijo Mussarela Portofino 200g",
+        "preco": 5.98,
+        "preco_por_kg": 29.9
+      },
+      "arena": {
+        "nome": "Mussarela Davaca Peça Kg",
+        "preco": 39.9,
+        "preco_por_kg": 39.9
+      },
+      "savegnago": {
+        "nome": "Pizza Frango com Requeijão e Mussarela Sadia 460g",
+        "preco": 17.9,
+        "preco_por_kg": 38.91
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "43",
+      "goodbom": {
+        "nome": "PRESUNTO COZIDO SEARA SEM CAPA KG",
+        "preco": 28.9,
+        "preco_por_kg": 28.9
+      },
+      "tenda": {
+        "nome": "Presunto Cozido Sadia sem Capa Gordura Fatiado 400g",
+        "preco": 7.96,
+        "preco_por_kg": 19.9
+      },
+      "arena": {
+        "nome": "Presunto Cozido Pamplona Sem Capa De Gordura Peça Kg",
+        "preco": 19.89,
+        "preco_por_kg": 19.89
+      },
+      "savegnago": {
+        "nome": "Lasanha de presunto e queijo Seara 600g",
+        "preco": 17.9,
+        "preco_por_kg": 29.83
       },
       "mais_barato": "Arena"
     },
@@ -583,6 +631,30 @@
         "preco_por_kg": 11.32
       },
       "mais_barato": "Savegnago"
+    },
+    {
+      "id": "52",
+      "goodbom": {
+        "nome": "ARROZ INTEGRAL BROTO LEGAL 1KG",
+        "preco": 5.99,
+        "preco_por_kg": 5.99
+      },
+      "tenda": {
+        "nome": "Arroz Tipo 1 Select 1Kg",
+        "preco": 3.49,
+        "preco_por_kg": 3.49
+      },
+      "arena": {
+        "nome": "Arroz Broto Legal Kangai Longo Japonês 5kg",
+        "preco": 5.49,
+        "preco_por_kg": 1.1
+      },
+      "savegnago": {
+        "nome": "Arroz Agulhinha Serrazul 5kg Tipo 1",
+        "preco": 13.8,
+        "preco_por_kg": 2.76
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "53",
@@ -777,6 +849,54 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "78",
+      "goodbom": {
+        "nome": "LEITE CONDENSADO SEMIDESNATADO TRIANGULO 395G TP",
+        "preco": 6.59,
+        "preco_por_kg": 16.68
+      },
+      "tenda": {
+        "nome": "Leite Condensado Semidesnatado Campos do Jordão 395g",
+        "preco": 4.59,
+        "preco_por_kg": 11.62
+      },
+      "arena": {
+        "nome": "Leite Condensado Piracanjuba Semidesnatado Bag 2,5kg",
+        "preco": 3.59,
+        "preco_por_kg": 0.72
+      },
+      "savegnago": {
+        "nome": "Leite Condensado TP Semidesnatado Italac 395g",
+        "preco": 6.99,
+        "preco_por_kg": 17.7
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "79",
+      "goodbom": {
+        "nome": "CREME DE LEITE SHEFA 200G TP",
+        "preco": 3.79,
+        "preco_por_kg": 18.95
+      },
+      "tenda": {
+        "nome": "Creme de Leite 10% Italac 200g",
+        "preco": 2.59,
+        "preco_por_kg": 12.95
+      },
+      "arena": {
+        "nome": "Creme De Leite Lider Leve Tp - 1,03kg",
+        "preco": 7.99,
+        "preco_por_kg": 2.66
+      },
+      "savegnago": {
+        "nome": "Creme De Leite Jussara 200G",
+        "preco": 3.39,
+        "preco_por_kg": 16.95
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "82",
       "goodbom": {
         "nome": "CHÁ LEÃO DE CAMOMILA 10 SACHES",
@@ -832,7 +952,7 @@
         "preco_por_kg": 19.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -921,6 +1041,30 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "100",
+      "goodbom": {
+        "nome": "DETERGENTE YPÊ CLEAR 5L",
+        "preco": 25.99,
+        "preco_por_kg": 5.2
+      },
+      "tenda": {
+        "nome": "Detergente Líquido Minuano Marine 500ml",
+        "preco": 1.99,
+        "preco_por_kg": 3.98
+      },
+      "arena": {
+        "nome": "Detergente Ypê Clear 5l",
+        "preco": 2.49,
+        "preco_por_kg": 0.5
+      },
+      "savegnago": {
+        "nome": "Detergente Líquido Minuano 1300 500ml Clear",
+        "preco": 1.89,
+        "preco_por_kg": 3.78
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "101",
       "goodbom": {
         "nome": "LIMPADOR MULTIUSO YPÊ COM ÁLCOOL 500ML",
@@ -943,6 +1087,30 @@
         "preco_por_kg": 7.99
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "103",
+      "goodbom": {
+        "nome": "DESINFETANTE BARBAREX VIOLEX 2L",
+        "preco": 6.99,
+        "preco_por_kg": 3.5
+      },
+      "tenda": {
+        "nome": "Desinfetante Lavanda Select 2L",
+        "preco": 4.75,
+        "preco_por_kg": 2.38
+      },
+      "arena": {
+        "nome": "Desinfetante Barbarex Sensações 5l",
+        "preco": 12.59,
+        "preco_por_kg": 2.52
+      },
+      "savegnago": {
+        "nome": "Desinfetante Triex 5L Flores da Primavera",
+        "preco": 14.55,
+        "preco_por_kg": 2.91
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "104",
@@ -1082,9 +1250,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido para as Mãos Palmolive Naturals Suavidade Delicada 200ml",
-        "preco": 4.55,
-        "preco_por_kg": 22.75
+        "nome": "Sabonete Líquido Palmolive Naturals Camélia e Óleo de Amendoas 650ml",
+        "preco": 17.25,
+        "preco_por_kg": 26.54
       },
       "mais_barato": "Tenda"
     },
@@ -1120,9 +1288,9 @@
         "preco_por_kg": 11.99
       },
       "tenda": {
-        "nome": "Algodão Disco Select 50Un",
-        "preco": 5.85,
-        "preco_por_kg": 5.85
+        "nome": "Algodão Hidrófilo Rolo Select 50g",
+        "preco": 6.19,
+        "preco_por_kg": 123.8
       },
       "arena": {
         "nome": "Algodão Disco Bellacotton C/ 50 Unid.",
@@ -1134,7 +1302,31 @@
         "preco": 14.25,
         "preco_por_kg": 14.25
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "118",
+      "goodbom": {
+        "nome": "ANTISSÉPTICO LISTERINE COOL MINT 1L",
+        "preco": 46.98,
+        "preco_por_kg": 46.98
+      },
+      "tenda": {
+        "nome": "Solução Bucal Cool Mint Listerine 250ml",
+        "preco": 12.25,
+        "preco_por_kg": 49
+      },
+      "arena": {
+        "nome": "Antisséptico Listerine Cool Mint Leve Mais Por Menos 1l",
+        "preco": 34.9,
+        "preco_por_kg": 34.9
+      },
+      "savegnago": {
+        "nome": "Enxaguante Bucal Listerine Cool Mint 1L",
+        "preco": 37.9,
+        "preco_por_kg": 37.9
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "119",
