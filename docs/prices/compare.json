@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "819.17",
-  "totalTenda": "1435.88",
-  "totalArena": "590.61",
-  "totalSavegnago": "743.65",
+  "totalGoodbom": "877.13",
+  "totalTenda": "1487.63",
+  "totalArena": "653.11",
+  "totalSavegnago": "797.76",
   "encontradosGoodbom": 82,
-  "encontradosTenda": 88,
+  "encontradosTenda": 86,
   "encontradosArena": 77,
-  "encontradosSavegnago": 69,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -74,9 +74,9 @@
         "preco_por_kg": 21.9
       },
       "savegnago": {
-        "nome": "Linguiça Toscana Swift 700g",
-        "preco": 12.85,
-        "preco_por_kg": 18.36
+        "nome": "Linguiça Toscana Mini Camari 1Kg",
+        "preco": 16.85,
+        "preco_por_kg": 16.85
       },
       "mais_barato": "Savegnago"
     },
@@ -136,9 +136,9 @@
         "preco_por_kg": 12.99
       },
       "tenda": {
-        "nome": "Vagem Macarrão 300g",
-        "preco": 5.07,
-        "preco_por_kg": 16.9
+        "nome": "Vagem Macarrão Bandeja 340g",
+        "preco": 4.99,
+        "preco_por_kg": 14.68
       },
       "arena": {
         "nome": "Vagem Congelada De Marchi 1,02kg",
@@ -281,8 +281,8 @@
       },
       "tenda": {
         "nome": "Cheiro Verde Maço Unidade",
-        "preco": 4.29,
-        "preco_por_kg": 4.29
+        "preco": 2.49,
+        "preco_por_kg": 2.49
       },
       "arena": {
         "nome": "Cheiro Verde Jw Unid.",
@@ -294,7 +294,7 @@
         "preco": 7.99,
         "preco_por_kg": 53.27
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "31",
@@ -341,6 +341,30 @@
         "nome": "Repolho Verde 2Kg",
         "preco": 4.99,
         "preco_por_kg": 2.5
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
+      "id": "33",
+      "goodbom": {
+        "nome": "ALHO DESCASCADO 500G",
+        "preco": 19.99,
+        "preco_por_kg": 39.98
+      },
+      "tenda": {
+        "nome": "Alho Descascado Kamar 200g",
+        "preco": 9.89,
+        "preco_por_kg": 49.45
+      },
+      "arena": {
+        "nome": "Alho Descascado Hortmix 600g",
+        "preco": 29.9,
+        "preco_por_kg": 49.83
+      },
+      "savegnago": {
+        "nome": "Alho descascado Natari 1Kg",
+        "preco": 34.9,
+        "preco_por_kg": 34.9
       },
       "mais_barato": "Savegnago"
     },
@@ -520,9 +544,9 @@
         "preco_por_kg": 28.9
       },
       "tenda": {
-        "nome": "Presunto Cozido Sadia sem Capa Gordura Fatiado 400g",
-        "preco": 7.96,
-        "preco_por_kg": 19.9
+        "nome": "Salgadinho Presunto Elma Chips Fandangos 35G",
+        "preco": 3.55,
+        "preco_por_kg": 101.43
       },
       "arena": {
         "nome": "Presunto Cozido Pamplona Sem Capa De Gordura Peça Kg",
@@ -616,9 +640,9 @@
         "preco_por_kg": 11.75
       },
       "tenda": {
-        "nome": "Leite Fermentado Baunilha Frutap 170g",
-        "preco": 2.09,
-        "preco_por_kg": 12.29
+        "nome": "Leite Fermentado Patati Patata Frutap 450g",
+        "preco": 5.49,
+        "preco_por_kg": 12.2
       },
       "arena": {
         "nome": "Leite Fermentado Desnatado Chamyto C/6 Unid. 450g",
@@ -681,6 +705,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "66",
+      "goodbom": {
+        "nome": "ÓLEO DE SOJA VITALIV PET 900ML",
+        "preco": 8.49,
+        "preco_por_kg": 9.43
+      },
+      "tenda": {
+        "nome": "Óleo de Soja Cocamar 900ml",
+        "preco": 7.4,
+        "preco_por_kg": 8.22
+      },
+      "arena": {
+        "nome": "Óleo De Soja Vila Velha Galão 18l",
+        "preco": 158.9,
+        "preco_por_kg": 8.83
+      },
+      "savegnago": {
+        "nome": "Óleo de Soja Liza Pet 900ml",
+        "preco": 7.45,
+        "preco_por_kg": 8.28
+      },
+      "mais_barato": "Tenda"
+    },
+    {
       "id": "67",
       "goodbom": {
         "nome": "VINAGRE CASTELO ALCOOL COLOR 750ML",
@@ -701,6 +749,30 @@
         "nome": "Vinagre Galo de Barcelos 750ml Álcool",
         "preco": 2.75,
         "preco_por_kg": 3.67
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "68",
+      "goodbom": {
+        "nome": "MILHO VERDE BANDEJA 700G",
+        "preco": 5.99,
+        "preco_por_kg": 8.56
+      },
+      "tenda": {
+        "nome": "Milho Verde Predilecta 170g",
+        "preco": 3.19,
+        "preco_por_kg": 18.76
+      },
+      "arena": {
+        "nome": "Milho Verde Stella D'Oro Sachê 1,7kg",
+        "preco": 26.9,
+        "preco_por_kg": 3.84
+      },
+      "savegnago": {
+        "nome": "Milho Verde Irmãos Pimenta Bandeja 600g",
+        "preco": 4.95,
+        "preco_por_kg": 8.25
       },
       "mais_barato": "Arena"
     },
@@ -760,9 +832,9 @@
         "preco_por_kg": 16.64
       },
       "tenda": {
-        "nome": "Maionese Hellmann's Supreme 330 g",
-        "preco": 12.99,
-        "preco_por_kg": 39.36
+        "nome": "Maionese Bacon Sinistro Stranger Things Hellmann's 335g",
+        "preco": 10.65,
+        "preco_por_kg": 31.79
       },
       "arena": {
         "nome": "Maionese Quero Big Sachê 1,02kg",
@@ -832,9 +904,9 @@
         "preco_por_kg": 18.95
       },
       "tenda": {
-        "nome": "Creme de Leite 10% Italac 200g",
-        "preco": 2.59,
-        "preco_por_kg": 12.95
+        "nome": "Mistura Láctea Creme de Leite Mococa 200g",
+        "preco": 2.15,
+        "preco_por_kg": 10.75
       },
       "arena": {
         "nome": "Creme De Leite Lider Leve Tp - 1,03kg",
@@ -952,9 +1024,9 @@
         "preco_por_kg": 7.99
       },
       "tenda": {
-        "nome": "Limpador Perfumado Essência Eucalipto Citriodora Coala 120ml",
-        "preco": 11.95,
-        "preco_por_kg": 99.58
+        "nome": "Limpador Perfumado Ypê Chá Branco 1 Litro",
+        "preco": 7.25,
+        "preco_por_kg": 7.25
       },
       "arena": {
         "nome": "Limpador Perfumado Ypê Tropical 1l",
@@ -966,7 +1038,7 @@
         "preco": 7.98,
         "preco_por_kg": 7.98
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Tenda"
     },
     {
       "id": "96",
@@ -1000,7 +1072,7 @@
         "preco_por_kg": 5.2
       },
       "tenda": {
-        "nome": "Detergente Líquido Minuano Marine 500ml",
+        "nome": "Detergente Líquido Minuano Neutro 500ml",
         "preco": 1.99,
         "preco_por_kg": 3.98
       },
@@ -1115,9 +1187,9 @@
     {
       "id": "107",
       "goodbom": {
-        "nome": "PAPEL HIGIÊNICO FOLHA DUPLA DUETTO NEUTRO C/4",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
+        "nome": "PAPEL HIGIÊNICO FOLHA DUPLA MILI NEUTRO 30MT C/4",
+        "preco": 7.98,
+        "preco_por_kg": 7.98
       },
       "tenda": {
         "nome": "Papel Higiênico Folha Simples Select 30m 4un",
@@ -1202,9 +1274,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido para as Mãos Palmolive Naturals Suavidade Delicada 200ml",
-        "preco": 4.55,
-        "preco_por_kg": 22.75
+        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
+        "preco": 2.29,
+        "preco_por_kg": 26.94
       },
       "mais_barato": "Tenda"
     },
