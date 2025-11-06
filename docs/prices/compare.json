@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "799.12",
-  "totalTenda": "1357.44",
-  "totalArena": "614.24",
-  "totalSavegnago": "744.39",
+  "totalGoodbom": "765.48",
+  "totalTenda": "1334.64",
+  "totalArena": "605.44",
+  "totalSavegnago": "722.18",
   "encontradosGoodbom": 81,
-  "encontradosTenda": 88,
+  "encontradosTenda": 82,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 70,
   "produtos": [
     {
       "id": "3",
@@ -262,8 +262,8 @@
       },
       "arena": {
         "nome": "Cheiro Verde Jw Unid.",
-        "preco": 3.7,
-        "preco_por_kg": 3.7
+        "preco": 3.79,
+        "preco_por_kg": 3.79
       },
       "savegnago": {
         "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
@@ -633,30 +633,6 @@
       "mais_barato": "Savegnago"
     },
     {
-      "id": "52",
-      "goodbom": {
-        "nome": "ARROZ INTEGRAL BROTO LEGAL 1KG",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
-      },
-      "tenda": {
-        "nome": "Arroz Tipo 1 Select 1Kg",
-        "preco": 3.49,
-        "preco_por_kg": 3.49
-      },
-      "arena": {
-        "nome": "Arroz Broto Legal Kangai Longo Japonês 5kg",
-        "preco": 5.49,
-        "preco_por_kg": 1.1
-      },
-      "savegnago": {
-        "nome": "Arroz Agulhinha Serrazul 5kg Tipo 1",
-        "preco": 13.8,
-        "preco_por_kg": 2.76
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "53",
       "goodbom": {
         "nome": "FEIJÃO PRETO OLIRON 1KG",
@@ -862,37 +838,13 @@
       },
       "arena": {
         "nome": "Leite Condensado Piracanjuba Semidesnatado Bag 2,5kg",
-        "preco": 8.45,
-        "preco_por_kg": 1.69
+        "preco": 3.59,
+        "preco_por_kg": 0.72
       },
       "savegnago": {
         "nome": "Leite Condensado TP Semidesnatado Italac 395g",
         "preco": 6.99,
         "preco_por_kg": 17.7
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "79",
-      "goodbom": {
-        "nome": "CREME DE LEITE SHEFA 200G TP",
-        "preco": 3.79,
-        "preco_por_kg": 18.95
-      },
-      "tenda": {
-        "nome": "Creme de Leite 10% Italac 200g",
-        "preco": 2.59,
-        "preco_por_kg": 12.95
-      },
-      "arena": {
-        "nome": "Creme De Leite Lider Leve Tp - 1,03kg",
-        "preco": 8.39,
-        "preco_por_kg": 2.8
-      },
-      "savegnago": {
-        "nome": "Creme De Leite Jussara 200G",
-        "preco": 3.39,
-        "preco_por_kg": 16.95
       },
       "mais_barato": "Arena"
     },
@@ -981,9 +933,9 @@
         "preco_por_kg": 6.5
       },
       "arena": {
-        "nome": "Álcool Duratto Bactericida Desinfetante Lavanda 1l",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
+        "nome": "Álcool Duratto Limpador Uso Geral Neutro 1l",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
       },
       "savegnago": {
         "nome": "Vinagre Galo de Barcelos 750ml Álcool",
@@ -1041,30 +993,6 @@
       "mais_barato": "Arena"
     },
     {
-      "id": "100",
-      "goodbom": {
-        "nome": "DETERGENTE YPÊ CLEAR 5L",
-        "preco": 25.99,
-        "preco_por_kg": 5.2
-      },
-      "tenda": {
-        "nome": "Detergente Líquido Minuano Marine 500ml",
-        "preco": 1.99,
-        "preco_por_kg": 3.98
-      },
-      "arena": {
-        "nome": "Detergente Ypê Clear 5l",
-        "preco": 2.49,
-        "preco_por_kg": 0.5
-      },
-      "savegnago": {
-        "nome": "Detergente Líquido Minuano 1300 500ml Clear",
-        "preco": 1.89,
-        "preco_por_kg": 3.78
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "101",
       "goodbom": {
         "nome": "LIMPADOR MULTIUSO YPÊ COM ÁLCOOL 500ML",
@@ -1087,30 +1015,6 @@
         "preco_por_kg": 7.99
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "103",
-      "goodbom": {
-        "nome": "DESINFETANTE BARBAREX VIOLEX 2L",
-        "preco": 6.99,
-        "preco_por_kg": 3.5
-      },
-      "tenda": {
-        "nome": "Desinfetante Lavanda Select 2L",
-        "preco": 4.75,
-        "preco_por_kg": 2.38
-      },
-      "arena": {
-        "nome": "Desinfetante Barbarex Sensações 5l",
-        "preco": 12.59,
-        "preco_por_kg": 2.52
-      },
-      "savegnago": {
-        "nome": "Desinfetante Triex 5L Flores da Primavera",
-        "preco": 14.55,
-        "preco_por_kg": 2.91
-      },
-      "mais_barato": "Tenda"
     },
     {
       "id": "104",
@@ -1250,9 +1154,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
-        "preco": 4.55,
-        "preco_por_kg": 22.75
+        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
+        "preco": 2.29,
+        "preco_por_kg": 26.94
       },
       "mais_barato": "Tenda"
     },
