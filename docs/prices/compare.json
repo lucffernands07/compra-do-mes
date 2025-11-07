@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "815.01",
-  "totalTenda": "1255.65",
-  "totalArena": "1001.38",
-  "totalSavegnago": "762.81",
+  "totalGoodbom": "856.27",
+  "totalTenda": "1290.23",
+  "totalArena": "679.50",
+  "totalSavegnago": "790.54",
   "encontradosGoodbom": 82,
-  "encontradosTenda": 86,
+  "encontradosTenda": 85,
   "encontradosArena": 77,
-  "encontradosSavegnago": 66,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -50,7 +50,7 @@
         "preco_por_kg": 41.93
       },
       "savegnago": {
-        "nome": "Hambúrguer de Carne Bovina Churrasco Sadia Caixa 672g 12 Unidades",
+        "nome": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
         "preco": 23.7,
         "preco_por_kg": 35.27
       },
@@ -285,9 +285,9 @@
         "preco_por_kg": 2.49
       },
       "arena": {
-        "nome": "Cheiro Verde Kisabor Folha 8g",
-        "preco": 2.79,
-        "preco_por_kg": 348.75
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.79,
+        "preco_por_kg": 3.79
       },
       "savegnago": {
         "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
@@ -309,7 +309,7 @@
         "preco_por_kg": 4.49
       },
       "arena": {
-        "nome": "Alface Crespa Hidropônica Jw Unid.",
+        "nome": "Alface Crespa Unid.",
         "preco": 4.69,
         "preco_por_kg": 4.69
       },
@@ -699,8 +699,8 @@
       },
       "savegnago": {
         "nome": "Feijão Carioca Tipo 1 Camil 1kg",
-        "preco": 5.45,
-        "preco_por_kg": 5.45
+        "preco": 5.29,
+        "preco_por_kg": 5.29
       },
       "mais_barato": "Tenda"
     },
@@ -746,7 +746,7 @@
         "preco_por_kg": 2.39
       },
       "savegnago": {
-        "nome": "Vinagre Galo de Barcelos 750ml Álcool",
+        "nome": "Vinagre Galo de Barcelos 750ml Colorido",
         "preco": 2.75,
         "preco_por_kg": 3.67
       },
@@ -969,6 +969,30 @@
       "mais_barato": "Goodbom"
     },
     {
+      "id": "88",
+      "goodbom": {
+        "nome": "DESINFETANTE LYSOFORM BRUTO LAVANDA 1L",
+        "preco": 19.99,
+        "preco_por_kg": 19.99
+      },
+      "tenda": {
+        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
+        "preco": 15.6,
+        "preco_por_kg": 15.6
+      },
+      "arena": {
+        "nome": "Desinfetante Lysoform Lavanda 2l",
+        "preco": 14.99,
+        "preco_por_kg": 7.5
+      },
+      "savegnago": {
+        "nome": "Desinfetante Líquido Lysoform Citrus 2L",
+        "preco": 13.5,
+        "preco_por_kg": 6.75
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "89",
       "goodbom": {
         "nome": "ALCOOL SAFRA BICARBONATO 1L",
@@ -989,6 +1013,102 @@
         "nome": "Álcool Start 46° 1L",
         "preco": 12.07,
         "preco_por_kg": 12.07
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "90",
+      "goodbom": {
+        "nome": "LIMPADOR PERFUMADO UAU CHÁ BRANCO 1L LV+ PG-",
+        "preco": 7.99,
+        "preco_por_kg": 7.99
+      },
+      "tenda": {
+        "nome": "Limpador Perfumado Ypê Chá Branco 1 Litro",
+        "preco": 7.25,
+        "preco_por_kg": 7.25
+      },
+      "arena": {
+        "nome": "Limpador Perfumado Ypê Tropical 1l",
+        "preco": 7.99,
+        "preco_por_kg": 7.99
+      },
+      "savegnago": {
+        "nome": "Limpador Perfumado Veja Lavanda da França - 1L",
+        "preco": 7.98,
+        "preco_por_kg": 7.98
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "96",
+      "goodbom": {
+        "nome": "ÁGUA SANITÁRIA CANDURA 2L",
+        "preco": 4.99,
+        "preco_por_kg": 2.5
+      },
+      "tenda": {
+        "nome": "Água Sanitária Select 1L",
+        "preco": 3.25,
+        "preco_por_kg": 3.25
+      },
+      "arena": {
+        "nome": "Água Sanitária Ypê 5l",
+        "preco": 10.49,
+        "preco_por_kg": 2.1
+      },
+      "savegnago": {
+        "nome": "Água Sanitária Fazenda Esperança 2L",
+        "preco": 4.55,
+        "preco_por_kg": 2.27
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "101",
+      "goodbom": {
+        "nome": "LIMPADOR MULTIUSO YPÊ COM ÁLCOOL 500ML",
+        "preco": 3.79,
+        "preco_por_kg": 7.58
+      },
+      "tenda": {
+        "nome": "Limpador Multiuso Ypê Antibac 500ml",
+        "preco": 3.05,
+        "preco_por_kg": 6.1
+      },
+      "arena": {
+        "nome": "Limpador Multiuso Coperalcool Segredos Da Natureza Chá Branco Gatilho",
+        "preco": 3.49,
+        "preco_por_kg": 3.49
+      },
+      "savegnago": {
+        "nome": "Limpador Multiuso Ypê Desengordurante 500ml",
+        "preco": 3.99,
+        "preco_por_kg": 7.98
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "103",
+      "goodbom": {
+        "nome": "DESINFETANTE CANDURA LAVANDA 5L",
+        "preco": 15.99,
+        "preco_por_kg": 3.2
+      },
+      "tenda": {
+        "nome": "Desinfetante Lavanda Select 2L",
+        "preco": 4.75,
+        "preco_por_kg": 2.38
+      },
+      "arena": {
+        "nome": "Desinfetante Barbarex Sensações 5l",
+        "preco": 9.99,
+        "preco_por_kg": 2
+      },
+      "savegnago": {
+        "nome": "Desinfetante Triex 5L Flores da Primavera",
+        "preco": 14.55,
+        "preco_por_kg": 2.91
       },
       "mais_barato": "Arena"
     },
