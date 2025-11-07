@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "862.15",
-  "totalTenda": "1294.21",
-  "totalArena": "1018.96",
-  "totalSavegnago": "784.92",
+  "totalGoodbom": "815.01",
+  "totalTenda": "1255.65",
+  "totalArena": "1001.38",
+  "totalSavegnago": "762.81",
   "encontradosGoodbom": 82,
   "encontradosTenda": 86,
   "encontradosArena": 77,
-  "encontradosSavegnago": 72,
+  "encontradosSavegnago": 66,
   "produtos": [
     {
       "id": "3",
@@ -194,9 +194,9 @@
         "preco_por_kg": 6.59
       },
       "savegnago": {
-        "nome": "Chá Pronto Natural Tea 1L Verde Laranja Gengibre",
-        "preco": 6.45,
-        "preco_por_kg": 6.45
+        "nome": "Gengibre Bandeja 350g",
+        "preco": 5.25,
+        "preco_por_kg": 15
       },
       "mais_barato": "Tenda"
     },
@@ -309,14 +309,14 @@
         "preco_por_kg": 4.49
       },
       "arena": {
-        "nome": "Alface Crespa Unid.",
+        "nome": "Alface Crespa Hidropônica Jw Unid.",
         "preco": 4.69,
         "preco_por_kg": 4.69
       },
       "savegnago": {
-        "nome": "Alface Crespa Felicio Maço",
-        "preco": 4.69,
-        "preco_por_kg": 4.69
+        "nome": "Alface Crespa Org Solo Vivo",
+        "preco": 4.5,
+        "preco_por_kg": 4.5
       },
       "mais_barato": "Goodbom"
     },
@@ -386,9 +386,9 @@
         "preco_por_kg": 0.12
       },
       "savegnago": {
-        "nome": "Mamão Papaya Golden 1,2Kg",
-        "preco": 1.19,
-        "preco_por_kg": 0.99
+        "nome": "Mamão Formosa - 1kg",
+        "preco": 2.59,
+        "preco_por_kg": 2.59
       },
       "mais_barato": "Arena"
     },
@@ -458,7 +458,7 @@
         "preco_por_kg": 0.46
       },
       "savegnago": {
-        "nome": "Maçã Gala - 1kg",
+        "nome": "Maçã Importada Argentina Kg",
         "preco": 1.99,
         "preco_por_kg": 1.99
       },
@@ -621,16 +621,16 @@
         "preco_por_kg": 4.95
       },
       "arena": {
-        "nome": "Água De Coco Kerococo - 1l",
-        "preco": 1.99,
-        "preco_por_kg": 1.99
+        "nome": "Água De Coco Mais Coco 1l",
+        "preco": 7.99,
+        "preco_por_kg": 7.99
       },
       "savegnago": {
         "nome": "Água De Coco Puro Coco 1L",
         "preco": 8.99,
         "preco_por_kg": 8.99
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "50",
@@ -699,8 +699,8 @@
       },
       "savegnago": {
         "nome": "Feijão Carioca Tipo 1 Camil 1kg",
-        "preco": 5.85,
-        "preco_por_kg": 5.85
+        "preco": 5.45,
+        "preco_por_kg": 5.45
       },
       "mais_barato": "Tenda"
     },
@@ -969,30 +969,6 @@
       "mais_barato": "Goodbom"
     },
     {
-      "id": "88",
-      "goodbom": {
-        "nome": "DESINFETANTE LYSOFORM BRUTO LAVANDA 1L",
-        "preco": 19.99,
-        "preco_por_kg": 19.99
-      },
-      "tenda": {
-        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
-        "preco": 15.6,
-        "preco_por_kg": 15.6
-      },
-      "arena": {
-        "nome": "Desinfetante Lysoform Lavanda 2l",
-        "preco": 14.99,
-        "preco_por_kg": 7.5
-      },
-      "savegnago": {
-        "nome": "Desinfetante Líquido Lysoform Citrus 2L",
-        "preco": 13.5,
-        "preco_por_kg": 6.75
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
       "id": "89",
       "goodbom": {
         "nome": "ALCOOL SAFRA BICARBONATO 1L",
@@ -1013,126 +989,6 @@
         "nome": "Álcool Start 46° 1L",
         "preco": 12.07,
         "preco_por_kg": 12.07
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "90",
-      "goodbom": {
-        "nome": "LIMPADOR PERFUMADO UAU CHÁ BRANCO 1L LV+ PG-",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
-      },
-      "tenda": {
-        "nome": "Limpador Perfumado Ypê Chá Branco 1 Litro",
-        "preco": 7.25,
-        "preco_por_kg": 7.25
-      },
-      "arena": {
-        "nome": "Limpador Perfumado Ypê Tropical 1l",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
-      },
-      "savegnago": {
-        "nome": "Limpador Perfumado Veja Lavanda da França - 1L",
-        "preco": 7.98,
-        "preco_por_kg": 7.98
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "96",
-      "goodbom": {
-        "nome": "ÁGUA SANITÁRIA BARBAREX 5L",
-        "preco": 14.39,
-        "preco_por_kg": 2.88
-      },
-      "tenda": {
-        "nome": "Água Sanitária Select 1L",
-        "preco": 3.25,
-        "preco_por_kg": 3.25
-      },
-      "arena": {
-        "nome": "Água Sanitária Ypê 5l",
-        "preco": 10.49,
-        "preco_por_kg": 2.1
-      },
-      "savegnago": {
-        "nome": "Água Sanitária Fazenda Esperança 2L",
-        "preco": 4.55,
-        "preco_por_kg": 2.27
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "100",
-      "goodbom": {
-        "nome": "DETERGENTE YPÊ CLEAR 5L",
-        "preco": 25.99,
-        "preco_por_kg": 5.2
-      },
-      "tenda": {
-        "nome": "Detergente Líquido Minuano Neutro 500ml",
-        "preco": 1.99,
-        "preco_por_kg": 3.98
-      },
-      "arena": {
-        "nome": "Detergente Ypê Clear 5l",
-        "preco": 2.49,
-        "preco_por_kg": 0.5
-      },
-      "savegnago": {
-        "nome": "Detergente Líquido Minuano 1300 500ml Clear",
-        "preco": 1.89,
-        "preco_por_kg": 3.78
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "101",
-      "goodbom": {
-        "nome": "LIMPADOR MULTIUSO YPÊ COM ÁLCOOL 500ML",
-        "preco": 3.79,
-        "preco_por_kg": 7.58
-      },
-      "tenda": {
-        "nome": "Limpador Multiuso Ypê Antibac 500ml",
-        "preco": 3.05,
-        "preco_por_kg": 6.1
-      },
-      "arena": {
-        "nome": "Limpador Multiuso Coperalcool Segredos Da Natureza Chá Branco Gatilho",
-        "preco": 3.49,
-        "preco_por_kg": 3.49
-      },
-      "savegnago": {
-        "nome": "Limpador Multiuso Ypê Desengordurante 500ml",
-        "preco": 3.99,
-        "preco_por_kg": 7.98
-      },
-      "mais_barato": "Arena"
-    },
-    {
-      "id": "103",
-      "goodbom": {
-        "nome": "DESINFETANTE BARBAREX VIOLEX 2L",
-        "preco": 6.99,
-        "preco_por_kg": 3.5
-      },
-      "tenda": {
-        "nome": "Desinfetante Lavanda Select 2L",
-        "preco": 4.75,
-        "preco_por_kg": 2.38
-      },
-      "arena": {
-        "nome": "Desinfetante Barbarex Sensações 5l",
-        "preco": 9.99,
-        "preco_por_kg": 2
-      },
-      "savegnago": {
-        "nome": "Desinfetante Triex 5L Flores da Primavera",
-        "preco": 14.55,
-        "preco_por_kg": 2.91
       },
       "mais_barato": "Arena"
     },
