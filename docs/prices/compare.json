@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "824.84",
-  "totalTenda": "2741.75",
-  "totalArena": "645.32",
-  "totalSavegnago": "731.27",
-  "encontradosGoodbom": 82,
+  "totalGoodbom": "833.40",
+  "totalTenda": "2760.51",
+  "totalArena": "654.61",
+  "totalSavegnago": "739.52",
+  "encontradosGoodbom": 81,
   "encontradosTenda": 83,
   "encontradosArena": 77,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -285,9 +285,9 @@
         "preco_por_kg": 4.49
       },
       "arena": {
-        "nome": "Alface Crespa Unid.",
-        "preco": 4.69,
-        "preco_por_kg": 4.69
+        "nome": "Alface Roxa Jw Unid.",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "savegnago": {
         "nome": "Alface Crespa Org Solo Vivo",
@@ -729,6 +729,30 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "68",
+      "goodbom": {
+        "nome": "MILHO VERDE BANDEJA 700G",
+        "preco": 5.99,
+        "preco_por_kg": 8.56
+      },
+      "tenda": {
+        "nome": "Milho Verde Predilecta 170g",
+        "preco": 3.19,
+        "preco_por_kg": 18.76
+      },
+      "arena": {
+        "nome": "Milho Verde Jw - Bandeja 700g",
+        "preco": 6.99,
+        "preco_por_kg": 9.99
+      },
+      "savegnago": {
+        "nome": "Milho Verde Irmãos Pimenta Bandeja 600g",
+        "preco": 4.95,
+        "preco_por_kg": 8.25
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "69",
       "goodbom": {
         "nome": "SELETA DE LEGUMES LATA QUERO 170G",
@@ -928,7 +952,7 @@
         "preco_por_kg": 13.99
       },
       "tenda": {
-        "nome": "Desinfetante Lysoform Suave 1L",
+        "nome": "Desinfetante Bruto Original Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
