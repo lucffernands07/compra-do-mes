@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "829.42",
-  "totalTenda": "986.50",
-  "totalArena": "645.53",
-  "totalSavegnago": "681.68",
+  "totalGoodbom": "828.41",
+  "totalTenda": "988.35",
+  "totalArena": "651.52",
+  "totalSavegnago": "686.25",
   "encontradosGoodbom": 82,
-  "encontradosTenda": 81,
+  "encontradosTenda": 82,
   "encontradosArena": 77,
-  "encontradosSavegnago": 69,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -199,6 +199,30 @@
         "preco_por_kg": 2.95
       },
       "mais_barato": "Savegnago"
+    },
+    {
+      "id": "28",
+      "goodbom": {
+        "nome": "CHUCHU KG",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "tenda": {
+        "nome": "Chuchu Unidade",
+        "preco": 1.85,
+        "preco_por_kg": 1.85
+      },
+      "arena": {
+        "nome": "Chuchu Kg",
+        "preco": 5.99,
+        "preco_por_kg": 5.99
+      },
+      "savegnago": {
+        "nome": "Chuchu 1kg",
+        "preco": 4.39,
+        "preco_por_kg": 4.39
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "29",
@@ -674,9 +698,9 @@
         "preco_por_kg": 2.39
       },
       "savegnago": {
-        "nome": "Vinagre Galo de Barcelos 750ml Colorido",
-        "preco": 2.75,
-        "preco_por_kg": 3.67
+        "nome": "Vinagre Belmont 750ml Álcool Colorido",
+        "preco": 2.89,
+        "preco_por_kg": 3.85
       },
       "mais_barato": "Arena"
     },
@@ -899,12 +923,12 @@
     {
       "id": "88",
       "goodbom": {
-        "nome": "DESINFETANTE LYSOFORM BRUTO LAVANDA 1L",
-        "preco": 19.99,
-        "preco_por_kg": 19.99
+        "nome": "DESINFETANTE LYSOFORM CITRUS 2L",
+        "preco": 27.99,
+        "preco_por_kg": 13.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
+        "nome": "Desinfetante Bruto Original Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1024,7 +1048,7 @@
         "preco_por_kg": 3.2
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
+        "nome": "Desinfetante Bruto Original Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
