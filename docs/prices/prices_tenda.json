@@ -266,9 +266,9 @@
     "preco_por_kg": 4.19
   },
   {
-    "id": 54,
+    "id": 56,
     "supermercado": "Tenda",
-    "produto": "Macarrão de Arroz Espaguete Urbano 500g",
+    "produto": "Macarrão de Arroz Parafuso Urbano 500g",
     "preco": 3.75,
     "preco_por_kg": 7.5
   },
@@ -408,7 +408,7 @@
   {
     "id": 88,
     "supermercado": "Tenda",
-    "produto": "Desinfetante Uso Geral Citrus Lysoform 1L",
+    "produto": "Desinfetante Uso Geral Lavanda Lysoform 1L",
     "preco": 15.6,
     "preco_por_kg": 15.6
   },
@@ -497,11 +497,25 @@
     "preco_por_kg": 10
   },
   {
+    "id": 112,
+    "supermercado": "Tenda",
+    "produto": "Sabonete Ypê Siene Rosas Vermelhas 85g",
+    "preco": 0.8,
+    "preco_por_kg": 9.41
+  },
+  {
     "id": 114,
     "supermercado": "Tenda",
     "produto": "Gel Fixador Incolor Soft Fix 250g",
     "preco": 5.69,
     "preco_por_kg": 22.76
+  },
+  {
+    "id": 115,
+    "supermercado": "Tenda",
+    "produto": "Haste Flexível Johnsons 150un",
+    "preco": 13.2,
+    "preco_por_kg": 13.2
   },
   {
     "id": 116,
@@ -516,5 +530,40 @@
     "produto": "Algodão Hidrófilo Rolo Select 50g",
     "preco": 6.19,
     "preco_por_kg": 123.8
+  },
+  {
+    "id": 118,
+    "supermercado": "Tenda",
+    "produto": "Solução Bucal Cool Mint Listerine 250ml",
+    "preco": 12.25,
+    "preco_por_kg": 49
+  },
+  {
+    "id": 119,
+    "supermercado": "Tenda",
+    "produto": "Bisnaguinha Kim 300g",
+    "preco": 4.85,
+    "preco_por_kg": 16.17
+  },
+  {
+    "id": 120,
+    "supermercado": "Tenda",
+    "produto": "Areia para Gatos Putz 4kg",
+    "preco": 10.2,
+    "preco_por_kg": 2.55
+  },
+  {
+    "id": 121,
+    "supermercado": "Tenda",
+    "produto": "Fubá Mimoso Select 500g",
+    "preco": 1.9,
+    "preco_por_kg": 3.8
+  },
+  {
+    "id": 122,
+    "supermercado": "Tenda",
+    "produto": "Alimento Para Gatos Castrados Sachê Sabor Carne ao Molho Whiskas 85g",
+    "preco": 2.4,
+    "preco_por_kg": 28.24
   }
 ]
