@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "852.98",
-  "totalTenda": "2863.47",
-  "totalArena": "650.82",
-  "totalSavegnago": "734.01",
+  "totalGoodbom": "721.28",
+  "totalTenda": "2785.09",
+  "totalArena": "568.42",
+  "totalSavegnago": "653.71",
   "encontradosGoodbom": 81,
-  "encontradosTenda": 82,
+  "encontradosTenda": 74,
   "encontradosArena": 77,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -928,7 +928,7 @@
         "preco_por_kg": 13.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1161,30 +1161,6 @@
       "mais_barato": "Tenda"
     },
     {
-      "id": "112",
-      "goodbom": {
-        "nome": "SABONETE EM BARRA PALMOLIVE FRESCOR PURIFICANTE 150G",
-        "preco": 3.99,
-        "preco_por_kg": 26.6
-      },
-      "tenda": {
-        "nome": "Sabonete Ypê Siene Rosas Vermelhas 85g",
-        "preco": 0.8,
-        "preco_por_kg": 9.41
-      },
-      "arena": {
-        "nome": "Sabonete Ypê Siene Lavanda 85g",
-        "preco": 1.69,
-        "preco_por_kg": 19.88
-      },
-      "savegnago": {
-        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
-        "preco": 1.99,
-        "preco_por_kg": 23.41
-      },
-      "mais_barato": "Tenda"
-    },
-    {
       "id": "116",
       "goodbom": {
         "nome": "LENÇO UMEDECIDO GRANADO C/50",
@@ -1231,78 +1207,6 @@
         "preco_por_kg": 12.38
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "118",
-      "goodbom": {
-        "nome": "ANTISSÉPTICO LISTERINE CUIDADO TOTAL 500ML",
-        "preco": 37.99,
-        "preco_por_kg": 75.98
-      },
-      "tenda": {
-        "nome": "Solução Bucal Cool Mint Listerine 250ml",
-        "preco": 12.25,
-        "preco_por_kg": 49
-      },
-      "arena": {
-        "nome": "Antisséptico Listerine Cool Mint Leve Mais Por Menos 1l",
-        "preco": 34.9,
-        "preco_por_kg": 34.9
-      },
-      "savegnago": {
-        "nome": "Enxaguante Bucal Listerine Cool Mint 1L",
-        "preco": 27.95,
-        "preco_por_kg": 27.95
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
-      "id": "119",
-      "goodbom": {
-        "nome": "BISNAGUINHA SEVEN BOYS TRADICIONAL 300G",
-        "preco": 6.49,
-        "preco_por_kg": 21.63
-      },
-      "tenda": {
-        "nome": "Bisnaguinha Kim 300g",
-        "preco": 4.85,
-        "preco_por_kg": 16.17
-      },
-      "arena": {
-        "nome": "Pão Bisnaguinha De Panes 300g",
-        "preco": 6.49,
-        "preco_por_kg": 21.63
-      },
-      "savegnago": {
-        "nome": "Pão Bisnaguinha Visconti 240g",
-        "preco": 5.29,
-        "preco_por_kg": 22.04
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "121",
-      "goodbom": {
-        "nome": "FUBÁ MIMOSO KISABOR 1KG",
-        "preco": 7.49,
-        "preco_por_kg": 7.49
-      },
-      "tenda": {
-        "nome": "Fubá Mimoso Select 500g",
-        "preco": 1.9,
-        "preco_por_kg": 3.8
-      },
-      "arena": {
-        "nome": "Fubá Kisabor Mimoso 1kg",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
-      },
-      "savegnago": {
-        "nome": "Fuba Mimoso Yoki 500g",
-        "preco": 3.45,
-        "preco_por_kg": 6.9
-      },
-      "mais_barato": "Tenda"
     }
   ]
 }
