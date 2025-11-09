@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "850.29",
-  "totalTenda": "2804.86",
-  "totalArena": "642.71",
-  "totalSavegnago": "766.40",
+  "totalGoodbom": "859.87",
+  "totalTenda": "2862.42",
+  "totalArena": "648.30",
+  "totalSavegnago": "771.11",
   "encontradosGoodbom": 81,
   "encontradosTenda": 82,
   "encontradosArena": 77,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -339,8 +339,8 @@
       },
       "savegnago": {
         "nome": "Mamão Formosa - 1kg",
-        "preco": 1.19,
-        "preco_por_kg": 1.19
+        "preco": 2.59,
+        "preco_por_kg": 2.59
       },
       "mais_barato": "Arena"
     },
@@ -928,7 +928,7 @@
         "preco_por_kg": 13.99
       },
       "tenda": {
-        "nome": "Desinfetante Lysoform Suave 1L",
+        "nome": "Desinfetante Bruto Original Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1065,6 +1065,30 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "105",
+      "goodbom": {
+        "nome": "LÃ ACO BOMBRIL C/6",
+        "preco": 2.69,
+        "preco_por_kg": 2.69
+      },
+      "tenda": {
+        "nome": "Esponja de Aço Eco Bombril 45g 6 Unidades",
+        "preco": 2.59,
+        "preco_por_kg": 57.56
+      },
+      "arena": {
+        "nome": "Esponja Bombril Multi Uso Leve 4 Pague 3 Unid.",
+        "preco": 5.59,
+        "preco_por_kg": 5.59
+      },
+      "savegnago": {
+        "nome": "Lã De Aço Bombril Com 6 Unidades",
+        "preco": 2.65,
+        "preco_por_kg": 2.65
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "107",
       "goodbom": {
         "nome": "PAPEL HIGIÊNICO FOLHA DUPLA MILI NEUTRO 30MT C/4",
@@ -1154,9 +1178,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
-        "preco": 4.55,
-        "preco_por_kg": 22.75
+        "nome": "Sabonete Palmolive Naturals 85g Hidratante Intensiva Karite",
+        "preco": 1.99,
+        "preco_por_kg": 23.41
       },
       "mais_barato": "Tenda"
     },
@@ -1187,9 +1211,9 @@
     {
       "id": "117",
       "goodbom": {
-        "nome": "ALGODAO TOPZ DISCO 50 UNID.",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
+        "nome": "ÓLEO DE ALGODÃO LIZA 900ML",
+        "preco": 16.99,
+        "preco_por_kg": 18.88
       },
       "tenda": {
         "nome": "Algodão Hidrófilo Rolo Select 50g",
