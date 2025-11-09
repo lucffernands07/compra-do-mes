@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "779.05",
-  "totalTenda": "2683.73",
-  "totalArena": "573.22",
-  "totalSavegnago": "675.22",
-  "encontradosGoodbom": 80,
+  "totalGoodbom": "852.98",
+  "totalTenda": "2743.18",
+  "totalArena": "650.82",
+  "totalSavegnago": "732.87",
+  "encontradosGoodbom": 81,
   "encontradosTenda": 82,
   "encontradosArena": 77,
-  "encontradosSavegnago": 69,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -293,6 +293,30 @@
         "nome": "Repolho Verde 2Kg",
         "preco": 4.99,
         "preco_por_kg": 2.5
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
+      "id": "33",
+      "goodbom": {
+        "nome": "ALHO DESCASCADO 500G",
+        "preco": 19.99,
+        "preco_por_kg": 39.98
+      },
+      "tenda": {
+        "nome": "Alho Descascado Kamar 200g",
+        "preco": 9.89,
+        "preco_por_kg": 49.45
+      },
+      "arena": {
+        "nome": "Alho Descascado Hortmix 600g",
+        "preco": 29.9,
+        "preco_por_kg": 49.83
+      },
+      "savegnago": {
+        "nome": "Alho descascado Natari 1Kg",
+        "preco": 34.9,
+        "preco_por_kg": 34.9
       },
       "mais_barato": "Savegnago"
     },
@@ -904,7 +928,7 @@
         "preco_por_kg": 13.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1024,7 +1048,7 @@
         "preco_por_kg": 3.2
       },
       "tenda": {
-        "nome": "Desinfetante Bruto Original Lysoform 1L",
+        "nome": "Desinfetante Lysoform Suave 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1109,6 +1133,30 @@
         "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
         "preco": 2.51,
         "preco_por_kg": 35.86
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "111",
+      "goodbom": {
+        "nome": "SABONETE LÍQUIDO FLOR DE YPÊ ROSAS BRANCAS E AVELÃ 200ML",
+        "preco": 6.79,
+        "preco_por_kg": 33.95
+      },
+      "tenda": {
+        "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
+        "preco": 5,
+        "preco_por_kg": 10
+      },
+      "arena": {
+        "nome": "Sabonete Líquido Lux Rosas Francesas Refil Econômico 900ml",
+        "preco": 24.99,
+        "preco_por_kg": 27.77
+      },
+      "savegnago": {
+        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
+        "preco": 4.55,
+        "preco_por_kg": 22.75
       },
       "mais_barato": "Tenda"
     },
