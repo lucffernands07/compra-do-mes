@@ -14,13 +14,6 @@
     "preco_por_kg": 35.27
   },
   {
-    "id": 5,
-    "supermercado": "Savegnago",
-    "produto": "Linguiça Toscana Mini Camari 1Kg",
-    "preco": 16.85,
-    "preco_por_kg": 16.85
-  },
-  {
     "id": 6,
     "supermercado": "Savegnago",
     "produto": "Salsicha Hot Dog Swift 500g",
@@ -49,6 +42,13 @@
     "preco_por_kg": 6.9
   },
   {
+    "id": 22,
+    "supermercado": "Savegnago",
+    "produto": "Vagem Irmãos Pimenta Bandeja 300g",
+    "preco": 7.99,
+    "preco_por_kg": 26.63
+  },
+  {
     "id": 23,
     "supermercado": "Savegnago",
     "produto": "Abobrinha Bandeja 800g",
@@ -58,9 +58,9 @@
   {
     "id": 24,
     "supermercado": "Savegnago",
-    "produto": "Beterraba Irmãos Pimenta Bandeja 600g",
+    "produto": "Beterraba 1Kg",
     "preco": 3.55,
-    "preco_por_kg": 5.92
+    "preco_por_kg": 3.55
   },
   {
     "id": 26,
@@ -72,23 +72,23 @@
   {
     "id": 27,
     "supermercado": "Savegnago",
-    "produto": "Cenoura Irmãos Pimenta Bandeja 600g",
+    "produto": "Cenoura 1Kg",
     "preco": 2.95,
-    "preco_por_kg": 4.92
+    "preco_por_kg": 2.95
   },
   {
     "id": 28,
     "supermercado": "Savegnago",
-    "produto": "Chuchu Em Cubos La Vita 180g",
+    "produto": "Chuchu 1kg",
     "preco": 4.39,
-    "preco_por_kg": 24.39
+    "preco_por_kg": 4.39
   },
   {
     "id": 29,
     "supermercado": "Savegnago",
-    "produto": "Bisnaguinha Cenoura e Mandioquinha Nutrella 300g",
-    "preco": 12.5,
-    "preco_por_kg": 41.67
+    "produto": "Caldo Swift 350g Mandioquinha com Frango",
+    "preco": 2.69,
+    "preco_por_kg": 7.69
   },
   {
     "id": 30,
@@ -100,16 +100,16 @@
   {
     "id": 31,
     "supermercado": "Savegnago",
-    "produto": "Alface Lisa Org Solo Vivo",
-    "preco": 3.9,
-    "preco_por_kg": 3.9
+    "produto": "Alface Crespa Org Solo Vivo",
+    "preco": 3.99,
+    "preco_por_kg": 3.99
   },
   {
     "id": 32,
     "supermercado": "Savegnago",
-    "produto": "Repolho Roxo 500g",
+    "produto": "Repolho Verde 2Kg",
     "preco": 4.99,
-    "preco_por_kg": 9.98
+    "preco_por_kg": 2.5
   },
   {
     "id": 33,
@@ -121,16 +121,16 @@
   {
     "id": 34,
     "supermercado": "Savegnago",
-    "produto": "Mamão Formosa - 1kg",
-    "preco": 2.99,
-    "preco_por_kg": 2.99
+    "produto": "Mamão Papaya Golden 1,2Kg",
+    "preco": 1.69,
+    "preco_por_kg": 1.41
   },
   {
     "id": 35,
     "supermercado": "Savegnago",
-    "produto": "Biscoito Rosquinha Mabel 300g Banana com Canela",
-    "preco": 4.19,
-    "preco_por_kg": 13.97
+    "produto": "Banana Prata Bandeja 900g",
+    "preco": 2.99,
+    "preco_por_kg": 3.32
   },
   {
     "id": 36,
@@ -240,9 +240,9 @@
   {
     "id": 68,
     "supermercado": "Savegnago",
-    "produto": "Milho Verde Stella Doro 170G Lata",
-    "preco": 2.99,
-    "preco_por_kg": 17.59
+    "produto": "Milho Verde Irmãos Pimenta Bandeja 600g",
+    "preco": 5.85,
+    "preco_por_kg": 9.75
   },
   {
     "id": 69,
@@ -310,7 +310,7 @@
   {
     "id": 80,
     "supermercado": "Savegnago",
-    "produto": "Cápsula de café 3 corações clássico 10 un",
+    "produto": "Cápsula de Café 3 Corações Chocolatto 10 un",
     "preco": 24.95,
     "preco_por_kg": 24.95
   },
@@ -443,7 +443,7 @@
   {
     "id": 111,
     "supermercado": "Savegnago",
-    "produto": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
+    "produto": "Sabonete Líquido para as Mãos Palmolive Naturals Suavidade Delicada 200ml",
     "preco": 4.55,
     "preco_por_kg": 22.75
   },

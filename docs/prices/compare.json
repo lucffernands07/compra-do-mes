@@ -1,8 +1,8 @@
 {
-  "totalGoodbom": "861.64",
-  "totalTenda": "2742.50",
-  "totalArena": "649.02",
-  "totalSavegnago": "801.97",
+  "totalGoodbom": "853.14",
+  "totalTenda": "2723.56",
+  "totalArena": "646.02",
+  "totalSavegnago": "725.97",
   "encontradosGoodbom": 81,
   "encontradosTenda": 82,
   "encontradosArena": 77,
@@ -57,30 +57,6 @@
       "mais_barato": "Savegnago"
     },
     {
-      "id": "5",
-      "goodbom": {
-        "nome": "LINGUIÇA TOSCANA SEARA KG",
-        "preco": 17.99,
-        "preco_por_kg": 17.99
-      },
-      "tenda": {
-        "nome": "Linguiça Toscana Fina Sabor de Bragança 500g",
-        "preco": 13.95,
-        "preco_por_kg": 27.9
-      },
-      "arena": {
-        "nome": "Linguiça Toscana Pamplona Bandeja Kg",
-        "preco": 18.9,
-        "preco_por_kg": 18.9
-      },
-      "savegnago": {
-        "nome": "Linguiça Toscana Mini Camari 1Kg",
-        "preco": 16.85,
-        "preco_por_kg": 16.85
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
       "id": "6",
       "goodbom": {
         "nome": "SALSICHA HOT DOG SEARA KG",
@@ -129,6 +105,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "22",
+      "goodbom": {
+        "nome": "VAGEM MACARRÃO KG",
+        "preco": 8.99,
+        "preco_por_kg": 8.99
+      },
+      "tenda": {
+        "nome": "Vagem Macarrão Bandeja 340g",
+        "preco": 4.99,
+        "preco_por_kg": 14.68
+      },
+      "arena": {
+        "nome": "Vagem Kg",
+        "preco": 15.9,
+        "preco_por_kg": 15.9
+      },
+      "savegnago": {
+        "nome": "Vagem Irmãos Pimenta Bandeja 300g",
+        "preco": 7.99,
+        "preco_por_kg": 26.63
+      },
+      "mais_barato": "Goodbom"
+    },
+    {
       "id": "24",
       "goodbom": {
         "nome": "BETERRABA KG",
@@ -146,9 +146,9 @@
         "preco_por_kg": 4.79
       },
       "savegnago": {
-        "nome": "Beterraba Irmãos Pimenta Bandeja 600g",
+        "nome": "Beterraba 1Kg",
         "preco": 3.55,
-        "preco_por_kg": 5.92
+        "preco_por_kg": 3.55
       },
       "mais_barato": "Goodbom"
     },
@@ -194,11 +194,11 @@
         "preco_por_kg": 4.89
       },
       "savegnago": {
-        "nome": "Cenoura Irmãos Pimenta Bandeja 600g",
+        "nome": "Cenoura 1Kg",
         "preco": 2.95,
-        "preco_por_kg": 4.92
+        "preco_por_kg": 2.95
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "28",
@@ -218,9 +218,9 @@
         "preco_por_kg": 5.99
       },
       "savegnago": {
-        "nome": "Chuchu Em Cubos La Vita 180g",
+        "nome": "Chuchu 1kg",
         "preco": 4.39,
-        "preco_por_kg": 24.39
+        "preco_por_kg": 4.39
       },
       "mais_barato": "Tenda"
     },
@@ -242,9 +242,9 @@
         "preco_por_kg": 25.9
       },
       "savegnago": {
-        "nome": "Bisnaguinha Cenoura e Mandioquinha Nutrella 300g",
-        "preco": 12.5,
-        "preco_por_kg": 41.67
+        "nome": "Caldo Swift 350g Mandioquinha com Frango",
+        "preco": 2.69,
+        "preco_por_kg": 7.69
       },
       "mais_barato": "Tenda"
     },
@@ -266,9 +266,9 @@
         "preco_por_kg": 3.99
       },
       "savegnago": {
-        "nome": "Alface Lisa Org Solo Vivo",
-        "preco": 3.9,
-        "preco_por_kg": 3.9
+        "nome": "Alface Crespa Org Solo Vivo",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "mais_barato": "Goodbom"
     },
@@ -290,11 +290,11 @@
         "preco_por_kg": 4.89
       },
       "savegnago": {
-        "nome": "Repolho Roxo 500g",
+        "nome": "Repolho Verde 2Kg",
         "preco": 4.99,
-        "preco_por_kg": 9.98
+        "preco_por_kg": 2.5
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "33",
@@ -338,9 +338,9 @@
         "preco_por_kg": 0.12
       },
       "savegnago": {
-        "nome": "Mamão Formosa - 1kg",
-        "preco": 2.99,
-        "preco_por_kg": 2.99
+        "nome": "Mamão Papaya Golden 1,2Kg",
+        "preco": 1.69,
+        "preco_por_kg": 1.41
       },
       "mais_barato": "Arena"
     },
@@ -362,9 +362,9 @@
         "preco_por_kg": 3.3
       },
       "savegnago": {
-        "nome": "Biscoito Rosquinha Mabel 300g Banana com Canela",
-        "preco": 4.19,
-        "preco_por_kg": 13.97
+        "nome": "Banana Prata Bandeja 900g",
+        "preco": 2.99,
+        "preco_por_kg": 3.32
       },
       "mais_barato": "Tenda"
     },
@@ -722,9 +722,9 @@
         "preco_por_kg": 4.41
       },
       "savegnago": {
-        "nome": "Milho Verde Stella Doro 170G Lata",
-        "preco": 2.99,
-        "preco_por_kg": 17.59
+        "nome": "Milho Verde Irmãos Pimenta Bandeja 600g",
+        "preco": 5.85,
+        "preco_por_kg": 9.75
       },
       "mais_barato": "Arena"
     },
@@ -779,9 +779,9 @@
     {
       "id": "76",
       "goodbom": {
-        "nome": "MAIONESE TRADICIONAL QUERO 495G",
-        "preco": 7.99,
-        "preco_por_kg": 16.14
+        "nome": "MAIONESE TRADICIONAL LIZA 450G",
+        "preco": 7.49,
+        "preco_por_kg": 16.64
       },
       "tenda": {
         "nome": "Maionese Ekma 168x7g",
@@ -952,9 +952,9 @@
         "preco_por_kg": 7.99
       },
       "tenda": {
-        "nome": "Limpador Perfumado Sensualidade Casa & Perfume 1L",
-        "preco": 9.3,
-        "preco_por_kg": 9.3
+        "nome": "Limpador Perfumado Jasmim do Caribe Veja 2L",
+        "preco": 7.15,
+        "preco_por_kg": 3.58
       },
       "arena": {
         "nome": "Limpador Perfumado Casa & Perfume Agradable 2lt",
@@ -966,7 +966,7 @@
         "preco": 17.95,
         "preco_por_kg": 8.97
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "96",
@@ -1048,7 +1048,7 @@
         "preco_por_kg": 3.2
       },
       "tenda": {
-        "nome": "Desinfetante Bruto Original Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1154,7 +1154,7 @@
         "preco_por_kg": 27.77
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
+        "nome": "Sabonete Líquido para as Mãos Palmolive Naturals Suavidade Delicada 200ml",
         "preco": 4.55,
         "preco_por_kg": 22.75
       },
