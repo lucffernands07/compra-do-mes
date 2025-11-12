@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "861.24",
-  "totalTenda": "1121.42",
-  "totalArena": "665.23",
-  "totalSavegnago": "724.93",
-  "encontradosGoodbom": 79,
+  "totalGoodbom": "820.13",
+  "totalTenda": "1104.22",
+  "totalArena": "658.31",
+  "totalSavegnago": "714.65",
+  "encontradosGoodbom": 80,
   "encontradosTenda": 82,
   "encontradosArena": 77,
-  "encontradosSavegnago": 72,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -55,30 +55,6 @@
         "preco_por_kg": 35.27
       },
       "mais_barato": "Savegnago"
-    },
-    {
-      "id": "5",
-      "goodbom": {
-        "nome": "LINGUIÇA TOSCANA NA BRASA PERDIGÃO KG",
-        "preco": 19.99,
-        "preco_por_kg": 19.99
-      },
-      "tenda": {
-        "nome": "Linguiça Toscana Fina Sabor de Bragança 500g",
-        "preco": 13.95,
-        "preco_por_kg": 27.9
-      },
-      "arena": {
-        "nome": "Linguiça Toscana Pamplona Bandeja Kg",
-        "preco": 18.9,
-        "preco_por_kg": 18.9
-      },
-      "savegnago": {
-        "nome": "Linguiça Toscana Mini Camari 1Kg",
-        "preco": 19.85,
-        "preco_por_kg": 19.85
-      },
-      "mais_barato": "Arena"
     },
     {
       "id": "6",
@@ -588,8 +564,8 @@
       "id": "50",
       "goodbom": {
         "nome": "LEITE FERMENTADO FRUTAP 850G",
-        "preco": 11.49,
-        "preco_por_kg": 13.52
+        "preco": 9.99,
+        "preco_por_kg": 11.75
       },
       "tenda": {
         "nome": "Leite Fermentado Patati Patata Frutap 450g",
@@ -606,7 +582,7 @@
         "preco": 14.95,
         "preco_por_kg": 13
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "52",
@@ -897,6 +873,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "87",
+      "goodbom": {
+        "nome": "WRAP DE TAPIOCA ORIGINAL DA TERRINHA",
+        "preco": 8.49,
+        "preco_por_kg": 8.49
+      },
+      "tenda": {
+        "nome": "Massa de Tapioca Beijubom 500g",
+        "preco": 4.99,
+        "preco_por_kg": 9.98
+      },
+      "arena": {
+        "nome": "Tapioca Hidratada Kisabor Pacote 500g",
+        "preco": 5.99,
+        "preco_por_kg": 11.98
+      },
+      "savegnago": {
+        "nome": "Goma Pronta Tapioca Tradicional Siamar 1kg",
+        "preco": 12.45,
+        "preco_por_kg": 12.45
+      },
+      "mais_barato": "Goodbom"
+    },
+    {
       "id": "88",
       "goodbom": {
         "nome": "DESINFETANTE LYSOFORM LAVANDA 2L",
@@ -904,7 +904,7 @@
         "preco_por_kg": 15.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -976,9 +976,9 @@
         "preco_por_kg": 3.98
       },
       "tenda": {
-        "nome": "Detergente Líquido Minuano Fresh 500ml",
-        "preco": 1.99,
-        "preco_por_kg": 3.98
+        "nome": "Detergente Líquido Limpol Cristal 500ml",
+        "preco": 2.35,
+        "preco_por_kg": 4.7
       },
       "arena": {
         "nome": "Detergente Ypê Clear 5l",
@@ -1024,7 +1024,7 @@
         "preco_por_kg": 3.5
       },
       "tenda": {
-        "nome": "Desinfetante Bruto Original Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1091,9 +1091,9 @@
     {
       "id": "110",
       "goodbom": {
-        "nome": "CREME DENTAL COLGATE TOTAL CARVÃO 180G PREÇO ESPECIAL",
-        "preco": 14.99,
-        "preco_por_kg": 83.28
+        "nome": "CREME DENTAL SORRISO KOLYNOS 90G EDIÇÃO LIMITADA",
+        "preco": 4.99,
+        "preco_por_kg": 55.44
       },
       "tenda": {
         "nome": "Creme Dental Triple Menta Close Up 70g",
@@ -1154,9 +1154,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
-        "preco": 2.29,
-        "preco_por_kg": 26.94
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 21.65,
+        "preco_por_kg": 24.06
       },
       "mais_barato": "Tenda"
     },
