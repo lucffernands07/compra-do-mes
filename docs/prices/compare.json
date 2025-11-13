@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "820.13",
-  "totalTenda": "1104.22",
-  "totalArena": "658.31",
-  "totalSavegnago": "714.65",
+  "totalGoodbom": "840.12",
+  "totalTenda": "1302.44",
+  "totalArena": "677.21",
+  "totalSavegnago": "735.80",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 82,
+  "encontradosTenda": 81,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -40,9 +40,9 @@
         "preco_por_kg": 39.38
       },
       "tenda": {
-        "nome": "Hambúrguer de Carne Bovina Costela Na Brasa Perdigão 150g",
-        "preco": 5.79,
-        "preco_por_kg": 38.6
+        "nome": "Hambúrguer de Carne Bovina Sadia 113g",
+        "preco": 3.69,
+        "preco_por_kg": 32.65
       },
       "arena": {
         "nome": "Hambúrguer De Carne Bovina Air Fryer Seara 150g",
@@ -54,7 +54,31 @@
         "preco": 23.7,
         "preco_por_kg": 35.27
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "5",
+      "goodbom": {
+        "nome": "LINGUIÇA TOSCANA NA BRASA PERDIGÃO KG",
+        "preco": 19.99,
+        "preco_por_kg": 19.99
+      },
+      "tenda": {
+        "nome": "Linguiça Toscana Fina Sabor de Bragança 500g",
+        "preco": 13.95,
+        "preco_por_kg": 27.9
+      },
+      "arena": {
+        "nome": "Linguiça Toscana Pamplona Bandeja Kg",
+        "preco": 18.9,
+        "preco_por_kg": 18.9
+      },
+      "savegnago": {
+        "nome": "Linguiça Toscana Mini Camari 1Kg",
+        "preco": 19.85,
+        "preco_por_kg": 19.85
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "6",
@@ -137,8 +161,8 @@
       },
       "tenda": {
         "nome": "Beterraba Saco 1Kg",
-        "preco": 1.99,
-        "preco_por_kg": 1.99
+        "preco": 2.99,
+        "preco_por_kg": 2.99
       },
       "arena": {
         "nome": "Beterraba Kg",
@@ -150,7 +174,7 @@
         "preco": 3.55,
         "preco_por_kg": 3.55
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "26",
@@ -266,7 +290,7 @@
         "preco_por_kg": 4.69
       },
       "savegnago": {
-        "nome": "Alface Lisa Org Solo Vivo",
+        "nome": "Alface Americana Felicio Maço",
         "preco": 3.9,
         "preco_por_kg": 3.9
       },
@@ -281,8 +305,8 @@
       },
       "tenda": {
         "nome": "Repolho Verde Unidade",
-        "preco": 3.39,
-        "preco_por_kg": 3.39
+        "preco": 4.07,
+        "preco_por_kg": 4.07
       },
       "arena": {
         "nome": "Repolho Verde Kg",
@@ -338,9 +362,9 @@
         "preco_por_kg": 0.05
       },
       "savegnago": {
-        "nome": "Mamão Formosa - 1kg",
-        "preco": 2.99,
-        "preco_por_kg": 2.99
+        "nome": "Mamão Papaya Golden 1,2Kg",
+        "preco": 1.69,
+        "preco_por_kg": 1.41
       },
       "mais_barato": "Arena"
     },
@@ -449,8 +473,8 @@
       },
       "tenda": {
         "nome": "Queijo Mussarela Portofino 200g",
-        "preco": 5.98,
-        "preco_por_kg": 29.9
+        "preco": 5.38,
+        "preco_por_kg": 26.9
       },
       "arena": {
         "nome": "Mussarela Davaca Peça Kg",
@@ -856,9 +880,9 @@
         "preco_por_kg": 4.49
       },
       "tenda": {
-        "nome": "Chá de Erva Doce Leão 20g",
-        "preco": 4.89,
-        "preco_por_kg": 244.5
+        "nome": "Chá de Camomila Leão 10g",
+        "preco": 4.19,
+        "preco_por_kg": 419
       },
       "arena": {
         "nome": "Chá Branco Natural Tea Lichia 1l",
@@ -1024,7 +1048,7 @@
         "preco_por_kg": 3.5
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
+        "nome": "Desinfetante Bruto Original Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1144,9 +1168,9 @@
         "preco_por_kg": 26.6
       },
       "tenda": {
-        "nome": "Sabonete Ypê Siene Proteínas do Leite 85g",
-        "preco": 0.8,
-        "preco_por_kg": 9.41
+        "nome": "Sabonete Barra Desejo de Morango Gipsy 80g",
+        "preco": 1,
+        "preco_por_kg": 12.5
       },
       "arena": {
         "nome": "Sabonete Ypê Siene Lavanda 85g",
@@ -1154,9 +1178,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 21.65,
-        "preco_por_kg": 24.06
+        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
+        "preco": 2.29,
+        "preco_por_kg": 26.94
       },
       "mais_barato": "Tenda"
     },
