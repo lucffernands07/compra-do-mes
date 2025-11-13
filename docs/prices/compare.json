@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "840.12",
-  "totalTenda": "1302.44",
-  "totalArena": "677.21",
-  "totalSavegnago": "735.80",
+  "totalGoodbom": "843.68",
+  "totalTenda": "1295.00",
+  "totalArena": "671.34",
+  "totalSavegnago": "725.90",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 81,
+  "encontradosTenda": 80,
   "encontradosArena": 77,
-  "encontradosSavegnago": 72,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -156,8 +156,8 @@
       "id": "24",
       "goodbom": {
         "nome": "BETERRABA KG",
-        "preco": 2.99,
-        "preco_por_kg": 2.99
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "tenda": {
         "nome": "Beterraba Saco 1Kg",
@@ -174,7 +174,7 @@
         "preco": 3.55,
         "preco_por_kg": 3.55
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "26",
@@ -204,8 +204,8 @@
       "id": "27",
       "goodbom": {
         "nome": "CENOURA KG",
-        "preco": 2.99,
-        "preco_por_kg": 2.99
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "tenda": {
         "nome": "Iogurte Natural Laranja, Cenoura e Mel Frutap 150g",
@@ -290,7 +290,7 @@
         "preco_por_kg": 4.69
       },
       "savegnago": {
-        "nome": "Alface Americana Felicio Maço",
+        "nome": "Alface Lisa Org Solo Vivo",
         "preco": 3.9,
         "preco_por_kg": 3.9
       },
@@ -372,8 +372,8 @@
       "id": "35",
       "goodbom": {
         "nome": "BANANA NANICA KG",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
+        "preco": 8.99,
+        "preco_por_kg": 8.99
       },
       "tenda": {
         "nome": "Banana Nanica Unidade",
@@ -633,30 +633,6 @@
       "mais_barato": "Savegnago"
     },
     {
-      "id": "53",
-      "goodbom": {
-        "nome": "FEIJÃO PRETO OLIRON 1KG",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
-      },
-      "tenda": {
-        "nome": "Feijão Carioca 5 Estrelas 1kg",
-        "preco": 4.19,
-        "preco_por_kg": 4.19
-      },
-      "arena": {
-        "nome": "Feijão Fradinho Vencedor Pacote 1kg",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
-      },
-      "savegnago": {
-        "nome": "Feijão Carioca Serrazul 1KG",
-        "preco": 4.75,
-        "preco_por_kg": 4.75
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "66",
       "goodbom": {
         "nome": "ÓLEO DE SOJA VITALIV PET 900ML",
@@ -828,8 +804,8 @@
       "id": "78",
       "goodbom": {
         "nome": "LEITE CONDENSADO SEMIDESNATADO TRIANGULO 395G TP",
-        "preco": 4.99,
-        "preco_por_kg": 12.63
+        "preco": 6.59,
+        "preco_por_kg": 16.68
       },
       "tenda": {
         "nome": "Leite Condensado Semidesnatado Campos do Jordão 395g",
@@ -928,7 +904,7 @@
         "preco_por_kg": 15.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
+        "nome": "Desinfetante Bruto Original Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -967,30 +943,6 @@
         "preco_por_kg": 7.95
       },
       "mais_barato": "Tenda"
-    },
-    {
-      "id": "96",
-      "goodbom": {
-        "nome": "ÁGUA SANITÁRIA CANDURA 2L",
-        "preco": 4.99,
-        "preco_por_kg": 2.5
-      },
-      "tenda": {
-        "nome": "Água Sanitária Select 1L",
-        "preco": 3.25,
-        "preco_por_kg": 3.25
-      },
-      "arena": {
-        "nome": "Água Sanitária Bio-Kriss 2l",
-        "preco": 3.75,
-        "preco_por_kg": 1.88
-      },
-      "savegnago": {
-        "nome": "Água Sanitária Fazenda Esperança 2L",
-        "preco": 4.55,
-        "preco_por_kg": 2.27
-      },
-      "mais_barato": "Arena"
     },
     {
       "id": "100",
@@ -1168,7 +1120,7 @@
         "preco_por_kg": 26.6
       },
       "tenda": {
-        "nome": "Sabonete Barra Desejo de Morango Gipsy 80g",
+        "nome": "Sabonete Barra Perfume dos Sonhos Gipsy 80g",
         "preco": 1,
         "preco_por_kg": 12.5
       },
@@ -1178,9 +1130,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
-        "preco": 2.29,
-        "preco_por_kg": 26.94
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 21.65,
+        "preco_por_kg": 24.06
       },
       "mais_barato": "Tenda"
     },
