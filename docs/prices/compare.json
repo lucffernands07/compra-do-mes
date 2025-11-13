@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "847.18",
-  "totalTenda": "1395.82",
-  "totalArena": "680.86",
-  "totalSavegnago": "734.37",
+  "totalGoodbom": "846.49",
+  "totalTenda": "1453.33",
+  "totalArena": "678.52",
+  "totalSavegnago": "729.30",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 82,
+  "encontradosTenda": 81,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -83,9 +83,9 @@
     {
       "id": "6",
       "goodbom": {
-        "nome": "SALSICHA FRANGO ALLIZ KG",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
+        "nome": "SALSICHA HOT DOG SEARA KG",
+        "preco": 12.79,
+        "preco_por_kg": 12.79
       },
       "tenda": {
         "nome": "Salsicha Hot Dog Aurora 500g",
@@ -345,6 +345,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "34",
+      "goodbom": {
+        "nome": "MAMÃO PAPAYA KG",
+        "preco": 6.99,
+        "preco_por_kg": 6.99
+      },
+      "tenda": {
+        "nome": "Refresco em pó Tang Laranja Mamão 18g",
+        "preco": 1.09,
+        "preco_por_kg": 60.56
+      },
+      "arena": {
+        "nome": "Iogurte Desnatado Batavo Pense Zero Zero Lactose Mamão 1,150kg",
+        "preco": 6.99,
+        "preco_por_kg": 0.05
+      },
+      "savegnago": {
+        "nome": "Mamão Papaya Golden 1,2Kg",
+        "preco": 1.19,
+        "preco_por_kg": 0.99
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "35",
       "goodbom": {
         "nome": "BANANA NANICA KG",
@@ -362,9 +386,9 @@
         "preco_por_kg": 3.3
       },
       "savegnago": {
-        "nome": "Banana Prata Bandeja 900g",
+        "nome": "Banana Prata Turma da Mônica 750g",
         "preco": 2.99,
-        "preco_por_kg": 3.32
+        "preco_por_kg": 3.99
       },
       "mais_barato": "Tenda"
     },
@@ -657,30 +681,6 @@
       "mais_barato": "Tenda"
     },
     {
-      "id": "67",
-      "goodbom": {
-        "nome": "VINAGRE CASTELO ALCOOL COLOR 750ML",
-        "preco": 3.99,
-        "preco_por_kg": 5.32
-      },
-      "tenda": {
-        "nome": "Vinagre de Álcool Vitalia 750ml",
-        "preco": 2.29,
-        "preco_por_kg": 3.05
-      },
-      "arena": {
-        "nome": "Vinagre Fortaleza Álcool Pet 750ml",
-        "preco": 1.79,
-        "preco_por_kg": 2.39
-      },
-      "savegnago": {
-        "nome": "Vinagre Galo de Barcelos 750ml Álcool",
-        "preco": 2.75,
-        "preco_por_kg": 3.67
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "68",
       "goodbom": {
         "nome": "MILHO VERDE BANDEJA 700G",
@@ -755,9 +755,9 @@
     {
       "id": "76",
       "goodbom": {
-        "nome": "MAIONESE TRADICIONAL QUERO 495G",
-        "preco": 7.99,
-        "preco_por_kg": 16.14
+        "nome": "MAIONESE TRADICIONAL ARISCO 500G",
+        "preco": 6.49,
+        "preco_por_kg": 12.98
       },
       "tenda": {
         "nome": "Maionese Hellmann's Supreme 330 g",
@@ -904,7 +904,7 @@
         "preco_por_kg": 15.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
+        "nome": "Desinfetante Bruto Original Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -986,9 +986,9 @@
         "preco_por_kg": 4.47
       },
       "savegnago": {
-        "nome": "Detergente Ypê Neutro 500ml",
-        "preco": 2.32,
-        "preco_por_kg": 4.64
+        "nome": "Detergente Ypê Clear 500ml",
+        "preco": 2.59,
+        "preco_por_kg": 5.18
       },
       "mais_barato": "Goodbom"
     },
@@ -1024,7 +1024,7 @@
         "preco_por_kg": 3.5
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
+        "nome": "Desinfetante Lysoform Suave 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1096,7 +1096,7 @@
         "preco_por_kg": 55.44
       },
       "tenda": {
-        "nome": "Creme Dental Proteção Completa+ Sensodyne 90g",
+        "nome": "Creme Dental Antitártaro Proteção Completa+ Sensodyne 90g",
         "preco": 16.3,
         "preco_por_kg": 181.11
       },
@@ -1154,9 +1154,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Lux Botanicals Buque de Jasmim 85gr",
-        "preco": 2.24,
-        "preco_por_kg": 26.35
+        "nome": "Sabonete Líquido para as Mãos Palmolive Naturals Suavidade Delicada 200ml",
+        "preco": 4.55,
+        "preco_por_kg": 22.75
       },
       "mais_barato": "Tenda"
     },
