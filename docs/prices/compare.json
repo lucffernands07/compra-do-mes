@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "843.68",
-  "totalTenda": "1295.00",
-  "totalArena": "671.34",
-  "totalSavegnago": "725.90",
+  "totalGoodbom": "851.17",
+  "totalTenda": "1302.44",
+  "totalArena": "677.21",
+  "totalSavegnago": "735.80",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 80,
+  "encontradosTenda": 81,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -633,6 +633,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "53",
+      "goodbom": {
+        "nome": "FEIJÃO PRETO OLIRON 1KG",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "tenda": {
+        "nome": "Feijão Carioca 5 Estrelas 1kg",
+        "preco": 4.19,
+        "preco_por_kg": 4.19
+      },
+      "arena": {
+        "nome": "Feijão Fradinho Vencedor Pacote 1kg",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
+      },
+      "savegnago": {
+        "nome": "Feijão Carioca Serrazul 1KG",
+        "preco": 4.75,
+        "preco_por_kg": 4.75
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "66",
       "goodbom": {
         "nome": "ÓLEO DE SOJA VITALIV PET 900ML",
@@ -945,6 +969,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "96",
+      "goodbom": {
+        "nome": "ÁGUA SANITÁRIA CANDURA 2L",
+        "preco": 4.99,
+        "preco_por_kg": 2.5
+      },
+      "tenda": {
+        "nome": "Água Sanitária Select 1L",
+        "preco": 3.25,
+        "preco_por_kg": 3.25
+      },
+      "arena": {
+        "nome": "Água Sanitária Bio-Kriss 2l",
+        "preco": 3.75,
+        "preco_por_kg": 1.88
+      },
+      "savegnago": {
+        "nome": "Água Sanitária Fazenda Esperança 2L",
+        "preco": 4.55,
+        "preco_por_kg": 2.27
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "100",
       "goodbom": {
         "nome": "DETERGENTE LÍQUIDO BARBAREX CLEAR 500ML",
@@ -1000,7 +1048,7 @@
         "preco_por_kg": 3.5
       },
       "tenda": {
-        "nome": "Desinfetante Bruto Original Lysoform 1L",
+        "nome": "Desinfetante Lysoform Suave 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1130,9 +1178,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 21.65,
-        "preco_por_kg": 24.06
+        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
+        "preco": 2.29,
+        "preco_por_kg": 26.94
       },
       "mais_barato": "Tenda"
     },
