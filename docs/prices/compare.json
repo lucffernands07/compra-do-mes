@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "866.77",
-  "totalTenda": "1409.82",
+  "totalGoodbom": "820.14",
+  "totalTenda": "1409.10",
   "totalArena": "637.29",
-  "totalSavegnago": "745.47",
+  "totalSavegnago": "713.50",
   "encontradosGoodbom": 79,
   "encontradosTenda": 84,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 70,
   "produtos": [
     {
       "id": "3",
@@ -59,9 +59,9 @@
     {
       "id": "5",
       "goodbom": {
-        "nome": "LINGUIÇA TOSCANA NA BRASA PERDIGÃO KG",
-        "preco": 19.99,
-        "preco_por_kg": 19.99
+        "nome": "LINGUIÇA TOSCANA SEARA KG",
+        "preco": 17.99,
+        "preco_por_kg": 17.99
       },
       "tenda": {
         "nome": "Linguiça Toscana Fina Sabor de Bragança 500g",
@@ -78,14 +78,14 @@
         "preco": 19.85,
         "preco_por_kg": 19.85
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "6",
       "goodbom": {
         "nome": "SALSICHA HOT DOG SEARA KG",
-        "preco": 12.79,
-        "preco_por_kg": 12.79
+        "preco": 8.99,
+        "preco_por_kg": 8.99
       },
       "tenda": {
         "nome": "Salsicha Hot Dog Aurora 500g",
@@ -102,7 +102,7 @@
         "preco": 9.95,
         "preco_por_kg": 19.9
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "7",
@@ -252,8 +252,8 @@
       "id": "30",
       "goodbom": {
         "nome": "TEMPERO MAGGI MEU SEGREDO CHEIRO VERDE 49G",
-        "preco": 4.39,
-        "preco_por_kg": 89.59
+        "preco": 3.99,
+        "preco_por_kg": 81.43
       },
       "tenda": {
         "nome": "Cheiro Verde Maço Unidade",
@@ -372,8 +372,8 @@
       "id": "35",
       "goodbom": {
         "nome": "BANANA NANICA KG",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
+        "preco": 7.99,
+        "preco_por_kg": 7.99
       },
       "tenda": {
         "nome": "Banana Nanica Unidade",
@@ -386,9 +386,9 @@
         "preco_por_kg": 3.3
       },
       "savegnago": {
-        "nome": "Banana Terra Bandeja 600g",
+        "nome": "Banana Prata Bandeja 900g",
         "preco": 2.99,
-        "preco_por_kg": 4.98
+        "preco_por_kg": 3.32
       },
       "mais_barato": "Tenda"
     },
@@ -492,8 +492,8 @@
       "id": "43",
       "goodbom": {
         "nome": "PRESUNTO COZIDO SADIA SEM CAPA KG",
-        "preco": 30.9,
-        "preco_por_kg": 30.9
+        "preco": 25.9,
+        "preco_por_kg": 25.9
       },
       "tenda": {
         "nome": "Empanado Presunto e Queijo Seara 110g",
@@ -660,8 +660,8 @@
       "id": "66",
       "goodbom": {
         "nome": "ÓLEO DE SOJA VITALIV PET 900ML",
-        "preco": 7.99,
-        "preco_por_kg": 8.88
+        "preco": 8.49,
+        "preco_por_kg": 9.43
       },
       "tenda": {
         "nome": "Óleo de Soja Cocamar 900ml",
@@ -851,9 +851,9 @@
     {
       "id": "79",
       "goodbom": {
-        "nome": "CREME DE LEITE SHEFA 200G TP",
-        "preco": 3.79,
-        "preco_por_kg": 18.95
+        "nome": "CREME DE LEITE PIRACANJUBA 200G TP",
+        "preco": 2.79,
+        "preco_por_kg": 13.95
       },
       "tenda": {
         "nome": "Creme de Leite 10% Italac 200g",
@@ -928,7 +928,7 @@
         "preco_por_kg": 15.99
       },
       "tenda": {
-        "nome": "Desinfetante Bruto Original Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1000,9 +1000,9 @@
         "preco_por_kg": 3.98
       },
       "tenda": {
-        "nome": "Detergente Líquido Limpol Cristal 500ml",
-        "preco": 2.35,
-        "preco_por_kg": 4.7
+        "nome": "Detergente Líquido Minuano Fresh 500ml",
+        "preco": 1.99,
+        "preco_por_kg": 3.98
       },
       "arena": {
         "nome": "Detergente Ypê Clear 5l",
@@ -1116,8 +1116,8 @@
       "id": "110",
       "goodbom": {
         "nome": "CREME DENTAL SORRISO KOLYNOS 90G EDIÇÃO LIMITADA",
-        "preco": 4.99,
-        "preco_por_kg": 55.44
+        "preco": 2.99,
+        "preco_por_kg": 33.22
       },
       "tenda": {
         "nome": "Creme Dental Antitártaro Proteção Completa+ Sensodyne 90g",
@@ -1130,11 +1130,11 @@
         "preco_por_kg": 42.11
       },
       "savegnago": {
-        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
-        "preco": 3.47,
-        "preco_por_kg": 49.57
+        "nome": "Creme Dental Sensodyne Avançado Rapido Alivio",
+        "preco": 17.95,
+        "preco_por_kg": 17.95
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "111",
@@ -1178,9 +1178,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido para as Mãos Palmolive Naturals Suavidade Delicada 200ml",
-        "preco": 4.55,
-        "preco_por_kg": 22.75
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 21.65,
+        "preco_por_kg": 24.06
       },
       "mais_barato": "Tenda"
     },
