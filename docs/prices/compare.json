@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "753.66",
-  "totalTenda": "1376.65",
-  "totalArena": "633.50",
-  "totalSavegnago": "693.95",
+  "totalGoodbom": "823.34",
+  "totalTenda": "1434.98",
+  "totalArena": "626.82",
+  "totalSavegnago": "698.81",
   "encontradosGoodbom": 79,
-  "encontradosTenda": 83,
+  "encontradosTenda": 84,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 69,
   "produtos": [
     {
       "id": "3",
@@ -249,6 +249,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "30",
+      "goodbom": {
+        "nome": "TEMPERO MAGGI MEU SEGREDO CHEIRO VERDE 49G",
+        "preco": 3.99,
+        "preco_por_kg": 81.43
+      },
+      "tenda": {
+        "nome": "Tempero MAGGI Meu Segredo Cheiro Verde 49g",
+        "preco": 3.35,
+        "preco_por_kg": 68.37
+      },
+      "arena": {
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.79,
+        "preco_por_kg": 3.79
+      },
+      "savegnago": {
+        "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
+        "preco": 7.99,
+        "preco_por_kg": 53.27
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "31",
       "goodbom": {
         "nome": "SEMENTE FELTRIN ALFACE CRESPA",
@@ -411,8 +435,8 @@
       },
       "savegnago": {
         "nome": "Maçã Gala - 1kg",
-        "preco": 2.29,
-        "preco_por_kg": 2.29
+        "preco": 1.99,
+        "preco_por_kg": 1.99
       },
       "mais_barato": "Savegnago"
     },
@@ -559,30 +583,6 @@
         "preco_por_kg": 8.99
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "50",
-      "goodbom": {
-        "nome": "LEITE FERMENTADO FRUTAP 850G",
-        "preco": 9.99,
-        "preco_por_kg": 11.75
-      },
-      "tenda": {
-        "nome": "Leite Fermentado Nestlé Chamyto® 450G com 6 unidades",
-        "preco": 4.9,
-        "preco_por_kg": 10.89
-      },
-      "arena": {
-        "nome": "Leite Fermentado Desnatado Chamyto C/6 Unid. 450g",
-        "preco": 6.35,
-        "preco_por_kg": 14.11
-      },
-      "savegnago": {
-        "nome": "Leite Fermentado Itambé 1,150kg",
-        "preco": 14.95,
-        "preco_por_kg": 13
-      },
-      "mais_barato": "Tenda"
     },
     {
       "id": "52",
@@ -761,8 +761,8 @@
       },
       "tenda": {
         "nome": "Maionese Caseira Tradicional Liza 450g",
-        "preco": 9.09,
-        "preco_por_kg": 20.2
+        "preco": 5.99,
+        "preco_por_kg": 13.31
       },
       "arena": {
         "nome": "Maionese Quero Big Sachê 1,02kg",
@@ -813,16 +813,16 @@
         "preco_por_kg": 11.62
       },
       "arena": {
-        "nome": "Leite Condensado Semidesnatado Campos Do Jordão - 395g",
-        "preco": 5.59,
-        "preco_por_kg": 14.15
+        "nome": "Leite Condensado Piracanjuba Semidesnatado 395g",
+        "preco": 3.69,
+        "preco_por_kg": 9.34
       },
       "savegnago": {
         "nome": "Leite Condensado TP Semidesnatado Italac 395g",
         "preco": 5.98,
         "preco_por_kg": 15.14
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "79",
@@ -890,9 +890,9 @@
         "preco_por_kg": 12.99
       },
       "savegnago": {
-        "nome": "Goma Pronta Tapioca Tradicional Siamar 1kg",
-        "preco": 12.45,
-        "preco_por_kg": 12.45
+        "nome": "Goma Pronta Tapioca Siamar 500g Tradicional",
+        "preco": 5.95,
+        "preco_por_kg": 11.9
       },
       "mais_barato": "Goodbom"
     },
@@ -904,7 +904,7 @@
         "preco_por_kg": 15.99
       },
       "tenda": {
-        "nome": "Desinfetante Bruto Original Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -928,9 +928,9 @@
         "preco_por_kg": 7.99
       },
       "tenda": {
-        "nome": "Limpador Perfumado Jasmim do Caribe Veja 2L",
-        "preco": 7.15,
-        "preco_por_kg": 3.58
+        "nome": "Limpador Perfumado Sensualidade Casa & Perfume 1L",
+        "preco": 7.5,
+        "preco_por_kg": 7.5
       },
       "arena": {
         "nome": "Limpador Perfumado Casa & Perfume Agradable 2lt",
@@ -957,9 +957,9 @@
         "preco_por_kg": 3.25
       },
       "arena": {
-        "nome": "Água Sanitária Bio-Kriss 2l",
-        "preco": 3.75,
-        "preco_por_kg": 1.88
+        "nome": "Água Sanitária Ypê 5l",
+        "preco": 9.99,
+        "preco_por_kg": 2
       },
       "savegnago": {
         "nome": "Água Sanitária Fazenda Esperança 2L",
@@ -982,8 +982,8 @@
       },
       "arena": {
         "nome": "Detergente Ypê Clear 5l",
-        "preco": 22.36,
-        "preco_por_kg": 4.47
+        "preco": 22.99,
+        "preco_por_kg": 4.6
       },
       "savegnago": {
         "nome": "Detergente Ypê Clear 500ml",
@@ -1077,9 +1077,9 @@
         "preco_por_kg": 4.55
       },
       "arena": {
-        "nome": "Papel Higiênico Familiar Folha Dupla 30m C/ 4 Rolos",
-        "preco": 6.59,
-        "preco_por_kg": 6.59
+        "nome": "Papel Higiênico Folha Simples Paloma 30m C/ 16 Rolos Leve Mais Por Menos",
+        "preco": 14.79,
+        "preco_por_kg": 14.79
       },
       "savegnago": {
         "nome": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
@@ -1106,11 +1106,11 @@
         "preco_por_kg": 42.11
       },
       "savegnago": {
-        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
-        "preco": 3.47,
-        "preco_por_kg": 49.57
+        "nome": "Creme Dental Sensodyne Avançado Rapido Alivio",
+        "preco": 17.95,
+        "preco_por_kg": 17.95
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "111",
@@ -1120,9 +1120,9 @@
         "preco_por_kg": 33.95
       },
       "tenda": {
-        "nome": "Sabonete Líquido Proteínas do Leite Select 500ml",
-        "preco": 5.09,
-        "preco_por_kg": 10.18
+        "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
+        "preco": 7,
+        "preco_por_kg": 14
       },
       "arena": {
         "nome": "Sabonete Líquido Lux Rosas Francesas Refil Econômico 900ml",
@@ -1154,9 +1154,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Lux 85g Botanicals Orquidea Negra",
-        "preco": 2.24,
-        "preco_por_kg": 26.35
+        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
+        "preco": 1.99,
+        "preco_por_kg": 23.41
       },
       "mais_barato": "Tenda"
     },
