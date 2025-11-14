@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "737.11",
-  "totalTenda": "1320.34",
-  "totalArena": "625.77",
-  "totalSavegnago": "686.96",
+  "totalGoodbom": "758.24",
+  "totalTenda": "1305.00",
+  "totalArena": "644.96",
+  "totalSavegnago": "740.62",
   "encontradosGoodbom": 79,
-  "encontradosTenda": 83,
+  "encontradosTenda": 82,
   "encontradosArena": 77,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 70,
   "produtos": [
     {
       "id": "3",
@@ -784,9 +784,9 @@
         "preco_por_kg": 12.98
       },
       "tenda": {
-        "nome": "Maionese Caseira Tradicional Liza 450g",
-        "preco": 5.99,
-        "preco_por_kg": 13.31
+        "nome": "Maionese Heinz Pet 390g",
+        "preco": 14.89,
+        "preco_por_kg": 38.18
       },
       "arena": {
         "nome": "Maionese Quero Big Sachê 1,02kg",
@@ -856,9 +856,9 @@
         "preco_por_kg": 13.95
       },
       "tenda": {
-        "nome": "Creme de Leite 10% Italac 200g",
-        "preco": 2.49,
-        "preco_por_kg": 12.45
+        "nome": "Mistura Láctea Creme de Leite Daus 200g",
+        "preco": 1.95,
+        "preco_por_kg": 9.75
       },
       "arena": {
         "nome": "Mistura Creme De Leite Mococa Tp 200g",
@@ -870,7 +870,7 @@
         "preco": 3.39,
         "preco_por_kg": 16.95
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "82",
@@ -880,9 +880,9 @@
         "preco_por_kg": 4.49
       },
       "tenda": {
-        "nome": "Chá de Camomila Leão 10g",
-        "preco": 2.99,
-        "preco_por_kg": 299
+        "nome": "Chá de Erva Doce Leão 20g",
+        "preco": 4.89,
+        "preco_por_kg": 244.5
       },
       "arena": {
         "nome": "Chá Branco Natural Tea Lichia 1l",
@@ -1000,9 +1000,9 @@
         "preco_por_kg": 3.98
       },
       "tenda": {
-        "nome": "Detergente Líquido Minuano Fresh 500ml",
-        "preco": 1.99,
-        "preco_por_kg": 3.98
+        "nome": "Lava-Louças Líquido Ypê Clear - Transparente - 500Ml - Rende Mais - Detergente",
+        "preco": 2.4,
+        "preco_por_kg": 4.8
       },
       "arena": {
         "nome": "Detergente Ypê Clear 5l",
@@ -1043,9 +1043,9 @@
     {
       "id": "103",
       "goodbom": {
-        "nome": "DESINFETANTE BARBAREX VIOLEX 2L",
-        "preco": 6.99,
-        "preco_por_kg": 3.5
+        "nome": "DESINFETANTE SANOL FLORAL 2L",
+        "preco": 5.99,
+        "preco_por_kg": 3
       },
       "tenda": {
         "nome": "Desinfetante Bruto Original Lysoform 1L",
@@ -1130,11 +1130,11 @@
         "preco_por_kg": 42.11
       },
       "savegnago": {
-        "nome": "Creme Dental Sensodyne Avançado Rapido Alivio",
-        "preco": 17.95,
-        "preco_por_kg": 17.95
+        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
+        "preco": 3.47,
+        "preco_por_kg": 49.57
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "111",
@@ -1229,6 +1229,30 @@
         "nome": "Oléo composto de Milho e Algodão para fritura Liza 500ml",
         "preco": 6.19,
         "preco_por_kg": 12.38
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "119",
+      "goodbom": {
+        "nome": "BISNAGUINHA SEVEN BOYS TRADICIONAL 300G",
+        "preco": 6.49,
+        "preco_por_kg": 21.63
+      },
+      "tenda": {
+        "nome": "Bisnaguinha Kim 300g",
+        "preco": 4.85,
+        "preco_por_kg": 16.17
+      },
+      "arena": {
+        "nome": "Pão Bisnaguinha Bauducco 260g",
+        "preco": 4.99,
+        "preco_por_kg": 19.19
+      },
+      "savegnago": {
+        "nome": "Pão Bisnaguinha Visconti 240g",
+        "preco": 5.29,
+        "preco_por_kg": 22.04
       },
       "mais_barato": "Tenda"
     },
