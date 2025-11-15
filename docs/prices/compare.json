@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "736.93",
-  "totalTenda": "1239.63",
-  "totalArena": "642.67",
-  "totalSavegnago": "688.75",
+  "totalGoodbom": "741.92",
+  "totalTenda": "1297.50",
+  "totalArena": "646.46",
+  "totalSavegnago": "710.40",
   "encontradosGoodbom": 79,
-  "encontradosTenda": 82,
+  "encontradosTenda": 83,
   "encontradosArena": 77,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -247,6 +247,30 @@
         "preco_por_kg": 10.83
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "30",
+      "goodbom": {
+        "nome": "CHEIRO VERDE MAÇO",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "tenda": {
+        "nome": "Tempero MAGGI Meu Segredo Cheiro Verde 49g",
+        "preco": 3.35,
+        "preco_por_kg": 68.37
+      },
+      "arena": {
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.79,
+        "preco_por_kg": 3.79
+      },
+      "savegnago": {
+        "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
+        "preco": 7.99,
+        "preco_por_kg": 53.27
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "31",
@@ -904,7 +928,7 @@
         "preco_por_kg": 15.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
+        "nome": "Desinfetante Bruto Original Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1024,7 +1048,7 @@
         "preco_por_kg": 3
       },
       "tenda": {
-        "nome": "Desinfetante Bruto Original Lysoform 1L",
+        "nome": "Desinfetante Lysoform Suave 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1106,11 +1130,11 @@
         "preco_por_kg": 42.11
       },
       "savegnago": {
-        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
-        "preco": 3.47,
-        "preco_por_kg": 49.57
+        "nome": "Creme Dental Sensodyne Avançado Rapido Alivio",
+        "preco": 17.95,
+        "preco_por_kg": 17.95
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "111",
@@ -1120,9 +1144,9 @@
         "preco_por_kg": 33.95
       },
       "tenda": {
-        "nome": "Sabonete Líquido Flor de Ypê Flor de Maçã e Framboesa 200ml Refil Econômico",
-        "preco": 4.9,
-        "preco_por_kg": 24.5
+        "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
+        "preco": 7,
+        "preco_por_kg": 14
       },
       "arena": {
         "nome": "Sabonete Líquido Lux Rosas Francesas Refil Econômico 900ml",
@@ -1134,7 +1158,7 @@
         "preco": 4.55,
         "preco_por_kg": 22.75
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Tenda"
     },
     {
       "id": "112",
