@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "739.23",
-  "totalTenda": "1348.67",
-  "totalArena": "634.09",
-  "totalSavegnago": "710.29",
+  "totalGoodbom": "741.92",
+  "totalTenda": "1416.73",
+  "totalArena": "637.99",
+  "totalSavegnago": "744.56",
   "encontradosGoodbom": 79,
   "encontradosTenda": 83,
   "encontradosArena": 78,
-  "encontradosSavegnago": 69,
+  "encontradosSavegnago": 70,
   "produtos": [
     {
       "id": "3",
@@ -429,16 +429,16 @@
         "preco_por_kg": 3.38
       },
       "arena": {
-        "nome": "Suco Maguary Maçã Tp 1l",
-        "preco": 5.95,
-        "preco_por_kg": 5.95
+        "nome": "Suco Maguary Seleção Maça Pet 1,35l",
+        "preco": 15.99,
+        "preco_por_kg": 0.46
       },
       "savegnago": {
         "nome": "Maçã Gala - 1kg",
         "preco": 1.99,
         "preco_por_kg": 1.99
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Arena"
     },
     {
       "id": "39",
@@ -525,9 +525,9 @@
         "preco_por_kg": 26.06
       },
       "arena": {
-        "nome": "Mortadela Confiança 1 Kg",
-        "preco": 8.69,
-        "preco_por_kg": 8.69
+        "nome": "Mortadela Aurora 1kg",
+        "preco": 12.49,
+        "preco_por_kg": 12.49
       },
       "savegnago": {
         "nome": "Mortadela mini Confiança",
@@ -928,7 +928,7 @@
         "preco_por_kg": 15.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1065,6 +1065,30 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "105",
+      "goodbom": {
+        "nome": "LÃ ACO BOMBRIL C/6",
+        "preco": 2.69,
+        "preco_por_kg": 2.69
+      },
+      "tenda": {
+        "nome": "Esponja de Aço Eco Bombril 45g 6 Unidades",
+        "preco": 2.59,
+        "preco_por_kg": 57.56
+      },
+      "arena": {
+        "nome": "Esponja Bombril Multi Uso Leve 4 Pague 3 Unid.",
+        "preco": 5.59,
+        "preco_por_kg": 5.59
+      },
+      "savegnago": {
+        "nome": "Lã De Aço Bombril Com 6 Unidades",
+        "preco": 2.65,
+        "preco_por_kg": 2.65
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "107",
       "goodbom": {
         "nome": "PAPEL HIGIÊNICO FOLHA DUPLA MILI NEUTRO 30MT C/4",
@@ -1106,11 +1130,11 @@
         "preco_por_kg": 42.11
       },
       "savegnago": {
-        "nome": "Creme Dental Sensodyne Avançado Rapido Alivio",
-        "preco": 17.95,
-        "preco_por_kg": 17.95
+        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
+        "preco": 3.47,
+        "preco_por_kg": 49.57
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "111",
@@ -1120,9 +1144,9 @@
         "preco_por_kg": 33.95
       },
       "tenda": {
-        "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
-        "preco": 7,
-        "preco_por_kg": 14
+        "nome": "Sabonete Líquido Flor de Ypê Flor de Maçã e Framboesa 200ml Refil Econômico",
+        "preco": 4.9,
+        "preco_por_kg": 24.5
       },
       "arena": {
         "nome": "Sabonete Líquido Lux Rosas Francesas Refil Econômico 900ml",
@@ -1134,7 +1158,7 @@
         "preco": 4.55,
         "preco_por_kg": 22.75
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "112",
