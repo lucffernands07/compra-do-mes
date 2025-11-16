@@ -1,8 +1,8 @@
 {
-  "totalGoodbom": "741.92",
-  "totalTenda": "1633.87",
-  "totalArena": "637.99",
-  "totalSavegnago": "745.15",
+  "totalGoodbom": "707.97",
+  "totalTenda": "1619.87",
+  "totalArena": "610.22",
+  "totalSavegnago": "719.90",
   "encontradosGoodbom": 79,
   "encontradosTenda": 83,
   "encontradosArena": 78,
@@ -530,11 +530,11 @@
         "preco_por_kg": 12.49
       },
       "savegnago": {
-        "nome": "Mortadela mini Confiança",
-        "preco": 13.9,
-        "preco_por_kg": 13.9
+        "nome": "Mortadela Perdigao 1kg Mista",
+        "preco": 9.95,
+        "preco_por_kg": 9.95
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "47",
@@ -627,8 +627,8 @@
       },
       "savegnago": {
         "nome": "Arroz Agulhinha 4r 5kg Tipo1",
-        "preco": 15.8,
-        "preco_por_kg": 3.16
+        "preco": 16.9,
+        "preco_por_kg": 3.38
       },
       "mais_barato": "Arena"
     },
@@ -795,8 +795,8 @@
       },
       "savegnago": {
         "nome": "Maionese Arisco Tradicional 500g",
-        "preco": 6.19,
-        "preco_por_kg": 12.38
+        "preco": 6.49,
+        "preco_por_kg": 12.98
       },
       "mais_barato": "Arena"
     },
@@ -843,8 +843,8 @@
       },
       "savegnago": {
         "nome": "Leite Condensado TP Semidesnatado Italac 395g",
-        "preco": 5.98,
-        "preco_por_kg": 15.14
+        "preco": 6.49,
+        "preco_por_kg": 16.43
       },
       "mais_barato": "Arena"
     },
@@ -928,7 +928,7 @@
         "preco_por_kg": 15.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1137,30 +1137,6 @@
       "mais_barato": "Goodbom"
     },
     {
-      "id": "111",
-      "goodbom": {
-        "nome": "SABONETE LÍQUIDO FLOR DE YPÊ ROSAS BRANCAS E AVELÃ 200ML",
-        "preco": 6.79,
-        "preco_por_kg": 33.95
-      },
-      "tenda": {
-        "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
-        "preco": 7,
-        "preco_por_kg": 14
-      },
-      "arena": {
-        "nome": "Sabonete Líquido Lux Rosas Francesas Refil Econômico 900ml",
-        "preco": 24.99,
-        "preco_por_kg": 27.77
-      },
-      "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
-        "preco": 4.55,
-        "preco_por_kg": 22.75
-      },
-      "mais_barato": "Tenda"
-    },
-    {
       "id": "112",
       "goodbom": {
         "nome": "SABONETE EM BARRA PALMOLIVE FRESCOR PURIFICANTE 150G",
@@ -1178,9 +1154,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
-        "preco": 1.99,
-        "preco_por_kg": 23.41
+        "nome": "Sabonete Líquido para as Mãos Palmolive Naturals Suavidade Delicada 200ml",
+        "preco": 4.55,
+        "preco_por_kg": 22.75
       },
       "mais_barato": "Tenda"
     },
