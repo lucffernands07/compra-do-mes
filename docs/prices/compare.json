@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "699.08",
-  "totalTenda": "1260.03",
-  "totalArena": "602.07",
-  "totalSavegnago": "754.66",
+  "totalGoodbom": "741.02",
+  "totalTenda": "1281.53",
+  "totalArena": "637.79",
+  "totalSavegnago": "786.38",
   "encontradosGoodbom": 79,
   "encontradosTenda": 83,
   "encontradosArena": 78,
-  "encontradosSavegnago": 69,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -928,7 +928,7 @@
         "preco_por_kg": 15.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
+        "nome": "Desinfetante Bruto Original Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -943,6 +943,30 @@
         "preco_por_kg": 11.52
       },
       "mais_barato": "Savegnago"
+    },
+    {
+      "id": "90",
+      "goodbom": {
+        "nome": "LIMPADOR PERFUMADO UAU CHÁ BRANCO 1L LV+ PG-",
+        "preco": 7.99,
+        "preco_por_kg": 7.99
+      },
+      "tenda": {
+        "nome": "Limpador Perfumado Sensualidade Casa & Perfume 1L",
+        "preco": 7.5,
+        "preco_por_kg": 7.5
+      },
+      "arena": {
+        "nome": "Limpador Perfumado Casa & Perfume Agradable 2lt",
+        "preco": 15.9,
+        "preco_por_kg": 7.95
+      },
+      "savegnago": {
+        "nome": "Limpador Perfumado Veja Lavanda da França - 2L",
+        "preco": 17.95,
+        "preco_por_kg": 8.97
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "96",
@@ -1024,7 +1048,7 @@
         "preco_por_kg": 3
       },
       "tenda": {
-        "nome": "Desinfetante Lysoform Suave 1L",
+        "nome": "Desinfetante Bruto Original Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1111,6 +1135,30 @@
         "preco_por_kg": 49.57
       },
       "mais_barato": "Goodbom"
+    },
+    {
+      "id": "111",
+      "goodbom": {
+        "nome": "SABONETE LÍQUIDO FLOR DE YPÊ ROSAS BRANCAS E AVELÃ 200ML",
+        "preco": 6.79,
+        "preco_por_kg": 33.95
+      },
+      "tenda": {
+        "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
+        "preco": 7,
+        "preco_por_kg": 14
+      },
+      "arena": {
+        "nome": "Sabonete Líquido Lux Rosas Francesas Refil Econômico 900ml",
+        "preco": 24.99,
+        "preco_por_kg": 27.77
+      },
+      "savegnago": {
+        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
+        "preco": 4.55,
+        "preco_por_kg": 22.75
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "112",
