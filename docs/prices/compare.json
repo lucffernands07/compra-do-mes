@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "707.01",
-  "totalTenda": "1242.84",
-  "totalArena": "607.28",
-  "totalSavegnago": "732.19",
+  "totalGoodbom": "738.18",
+  "totalTenda": "1415.74",
+  "totalArena": "635.05",
+  "totalSavegnago": "757.90",
   "encontradosGoodbom": 79,
-  "encontradosTenda": 81,
+  "encontradosTenda": 82,
   "encontradosArena": 78,
   "encontradosSavegnago": 70,
   "produtos": [
@@ -122,9 +122,9 @@
         "preco_por_kg": 11.69
       },
       "savegnago": {
-        "nome": "Sobrecoxa de Frango Congelada Sadia 1kg",
-        "preco": 15.9,
-        "preco_por_kg": 15.9
+        "nome": "Sobrecoxa Frango Swift 1Kg",
+        "preco": 14.5,
+        "preco_por_kg": 14.5
       },
       "mais_barato": "Tenda"
     },
@@ -194,9 +194,9 @@
         "preco_por_kg": 6.59
       },
       "savegnago": {
-        "nome": "Chá Pronto Natural Tea 1L Verde Laranja Gengibre",
-        "preco": 6.45,
-        "preco_por_kg": 6.45
+        "nome": "Gengibre Bandeja 350g",
+        "preco": 5.25,
+        "preco_por_kg": 15
       },
       "mais_barato": "Tenda"
     },
@@ -803,9 +803,9 @@
     {
       "id": "77",
       "goodbom": {
-        "nome": "MOSTARDA CEPERA 200G",
-        "preco": 4.99,
-        "preco_por_kg": 24.95
+        "nome": "MOSTARDA SACHET FUGINI BICO 180G",
+        "preco": 3.99,
+        "preco_por_kg": 22.17
       },
       "tenda": {
         "nome": "Mostarda Tradicional Quero 190g",
@@ -928,7 +928,7 @@
         "preco_por_kg": 15.99
       },
       "tenda": {
-        "nome": "Desinfetante Lysoform Suave 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1048,7 +1048,7 @@
         "preco_por_kg": 3
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1120,9 +1120,9 @@
         "preco_por_kg": 33.22
       },
       "tenda": {
-        "nome": "Creme Dental Triple Menta Close Up 70g",
-        "preco": 2.5,
-        "preco_por_kg": 35.71
+        "nome": "Creme Dental Antitártaro Proteção Completa+ Sensodyne 90g",
+        "preco": 16.3,
+        "preco_por_kg": 181.11
       },
       "arena": {
         "nome": "Creme Dental Sorriso Dentes Brancos 90g",
@@ -1137,9 +1137,33 @@
       "mais_barato": "Goodbom"
     },
     {
+      "id": "111",
+      "goodbom": {
+        "nome": "SABONETE LÍQUIDO FLOR DE YPÊ ROSAS BRANCAS E AVELÃ 200ML",
+        "preco": 6.79,
+        "preco_por_kg": 33.95
+      },
+      "tenda": {
+        "nome": "Sabonete Líquido Flor de Ypê Flor de Maçã e Framboesa 200ml Refil Econômico",
+        "preco": 5.5,
+        "preco_por_kg": 27.5
+      },
+      "arena": {
+        "nome": "Sabonete Líquido Lux Rosas Francesas Refil Econômico 900ml",
+        "preco": 24.99,
+        "preco_por_kg": 27.77
+      },
+      "savegnago": {
+        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
+        "preco": 4.55,
+        "preco_por_kg": 22.75
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "112",
       "goodbom": {
-        "nome": "SABONETE EM BARRA PALMOLIVE FRESCOR PURIFICANTE 150G",
+        "nome": "SABONETE PALMOLIVE FRESCOR PURIFICANTE 150G",
         "preco": 3.99,
         "preco_por_kg": 26.6
       },
@@ -1154,9 +1178,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
-        "preco": 2.29,
-        "preco_por_kg": 26.94
+        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
+        "preco": 4.55,
+        "preco_por_kg": 22.75
       },
       "mais_barato": "Tenda"
     },
