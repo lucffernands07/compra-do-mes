@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "794.46",
-  "totalTenda": "3435.74",
-  "totalArena": "634.10",
-  "totalSavegnago": "765.42",
+  "totalGoodbom": "711.18",
+  "totalTenda": "3267.85",
+  "totalArena": "595.56",
+  "totalSavegnago": "741.72",
   "encontradosGoodbom": 79,
   "encontradosTenda": 83,
   "encontradosArena": 78,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 70,
   "produtos": [
     {
       "id": "3",
@@ -928,7 +928,7 @@
         "preco_por_kg": 15.99
       },
       "tenda": {
-        "nome": "Desinfetante Bruto Original Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1048,9 +1048,9 @@
         "preco_por_kg": 3
       },
       "tenda": {
-        "nome": "Desinfetante Lavanda Select 2L",
-        "preco": 4.75,
-        "preco_por_kg": 2.38
+        "nome": "Desinfetante Bruto Original Lysoform 1L",
+        "preco": 15.6,
+        "preco_por_kg": 15.6
       },
       "arena": {
         "nome": "Desinfetante Barbarex Sensações 5l",
@@ -1062,7 +1062,7 @@
         "preco": 14.55,
         "preco_por_kg": 2.91
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "105",
@@ -1109,30 +1109,6 @@
         "nome": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
         "preco": 19.7,
         "preco_por_kg": 1.64
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
-      "id": "110",
-      "goodbom": {
-        "nome": "CREME DENTAL COLGATE TOTAL CARVÃO 180G PREÇO ESPECIAL",
-        "preco": 14.99,
-        "preco_por_kg": 83.28
-      },
-      "tenda": {
-        "nome": "Creme Dental Antitártaro Proteção Completa+ Sensodyne 90g",
-        "preco": 16.3,
-        "preco_por_kg": 181.11
-      },
-      "arena": {
-        "nome": "Creme Dental Sorriso Tripla Limpeza Completa 4 Unidades 280g",
-        "preco": 10.79,
-        "preco_por_kg": 38.54
-      },
-      "savegnago": {
-        "nome": "Creme Dental Sensodyne Avançado Rapido Alivio",
-        "preco": 23.7,
-        "preco_por_kg": 23.7
       },
       "mais_barato": "Savegnago"
     },
