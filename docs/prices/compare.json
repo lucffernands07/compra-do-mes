@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "800.28",
-  "totalTenda": "1097.85",
-  "totalArena": "628.08",
-  "totalSavegnago": "754.85",
+  "totalGoodbom": "807.77",
+  "totalTenda": "1127.08",
+  "totalArena": "629.04",
+  "totalSavegnago": "759.27",
   "encontradosGoodbom": 79,
-  "encontradosTenda": 83,
+  "encontradosTenda": 84,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -285,9 +285,9 @@
         "preco_por_kg": 4.49
       },
       "arena": {
-        "nome": "Alface Crespa Hidropônica Jw Unid.",
-        "preco": 4.69,
-        "preco_por_kg": 4.69
+        "nome": "Alface Roxa Jw Unid.",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "savegnago": {
         "nome": "Alface Crespa Org Solo Vivo",
@@ -837,9 +837,9 @@
         "preco_por_kg": 11.62
       },
       "arena": {
-        "nome": "Leite Condensado Piracanjuba Semidesnatado Bag 2,5kg",
-        "preco": 39.69,
-        "preco_por_kg": 7.94
+        "nome": "Iogurte Semi Desnatado Frutap Morango Com Leite Condensado 850g",
+        "preco": 3.49,
+        "preco_por_kg": 4.11
       },
       "savegnago": {
         "nome": "Leite Condensado TP Semidesnatado Italac 395g",
@@ -928,7 +928,7 @@
         "preco_por_kg": 15.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -941,6 +941,30 @@
         "nome": "Desinfetante Lysoform 2L Original",
         "preco": 23.04,
         "preco_por_kg": 11.52
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
+      "id": "89",
+      "goodbom": {
+        "nome": "ALCOOL SAFRA 46,2° 1L",
+        "preco": 7.49,
+        "preco_por_kg": 7.49
+      },
+      "tenda": {
+        "nome": "Cerveja Zero Álcool Estrella Galicia Lata 330ml",
+        "preco": 5.19,
+        "preco_por_kg": 15.73
+      },
+      "arena": {
+        "nome": "Álcool Duratto Bactericida Desinfetante Lavanda 1l",
+        "preco": 5.49,
+        "preco_por_kg": 5.49
+      },
+      "savegnago": {
+        "nome": "Álcool Safra 46,2 Lavanda 1L",
+        "preco": 10.7,
+        "preco_por_kg": 0.23
       },
       "mais_barato": "Savegnago"
     },
@@ -1144,9 +1168,9 @@
         "preco_por_kg": 33.95
       },
       "tenda": {
-        "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
-        "preco": 7,
-        "preco_por_kg": 14
+        "nome": "Sabonete Líquido Flor de Ypê Flor de Maçã e Framboesa 200ml Refil Econômico",
+        "preco": 5.5,
+        "preco_por_kg": 27.5
       },
       "arena": {
         "nome": "Sabonete Líquido Lux Rosas Francesas Refil Econômico 900ml",
@@ -1158,7 +1182,7 @@
         "preco": 4.55,
         "preco_por_kg": 22.75
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "112",
@@ -1178,9 +1202,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
-        "preco": 4.55,
-        "preco_por_kg": 22.75
+        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
+        "preco": 2.29,
+        "preco_por_kg": 26.94
       },
       "mais_barato": "Tenda"
     },
