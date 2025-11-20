@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "768.05",
-  "totalTenda": "1079.39",
-  "totalArena": "601.97",
-  "totalSavegnago": "735.33",
+  "totalGoodbom": "802.00",
+  "totalTenda": "1093.39",
+  "totalArena": "629.74",
+  "totalSavegnago": "758.08",
   "encontradosGoodbom": 79,
   "encontradosTenda": 84,
   "encontradosArena": 78,
-  "encontradosSavegnago": 69,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -928,7 +928,7 @@
         "preco_por_kg": 15.99
       },
       "tenda": {
-        "nome": "Desinfetante Bruto Original Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 12.9,
         "preco_por_kg": 12.9
       },
@@ -1159,6 +1159,30 @@
         "preco_por_kg": 51.94
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "111",
+      "goodbom": {
+        "nome": "SABONETE LÍQUIDO FLOR DE YPÊ ROSAS BRANCAS E AVELÃ 200ML",
+        "preco": 6.79,
+        "preco_por_kg": 33.95
+      },
+      "tenda": {
+        "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
+        "preco": 7,
+        "preco_por_kg": 14
+      },
+      "arena": {
+        "nome": "Sabonete Líquido Lux Rosas Francesas Refil Econômico 900ml",
+        "preco": 24.99,
+        "preco_por_kg": 27.77
+      },
+      "savegnago": {
+        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
+        "preco": 4.55,
+        "preco_por_kg": 22.75
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "112",
