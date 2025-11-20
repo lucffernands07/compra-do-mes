@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "794.91",
-  "totalTenda": "1071.93",
-  "totalArena": "620.45",
-  "totalSavegnago": "748.44",
+  "totalGoodbom": "802.40",
+  "totalTenda": "1076.03",
+  "totalArena": "626.44",
+  "totalSavegnago": "749.25",
   "encontradosGoodbom": 79,
-  "encontradosTenda": 82,
+  "encontradosTenda": 84,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -928,7 +928,7 @@
         "preco_por_kg": 15.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
+        "nome": "Desinfetante Bruto Original Lysoform 1L",
         "preco": 12.9,
         "preco_por_kg": 12.9
       },
@@ -1192,7 +1192,7 @@
         "preco_por_kg": 26.6
       },
       "tenda": {
-        "nome": "Sabonete Siene Proteínas do Leite 85g",
+        "nome": "Sabonete Siene Rosas Vermelhas 85g",
         "preco": 1,
         "preco_por_kg": 11.76
       },
@@ -1202,9 +1202,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
-        "preco": 2.29,
-        "preco_por_kg": 26.94
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 21.65,
+        "preco_por_kg": 24.06
       },
       "mais_barato": "Tenda"
     },
@@ -1279,6 +1279,30 @@
         "preco_por_kg": 23.3
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "121",
+      "goodbom": {
+        "nome": "FUBÁ MIMOSO KISABOR 1KG",
+        "preco": 7.49,
+        "preco_por_kg": 7.49
+      },
+      "tenda": {
+        "nome": "Fubá Mimoso Select 500g",
+        "preco": 2.05,
+        "preco_por_kg": 4.1
+      },
+      "arena": {
+        "nome": "Fubá Kisabor Mimoso 1kg",
+        "preco": 5.99,
+        "preco_por_kg": 5.99
+      },
+      "savegnago": {
+        "nome": "Fuba Mimoso Siamar 1k",
+        "preco": 3.69,
+        "preco_por_kg": 3.69
+      },
+      "mais_barato": "Savegnago"
     }
   ]
 }
