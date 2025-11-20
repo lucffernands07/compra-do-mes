@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "785.72",
-  "totalTenda": "1065.93",
-  "totalArena": "618.50",
-  "totalSavegnago": "734.01",
+  "totalGoodbom": "802.40",
+  "totalTenda": "1076.03",
+  "totalArena": "626.44",
+  "totalSavegnago": "751.71",
   "encontradosGoodbom": 79,
   "encontradosTenda": 84,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -825,6 +825,30 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "78",
+      "goodbom": {
+        "nome": "LEITE CONDENSADO SEMIDESNATADO TRIANGULO 395G TP",
+        "preco": 6.59,
+        "preco_por_kg": 16.68
+      },
+      "tenda": {
+        "nome": "Leite Condensado Semidesnatado Campos do Jordão 395g",
+        "preco": 3.99,
+        "preco_por_kg": 10.1
+      },
+      "arena": {
+        "nome": "Leite Condensado Piracanjuba Semidesnatado Bag 2,5kg",
+        "preco": 39.69,
+        "preco_por_kg": 7.94
+      },
+      "savegnago": {
+        "nome": "Leite Condensado TP Semidesnatado Italac 395g",
+        "preco": 6.99,
+        "preco_por_kg": 17.7
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "79",
       "goodbom": {
         "nome": "CREME DE LEITE SHEFA 200G TP",
@@ -904,7 +928,7 @@
         "preco_por_kg": 15.99
       },
       "tenda": {
-        "nome": "Desinfetante Bruto Original Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 12.9,
         "preco_por_kg": 12.9
       },
@@ -1154,7 +1178,7 @@
         "preco_por_kg": 27.77
       },
       "savegnago": {
-        "nome": "Sabonete Líquido para as Mãos Palmolive Naturals Suavidade Delicada 200ml",
+        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
         "preco": 4.55,
         "preco_por_kg": 22.75
       },
