@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "781.63",
-  "totalTenda": "1127.79",
-  "totalArena": "603.29",
-  "totalSavegnago": "741.34",
+  "totalGoodbom": "789.61",
+  "totalTenda": "1132.34",
+  "totalArena": "609.88",
+  "totalSavegnago": "738.64",
   "encontradosGoodbom": 79,
   "encontradosTenda": 84,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -928,7 +928,7 @@
         "preco_por_kg": 15.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
+        "nome": "Desinfetante Lysoform Suave 1L",
         "preco": 12.9,
         "preco_por_kg": 12.9
       },
@@ -1072,7 +1072,7 @@
         "preco_por_kg": 3
       },
       "tenda": {
-        "nome": "Desinfetante Lysoform Suave 1L",
+        "nome": "Desinfetante Bruto Original Lysoform 1L",
         "preco": 12.9,
         "preco_por_kg": 12.9
       },
@@ -1109,6 +1109,30 @@
         "nome": "Lã De Aço Bombril Com 6 Unidades",
         "preco": 2.65,
         "preco_por_kg": 2.65
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
+      "id": "107",
+      "goodbom": {
+        "nome": "PAPEL HIGIÊNICO FOLHA DUPLA MILI NEUTRO 30MT C/4",
+        "preco": 7.98,
+        "preco_por_kg": 7.98
+      },
+      "tenda": {
+        "nome": "Papel Higiênico Folha Simples Select 30m 4un",
+        "preco": 4.55,
+        "preco_por_kg": 4.55
+      },
+      "arena": {
+        "nome": "Papel Higiênico Folha Dupla Vip Personal Neutro 30m X 10cm",
+        "preco": 6.59,
+        "preco_por_kg": 6.59
+      },
+      "savegnago": {
+        "nome": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
+        "preco": 17.9,
+        "preco_por_kg": 1.49
       },
       "mais_barato": "Savegnago"
     },
@@ -1154,7 +1178,7 @@
         "preco_por_kg": 9.59
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
+        "nome": "Sabonete Líquido para as Mãos Palmolive Naturals Suavidade Delicada 200ml",
         "preco": 4.55,
         "preco_por_kg": 22.75
       },
@@ -1178,9 +1202,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
-        "preco": 2.29,
-        "preco_por_kg": 26.94
+        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
+        "preco": 4.55,
+        "preco_por_kg": 22.75
       },
       "mais_barato": "Tenda"
     },
