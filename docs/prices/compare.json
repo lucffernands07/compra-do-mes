@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "754.80",
-  "totalTenda": "1033.04",
-  "totalArena": "603.19",
-  "totalSavegnago": "742.37",
+  "totalGoodbom": "766.79",
+  "totalTenda": "1018.30",
+  "totalArena": "609.88",
+  "totalSavegnago": "745.82",
   "encontradosGoodbom": 79,
-  "encontradosTenda": 85,
+  "encontradosTenda": 84,
   "encontradosArena": 78,
   "encontradosSavegnago": 70,
   "produtos": [
@@ -16,9 +16,9 @@
         "preco_por_kg": 43.8
       },
       "tenda": {
-        "nome": "Linguiça Calabresa Perdigão 400g",
-        "preco": 12.99,
-        "preco_por_kg": 32.48
+        "nome": "Linguiça Calabresa Brasa 400g",
+        "preco": 11.39,
+        "preco_por_kg": 28.48
       },
       "arena": {
         "nome": "Linguiça Calabresa Sadia Pacote 5kg",
@@ -64,7 +64,7 @@
         "preco_por_kg": 19.99
       },
       "tenda": {
-        "nome": "Linguiça Toscana Fina Sabor de Bragança 500g",
+        "nome": "Linguiça Toscana Fina Apimentada Sabor de Bragança 500g",
         "preco": 13.95,
         "preco_por_kg": 27.9
       },
@@ -146,9 +146,9 @@
         "preco_por_kg": 15.9
       },
       "savegnago": {
-        "nome": "Vagem Irmãos Pimenta Bandeja 300g",
-        "preco": 7.99,
-        "preco_por_kg": 26.63
+        "nome": "Vagem Bandeja 500g",
+        "preco": 9.19,
+        "preco_por_kg": 18.38
       },
       "mais_barato": "Goodbom"
     },
@@ -386,9 +386,9 @@
         "preco_por_kg": 3.3
       },
       "savegnago": {
-        "nome": "Banana Terra Kg",
+        "nome": "Banana Prata Bandeja 900g",
         "preco": 2.99,
-        "preco_por_kg": 2.99
+        "preco_por_kg": 3.32
       },
       "mais_barato": "Tenda"
     },
@@ -400,9 +400,9 @@
         "preco_por_kg": 19.98
       },
       "tenda": {
-        "nome": "Uva Vitória MIMO 400g",
-        "preco": 7.99,
-        "preco_por_kg": 19.97
+        "nome": "Refrigerante Sabor Uva Dolly 2L",
+        "preco": 5.25,
+        "preco_por_kg": 2.63
       },
       "arena": {
         "nome": "Chopp Bierbaum Redkraft Uva 1,5l",
@@ -856,9 +856,9 @@
         "preco_por_kg": 14.45
       },
       "tenda": {
-        "nome": "Creme de Leite Lider 200g",
-        "preco": 2.39,
-        "preco_por_kg": 11.95
+        "nome": "Creme de Leite Glória 200g",
+        "preco": 2.49,
+        "preco_por_kg": 12.45
       },
       "arena": {
         "nome": "Margarina Delícia Com Creme De Leite Com Sal 1kg",
@@ -1000,9 +1000,9 @@
         "preco_por_kg": 2.6
       },
       "tenda": {
-        "nome": "Água Sanitária Ypê 1L - Alveja - Desinfeta - Bactericida",
-        "preco": 3,
-        "preco_por_kg": 3
+        "nome": "Água Sanitária Select 1L",
+        "preco": 3.25,
+        "preco_por_kg": 3.25
       },
       "arena": {
         "nome": "Água Sanitária Barbarex 5l",
@@ -1202,9 +1202,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
-        "preco": 2.29,
-        "preco_por_kg": 26.94
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 21.65,
+        "preco_por_kg": 24.06
       },
       "mais_barato": "Tenda"
     },
@@ -1229,6 +1229,30 @@
         "nome": "Lenço Umedecido Neve Supreme com 48 unidades",
         "preco": 15.25,
         "preco_por_kg": 15.25
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "117",
+      "goodbom": {
+        "nome": "ALGODAO TOPZ DISCO 50 UNID.",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
+      },
+      "tenda": {
+        "nome": "Algodão Disco Select 50Un",
+        "preco": 5.85,
+        "preco_por_kg": 5.85
+      },
+      "arena": {
+        "nome": "Algodão Disco Bellacotton C/ 50 Unid.",
+        "preco": 6.69,
+        "preco_por_kg": 6.69
+      },
+      "savegnago": {
+        "nome": "Amaciante Roupa Vida Macia Glicerina E Algodão 1L",
+        "preco": 14.25,
+        "preco_por_kg": 14.25
       },
       "mais_barato": "Tenda"
     },
