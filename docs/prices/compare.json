@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "756.61",
-  "totalTenda": "945.01",
-  "totalArena": "600.68",
-  "totalSavegnago": "742.00",
+  "totalGoodbom": "769.29",
+  "totalTenda": "1154.60",
+  "totalArena": "612.16",
+  "totalSavegnago": "744.05",
   "encontradosGoodbom": 79,
-  "encontradosTenda": 84,
+  "encontradosTenda": 83,
   "encontradosArena": 78,
-  "encontradosSavegnago": 69,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -208,9 +208,9 @@
         "preco_por_kg": 2.99
       },
       "tenda": {
-        "nome": "Iogurte Integral Mel Cenoura e Laranja Nestlé 170g",
-        "preco": 2.99,
-        "preco_por_kg": 17.59
+        "nome": "Iogurte Natural Laranja, Cenoura e Mel Frutap 150g",
+        "preco": 2.79,
+        "preco_por_kg": 18.6
       },
       "arena": {
         "nome": "Cenoura Kg",
@@ -275,9 +275,9 @@
     {
       "id": "31",
       "goodbom": {
-        "nome": "SEMENTE FELTRIN ALFACE CRESPA",
-        "preco": 2.49,
-        "preco_por_kg": 2.49
+        "nome": "ALFACE ROXA UN",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
       },
       "tenda": {
         "nome": "Alface Roxa Unidade",
@@ -294,7 +294,7 @@
         "preco": 3.99,
         "preco_por_kg": 3.99
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "32",
@@ -386,9 +386,9 @@
         "preco_por_kg": 3.3
       },
       "savegnago": {
-        "nome": "Banana Nanica Exportação - 1kg",
-        "preco": 7.49,
-        "preco_por_kg": 7.49
+        "nome": "Banana Terra Bandeja 600g",
+        "preco": 2.99,
+        "preco_por_kg": 4.98
       },
       "mais_barato": "Tenda"
     },
@@ -400,9 +400,9 @@
         "preco_por_kg": 19.98
       },
       "tenda": {
-        "nome": "Refrigerante Sabor Uva Dolly 2L",
-        "preco": 5.25,
-        "preco_por_kg": 2.63
+        "nome": "Uva Vitória MIMO 400g",
+        "preco": 7.99,
+        "preco_por_kg": 19.97
       },
       "arena": {
         "nome": "Chopp Bierbaum Redkraft Uva 1,5l",
@@ -928,7 +928,7 @@
         "preco_por_kg": 15.99
       },
       "tenda": {
-        "nome": "Desinfetante Lysoform Suave 1L",
+        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
         "preco": 12.9,
         "preco_por_kg": 12.9
       },
@@ -943,6 +943,30 @@
         "preco_por_kg": 14.4
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "89",
+      "goodbom": {
+        "nome": "ALCOOL SAFRA 46,2° 1L",
+        "preco": 7.49,
+        "preco_por_kg": 7.49
+      },
+      "tenda": {
+        "nome": "Cerveja Zero Álcool Estrella Galicia Lata 330ml",
+        "preco": 5.19,
+        "preco_por_kg": 15.73
+      },
+      "arena": {
+        "nome": "Álcool Duratto Limpador Uso Geral Lavanda 1l",
+        "preco": 5.89,
+        "preco_por_kg": 5.89
+      },
+      "savegnago": {
+        "nome": "Álcool Safra 46,2 Lavanda 1L",
+        "preco": 10.7,
+        "preco_por_kg": 0.23
+      },
+      "mais_barato": "Savegnago"
     },
     {
       "id": "90",
@@ -1048,7 +1072,7 @@
         "preco_por_kg": 3
       },
       "tenda": {
-        "nome": "Desinfetante Bruto Original Lysoform 1L",
+        "nome": "Desinfetante Lysoform Suave 1L",
         "preco": 12.9,
         "preco_por_kg": 12.9
       },
@@ -1061,6 +1085,30 @@
         "nome": "Desinfetante Triex 5L Flores da Primavera",
         "preco": 14.55,
         "preco_por_kg": 2.91
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
+      "id": "105",
+      "goodbom": {
+        "nome": "LÃ DE AÇO BOMBRIL C/6",
+        "preco": 2.69,
+        "preco_por_kg": 2.69
+      },
+      "tenda": {
+        "nome": "Esponja de Aço Eco Bombril 45g 6 Unidades",
+        "preco": 2.59,
+        "preco_por_kg": 57.56
+      },
+      "arena": {
+        "nome": "Esponja Bombril Multi Uso Leve 4 Pague 3 Unid.",
+        "preco": 5.59,
+        "preco_por_kg": 5.59
+      },
+      "savegnago": {
+        "nome": "Lã De Aço Bombril Com 6 Unidades",
+        "preco": 2.65,
+        "preco_por_kg": 2.65
       },
       "mais_barato": "Savegnago"
     },
@@ -1144,7 +1192,7 @@
         "preco_por_kg": 26.6
       },
       "tenda": {
-        "nome": "Sabonete Siene Proteínas do Leite 85g",
+        "nome": "Sabonete Siene Rosas Vermelhas 85g",
         "preco": 1,
         "preco_por_kg": 11.76
       },
@@ -1154,9 +1202,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido para as Mãos Palmolive Naturals Suavidade Delicada 200ml",
-        "preco": 4.55,
-        "preco_por_kg": 22.75
+        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
+        "preco": 2.29,
+        "preco_por_kg": 26.94
       },
       "mais_barato": "Tenda"
     },
@@ -1192,9 +1240,9 @@
         "preco_por_kg": 11.99
       },
       "tenda": {
-        "nome": "Algodão Disco Select 50Un",
-        "preco": 5.85,
-        "preco_por_kg": 5.85
+        "nome": "Algodão Hidrófilo Rolo Select 50g",
+        "preco": 6.19,
+        "preco_por_kg": 123.8
       },
       "arena": {
         "nome": "Algodão Disco Bellacotton C/ 50 Unid.",
@@ -1206,7 +1254,7 @@
         "preco": 14.25,
         "preco_por_kg": 14.25
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "119",
@@ -1226,9 +1274,9 @@
         "preco_por_kg": 19.19
       },
       "savegnago": {
-        "nome": "Pão Seven Boys 300g Bisnaguinha",
-        "preco": 6.99,
-        "preco_por_kg": 23.3
+        "nome": "Pão Bisnaguinha Visconti 240g",
+        "preco": 4.99,
+        "preco_por_kg": 20.79
       },
       "mais_barato": "Tenda"
     },
