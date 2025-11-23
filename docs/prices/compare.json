@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "761.87",
-  "totalTenda": "1116.05",
-  "totalArena": "600.28",
-  "totalSavegnago": "737.01",
+  "totalGoodbom": "768.37",
+  "totalTenda": "1125.35",
+  "totalArena": "608.23",
+  "totalSavegnago": "713.25",
   "encontradosGoodbom": 78,
-  "encontradosTenda": 82,
+  "encontradosTenda": 83,
   "encontradosArena": 78,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 70,
   "produtos": [
     {
       "id": "3",
@@ -194,9 +194,9 @@
         "preco_por_kg": 6.59
       },
       "savegnago": {
-        "nome": "Gengibre Bandeja 350g",
-        "preco": 5.25,
-        "preco_por_kg": 15
+        "nome": "Chá Pronto Natural Tea 1L Verde Laranja Gengibre",
+        "preco": 6.45,
+        "preco_por_kg": 6.45
       },
       "mais_barato": "Tenda"
     },
@@ -386,9 +386,9 @@
         "preco_por_kg": 3.3
       },
       "savegnago": {
-        "nome": "Banana Terra Bandeja 600g",
+        "nome": "Banana Marmelo Bandeja 700g",
         "preco": 2.99,
-        "preco_por_kg": 4.98
+        "preco_por_kg": 4.27
       },
       "mais_barato": "Tenda"
     },
@@ -969,6 +969,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "90",
+      "goodbom": {
+        "nome": "LIMPADOR PERFUMADO YPÊ CHÁ BRANCO 2L",
+        "preco": 12.99,
+        "preco_por_kg": 6.5
+      },
+      "tenda": {
+        "nome": "Limpador Perfumado Sensualidade Casa & Perfume 1L",
+        "preco": 9.3,
+        "preco_por_kg": 9.3
+      },
+      "arena": {
+        "nome": "Limpador Perfumado Casa & Perfume Agradable 2lt",
+        "preco": 15.9,
+        "preco_por_kg": 7.95
+      },
+      "savegnago": {
+        "nome": "Limpador Perfumado Veja Lavanda da França - 1L",
+        "preco": 7.98,
+        "preco_por_kg": 7.98
+      },
+      "mais_barato": "Goodbom"
+    },
+    {
       "id": "96",
       "goodbom": {
         "nome": "ÁGUA SANITÁRIA CANDURA 5L",
@@ -1048,7 +1072,7 @@
         "preco_por_kg": 3
       },
       "tenda": {
-        "nome": "Desinfetante Lysoform Suave 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 12.9,
         "preco_por_kg": 12.9
       },
@@ -1130,11 +1154,11 @@
         "preco_por_kg": 38.54
       },
       "savegnago": {
-        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
-        "preco": 2.9,
-        "preco_por_kg": 41.43
+        "nome": "Creme Dental Sensodyne Avançado Rapido Alivio",
+        "preco": 18.95,
+        "preco_por_kg": 18.95
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "111",
