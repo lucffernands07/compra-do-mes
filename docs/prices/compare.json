@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "781.77",
-  "totalTenda": "934.23",
-  "totalArena": "625.25",
-  "totalSavegnago": "705.08",
+  "totalGoodbom": "807.75",
+  "totalTenda": "954.83",
+  "totalArena": "673.21",
+  "totalSavegnago": "790.39",
   "encontradosGoodbom": 78,
   "encontradosTenda": 84,
   "encontradosArena": 78,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -26,9 +26,9 @@
         "preco_por_kg": 21.84
       },
       "savegnago": {
-        "nome": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
-        "preco": 11.95,
-        "preco_por_kg": 23.9
+        "nome": "Linguiça Calabresa Aurora 400g Defumada",
+        "preco": 12.7,
+        "preco_por_kg": 31.75
       },
       "mais_barato": "Arena"
     },
@@ -194,9 +194,9 @@
         "preco_por_kg": 6.59
       },
       "savegnago": {
-        "nome": "Chá Pronto Natural Tea 1L Verde Laranja Gengibre",
-        "preco": 6.45,
-        "preco_por_kg": 6.45
+        "nome": "Gengibre Bandeja 350g",
+        "preco": 5.25,
+        "preco_por_kg": 15
       },
       "mais_barato": "Tenda"
     },
@@ -866,9 +866,9 @@
         "preco_por_kg": 11.25
       },
       "savegnago": {
-        "nome": "Creme de leite Original Nestlé TP 200g 10% Gratis",
-        "preco": 3.85,
-        "preco_por_kg": 19.25
+        "nome": "Creme de Leite Italac Leve 200g",
+        "preco": 2.96,
+        "preco_por_kg": 14.8
       },
       "mais_barato": "Arena"
     },
@@ -1072,7 +1072,7 @@
         "preco_por_kg": 3
       },
       "tenda": {
-        "nome": "Desinfetante Lysoform Suave 1L",
+        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1202,9 +1202,33 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 21.65,
-        "preco_por_kg": 24.06
+        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
+        "preco": 4.55,
+        "preco_por_kg": 22.75
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "114",
+      "goodbom": {
+        "nome": "GEL FIXADOR TRIBAL AZUL 500G",
+        "preco": 12.99,
+        "preco_por_kg": 25.98
+      },
+      "tenda": {
+        "nome": "Gel Fixador Incolor Soft Fix 250g",
+        "preco": 5.15,
+        "preco_por_kg": 20.6
+      },
+      "arena": {
+        "nome": "Gel Fixador Tribal Incolor 250g",
+        "preco": 11.99,
+        "preco_por_kg": 47.96
+      },
+      "savegnago": {
+        "nome": "Gel Fixador Clear 300g Controle Caspa",
+        "preco": 22.4,
+        "preco_por_kg": 74.67
       },
       "mais_barato": "Tenda"
     },
