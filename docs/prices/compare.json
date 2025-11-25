@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "778.84",
-  "totalTenda": "1023.11",
-  "totalArena": "646.71",
-  "totalSavegnago": "762.07",
+  "totalGoodbom": "839.29",
+  "totalTenda": "1115.55",
+  "totalArena": "668.17",
+  "totalSavegnago": "792.77",
   "encontradosGoodbom": 78,
-  "encontradosTenda": 84,
+  "encontradosTenda": 83,
   "encontradosArena": 78,
-  "encontradosSavegnago": 69,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -400,9 +400,9 @@
         "preco_por_kg": 13.98
       },
       "tenda": {
-        "nome": "Néctar de Uva Nutri Néctar 1L",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
+        "nome": "Bala Gelatina Tubes Boo Uva e Tangerina Fini 15g",
+        "preco": 0.97,
+        "preco_por_kg": 64.67
       },
       "arena": {
         "nome": "Suco Integral Geração S Uva 1,35l",
@@ -559,6 +559,30 @@
         "preco_por_kg": 10.65
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "49",
+      "goodbom": {
+        "nome": "ÁGUA DE COCO PURO COCO MORANGO 180ML",
+        "preco": 1.89,
+        "preco_por_kg": 10.5
+      },
+      "tenda": {
+        "nome": "Água de Coco Quadrado 200ml",
+        "preco": 1.85,
+        "preco_por_kg": 9.25
+      },
+      "arena": {
+        "nome": "Água De Coco Super Coco 1l",
+        "preco": 9.99,
+        "preco_por_kg": 9.99
+      },
+      "savegnago": {
+        "nome": "Água De Coco Puro Coco 1L",
+        "preco": 8.99,
+        "preco_por_kg": 8.99
+      },
+      "mais_barato": "Savegnago"
     },
     {
       "id": "50",
@@ -866,9 +890,9 @@
         "preco_por_kg": 15.79
       },
       "savegnago": {
-        "nome": "Chá Real Capim Cidreira com 10",
-        "preco": 4.35,
-        "preco_por_kg": 4.35
+        "nome": "Chá Ice Tea Leão Sabor Pêssego Zero PET 1,5L",
+        "preco": 7.85,
+        "preco_por_kg": 5.23
       },
       "mais_barato": "Tenda"
     },
@@ -904,7 +928,7 @@
         "preco_por_kg": 22.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -969,6 +993,30 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "96",
+      "goodbom": {
+        "nome": "ÁGUA SANITÁRIA BARBAREX 2L",
+        "preco": 4.99,
+        "preco_por_kg": 2.5
+      },
+      "tenda": {
+        "nome": "Água Sanitária Select 1L",
+        "preco": 3.25,
+        "preco_por_kg": 3.25
+      },
+      "arena": {
+        "nome": "Água Sanitária Bio-Kriss 2l",
+        "preco": 3.75,
+        "preco_por_kg": 1.88
+      },
+      "savegnago": {
+        "nome": "Água Sanitária Fazenda Esperança 2L",
+        "preco": 4.55,
+        "preco_por_kg": 2.27
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "100",
       "goodbom": {
         "nome": "DETERGENTE YPÊ CLEAR 5L",
@@ -1024,9 +1072,9 @@
         "preco_por_kg": 3.5
       },
       "tenda": {
-        "nome": "Desinfetante Pato Germinex Lavanda 500ml",
-        "preco": 4.97,
-        "preco_por_kg": 9.94
+        "nome": "Desinfetante Pato Germinex Marine 750ml",
+        "preco": 12.9,
+        "preco_por_kg": 17.2
       },
       "arena": {
         "nome": "Desinfetante Sanol Chá Branco 2l",
@@ -1113,6 +1161,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "111",
+      "goodbom": {
+        "nome": "SABONETE LÍQUIDO LUX GARDENIA REFIL 200ML",
+        "preco": 9.49,
+        "preco_por_kg": 47.45
+      },
+      "tenda": {
+        "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
+        "preco": 7,
+        "preco_por_kg": 14
+      },
+      "arena": {
+        "nome": "Sabonete Líquido Deoline Erva Doce Suave Refil1l",
+        "preco": 9.59,
+        "preco_por_kg": 9.59
+      },
+      "savegnago": {
+        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
+        "preco": 4.55,
+        "preco_por_kg": 22.75
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "112",
       "goodbom": {
         "nome": "SABONETE PALMOLIVE FRESCOR PURIFICANTE 150G",
@@ -1130,9 +1202,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
-        "preco": 2.29,
-        "preco_por_kg": 26.94
+        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
+        "preco": 4.55,
+        "preco_por_kg": 22.75
       },
       "mais_barato": "Tenda"
     },
@@ -1163,7 +1235,7 @@
     {
       "id": "116",
       "goodbom": {
-        "nome": "LENÇO UMEDECIDO GRANADO C/50",
+        "nome": "LENÇO UMEDECIDO GRANADO LAVANDA C/50",
         "preco": 10.99,
         "preco_por_kg": 10.99
       },
