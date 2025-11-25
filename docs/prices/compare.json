@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "814.75",
-  "totalTenda": "945.51",
-  "totalArena": "673.21",
-  "totalSavegnago": "803.32",
+  "totalGoodbom": "791.09",
+  "totalTenda": "850.44",
+  "totalArena": "667.32",
+  "totalSavegnago": "858.23",
   "encontradosGoodbom": 78,
   "encontradosTenda": 84,
   "encontradosArena": 78,
-  "encontradosSavegnago": 72,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -132,8 +132,8 @@
       "id": "22",
       "goodbom": {
         "nome": "VAGEM MACARRÃO KG",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
+        "preco": 7.99,
+        "preco_por_kg": 7.99
       },
       "tenda": {
         "nome": "Vagem Macarrão 300g",
@@ -218,11 +218,11 @@
         "preco_por_kg": 4.89
       },
       "savegnago": {
-        "nome": "Cenoura Irmãos Pimenta Bandeja 600g",
+        "nome": "Cenoura 1Kg",
         "preco": 2.95,
-        "preco_por_kg": 4.92
+        "preco_por_kg": 2.95
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "29",
@@ -242,9 +242,9 @@
         "preco_por_kg": 25.9
       },
       "savegnago": {
-        "nome": "Caldo Swift 350g Mandioquinha com Frango",
-        "preco": 1.99,
-        "preco_por_kg": 5.69
+        "nome": "Bisnaguinha Cenoura e Mandioquinha Nutrella 300g",
+        "preco": 12.5,
+        "preco_por_kg": 41.67
       },
       "mais_barato": "Tenda"
     },
@@ -256,9 +256,9 @@
         "preco_por_kg": 4.99
       },
       "tenda": {
-        "nome": "Tempero MAGGI Meu Segredo Cheiro Verde 49g",
-        "preco": 3.35,
-        "preco_por_kg": 68.37
+        "nome": "Cheiro Verde Maço Unidade",
+        "preco": 4.29,
+        "preco_por_kg": 4.29
       },
       "arena": {
         "nome": "Cheiro Verde Jw Unid.",
@@ -280,7 +280,7 @@
         "preco_por_kg": 2.49
       },
       "tenda": {
-        "nome": "Alface Roxa Unidade",
+        "nome": "Alface Mimosa Unidade",
         "preco": 4.49,
         "preco_por_kg": 4.49
       },
@@ -300,13 +300,13 @@
       "id": "32",
       "goodbom": {
         "nome": "REPOLHO LISO KG",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
+        "preco": 2.99,
+        "preco_por_kg": 2.99
       },
       "tenda": {
         "nome": "Repolho Verde Unidade",
-        "preco": 4.07,
-        "preco_por_kg": 4.07
+        "preco": 2.71,
+        "preco_por_kg": 2.71
       },
       "arena": {
         "nome": "Repolho Verde Kg",
@@ -348,8 +348,8 @@
       "id": "34",
       "goodbom": {
         "nome": "MAMÃO PAPAYA KG",
-        "preco": 9.99,
-        "preco_por_kg": 9.99
+        "preco": 6.99,
+        "preco_por_kg": 6.99
       },
       "tenda": {
         "nome": "Refresco em pó Tang Laranja Mamão 18g",
@@ -372,8 +372,8 @@
       "id": "35",
       "goodbom": {
         "nome": "BANANA NANICA KG",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "tenda": {
         "nome": "Banana Nanica Unidade",
@@ -386,9 +386,9 @@
         "preco_por_kg": 6.99
       },
       "savegnago": {
-        "nome": "Banana Marmelo Bandeja 700g",
+        "nome": "Banana Terra Bandeja 600g",
         "preco": 2.99,
-        "preco_por_kg": 4.27
+        "preco_por_kg": 4.98
       },
       "mais_barato": "Tenda"
     },
@@ -396,13 +396,13 @@
       "id": "36",
       "goodbom": {
         "nome": "UVA VITÓRIA BANDEJA 500G",
-        "preco": 9.99,
-        "preco_por_kg": 19.98
+        "preco": 6.99,
+        "preco_por_kg": 13.98
       },
       "tenda": {
-        "nome": "Uva Vitória MIMO 400g",
-        "preco": 7.99,
-        "preco_por_kg": 19.97
+        "nome": "Néctar de Uva Nutri Néctar 1L",
+        "preco": 5.99,
+        "preco_por_kg": 5.99
       },
       "arena": {
         "nome": "Suco Pomares Néctar Uva 1,35l",
@@ -496,9 +496,9 @@
         "preco_por_kg": 25.9
       },
       "tenda": {
-        "nome": "Empanado Presunto e Queijo Seara 110g",
-        "preco": 4.69,
-        "preco_por_kg": 42.64
+        "nome": "Presunto Cozido Fatiado Aurora 180g",
+        "preco": 7.69,
+        "preco_por_kg": 42.72
       },
       "arena": {
         "nome": "Presunto Cozido Pamplona Sem Capa De Gordura Peça Kg",
@@ -506,11 +506,11 @@
         "preco_por_kg": 24.29
       },
       "savegnago": {
-        "nome": "Lasanha de presunto e queijo Seara 600g",
-        "preco": 11.7,
-        "preco_por_kg": 19.5
+        "nome": "Presunto Cozido Frimesa 200g Fatiado Sem Capa De Gordura",
+        "preco": 8.48,
+        "preco_por_kg": 42.4
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Arena"
     },
     {
       "id": "44",
@@ -588,8 +588,8 @@
       "id": "50",
       "goodbom": {
         "nome": "LEITE FERMENTADO FRUTAP 850G",
-        "preco": 9.99,
-        "preco_por_kg": 11.75
+        "preco": 8.99,
+        "preco_por_kg": 10.58
       },
       "tenda": {
         "nome": "Leite Fermentado Patati Patata Frutap 450g",
@@ -945,30 +945,6 @@
       "mais_barato": "Arena"
     },
     {
-      "id": "89",
-      "goodbom": {
-        "nome": "ALCOOL SAFRA 46,2° 1L",
-        "preco": 7.49,
-        "preco_por_kg": 7.49
-      },
-      "tenda": {
-        "nome": "Cerveja Zero Álcool Estrella Galicia Lata 330ml",
-        "preco": 5.19,
-        "preco_por_kg": 15.73
-      },
-      "arena": {
-        "nome": "Álcool Duratto Limpador Uso Geral Lavanda 1l",
-        "preco": 5.89,
-        "preco_por_kg": 5.89
-      },
-      "savegnago": {
-        "nome": "Álcool Safra 46,2 Lavanda 1L",
-        "preco": 10.7,
-        "preco_por_kg": 0.23
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
       "id": "90",
       "goodbom": {
         "nome": "LIMPADOR PERFUMADO YPÊ CHÁ BRANCO 2L",
@@ -1202,9 +1178,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Camélia e Óleo de Amendoas 650ml",
-        "preco": 17.25,
-        "preco_por_kg": 26.54
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 21.65,
+        "preco_por_kg": 24.06
       },
       "mais_barato": "Tenda"
     },
