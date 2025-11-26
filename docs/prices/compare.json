@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "833.97",
-  "totalTenda": "1133.35",
-  "totalArena": "665.72",
-  "totalSavegnago": "797.27",
+  "totalGoodbom": "756.01",
+  "totalTenda": "1128.63",
+  "totalArena": "629.57",
+  "totalSavegnago": "773.48",
   "encontradosGoodbom": 78,
-  "encontradosTenda": 82,
+  "encontradosTenda": 83,
   "encontradosArena": 78,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -681,6 +681,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "67",
+      "goodbom": {
+        "nome": "VINAGRE CASTELO ALCOOL COLOR 750ML",
+        "preco": 3.99,
+        "preco_por_kg": 5.32
+      },
+      "tenda": {
+        "nome": "Vinagre de Álcool Vitalia 750ml",
+        "preco": 2.29,
+        "preco_por_kg": 3.05
+      },
+      "arena": {
+        "nome": "Vinagre Fortaleza Álcool Pet 750ml",
+        "preco": 1.79,
+        "preco_por_kg": 2.39
+      },
+      "savegnago": {
+        "nome": "Vinagre Belmont 750ml Álcool Colorido",
+        "preco": 1.89,
+        "preco_por_kg": 2.52
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "68",
       "goodbom": {
         "nome": "MILHO VERDE BANDEJA 700G",
@@ -904,7 +928,7 @@
         "preco_por_kg": 22.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
+        "nome": "Desinfetante Bruto Original Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1048,9 +1072,9 @@
         "preco_por_kg": 3.5
       },
       "tenda": {
-        "nome": "Desinfetante Pato Germinex Lavanda 500ml",
-        "preco": 4.97,
-        "preco_por_kg": 9.94
+        "nome": "Desinfetante Banheiro Mr Músculo Refil Econômico 400ml",
+        "preco": 9.44,
+        "preco_por_kg": 23.6
       },
       "arena": {
         "nome": "Desinfetante Sanol Chá Branco 2l",
@@ -1113,30 +1137,6 @@
       "mais_barato": "Savegnago"
     },
     {
-      "id": "110",
-      "goodbom": {
-        "nome": "CREME DENTAL COLGATE TOTAL CARVÃO 180G PREÇO ESPECIAL",
-        "preco": 14.99,
-        "preco_por_kg": 83.28
-      },
-      "tenda": {
-        "nome": "Creme Dental Ice Clean 70g",
-        "preco": 1.5,
-        "preco_por_kg": 21.43
-      },
-      "arena": {
-        "nome": "Creme Dental Sorriso Tripla Limpeza Completa 4 Unidades 280g",
-        "preco": 10.79,
-        "preco_por_kg": 38.54
-      },
-      "savegnago": {
-        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
-        "preco": 1.75,
-        "preco_por_kg": 25
-      },
-      "mais_barato": "Tenda"
-    },
-    {
       "id": "111",
       "goodbom": {
         "nome": "SABONETE LÍQUIDO LUX GARDENIA REFIL 200ML",
@@ -1154,7 +1154,7 @@
         "preco_por_kg": 9.59
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
+        "nome": "Sabonete Líquido para as Mãos Palmolive Naturals Suavidade Delicada 200ml",
         "preco": 4.55,
         "preco_por_kg": 22.75
       },
@@ -1178,9 +1178,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 21.65,
-        "preco_por_kg": 24.06
+        "nome": "Sabonete Líquido para as Mãos Palmolive Naturals Suavidade Delicada 200ml",
+        "preco": 4.55,
+        "preco_por_kg": 22.75
       },
       "mais_barato": "Tenda"
     },
