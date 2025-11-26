@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "826.39",
-  "totalTenda": "1076.83",
-  "totalArena": "664.66",
-  "totalSavegnago": "745.11",
+  "totalGoodbom": "837.80",
+  "totalTenda": "1028.51",
+  "totalArena": "672.24",
+  "totalSavegnago": "800.12",
   "encontradosGoodbom": 78,
-  "encontradosTenda": 82,
+  "encontradosTenda": 83,
   "encontradosArena": 78,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -256,9 +256,9 @@
         "preco_por_kg": 4.99
       },
       "tenda": {
-        "nome": "Tempero MAGGI Meu Segredo Cheiro Verde 49g",
-        "preco": 3.35,
-        "preco_por_kg": 68.37
+        "nome": "Cheiro Verde Maço Unidade",
+        "preco": 4.29,
+        "preco_por_kg": 4.29
       },
       "arena": {
         "nome": "Cheiro Verde Jw Unid.",
@@ -266,9 +266,9 @@
         "preco_por_kg": 3.79
       },
       "savegnago": {
-        "nome": "Cheiro Verde Organico Solo Vivo",
-        "preco": 8.59,
-        "preco_por_kg": 8.59
+        "nome": "Tempero MAGGI Meu Segredo Cheiro Verde 49g",
+        "preco": 2.59,
+        "preco_por_kg": 52.86
       },
       "mais_barato": "Arena"
     },
@@ -358,8 +358,8 @@
       },
       "arena": {
         "nome": "Iogurte Desnatado Batavo Pense Zero Zero Lactose Mamão 1,150kg",
-        "preco": 10.89,
-        "preco_por_kg": 0.07
+        "preco": 6.99,
+        "preco_por_kg": 0.05
       },
       "savegnago": {
         "nome": "Mamão Papaya Golden 1,2Kg",
@@ -386,9 +386,9 @@
         "preco_por_kg": 6.99
       },
       "savegnago": {
-        "nome": "Banana Prata Turma da Mônica 750g",
+        "nome": "Banana Terra Bandeja 600g",
         "preco": 2.99,
-        "preco_por_kg": 3.99
+        "preco_por_kg": 4.98
       },
       "mais_barato": "Tenda"
     },
@@ -496,9 +496,9 @@
         "preco_por_kg": 26.9
       },
       "tenda": {
-        "nome": "Empanado Presunto e Queijo Seara 110g",
-        "preco": 4.9,
-        "preco_por_kg": 44.55
+        "nome": "Presunto Cozido Fatiado Aurora 180g",
+        "preco": 7.69,
+        "preco_por_kg": 42.72
       },
       "arena": {
         "nome": "Presunto Cozido Pamplona Sem Capa De Gordura Peça Kg",
@@ -549,16 +549,16 @@
         "preco_por_kg": 4
       },
       "arena": {
-        "nome": "Mandioca Kg",
-        "preco": 3.49,
-        "preco_por_kg": 3.49
+        "nome": "Farinha De Mandioca Pandora Branca Grossa 500g",
+        "preco": 3.69,
+        "preco_por_kg": 7.38
       },
       "savegnago": {
         "nome": "Farinha Mandioca Siamar 1k Grossa",
         "preco": 10.65,
         "preco_por_kg": 10.65
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "49",
@@ -701,6 +701,30 @@
         "nome": "Vinagre Belmont 750ml Álcool Colorido",
         "preco": 1.89,
         "preco_por_kg": 2.52
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "68",
+      "goodbom": {
+        "nome": "MILHO VERDE BANDEJA 700G",
+        "preco": 7.99,
+        "preco_por_kg": 11.41
+      },
+      "tenda": {
+        "nome": "Milho Verde Predilecta 170g",
+        "preco": 2.99,
+        "preco_por_kg": 17.59
+      },
+      "arena": {
+        "nome": "Milho Verde Stella D'Oro Sachê 1,7kg",
+        "preco": 25.99,
+        "preco_por_kg": 3.71
+      },
+      "savegnago": {
+        "nome": "Milho Verde Irmãos Pimenta Bandeja 600g",
+        "preco": 5.85,
+        "preco_por_kg": 9.75
       },
       "mais_barato": "Arena"
     },
@@ -904,7 +928,7 @@
         "preco_por_kg": 22.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
