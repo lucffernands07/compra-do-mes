@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "823.77",
-  "totalTenda": "1136.46",
-  "totalArena": "656.45",
-  "totalSavegnago": "793.08",
+  "totalGoodbom": "827.76",
+  "totalTenda": "1138.95",
+  "totalArena": "672.24",
+  "totalSavegnago": "794.84",
   "encontradosGoodbom": 78,
   "encontradosTenda": 83,
   "encontradosArena": 78,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -122,9 +122,9 @@
         "preco_por_kg": 12.49
       },
       "savegnago": {
-        "nome": "Sobrecoxa Frango Swift 1Kg",
-        "preco": 14.5,
-        "preco_por_kg": 14.5
+        "nome": "Sobrecoxa Seara 1kg",
+        "preco": 12.9,
+        "preco_por_kg": 12.9
       },
       "mais_barato": "Tenda"
     },
@@ -290,7 +290,7 @@
         "preco_por_kg": 4.69
       },
       "savegnago": {
-        "nome": "Alface Crespa Felicio Maço",
+        "nome": "Alface Crespa Org Solo Vivo",
         "preco": 3.99,
         "preco_por_kg": 3.99
       },
@@ -434,9 +434,9 @@
         "preco_por_kg": 0.46
       },
       "savegnago": {
-        "nome": "Maçã Fuji Kg",
-        "preco": 1.99,
-        "preco_por_kg": 1.99
+        "nome": "Maçã Importada Argentina Kg",
+        "preco": 2.29,
+        "preco_por_kg": 2.29
       },
       "mais_barato": "Arena"
     },
@@ -458,7 +458,7 @@
         "preco_por_kg": 7.3
       },
       "savegnago": {
-        "nome": "Margarina Delícia com Creme de Leite com Sal 500g",
+        "nome": "Margarina cremosa com sal Doriana 500g",
         "preco": 4.99,
         "preco_por_kg": 9.98
       },
@@ -602,11 +602,11 @@
         "preco_por_kg": 14.11
       },
       "savegnago": {
-        "nome": "Leite Fermentado Nestlé Chamyto® 450G com 6 unidades",
-        "preco": 3.99,
-        "preco_por_kg": 8.87
+        "nome": "Leite Fermentado Itambé 1,150kg",
+        "preco": 14.95,
+        "preco_por_kg": 13
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "52",
@@ -626,11 +626,11 @@
         "preco_por_kg": 2.94
       },
       "savegnago": {
-        "nome": "Arroz Branco Camil 5kg Tipo 1",
-        "preco": 16.8,
-        "preco_por_kg": 3.36
+        "nome": "Arroz Agulhinha 4r 5kg Tipo1",
+        "preco": 12.9,
+        "preco_por_kg": 2.58
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "53",
@@ -650,9 +650,9 @@
         "preco_por_kg": 4.99
       },
       "savegnago": {
-        "nome": "Feijão Preto Camil tipo 1 1kg",
-        "preco": 5.79,
-        "preco_por_kg": 5.79
+        "nome": "Feijão Carioca Serrazul 1KG",
+        "preco": 4.79,
+        "preco_por_kg": 4.79
       },
       "mais_barato": "Tenda"
     },
@@ -674,9 +674,9 @@
         "preco_por_kg": 8.83
       },
       "savegnago": {
-        "nome": "Óleo de Soja Liza Pet 900ml",
-        "preco": 7.9,
-        "preco_por_kg": 8.78
+        "nome": "Óleo de Soja Soya Pet 900ml",
+        "preco": 8.75,
+        "preco_por_kg": 9.72
       },
       "mais_barato": "Tenda"
     },
@@ -818,9 +818,9 @@
         "preco_por_kg": 6.29
       },
       "savegnago": {
-        "nome": "Mostarda Cepera Com Mel 400g",
-        "preco": 9.95,
-        "preco_por_kg": 24.87
+        "nome": "Mostarda Predilecta 180g Bisnaga",
+        "preco": 4.19,
+        "preco_por_kg": 23.28
       },
       "mais_barato": "Arena"
     },
@@ -873,6 +873,30 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "82",
+      "goodbom": {
+        "nome": "CHÁ LEÃO HORTELÃ 10 SACHÊS",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
+      },
+      "tenda": {
+        "nome": "Chá Matte Natural Leão 10 Sachês",
+        "preco": 2.49,
+        "preco_por_kg": 2.49
+      },
+      "arena": {
+        "nome": "Chá Branco Natural Tea Lichia 1l",
+        "preco": 15.79,
+        "preco_por_kg": 15.79
+      },
+      "savegnago": {
+        "nome": "Chá Real Capim Cidreira com 10",
+        "preco": 4.35,
+        "preco_por_kg": 4.35
+      },
+      "mais_barato": "Tenda"
+    },
+    {
       "id": "87",
       "goodbom": {
         "nome": "WRAP DE TAPIOCA ORIGINAL DA TERRINHA",
@@ -904,7 +928,7 @@
         "preco_por_kg": 14.99
       },
       "tenda": {
-        "nome": "Desinfetante Bruto Original Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1011,8 +1035,8 @@
       },
       "savegnago": {
         "nome": "Detergente Ypê Clear 500ml",
-        "preco": 1.99,
-        "preco_por_kg": 3.98
+        "preco": 2.59,
+        "preco_por_kg": 5.18
       },
       "mais_barato": "Arena"
     },
@@ -1178,9 +1202,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
-        "preco": 2.29,
-        "preco_por_kg": 26.94
+        "nome": "Sabonete Líquido para as Mãos Palmolive Naturals Suavidade Delicada 200ml",
+        "preco": 4.55,
+        "preco_por_kg": 22.75
       },
       "mais_barato": "Tenda"
     },
