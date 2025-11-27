@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "831.85",
-  "totalTenda": "1038.00",
-  "totalArena": "649.31",
-  "totalSavegnago": "817.34",
+  "totalGoodbom": "843.16",
+  "totalTenda": "1431.11",
+  "totalArena": "994.27",
+  "totalSavegnago": "818.48",
   "encontradosGoodbom": 78,
-  "encontradosTenda": 83,
+  "encontradosTenda": 84,
   "encontradosArena": 78,
-  "encontradosSavegnago": 72,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -59,7 +59,7 @@
     {
       "id": "5",
       "goodbom": {
-        "nome": "LINGUIÇA TOSCANA SEARA KG",
+        "nome": "LINGUIÇA TOSCANA NA BRASA PERDIGÃO KG",
         "preco": 19.99,
         "preco_por_kg": 19.99
       },
@@ -83,9 +83,9 @@
     {
       "id": "6",
       "goodbom": {
-        "nome": "SALSICHA HOT DOG SEARA KG",
-        "preco": 9.99,
-        "preco_por_kg": 9.99
+        "nome": "SALSICHA FRANGO ALLIZ KG",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
       },
       "tenda": {
         "nome": "Salsicha Hot Dog Seara 500g",
@@ -256,21 +256,21 @@
         "preco_por_kg": 4.99
       },
       "tenda": {
-        "nome": "Cheiro Verde Maço Unidade",
-        "preco": 4.29,
-        "preco_por_kg": 4.29
+        "nome": "Tempero MAGGI Meu Segredo Cheiro Verde 49g",
+        "preco": 3.35,
+        "preco_por_kg": 68.37
       },
       "arena": {
-        "nome": "Cheiro Verde Jw Unid.",
-        "preco": 3.79,
-        "preco_por_kg": 3.79
+        "nome": "Cheiro Verde Kisabor Folha 8g",
+        "preco": 2.79,
+        "preco_por_kg": 348.75
       },
       "savegnago": {
         "nome": "Tempero MAGGI Meu Segredo Cheiro Verde 49g",
         "preco": 2.59,
         "preco_por_kg": 52.86
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "31",
@@ -285,7 +285,7 @@
         "preco_por_kg": 4.49
       },
       "arena": {
-        "nome": "Alface Crespa Unid.",
+        "nome": "Alface Crespa Hidropônica Jw Unid.",
         "preco": 4.69,
         "preco_por_kg": 4.69
       },
@@ -467,9 +467,9 @@
     {
       "id": "42",
       "goodbom": {
-        "nome": "QUEIJO MUSSARELA PEÇA KG",
-        "preco": 34.99,
-        "preco_por_kg": 34.99
+        "nome": "PIZZA SEARA MUSSARELA 440GR",
+        "preco": 19.49,
+        "preco_por_kg": 44.3
       },
       "tenda": {
         "nome": "Queijo Mussarela Portofino 200g",
@@ -626,9 +626,9 @@
         "preco_por_kg": 2.94
       },
       "savegnago": {
-        "nome": "Arroz Agulhinha 4r 5kg Tipo1",
-        "preco": 12.9,
-        "preco_por_kg": 2.58
+        "nome": "Arroz Pop Branco Tipo 1 5Kg",
+        "preco": 11.9,
+        "preco_por_kg": 2.38
       },
       "mais_barato": "Savegnago"
     },
@@ -674,11 +674,11 @@
         "preco_por_kg": 8.83
       },
       "savegnago": {
-        "nome": "Óleo de Soja Soya Pet 900ml",
-        "preco": 8.75,
-        "preco_por_kg": 9.72
+        "nome": "Óleo de Soja Liza Pet 900ml",
+        "preco": 6.85,
+        "preco_por_kg": 7.61
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "67",
@@ -880,9 +880,9 @@
         "preco_por_kg": 3.99
       },
       "tenda": {
-        "nome": "Chá Matte Natural Leão 10 Sachês",
-        "preco": 2.49,
-        "preco_por_kg": 2.49
+        "nome": "Chá de Camomila Leão 15g",
+        "preco": 4.99,
+        "preco_por_kg": 332.67
       },
       "arena": {
         "nome": "Chá Branco Natural Tea Lichia 1l",
@@ -890,11 +890,11 @@
         "preco_por_kg": 15.79
       },
       "savegnago": {
-        "nome": "Chá Real Capim Cidreira com 10",
-        "preco": 4.35,
-        "preco_por_kg": 4.35
+        "nome": "Chá Ice Tea Leão Sabor Limão PET 1,5L",
+        "preco": 7.85,
+        "preco_por_kg": 5.23
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "87",
@@ -928,7 +928,7 @@
         "preco_por_kg": 14.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -976,9 +976,9 @@
         "preco_por_kg": 7.99
       },
       "tenda": {
-        "nome": "Limpador Perfumado Sensualidade Casa & Perfume 1L",
-        "preco": 9.3,
-        "preco_por_kg": 9.3
+        "nome": "Limpador Perfumado Ypê Premium Roxo Jardim Secreto 1L - Até 30H De Perfumação - Limpador De Uso Geral",
+        "preco": 8.15,
+        "preco_por_kg": 8.15
       },
       "arena": {
         "nome": "Limpador Perfumado Casa & Perfume Agradable 2lt",
@@ -1034,9 +1034,9 @@
         "preco_por_kg": 0.48
       },
       "savegnago": {
-        "nome": "Detergente Ypê Clear 500ml",
-        "preco": 2.59,
-        "preco_por_kg": 5.18
+        "nome": "Detergente Líquido Minuano 1300 500ml Clear",
+        "preco": 1.78,
+        "preco_por_kg": 3.56
       },
       "mais_barato": "Arena"
     },
@@ -1202,9 +1202,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido para as Mãos Palmolive Naturals Suavidade Delicada 200ml",
-        "preco": 4.55,
-        "preco_por_kg": 22.75
+        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
+        "preco": 2.29,
+        "preco_por_kg": 26.94
       },
       "mais_barato": "Tenda"
     },
