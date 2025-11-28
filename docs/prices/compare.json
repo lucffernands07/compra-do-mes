@@ -1,8 +1,8 @@
 {
-  "totalGoodbom": "808.49",
-  "totalTenda": "1373.55",
-  "totalArena": "988.68",
-  "totalSavegnago": "807.28",
+  "totalGoodbom": "763.28",
+  "totalTenda": "1418.26",
+  "totalArena": "984.68",
+  "totalSavegnago": "789.78",
   "encontradosGoodbom": 78,
   "encontradosTenda": 84,
   "encontradosArena": 78,
@@ -75,10 +75,10 @@
       },
       "savegnago": {
         "nome": "Linguiça Toscana Mini Camari 1Kg",
-        "preco": 16.85,
-        "preco_por_kg": 16.85
+        "preco": 19.85,
+        "preco_por_kg": 19.85
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Arena"
     },
     {
       "id": "6",
@@ -107,9 +107,9 @@
     {
       "id": "7",
       "goodbom": {
-        "nome": "SOBRECOXA DE FRANGO SWIFT 1KG",
-        "preco": 15.9,
-        "preco_por_kg": 15.9
+        "nome": "SOBRECOXA KG",
+        "preco": 14.99,
+        "preco_por_kg": 14.99
       },
       "tenda": {
         "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
@@ -208,9 +208,9 @@
         "preco_por_kg": 3.99
       },
       "tenda": {
-        "nome": "Iogurte Natural Laranja, Cenoura e Mel Frutap 150g",
-        "preco": 2.79,
-        "preco_por_kg": 18.6
+        "nome": "Iogurte Natural Laranja, Cenoura e Mel Select 150g",
+        "preco": 2.39,
+        "preco_por_kg": 15.93
       },
       "arena": {
         "nome": "Cenoura Kg",
@@ -395,9 +395,9 @@
     {
       "id": "36",
       "goodbom": {
-        "nome": "UVA VITÓRIA BANDEJA 500G",
-        "preco": 6.99,
-        "preco_por_kg": 13.98
+        "nome": "CHÁ VERDE YAI UVA 200ML",
+        "preco": 2.99,
+        "preco_por_kg": 14.95
       },
       "tenda": {
         "nome": "Uva Vitória MIMO 400g",
@@ -420,8 +420,8 @@
       "id": "37",
       "goodbom": {
         "nome": "MAÇÃ GALA KG",
-        "preco": 9.99,
-        "preco_por_kg": 9.99
+        "preco": 11.99,
+        "preco_por_kg": 11.99
       },
       "tenda": {
         "nome": "Maçã Pink Lady 155g",
@@ -890,7 +890,7 @@
         "preco_por_kg": 15.79
       },
       "savegnago": {
-        "nome": "Chá Ice Tea Leão Sabor Pêssego Zero PET 1,5L",
+        "nome": "Chá Ice Tea Leão Sabor Limão PET 1,5L",
         "preco": 7.85,
         "preco_por_kg": 5.23
       },
@@ -1089,6 +1089,30 @@
       "mais_barato": "Goodbom"
     },
     {
+      "id": "105",
+      "goodbom": {
+        "nome": "LÃ DE AÇO BOMBRIL C/6",
+        "preco": 2.69,
+        "preco_por_kg": 2.69
+      },
+      "tenda": {
+        "nome": "Esponja de Aço Eco Bombril 45g 6 Unidades",
+        "preco": 2.59,
+        "preco_por_kg": 57.56
+      },
+      "arena": {
+        "nome": "Esponja Bombril Multi Uso Leve 4 Pague 3 Unid.",
+        "preco": 5.59,
+        "preco_por_kg": 5.59
+      },
+      "savegnago": {
+        "nome": "Lã De Aço Bombril Com 6 Unidades",
+        "preco": 2.65,
+        "preco_por_kg": 2.65
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "107",
       "goodbom": {
         "nome": "PAPEL HIGIÊNICO FOLHA DUPLA MILI NEUTRO 30MT C/4",
@@ -1137,30 +1161,6 @@
       "mais_barato": "Tenda"
     },
     {
-      "id": "111",
-      "goodbom": {
-        "nome": "SABONETE LÍQUIDO MONANGE F.LAVANDA 240ML",
-        "preco": 11.99,
-        "preco_por_kg": 49.96
-      },
-      "tenda": {
-        "nome": "Sabonete Líquido Proteínas do Leite Select 500ml",
-        "preco": 5.09,
-        "preco_por_kg": 10.18
-      },
-      "arena": {
-        "nome": "Sabonete Líquido Deoline Erva Doce Suave Refil1l",
-        "preco": 9.59,
-        "preco_por_kg": 9.59
-      },
-      "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
-        "preco": 4.55,
-        "preco_por_kg": 22.75
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "112",
       "goodbom": {
         "nome": "SABONETE PALMOLIVE FRESCOR PURIFICANTE 150G",
@@ -1178,9 +1178,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
-        "preco": 2.29,
-        "preco_por_kg": 26.94
+        "nome": "Sabonete Líquido Palmolive Naturals Camélia e Óleo de Amendoas 650ml",
+        "preco": 17.25,
+        "preco_por_kg": 26.54
       },
       "mais_barato": "Tenda"
     },
