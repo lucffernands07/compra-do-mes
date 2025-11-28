@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "763.28",
-  "totalTenda": "1418.26",
-  "totalArena": "984.68",
-  "totalSavegnago": "789.78",
+  "totalGoodbom": "820.18",
+  "totalTenda": "1435.70",
+  "totalArena": "994.27",
+  "totalSavegnago": "814.07",
   "encontradosGoodbom": 78,
-  "encontradosTenda": 84,
+  "encontradosTenda": 83,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -60,8 +60,8 @@
       "id": "5",
       "goodbom": {
         "nome": "LINGUIÇA TOSCANA NA BRASA PERDIGÃO KG",
-        "preco": 19.99,
-        "preco_por_kg": 19.99
+        "preco": 23.99,
+        "preco_por_kg": 23.99
       },
       "tenda": {
         "nome": "Linguiça Toscana Fina Apimentada Sabor de Bragança 500g",
@@ -132,8 +132,8 @@
       "id": "22",
       "goodbom": {
         "nome": "VAGEM MACARRÃO KG",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
+        "preco": 8.99,
+        "preco_por_kg": 8.99
       },
       "tenda": {
         "nome": "Vagem Macarrão 300g",
@@ -156,8 +156,8 @@
       "id": "24",
       "goodbom": {
         "nome": "BETERRABA KG",
-        "preco": 2.99,
-        "preco_por_kg": 2.99
+        "preco": 4.99,
+        "preco_por_kg": 4.99
       },
       "tenda": {
         "nome": "Beterraba Saco 1Kg",
@@ -174,7 +174,7 @@
         "preco": 3.55,
         "preco_por_kg": 3.55
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "26",
@@ -300,8 +300,8 @@
       "id": "32",
       "goodbom": {
         "nome": "REPOLHO LISO KG",
-        "preco": 2.99,
-        "preco_por_kg": 2.99
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "tenda": {
         "nome": "Repolho Verde Unidade",
@@ -491,9 +491,9 @@
     {
       "id": "43",
       "goodbom": {
-        "nome": "PRESUNTO COZIDO PERDIGÃO KG",
-        "preco": 26.9,
-        "preco_por_kg": 26.9
+        "nome": "PRESUNTO COZIDO SADIA SEM CAPA KG",
+        "preco": 30.9,
+        "preco_por_kg": 30.9
       },
       "tenda": {
         "nome": "Presunto Cozido Fatiado Aurora 180g",
@@ -794,9 +794,9 @@
         "preco_por_kg": 7.49
       },
       "savegnago": {
-        "nome": "Maionese Hellmann's Tradicional 250g",
-        "preco": 5.87,
-        "preco_por_kg": 23.48
+        "nome": "Maionese Hellmann's Tradicional 600gr",
+        "preco": 16.5,
+        "preco_por_kg": 27.5
       },
       "mais_barato": "Arena"
     },
@@ -828,8 +828,8 @@
       "id": "78",
       "goodbom": {
         "nome": "LEITE CONDENSADO SEMIDESNATADO TRIANGULO 395G TP",
-        "preco": 5.99,
-        "preco_por_kg": 15.16
+        "preco": 3.99,
+        "preco_por_kg": 10.1
       },
       "tenda": {
         "nome": "Leite Condensado Semidesnatado Campos do Jordão 395g",
@@ -928,7 +928,7 @@
         "preco_por_kg": 14.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
+        "nome": "Desinfetante Lysoform Suave 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1072,9 +1072,9 @@
         "preco_por_kg": 2.5
       },
       "tenda": {
-        "nome": "Desinfetante Pato Germinex Lavanda 500ml",
-        "preco": 4.97,
-        "preco_por_kg": 9.94
+        "nome": "Desinfetante Pato Germinex Marine 750ml",
+        "preco": 12.9,
+        "preco_por_kg": 17.2
       },
       "arena": {
         "nome": "Desinfetante Sanol Chá Branco 2l",
@@ -1161,6 +1161,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "111",
+      "goodbom": {
+        "nome": "SABONETE LÍQUIDO MONANGE F.LAVANDA 240ML",
+        "preco": 11.99,
+        "preco_por_kg": 49.96
+      },
+      "tenda": {
+        "nome": "Sabonete Líquido Proteínas do Leite Select 500ml",
+        "preco": 5.09,
+        "preco_por_kg": 10.18
+      },
+      "arena": {
+        "nome": "Sabonete Líquido Deoline Erva Doce Suave Refil1l",
+        "preco": 9.59,
+        "preco_por_kg": 9.59
+      },
+      "savegnago": {
+        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
+        "preco": 4.55,
+        "preco_por_kg": 22.75
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "112",
       "goodbom": {
         "nome": "SABONETE PALMOLIVE FRESCOR PURIFICANTE 150G",
@@ -1168,7 +1192,7 @@
         "preco_por_kg": 26.6
       },
       "tenda": {
-        "nome": "Sabonete Siene Rosas Vermelhas 85g",
+        "nome": "Sabonete Siene Proteínas do Leite 85g",
         "preco": 1,
         "preco_por_kg": 11.76
       },
@@ -1178,9 +1202,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Camélia e Óleo de Amendoas 650ml",
-        "preco": 17.25,
-        "preco_por_kg": 26.54
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 21.65,
+        "preco_por_kg": 24.06
       },
       "mais_barato": "Tenda"
     },
