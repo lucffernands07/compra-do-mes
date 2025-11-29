@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "802.48",
-  "totalTenda": "1041.23",
-  "totalArena": "968.61",
-  "totalSavegnago": "802.01",
+  "totalGoodbom": "816.43",
+  "totalTenda": "933.73",
+  "totalArena": "995.76",
+  "totalSavegnago": "818.96",
   "encontradosGoodbom": 79,
   "encontradosTenda": 83,
   "encontradosArena": 78,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -117,16 +117,16 @@
         "preco_por_kg": 8.9
       },
       "arena": {
-        "nome": "Coxa Sobrecoxa Dessosada Sem Pele Perdigão Congelada 1kg",
-        "preco": 7.9,
-        "preco_por_kg": 7.9
+        "nome": "Coxa Com Sobrecoxa Frango Familiar Bandeja Kg",
+        "preco": 12.49,
+        "preco_por_kg": 12.49
       },
       "savegnago": {
         "nome": "Sobrecoxa de Frango Congelada Sadia 1kg",
         "preco": 15.9,
         "preco_por_kg": 15.9
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "22",
@@ -358,8 +358,8 @@
       },
       "arena": {
         "nome": "Iogurte Desnatado Batavo Pense Zero Zero Lactose Mamão 1,150kg",
-        "preco": 17.99,
-        "preco_por_kg": 0.12
+        "preco": 6.99,
+        "preco_por_kg": 0.05
       },
       "savegnago": {
         "nome": "Mamão Papaya Golden 1,2Kg",
@@ -597,7 +597,7 @@
         "preco_por_kg": 7.45
       },
       "arena": {
-        "nome": "Água De Coco Sococo Mais Melância 200ml",
+        "nome": "Água De Coco Sococo Mais Maracujá 200ml",
         "preco": 1.79,
         "preco_por_kg": 8.95
       },
@@ -645,16 +645,16 @@
         "preco_por_kg": 3.49
       },
       "arena": {
-        "nome": "Arroz Tipo 1 Prato Fino Pacote 5kg",
-        "preco": 14.69,
-        "preco_por_kg": 2.94
+        "nome": "Arroz Broto Legal Kangai Longo Japonês 5kg",
+        "preco": 5.49,
+        "preco_por_kg": 1.1
       },
       "savegnago": {
         "nome": "Arroz Pop Branco Tipo 1 5Kg",
         "preco": 13.9,
         "preco_por_kg": 2.78
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Arena"
     },
     {
       "id": "53",
@@ -694,8 +694,8 @@
       },
       "arena": {
         "nome": "Óleo De Soja Vila Velha Galão 18l",
-        "preco": 8.38,
-        "preco_por_kg": 0.47
+        "preco": 7.79,
+        "preco_por_kg": 0.43
       },
       "savegnago": {
         "nome": "Óleo de Soja Liza Pet 900ml",
@@ -717,16 +717,16 @@
         "preco_por_kg": 3.05
       },
       "arena": {
-        "nome": "Vinagre Palladio Álcool Pet 750ml",
-        "preco": 1.99,
-        "preco_por_kg": 2.65
+        "nome": "Vinagre Fortaleza Álcool Pet 750ml",
+        "preco": 1.79,
+        "preco_por_kg": 2.39
       },
       "savegnago": {
         "nome": "Vinagre Belmont 750ml Álcool Colorido",
         "preco": 1.89,
         "preco_por_kg": 2.52
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Arena"
     },
     {
       "id": "68",
@@ -837,9 +837,9 @@
         "preco_por_kg": 30.47
       },
       "arena": {
-        "nome": "Mostarda Ekma Galão 3,3kg",
-        "preco": 4.49,
-        "preco_por_kg": 1.5
+        "nome": "Mostarda Lanchero - 1,01kg",
+        "preco": 6.29,
+        "preco_por_kg": 6.29
       },
       "savegnago": {
         "nome": "Mostarda Predilecta 180g Bisnaga",
@@ -871,6 +871,30 @@
         "preco_por_kg": 12.53
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "79",
+      "goodbom": {
+        "nome": "CREME DE LEITE SHEFA 200G TP",
+        "preco": 2.79,
+        "preco_por_kg": 13.95
+      },
+      "tenda": {
+        "nome": "Creme de Leite 10% Italac 200g",
+        "preco": 2.09,
+        "preco_por_kg": 10.45
+      },
+      "arena": {
+        "nome": "Mistura Creme De Leite Mococa Tp 200g",
+        "preco": 2.25,
+        "preco_por_kg": 11.25
+      },
+      "savegnago": {
+        "nome": "Creme De Leite Jussara 200G",
+        "preco": 3.39,
+        "preco_por_kg": 16.95
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "82",
@@ -910,15 +934,15 @@
       },
       "arena": {
         "nome": "Tapioca Da Terrinha 1kg",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
+        "preco": 12.99,
+        "preco_por_kg": 12.99
       },
       "savegnago": {
         "nome": "Goma Pronta Tapioca Siamar 500g Tradicional",
         "preco": 5.95,
         "preco_por_kg": 11.9
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "88",
@@ -957,7 +981,7 @@
         "preco_por_kg": 15.73
       },
       "arena": {
-        "nome": "Álcool Duratto Limpador Uso Geral Neutro 1l",
+        "nome": "Álcool Duratto Limpador Uso Geral Lavanda 1l",
         "preco": 5.89,
         "preco_por_kg": 5.89
       },
@@ -981,7 +1005,7 @@
         "preco_por_kg": 8.15
       },
       "arena": {
-        "nome": "Limpador Perfumado Casa & Perfume Sensualidad 2lt",
+        "nome": "Limpador Perfumado Casa & Perfume Agradable 2lt",
         "preco": 15.9,
         "preco_por_kg": 7.95
       },
@@ -1054,8 +1078,8 @@
       },
       "arena": {
         "nome": "Limpador Multiuso Coperalcool Segredos Da Natureza Chá Branco Gatilho",
-        "preco": 5.08,
-        "preco_por_kg": 5.08
+        "preco": 2.75,
+        "preco_por_kg": 2.75
       },
       "savegnago": {
         "nome": "Limpador Multiuso Veja Gold Original 750ml Embalagem Econômica",
@@ -1078,8 +1102,8 @@
       },
       "arena": {
         "nome": "Desinfetante Barbarex Sensações 5l",
-        "preco": 8.99,
-        "preco_por_kg": 1.8
+        "preco": 11.49,
+        "preco_por_kg": 2.3
       },
       "savegnago": {
         "nome": "Desinfetante Triex 5L Flores da Primavera",
@@ -1264,12 +1288,12 @@
         "preco_por_kg": 11.99
       },
       "tenda": {
-        "nome": "Algodão Hidrófilo Rolo Select 50g",
-        "preco": 6.19,
-        "preco_por_kg": 123.8
+        "nome": "Algodão Disco Select 50Un",
+        "preco": 5.85,
+        "preco_por_kg": 5.85
       },
       "arena": {
-        "nome": "Algodão Disco Bellacotton Leve 100 Pague 80 Unid.",
+        "nome": "Algodão Disco Bellacotton C/ 50 Unid.",
         "preco": 6.69,
         "preco_por_kg": 6.69
       },
@@ -1278,7 +1302,7 @@
         "preco": 14.25,
         "preco_por_kg": 14.25
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "119",
@@ -1293,9 +1317,9 @@
         "preco_por_kg": 15
       },
       "arena": {
-        "nome": "Pão Bisnaguinha De Panes 300g",
+        "nome": "Pão Bisnaguinha Bauducco 260g",
         "preco": 4.99,
-        "preco_por_kg": 16.63
+        "preco_por_kg": 19.19
       },
       "savegnago": {
         "nome": "Pão Bisnaguinha Visconti 240g",
