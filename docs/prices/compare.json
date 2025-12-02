@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "832.62",
-  "totalTenda": "973.63",
+  "totalGoodbom": "822.07",
+  "totalTenda": "972.27",
   "totalArena": "1008.64",
-  "totalSavegnago": "865.40",
+  "totalSavegnago": "858.11",
   "encontradosGoodbom": 79,
-  "encontradosTenda": 83,
+  "encontradosTenda": 84,
   "encontradosArena": 78,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -132,8 +132,8 @@
       "id": "22",
       "goodbom": {
         "nome": "VAGEM MACARRÃO KG",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
+        "preco": 5.99,
+        "preco_por_kg": 5.99
       },
       "tenda": {
         "nome": "Vagem Macarrão 300g",
@@ -146,9 +146,9 @@
         "preco_por_kg": 15.9
       },
       "savegnago": {
-        "nome": "Vagem Irmãos Pimenta Bandeja 300g",
-        "preco": 6.45,
-        "preco_por_kg": 21.5
+        "nome": "Vagem Bandeja 500g",
+        "preco": 9.19,
+        "preco_por_kg": 18.38
       },
       "mais_barato": "Goodbom"
     },
@@ -156,8 +156,8 @@
       "id": "24",
       "goodbom": {
         "nome": "BETERRABA KG",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
+        "preco": 2.99,
+        "preco_por_kg": 2.99
       },
       "tenda": {
         "nome": "Beterraba Saco 1Kg",
@@ -174,7 +174,7 @@
         "preco": 3.55,
         "preco_por_kg": 3.55
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "26",
@@ -204,8 +204,8 @@
       "id": "27",
       "goodbom": {
         "nome": "CENOURA KG",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
+        "preco": 2.99,
+        "preco_por_kg": 2.99
       },
       "tenda": {
         "nome": "Iogurte Natural Laranja, Cenoura e Mel Select 150g",
@@ -300,13 +300,13 @@
       "id": "32",
       "goodbom": {
         "nome": "REPOLHO LISO KG",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
+        "preco": 2.99,
+        "preco_por_kg": 2.99
       },
       "tenda": {
         "nome": "Repolho Verde Unidade",
-        "preco": 4.07,
-        "preco_por_kg": 4.07
+        "preco": 2.71,
+        "preco_por_kg": 2.71
       },
       "arena": {
         "nome": "Repolho Verde Kg",
@@ -348,8 +348,8 @@
       "id": "34",
       "goodbom": {
         "nome": "MAMÃO PAPAYA KG",
-        "preco": 9.99,
-        "preco_por_kg": 9.99
+        "preco": 6.99,
+        "preco_por_kg": 6.99
       },
       "tenda": {
         "nome": "Refresco em pó Tang Laranja Mamão 18g",
@@ -372,8 +372,8 @@
       "id": "35",
       "goodbom": {
         "nome": "BANANA NANICA KG",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "tenda": {
         "nome": "Banana Nanica Unidade",
@@ -386,18 +386,18 @@
         "preco_por_kg": 6.99
       },
       "savegnago": {
-        "nome": "Banana Nanica Exportação - 1kg",
-        "preco": 7.49,
-        "preco_por_kg": 7.49
+        "nome": "Banana Prata Bandeja 900g",
+        "preco": 2.99,
+        "preco_por_kg": 3.32
       },
       "mais_barato": "Tenda"
     },
     {
       "id": "36",
       "goodbom": {
-        "nome": "CHÁ VERDE YAI UVA 200ML",
-        "preco": 2.99,
-        "preco_por_kg": 14.95
+        "nome": "UVA VITÓRIA BANDEJA 500G",
+        "preco": 6.99,
+        "preco_por_kg": 13.98
       },
       "tenda": {
         "nome": "Bebida Mista Uva Fruit Shoot Maguary 150ml",
@@ -420,8 +420,8 @@
       "id": "37",
       "goodbom": {
         "nome": "MAÇÃ GALA KG",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
+        "preco": 9.99,
+        "preco_por_kg": 9.99
       },
       "tenda": {
         "nome": "Maçã Pink Lady 155g",
@@ -587,9 +587,9 @@
     {
       "id": "50",
       "goodbom": {
-        "nome": "LEITE FERMENTADO FRUTAP 850G",
-        "preco": 11.49,
-        "preco_por_kg": 13.52
+        "nome": "LEITE FERMENTADO ITAMBE UVA 480G",
+        "preco": 5.99,
+        "preco_por_kg": 12.48
       },
       "tenda": {
         "nome": "Leite Fermentado Tradicional Bob Esponja Elegê 6X80g",
@@ -606,7 +606,7 @@
         "preco": 14.95,
         "preco_por_kg": 13
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "52",
@@ -827,9 +827,9 @@
     {
       "id": "78",
       "goodbom": {
-        "nome": "LEITE CONDENSADO SEMIDESNATADO PIRACANJUBA 395G TP",
-        "preco": 5.99,
-        "preco_por_kg": 15.16
+        "nome": "LEITE CONDENSADO SEMIDESNATADO TRIANGULO 395G TP",
+        "preco": 4.99,
+        "preco_por_kg": 12.63
       },
       "tenda": {
         "nome": "Leite Condensado Semidesnatado Campos do Jordão 395g",
@@ -1163,9 +1163,9 @@
     {
       "id": "111",
       "goodbom": {
-        "nome": "SABONETE LÍQUIDO MONANGE F.LAVANDA 240ML",
-        "preco": 8.99,
-        "preco_por_kg": 37.46
+        "nome": "SABONETE LÍQUIDO LUX GARDENIA REFIL 200ML",
+        "preco": 9.49,
+        "preco_por_kg": 47.45
       },
       "tenda": {
         "nome": "Sabonete Líquido Proteínas do Leite Select 500ml",
@@ -1178,7 +1178,7 @@
         "preco_por_kg": 9.59
       },
       "savegnago": {
-        "nome": "Sabonete Líquido para as Mãos Palmolive Naturals Suavidade Delicada 200ml",
+        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
         "preco": 4.55,
         "preco_por_kg": 22.75
       },
