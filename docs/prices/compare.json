@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "841.24",
-  "totalTenda": "935.85",
-  "totalArena": "995.05",
-  "totalSavegnago": "837.55",
+  "totalGoodbom": "843.41",
+  "totalTenda": "959.58",
+  "totalArena": "998.29",
+  "totalSavegnago": "834.11",
   "encontradosGoodbom": 78,
-  "encontradosTenda": 85,
+  "encontradosTenda": 84,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -16,9 +16,9 @@
         "preco_por_kg": 43.8
       },
       "tenda": {
-        "nome": "Linguiça Calabresa Brasa 400g",
-        "preco": 11.39,
-        "preco_por_kg": 28.48
+        "nome": "Linguiça Calabresa Perdigão 400g",
+        "preco": 12.99,
+        "preco_por_kg": 32.48
       },
       "arena": {
         "nome": "Linguiça Calabresa Sadia Pacote 5kg",
@@ -40,9 +40,9 @@
         "preco_por_kg": 39.38
       },
       "tenda": {
-        "nome": "Hambúrguer de Carne Bovina Sadia 113g",
-        "preco": 3.9,
-        "preco_por_kg": 34.51
+        "nome": "Hambúrguer de Carne Bovina Picanha Na Brasa Perdigão 150g",
+        "preco": 5.9,
+        "preco_por_kg": 39.33
       },
       "arena": {
         "nome": "Hambúrguer De Carne Bovina Air Fryer Seara 150g",
@@ -54,7 +54,7 @@
         "preco": 23.7,
         "preco_por_kg": 35.27
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "5",
@@ -400,9 +400,9 @@
         "preco_por_kg": 13.98
       },
       "tenda": {
-        "nome": "Uva Vitória Bandeja 500g",
-        "preco": 5.99,
-        "preco_por_kg": 11.98
+        "nome": "Néctar Tial de Uva 1L",
+        "preco": 4.59,
+        "preco_por_kg": 4.59
       },
       "arena": {
         "nome": "Chopp Bierbaum Redkraft Uva 1,5l",
@@ -587,7 +587,7 @@
     {
       "id": "50",
       "goodbom": {
-        "nome": "LEITE FERMENTADO ITAMBE UVA 480G",
+        "nome": "LEITE FERMENTADO ITAMBE MORANGO 480G",
         "preco": 5.99,
         "preco_por_kg": 12.48
       },
@@ -681,30 +681,6 @@
       "mais_barato": "Arena"
     },
     {
-      "id": "67",
-      "goodbom": {
-        "nome": "VINAGRE CASTELO ALCOOL COLOR 750ML",
-        "preco": 3.99,
-        "preco_por_kg": 5.32
-      },
-      "tenda": {
-        "nome": "Vinagre de Álcool Vitalia 750ml",
-        "preco": 2.29,
-        "preco_por_kg": 3.05
-      },
-      "arena": {
-        "nome": "Vinagre Palladio Álcool Pet 750ml",
-        "preco": 1.99,
-        "preco_por_kg": 2.65
-      },
-      "savegnago": {
-        "nome": "Vinagre Galo de Barcelos 750ml Álcool",
-        "preco": 2.75,
-        "preco_por_kg": 3.67
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "68",
       "goodbom": {
         "nome": "MILHO VERDE BANDEJA 700G",
@@ -784,9 +760,9 @@
         "preco_por_kg": 12.98
       },
       "tenda": {
-        "nome": "Maionese Tradicional Liza Pote 450g",
-        "preco": 5.69,
-        "preco_por_kg": 12.64
+        "nome": "Maionese Bacon Sinistro Stranger Things Hellmann's 335g",
+        "preco": 10.55,
+        "preco_por_kg": 31.49
       },
       "arena": {
         "nome": "Maionese Quero Big Sachê 1,02kg",
@@ -945,6 +921,30 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "89",
+      "goodbom": {
+        "nome": "ALCOOL SAFRA 46,2° 1L",
+        "preco": 7.49,
+        "preco_por_kg": 7.49
+      },
+      "tenda": {
+        "nome": "Álcool Líquido Tradicional 46,2 INPM Flops 500ml",
+        "preco": 3.25,
+        "preco_por_kg": 6.5
+      },
+      "arena": {
+        "nome": "Álcool Duratto Limpador Uso Geral Lavanda 1l",
+        "preco": 5.89,
+        "preco_por_kg": 5.89
+      },
+      "savegnago": {
+        "nome": "Álcool Safra 46,2 Lavanda 1L",
+        "preco": 10.7,
+        "preco_por_kg": 0.23
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "90",
       "goodbom": {
         "nome": "LIMPADOR PERFUMADO UAU CHÁ BRANCO 1L LV+ PG-",
@@ -1000,7 +1000,7 @@
         "preco_por_kg": 5.2
       },
       "tenda": {
-        "nome": "Lava-Louças Líquido Ypê Capim Limão - Verde - 500Ml -Controle De Odor - Detergente",
+        "nome": "Lava-Louças Líquido Ypê Clear - Transparente - 500Ml - Rende Mais - Detergente",
         "preco": 1.9,
         "preco_por_kg": 3.8
       },
