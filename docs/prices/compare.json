@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "842.87",
-  "totalTenda": "926.38",
-  "totalArena": "1015.21",
-  "totalSavegnago": "821.31",
+  "totalGoodbom": "868.60",
+  "totalTenda": "942.35",
+  "totalArena": "655.98",
+  "totalSavegnago": "841.29",
   "encontradosGoodbom": 78,
-  "encontradosTenda": 84,
+  "encontradosTenda": 85,
   "encontradosArena": 78,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -261,16 +261,16 @@
         "preco_por_kg": 68.37
       },
       "arena": {
-        "nome": "Cheiro Verde Kisabor Folha 8g",
-        "preco": 2.79,
-        "preco_por_kg": 348.75
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.79,
+        "preco_por_kg": 3.79
       },
       "savegnago": {
         "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
         "preco": 7.99,
         "preco_por_kg": 53.27
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Arena"
     },
     {
       "id": "31",
@@ -285,9 +285,9 @@
         "preco_por_kg": 4.49
       },
       "arena": {
-        "nome": "Alface Americana Jw 170g",
-        "preco": 6.9,
-        "preco_por_kg": 40.59
+        "nome": "Alface Crespa Hidropônica Jw Unid.",
+        "preco": 4.69,
+        "preco_por_kg": 4.69
       },
       "savegnago": {
         "nome": "Alface Crespa Org Solo Vivo",
@@ -1178,9 +1178,9 @@
         "preco_por_kg": 9.59
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Camélia e Óleo de Amendoas 650ml",
-        "preco": 22.35,
-        "preco_por_kg": 34.38
+        "nome": "Sabonete Líquido para Mãos Palmolive Nutrimilk Hidratação 900ml",
+        "preco": 27.95,
+        "preco_por_kg": 31.06
       },
       "mais_barato": "Arena"
     },
@@ -1277,6 +1277,30 @@
         "nome": "Amaciante Roupa Vida Macia Glicerina E Algodão 1L",
         "preco": 14.25,
         "preco_por_kg": 14.25
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "119",
+      "goodbom": {
+        "nome": "BISNAGUINHA BAUDUCCO 260G",
+        "preco": 6.69,
+        "preco_por_kg": 25.73
+      },
+      "tenda": {
+        "nome": "Bisnaguinha Kim 300g",
+        "preco": 4.79,
+        "preco_por_kg": 15.97
+      },
+      "arena": {
+        "nome": "Pão Bisnaguinha De Panes 300g",
+        "preco": 6.49,
+        "preco_por_kg": 21.63
+      },
+      "savegnago": {
+        "nome": "Pão Seven Boys 300g Bisnaguinha",
+        "preco": 6.99,
+        "preco_por_kg": 23.3
       },
       "mais_barato": "Tenda"
     },
