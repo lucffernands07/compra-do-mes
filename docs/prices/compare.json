@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "821.15",
-  "totalTenda": "917.85",
-  "totalArena": "991.35",
-  "totalSavegnago": "825.20",
+  "totalGoodbom": "868.60",
+  "totalTenda": "942.35",
+  "totalArena": "1000.94",
+  "totalSavegnago": "862.45",
   "encontradosGoodbom": 78,
-  "encontradosTenda": 84,
+  "encontradosTenda": 85,
   "encontradosArena": 78,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -1159,6 +1159,30 @@
         "preco_por_kg": 44.17
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "111",
+      "goodbom": {
+        "nome": "SABONETE LÍQUIDO LUX GARDENIA REFIL 200ML",
+        "preco": 9.49,
+        "preco_por_kg": 47.45
+      },
+      "tenda": {
+        "nome": "Sabonete Líquido Flor de Ypê Flor de Maçã e Framboesa 200ml Refil Econômico",
+        "preco": 4.9,
+        "preco_por_kg": 24.5
+      },
+      "arena": {
+        "nome": "Sabonete Líquido Deoline Erva Doce Suave Refil1l",
+        "preco": 9.59,
+        "preco_por_kg": 9.59
+      },
+      "savegnago": {
+        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
+        "preco": 7.45,
+        "preco_por_kg": 37.25
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "112",
