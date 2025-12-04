@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "826.46",
-  "totalTenda": "880.37",
-  "totalArena": "986.75",
-  "totalSavegnago": "826.79",
+  "totalGoodbom": "808.97",
+  "totalTenda": "770.21",
+  "totalArena": "980.01",
+  "totalSavegnago": "809.72",
   "encontradosGoodbom": 78,
-  "encontradosTenda": 83,
+  "encontradosTenda": 84,
   "encontradosArena": 78,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 68,
   "produtos": [
     {
       "id": "3",
@@ -256,9 +256,9 @@
         "preco_por_kg": 4.99
       },
       "tenda": {
-        "nome": "Tempero MAGGI Meu Segredo Cheiro Verde 49g",
-        "preco": 3.35,
-        "preco_por_kg": 68.37
+        "nome": "Cheiro Verde Maço Unidade",
+        "preco": 4.29,
+        "preco_por_kg": 4.29
       },
       "arena": {
         "nome": "Cheiro Verde Kisabor Folha 8g",
@@ -270,7 +270,7 @@
         "preco": 7.99,
         "preco_por_kg": 53.27
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "31",
@@ -343,30 +343,6 @@
         "preco_por_kg": 34.9
       },
       "mais_barato": "Savegnago"
-    },
-    {
-      "id": "34",
-      "goodbom": {
-        "nome": "MAMÃO PAPAYA KG",
-        "preco": 6.99,
-        "preco_por_kg": 6.99
-      },
-      "tenda": {
-        "nome": "Refresco em pó Tang Laranja Mamão 18g",
-        "preco": 1.09,
-        "preco_por_kg": 60.56
-      },
-      "arena": {
-        "nome": "Iogurte Desnatado Batavo Pense Zero Zero Lactose Mamão 1,150kg",
-        "preco": 6.99,
-        "preco_por_kg": 0.05
-      },
-      "savegnago": {
-        "nome": "Mamão Papaya Golden 1,2Kg",
-        "preco": 1.85,
-        "preco_por_kg": 1.54
-      },
-      "mais_barato": "Arena"
     },
     {
       "id": "35",
@@ -513,6 +489,30 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "44",
+      "goodbom": {
+        "nome": "MORTADELA CONFIANÇA MINI 1KG",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
+      },
+      "tenda": {
+        "nome": "Mortadela Bologna Fatiada Aurora 180g",
+        "preco": 4.55,
+        "preco_por_kg": 25.28
+      },
+      "arena": {
+        "nome": "Mortadela Marba Peça Kg",
+        "preco": 14.19,
+        "preco_por_kg": 14.19
+      },
+      "savegnago": {
+        "nome": "Mortadela mini Confiança",
+        "preco": 13.9,
+        "preco_por_kg": 13.9
+      },
+      "mais_barato": "Goodbom"
+    },
+    {
       "id": "47",
       "goodbom": {
         "nome": "MANDIOCA KG",
@@ -535,30 +535,6 @@
         "preco_por_kg": 10.65
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "49",
-      "goodbom": {
-        "nome": "ÁGUA DE COCO PURO COCO MORANGO 180ML",
-        "preco": 1.89,
-        "preco_por_kg": 10.5
-      },
-      "tenda": {
-        "nome": "Água de Coco Nocoko Caixa 200ml",
-        "preco": 0.99,
-        "preco_por_kg": 4.95
-      },
-      "arena": {
-        "nome": "Água De Coco Super Coco 1l",
-        "preco": 9.99,
-        "preco_por_kg": 9.99
-      },
-      "savegnago": {
-        "nome": "Água De Coco Puro Coco 1L",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
-      },
-      "mais_barato": "Tenda"
     },
     {
       "id": "50",
@@ -1154,9 +1130,9 @@
         "preco_por_kg": 9.59
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
-        "preco": 7.45,
-        "preco_por_kg": 37.25
+        "nome": "Sabonete Líquido para Mãos Palmolive Nutrimilk Hidratação 900ml",
+        "preco": 27.95,
+        "preco_por_kg": 31.06
       },
       "mais_barato": "Arena"
     },
@@ -1229,30 +1205,6 @@
         "nome": "Lenço Umedecido Huggies Rosto e Corpo com 48 unidades",
         "preco": 11.34,
         "preco_por_kg": 11.34
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "117",
-      "goodbom": {
-        "nome": "ALGODAO TOPZ DISCO 50 UNID.",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
-      },
-      "tenda": {
-        "nome": "Algodão Disco Select 50Un",
-        "preco": 5.85,
-        "preco_por_kg": 5.85
-      },
-      "arena": {
-        "nome": "Algodão Disco Bellacotton C/ 50 Unid.",
-        "preco": 10.89,
-        "preco_por_kg": 10.89
-      },
-      "savegnago": {
-        "nome": "Amaciante Roupa Vida Macia Glicerina E Algodão 1L",
-        "preco": 14.25,
-        "preco_por_kg": 14.25
       },
       "mais_barato": "Tenda"
     },
