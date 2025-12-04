@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "800.47",
-  "totalTenda": "810.99",
-  "totalArena": "954.16",
-  "totalSavegnago": "769.08",
+  "totalGoodbom": "846.33",
+  "totalTenda": "835.90",
+  "totalArena": "657.16",
+  "totalSavegnago": "848.27",
   "encontradosGoodbom": 78,
-  "encontradosTenda": 83,
+  "encontradosTenda": 84,
   "encontradosArena": 78,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -156,8 +156,8 @@
       "id": "24",
       "goodbom": {
         "nome": "BETERRABA KG",
-        "preco": 2.99,
-        "preco_por_kg": 2.99
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "tenda": {
         "nome": "Beterraba Saco 1Kg",
@@ -174,7 +174,7 @@
         "preco": 3.55,
         "preco_por_kg": 3.55
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "26",
@@ -204,8 +204,8 @@
       "id": "27",
       "goodbom": {
         "nome": "CENOURA KG",
-        "preco": 2.99,
-        "preco_por_kg": 2.99
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "tenda": {
         "nome": "Iogurte Natural Laranja, Cenoura e Mel Select 150g",
@@ -261,16 +261,16 @@
         "preco_por_kg": 4.29
       },
       "arena": {
-        "nome": "Cheiro Verde Kisabor Folha 8g",
-        "preco": 2.79,
-        "preco_por_kg": 348.75
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.79,
+        "preco_por_kg": 3.79
       },
       "savegnago": {
         "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
         "preco": 7.99,
         "preco_por_kg": 53.27
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "31",
@@ -285,14 +285,14 @@
         "preco_por_kg": 4.49
       },
       "arena": {
-        "nome": "Alface Crespa Hidropônica Jw Unid.",
+        "nome": "Alface Crespa Unid.",
         "preco": 4.69,
         "preco_por_kg": 4.69
       },
       "savegnago": {
-        "nome": "Alface Crespa Org Solo Vivo",
-        "preco": 3.95,
-        "preco_por_kg": 3.95
+        "nome": "Alface Crespa Felicio Maço",
+        "preco": 4.69,
+        "preco_por_kg": 4.69
       },
       "mais_barato": "Goodbom"
     },
@@ -372,8 +372,8 @@
       "id": "35",
       "goodbom": {
         "nome": "BANANA NANICA KG",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
+        "preco": 8.99,
+        "preco_por_kg": 8.99
       },
       "tenda": {
         "nome": "Banana Nanica Unidade",
@@ -400,9 +400,9 @@
         "preco_por_kg": 13.98
       },
       "tenda": {
-        "nome": "Néctar de Uva Nutri Néctar 1L",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
+        "nome": "Néctar Tial de Uva 1L",
+        "preco": 4.59,
+        "preco_por_kg": 4.59
       },
       "arena": {
         "nome": "Chopp Bierbaum Redkraft Uva 1,5l",
@@ -640,9 +640,9 @@
         "preco_por_kg": 4.99
       },
       "tenda": {
-        "nome": "Feijão Carioca 5 Estrelas 1kg",
-        "preco": 4.19,
-        "preco_por_kg": 4.19
+        "nome": "Feijão Carioca Orgânico Kicaldo 500g",
+        "preco": 4.95,
+        "preco_por_kg": 9.9
       },
       "arena": {
         "nome": "Feijão Carioca Pantera 1kg",
@@ -928,7 +928,7 @@
         "preco_por_kg": 22.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -995,9 +995,9 @@
     {
       "id": "96",
       "goodbom": {
-        "nome": "ÁGUA SANITÁRIA BARBAREX 2L",
-        "preco": 3.99,
-        "preco_por_kg": 2
+        "nome": "ÁGUA SANITÁRIA BARBAREX 5L",
+        "preco": 14.39,
+        "preco_por_kg": 2.88
       },
       "tenda": {
         "nome": "Água Sanitária Select 1L",
@@ -1178,9 +1178,9 @@
         "preco_por_kg": 9.59
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 23.3,
-        "preco_por_kg": 25.89
+        "nome": "Sabonete Líquido Palmolive Naturals Camélia e Óleo de Amendoas 650ml",
+        "preco": 22.35,
+        "preco_por_kg": 34.38
       },
       "mais_barato": "Arena"
     },
@@ -1202,9 +1202,33 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
-        "preco": 2.35,
-        "preco_por_kg": 27.65
+        "nome": "Sabonete em Barra Palmolive Naturals Hidratação Intensiva 85g",
+        "preco": 1.95,
+        "preco_por_kg": 22.94
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "114",
+      "goodbom": {
+        "nome": "GEL FIXADOR COLA TRIBAL INCOLOR 500G",
+        "preco": 18.99,
+        "preco_por_kg": 37.98
+      },
+      "tenda": {
+        "nome": "Gel Fixador Incolor Soft Fix 250g",
+        "preco": 5.15,
+        "preco_por_kg": 20.6
+      },
+      "arena": {
+        "nome": "Gel Fixador Tribal Incolor 250g",
+        "preco": 11.99,
+        "preco_por_kg": 47.96
+      },
+      "savegnago": {
+        "nome": "Gel Fixador Clear 300g Controle Caspa",
+        "preco": 22.4,
+        "preco_por_kg": 74.67
       },
       "mais_barato": "Tenda"
     },
