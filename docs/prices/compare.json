@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "850.38",
-  "totalTenda": "835.90",
-  "totalArena": "650.83",
-  "totalSavegnago": "849.20",
+  "totalGoodbom": "853.37",
+  "totalTenda": "837.38",
+  "totalArena": "649.28",
+  "totalSavegnago": "849.35",
   "encontradosGoodbom": 78,
   "encontradosTenda": 84,
   "encontradosArena": 78,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -225,6 +225,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "28",
+      "goodbom": {
+        "nome": "CHUCHU KG",
+        "preco": 2.99,
+        "preco_por_kg": 2.99
+      },
+      "tenda": {
+        "nome": "Chuchu Unidade",
+        "preco": 1.48,
+        "preco_por_kg": 1.48
+      },
+      "arena": {
+        "nome": "Chuchu Kg",
+        "preco": 5.99,
+        "preco_por_kg": 5.99
+      },
+      "savegnago": {
+        "nome": "Chuchu 1kg",
+        "preco": 4.39,
+        "preco_por_kg": 4.39
+      },
+      "mais_barato": "Tenda"
+    },
+    {
       "id": "29",
       "goodbom": {
         "nome": "MANDIOQUINHA KG",
@@ -386,9 +410,9 @@
         "preco_por_kg": 7.49
       },
       "savegnago": {
-        "nome": "Banana Prata Bandeja 900g",
-        "preco": 2.99,
-        "preco_por_kg": 3.32
+        "nome": "Banana Nanica Exportação - 1kg",
+        "preco": 7.49,
+        "preco_por_kg": 7.49
       },
       "mais_barato": "Tenda"
     },
@@ -837,9 +861,9 @@
         "preco_por_kg": 11.62
       },
       "arena": {
-        "nome": "Leite Condensado Piracanjuba Semidesnatado 395g",
-        "preco": 3.69,
-        "preco_por_kg": 9.34
+        "nome": "Leite Condensado Piracanjuba Semidesnatado Bag 2,5kg",
+        "preco": 8.99,
+        "preco_por_kg": 1.8
       },
       "savegnago": {
         "nome": "Leite Condensado TP Semidesnatado Italac 395g",
@@ -1178,9 +1202,9 @@
         "preco_por_kg": 9.59
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
-        "preco": 7.45,
-        "preco_por_kg": 37.25
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 23.3,
+        "preco_por_kg": 25.89
       },
       "mais_barato": "Arena"
     },
@@ -1202,9 +1226,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete em Barra Palmolive Naturals Hidratação Intensiva 85g",
-        "preco": 1.95,
-        "preco_por_kg": 22.94
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 23.3,
+        "preco_por_kg": 25.89
       },
       "mais_barato": "Tenda"
     },
