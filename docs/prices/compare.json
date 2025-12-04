@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "843.41",
-  "totalTenda": "959.58",
-  "totalArena": "998.29",
-  "totalSavegnago": "834.11",
+  "totalGoodbom": "848.73",
+  "totalTenda": "962.18",
+  "totalArena": "1000.94",
+  "totalSavegnago": "836.12",
   "encontradosGoodbom": 78,
-  "encontradosTenda": 84,
+  "encontradosTenda": 85,
   "encontradosArena": 78,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -386,9 +386,9 @@
         "preco_por_kg": 7.49
       },
       "savegnago": {
-        "nome": "Banana Terra Bandeja 600g",
+        "nome": "Banana Prata Bandeja 900g",
         "preco": 2.99,
-        "preco_por_kg": 4.98
+        "preco_por_kg": 3.32
       },
       "mais_barato": "Tenda"
     },
@@ -679,6 +679,30 @@
         "preco_por_kg": 9.72
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "67",
+      "goodbom": {
+        "nome": "VINAGRE CASTELO ALCOOL COLOR 750ML",
+        "preco": 3.99,
+        "preco_por_kg": 5.32
+      },
+      "tenda": {
+        "nome": "Vinagre de Álcool Colorido Neval 750ml",
+        "preco": 1.95,
+        "preco_por_kg": 2.6
+      },
+      "arena": {
+        "nome": "Vinagre Palladio Álcool Pet 750ml",
+        "preco": 1.99,
+        "preco_por_kg": 2.65
+      },
+      "savegnago": {
+        "nome": "Vinagre Galo de Barcelos 750ml Álcool",
+        "preco": 2.75,
+        "preco_por_kg": 3.67
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "68",
