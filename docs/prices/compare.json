@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "800.03",
-  "totalTenda": "841.22",
-  "totalArena": "638.66",
-  "totalSavegnago": "771.26",
+  "totalGoodbom": "810.02",
+  "totalTenda": "866.50",
+  "totalArena": "643.24",
+  "totalSavegnago": "785.16",
   "encontradosGoodbom": 79,
-  "encontradosTenda": 83,
+  "encontradosTenda": 82,
   "encontradosArena": 78,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -117,16 +117,16 @@
         "preco_por_kg": 8.9
       },
       "arena": {
-        "nome": "Coxa E Sobrecoxa Congelada Pacote Kg",
-        "preco": 9.48,
-        "preco_por_kg": 9.48
+        "nome": "Coxa Sobrecoxa Dessosada Sem Pele Perdigão Congelada 1kg",
+        "preco": 6.98,
+        "preco_por_kg": 6.98
       },
       "savegnago": {
         "nome": "Sobrecoxa Frango Swift 1Kg",
         "preco": 14.5,
         "preco_por_kg": 14.5
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "22",
@@ -166,8 +166,8 @@
       },
       "arena": {
         "nome": "Beterraba Kg",
-        "preco": 3.95,
-        "preco_por_kg": 3.95
+        "preco": 4.5,
+        "preco_por_kg": 4.5
       },
       "savegnago": {
         "nome": "Beterraba 1Kg",
@@ -310,8 +310,8 @@
       },
       "arena": {
         "nome": "Repolho Verde Kg",
-        "preco": 4.59,
-        "preco_por_kg": 4.59
+        "preco": 4.89,
+        "preco_por_kg": 4.89
       },
       "savegnago": {
         "nome": "Repolho Verde 2Kg",
@@ -358,8 +358,8 @@
       },
       "arena": {
         "nome": "Iogurte Desnatado Batavo Pense Zero Zero Lactose Mamão 1,150kg",
-        "preco": 6.99,
-        "preco_por_kg": 0.05
+        "preco": 15.59,
+        "preco_por_kg": 0.1
       },
       "savegnago": {
         "nome": "Mamão Papaya Golden 1,2Kg",
@@ -381,9 +381,9 @@
         "preco_por_kg": 0.91
       },
       "arena": {
-        "nome": "Banana Nanica Kg",
-        "preco": 7.49,
-        "preco_por_kg": 7.49
+        "nome": "Doce De Banana Oliveira Lanche 600g",
+        "preco": 1.54,
+        "preco_por_kg": 2.57
       },
       "savegnago": {
         "nome": "Banana Terra Kg",
@@ -405,9 +405,9 @@
         "preco_por_kg": 23.95
       },
       "arena": {
-        "nome": "Chopp Bierbaum Redkraft Uva 1,5l",
-        "preco": 1.59,
-        "preco_por_kg": 0.32
+        "nome": "Suco Pomares Néctar Uva 1,35l",
+        "preco": 12.59,
+        "preco_por_kg": 0.36
       },
       "savegnago": {
         "nome": "Uva Vitoria Cumbuca 500g",
@@ -453,16 +453,16 @@
         "preco_por_kg": 7.3
       },
       "arena": {
-        "nome": "Margarina Claybom C/ Sal 1kg",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
+        "nome": "Margarina Dualis Com Sal 500g",
+        "preco": 3.65,
+        "preco_por_kg": 7.3
       },
       "savegnago": {
         "nome": "Margarina Claybom 500g Com Sal",
         "preco": 5.99,
         "preco_por_kg": 11.98
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "42",
@@ -502,8 +502,8 @@
       },
       "arena": {
         "nome": "Presunto Cozido Nobre Sem Capa Bandeja Kg",
-        "preco": 9.98,
-        "preco_por_kg": 9.98
+        "preco": 7.99,
+        "preco_por_kg": 7.99
       },
       "savegnago": {
         "nome": "Presunto Cozido Perdigão 200g Fatiado Vacuo",
@@ -511,6 +511,30 @@
         "preco_por_kg": 39.8
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "44",
+      "goodbom": {
+        "nome": "MORTADELA CONFIANÇA MINI 1KG",
+        "preco": 9.99,
+        "preco_por_kg": 9.99
+      },
+      "tenda": {
+        "nome": "Mortadela Bologna Fatiada Aurora 180g",
+        "preco": 4.55,
+        "preco_por_kg": 25.28
+      },
+      "arena": {
+        "nome": "Mortadela Perdigão Tradicional Peça/Pedaço Kg",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
+      },
+      "savegnago": {
+        "nome": "Mortadela mini Confiança",
+        "preco": 13.9,
+        "preco_por_kg": 13.9
+      },
+      "mais_barato": "Goodbom"
     },
     {
       "id": "47",
@@ -550,8 +574,8 @@
       },
       "arena": {
         "nome": "Água De Coco Super Coco 1l",
-        "preco": 9.99,
-        "preco_por_kg": 9.99
+        "preco": 7.69,
+        "preco_por_kg": 7.69
       },
       "savegnago": {
         "nome": "Água De Coco Puro Coco 1L",
@@ -621,9 +645,9 @@
         "preco_por_kg": 9.9
       },
       "arena": {
-        "nome": "Feijão Carioca Pantera 1kg",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
+        "nome": "Feijão Carioca Saboroso 1kg",
+        "preco": 5.69,
+        "preco_por_kg": 5.69
       },
       "savegnago": {
         "nome": "Feijão Preto Empório São João 1Kg",
@@ -982,15 +1006,15 @@
       },
       "arena": {
         "nome": "Água Sanitária Ypê 5l",
-        "preco": 3.75,
-        "preco_por_kg": 0.75
+        "preco": 10.49,
+        "preco_por_kg": 2.1
       },
       "savegnago": {
         "nome": "Água Sanitária Fazenda Esperança 2L",
         "preco": 4.55,
         "preco_por_kg": 2.27
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "100",
