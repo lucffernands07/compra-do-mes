@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "803.02",
-  "totalTenda": "858.29",
-  "totalArena": "993.78",
-  "totalSavegnago": "835.91",
+  "totalGoodbom": "800.03",
+  "totalTenda": "841.22",
+  "totalArena": "638.66",
+  "totalSavegnago": "771.26",
   "encontradosGoodbom": 79,
-  "encontradosTenda": 84,
+  "encontradosTenda": 83,
   "encontradosArena": 78,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -273,30 +273,6 @@
       "mais_barato": "Tenda"
     },
     {
-      "id": "30",
-      "goodbom": {
-        "nome": "CHEIRO VERDE MAÇO",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
-      },
-      "tenda": {
-        "nome": "Cheiro Verde Maço Unidade",
-        "preco": 4.29,
-        "preco_por_kg": 4.29
-      },
-      "arena": {
-        "nome": "Cheiro Verde Kisabor Folha 8g",
-        "preco": 2.79,
-        "preco_por_kg": 348.75
-      },
-      "savegnago": {
-        "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
-        "preco": 7.99,
-        "preco_por_kg": 53.27
-      },
-      "mais_barato": "Tenda"
-    },
-    {
       "id": "31",
       "goodbom": {
         "nome": "SEMENTE FELTRIN ALFACE CRESPA",
@@ -441,6 +417,30 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "37",
+      "goodbom": {
+        "nome": "MAÇÃ GALA KG",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
+      },
+      "tenda": {
+        "nome": "Maçã Granny Smith Unidade",
+        "preco": 3.38,
+        "preco_por_kg": 3.38
+      },
+      "arena": {
+        "nome": "Suco Maguary Seleção Maça Pet 1,35l",
+        "preco": 15.99,
+        "preco_por_kg": 0.46
+      },
+      "savegnago": {
+        "nome": "Maçã Importada Argentina Kg",
+        "preco": 2.29,
+        "preco_por_kg": 2.29
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "39",
       "goodbom": {
         "nome": "MARGARINA DORIANA SEM SAL 500G",
@@ -511,30 +511,6 @@
         "preco_por_kg": 39.8
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "44",
-      "goodbom": {
-        "nome": "MORTADELA CONFIANÇA MINI 1KG",
-        "preco": 9.99,
-        "preco_por_kg": 9.99
-      },
-      "tenda": {
-        "nome": "Mortadela Bologna Fatiada Aurora 180g",
-        "preco": 4.55,
-        "preco_por_kg": 25.28
-      },
-      "arena": {
-        "nome": "Mortadela Perdigão Tradicional Peça/Pedaço Kg",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
-      },
-      "savegnago": {
-        "nome": "Mortadela mini Confiança",
-        "preco": 13.9,
-        "preco_por_kg": 13.9
-      },
-      "mais_barato": "Goodbom"
     },
     {
       "id": "47",
@@ -669,16 +645,16 @@
         "preco_por_kg": 8.22
       },
       "arena": {
-        "nome": "Óleo De Soja Vila Velha Galão 18l",
-        "preco": 7.99,
-        "preco_por_kg": 0.44
+        "nome": "Óleo De Soja Vila Velha Pet - 900ml",
+        "preco": 7.95,
+        "preco_por_kg": 8.83
       },
       "savegnago": {
         "nome": "Óleo de Soja Liza Pet 900ml",
         "preco": 7.49,
         "preco_por_kg": 8.32
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "67",
@@ -723,8 +699,8 @@
       },
       "savegnago": {
         "nome": "Milho Verde Irmãos Pimenta Bandeja 600g",
-        "preco": 5.85,
-        "preco_por_kg": 9.75
+        "preco": 5.99,
+        "preco_por_kg": 9.98
       },
       "mais_barato": "Arena"
     },
@@ -909,9 +885,9 @@
         "preco_por_kg": 10.3
       },
       "arena": {
-        "nome": "Tapioca Da Terrinha 1kg",
-        "preco": 13.79,
-        "preco_por_kg": 13.79
+        "nome": "Tapioca Hidratada Kisabor Pacote 500g",
+        "preco": 4.99,
+        "preco_por_kg": 9.98
       },
       "savegnago": {
         "nome": "Goma Pronta Tapioca Tradicional Siamar 1kg",
@@ -952,9 +928,9 @@
         "preco_por_kg": 6.99
       },
       "tenda": {
-        "nome": "Álcool Líquido Tradicional 46,2 INPM Flops 500ml",
-        "preco": 3.25,
-        "preco_por_kg": 6.5
+        "nome": "Cerveja Zero Álcool Estrella Galicia Lata 330ml",
+        "preco": 5.09,
+        "preco_por_kg": 15.42
       },
       "arena": {
         "nome": "Álcool Duratto Limpador Uso Geral Lavanda 1l",
@@ -1078,15 +1054,15 @@
       },
       "arena": {
         "nome": "Desinfetante Barbarex Sensações 5l",
-        "preco": 12.59,
-        "preco_por_kg": 2.52
+        "preco": 11.49,
+        "preco_por_kg": 2.3
       },
       "savegnago": {
         "nome": "Desinfetante Triex 5L Flores da Primavera",
         "preco": 14.55,
         "preco_por_kg": 2.91
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "105",
@@ -1121,13 +1097,13 @@
       },
       "tenda": {
         "nome": "Papel Higiênico Folha Simples Select 30m 4un",
-        "preco": 4.5,
-        "preco_por_kg": 4.5
+        "preco": 4.7,
+        "preco_por_kg": 4.7
       },
       "arena": {
         "nome": "Papel Higiênico Familiar Folha Dupla 30m C/ 4 Rolos",
-        "preco": 6.59,
-        "preco_por_kg": 6.59
+        "preco": 7.39,
+        "preco_por_kg": 7.39
       },
       "savegnago": {
         "nome": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
