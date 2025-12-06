@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "787.99",
-  "totalTenda": "834.09",
-  "totalArena": "619.71",
-  "totalSavegnago": "746.46",
+  "totalGoodbom": "809.62",
+  "totalTenda": "839.51",
+  "totalArena": "641.34",
+  "totalSavegnago": "776.91",
   "encontradosGoodbom": 79,
-  "encontradosTenda": 81,
+  "encontradosTenda": 83,
   "encontradosArena": 78,
   "encontradosSavegnago": 72,
   "produtos": [
@@ -40,9 +40,9 @@
         "preco_por_kg": 39.38
       },
       "tenda": {
-        "nome": "Hambúrguer de Carne Bovina Picanha Na Brasa Perdigão 150g",
-        "preco": 5.9,
-        "preco_por_kg": 39.33
+        "nome": "Hambúrguer de Carne Bovina Air Fryer Seara 150g",
+        "preco": 3.99,
+        "preco_por_kg": 26.6
       },
       "arena": {
         "nome": "Hambúrguer De Carne Bovina Air Fryer Seara 150g",
@@ -54,7 +54,7 @@
         "preco": 23.7,
         "preco_por_kg": 35.27
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Tenda"
     },
     {
       "id": "5",
@@ -866,11 +866,11 @@
         "preco_por_kg": 11.25
       },
       "savegnago": {
-        "nome": "Creme de Leite Italac Leve 200g",
-        "preco": 1.96,
-        "preco_por_kg": 9.8
+        "nome": "Creme De Leite Jussara 200G",
+        "preco": 3.39,
+        "preco_por_kg": 16.95
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Arena"
     },
     {
       "id": "82",
@@ -1241,8 +1241,8 @@
       },
       "tenda": {
         "nome": "Lenço Umedecido Care On The Go Neve 16 Unidades",
-        "preco": 6.9,
-        "preco_por_kg": 6.9
+        "preco": 8.55,
+        "preco_por_kg": 8.55
       },
       "arena": {
         "nome": "Lenço Umedecido Lysoform Original C/ 36 Unid.",
@@ -1277,6 +1277,30 @@
         "nome": "Amaciante Roupa Vida Macia Glicerina E Algodão 1L",
         "preco": 14.25,
         "preco_por_kg": 14.25
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "119",
+      "goodbom": {
+        "nome": "BISNAGUINHA SEVEN BOYS TRADICIONAL 300G",
+        "preco": 6.49,
+        "preco_por_kg": 21.63
+      },
+      "tenda": {
+        "nome": "Bisnaguinha Kim 300g",
+        "preco": 4.95,
+        "preco_por_kg": 16.5
+      },
+      "arena": {
+        "nome": "Pão Bisnaguinha De Panes 300g",
+        "preco": 6.49,
+        "preco_por_kg": 21.63
+      },
+      "savegnago": {
+        "nome": "Pão Seven Boys 300g Bisnaguinha",
+        "preco": 6.99,
+        "preco_por_kg": 23.3
       },
       "mais_barato": "Tenda"
     },
