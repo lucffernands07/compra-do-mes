@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "802.13",
-  "totalTenda": "913.56",
-  "totalArena": "630.22",
-  "totalSavegnago": "783.88",
+  "totalGoodbom": "809.62",
+  "totalTenda": "920.99",
+  "totalArena": "638.21",
+  "totalSavegnago": "790.78",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 82,
+  "encontradosTenda": 83,
   "encontradosArena": 78,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -633,6 +633,30 @@
       "mais_barato": "Arena"
     },
     {
+      "id": "53",
+      "goodbom": {
+        "nome": "FEIJÃO PRETO OLIRON 1KG",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "tenda": {
+        "nome": "Feijão Carioca Tipo 1 Máximo 1kg",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "arena": {
+        "nome": "Feijão Carioca Saboroso 1kg",
+        "preco": 5.69,
+        "preco_por_kg": 5.69
+      },
+      "savegnago": {
+        "nome": "Feijão Preto Empório São João 1Kg",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "66",
       "goodbom": {
         "nome": "ÓLEO DE SOJA LIZA PET 900ML",
@@ -1039,6 +1063,30 @@
         "preco_por_kg": 7.99
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "103",
+      "goodbom": {
+        "nome": "DESINFETANTE BARBAREX VIOLEX 2L",
+        "preco": 4.99,
+        "preco_por_kg": 2.5
+      },
+      "tenda": {
+        "nome": "Desinfetante Lavanda Select 2L",
+        "preco": 4.89,
+        "preco_por_kg": 2.44
+      },
+      "arena": {
+        "nome": "Desinfetante Barbarex Sensações 5l",
+        "preco": 11.49,
+        "preco_por_kg": 2.3
+      },
+      "savegnago": {
+        "nome": "Desinfetante Triex 5L Flores da Primavera",
+        "preco": 14.55,
+        "preco_por_kg": 2.91
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "105",
