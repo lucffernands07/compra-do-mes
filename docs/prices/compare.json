@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "789.76",
-  "totalTenda": "913.85",
-  "totalArena": "646.23",
-  "totalSavegnago": "801.92",
+  "totalGoodbom": "811.39",
+  "totalTenda": "930.35",
+  "totalArena": "665.42",
+  "totalSavegnago": "825.22",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 80,
+  "encontradosTenda": 83,
   "encontradosArena": 78,
   "encontradosSavegnago": 72,
   "produtos": [
@@ -1279,6 +1279,30 @@
         "preco_por_kg": 14.25
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "119",
+      "goodbom": {
+        "nome": "BISNAGUINHA SEVEN BOYS TRADICIONAL 300G",
+        "preco": 6.49,
+        "preco_por_kg": 21.63
+      },
+      "tenda": {
+        "nome": "Bisnaguinha Kim 300g",
+        "preco": 4.95,
+        "preco_por_kg": 16.5
+      },
+      "arena": {
+        "nome": "Pão Bisnaguinha Bauducco 260g",
+        "preco": 4.99,
+        "preco_por_kg": 19.19
+      },
+      "savegnago": {
+        "nome": "Pão Seven Boys 300g Bisnaguinha",
+        "preco": 6.99,
+        "preco_por_kg": 23.3
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "121",
