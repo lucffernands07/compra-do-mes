@@ -1,8 +1,8 @@
 {
-  "totalGoodbom": "787.48",
-  "totalTenda": "913.97",
-  "totalArena": "642.01",
-  "totalSavegnago": "840.53",
+  "totalGoodbom": "820.86",
+  "totalTenda": "934.16",
+  "totalArena": "990.76",
+  "totalSavegnago": "882.74",
   "encontradosGoodbom": 79,
   "encontradosTenda": 84,
   "encontradosArena": 78,
@@ -40,9 +40,9 @@
         "preco_por_kg": 39.38
       },
       "tenda": {
-        "nome": "Hambúrguer de Carne Bovina Air Fryer Seara 150g",
-        "preco": 3.99,
-        "preco_por_kg": 26.6
+        "nome": "Hambúrguer de Carne Bovina Picanha Na Brasa Perdigão 150g",
+        "preco": 5.5,
+        "preco_por_kg": 36.67
       },
       "arena": {
         "nome": "Hambúrguer De Carne Bovina Air Fryer Seara 150g",
@@ -54,7 +54,7 @@
         "preco": 23.7,
         "preco_por_kg": 35.27
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "5",
@@ -83,9 +83,9 @@
     {
       "id": "6",
       "goodbom": {
-        "nome": "SALSICHA HOT DOG SEARA KG",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
+        "nome": "SALSICHA HOT DOG SADIA KG",
+        "preco": 9.99,
+        "preco_por_kg": 9.99
       },
       "tenda": {
         "nome": "Salsicha Hot Dog Seara 500g",
@@ -113,8 +113,8 @@
       },
       "tenda": {
         "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
-        "preco": 3.95,
-        "preco_por_kg": 7.9
+        "preco": 4.45,
+        "preco_por_kg": 8.9
       },
       "arena": {
         "nome": "Coxa E Sobrecoxa Congelada Pacote Kg",
@@ -184,9 +184,9 @@
         "preco_por_kg": 2.99
       },
       "tenda": {
-        "nome": "Iogurte Natural Laranja, Cenoura e Mel Select 150g",
-        "preco": 2.39,
-        "preco_por_kg": 15.93
+        "nome": "Iogurte Natural Laranja, Cenoura e Mel Viv Vigor 150g",
+        "preco": 2.69,
+        "preco_por_kg": 17.93
       },
       "arena": {
         "nome": "Cenoura Kg",
@@ -225,6 +225,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "30",
+      "goodbom": {
+        "nome": "CHEIRO VERDE MAÇO",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "tenda": {
+        "nome": "Cheiro Verde Maço Unidade",
+        "preco": 4.29,
+        "preco_por_kg": 4.29
+      },
+      "arena": {
+        "nome": "Cheiro Verde Kisabor Folha 8g",
+        "preco": 2.79,
+        "preco_por_kg": 348.75
+      },
+      "savegnago": {
+        "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
+        "preco": 7.99,
+        "preco_por_kg": 53.27
+      },
+      "mais_barato": "Tenda"
+    },
+    {
       "id": "31",
       "goodbom": {
         "nome": "SEMENTE FELTRIN ALFACE CRESPA",
@@ -232,7 +256,7 @@
         "preco_por_kg": 2.49
       },
       "tenda": {
-        "nome": "Alface Crespa Unidade",
+        "nome": "Alface Roxa Unidade",
         "preco": 4.49,
         "preco_por_kg": 4.49
       },
@@ -362,9 +386,9 @@
         "preco_por_kg": 0.36
       },
       "savegnago": {
-        "nome": "Uva Vitoria Cumbuca 500g",
-        "preco": 7.8,
-        "preco_por_kg": 15.6
+        "nome": "Uva Sweet Jubilee Cumbuca 500g",
+        "preco": 7.95,
+        "preco_por_kg": 15.9
       },
       "mais_barato": "Arena"
     },
@@ -419,9 +443,9 @@
     {
       "id": "42",
       "goodbom": {
-        "nome": "QUEIJO MUSSARELA PEÇA KG",
-        "preco": 26.99,
-        "preco_por_kg": 26.99
+        "nome": "PIZZA SEARA MUSSARELA 440GR",
+        "preco": 19.49,
+        "preco_por_kg": 44.3
       },
       "tenda": {
         "nome": "Queijo Mussarela Portofino 200g",
@@ -438,14 +462,14 @@
         "preco": 16.99,
         "preco_por_kg": 38.61
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "43",
       "goodbom": {
         "nome": "PRESUNTO COZIDO SADIA SEM CAPA KG",
-        "preco": 25.9,
-        "preco_por_kg": 25.9
+        "preco": 30.9,
+        "preco_por_kg": 30.9
       },
       "tenda": {
         "nome": "Presunto Cozido Fatiado Aurora 180g",
@@ -515,9 +539,9 @@
     {
       "id": "49",
       "goodbom": {
-        "nome": "ÁGUA DE COCO PURO COCO 1L",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
+        "nome": "ÁGUA DE COCO PURO COCO MORANGO 180ML",
+        "preco": 1.89,
+        "preco_por_kg": 10.5
       },
       "tenda": {
         "nome": "Água de Coco Nocoko Caixa 200ml",
@@ -564,8 +588,8 @@
       "id": "52",
       "goodbom": {
         "nome": "ARROZ TIPO 1 OLIRON 5KG",
-        "preco": 15.99,
-        "preco_por_kg": 3.2
+        "preco": 13.99,
+        "preco_por_kg": 2.8
       },
       "tenda": {
         "nome": "Arroz Tipo 1 Select 1Kg",
@@ -582,7 +606,7 @@
         "preco": 14.8,
         "preco_por_kg": 2.96
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "53",
@@ -755,9 +779,9 @@
     {
       "id": "77",
       "goodbom": {
-        "nome": "MOSTARDA CEPÊRA 1010G",
-        "preco": 9.99,
-        "preco_por_kg": 9.89
+        "nome": "MOSTARDA KISABOR 1,01L",
+        "preco": 12.99,
+        "preco_por_kg": 12.86
       },
       "tenda": {
         "nome": "Mostarda Tradicional Quero 190g",
@@ -881,8 +905,8 @@
       },
       "tenda": {
         "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
-        "preco": 12.9,
-        "preco_por_kg": 12.9
+        "preco": 15.6,
+        "preco_por_kg": 15.6
       },
       "arena": {
         "nome": "Desinfetante Lysoform Original 2l",
@@ -1130,9 +1154,9 @@
         "preco_por_kg": 16.87
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
-        "preco": 7.45,
-        "preco_por_kg": 37.25
+        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
+        "preco": 23.3,
+        "preco_por_kg": 25.89
       },
       "mais_barato": "Arena"
     },
@@ -1241,8 +1265,8 @@
       },
       "tenda": {
         "nome": "Bisnaguinha Kim 300g",
-        "preco": 4.95,
-        "preco_por_kg": 16.5
+        "preco": 4.99,
+        "preco_por_kg": 16.63
       },
       "arena": {
         "nome": "Pão Bisnaguinha Bauducco 260g",
