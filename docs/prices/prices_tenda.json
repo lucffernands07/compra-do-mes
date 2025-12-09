@@ -140,25 +140,18 @@
     "preco_por_kg": 1.52
   },
   {
-    "id": 30,
-    "supermercado": "Tenda",
-    "produto": "Cheiro Verde Maço Unidade",
-    "preco": 4.29,
-    "preco_por_kg": 4.29
-  },
-  {
     "id": 31,
     "supermercado": "Tenda",
-    "produto": "Alface Roxa Unidade",
+    "produto": "Alface Mimosa Unidade",
     "preco": 4.49,
     "preco_por_kg": 4.49
   },
   {
     "id": 32,
     "supermercado": "Tenda",
-    "produto": "Repolho Verde Unidade",
-    "preco": 4.07,
-    "preco_por_kg": 4.07
+    "produto": "Repolho Roxo Unidade",
+    "preco": 6.99,
+    "preco_por_kg": 6.99
   },
   {
     "id": 33,
@@ -208,6 +201,13 @@
     "produto": "Margarina com Sal Dualis 500g",
     "preco": 3.65,
     "preco_por_kg": 7.3
+  },
+  {
+    "id": 40,
+    "supermercado": "Tenda",
+    "produto": "Creme de Leite Zero Lactose Italac 200g",
+    "preco": 3.79,
+    "preco_por_kg": 18.95
   },
   {
     "id": 42,
@@ -402,8 +402,8 @@
     "id": 80,
     "supermercado": "Tenda",
     "produto": "Capsula de Café Espresso Supremo 3 Corações 10 unid",
-    "preco": 24.39,
-    "preco_por_kg": 24.39
+    "preco": 15.98,
+    "preco_por_kg": 15.98
   },
   {
     "id": 81,
@@ -429,7 +429,7 @@
   {
     "id": 88,
     "supermercado": "Tenda",
-    "produto": "Desinfetante Uso Geral Lavanda Lysoform 1L",
+    "produto": "Desinfetante Lysoform Suave 1L",
     "preco": 15.6,
     "preco_por_kg": 15.6
   },

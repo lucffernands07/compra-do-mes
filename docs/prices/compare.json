@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "820.86",
-  "totalTenda": "933.68",
-  "totalArena": "990.76",
-  "totalSavegnago": "878.98",
+  "totalGoodbom": "777.94",
+  "totalTenda": "860.67",
+  "totalArena": "618.33",
+  "totalSavegnago": "805.89",
   "encontradosGoodbom": 79,
   "encontradosTenda": 84,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 68,
   "produtos": [
     {
       "id": "3",
@@ -190,8 +190,8 @@
       },
       "arena": {
         "nome": "Cenoura Kg",
-        "preco": 4.89,
-        "preco_por_kg": 4.89
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "savegnago": {
         "nome": "Cenoura 1Kg",
@@ -225,30 +225,6 @@
       "mais_barato": "Tenda"
     },
     {
-      "id": "30",
-      "goodbom": {
-        "nome": "CHEIRO VERDE MAÇO",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
-      },
-      "tenda": {
-        "nome": "Cheiro Verde Maço Unidade",
-        "preco": 4.29,
-        "preco_por_kg": 4.29
-      },
-      "arena": {
-        "nome": "Cheiro Verde Kisabor Folha 8g",
-        "preco": 2.79,
-        "preco_por_kg": 348.75
-      },
-      "savegnago": {
-        "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
-        "preco": 7.99,
-        "preco_por_kg": 53.27
-      },
-      "mais_barato": "Tenda"
-    },
-    {
       "id": "31",
       "goodbom": {
         "nome": "SEMENTE FELTRIN ALFACE CRESPA",
@@ -256,7 +232,7 @@
         "preco_por_kg": 2.49
       },
       "tenda": {
-        "nome": "Alface Roxa Unidade",
+        "nome": "Alface Mimosa Unidade",
         "preco": 4.49,
         "preco_por_kg": 4.49
       },
@@ -280,9 +256,9 @@
         "preco_por_kg": 3.99
       },
       "tenda": {
-        "nome": "Repolho Verde Unidade",
-        "preco": 4.07,
-        "preco_por_kg": 4.07
+        "nome": "Repolho Roxo Unidade",
+        "preco": 6.99,
+        "preco_por_kg": 6.99
       },
       "arena": {
         "nome": "Repolho Roxo Kg",
@@ -381,9 +357,9 @@
         "preco_por_kg": 14.1
       },
       "arena": {
-        "nome": "Suco Pomares Néctar Uva 1,35l",
-        "preco": 12.59,
-        "preco_por_kg": 0.36
+        "nome": "Chopp Bierbaum Redkraft Uva 1,5l",
+        "preco": 1.59,
+        "preco_por_kg": 0.32
       },
       "savegnago": {
         "nome": "Uva Sweet Jubilee Cumbuca 500g",
@@ -573,16 +549,16 @@
         "preco_por_kg": 12.2
       },
       "arena": {
-        "nome": "Leite Fermentado Desnatado Frutap 1,2kg",
-        "preco": 15.59,
-        "preco_por_kg": 7.79
+        "nome": "Leite Fermentado Desnatado Chamyto C/6 Unid. 450g",
+        "preco": 6.35,
+        "preco_por_kg": 14.11
       },
       "savegnago": {
         "nome": "Leite Fermentado Itambé 1,150kg",
         "preco": 14.95,
         "preco_por_kg": 13
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "52",
@@ -703,30 +679,6 @@
         "preco_por_kg": 9.98
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "69",
-      "goodbom": {
-        "nome": "SELETA DE LEGUMES LATA QUERO 170G",
-        "preco": 5.99,
-        "preco_por_kg": 35.24
-      },
-      "tenda": {
-        "nome": "Seleta de Legumes Select 170g",
-        "preco": 3.49,
-        "preco_por_kg": 20.53
-      },
-      "arena": {
-        "nome": "Seleta De Legumes Predilecta Lata 170g",
-        "preco": 3.99,
-        "preco_por_kg": 23.47
-      },
-      "savegnago": {
-        "nome": "Seleta De Legumes 300g Agroverts",
-        "preco": 5.15,
-        "preco_por_kg": 17.17
-      },
-      "mais_barato": "Savegnago"
     },
     {
       "id": "72",
@@ -904,7 +856,7 @@
         "preco_por_kg": 22.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
+        "nome": "Desinfetante Lysoform Suave 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
@@ -1063,30 +1015,6 @@
         "preco_por_kg": 2.91
       },
       "mais_barato": "Tenda"
-    },
-    {
-      "id": "105",
-      "goodbom": {
-        "nome": "LÃ DE AÇO BOMBRIL C/6",
-        "preco": 2.69,
-        "preco_por_kg": 2.69
-      },
-      "tenda": {
-        "nome": "Esponja de Aço Eco Bombril 45g 6 Unidades",
-        "preco": 2.3,
-        "preco_por_kg": 51.11
-      },
-      "arena": {
-        "nome": "Esponja Bombril Multi Uso Leve 4 Pague 3 Unid.",
-        "preco": 5.59,
-        "preco_por_kg": 5.59
-      },
-      "savegnago": {
-        "nome": "Lã De Aço Bombril Com 6 Unidades",
-        "preco": 2.65,
-        "preco_por_kg": 2.65
-      },
-      "mais_barato": "Savegnago"
     },
     {
       "id": "107",
