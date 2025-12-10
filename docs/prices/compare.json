@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "830.65",
-  "totalTenda": "877.88",
-  "totalArena": "643.18",
-  "totalSavegnago": "889.44",
+  "totalGoodbom": "833.34",
+  "totalTenda": "928.99",
+  "totalArena": "648.77",
+  "totalSavegnago": "892.09",
   "encontradosGoodbom": 79,
   "encontradosTenda": 85,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -1087,6 +1087,30 @@
         "preco_por_kg": 2.91
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "105",
+      "goodbom": {
+        "nome": "LÃ DE AÇO BOMBRIL C/6",
+        "preco": 2.69,
+        "preco_por_kg": 2.69
+      },
+      "tenda": {
+        "nome": "Esponja de Aço Eco Bombril 45g 6 Unidades",
+        "preco": 2.3,
+        "preco_por_kg": 51.11
+      },
+      "arena": {
+        "nome": "Esponja Bombril Multi Uso Leve 4 Pague 3 Unid.",
+        "preco": 5.59,
+        "preco_por_kg": 5.59
+      },
+      "savegnago": {
+        "nome": "Lã De Aço Bombril Com 6 Unidades",
+        "preco": 2.65,
+        "preco_por_kg": 2.65
+      },
+      "mais_barato": "Savegnago"
     },
     {
       "id": "107",
