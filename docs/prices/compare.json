@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "814.81",
-  "totalTenda": "920.25",
-  "totalArena": "644.60",
-  "totalSavegnago": "800.54",
+  "totalGoodbom": "829.76",
+  "totalTenda": "933.20",
+  "totalArena": "652.19",
+  "totalSavegnago": "817.49",
   "encontradosGoodbom": 79,
   "encontradosTenda": 83,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -821,6 +821,30 @@
         "nome": "Leite Condensado TP Semidesnatado Italac 395g",
         "preco": 6.99,
         "preco_por_kg": 17.7
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "79",
+      "goodbom": {
+        "nome": "CREME DE LEITE SHEFA 200G TP",
+        "preco": 2.99,
+        "preco_por_kg": 14.95
+      },
+      "tenda": {
+        "nome": "Creme de Leite 10% Italac 200g",
+        "preco": 2.59,
+        "preco_por_kg": 12.95
+      },
+      "arena": {
+        "nome": "Margarina Delícia Com Creme De Leite Com Sal 1kg",
+        "preco": 7.59,
+        "preco_por_kg": 7.59
+      },
+      "savegnago": {
+        "nome": "Creme De Leite Jussara 200G",
+        "preco": 3.39,
+        "preco_por_kg": 16.95
       },
       "mais_barato": "Arena"
     },
