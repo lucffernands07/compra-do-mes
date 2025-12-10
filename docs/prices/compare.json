@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "825.35",
-  "totalTenda": "919.88",
-  "totalArena": "637.79",
-  "totalSavegnago": "847.99",
+  "totalGoodbom": "829.34",
+  "totalTenda": "934.78",
+  "totalArena": "653.69",
+  "totalSavegnago": "850.89",
   "encontradosGoodbom": 79,
-  "encontradosTenda": 83,
+  "encontradosTenda": 84,
   "encontradosArena": 78,
-  "encontradosSavegnago": 69,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -127,6 +127,30 @@
         "preco_por_kg": 13.9
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "22",
+      "goodbom": {
+        "nome": "VAGEM MACARRÃO KG",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
+      },
+      "tenda": {
+        "nome": "Vagem Macarrão 300g",
+        "preco": 4.47,
+        "preco_por_kg": 14.9
+      },
+      "arena": {
+        "nome": "Vagem Kg",
+        "preco": 15.9,
+        "preco_por_kg": 15.9
+      },
+      "savegnago": {
+        "nome": "Vagem Irmãos Pimenta Bandeja 300g",
+        "preco": 6.45,
+        "preco_por_kg": 21.5
+      },
+      "mais_barato": "Goodbom"
     },
     {
       "id": "24",
@@ -314,9 +338,9 @@
         "preco_por_kg": 0.1
       },
       "savegnago": {
-        "nome": "Iogurte Líquido Batavo Pense Zero 170g Mamão",
+        "nome": "Mamão Papaya Golden 1,2Kg",
         "preco": 2.99,
-        "preco_por_kg": 17.59
+        "preco_por_kg": 2.49
       },
       "mais_barato": "Arena"
     },
@@ -338,9 +362,9 @@
         "preco_por_kg": 3.08
       },
       "savegnago": {
-        "nome": "Banana Nanica Exportação - 1kg",
-        "preco": 7.49,
-        "preco_por_kg": 7.49
+        "nome": "Banana Prata Turma da Mônica 750g",
+        "preco": 2.99,
+        "preco_por_kg": 3.99
       },
       "mais_barato": "Tenda"
     },
@@ -880,7 +904,7 @@
         "preco_por_kg": 22.99
       },
       "tenda": {
-        "nome": "Desinfetante Lysoform Suave 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
