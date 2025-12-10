@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "828.35",
-  "totalTenda": "934.78",
-  "totalArena": "653.69",
-  "totalSavegnago": "843.18",
+  "totalGoodbom": "830.65",
+  "totalTenda": "877.88",
+  "totalArena": "643.18",
+  "totalSavegnago": "889.44",
   "encontradosGoodbom": 79,
-  "encontradosTenda": 84,
+  "encontradosTenda": 85,
   "encontradosArena": 78,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 70,
   "produtos": [
     {
       "id": "3",
@@ -27,8 +27,8 @@
       },
       "savegnago": {
         "nome": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
-        "preco": 10.96,
-        "preco_por_kg": 21.92
+        "preco": 11.95,
+        "preco_por_kg": 23.9
       },
       "mais_barato": "Arena"
     },
@@ -122,9 +122,9 @@
         "preco_por_kg": 8.99
       },
       "savegnago": {
-        "nome": "Sobrecoxa de Frango Congelada Sadia 1kg",
-        "preco": 13.9,
-        "preco_por_kg": 13.9
+        "nome": "Sobrecoxa Frango Swift 1Kg",
+        "preco": 14.5,
+        "preco_por_kg": 14.5
       },
       "mais_barato": "Tenda"
     },
@@ -247,6 +247,30 @@
         "preco_por_kg": 41.67
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "30",
+      "goodbom": {
+        "nome": "CHEIRO VERDE MAÇO",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "tenda": {
+        "nome": "Cheiro Verde Maço Unidade",
+        "preco": 4.29,
+        "preco_por_kg": 4.29
+      },
+      "arena": {
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.7,
+        "preco_por_kg": 3.7
+      },
+      "savegnago": {
+        "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
+        "preco": 7.99,
+        "preco_por_kg": 53.27
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "31",
@@ -376,9 +400,9 @@
         "preco_por_kg": 14.95
       },
       "tenda": {
-        "nome": "Néctar Tial de Uva 1L",
-        "preco": 4.59,
-        "preco_por_kg": 4.59
+        "nome": "Uva Vitória Bandeja 500g",
+        "preco": 5.99,
+        "preco_por_kg": 11.98
       },
       "arena": {
         "nome": "Chopp Bierbaum Redkraft Uva 1,5l",
@@ -387,8 +411,8 @@
       },
       "savegnago": {
         "nome": "Uva Vitoria Cumbuca 500g",
-        "preco": 7.8,
-        "preco_por_kg": 15.6
+        "preco": 7.85,
+        "preco_por_kg": 15.7
       },
       "mais_barato": "Arena"
     },
@@ -410,9 +434,9 @@
         "preco_por_kg": 0.46
       },
       "savegnago": {
-        "nome": "Maçã Fuji Kg",
-        "preco": 2.29,
-        "preco_por_kg": 2.29
+        "nome": "Maçã Gala - 1kg",
+        "preco": 2.35,
+        "preco_por_kg": 2.35
       },
       "mais_barato": "Arena"
     },
@@ -434,9 +458,9 @@
         "preco_por_kg": 7.3
       },
       "savegnago": {
-        "nome": "Margarina Claybom 500g Com Sal",
-        "preco": 5.99,
-        "preco_por_kg": 11.98
+        "nome": "Margarina Delícia com Creme de Leite com Sal 500g",
+        "preco": 6.99,
+        "preco_por_kg": 13.98
       },
       "mais_barato": "Tenda"
     },
@@ -472,9 +496,9 @@
         "preco_por_kg": 30.9
       },
       "tenda": {
-        "nome": "Presunto Cozido Fatiado Aurora 180g",
-        "preco": 7.69,
-        "preco_por_kg": 42.72
+        "nome": "Presunto Cozido sem Capa de Gordura Fatiado Frimesa 200g",
+        "preco": 6.55,
+        "preco_por_kg": 32.75
       },
       "arena": {
         "nome": "Presunto Cozido Pamplona Sem Capa De Gordura Peça Kg",
@@ -507,10 +531,10 @@
       },
       "savegnago": {
         "nome": "Mortadela mini Confiança",
-        "preco": 13.9,
-        "preco_por_kg": 13.9
+        "preco": 9.98,
+        "preco_por_kg": 9.98
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "47",
@@ -602,9 +626,9 @@
         "preco_por_kg": 2.8
       },
       "savegnago": {
-        "nome": "Arroz Agulhinha 4r 5kg Tipo1",
-        "preco": 14.8,
-        "preco_por_kg": 2.96
+        "nome": "Arroz Pop Branco Tipo 1 5Kg",
+        "preco": 16.4,
+        "preco_por_kg": 3.28
       },
       "mais_barato": "Goodbom"
     },
@@ -885,9 +909,9 @@
         "preco_por_kg": 10.3
       },
       "arena": {
-        "nome": "Tapioca Da Terrinha 1kg",
-        "preco": 13.79,
-        "preco_por_kg": 13.79
+        "nome": "Tapioca Granulada Kisabor Pacote 500g",
+        "preco": 4.99,
+        "preco_por_kg": 9.98
       },
       "savegnago": {
         "nome": "Goma Pronta Tapioca Tradicional Siamar 1kg",
@@ -904,21 +928,21 @@
         "preco_por_kg": 22.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
+        "nome": "Desinfetante Lysoform Suave 1L",
         "preco": 15.6,
         "preco_por_kg": 15.6
       },
       "arena": {
-        "nome": "Desinfetante Lysoform Original 2l",
-        "preco": 24.89,
-        "preco_por_kg": 12.45
+        "nome": "Desinfetante Lysoform Lavanda 2l",
+        "preco": 15.29,
+        "preco_por_kg": 7.64
       },
       "savegnago": {
         "nome": "Desinfetante Lysoform 2L Original",
         "preco": 23.04,
         "preco_por_kg": 11.52
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Arena"
     },
     {
       "id": "89",
@@ -953,8 +977,8 @@
       },
       "tenda": {
         "nome": "Limpador Perfumado Ypê Chá Branco 1 Litro",
-        "preco": 6.9,
-        "preco_por_kg": 6.9
+        "preco": 7.5,
+        "preco_por_kg": 7.5
       },
       "arena": {
         "nome": "Limpador Perfumado Ypê Tropical 1l",
@@ -962,9 +986,9 @@
         "preco_por_kg": 7.99
       },
       "savegnago": {
-        "nome": "Limpador Perfumado Ypê Chá Branco 1L",
-        "preco": 6.59,
-        "preco_por_kg": 6.59
+        "nome": "Limpador Perfumado Veja Lavanda da França - 2L",
+        "preco": 12.9,
+        "preco_por_kg": 6.45
       },
       "mais_barato": "Savegnago"
     },
@@ -1024,9 +1048,9 @@
         "preco_por_kg": 8.58
       },
       "tenda": {
-        "nome": "Limpador Multiuso Limão Azulim 500ml",
-        "preco": 2.55,
-        "preco_por_kg": 5.1
+        "nome": "Limpador Multiuso Original Azulim Squeeze 500ml",
+        "preco": 2.75,
+        "preco_por_kg": 5.5
       },
       "arena": {
         "nome": "Limpador Multiuso Ype Floral Senses 500ml",
@@ -1035,8 +1059,8 @@
       },
       "savegnago": {
         "nome": "Limpador Multiuso Ypê Desengordurante 500ml",
-        "preco": 4.19,
-        "preco_por_kg": 8.38
+        "preco": 4.29,
+        "preco_por_kg": 8.58
       },
       "mais_barato": "Tenda"
     },
@@ -1063,30 +1087,6 @@
         "preco_por_kg": 2.91
       },
       "mais_barato": "Tenda"
-    },
-    {
-      "id": "105",
-      "goodbom": {
-        "nome": "LÃ DE AÇO BOMBRIL C/6",
-        "preco": 2.69,
-        "preco_por_kg": 2.69
-      },
-      "tenda": {
-        "nome": "Esponja de Aço Eco Bombril 45g 6 Unidades",
-        "preco": 2.3,
-        "preco_por_kg": 51.11
-      },
-      "arena": {
-        "nome": "Esponja Bombril Multi Uso Leve 4 Pague 3 Unid.",
-        "preco": 5.59,
-        "preco_por_kg": 5.59
-      },
-      "savegnago": {
-        "nome": "Lã De Aço Bombril Com 6 Unidades",
-        "preco": 2.65,
-        "preco_por_kg": 2.65
-      },
-      "mais_barato": "Savegnago"
     },
     {
       "id": "107",
@@ -1144,9 +1144,9 @@
         "preco_por_kg": 31.96
       },
       "tenda": {
-        "nome": "Sabonete Líquido Flor de Ypê Flor de Maçã e Framboesa 200ml Refil Econômico",
-        "preco": 4.5,
-        "preco_por_kg": 22.5
+        "nome": "Sabonete Líquido Camomila e Aloe Vera Refil Select 500ml",
+        "preco": 7,
+        "preco_por_kg": 14
       },
       "arena": {
         "nome": "Sabonete Liquido Premisse Guaraná E Açai - Refil 450ml",
@@ -1158,7 +1158,7 @@
         "preco": 23.3,
         "preco_por_kg": 25.89
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "112",
@@ -1178,9 +1178,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
-        "preco": 2.35,
-        "preco_por_kg": 27.65
+        "nome": "Sabonete Lux Botanicals Buque de Jasmim 85gr",
+        "preco": 2.19,
+        "preco_por_kg": 25.76
       },
       "mais_barato": "Tenda"
     },
@@ -1227,10 +1227,10 @@
       },
       "savegnago": {
         "nome": "Lenço Umedecido Huggies Rosto e Corpo com 48 unidades",
-        "preco": 11.34,
-        "preco_por_kg": 11.34
+        "preco": 7.67,
+        "preco_por_kg": 7.67
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "117",
