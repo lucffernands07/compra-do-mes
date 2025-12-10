@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "808.16",
-  "totalTenda": "916.57",
-  "totalArena": "633.70",
-  "totalSavegnago": "797.64",
+  "totalGoodbom": "829.06",
+  "totalTenda": "933.20",
+  "totalArena": "652.89",
+  "totalSavegnago": "818.24",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 83,
+  "encontradosTenda": 84,
   "encontradosArena": 78,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -122,9 +122,9 @@
         "preco_por_kg": 8.99
       },
       "savegnago": {
-        "nome": "Sobrecoxa Frango Swift 1Kg",
-        "preco": 14.5,
-        "preco_por_kg": 14.5
+        "nome": "Sobrecoxa de Frango Congelada Sadia 1kg",
+        "preco": 13.8,
+        "preco_por_kg": 13.8
       },
       "mais_barato": "Tenda"
     },
@@ -563,9 +563,9 @@
     {
       "id": "50",
       "goodbom": {
-        "nome": "LEITE FERMENTADO ITAMBE UVA 480G",
-        "preco": 5.99,
-        "preco_por_kg": 12.48
+        "nome": "LEITE FERMENTADO FRUTAP 850G",
+        "preco": 9.99,
+        "preco_por_kg": 11.75
       },
       "tenda": {
         "nome": "Leite Fermentado Patati Patata Frutap 450g",
@@ -1255,6 +1255,30 @@
         "preco_por_kg": 14.25
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "119",
+      "goodbom": {
+        "nome": "BISNAGUINHA SEVEN BOYS TRADICIONAL 300G",
+        "preco": 6.49,
+        "preco_por_kg": 21.63
+      },
+      "tenda": {
+        "nome": "Bisnaguinha Kim 300g",
+        "preco": 4.99,
+        "preco_por_kg": 16.63
+      },
+      "arena": {
+        "nome": "Pão Bisnaguinha Bauducco 260g",
+        "preco": 4.99,
+        "preco_por_kg": 19.19
+      },
+      "savegnago": {
+        "nome": "Pão Seven Boys 300g Bisnaguinha",
+        "preco": 6.39,
+        "preco_por_kg": 21.3
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "121",
