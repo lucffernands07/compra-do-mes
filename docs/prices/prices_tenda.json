@@ -59,15 +59,15 @@
     "id": 12,
     "supermercado": "Tenda",
     "produto": "Muscúlo bovino pedaço Resfriado bandeja 400g",
-    "preco": 13.16,
-    "preco_por_kg": 32.9
+    "preco": 15.16,
+    "preco_por_kg": 37.9
   },
   {
     "id": 18,
     "supermercado": "Tenda",
-    "produto": "Pimentão Verde Bandeja 250g",
-    "preco": 6.69,
-    "preco_por_kg": 26.76
+    "produto": "Pimentão Verde Saco 440g",
+    "preco": 4.4,
+    "preco_por_kg": 10
   },
   {
     "id": 19,
@@ -177,9 +177,9 @@
   {
     "id": 36,
     "supermercado": "Tenda",
-    "produto": "Uva Vitória Bandeja 500g",
-    "preco": 5.99,
-    "preco_por_kg": 11.98
+    "produto": "Néctar Tial de Uva 1L",
+    "preco": 4.59,
+    "preco_por_kg": 4.59
   },
   {
     "id": 37,
@@ -241,8 +241,8 @@
     "id": 47,
     "supermercado": "Tenda",
     "produto": "Mandioca 500g",
-    "preco": 2,
-    "preco_por_kg": 4
+    "preco": 1.65,
+    "preco_por_kg": 3.3
   },
   {
     "id": 48,
@@ -275,7 +275,7 @@
   {
     "id": 53,
     "supermercado": "Tenda",
-    "produto": "Feijão Carioca Tipo 1 Máximo 1kg",
+    "produto": "Feijão Carioca da Casa 1kg",
     "preco": 4.99,
     "preco_por_kg": 4.99
   },
@@ -306,6 +306,13 @@
     "produto": "Tempero Ajinomoto Pet 100g",
     "preco": 11.95,
     "preco_por_kg": 119.5
+  },
+  {
+    "id": 65,
+    "supermercado": "Tenda",
+    "produto": "Biscoito Maisena Mabel 300g",
+    "preco": 4.39,
+    "preco_por_kg": 14.63
   },
   {
     "id": 66,
@@ -373,9 +380,9 @@
   {
     "id": 76,
     "supermercado": "Tenda",
-    "produto": "Maionese Bacon Sinistro Stranger Things Hellmann's 335g",
-    "preco": 10.55,
-    "preco_por_kg": 31.49
+    "produto": "Maionese Hellmann's Tradicional 335g",
+    "preco": 10.39,
+    "preco_por_kg": 31.01
   },
   {
     "id": 77,
@@ -394,7 +401,7 @@
   {
     "id": 79,
     "supermercado": "Tenda",
-    "produto": "Creme de Leite 10% Italac 200g",
+    "produto": "Creme de Leite Lider 200g",
     "preco": 2.59,
     "preco_por_kg": 12.95
   },
@@ -429,16 +436,16 @@
   {
     "id": 88,
     "supermercado": "Tenda",
-    "produto": "Desinfetante Lysoform Suave 1L",
+    "produto": "Desinfetante Bruto Original Lysoform 1L",
     "preco": 15.6,
     "preco_por_kg": 15.6
   },
   {
     "id": 89,
     "supermercado": "Tenda",
-    "produto": "Álcool Líquido Tradicional 46,2 INPM Flops 500ml",
-    "preco": 4.25,
-    "preco_por_kg": 8.5
+    "produto": "Vinagre de Álcool Vitalia 750ml",
+    "preco": 2.29,
+    "preco_por_kg": 3.05
   },
   {
     "id": 90,
@@ -464,7 +471,7 @@
   {
     "id": 100,
     "supermercado": "Tenda",
-    "produto": "Lava-Louças Líquido Ypê Neutro - Amarelo - 500Ml - Rende Mais - Detergente",
+    "produto": "Lava-Louças Líquido Ypê Capim Limão - Verde - 500Ml -Controle De Odor - Detergente",
     "preco": 1.9,
     "preco_por_kg": 3.8
   },
@@ -520,7 +527,7 @@
   {
     "id": 112,
     "supermercado": "Tenda",
-    "produto": "Sabonete Barra Desejo de Morango Gipsy 80g",
+    "produto": "Sabonete Barra Perfume dos Sonhos Gipsy 80g",
     "preco": 0.95,
     "preco_por_kg": 11.88
   },
@@ -555,7 +562,7 @@
   {
     "id": 118,
     "supermercado": "Tenda",
-    "produto": "Enxaguante Bucal Antisséptico Zero Álcool Melancia & Hortelã Listerine 500ml",
+    "produto": "Solução Bucal Listerine Zero 500ml",
     "preco": 11.9,
     "preco_por_kg": 23.8
   },
