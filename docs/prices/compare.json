@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "838.97",
-  "totalTenda": "841.44",
-  "totalArena": "652.79",
-  "totalSavegnago": "813.65",
+  "totalGoodbom": "848.96",
+  "totalTenda": "902.00",
+  "totalArena": "644.48",
+  "totalSavegnago": "817.24",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 86,
+  "encontradosTenda": 85,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -118,15 +118,15 @@
       },
       "arena": {
         "nome": "Coxa E Sobrecoxa Congelada Pacote Kg",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
+        "preco": 8.69,
+        "preco_por_kg": 8.69
       },
       "savegnago": {
         "nome": "Sobrecoxa de Frango Congelada Sadia 1kg",
         "preco": 13.8,
         "preco_por_kg": 13.8
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "22",
@@ -146,9 +146,9 @@
         "preco_por_kg": 15.9
       },
       "savegnago": {
-        "nome": "Vagem Irmãos Pimenta Bandeja 300g",
-        "preco": 6.45,
-        "preco_por_kg": 21.5
+        "nome": "Vagem Bandeja 500g",
+        "preco": 9.19,
+        "preco_por_kg": 18.38
       },
       "mais_barato": "Goodbom"
     },
@@ -321,6 +321,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "34",
+      "goodbom": {
+        "nome": "MAMÃO PAPAYA KG",
+        "preco": 9.99,
+        "preco_por_kg": 9.99
+      },
+      "tenda": {
+        "nome": "Refresco em pó Tang Laranja Mamão 18g",
+        "preco": 1.09,
+        "preco_por_kg": 60.56
+      },
+      "arena": {
+        "nome": "Iogurte Desnatado Batavo Pense Zero Zero Lactose Mamão 1,150kg",
+        "preco": 15.59,
+        "preco_por_kg": 0.1
+      },
+      "savegnago": {
+        "nome": "Mamão Papaya Golden 1,2Kg",
+        "preco": 1.85,
+        "preco_por_kg": 1.54
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "35",
       "goodbom": {
         "nome": "BANANA NANICA KG",
@@ -405,16 +429,16 @@
         "preco_por_kg": 7.3
       },
       "arena": {
-        "nome": "Margarina Dualis Com Sal 500g",
-        "preco": 3.65,
-        "preco_por_kg": 7.3
+        "nome": "Margarina Claybom C/ Sal 1kg",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "savegnago": {
         "nome": "Margarina Qualy 500g Com Sal",
         "preco": 6.99,
         "preco_por_kg": 13.98
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "42",
@@ -814,8 +838,8 @@
       },
       "arena": {
         "nome": "Margarina Delícia Com Creme De Leite Com Sal 1kg",
-        "preco": 7.59,
-        "preco_por_kg": 7.59
+        "preco": 3.91,
+        "preco_por_kg": 3.91
       },
       "savegnago": {
         "nome": "Creme De Leite Jussara 200G",
@@ -909,9 +933,9 @@
         "preco_por_kg": 3.05
       },
       "arena": {
-        "nome": "Álcool Duratto Limpador Uso Geral Lavanda 1l",
-        "preco": 5.89,
-        "preco_por_kg": 5.89
+        "nome": "Álcool Duratto Limpador Uso Geral Neutro 1l",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
       },
       "savegnago": {
         "nome": "Álcool Safra 46,2 Lavanda 1L",
@@ -957,9 +981,9 @@
         "preco_por_kg": 3.25
       },
       "arena": {
-        "nome": "Água Sanitária Ypê 5l",
-        "preco": 10.49,
-        "preco_por_kg": 2.1
+        "nome": "Água Sanitária Bio-Kriss 2l",
+        "preco": 3.75,
+        "preco_por_kg": 1.88
       },
       "savegnago": {
         "nome": "Água Sanitária Fazenda Esperança 2L",
@@ -1130,9 +1154,9 @@
         "preco_por_kg": 16.87
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 23.3,
-        "preco_por_kg": 25.89
+        "nome": "Sabonete Líquido para Mãos Palmolive Nutrimilk Hidratação 900ml",
+        "preco": 27.95,
+        "preco_por_kg": 31.06
       },
       "mais_barato": "Arena"
     },
