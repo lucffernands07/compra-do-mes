@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "762.15",
-  "totalTenda": "871.04",
-  "totalArena": "600.75",
-  "totalSavegnago": "765.13",
+  "totalGoodbom": "852.36",
+  "totalTenda": "928.38",
+  "totalArena": "644.44",
+  "totalSavegnago": "803.66",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 85,
+  "encontradosTenda": 84,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -225,6 +225,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "28",
+      "goodbom": {
+        "nome": "CHUCHU KG",
+        "preco": 2.99,
+        "preco_por_kg": 2.99
+      },
+      "tenda": {
+        "nome": "Chuchu Unidade",
+        "preco": 1.48,
+        "preco_por_kg": 1.48
+      },
+      "arena": {
+        "nome": "Chuchu Kg",
+        "preco": 5.99,
+        "preco_por_kg": 5.99
+      },
+      "savegnago": {
+        "nome": "Chuchu 1kg",
+        "preco": 4.39,
+        "preco_por_kg": 4.39
+      },
+      "mais_barato": "Tenda"
+    },
+    {
       "id": "29",
       "goodbom": {
         "nome": "MANDIOQUINHA KG",
@@ -251,12 +275,12 @@
     {
       "id": "31",
       "goodbom": {
-        "nome": "ALFACE CRESPA UN",
-        "preco": 2.99,
-        "preco_por_kg": 2.99
+        "nome": "SEMENTE FELTRIN ALFACE CRESPA",
+        "preco": 2.49,
+        "preco_por_kg": 2.49
       },
       "tenda": {
-        "nome": "Alface Roxa Unidade",
+        "nome": "Alface Mimosa Unidade",
         "preco": 4.49,
         "preco_por_kg": 4.49
       },
@@ -357,9 +381,9 @@
         "preco_por_kg": 0.91
       },
       "arena": {
-        "nome": "Banana Nanica Kg",
-        "preco": 7.49,
-        "preco_por_kg": 7.49
+        "nome": "Bala De Banana Oliveira 500g",
+        "preco": 1.54,
+        "preco_por_kg": 3.08
       },
       "savegnago": {
         "nome": "Banana Prata Turma da Mônica 750g",
@@ -376,9 +400,9 @@
         "preco_por_kg": 14.95
       },
       "tenda": {
-        "nome": "Néctar Tial de Uva 1L",
-        "preco": 4.59,
-        "preco_por_kg": 4.59
+        "nome": "Uva Vitória MIMO 400g",
+        "preco": 7.99,
+        "preco_por_kg": 19.97
       },
       "arena": {
         "nome": "Chopp Bierbaum Redkraft Uva 1,5l",
@@ -616,7 +640,7 @@
         "preco_por_kg": 4.99
       },
       "tenda": {
-        "nome": "Feijão Carioca da Casa 1kg",
+        "nome": "Feijão Carioca Tipo 1 Máximo 1kg",
         "preco": 4.99,
         "preco_por_kg": 4.99
       },
@@ -760,9 +784,9 @@
         "preco_por_kg": 16.14
       },
       "tenda": {
-        "nome": "Maionese Hellmann's Tradicional 335g",
-        "preco": 10.39,
-        "preco_por_kg": 31.01
+        "nome": "Maionese Quero 200g",
+        "preco": 3.49,
+        "preco_por_kg": 17.45
       },
       "arena": {
         "nome": "Maionese Quero Big Sachê 1,02kg",
@@ -928,9 +952,9 @@
         "preco_por_kg": 6.59
       },
       "tenda": {
-        "nome": "Vinagre de Álcool Vitalia 750ml",
-        "preco": 2.29,
-        "preco_por_kg": 3.05
+        "nome": "Álcool Líquido Tradicional 46,2 INPM Flops 500ml",
+        "preco": 4.25,
+        "preco_por_kg": 8.5
       },
       "arena": {
         "nome": "Álcool Duratto Limpador Uso Geral Neutro 1l",
@@ -952,9 +976,9 @@
         "preco_por_kg": 7.99
       },
       "tenda": {
-        "nome": "Limpador Perfumado Ypê Chá Branco 1 Litro",
-        "preco": 7.5,
-        "preco_por_kg": 7.5
+        "nome": "Limpador Perfumado Intuizione New Casa & Perfume Frasco 500ml",
+        "preco": 4.9,
+        "preco_por_kg": 9.8
       },
       "arena": {
         "nome": "Limpador Perfumado Ypê Tropical 1l",
@@ -966,7 +990,7 @@
         "preco": 15.95,
         "preco_por_kg": 7.97
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "96",
@@ -1024,9 +1048,9 @@
         "preco_por_kg": 8.58
       },
       "tenda": {
-        "nome": "Limpador Multiuso Original Azulim Squeeze 500ml",
-        "preco": 2.35,
-        "preco_por_kg": 4.7
+        "nome": "Limpador Multiuso Ypê Tira Manchas 500ml",
+        "preco": 3.85,
+        "preco_por_kg": 7.7
       },
       "arena": {
         "nome": "Limpador Multiuso Ype Floral Senses 500ml",
@@ -1038,7 +1062,7 @@
         "preco": 5.48,
         "preco_por_kg": 7.31
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "103",
@@ -1109,6 +1133,30 @@
         "nome": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
         "preco": 19.65,
         "preco_por_kg": 1.64
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
+      "id": "110",
+      "goodbom": {
+        "nome": "CREME DENTAL COLGATE TOTAL CARVÃO 180G PREÇO ESPECIAL",
+        "preco": 15.79,
+        "preco_por_kg": 87.72
+      },
+      "tenda": {
+        "nome": "Creme Dental Triple Menta Close Up 70g",
+        "preco": 3.3,
+        "preco_por_kg": 47.14
+      },
+      "arena": {
+        "nome": "Creme Dental Sorriso Dentes Brancos 90g",
+        "preco": 3.79,
+        "preco_por_kg": 42.11
+      },
+      "savegnago": {
+        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
+        "preco": 2.39,
+        "preco_por_kg": 34.14
       },
       "mais_barato": "Savegnago"
     },
@@ -1193,8 +1241,8 @@
       },
       "tenda": {
         "nome": "Lenço Umedecido Care On The Go Neve 16 Unidades",
-        "preco": 8.55,
-        "preco_por_kg": 8.55
+        "preco": 4.7,
+        "preco_por_kg": 4.7
       },
       "arena": {
         "nome": "Lenço Umedecido Lysoform Original C/ 36 Unid.",
