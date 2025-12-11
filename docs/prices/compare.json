@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "840.08",
-  "totalTenda": "884.25",
-  "totalArena": "633.33",
-  "totalSavegnago": "782.78",
+  "totalGoodbom": "848.96",
+  "totalTenda": "892.47",
+  "totalArena": "642.86",
+  "totalSavegnago": "796.15",
   "encontradosGoodbom": 80,
   "encontradosTenda": 85,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -261,9 +261,9 @@
         "preco_por_kg": 4.49
       },
       "arena": {
-        "nome": "Alface Roxa Jw Unid.",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
+        "nome": "Alface Crespa Unid.",
+        "preco": 4.69,
+        "preco_por_kg": 4.69
       },
       "savegnago": {
         "nome": "Alface Crespa Org Solo Vivo",
@@ -631,6 +631,30 @@
         "preco_por_kg": 3.99
       },
       "mais_barato": "Savegnago"
+    },
+    {
+      "id": "66",
+      "goodbom": {
+        "nome": "ÓLEO DE SOJA LIZA PET 900ML",
+        "preco": 7.99,
+        "preco_por_kg": 8.88
+      },
+      "tenda": {
+        "nome": "Óleo de Soja Cocamar 900ml",
+        "preco": 7.4,
+        "preco_por_kg": 8.22
+      },
+      "arena": {
+        "nome": "Óleo De Soja Vila Velha Pet - 900ml",
+        "preco": 7.95,
+        "preco_por_kg": 8.83
+      },
+      "savegnago": {
+        "nome": "Óleo de Soja Soya Pet 900ml",
+        "preco": 8.75,
+        "preco_por_kg": 9.72
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "67",
@@ -1130,9 +1154,9 @@
         "preco_por_kg": 16.87
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Mãos Lux Botanicals Buquê de Jasmim Refil 500ml",
-        "preco": 16.8,
-        "preco_por_kg": 33.6
+        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
+        "preco": 7.45,
+        "preco_por_kg": 37.25
       },
       "mais_barato": "Arena"
     },
