@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "849.67",
-  "totalTenda": "877.27",
-  "totalArena": "669.95",
-  "totalSavegnago": "801.70",
+  "totalGoodbom": "941.95",
+  "totalTenda": "941.67",
+  "totalArena": "1024.29",
+  "totalSavegnago": "812.94",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 84,
+  "encontradosTenda": 85,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -273,6 +273,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "30",
+      "goodbom": {
+        "nome": "TEMPERO MAGGI MEU SEGREDO CHEIRO VERDE 49G",
+        "preco": 4.39,
+        "preco_por_kg": 89.59
+      },
+      "tenda": {
+        "nome": "Cheiro Verde Maço Unidade",
+        "preco": 4.29,
+        "preco_por_kg": 4.29
+      },
+      "arena": {
+        "nome": "Cheiro Verde Kisabor Folha 8g",
+        "preco": 2.79,
+        "preco_por_kg": 348.75
+      },
+      "savegnago": {
+        "nome": "Cheiro Verde Organico Solo Vivo",
+        "preco": 8.59,
+        "preco_por_kg": 8.59
+      },
+      "mais_barato": "Tenda"
+    },
+    {
       "id": "31",
       "goodbom": {
         "nome": "SEMENTE FELTRIN ALFACE CRESPA",
@@ -424,9 +448,9 @@
         "preco_por_kg": 9.99
       },
       "tenda": {
-        "nome": "Banana Maçã Unidade",
-        "preco": 2.15,
-        "preco_por_kg": 2.15
+        "nome": "Maçã Pink Lady 155g",
+        "preco": 1.81,
+        "preco_por_kg": 11.68
       },
       "arena": {
         "nome": "Suco Maguary Seleção Maça Pet 1,35l",
@@ -688,9 +712,9 @@
         "preco_por_kg": 5.32
       },
       "tenda": {
-        "nome": "Vinagre de Álcool Vitalia 750ml",
-        "preco": 2.29,
-        "preco_por_kg": 3.05
+        "nome": "Vinagre de Álcool Neval 750ml",
+        "preco": 1.89,
+        "preco_por_kg": 2.52
       },
       "arena": {
         "nome": "Vinagre Palladio Álcool Pet 750ml",
@@ -702,7 +726,7 @@
         "preco": 2.75,
         "preco_por_kg": 3.67
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": "68",
@@ -1087,6 +1111,30 @@
         "preco_por_kg": 2.91
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "105",
+      "goodbom": {
+        "nome": "LÃ DE AÇO BOMBRIL C/6",
+        "preco": 2.69,
+        "preco_por_kg": 2.69
+      },
+      "tenda": {
+        "nome": "Esponja de Aço Eco Bombril 45g 6 Unidades",
+        "preco": 2.3,
+        "preco_por_kg": 51.11
+      },
+      "arena": {
+        "nome": "Esponja Bombril Multi Uso Leve 4 Pague 3 Unid.",
+        "preco": 5.59,
+        "preco_por_kg": 5.59
+      },
+      "savegnago": {
+        "nome": "Lã De Aço Bombril Com 6 Unidades",
+        "preco": 2.65,
+        "preco_por_kg": 2.65
+      },
+      "mais_barato": "Savegnago"
     },
     {
       "id": "107",
