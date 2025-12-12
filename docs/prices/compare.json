@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "785.51",
-  "totalTenda": "838.27",
-  "totalArena": "646.86",
-  "totalSavegnago": "757.86",
+  "totalGoodbom": "809.99",
+  "totalTenda": "937.18",
+  "totalArena": "677.54",
+  "totalSavegnago": "788.62",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 84,
+  "encontradosTenda": 85,
   "encontradosArena": 78,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -275,9 +275,9 @@
     {
       "id": "31",
       "goodbom": {
-        "nome": "SEMENTE FELTRIN ALFACE CRESPA",
-        "preco": 2.49,
-        "preco_por_kg": 2.49
+        "nome": "ALFACE CRESPA UN",
+        "preco": 2.99,
+        "preco_por_kg": 2.99
       },
       "tenda": {
         "nome": "Alface Mimosa Unidade",
@@ -1178,9 +1178,9 @@
         "preco_por_kg": 16.87
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 23.3,
-        "preco_por_kg": 25.89
+        "nome": "Sabonete Líquido para Mãos Palmolive Nutrimilk Hidratação 900ml",
+        "preco": 27.95,
+        "preco_por_kg": 31.06
       },
       "mais_barato": "Arena"
     },
@@ -1231,6 +1231,54 @@
         "preco_por_kg": 74.67
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "116",
+      "goodbom": {
+        "nome": "LENÇO UMEDECIDO INTIMUS C/16",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
+      },
+      "tenda": {
+        "nome": "Lenço Umedecido Care On The Go Neve 16 Unidades",
+        "preco": 4.7,
+        "preco_por_kg": 4.7
+      },
+      "arena": {
+        "nome": "Lenço Umedecido Lysoform Original C/ 36 Unid.",
+        "preco": 23.99,
+        "preco_por_kg": 23.99
+      },
+      "savegnago": {
+        "nome": "Lenço Umedecido Huggies Rosto e Corpo com 48 unidades",
+        "preco": 11.34,
+        "preco_por_kg": 11.34
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "117",
+      "goodbom": {
+        "nome": "ALGODAO TOPZ DISCO 50 UNID.",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
+      },
+      "tenda": {
+        "nome": "Algodão Bola Select 95g",
+        "preco": 8.95,
+        "preco_por_kg": 94.21
+      },
+      "arena": {
+        "nome": "Algodão Disco Bellacotton C/ 50 Unid.",
+        "preco": 6.69,
+        "preco_por_kg": 6.69
+      },
+      "savegnago": {
+        "nome": "Amaciante Roupa Vida Macia Glicerina E Algodão 1L",
+        "preco": 14.25,
+        "preco_por_kg": 14.25
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "119",
