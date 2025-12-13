@@ -1,8 +1,8 @@
 {
-  "totalGoodbom": "807.96",
-  "totalTenda": "862.22",
-  "totalArena": "1040.47",
-  "totalSavegnago": "777.59",
+  "totalGoodbom": "823.94",
+  "totalTenda": "919.94",
+  "totalArena": "1044.59",
+  "totalSavegnago": "786.95",
   "encontradosGoodbom": 81,
   "encontradosTenda": 85,
   "encontradosArena": 78,
@@ -281,8 +281,8 @@
       },
       "tenda": {
         "nome": "Cheiro Verde Maço Unidade",
-        "preco": 4.29,
-        "preco_por_kg": 4.29
+        "preco": 1.59,
+        "preco_por_kg": 1.59
       },
       "arena": {
         "nome": "Cheiro Verde Kisabor Folha 8g",
@@ -304,9 +304,9 @@
         "preco_por_kg": 2.49
       },
       "tenda": {
-        "nome": "Alface Mimosa Unidade",
-        "preco": 4.49,
-        "preco_por_kg": 4.49
+        "nome": "Alface Crespa Unidade",
+        "preco": 1.59,
+        "preco_por_kg": 1.59
       },
       "arena": {
         "nome": "Alface Americana Mais Verdes 200g",
@@ -318,7 +318,7 @@
         "preco": 4.39,
         "preco_por_kg": 4.39
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": "32",
@@ -410,9 +410,9 @@
         "preco_por_kg": 5.2
       },
       "savegnago": {
-        "nome": "Banana Prata Bandeja 900g",
-        "preco": 5.95,
-        "preco_por_kg": 6.61
+        "nome": "Banana Prata Turma da Mônica 750g",
+        "preco": 2.99,
+        "preco_por_kg": 3.99
       },
       "mais_barato": "Tenda"
     },
@@ -424,9 +424,9 @@
         "preco_por_kg": 15.98
       },
       "tenda": {
-        "nome": "Néctar Tial de Uva 1L",
-        "preco": 4.59,
-        "preco_por_kg": 4.59
+        "nome": "Bebida Mista Sabor Uva Kapo 200ml",
+        "preco": 2.79,
+        "preco_por_kg": 13.95
       },
       "arena": {
         "nome": "Chopp Bierbaum Redkraft Uva 1,5l",
@@ -448,9 +448,9 @@
         "preco_por_kg": 9.99
       },
       "tenda": {
-        "nome": "Sabonete Flor De Ypê Suave - Rosa - Flor De Maçã e Framboesa - Glicerina e Óleos Essenciais",
-        "preco": 1.3,
-        "preco_por_kg": 1.3
+        "nome": "Maçã Pink Lady 155g",
+        "preco": 1.81,
+        "preco_por_kg": 11.68
       },
       "arena": {
         "nome": "Suco Maguary Seleção Maça Pet 1,35l",
@@ -777,6 +777,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "72",
+      "goodbom": {
+        "nome": "AÇUCAR MASCAVO FALEX 1KG",
+        "preco": 15.98,
+        "preco_por_kg": 15.98
+      },
+      "tenda": {
+        "nome": "Paçoquinha com Açúcar Mascavo DaColônia 210g",
+        "preco": 10.75,
+        "preco_por_kg": 51.19
+      },
+      "arena": {
+        "nome": "Paçoca Dacolônia Açucar Mascavo Pote 1,008kg",
+        "preco": 32.99,
+        "preco_por_kg": 4.12
+      },
+      "savegnago": {
+        "nome": "Açúcar Mascavo Rosa Lima 500g",
+        "preco": 5.99,
+        "preco_por_kg": 11.98
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "76",
       "goodbom": {
         "nome": "MAIONESE TRADICIONAL QUERO 495G",
@@ -784,9 +808,9 @@
         "preco_por_kg": 16.14
       },
       "tenda": {
-        "nome": "Maionese Quero 200g",
-        "preco": 3.49,
-        "preco_por_kg": 17.45
+        "nome": "Maionese Tradicional Liza Pote 450g",
+        "preco": 5.69,
+        "preco_por_kg": 12.64
       },
       "arena": {
         "nome": "Maionese Quero Big Sachê 1,02kg",
@@ -976,7 +1000,7 @@
         "preco_por_kg": 7.99
       },
       "tenda": {
-        "nome": "Limpador Perfumado Ypê Premium Roxo Jardim Secreto 1L - Até 30H De Perfumação - Limpador De Uso Geral",
+        "nome": "Limpador Perfumado Ypê Chá Branco 1 Litro",
         "preco": 7.5,
         "preco_por_kg": 7.5
       },
@@ -1024,7 +1048,7 @@
         "preco_por_kg": 5.2
       },
       "tenda": {
-        "nome": "Detergente Líquido Minuano Fresh 500ml",
+        "nome": "Detergente Líquido Minuano Neutro 500ml",
         "preco": 2.25,
         "preco_por_kg": 4.5
       },
@@ -1043,14 +1067,14 @@
     {
       "id": "101",
       "goodbom": {
-        "nome": "LIMPADOR MULTIUSO UAU LAVANDA 500ML",
+        "nome": "LIMPADOR MULTIUSO UAU FLORES FOLHAS 500ML",
         "preco": 3.99,
         "preco_por_kg": 7.98
       },
       "tenda": {
-        "nome": "Limpador Multiuso Ypê Tira Manchas 500ml",
-        "preco": 3.75,
-        "preco_por_kg": 7.5
+        "nome": "Limpador Multiuso Limão Azulim 500ml",
+        "preco": 2.35,
+        "preco_por_kg": 4.7
       },
       "arena": {
         "nome": "Limpador Multiuso Ype Floral Senses 500ml",
@@ -1062,7 +1086,7 @@
         "preco": 5.48,
         "preco_por_kg": 7.31
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Tenda"
     },
     {
       "id": "103",
