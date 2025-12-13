@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "813.95",
-  "totalTenda": "908.26",
-  "totalArena": "1044.13",
-  "totalSavegnago": "771.54",
+  "totalGoodbom": "802.31",
+  "totalTenda": "903.31",
+  "totalArena": "1025.40",
+  "totalSavegnago": "754.29",
   "encontradosGoodbom": 81,
-  "encontradosTenda": 85,
+  "encontradosTenda": 84,
   "encontradosArena": 78,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -437,6 +437,30 @@
         "nome": "Uva Vitoria Cumbuca 500g",
         "preco": 6.99,
         "preco_por_kg": 13.98
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "37",
+      "goodbom": {
+        "nome": "MAÇÃ GALA KG",
+        "preco": 9.99,
+        "preco_por_kg": 9.99
+      },
+      "tenda": {
+        "nome": "Maçã Pink Lady 155g",
+        "preco": 1.81,
+        "preco_por_kg": 11.68
+      },
+      "arena": {
+        "nome": "Suco Maguary Seleção Maça Pet 1,35l",
+        "preco": 15.99,
+        "preco_por_kg": 0.46
+      },
+      "savegnago": {
+        "nome": "Maçã Importada Argentina Kg",
+        "preco": 2.29,
+        "preco_por_kg": 2.29
       },
       "mais_barato": "Arena"
     },
@@ -1202,9 +1226,9 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 23.3,
-        "preco_por_kg": 25.89
+        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
+        "preco": 2.35,
+        "preco_por_kg": 27.65
       },
       "mais_barato": "Tenda"
     },
@@ -1279,30 +1303,6 @@
         "preco_por_kg": 14.25
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "119",
-      "goodbom": {
-        "nome": "BISNAGUINHA SEVEN BOYS TRADICIONAL 300G",
-        "preco": 6.49,
-        "preco_por_kg": 21.63
-      },
-      "tenda": {
-        "nome": "Bisnaguinha Kim 300g",
-        "preco": 4.99,
-        "preco_por_kg": 16.63
-      },
-      "arena": {
-        "nome": "Pão Bisnaguinha Bauducco 260g",
-        "preco": 4.99,
-        "preco_por_kg": 19.19
-      },
-      "savegnago": {
-        "nome": "Pão Seven Boys 300g Bisnaguinha",
-        "preco": 6.39,
-        "preco_por_kg": 21.3
-      },
-      "mais_barato": "Tenda"
     },
     {
       "id": "121",
