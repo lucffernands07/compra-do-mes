@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "811.95",
-  "totalTenda": "908.67",
-  "totalArena": "995.23",
-  "totalSavegnago": "773.03",
+  "totalGoodbom": "822.91",
+  "totalTenda": "913.37",
+  "totalArena": "653.96",
+  "totalSavegnago": "784.97",
   "encontradosGoodbom": 81,
-  "encontradosTenda": 83,
+  "encontradosTenda": 85,
   "encontradosArena": 78,
   "encontradosSavegnago": 72,
   "produtos": [
@@ -27,8 +27,8 @@
       },
       "savegnago": {
         "nome": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
-        "preco": 10.96,
-        "preco_por_kg": 21.92
+        "preco": 11.95,
+        "preco_por_kg": 23.9
       },
       "mais_barato": "Arena"
     },
@@ -285,9 +285,9 @@
         "preco_por_kg": 1.59
       },
       "arena": {
-        "nome": "Cheiro Verde Kisabor Folha 8g",
-        "preco": 2.79,
-        "preco_por_kg": 348.75
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.7,
+        "preco_por_kg": 3.7
       },
       "savegnago": {
         "nome": "Cheiro Verde Organico Solo Vivo",
@@ -309,9 +309,9 @@
         "preco_por_kg": 1.59
       },
       "arena": {
-        "nome": "Alface Americana Mais Verdes 200g",
-        "preco": 4.98,
-        "preco_por_kg": 24.9
+        "nome": "Alface Crespa Unid.",
+        "preco": 4.69,
+        "preco_por_kg": 4.69
       },
       "savegnago": {
         "nome": "Alface Crespa Org Solo Vivo",
@@ -419,9 +419,9 @@
     {
       "id": "36",
       "goodbom": {
-        "nome": "UVA THOMPSON 500G",
-        "preco": 7.99,
-        "preco_por_kg": 15.98
+        "nome": "CHÁ VERDE YAI UVA 200ML",
+        "preco": 2.99,
+        "preco_por_kg": 14.95
       },
       "tenda": {
         "nome": "Bebida Mista Sabor Uva Kapo 200ml",
@@ -1010,11 +1010,11 @@
         "preco_por_kg": 7.99
       },
       "savegnago": {
-        "nome": "Limpador Perfumado Veja Lavanda da França - 2L",
-        "preco": 15.95,
-        "preco_por_kg": 7.97
+        "nome": "Limpador Perfumado Ypê Chá Branco 1L",
+        "preco": 6.59,
+        "preco_por_kg": 6.59
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "96",
@@ -1253,6 +1253,30 @@
         "nome": "Gel Fixador Clear 300g Controle Caspa",
         "preco": 22.4,
         "preco_por_kg": 74.67
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "116",
+      "goodbom": {
+        "nome": "LENÇO UMEDECIDO INTIMUS C/16",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
+      },
+      "tenda": {
+        "nome": "Lenço Umedecido Care On The Go Neve 16 Unidades",
+        "preco": 4.7,
+        "preco_por_kg": 4.7
+      },
+      "arena": {
+        "nome": "Lenço Umedecido Lysoform Original C/ 36 Unid.",
+        "preco": 23.99,
+        "preco_por_kg": 23.99
+      },
+      "savegnago": {
+        "nome": "Lenço Umedecido Huggies Rosto e Corpo com 48 unidades",
+        "preco": 11.34,
+        "preco_por_kg": 11.34
       },
       "mais_barato": "Tenda"
     },
