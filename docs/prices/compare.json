@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "805.76",
-  "totalTenda": "889.32",
-  "totalArena": "1041.38",
-  "totalSavegnago": "742.40",
+  "totalGoodbom": "823.94",
+  "totalTenda": "922.31",
+  "totalArena": "1050.32",
+  "totalSavegnago": "773.01",
   "encontradosGoodbom": 81,
-  "encontradosTenda": 83,
+  "encontradosTenda": 85,
   "encontradosArena": 78,
   "encontradosSavegnago": 72,
   "produtos": [
@@ -705,6 +705,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "67",
+      "goodbom": {
+        "nome": "VINAGRE CASTELO ALCOOL COLOR 750ML",
+        "preco": 3.99,
+        "preco_por_kg": 5.32
+      },
+      "tenda": {
+        "nome": "Vinagre de Álcool Neval 750ml",
+        "preco": 1.89,
+        "preco_por_kg": 2.52
+      },
+      "arena": {
+        "nome": "Vinagre Palladio Álcool Pet 750ml",
+        "preco": 1.99,
+        "preco_por_kg": 2.65
+      },
+      "savegnago": {
+        "nome": "Vinagre Galo de Barcelos 750ml Álcool",
+        "preco": 2.75,
+        "preco_por_kg": 3.67
+      },
+      "mais_barato": "Tenda"
+    },
+    {
       "id": "68",
       "goodbom": {
         "nome": "MILHO VERDE BANDEJA 700G",
@@ -797,6 +821,30 @@
         "nome": "Maionese Hellmann's Tradicional 600gr",
         "preco": 12.95,
         "preco_por_kg": 21.58
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "77",
+      "goodbom": {
+        "nome": "MOSTARDA KISABOR 1,01L",
+        "preco": 12.99,
+        "preco_por_kg": 12.86
+      },
+      "tenda": {
+        "nome": "Mostarda Tradicional Quero 190g",
+        "preco": 5.79,
+        "preco_por_kg": 30.47
+      },
+      "arena": {
+        "nome": "Mostarda Lanchero - 1,01kg",
+        "preco": 6.29,
+        "preco_por_kg": 6.29
+      },
+      "savegnago": {
+        "nome": "Mostarda Predilecta 180g Bisnaga",
+        "preco": 4.85,
+        "preco_por_kg": 26.94
       },
       "mais_barato": "Arena"
     },
