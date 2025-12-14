@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "734.48",
-  "totalTenda": "936.15",
-  "totalArena": "611.85",
-  "totalSavegnago": "740.93",
+  "totalGoodbom": "800.57",
+  "totalTenda": "966.66",
+  "totalArena": "634.77",
+  "totalSavegnago": "758.94",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 84,
+  "encontradosTenda": 83,
   "encontradosArena": 78,
   "encontradosSavegnago": 72,
   "produtos": [
@@ -1161,6 +1161,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "110",
+      "goodbom": {
+        "nome": "CREME DENTAL COLGATE TOTAL CARVÃO 180G PREÇO ESPECIAL",
+        "preco": 15.79,
+        "preco_por_kg": 87.72
+      },
+      "tenda": {
+        "nome": "Creme Dental Triple Menta Close Up 70g",
+        "preco": 3.3,
+        "preco_por_kg": 47.14
+      },
+      "arena": {
+        "nome": "Creme Dental Sorriso Dentes Brancos 90g",
+        "preco": 3.79,
+        "preco_por_kg": 42.11
+      },
+      "savegnago": {
+        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
+        "preco": 2.39,
+        "preco_por_kg": 34.14
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "111",
       "goodbom": {
         "nome": "SABONETE LÍQUIDO FLOR DE YPÊ FLOR DE LARANJEIRA E DAMASCO 250ML",
@@ -1178,9 +1202,9 @@
         "preco_por_kg": 16.87
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 23.3,
-        "preco_por_kg": 25.89
+        "nome": "Sabonete Líquido para Mãos Palmolive Nutrimilk Hidratação 900ml",
+        "preco": 27.95,
+        "preco_por_kg": 31.06
       },
       "mais_barato": "Arena"
     },
@@ -1279,30 +1303,6 @@
         "preco_por_kg": 14.25
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "119",
-      "goodbom": {
-        "nome": "BISNAGUINHA SEVEN BOYS TRADICIONAL 300G",
-        "preco": 6.49,
-        "preco_por_kg": 21.63
-      },
-      "tenda": {
-        "nome": "Bisnaguinha Kim 300g",
-        "preco": 4.99,
-        "preco_por_kg": 16.63
-      },
-      "arena": {
-        "nome": "Pão Bisnaguinha Bauducco 260g",
-        "preco": 4.99,
-        "preco_por_kg": 19.19
-      },
-      "savegnago": {
-        "nome": "Pão Seven Boys 300g Bisnaguinha",
-        "preco": 6.39,
-        "preco_por_kg": 21.3
-      },
-      "mais_barato": "Tenda"
     },
     {
       "id": "121",
