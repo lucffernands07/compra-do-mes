@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "810.92",
-  "totalTenda": "822.30",
-  "totalArena": "647.27",
-  "totalSavegnago": "772.18",
+  "totalGoodbom": "822.20",
+  "totalTenda": "983.29",
+  "totalArena": "653.96",
+  "totalSavegnago": "786.43",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 83,
+  "encontradosTenda": 85,
   "encontradosArena": 78,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -280,9 +280,9 @@
         "preco_por_kg": 4.99
       },
       "tenda": {
-        "nome": "Cheiro Verde Maço Unidade",
-        "preco": 1.59,
-        "preco_por_kg": 1.59
+        "nome": "Tempero MAGGI Meu Segredo Cheiro Verde 49g",
+        "preco": 3.35,
+        "preco_por_kg": 68.37
       },
       "arena": {
         "nome": "Cheiro Verde Jw Unid.",
@@ -294,7 +294,7 @@
         "preco": 8.59,
         "preco_por_kg": 8.59
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "31",
@@ -923,9 +923,9 @@
     {
       "id": "87",
       "goodbom": {
-        "nome": "WRAP DE TAPIOCA ORIGINAL DA TERRINHA",
-        "preco": 8.49,
-        "preco_por_kg": 8.49
+        "nome": "GOMA MANDIOCA TAPIOCA AKIO 320G",
+        "preco": 2.49,
+        "preco_por_kg": 7.78
       },
       "tenda": {
         "nome": "Massa de Tapioca Beijubom 500g",
@@ -1279,6 +1279,30 @@
         "preco_por_kg": 11.34
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "117",
+      "goodbom": {
+        "nome": "ALGODAO TOPZ DISCO 50 UNID.",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
+      },
+      "tenda": {
+        "nome": "Algodão Bola Select 95g",
+        "preco": 8.95,
+        "preco_por_kg": 94.21
+      },
+      "arena": {
+        "nome": "Algodão Disco Bellacotton C/ 50 Unid.",
+        "preco": 6.69,
+        "preco_por_kg": 6.69
+      },
+      "savegnago": {
+        "nome": "Amaciante Roupa Vida Macia Glicerina E Algodão 1L",
+        "preco": 14.25,
+        "preco_por_kg": 14.25
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "119",
