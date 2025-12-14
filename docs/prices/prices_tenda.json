@@ -107,9 +107,9 @@
   {
     "id": 25,
     "supermercado": "Tenda",
-    "produto": "Inhame Bandeja 400g",
-    "preco": 6.89,
-    "preco_por_kg": 17.22
+    "produto": "Inhame Unidade",
+    "preco": 1.64,
+    "preco_por_kg": 1.64
   },
   {
     "id": 26,
@@ -138,13 +138,6 @@
     "produto": "Mandioquinha Unidade",
     "preco": 1.52,
     "preco_por_kg": 1.52
-  },
-  {
-    "id": 30,
-    "supermercado": "Tenda",
-    "produto": "Tempero MAGGI Meu Segredo Cheiro Verde 49g",
-    "preco": 3.35,
-    "preco_por_kg": 68.37
   },
   {
     "id": 31,
@@ -184,9 +177,9 @@
   {
     "id": 36,
     "supermercado": "Tenda",
-    "produto": "Néctar de Uva Del Valle 290ml",
-    "preco": 2.99,
-    "preco_por_kg": 10.31
+    "produto": "Néctar de Uva Del Valle 1L",
+    "preco": 7,
+    "preco_por_kg": 7
   },
   {
     "id": 37,
@@ -226,9 +219,9 @@
   {
     "id": 43,
     "supermercado": "Tenda",
-    "produto": "Presunto Cozido sem Capa de Gordura Fatiado Frimesa 200g",
-    "preco": 6.55,
-    "preco_por_kg": 32.75
+    "produto": "Presunto Cozido Fatiado Aurora 180g",
+    "preco": 7.69,
+    "preco_por_kg": 42.72
   },
   {
     "id": 44,
@@ -301,9 +294,16 @@
     "preco_por_kg": 7.9
   },
   {
+    "id": 60,
+    "supermercado": "Tenda",
+    "produto": "Azeite Extra Virgem Select 250ml",
+    "preco": 19.49,
+    "preco_por_kg": 77.96
+  },
+  {
     "id": 63,
     "supermercado": "Tenda",
-    "produto": "Tempero Ajinomoto Pet 100g",
+    "produto": "Tempero Ajinomoto 100g",
     "preco": 11.95,
     "preco_por_kg": 119.5
   },
@@ -464,7 +464,7 @@
   {
     "id": 101,
     "supermercado": "Tenda",
-    "produto": "Limpador Multiuso Limão Azulim 500ml",
+    "produto": "Limpador Multiuso Original Azulim Squeeze 500ml",
     "preco": 2.35,
     "preco_por_kg": 4.7
   },
@@ -558,6 +558,13 @@
     "produto": "Solução Bucal Listerine Zero 500ml",
     "preco": 11.9,
     "preco_por_kg": 23.8
+  },
+  {
+    "id": 119,
+    "supermercado": "Tenda",
+    "produto": "Bisnaguinha Kim 300g",
+    "preco": 4.99,
+    "preco_por_kg": 16.63
   },
   {
     "id": 120,

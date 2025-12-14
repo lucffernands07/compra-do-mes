@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "800.57",
-  "totalTenda": "966.66",
-  "totalArena": "634.77",
-  "totalSavegnago": "758.94",
+  "totalGoodbom": "817.21",
+  "totalTenda": "921.58",
+  "totalArena": "650.26",
+  "totalSavegnago": "778.13",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 83,
+  "encontradosTenda": 84,
   "encontradosArena": 78,
   "encontradosSavegnago": 72,
   "produtos": [
@@ -273,30 +273,6 @@
       "mais_barato": "Tenda"
     },
     {
-      "id": "30",
-      "goodbom": {
-        "nome": "CHEIRO VERDE MAÇO",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
-      },
-      "tenda": {
-        "nome": "Tempero MAGGI Meu Segredo Cheiro Verde 49g",
-        "preco": 3.35,
-        "preco_por_kg": 68.37
-      },
-      "arena": {
-        "nome": "Cheiro Verde Jw Unid.",
-        "preco": 3.7,
-        "preco_por_kg": 3.7
-      },
-      "savegnago": {
-        "nome": "Cheiro Verde Organico Solo Vivo",
-        "preco": 8.59,
-        "preco_por_kg": 8.59
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "31",
       "goodbom": {
         "nome": "SEMENTE FELTRIN ALFACE CRESPA",
@@ -424,9 +400,9 @@
         "preco_por_kg": 14.95
       },
       "tenda": {
-        "nome": "Néctar de Uva Del Valle 290ml",
-        "preco": 2.99,
-        "preco_por_kg": 10.31
+        "nome": "Néctar de Uva Del Valle 1L",
+        "preco": 7,
+        "preco_por_kg": 7
       },
       "arena": {
         "nome": "Chopp Bierbaum Redkraft Uva 1,5l",
@@ -520,9 +496,9 @@
         "preco_por_kg": 25.9
       },
       "tenda": {
-        "nome": "Presunto Cozido sem Capa de Gordura Fatiado Frimesa 200g",
-        "preco": 6.55,
-        "preco_por_kg": 32.75
+        "nome": "Presunto Cozido Fatiado Aurora 180g",
+        "preco": 7.69,
+        "preco_por_kg": 42.72
       },
       "arena": {
         "nome": "Presunto Cozido Pamplona Sem Capa De Gordura Peça Kg",
@@ -650,9 +626,9 @@
         "preco_por_kg": 1.1
       },
       "savegnago": {
-        "nome": "Arroz Agulhinha Serrazul 5kg Tipo 1",
-        "preco": 14.8,
-        "preco_por_kg": 2.96
+        "nome": "Arroz Agulhinha 4r 5kg Tipo1",
+        "preco": 16.25,
+        "preco_por_kg": 3.25
       },
       "mais_barato": "Arena"
     },
@@ -1072,7 +1048,7 @@
         "preco_por_kg": 7.98
       },
       "tenda": {
-        "nome": "Limpador Multiuso Limão Azulim 500ml",
+        "nome": "Limpador Multiuso Original Azulim Squeeze 500ml",
         "preco": 2.35,
         "preco_por_kg": 4.7
       },
@@ -1202,9 +1178,9 @@
         "preco_por_kg": 16.87
       },
       "savegnago": {
-        "nome": "Sabonete Líquido para Mãos Palmolive Nutrimilk Hidratação 900ml",
-        "preco": 27.95,
-        "preco_por_kg": 31.06
+        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
+        "preco": 7.45,
+        "preco_por_kg": 37.25
       },
       "mais_barato": "Arena"
     },
@@ -1303,6 +1279,30 @@
         "preco_por_kg": 14.25
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "119",
+      "goodbom": {
+        "nome": "BISNAGUINHA SEVEN BOYS TRADICIONAL 300G",
+        "preco": 6.49,
+        "preco_por_kg": 21.63
+      },
+      "tenda": {
+        "nome": "Bisnaguinha Kim 300g",
+        "preco": 4.99,
+        "preco_por_kg": 16.63
+      },
+      "arena": {
+        "nome": "Pão Bisnaguinha Bauducco 260g",
+        "preco": 4.99,
+        "preco_por_kg": 19.19
+      },
+      "savegnago": {
+        "nome": "Pão Seven Boys 300g Bisnaguinha",
+        "preco": 6.39,
+        "preco_por_kg": 21.3
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "121",
