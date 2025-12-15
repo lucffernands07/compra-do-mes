@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "822.20",
-  "totalTenda": "910.05",
-  "totalArena": "1041.67",
-  "totalSavegnago": "842.95",
+  "totalGoodbom": "817.38",
+  "totalTenda": "907.00",
+  "totalArena": "1014.37",
+  "totalSavegnago": "842.37",
   "encontradosGoodbom": 80,
   "encontradosTenda": 85,
   "encontradosArena": 78,
-  "encontradosSavegnago": 72,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -122,9 +122,9 @@
         "preco_por_kg": 8.69
       },
       "savegnago": {
-        "nome": "Sobrecoxa Seara 1kg",
-        "preco": 13.9,
-        "preco_por_kg": 13.9
+        "nome": "Sobrecoxa Frango Swift 1Kg",
+        "preco": 14.5,
+        "preco_por_kg": 14.5
       },
       "mais_barato": "Arena"
     },
@@ -147,8 +147,8 @@
       },
       "savegnago": {
         "nome": "Vagem Irmãos Pimenta Bandeja 300g",
-        "preco": 6.45,
-        "preco_por_kg": 21.5
+        "preco": 5.35,
+        "preco_por_kg": 17.83
       },
       "mais_barato": "Goodbom"
     },
@@ -309,14 +309,14 @@
         "preco_por_kg": 1.59
       },
       "arena": {
-        "nome": "Alface Americana Mais Verdes 200g",
-        "preco": 3.99,
-        "preco_por_kg": 19.95
+        "nome": "Alface Roxa Jw Unid.",
+        "preco": 2.99,
+        "preco_por_kg": 2.99
       },
       "savegnago": {
         "nome": "Alface Crespa Org Solo Vivo",
-        "preco": 4.39,
-        "preco_por_kg": 4.39
+        "preco": 4.55,
+        "preco_por_kg": 4.55
       },
       "mais_barato": "Tenda"
     },
@@ -429,9 +429,9 @@
         "preco_por_kg": 7
       },
       "arena": {
-        "nome": "Chopp Bierbaum Redkraft Uva 1,5l",
-        "preco": 1.59,
-        "preco_por_kg": 0.32
+        "nome": "Suco Integral Geração S Uva 1,35l",
+        "preco": 2.79,
+        "preco_por_kg": 0.08
       },
       "savegnago": {
         "nome": "Uva Sweet Jubilee Cumbuca 500g",
@@ -458,9 +458,9 @@
         "preco_por_kg": 0.46
       },
       "savegnago": {
-        "nome": "Maçã Importada Argentina Kg",
-        "preco": 2.29,
-        "preco_por_kg": 2.29
+        "nome": "Maçã Gala - 1kg",
+        "preco": 2.35,
+        "preco_por_kg": 2.35
       },
       "mais_barato": "Arena"
     },
@@ -482,7 +482,7 @@
         "preco_por_kg": 3.99
       },
       "savegnago": {
-        "nome": "Margarina Qualy 500g Com Sal",
+        "nome": "Margarina Becel 500g Com Sal",
         "preco": 6.99,
         "preco_por_kg": 13.98
       },
@@ -612,8 +612,8 @@
       "id": "50",
       "goodbom": {
         "nome": "LEITE FERMENTADO FRUTAP 850G",
-        "preco": 9.99,
-        "preco_por_kg": 11.75
+        "preco": 11.49,
+        "preco_por_kg": 13.52
       },
       "tenda": {
         "nome": "Leite Fermentado Patati Patata Frutap 450g",
@@ -630,7 +630,7 @@
         "preco": 8.65,
         "preco_por_kg": 12.01
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "52",
@@ -651,8 +651,8 @@
       },
       "savegnago": {
         "nome": "Arroz Agulhinha 4r 5kg Tipo1",
-        "preco": 16.25,
-        "preco_por_kg": 3.25
+        "preco": 14.8,
+        "preco_por_kg": 2.96
       },
       "mais_barato": "Arena"
     },
@@ -867,8 +867,8 @@
       },
       "savegnago": {
         "nome": "Leite Condensado TP Semidesnatado Italac 395g",
-        "preco": 6.89,
-        "preco_por_kg": 17.44
+        "preco": 5.95,
+        "preco_por_kg": 15.06
       },
       "mais_barato": "Arena"
     },
@@ -969,30 +969,6 @@
       "mais_barato": "Arena"
     },
     {
-      "id": "89",
-      "goodbom": {
-        "nome": "ALCOOL SAFRA BICARBONATO 1L",
-        "preco": 6.59,
-        "preco_por_kg": 6.59
-      },
-      "tenda": {
-        "nome": "Vinagre de Álcool Vitalia 750ml",
-        "preco": 2.29,
-        "preco_por_kg": 3.05
-      },
-      "arena": {
-        "nome": "Álcool Duratto Limpador Uso Geral Neutro 1l",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
-      },
-      "savegnago": {
-        "nome": "Álcool Safra 46,2 Lavanda 1L",
-        "preco": 10.7,
-        "preco_por_kg": 0.23
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
       "id": "90",
       "goodbom": {
         "nome": "LIMPADOR PERFUMADO UAU CHÁ BRANCO 1L LV+ PG-",
@@ -1005,9 +981,9 @@
         "preco_por_kg": 9.8
       },
       "arena": {
-        "nome": "Limpador Perfumado Ypê Tropical 1l",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
+        "nome": "Limpador Perfumado Casa & Perfume Sensualidad 2lt",
+        "preco": 17.79,
+        "preco_por_kg": 8.89
       },
       "savegnago": {
         "nome": "Limpador Perfumado Ypê Chá Branco 1L",
@@ -1101,16 +1077,16 @@
         "preco_por_kg": 2.44
       },
       "arena": {
-        "nome": "Desinfetante Sanol Eucalipto 5l",
-        "preco": 14.59,
-        "preco_por_kg": 2.92
+        "nome": "Desinfetante Barbarex Sensações 5l",
+        "preco": 6.49,
+        "preco_por_kg": 1.3
       },
       "savegnago": {
         "nome": "Desinfetante Triex 5L Flores da Primavera",
         "preco": 14.55,
         "preco_por_kg": 2.91
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "105",
@@ -1173,9 +1149,9 @@
         "preco_por_kg": 47.14
       },
       "arena": {
-        "nome": "Creme Dental Sorriso Dentes Brancos 90g",
-        "preco": 3.79,
-        "preco_por_kg": 42.11
+        "nome": "Creme Dental Sorriso Dentes Brancos Tamanho Família 180g",
+        "preco": 6.79,
+        "preco_por_kg": 37.72
       },
       "savegnago": {
         "nome": "Creme Dental Colgate Tripla Ação 180g Preço Especial",
@@ -1202,9 +1178,9 @@
         "preco_por_kg": 16.87
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 23.3,
-        "preco_por_kg": 25.89
+        "nome": "Sabonete Líquido para Mãos Palmolive Nutrimilk Hidratação 900ml",
+        "preco": 27.95,
+        "preco_por_kg": 31.06
       },
       "mais_barato": "Arena"
     },
