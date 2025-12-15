@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "817.02",
+  "totalGoodbom": "795.62",
   "totalTenda": "952.70",
-  "totalArena": "996.00",
-  "totalSavegnago": "840.45",
+  "totalArena": "1017.20",
+  "totalSavegnago": "847.39",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 84,
+  "encontradosTenda": 85,
   "encontradosArena": 78,
-  "encontradosSavegnago": 72,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -252,8 +252,8 @@
       "id": "29",
       "goodbom": {
         "nome": "MANDIOQUINHA KG",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
+        "preco": 7.99,
+        "preco_por_kg": 7.99
       },
       "tenda": {
         "nome": "Mandioquinha Unidade",
@@ -309,9 +309,9 @@
         "preco_por_kg": 4.49
       },
       "arena": {
-        "nome": "Alface Crespa Unid.",
-        "preco": 4.69,
-        "preco_por_kg": 4.69
+        "nome": "Alface Americana Mais Verdes 200g",
+        "preco": 4.98,
+        "preco_por_kg": 24.9
       },
       "savegnago": {
         "nome": "Alface Crespa Org Solo Vivo",
@@ -372,8 +372,8 @@
       "id": "34",
       "goodbom": {
         "nome": "MAMÃO PAPAYA KG",
-        "preco": 12.99,
-        "preco_por_kg": 12.99
+        "preco": 7.99,
+        "preco_por_kg": 7.99
       },
       "tenda": {
         "nome": "Refresco em pó Tang Laranja Mamão 18g",
@@ -396,8 +396,8 @@
       "id": "35",
       "goodbom": {
         "nome": "BANANA NANICA KG",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "tenda": {
         "nome": "Banana Nanica Unidade",
@@ -419,9 +419,9 @@
     {
       "id": "36",
       "goodbom": {
-        "nome": "UVA THOMPSON 500G",
-        "preco": 7.99,
-        "preco_por_kg": 15.98
+        "nome": "UVA VITÓRIA BANDEJA 500G",
+        "preco": 6.99,
+        "preco_por_kg": 13.98
       },
       "tenda": {
         "nome": "Néctar de Uva Del Valle 290ml",
@@ -443,9 +443,9 @@
     {
       "id": "37",
       "goodbom": {
-        "nome": "MAÇÃ GALA KG",
-        "preco": 9.99,
-        "preco_por_kg": 9.99
+        "nome": "MAÇÃ PACOTE 1KG",
+        "preco": 8.99,
+        "preco_por_kg": 8.99
       },
       "tenda": {
         "nome": "Maçã Pink Lady 155g",
@@ -515,9 +515,9 @@
     {
       "id": "43",
       "goodbom": {
-        "nome": "PRESUNTO COZIDO SADIA SEM CAPA KG",
-        "preco": 25.9,
-        "preco_por_kg": 25.9
+        "nome": "PRESUNTO COZIDO PERDIGÃO KG",
+        "preco": 26.9,
+        "preco_por_kg": 26.9
       },
       "tenda": {
         "nome": "Presunto Cozido sem Capa de Gordura Fatiado Frimesa 200g",
@@ -611,9 +611,9 @@
     {
       "id": "50",
       "goodbom": {
-        "nome": "LEITE FERMENTADO FRUTAP 850G",
-        "preco": 11.49,
-        "preco_por_kg": 13.52
+        "nome": "LEITE FERMENTADO ITAMBE UVA 480G",
+        "preco": 5.99,
+        "preco_por_kg": 12.48
       },
       "tenda": {
         "nome": "Leite Fermentado Patati Patata Frutap 450g",
@@ -851,9 +851,9 @@
     {
       "id": "78",
       "goodbom": {
-        "nome": "LEITE CONDENSADO SEMIDESNATADO PIRACANJUBA 395G TP",
-        "preco": 5.99,
-        "preco_por_kg": 15.16
+        "nome": "LEITE CONDENSADO SEMIDESNATADO TRIANGULO 395G TP",
+        "preco": 4.99,
+        "preco_por_kg": 12.63
       },
       "tenda": {
         "nome": "Leite Condensado Semidesnatado Campos do Jordão 395g",
@@ -1043,9 +1043,9 @@
     {
       "id": "100",
       "goodbom": {
-        "nome": "DETERGENTE YPÊ CLEAR 5L",
-        "preco": 25.99,
-        "preco_por_kg": 5.2
+        "nome": "DETERGENTE LÍQUIDO BARBAREX CLEAR 500ML",
+        "preco": 1.69,
+        "preco_por_kg": 3.38
       },
       "tenda": {
         "nome": "Detergente Líquido Minuano Fresh 500ml",
@@ -1061,6 +1061,30 @@
         "nome": "Detergente Ypê Clear 500ml",
         "preco": 2.59,
         "preco_por_kg": 5.18
+      },
+      "mais_barato": "Goodbom"
+    },
+    {
+      "id": "101",
+      "goodbom": {
+        "nome": "LIMPADOR MULTIUSO UAU LAVANDA 500ML",
+        "preco": 3.99,
+        "preco_por_kg": 7.98
+      },
+      "tenda": {
+        "nome": "Limpador Multiuso Original Azulim Squeeze 500ml",
+        "preco": 2.35,
+        "preco_por_kg": 4.7
+      },
+      "arena": {
+        "nome": "Limpador Multiuso Ype Floral Senses 500ml",
+        "preco": 3.79,
+        "preco_por_kg": 7.58
+      },
+      "savegnago": {
+        "nome": "Limpador Multiuso Ypê Desengordurante 500ml",
+        "preco": 4.29,
+        "preco_por_kg": 8.58
       },
       "mais_barato": "Tenda"
     },
@@ -1109,30 +1133,6 @@
         "nome": "Lã De Aço Bombril Com 6 Unidades",
         "preco": 2.65,
         "preco_por_kg": 2.65
-      },
-      "mais_barato": "Savegnago"
-    },
-    {
-      "id": "107",
-      "goodbom": {
-        "nome": "PAPEL HIGIÊNICO FOLHA DUPLA MILI NEUTRO 30MT C/4",
-        "preco": 6.99,
-        "preco_por_kg": 6.99
-      },
-      "tenda": {
-        "nome": "Papel Higiênico Folha Simples Select 30m 4un",
-        "preco": 4.7,
-        "preco_por_kg": 4.7
-      },
-      "arena": {
-        "nome": "Papel Higiênico Familiar Folha Dupla 30m C/ 4 Rolos",
-        "preco": 6.59,
-        "preco_por_kg": 6.59
-      },
-      "savegnago": {
-        "nome": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
-        "preco": 19.7,
-        "preco_por_kg": 1.64
       },
       "mais_barato": "Savegnago"
     },
@@ -1235,9 +1235,9 @@
     {
       "id": "116",
       "goodbom": {
-        "nome": "LENÇO UMEDECIDO INTIMUS C/16",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
+        "nome": "LENÇO UMEDECIDO GRANADO C/50",
+        "preco": 10.99,
+        "preco_por_kg": 10.99
       },
       "tenda": {
         "nome": "Lenço Umedecido Care On The Go Neve 16 Unidades",
