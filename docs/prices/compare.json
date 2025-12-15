@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "817.38",
-  "totalTenda": "907.00",
-  "totalArena": "1014.37",
-  "totalSavegnago": "842.37",
+  "totalGoodbom": "823.97",
+  "totalTenda": "910.05",
+  "totalArena": "1019.36",
+  "totalSavegnago": "842.60",
   "encontradosGoodbom": 80,
   "encontradosTenda": 85,
   "encontradosArena": 78,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -967,6 +967,30 @@
         "preco_por_kg": 11.52
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "89",
+      "goodbom": {
+        "nome": "ALCOOL SAFRA BICARBONATO 1L",
+        "preco": 6.59,
+        "preco_por_kg": 6.59
+      },
+      "tenda": {
+        "nome": "Vinagre de Álcool Vitalia 750ml",
+        "preco": 2.29,
+        "preco_por_kg": 3.05
+      },
+      "arena": {
+        "nome": "Álcool Duratto Limpador Uso Geral Neutro 1l",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "savegnago": {
+        "nome": "Álcool Safra 46,2 Lavanda 1L",
+        "preco": 10.7,
+        "preco_por_kg": 0.23
+      },
+      "mais_barato": "Savegnago"
     },
     {
       "id": "90",
