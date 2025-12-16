@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "839.93",
-  "totalTenda": "960.99",
-  "totalArena": "996.27",
-  "totalSavegnago": "831.12",
+  "totalGoodbom": "817.94",
+  "totalTenda": "862.48",
+  "totalArena": "966.19",
+  "totalSavegnago": "797.73",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 84,
+  "encontradosTenda": 82,
   "encontradosArena": 78,
   "encontradosSavegnago": 71,
   "produtos": [
@@ -74,9 +74,9 @@
         "preco_por_kg": 21.9
       },
       "savegnago": {
-        "nome": "Linguiça Toscana Swift 700g",
-        "preco": 16.95,
-        "preco_por_kg": 24.21
+        "nome": "Linguiça Toscana Mini Camari 1Kg",
+        "preco": 18.46,
+        "preco_por_kg": 18.46
       },
       "mais_barato": "Tenda"
     },
@@ -995,9 +995,9 @@
     {
       "id": "90",
       "goodbom": {
-        "nome": "LIMPADOR PERFUMADO UAU CHÁ BRANCO 1L LV+ PG-",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
+        "nome": "LIMPADOR PERFUMADO YPÊ CHÁ BRANCO 2L",
+        "preco": 16.99,
+        "preco_por_kg": 8.49
       },
       "tenda": {
         "nome": "Limpador Perfumado Intuizione New Casa & Perfume Frasco 500ml",
@@ -1137,6 +1137,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "107",
+      "goodbom": {
+        "nome": "PAPEL HIGIÊNICO FOLHA DUPLA MILI NEUTRO 30MT C/4",
+        "preco": 7.98,
+        "preco_por_kg": 7.98
+      },
+      "tenda": {
+        "nome": "Papel Higiênico Folha Simples Select 30m 4un",
+        "preco": 4.7,
+        "preco_por_kg": 4.7
+      },
+      "arena": {
+        "nome": "Papel Higiênico Familiar Folha Dupla 30m C/ 4 Rolos",
+        "preco": 6.59,
+        "preco_por_kg": 6.59
+      },
+      "savegnago": {
+        "nome": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
+        "preco": 19.65,
+        "preco_por_kg": 1.64
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "110",
       "goodbom": {
         "nome": "CREME DENTAL COLGATE TOTAL CARVÃO 180G PREÇO ESPECIAL",
@@ -1233,54 +1257,6 @@
       "mais_barato": "Tenda"
     },
     {
-      "id": "116",
-      "goodbom": {
-        "nome": "LENÇO UMEDECIDO GRANADO C/50",
-        "preco": 10.99,
-        "preco_por_kg": 10.99
-      },
-      "tenda": {
-        "nome": "Lenço Umedecido Care On The Go Neve 16 Unidades",
-        "preco": 4.7,
-        "preco_por_kg": 4.7
-      },
-      "arena": {
-        "nome": "Lenço Umedecido Lysoform Original C/ 36 Unid.",
-        "preco": 23.99,
-        "preco_por_kg": 23.99
-      },
-      "savegnago": {
-        "nome": "Lenço Umedecido Huggies Rosto e Corpo com 48 unidades",
-        "preco": 11.34,
-        "preco_por_kg": 11.34
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "117",
-      "goodbom": {
-        "nome": "ALGODAO TOPZ DISCO 50 UNID.",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
-      },
-      "tenda": {
-        "nome": "Algodão Bola Select 95g",
-        "preco": 8.95,
-        "preco_por_kg": 94.21
-      },
-      "arena": {
-        "nome": "Algodão Disco Bellacotton C/ 50 Unid.",
-        "preco": 6.69,
-        "preco_por_kg": 6.69
-      },
-      "savegnago": {
-        "nome": "Amaciante Roupa Vida Macia Glicerina E Algodão 1L",
-        "preco": 14.25,
-        "preco_por_kg": 14.25
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "119",
       "goodbom": {
         "nome": "BISNAGUINHA SEVEN BOYS TRADICIONAL 300G",
@@ -1303,30 +1279,6 @@
         "preco_por_kg": 21.3
       },
       "mais_barato": "Tenda"
-    },
-    {
-      "id": "121",
-      "goodbom": {
-        "nome": "FUBÁ MIMOSO KISABOR 1KG",
-        "preco": 7.49,
-        "preco_por_kg": 7.49
-      },
-      "tenda": {
-        "nome": "Fubá Mimoso PQ 500g",
-        "preco": 2.15,
-        "preco_por_kg": 4.3
-      },
-      "arena": {
-        "nome": "Fubá Kisabor Mimoso 1kg",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
-      },
-      "savegnago": {
-        "nome": "Fuba Mimoso Siamar 1k",
-        "preco": 3.69,
-        "preco_por_kg": 3.69
-      },
-      "mais_barato": "Savegnago"
     }
   ]
 }
