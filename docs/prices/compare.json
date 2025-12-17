@@ -1,8 +1,8 @@
 {
-  "totalGoodbom": "825.84",
-  "totalTenda": "871.26",
-  "totalArena": "643.27",
-  "totalSavegnago": "791.62",
+  "totalGoodbom": "841.02",
+  "totalTenda": "890.40",
+  "totalArena": "647.39",
+  "totalSavegnago": "798.65",
   "encontradosGoodbom": 80,
   "encontradosTenda": 84,
   "encontradosArena": 78,
@@ -40,9 +40,9 @@
         "preco_por_kg": 39.38
       },
       "tenda": {
-        "nome": "Hambúrguer de Carne Bovina Sadia 113g",
-        "preco": 4.9,
-        "preco_por_kg": 43.36
+        "nome": "Hambúrguer de Carne Bovina Air Fryer Seara 150g",
+        "preco": 2.99,
+        "preco_por_kg": 19.93
       },
       "arena": {
         "nome": "Hambúrguer De Carne Bovina Air Fryer Seara 150g",
@@ -54,7 +54,7 @@
         "preco": 23.7,
         "preco_por_kg": 35.27
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Tenda"
     },
     {
       "id": "5",
@@ -83,9 +83,9 @@
     {
       "id": "6",
       "goodbom": {
-        "nome": "SALSICHA HOT DOG SEARA KG",
-        "preco": 12.79,
-        "preco_por_kg": 12.79
+        "nome": "SALSICHA FRANGO ALLIZ KG",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
       },
       "tenda": {
         "nome": "Salsicha Hot Dog Seara 500g",
@@ -314,9 +314,9 @@
         "preco_por_kg": 4.69
       },
       "savegnago": {
-        "nome": "Alface Crespa Org Solo Vivo",
-        "preco": 4.55,
-        "preco_por_kg": 4.55
+        "nome": "Alface Crespa Felicio Maço",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "mais_barato": "Goodbom"
     },
@@ -424,9 +424,9 @@
         "preco_por_kg": 13.98
       },
       "tenda": {
-        "nome": "Uva Vitória Bandeja 500g",
-        "preco": 5.99,
-        "preco_por_kg": 11.98
+        "nome": "Néctar Tial de Uva 1L",
+        "preco": 4.59,
+        "preco_por_kg": 4.59
       },
       "arena": {
         "nome": "Chopp Bierbaum Redkraft Uva 1,5l",
@@ -448,9 +448,9 @@
         "preco_por_kg": 8.99
       },
       "tenda": {
-        "nome": "Maçã Granny Smith Unidade",
-        "preco": 3.38,
-        "preco_por_kg": 3.38
+        "nome": "Banana Maçã Unidade",
+        "preco": 2.15,
+        "preco_por_kg": 2.15
       },
       "arena": {
         "nome": "Suco Maguary Seleção Maça Pet 1,35l",
@@ -530,9 +530,9 @@
         "preco_por_kg": 24.99
       },
       "savegnago": {
-        "nome": "Presunto cozido Aurora fatiado 180g",
-        "preco": 8.75,
-        "preco_por_kg": 48.61
+        "nome": "Presunto Cozido Fatiado Sadia 180g",
+        "preco": 7.96,
+        "preco_por_kg": 44.22
       },
       "mais_barato": "Arena"
     },
@@ -777,6 +777,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "72",
+      "goodbom": {
+        "nome": "AÇUCAR MASCAVO FALEX 1KG",
+        "preco": 15.98,
+        "preco_por_kg": 15.98
+      },
+      "tenda": {
+        "nome": "Paçoquinha com Açúcar Mascavo DaColônia 210g",
+        "preco": 10.75,
+        "preco_por_kg": 51.19
+      },
+      "arena": {
+        "nome": "Paçoca Dacolônia Açucar Mascavo Pote 1,008kg",
+        "preco": 32.99,
+        "preco_por_kg": 4.12
+      },
+      "savegnago": {
+        "nome": "Açúcar Mascavo Rosa Lima 500g",
+        "preco": 5.99,
+        "preco_por_kg": 11.98
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "76",
       "goodbom": {
         "nome": "MAIONESE TRADICIONAL QUERO 495G",
@@ -856,7 +880,7 @@
         "preco_por_kg": 19.95
       },
       "tenda": {
-        "nome": "Creme de Leite Mococa 200g",
+        "nome": "Creme de Leite Lider 200g",
         "preco": 2.39,
         "preco_por_kg": 11.95
       },
@@ -928,7 +952,7 @@
         "preco_por_kg": 22.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
+        "nome": "Desinfetante Bruto Original Lysoform 1L",
         "preco": 15.9,
         "preco_por_kg": 15.9
       },
@@ -1000,7 +1024,7 @@
         "preco_por_kg": 3.98
       },
       "tenda": {
-        "nome": "Lava-Louças Líquido Ypê Capim Limão - Verde - 500Ml -Controle De Odor - Detergente",
+        "nome": "Lava-Louças Líquido Ypê Limão - Verde - 500Ml - Controle De Odor - Detergente",
         "preco": 2.45,
         "preco_por_kg": 4.9
       },
