@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "831.05",
-  "totalTenda": "873.19",
-  "totalArena": "987.43",
-  "totalSavegnago": "784.97",
+  "totalGoodbom": "839.04",
+  "totalTenda": "944.75",
+  "totalArena": "987.53",
+  "totalSavegnago": "786.72",
   "encontradosGoodbom": 80,
   "encontradosTenda": 83,
   "encontradosArena": 78,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -369,6 +369,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "34",
+      "goodbom": {
+        "nome": "MAMÃO PAPAYA KG",
+        "preco": 7.99,
+        "preco_por_kg": 7.99
+      },
+      "tenda": {
+        "nome": "Refresco em pó Tang Laranja Mamão 18g",
+        "preco": 1.09,
+        "preco_por_kg": 60.56
+      },
+      "arena": {
+        "nome": "Iogurte Desnatado Batavo Pense Zero Zero Lactose Mamão 1,150kg",
+        "preco": 15.59,
+        "preco_por_kg": 0.1
+      },
+      "savegnago": {
+        "nome": "Mamão Papaya Golden 1,2Kg",
+        "preco": 1.19,
+        "preco_por_kg": 0.99
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "35",
       "goodbom": {
         "nome": "BANANA NANICA KG",
@@ -400,9 +424,9 @@
         "preco_por_kg": 13.98
       },
       "tenda": {
-        "nome": "Uva Vitória MIMO 400g",
-        "preco": 7.99,
-        "preco_por_kg": 19.97
+        "nome": "Néctar Tial de Uva 1L",
+        "preco": 4.59,
+        "preco_por_kg": 4.59
       },
       "arena": {
         "nome": "Chopp Bierbaum Redkraft Uva 1,5l",
@@ -928,7 +952,7 @@
         "preco_por_kg": 22.99
       },
       "tenda": {
-        "nome": "Desinfetante Lysoform Suave 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 15.9,
         "preco_por_kg": 15.9
       },
@@ -1010,9 +1034,9 @@
         "preco_por_kg": 4.6
       },
       "savegnago": {
-        "nome": "Detergente Ypê Neutro 500ml",
-        "preco": 2.21,
-        "preco_por_kg": 4.42
+        "nome": "Detergente Ypê Clear 500ml",
+        "preco": 2.59,
+        "preco_por_kg": 5.18
       },
       "mais_barato": "Goodbom"
     },
@@ -1024,9 +1048,9 @@
         "preco_por_kg": 8.58
       },
       "tenda": {
-        "nome": "Limpador Multiuso Original Azulim Squeeze 500ml",
-        "preco": 2.75,
-        "preco_por_kg": 5.5
+        "nome": "Limpador Multiuso Limão Azulim 500ml",
+        "preco": 2.55,
+        "preco_por_kg": 5.1
       },
       "arena": {
         "nome": "Limpador Multiuso Ype Floral Senses 500ml",
@@ -1048,9 +1072,9 @@
         "preco_por_kg": 3.5
       },
       "tenda": {
-        "nome": "Desinfetante Ypê BAK Floral 2L",
-        "preco": 8.95,
-        "preco_por_kg": 4.47
+        "nome": "Desinfetante Banheiro Mr Músculo Refil Econômico 400ml",
+        "preco": 12.5,
+        "preco_por_kg": 31.25
       },
       "arena": {
         "nome": "Desinfetante Barbarex Sensações 5l",
