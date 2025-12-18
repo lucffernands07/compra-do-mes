@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "829.99",
-  "totalTenda": "890.40",
-  "totalArena": "992.44",
-  "totalSavegnago": "797.68",
+  "totalGoodbom": "811.11",
+  "totalTenda": "877.54",
+  "totalArena": "972.56",
+  "totalSavegnago": "770.48",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 84,
+  "encontradosTenda": 83,
   "encontradosArena": 78,
   "encontradosSavegnago": 72,
   "produtos": [
@@ -396,8 +396,8 @@
       "id": "35",
       "goodbom": {
         "nome": "BANANA NANICA KG",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
+        "preco": 8.99,
+        "preco_por_kg": 8.99
       },
       "tenda": {
         "nome": "Banana Nanica Unidade",
@@ -507,10 +507,10 @@
       },
       "savegnago": {
         "nome": "Pizza de mussarela Seara 440g",
-        "preco": 16.99,
-        "preco_por_kg": 38.61
+        "preco": 13.59,
+        "preco_por_kg": 30.89
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "43",
@@ -852,8 +852,8 @@
       "id": "78",
       "goodbom": {
         "nome": "LEITE CONDENSADO SEMIDESNATADO TRIANGULO 395G TP",
-        "preco": 4.99,
-        "preco_por_kg": 12.63
+        "preco": 6.59,
+        "preco_por_kg": 16.68
       },
       "tenda": {
         "nome": "Leite Condensado Semidesnatado Campos do Jordão 395g",
@@ -963,8 +963,8 @@
       },
       "savegnago": {
         "nome": "Desinfetante Lysoform 2L Original",
-        "preco": 23.04,
-        "preco_por_kg": 11.52
+        "preco": 28.8,
+        "preco_por_kg": 14.4
       },
       "mais_barato": "Arena"
     },
@@ -986,11 +986,11 @@
         "preco_por_kg": 7.99
       },
       "savegnago": {
-        "nome": "Limpador Perfumado Ypê Chá Branco 1L",
-        "preco": 6.59,
-        "preco_por_kg": 6.59
+        "nome": "Limpador Perfumado Veja Lavanda da França - 2L",
+        "preco": 15.95,
+        "preco_por_kg": 7.97
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Tenda"
     },
     {
       "id": "96",
@@ -1073,8 +1073,8 @@
       },
       "tenda": {
         "nome": "Desinfetante Ypê BAK Floral 2L",
-        "preco": 10.89,
-        "preco_por_kg": 5.45
+        "preco": 8.95,
+        "preco_por_kg": 4.47
       },
       "arena": {
         "nome": "Desinfetante Barbarex Sensações 5l",
@@ -1185,30 +1185,6 @@
       "mais_barato": "Arena"
     },
     {
-      "id": "112",
-      "goodbom": {
-        "nome": "SABONETE PALMOLIVE FRESCOR PURIFICANTE 150G",
-        "preco": 4.19,
-        "preco_por_kg": 27.93
-      },
-      "tenda": {
-        "nome": "Sabonete Barra Desejo de Morango Gipsy 80g",
-        "preco": 0.95,
-        "preco_por_kg": 11.88
-      },
-      "arena": {
-        "nome": "Sabonete Ypê Siene Lavanda 85g",
-        "preco": 1.69,
-        "preco_por_kg": 19.88
-      },
-      "savegnago": {
-        "nome": "Sabonete Flor de Ypê Rosas Brancas e Avelã 85g",
-        "preco": 2.35,
-        "preco_por_kg": 27.65
-      },
-      "mais_barato": "Tenda"
-    },
-    {
       "id": "114",
       "goodbom": {
         "nome": "GEL FIXADOR TRIBAL AZUL 250G",
@@ -1250,9 +1226,9 @@
         "preco_por_kg": 23.99
       },
       "savegnago": {
-        "nome": "Lenço Umedecido Huggies Rosto e Corpo com 48 unidades",
-        "preco": 11.34,
-        "preco_por_kg": 11.34
+        "nome": "Lenço Umedecido Neve Supreme com 48 unidades",
+        "preco": 15.25,
+        "preco_por_kg": 15.25
       },
       "mais_barato": "Tenda"
     },
