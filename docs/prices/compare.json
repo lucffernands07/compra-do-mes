@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "816.24",
-  "totalTenda": "878.20",
-  "totalArena": "633.28",
-  "totalSavegnago": "785.95",
+  "totalGoodbom": "829.99",
+  "totalTenda": "890.40",
+  "totalArena": "992.44",
+  "totalSavegnago": "797.68",
   "encontradosGoodbom": 80,
   "encontradosTenda": 84,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -285,9 +285,9 @@
         "preco_por_kg": 1.59
       },
       "arena": {
-        "nome": "Cheiro Verde Jw Unid.",
-        "preco": 3.7,
-        "preco_por_kg": 3.7
+        "nome": "Cheiro Verde Kisabor Folha 8g",
+        "preco": 2.79,
+        "preco_por_kg": 348.75
       },
       "savegnago": {
         "nome": "Cheiro Verde Organico Solo Vivo",
@@ -467,9 +467,9 @@
     {
       "id": "39",
       "goodbom": {
-        "nome": "MARGARINA DORIANA SEM SAL 500G",
-        "preco": 8.99,
-        "preco_por_kg": 17.98
+        "nome": "MARGARINA QUALY VITA C/SAL 500G",
+        "preco": 9.99,
+        "preco_por_kg": 19.98
       },
       "tenda": {
         "nome": "Margarina com Sal Dualis 500g",
@@ -607,6 +607,30 @@
         "preco_por_kg": 8.99
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "50",
+      "goodbom": {
+        "nome": "LEITE FERMENTADO FRUTAP 850G",
+        "preco": 9.99,
+        "preco_por_kg": 11.75
+      },
+      "tenda": {
+        "nome": "Leite Fermentado Patati Patata Frutap 450g",
+        "preco": 5.49,
+        "preco_por_kg": 12.2
+      },
+      "arena": {
+        "nome": "Leite Fermentado Desnatado Chamyto C/6 Unid. 450g",
+        "preco": 6.35,
+        "preco_por_kg": 14.11
+      },
+      "savegnago": {
+        "nome": "Leite Fermentado Itambé 1,150kg",
+        "preco": 14.95,
+        "preco_por_kg": 13
+      },
+      "mais_barato": "Goodbom"
     },
     {
       "id": "52",
@@ -1178,7 +1202,7 @@
         "preco_por_kg": 19.88
       },
       "savegnago": {
-        "nome": "Sabonete Flor de Ypê Flor de Maçã e Framboesa 85g",
+        "nome": "Sabonete Flor de Ypê Rosas Brancas e Avelã 85g",
         "preco": 2.35,
         "preco_por_kg": 27.65
       },
@@ -1250,9 +1274,9 @@
         "preco_por_kg": 6.69
       },
       "savegnago": {
-        "nome": "Amaciante Roupa Vida Macia Glicerina E Algodão 1L",
-        "preco": 14.25,
-        "preco_por_kg": 14.25
+        "nome": "Oléo composto de Milho e Algodão para fritura Liza 500ml",
+        "preco": 6.49,
+        "preco_por_kg": 12.98
       },
       "mais_barato": "Arena"
     },
