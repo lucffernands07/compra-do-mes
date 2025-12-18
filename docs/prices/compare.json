@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "824.28",
-  "totalTenda": "866.78",
-  "totalArena": "638.36",
-  "totalSavegnago": "774.74",
+  "totalGoodbom": "841.26",
+  "totalTenda": "917.97",
+  "totalArena": "642.48",
+  "totalSavegnago": "786.72",
   "encontradosGoodbom": 80,
-  "encontradosTenda": 82,
+  "encontradosTenda": 83,
   "encontradosArena": 78,
   "encontradosSavegnago": 72,
   "produtos": [
@@ -515,9 +515,9 @@
     {
       "id": "43",
       "goodbom": {
-        "nome": "PRESUNTO COZIDO SEARA SEM CAPA KG",
-        "preco": 29.9,
-        "preco_por_kg": 29.9
+        "nome": "PRESUNTO COZIDO SADIA SEM CAPA KG",
+        "preco": 30.9,
+        "preco_por_kg": 30.9
       },
       "tenda": {
         "nome": "Presunto Cozido sem Capa de Gordura Fatiado Frimesa 200g",
@@ -777,6 +777,30 @@
       "mais_barato": "Savegnago"
     },
     {
+      "id": "72",
+      "goodbom": {
+        "nome": "AÇUCAR MASCAVO FALEX 1KG",
+        "preco": 15.98,
+        "preco_por_kg": 15.98
+      },
+      "tenda": {
+        "nome": "Paçoquinha com Açúcar Mascavo DaColônia 210g",
+        "preco": 10.75,
+        "preco_por_kg": 51.19
+      },
+      "arena": {
+        "nome": "Paçoca Dacolônia Açucar Mascavo Pote 1,008kg",
+        "preco": 32.99,
+        "preco_por_kg": 4.12
+      },
+      "savegnago": {
+        "nome": "Açúcar Mascavo Rosa Lima 500g",
+        "preco": 5.99,
+        "preco_por_kg": 11.98
+      },
+      "mais_barato": "Arena"
+    },
+    {
       "id": "76",
       "goodbom": {
         "nome": "MAIONESE TRADICIONAL QUERO 495G",
@@ -928,7 +952,7 @@
         "preco_por_kg": 22.99
       },
       "tenda": {
-        "nome": "Desinfetante Bruto Original Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 15.9,
         "preco_por_kg": 15.9
       },
@@ -952,7 +976,7 @@
         "preco_por_kg": 8.49
       },
       "tenda": {
-        "nome": "Limpador Perfumado Ypê Chá Branco 1 Litro",
+        "nome": "Limpador Perfumado Ypê Doce Vida 1L",
         "preco": 8.95,
         "preco_por_kg": 8.95
       },
