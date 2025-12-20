@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "882.33",
-  "totalTenda": "944.15",
-  "totalArena": "962.54",
-  "totalSavegnago": "801.17",
+  "totalGoodbom": "886.32",
+  "totalTenda": "947.64",
+  "totalArena": "969.13",
+  "totalSavegnago": "806.40",
   "encontradosGoodbom": 81,
   "encontradosTenda": 82,
   "encontradosArena": 78,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -895,6 +895,30 @@
         "preco_por_kg": 16.95
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "82",
+      "goodbom": {
+        "nome": "CHÁ LEÃO HORTELÃ 10 SACHÊS",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
+      },
+      "tenda": {
+        "nome": "Chá Matte Natural Leão 10 Sachês",
+        "preco": 3.49,
+        "preco_por_kg": 3.49
+      },
+      "arena": {
+        "nome": "Chá Branco Natural Tea Lichia 1l",
+        "preco": 6.59,
+        "preco_por_kg": 6.59
+      },
+      "savegnago": {
+        "nome": "Chá Ice Tea Leão Sabor Limão PET 1,5L",
+        "preco": 7.85,
+        "preco_por_kg": 5.23
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "87",
