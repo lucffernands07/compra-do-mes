@@ -1,19 +1,5 @@
 [
   {
-    "id": 2,
-    "supermercado": "Tenda",
-    "produto": "Bacon Pedaço Sadia 500g",
-    "preco": 14.95,
-    "preco_por_kg": 29.9
-  },
-  {
-    "id": 3,
-    "supermercado": "Tenda",
-    "produto": "Linguiça Calabresa Brasa 400g",
-    "preco": 9.39,
-    "preco_por_kg": 23.48
-  },
-  {
     "id": 4,
     "supermercado": "Tenda",
     "produto": "Hambúrguer de Carne Bovina Air Fryer Seara 150g",
@@ -56,13 +42,6 @@
     "preco_por_kg": 52.9
   },
   {
-    "id": 12,
-    "supermercado": "Tenda",
-    "produto": "Muscúlo bovino pedaço Resfriado bandeja 400g",
-    "preco": 15.16,
-    "preco_por_kg": 37.9
-  },
-  {
     "id": 18,
     "supermercado": "Tenda",
     "produto": "Pimentão Verde Saco 440g",
@@ -77,25 +56,11 @@
     "preco_por_kg": 39.69
   },
   {
-    "id": 20,
-    "supermercado": "Tenda",
-    "produto": "Pimentão Amarelo Bandeja 350g",
-    "preco": 13.89,
-    "preco_por_kg": 39.69
-  },
-  {
     "id": 22,
     "supermercado": "Tenda",
     "produto": "Vagem Macarrão 300g",
     "preco": 3.72,
     "preco_por_kg": 12.4
-  },
-  {
-    "id": 23,
-    "supermercado": "Tenda",
-    "produto": "Abobrinha Italiana Unidade",
-    "preco": 1.1,
-    "preco_por_kg": 1.1
   },
   {
     "id": 24,
@@ -126,18 +91,18 @@
     "preco_por_kg": 17.93
   },
   {
-    "id": 28,
-    "supermercado": "Tenda",
-    "produto": "Chuchu Unidade",
-    "preco": 1.48,
-    "preco_por_kg": 1.48
-  },
-  {
     "id": 29,
     "supermercado": "Tenda",
     "produto": "Mandioquinha Unidade",
     "preco": 1.28,
     "preco_por_kg": 1.28
+  },
+  {
+    "id": 30,
+    "supermercado": "Tenda",
+    "produto": "Cheiro Verde Maço Unidade",
+    "preco": 1.59,
+    "preco_por_kg": 1.59
   },
   {
     "id": 31,
@@ -154,27 +119,6 @@
     "preco_por_kg": 4.07
   },
   {
-    "id": 33,
-    "supermercado": "Tenda",
-    "produto": "Alho Descascado Kamar 200g",
-    "preco": 9.89,
-    "preco_por_kg": 49.45
-  },
-  {
-    "id": 34,
-    "supermercado": "Tenda",
-    "produto": "Refresco em pó Tang Laranja Mamão 18g",
-    "preco": 1.09,
-    "preco_por_kg": 60.56
-  },
-  {
-    "id": 35,
-    "supermercado": "Tenda",
-    "produto": "Banana Nanica Unidade",
-    "preco": 0.93,
-    "preco_por_kg": 0.93
-  },
-  {
     "id": 36,
     "supermercado": "Tenda",
     "produto": "Uva Vitória Bandeja 500g",
@@ -182,25 +126,11 @@
     "preco_por_kg": 11.98
   },
   {
-    "id": 37,
-    "supermercado": "Tenda",
-    "produto": "Banana Maçã Unidade",
-    "preco": 2.69,
-    "preco_por_kg": 2.69
-  },
-  {
     "id": 38,
     "supermercado": "Tenda",
     "produto": "Mexerica Carioca 120g",
     "preco": 0.97,
     "preco_por_kg": 8.08
-  },
-  {
-    "id": 39,
-    "supermercado": "Tenda",
-    "produto": "Margarina com Sal Dualis 500g",
-    "preco": 3.79,
-    "preco_por_kg": 7.58
   },
   {
     "id": 40,
@@ -231,13 +161,6 @@
     "preco_por_kg": 25.28
   },
   {
-    "id": 45,
-    "supermercado": "Tenda",
-    "produto": "Batata Congelada Carinhas Bem Brasil 1,05kg",
-    "preco": 11.99,
-    "preco_por_kg": 11.42
-  },
-  {
     "id": 47,
     "supermercado": "Tenda",
     "produto": "Mandioca 500g",
@@ -245,25 +168,11 @@
     "preco_por_kg": 3.3
   },
   {
-    "id": 48,
-    "supermercado": "Tenda",
-    "produto": "Seleta de Legumes Congelados De Marchi 1,02kg",
-    "preco": 12.9,
-    "preco_por_kg": 12.65
-  },
-  {
     "id": 49,
     "supermercado": "Tenda",
     "produto": "Água de Coco Nocoko Caixa 200ml",
     "preco": 0.99,
     "preco_por_kg": 4.95
-  },
-  {
-    "id": 50,
-    "supermercado": "Tenda",
-    "produto": "Leite Fermentado Patati Patata Frutap 450g",
-    "preco": 4.59,
-    "preco_por_kg": 10.2
   },
   {
     "id": 52,
@@ -278,13 +187,6 @@
     "produto": "Feijão Carioca da Casa 1kg",
     "preco": 4.99,
     "preco_por_kg": 4.99
-  },
-  {
-    "id": 54,
-    "supermercado": "Tenda",
-    "produto": "Macarrão de Arroz Espaguete Urbano 500g",
-    "preco": 3.95,
-    "preco_por_kg": 7.9
   },
   {
     "id": 56,
@@ -322,25 +224,11 @@
     "preco_por_kg": 2.6
   },
   {
-    "id": 68,
-    "supermercado": "Tenda",
-    "produto": "Milho Verde Sachê Fugini 170g",
-    "preco": 2.99,
-    "preco_por_kg": 17.59
-  },
-  {
     "id": 69,
     "supermercado": "Tenda",
     "produto": "Seleta de Legumes Stella D'Oro 170g",
     "preco": 3.59,
     "preco_por_kg": 21.12
-  },
-  {
-    "id": 70,
-    "supermercado": "Tenda",
-    "produto": "Sardinha em Óleo Pescador 125g",
-    "preco": 4.79,
-    "preco_por_kg": 38.32
   },
   {
     "id": 71,
@@ -408,9 +296,9 @@
   {
     "id": 82,
     "supermercado": "Tenda",
-    "produto": "Chá Matte Natural Leão 10 Sachês",
-    "preco": 3.49,
-    "preco_por_kg": 3.49
+    "produto": "Limpador Perfumado Ypê Chá Branco 1 Litro",
+    "preco": 8.95,
+    "preco_por_kg": 8.95
   },
   {
     "id": 87,
@@ -429,7 +317,7 @@
   {
     "id": 90,
     "supermercado": "Tenda",
-    "produto": "Limpador Perfumado Ypê Jardim Secreto 1 Litro",
+    "produto": "Limpador Perfumado Ypê Doce Vida 1L",
     "preco": 8.95,
     "preco_por_kg": 8.95
   },
@@ -450,16 +338,9 @@
   {
     "id": 100,
     "supermercado": "Tenda",
-    "produto": "Lava-Louças Líquido Ypê Limão - Verde - 500Ml - Controle De Odor - Detergente",
-    "preco": 2.39,
-    "preco_por_kg": 4.78
-  },
-  {
-    "id": 101,
-    "supermercado": "Tenda",
-    "produto": "Limpador Multiuso Limão Azulim 500ml",
-    "preco": 2.55,
-    "preco_por_kg": 5.1
+    "produto": "Detergente Líquido Minuano Neutro 500ml",
+    "preco": 1.89,
+    "preco_por_kg": 3.78
   },
   {
     "id": 103,
@@ -525,39 +406,11 @@
     "preco_por_kg": 11.39
   },
   {
-    "id": 116,
-    "supermercado": "Tenda",
-    "produto": "Lenço Umedecido Care On The Go Neve 16 Unidades",
-    "preco": 5.49,
-    "preco_por_kg": 5.49
-  },
-  {
     "id": 117,
     "supermercado": "Tenda",
     "produto": "Óleo de Algodão Liza 900ml",
     "preco": 11.9,
     "preco_por_kg": 13.22
-  },
-  {
-    "id": 118,
-    "supermercado": "Tenda",
-    "produto": "Solução Bucal Cool Mint Listerine 250ml",
-    "preco": 19.2,
-    "preco_por_kg": 76.8
-  },
-  {
-    "id": 119,
-    "supermercado": "Tenda",
-    "produto": "Bisnaguinha Kim 300g",
-    "preco": 4.95,
-    "preco_por_kg": 16.5
-  },
-  {
-    "id": 120,
-    "supermercado": "Tenda",
-    "produto": "Areia para Gatos Putz 4kg",
-    "preco": 10.2,
-    "preco_por_kg": 2.55
   },
   {
     "id": 121,
