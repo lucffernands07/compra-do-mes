@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "740.00",
-  "totalTenda": "770.61",
-  "totalArena": "586.78",
-  "totalSavegnago": "786.18",
+  "totalGoodbom": "801.72",
+  "totalTenda": "847.87",
+  "totalArena": "619.71",
+  "totalSavegnago": "824.87",
   "encontradosGoodbom": 81,
-  "encontradosTenda": 81,
+  "encontradosTenda": 82,
   "encontradosArena": 78,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -585,6 +585,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "49",
+      "goodbom": {
+        "nome": "ÁGUA DE COCO PURO COCO MORANGO 180ML",
+        "preco": 1.89,
+        "preco_por_kg": 10.5
+      },
+      "tenda": {
+        "nome": "Água de Coco Nocoko Caixa 200ml",
+        "preco": 0.99,
+        "preco_por_kg": 4.95
+      },
+      "arena": {
+        "nome": "Água De Coco Super Coco 1l",
+        "preco": 7.69,
+        "preco_por_kg": 7.69
+      },
+      "savegnago": {
+        "nome": "Água De Coco Puro Coco 1L",
+        "preco": 8.45,
+        "preco_por_kg": 8.45
+      },
+      "mais_barato": "Tenda"
+    },
+    {
       "id": "50",
       "goodbom": {
         "nome": "LEITE FERMENTADO FRUTAP 850G",
@@ -626,9 +650,9 @@
         "preco_por_kg": 2.8
       },
       "savegnago": {
-        "nome": "Arroz Agulhinha 4r 5kg Tipo1",
-        "preco": 12.9,
-        "preco_por_kg": 2.58
+        "nome": "Arroz Pop Branco Tipo 1 5Kg",
+        "preco": 13.9,
+        "preco_por_kg": 2.78
       },
       "mais_barato": "Savegnago"
     },
@@ -675,8 +699,8 @@
       },
       "savegnago": {
         "nome": "Óleo de Soja Soya Pet 900ml",
-        "preco": 6.95,
-        "preco_por_kg": 7.72
+        "preco": 7.75,
+        "preco_por_kg": 8.61
       },
       "mais_barato": "Arena"
     },
@@ -725,6 +749,54 @@
         "nome": "Milho Verde Irmãos Pimenta Bandeja 600g",
         "preco": 5.99,
         "preco_por_kg": 9.98
+      },
+      "mais_barato": "Arena"
+    },
+    {
+      "id": "69",
+      "goodbom": {
+        "nome": "SELETA DE LEGUMES LATA QUERO 170G",
+        "preco": 5.99,
+        "preco_por_kg": 35.24
+      },
+      "tenda": {
+        "nome": "Seleta de Legumes Stella D'Oro 170g",
+        "preco": 3.59,
+        "preco_por_kg": 21.12
+      },
+      "arena": {
+        "nome": "Seleta De Legumes Quero Lata 170g",
+        "preco": 3.59,
+        "preco_por_kg": 21.12
+      },
+      "savegnago": {
+        "nome": "Seleta De Legumes 300g Agroverts",
+        "preco": 5.15,
+        "preco_por_kg": 17.17
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
+      "id": "72",
+      "goodbom": {
+        "nome": "AÇUCAR MASCAVO FALEX 1KG",
+        "preco": 15.98,
+        "preco_por_kg": 15.98
+      },
+      "tenda": {
+        "nome": "Paçoquinha com Açúcar Mascavo DaColônia 210g",
+        "preco": 10.75,
+        "preco_por_kg": 51.19
+      },
+      "arena": {
+        "nome": "Paçoca Dacolônia Açucar Mascavo Pote 1,008kg",
+        "preco": 32.99,
+        "preco_por_kg": 4.12
+      },
+      "savegnago": {
+        "nome": "Açúcar Mascavo Rosa Lima 500g",
+        "preco": 5.99,
+        "preco_por_kg": 11.98
       },
       "mais_barato": "Arena"
     },
@@ -880,7 +952,7 @@
         "preco_por_kg": 22.99
       },
       "tenda": {
-        "nome": "Desinfetante Bruto Original Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
         "preco": 15.9,
         "preco_por_kg": 15.9
       },
@@ -904,7 +976,7 @@
         "preco_por_kg": 8.49
       },
       "tenda": {
-        "nome": "Limpador Perfumado Ypê Jardim Secreto 1 Litro",
+        "nome": "Limpador Perfumado Ypê Chá Branco 1 Litro",
         "preco": 8.95,
         "preco_por_kg": 8.95
       },
