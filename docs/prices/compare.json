@@ -1,13 +1,37 @@
 {
-  "totalGoodbom": "736.95",
-  "totalTenda": "802.47",
-  "totalArena": "563.19",
-  "totalSavegnago": "744.12",
+  "totalGoodbom": "785.74",
+  "totalTenda": "796.68",
+  "totalArena": "615.59",
+  "totalSavegnago": "811.80",
   "encontradosGoodbom": 81,
-  "encontradosTenda": 78,
+  "encontradosTenda": 82,
   "encontradosArena": 78,
   "encontradosSavegnago": 72,
   "produtos": [
+    {
+      "id": "3",
+      "goodbom": {
+        "nome": "LINGUIÇA CALABRESA FINA SWIFT 500G",
+        "preco": 21.9,
+        "preco_por_kg": 43.8
+      },
+      "tenda": {
+        "nome": "Linguiça Calabresa Brasa 400g",
+        "preco": 9.39,
+        "preco_por_kg": 23.48
+      },
+      "arena": {
+        "nome": "Linguiça Calabresa Sadia Pacote 5kg",
+        "preco": 109.19,
+        "preco_por_kg": 21.84
+      },
+      "savegnago": {
+        "nome": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
+        "preco": 10.45,
+        "preco_por_kg": 20.9
+      },
+      "mais_barato": "Savegnago"
+    },
     {
       "id": "4",
       "goodbom": {
@@ -177,6 +201,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "27",
+      "goodbom": {
+        "nome": "CENOURA KG",
+        "preco": 5.99,
+        "preco_por_kg": 5.99
+      },
+      "tenda": {
+        "nome": "Iogurte Natural Laranja, Cenoura e Mel Viv Vigor 150g",
+        "preco": 2.69,
+        "preco_por_kg": 17.93
+      },
+      "arena": {
+        "nome": "Cenoura Kg",
+        "preco": 3.89,
+        "preco_por_kg": 3.89
+      },
+      "savegnago": {
+        "nome": "Cenoura 1Kg",
+        "preco": 2.95,
+        "preco_por_kg": 2.95
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "28",
       "goodbom": {
         "nome": "CHUCHU KG",
@@ -201,6 +249,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "29",
+      "goodbom": {
+        "nome": "MANDIOQUINHA KG",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
+      },
+      "tenda": {
+        "nome": "Mandioquinha Unidade",
+        "preco": 1.28,
+        "preco_por_kg": 1.28
+      },
+      "arena": {
+        "nome": "Mandioquinha Kg",
+        "preco": 25.9,
+        "preco_por_kg": 25.9
+      },
+      "savegnago": {
+        "nome": "Caldo de Mandioquinha com Frango Na Panelinha Seara 300g",
+        "preco": 2.59,
+        "preco_por_kg": 8.63
+      },
+      "mais_barato": "Tenda"
+    },
+    {
       "id": "30",
       "goodbom": {
         "nome": "CHEIRO VERDE MAÇO",
@@ -218,9 +290,9 @@
         "preco_por_kg": 3.7
       },
       "savegnago": {
-        "nome": "Cheiro Verde Organico Solo Vivo",
-        "preco": 8.59,
-        "preco_por_kg": 8.59
+        "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
+        "preco": 7.99,
+        "preco_por_kg": 53.27
       },
       "mais_barato": "Tenda"
     },
@@ -247,6 +319,30 @@
         "preco_por_kg": 4.55
       },
       "mais_barato": "Goodbom"
+    },
+    {
+      "id": "32",
+      "goodbom": {
+        "nome": "REPOLHO LISO KG",
+        "preco": 2.99,
+        "preco_por_kg": 2.99
+      },
+      "tenda": {
+        "nome": "Repolho Verde Unidade",
+        "preco": 2.71,
+        "preco_por_kg": 2.71
+      },
+      "arena": {
+        "nome": "Repolho Verde Kg",
+        "preco": 4.89,
+        "preco_por_kg": 4.89
+      },
+      "savegnago": {
+        "nome": "Repolho Verde 2Kg",
+        "preco": 4.99,
+        "preco_por_kg": 2.5
+      },
+      "mais_barato": "Savegnago"
     },
     {
       "id": "33",
@@ -681,30 +777,6 @@
       "mais_barato": "Savegnago"
     },
     {
-      "id": "72",
-      "goodbom": {
-        "nome": "AÇUCAR MASCAVO FALEX 1KG",
-        "preco": 15.98,
-        "preco_por_kg": 15.98
-      },
-      "tenda": {
-        "nome": "Paçoquinha com Açúcar Mascavo DaColônia 210g",
-        "preco": 10.75,
-        "preco_por_kg": 51.19
-      },
-      "arena": {
-        "nome": "Paçoca Dacolônia Açucar Mascavo Pote 1,008kg",
-        "preco": 32.99,
-        "preco_por_kg": 4.12
-      },
-      "savegnago": {
-        "nome": "Açúcar Mascavo Rosa Lima 500g",
-        "preco": 5.99,
-        "preco_por_kg": 11.98
-      },
-      "mais_barato": "Arena"
-    },
-    {
       "id": "76",
       "goodbom": {
         "nome": "MAIONESE TRADICIONAL ARISCO 500G",
@@ -856,7 +928,7 @@
         "preco_por_kg": 22.99
       },
       "tenda": {
-        "nome": "Desinfetante Lysoform Suave 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 15.9,
         "preco_por_kg": 15.9
       },
@@ -880,7 +952,7 @@
         "preco_por_kg": 8.49
       },
       "tenda": {
-        "nome": "Limpador Perfumado Ypê Jardim Secreto 1 Litro",
+        "nome": "Limpador Perfumado Ypê Chá Branco 1 Litro",
         "preco": 8.95,
         "preco_por_kg": 8.95
       },

@@ -1,5 +1,19 @@
 [
   {
+    "id": 2,
+    "supermercado": "Tenda",
+    "produto": "Bacon Pedaço Sadia 500g",
+    "preco": 14.95,
+    "preco_por_kg": 29.9
+  },
+  {
+    "id": 3,
+    "supermercado": "Tenda",
+    "produto": "Linguiça Calabresa Brasa 400g",
+    "preco": 9.39,
+    "preco_por_kg": 23.48
+  },
+  {
     "id": 4,
     "supermercado": "Tenda",
     "produto": "Hambúrguer de Carne Bovina Air Fryer Seara 150g",
@@ -63,6 +77,13 @@
     "preco_por_kg": 39.69
   },
   {
+    "id": 20,
+    "supermercado": "Tenda",
+    "produto": "Pimentão Amarelo Bandeja 350g",
+    "preco": 13.89,
+    "preco_por_kg": 39.69
+  },
+  {
     "id": 22,
     "supermercado": "Tenda",
     "produto": "Vagem Macarrão 300g",
@@ -98,11 +119,25 @@
     "preco_por_kg": 1.15
   },
   {
+    "id": 27,
+    "supermercado": "Tenda",
+    "produto": "Iogurte Natural Laranja, Cenoura e Mel Viv Vigor 150g",
+    "preco": 2.69,
+    "preco_por_kg": 17.93
+  },
+  {
     "id": 28,
     "supermercado": "Tenda",
     "produto": "Chuchu Unidade",
     "preco": 1.48,
     "preco_por_kg": 1.48
+  },
+  {
+    "id": 29,
+    "supermercado": "Tenda",
+    "produto": "Mandioquinha Unidade",
+    "preco": 1.28,
+    "preco_por_kg": 1.28
   },
   {
     "id": 30,
@@ -117,6 +152,13 @@
     "produto": "Alface Mimosa Unidade",
     "preco": 4.49,
     "preco_por_kg": 4.49
+  },
+  {
+    "id": 32,
+    "supermercado": "Tenda",
+    "produto": "Repolho Verde Unidade",
+    "preco": 2.71,
+    "preco_por_kg": 2.71
   },
   {
     "id": 33,
@@ -166,13 +208,6 @@
     "produto": "Margarina Cremosa com Sal Claybom Pote 250g",
     "preco": 3.65,
     "preco_por_kg": 14.6
-  },
-  {
-    "id": 40,
-    "supermercado": "Tenda",
-    "produto": "Creme de Leite Zero Lactose Italac 200g",
-    "preco": 3.79,
-    "preco_por_kg": 18.95
   },
   {
     "id": 42,
@@ -322,13 +357,6 @@
     "preco_por_kg": 5.39
   },
   {
-    "id": 72,
-    "supermercado": "Tenda",
-    "produto": "Paçoquinha com Açúcar Mascavo DaColônia 210g",
-    "preco": 10.75,
-    "preco_por_kg": 51.19
-  },
-  {
     "id": 74,
     "supermercado": "Tenda",
     "produto": "Suco Concentrado de Caju Maguary 500ml",
@@ -394,14 +422,14 @@
   {
     "id": 88,
     "supermercado": "Tenda",
-    "produto": "Desinfetante Lysoform Suave 1L",
+    "produto": "Desinfetante Uso Geral Lavanda Lysoform 1L",
     "preco": 15.9,
     "preco_por_kg": 15.9
   },
   {
     "id": 90,
     "supermercado": "Tenda",
-    "produto": "Limpador Perfumado Ypê Jardim Secreto 1 Litro",
+    "produto": "Limpador Perfumado Ypê Chá Branco 1 Litro",
     "preco": 8.95,
     "preco_por_kg": 8.95
   },
