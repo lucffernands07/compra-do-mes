@@ -1,19 +1,5 @@
 [
   {
-    "id": 2,
-    "supermercado": "Tenda",
-    "produto": "Bacon Pedaço Sadia 500g",
-    "preco": 14.95,
-    "preco_por_kg": 29.9
-  },
-  {
-    "id": 3,
-    "supermercado": "Tenda",
-    "produto": "Linguiça Calabresa Brasa 400g",
-    "preco": 9.39,
-    "preco_por_kg": 23.48
-  },
-  {
     "id": 4,
     "supermercado": "Tenda",
     "produto": "Hambúrguer de Carne Bovina Air Fryer Seara 150g",
@@ -56,6 +42,13 @@
     "preco_por_kg": 52.9
   },
   {
+    "id": 12,
+    "supermercado": "Tenda",
+    "produto": "Muscúlo bovino pedaço Resfriado bandeja 400g",
+    "preco": 15.16,
+    "preco_por_kg": 37.9
+  },
+  {
     "id": 18,
     "supermercado": "Tenda",
     "produto": "Pimentão Verde Saco 440g",
@@ -91,18 +84,18 @@
     "preco_por_kg": 2.99
   },
   {
+    "id": 25,
+    "supermercado": "Tenda",
+    "produto": "Inhame Unidade",
+    "preco": 1.64,
+    "preco_por_kg": 1.64
+  },
+  {
     "id": 26,
     "supermercado": "Tenda",
     "produto": "Gengibre Unidade",
     "preco": 1.15,
     "preco_por_kg": 1.15
-  },
-  {
-    "id": 27,
-    "supermercado": "Tenda",
-    "produto": "Iogurte Natural Laranja, Cenoura e Mel Viv Vigor 150g",
-    "preco": 2.69,
-    "preco_por_kg": 17.93
   },
   {
     "id": 28,
@@ -112,11 +105,18 @@
     "preco_por_kg": 1.48
   },
   {
-    "id": 29,
+    "id": 30,
     "supermercado": "Tenda",
-    "produto": "Mandioquinha Unidade",
-    "preco": 1.28,
-    "preco_por_kg": 1.28
+    "produto": "Cheiro Verde Maço Unidade",
+    "preco": 1.59,
+    "preco_por_kg": 1.59
+  },
+  {
+    "id": 31,
+    "supermercado": "Tenda",
+    "produto": "Alface Mimosa Unidade",
+    "preco": 4.49,
+    "preco_por_kg": 4.49
   },
   {
     "id": 33,
@@ -152,6 +152,13 @@
     "produto": "Banana Maçã Unidade",
     "preco": 2.69,
     "preco_por_kg": 2.69
+  },
+  {
+    "id": 38,
+    "supermercado": "Tenda",
+    "produto": "Mexerica Carioca 120g",
+    "preco": 0.97,
+    "preco_por_kg": 8.08
   },
   {
     "id": 39,
@@ -201,6 +208,13 @@
     "produto": "Mandioca 500g",
     "preco": 1.65,
     "preco_por_kg": 3.3
+  },
+  {
+    "id": 48,
+    "supermercado": "Tenda",
+    "produto": "Seleta de Legumes Congelados De Marchi 1,02kg",
+    "preco": 12.9,
+    "preco_por_kg": 12.65
   },
   {
     "id": 49,
@@ -280,6 +294,13 @@
     "preco_por_kg": 2.6
   },
   {
+    "id": 68,
+    "supermercado": "Tenda",
+    "produto": "Milho Verde Sachê Fugini 170g",
+    "preco": 2.99,
+    "preco_por_kg": 17.59
+  },
+  {
     "id": 69,
     "supermercado": "Tenda",
     "produto": "Seleta de Legumes Stella D'Oro 170g",
@@ -308,6 +329,13 @@
     "preco_por_kg": 51.19
   },
   {
+    "id": 74,
+    "supermercado": "Tenda",
+    "produto": "Suco Concentrado de Caju Maguary 500ml",
+    "preco": 5.19,
+    "preco_por_kg": 10.38
+  },
+  {
     "id": 76,
     "supermercado": "Tenda",
     "produto": "Maionese Hellmann's Tradicional 335g",
@@ -320,6 +348,20 @@
     "produto": "Mostarda Tradicional Quero 190g",
     "preco": 5.79,
     "preco_por_kg": 30.47
+  },
+  {
+    "id": 78,
+    "supermercado": "Tenda",
+    "produto": "Leite Condensado Semidesnatado Campos do Jordão 395g",
+    "preco": 4.19,
+    "preco_por_kg": 10.61
+  },
+  {
+    "id": 79,
+    "supermercado": "Tenda",
+    "produto": "Creme de Leite Lider 200g",
+    "preco": 2.49,
+    "preco_por_kg": 12.45
   },
   {
     "id": 80,
@@ -352,14 +394,14 @@
   {
     "id": 88,
     "supermercado": "Tenda",
-    "produto": "Desinfetante Uso Geral Citrus Lysoform 1L",
+    "produto": "Desinfetante Lysoform Suave 1L",
     "preco": 15.9,
     "preco_por_kg": 15.9
   },
   {
     "id": 90,
     "supermercado": "Tenda",
-    "produto": "Limpador Perfumado Ypê Chá Branco 1 Litro",
+    "produto": "Limpador Perfumado Ypê Jardim Secreto 1 Litro",
     "preco": 8.95,
     "preco_por_kg": 8.95
   },
@@ -380,9 +422,9 @@
   {
     "id": 100,
     "supermercado": "Tenda",
-    "produto": "Detergente Líquido Minuano Fresh 500ml",
-    "preco": 1.89,
-    "preco_por_kg": 3.78
+    "produto": "Lava-Louças Líquido Ypê Limão - Verde - 500Ml - Controle De Odor - Detergente",
+    "preco": 2.39,
+    "preco_por_kg": 4.78
   },
   {
     "id": 101,
@@ -394,9 +436,9 @@
   {
     "id": 103,
     "supermercado": "Tenda",
-    "produto": "Desinfetante Lavanda Select 2L",
-    "preco": 4.5,
-    "preco_por_kg": 2.25
+    "produto": "Desinfetante Ypê BAK Floral 2L",
+    "preco": 8.95,
+    "preco_por_kg": 4.47
   },
   {
     "id": 105,
@@ -434,6 +476,13 @@
     "preco_por_kg": 24.5
   },
   {
+    "id": 112,
+    "supermercado": "Tenda",
+    "produto": "Sabonete Barra Desejo de Morango Gipsy 80g",
+    "preco": 0.95,
+    "preco_por_kg": 11.88
+  },
+  {
     "id": 114,
     "supermercado": "Tenda",
     "produto": "Gel Fixador Incolor Soft Fix 250g",
@@ -455,11 +504,32 @@
     "preco_por_kg": 5.49
   },
   {
+    "id": 117,
+    "supermercado": "Tenda",
+    "produto": "Óleo de Algodão Liza 900ml",
+    "preco": 11.9,
+    "preco_por_kg": 13.22
+  },
+  {
     "id": 118,
     "supermercado": "Tenda",
     "produto": "Solução Bucal Cool Mint Listerine 250ml",
     "preco": 19.2,
     "preco_por_kg": 76.8
+  },
+  {
+    "id": 119,
+    "supermercado": "Tenda",
+    "produto": "Bisnaguinha Kim 300g",
+    "preco": 4.95,
+    "preco_por_kg": 16.5
+  },
+  {
+    "id": 120,
+    "supermercado": "Tenda",
+    "produto": "Areia para Gatos Putz 4kg",
+    "preco": 10.2,
+    "preco_por_kg": 2.55
   },
   {
     "id": 121,
