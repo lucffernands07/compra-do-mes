@@ -1,13 +1,37 @@
 {
-  "totalGoodbom": "757.92",
-  "totalTenda": "824.39",
-  "totalArena": "597.87",
-  "totalSavegnago": "804.96",
+  "totalGoodbom": "886.32",
+  "totalTenda": "847.87",
+  "totalArena": "619.71",
+  "totalSavegnago": "834.80",
   "encontradosGoodbom": 81,
-  "encontradosTenda": 82,
+  "encontradosTenda": 83,
   "encontradosArena": 78,
   "encontradosSavegnago": 72,
   "produtos": [
+    {
+      "id": "3",
+      "goodbom": {
+        "nome": "LINGUIÇA CALABRESA FINA SWIFT 500G",
+        "preco": 21.9,
+        "preco_por_kg": 43.8
+      },
+      "tenda": {
+        "nome": "Linguiça Calabresa Brasa 400g",
+        "preco": 9.39,
+        "preco_por_kg": 23.48
+      },
+      "arena": {
+        "nome": "Linguiça Calabresa Sadia Pacote 5kg",
+        "preco": 109.19,
+        "preco_por_kg": 21.84
+      },
+      "savegnago": {
+        "nome": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
+        "preco": 10.45,
+        "preco_por_kg": 20.9
+      },
+      "mais_barato": "Savegnago"
+    },
     {
       "id": "4",
       "goodbom": {
@@ -251,9 +275,9 @@
     {
       "id": "30",
       "goodbom": {
-        "nome": "CHEIRO VERDE MAÇO",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
+        "nome": "TEMPERO MAGGI MEU SEGREDO CHEIRO VERDE 49G",
+        "preco": 4.39,
+        "preco_por_kg": 89.59
       },
       "tenda": {
         "nome": "Cheiro Verde Maço Unidade",
@@ -386,9 +410,9 @@
         "preco_por_kg": 3.75
       },
       "savegnago": {
-        "nome": "Banana Terra Bandeja 600g",
-        "preco": 2.99,
-        "preco_por_kg": 4.98
+        "nome": "Banana Nanica Exportação - 1kg",
+        "preco": 7.49,
+        "preco_por_kg": 7.49
       },
       "mais_barato": "Tenda"
     },
@@ -722,9 +746,9 @@
         "preco_por_kg": 0.41
       },
       "savegnago": {
-        "nome": "Milho Verde Irmãos Pimenta Bandeja 600g",
-        "preco": 5.99,
-        "preco_por_kg": 9.98
+        "nome": "Milho Verde Stella Doro 170G Lata",
+        "preco": 2.79,
+        "preco_por_kg": 16.41
       },
       "mais_barato": "Arena"
     },
@@ -928,7 +952,7 @@
         "preco_por_kg": 22.99
       },
       "tenda": {
-        "nome": "Desinfetante Bruto Original Lysoform 1L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
         "preco": 15.9,
         "preco_por_kg": 15.9
       },
@@ -952,7 +976,7 @@
         "preco_por_kg": 8.49
       },
       "tenda": {
-        "nome": "Limpador Perfumado Ypê Jardim Secreto 1 Litro",
+        "nome": "Limpador Perfumado Ypê Chá Branco 1 Litro",
         "preco": 8.95,
         "preco_por_kg": 8.95
       },
