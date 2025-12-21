@@ -1,37 +1,13 @@
 {
-  "totalGoodbom": "878.76",
-  "totalTenda": "824.55",
-  "totalArena": "949.09",
-  "totalSavegnago": "818.70",
+  "totalGoodbom": "844.55",
+  "totalTenda": "826.56",
+  "totalArena": "934.94",
+  "totalSavegnago": "806.25",
   "encontradosGoodbom": 81,
-  "encontradosTenda": 82,
+  "encontradosTenda": 83,
   "encontradosArena": 78,
   "encontradosSavegnago": 71,
   "produtos": [
-    {
-      "id": "3",
-      "goodbom": {
-        "nome": "LINGUIÇA CALABRESA FINA SWIFT 500G",
-        "preco": 21.9,
-        "preco_por_kg": 43.8
-      },
-      "tenda": {
-        "nome": "Linguiça Calabresa Brasa 400g",
-        "preco": 9.39,
-        "preco_por_kg": 23.48
-      },
-      "arena": {
-        "nome": "Linguiça Calabresa Sadia Pacote 5kg",
-        "preco": 109.19,
-        "preco_por_kg": 21.84
-      },
-      "savegnago": {
-        "nome": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
-        "preco": 10.45,
-        "preco_por_kg": 20.9
-      },
-      "mais_barato": "Savegnago"
-    },
     {
       "id": "4",
       "goodbom": {
@@ -88,9 +64,9 @@
         "preco_por_kg": 9.99
       },
       "tenda": {
-        "nome": "Salsicha Hot Dog Aurora 500g",
-        "preco": 9.9,
-        "preco_por_kg": 19.8
+        "nome": "Salsicha Hot Dog Seara 500g",
+        "preco": 10.29,
+        "preco_por_kg": 20.58
       },
       "arena": {
         "nome": "Salsicha Hot Dog Nobre Bandeja Kg",
@@ -107,9 +83,9 @@
     {
       "id": "7",
       "goodbom": {
-        "nome": "SOBRECOXA DE FRANGO SWIFT 1KG",
-        "preco": 15.9,
-        "preco_por_kg": 15.9
+        "nome": "SOBRECOXA KG",
+        "preco": 14.99,
+        "preco_por_kg": 14.99
       },
       "tenda": {
         "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
@@ -472,9 +448,9 @@
         "preco_por_kg": 9.98
       },
       "tenda": {
-        "nome": "Margarina Cremosa com Sal Claybom Pote 250g",
-        "preco": 3.65,
-        "preco_por_kg": 14.6
+        "nome": "Margarina com Sal Dualis 500g",
+        "preco": 3.79,
+        "preco_por_kg": 7.58
       },
       "arena": {
         "nome": "Margarina Dualis Com Sal 500g",
@@ -581,6 +557,30 @@
         "nome": "Farinha Mandioca Siamar 1k Grossa",
         "preco": 10.65,
         "preco_por_kg": 10.65
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "49",
+      "goodbom": {
+        "nome": "ÁGUA DE COCO PURO COCO MORANGO 180ML",
+        "preco": 1.89,
+        "preco_por_kg": 10.5
+      },
+      "tenda": {
+        "nome": "Água de Coco Nocoko Caixa 200ml",
+        "preco": 0.99,
+        "preco_por_kg": 4.95
+      },
+      "arena": {
+        "nome": "Água De Coco Super Coco 1l",
+        "preco": 7.69,
+        "preco_por_kg": 7.69
+      },
+      "savegnago": {
+        "nome": "Água De Coco Puro Coco 1L",
+        "preco": 8.45,
+        "preco_por_kg": 8.45
       },
       "mais_barato": "Tenda"
     },
@@ -952,7 +952,7 @@
         "preco_por_kg": 8.49
       },
       "tenda": {
-        "nome": "Limpador Perfumado Ypê Doce Vida 1L",
+        "nome": "Limpador Perfumado Ypê Jardim Secreto 1 Litro",
         "preco": 8.95,
         "preco_por_kg": 8.95
       },
@@ -1048,9 +1048,9 @@
         "preco_por_kg": 2.5
       },
       "tenda": {
-        "nome": "Desinfetante Ypê BAK Floral 2L",
-        "preco": 8.95,
-        "preco_por_kg": 4.47
+        "nome": "Desinfetante Banheiro Mr Músculo Refil Econômico 400ml",
+        "preco": 12.5,
+        "preco_por_kg": 31.25
       },
       "arena": {
         "nome": "Desinfetante Barbarex Sensações 5l",
