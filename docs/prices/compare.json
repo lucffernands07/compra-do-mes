@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "789.73",
-  "totalTenda": "787.31",
-  "totalArena": "619.61",
-  "totalSavegnago": "823.88",
+  "totalGoodbom": "801.72",
+  "totalTenda": "847.87",
+  "totalArena": "619.71",
+  "totalSavegnago": "824.87",
   "encontradosGoodbom": 81,
-  "encontradosTenda": 81,
+  "encontradosTenda": 83,
   "encontradosArena": 78,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
     {
       "id": "3",
@@ -367,6 +367,30 @@
         "preco_por_kg": 34.9
       },
       "mais_barato": "Savegnago"
+    },
+    {
+      "id": "34",
+      "goodbom": {
+        "nome": "MAMÃO PAPAYA KG",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
+      },
+      "tenda": {
+        "nome": "Refresco em pó Tang Laranja Mamão 18g",
+        "preco": 1.09,
+        "preco_por_kg": 60.56
+      },
+      "arena": {
+        "nome": "Iogurte Desnatado Batavo Pense Zero Zero Lactose Mamão 1,150kg",
+        "preco": 15.59,
+        "preco_por_kg": 0.1
+      },
+      "savegnago": {
+        "nome": "Mamão Papaya Golden 1,2Kg",
+        "preco": 1.19,
+        "preco_por_kg": 0.99
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "35",
