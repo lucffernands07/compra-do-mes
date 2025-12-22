@@ -1,13 +1,37 @@
 {
-  "totalGoodbom": "844.55",
-  "totalTenda": "826.56",
-  "totalArena": "934.94",
-  "totalSavegnago": "806.25",
+  "totalGoodbom": "889.26",
+  "totalTenda": "847.15",
+  "totalArena": "956.78",
+  "totalSavegnago": "831.52",
   "encontradosGoodbom": 81,
   "encontradosTenda": 83,
   "encontradosArena": 78,
-  "encontradosSavegnago": 71,
+  "encontradosSavegnago": 72,
   "produtos": [
+    {
+      "id": "3",
+      "goodbom": {
+        "nome": "LINGUIÇA CALABRESA FINA SWIFT 500G",
+        "preco": 21.9,
+        "preco_por_kg": 43.8
+      },
+      "tenda": {
+        "nome": "Linguiça Calabresa Brasa 400g",
+        "preco": 9.39,
+        "preco_por_kg": 23.48
+      },
+      "arena": {
+        "nome": "Linguiça Calabresa Sadia Pacote 5kg",
+        "preco": 109.19,
+        "preco_por_kg": 21.84
+      },
+      "savegnago": {
+        "nome": "Linguiça Calabresa Resfriada Swift 500g Apimentada",
+        "preco": 10.45,
+        "preco_por_kg": 20.9
+      },
+      "mais_barato": "Savegnago"
+    },
     {
       "id": "4",
       "goodbom": {
@@ -26,7 +50,7 @@
         "preco_por_kg": 41.93
       },
       "savegnago": {
-        "nome": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
+        "nome": "Hambúrguer de Carne Bovina Churrasco Sadia Caixa 672g 12 Unidades",
         "preco": 17.9,
         "preco_por_kg": 26.64
       },
@@ -83,9 +107,9 @@
     {
       "id": "7",
       "goodbom": {
-        "nome": "SOBRECOXA KG",
-        "preco": 14.99,
-        "preco_por_kg": 14.99
+        "nome": "SOBRECOXA DE FRANGO SWIFT 1KG",
+        "preco": 15.9,
+        "preco_por_kg": 15.9
       },
       "tenda": {
         "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
@@ -123,8 +147,8 @@
       },
       "savegnago": {
         "nome": "Vagem Irmãos Pimenta Bandeja 300g",
-        "preco": 4.99,
-        "preco_por_kg": 16.63
+        "preco": 4.45,
+        "preco_por_kg": 14.83
       },
       "mais_barato": "Goodbom"
     },
@@ -305,8 +329,8 @@
       },
       "tenda": {
         "nome": "Repolho Verde Unidade",
-        "preco": 2.71,
-        "preco_por_kg": 2.71
+        "preco": 4.07,
+        "preco_por_kg": 4.07
       },
       "arena": {
         "nome": "Repolho Verde Kg",
@@ -483,8 +507,8 @@
       },
       "savegnago": {
         "nome": "Pizza de mussarela Seara 440g",
-        "preco": 13.59,
-        "preco_por_kg": 30.89
+        "preco": 15.76,
+        "preco_por_kg": 35.82
       },
       "mais_barato": "Goodbom"
     },
@@ -626,11 +650,11 @@
         "preco_por_kg": 2.8
       },
       "savegnago": {
-        "nome": "Arroz Pop Branco Tipo 1 5Kg",
-        "preco": 13.9,
-        "preco_por_kg": 2.78
+        "nome": "Arroz Agulhinha 4r 5kg Tipo1",
+        "preco": 14.9,
+        "preco_por_kg": 2.98
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Arena"
     },
     {
       "id": "53",
@@ -675,8 +699,8 @@
       },
       "savegnago": {
         "nome": "Óleo de Soja Soya Pet 900ml",
-        "preco": 7.75,
-        "preco_por_kg": 8.61
+        "preco": 8.39,
+        "preco_por_kg": 9.32
       },
       "mais_barato": "Arena"
     },
@@ -928,7 +952,7 @@
         "preco_por_kg": 22.99
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Lavanda Lysoform 1L",
+        "nome": "Desinfetante Bruto Original Lysoform 1L",
         "preco": 15.9,
         "preco_por_kg": 15.9
       },
@@ -1034,9 +1058,9 @@
         "preco_por_kg": 5.08
       },
       "savegnago": {
-        "nome": "Limpador Multiuso Veja Gold Original 750ml Embalagem Econômica",
-        "preco": 5.48,
-        "preco_por_kg": 7.31
+        "nome": "Limpador Multiuso Ypê Desengordurante 500ml",
+        "preco": 4.29,
+        "preco_por_kg": 8.58
       },
       "mais_barato": "Arena"
     },
@@ -1048,9 +1072,9 @@
         "preco_por_kg": 2.5
       },
       "tenda": {
-        "nome": "Desinfetante Banheiro Mr Músculo Refil Econômico 400ml",
-        "preco": 12.5,
-        "preco_por_kg": 31.25
+        "nome": "Desinfetante Pato Germinex Lavanda 500ml",
+        "preco": 13.5,
+        "preco_por_kg": 27
       },
       "arena": {
         "nome": "Desinfetante Barbarex Sensações 5l",
@@ -1154,9 +1178,9 @@
         "preco_por_kg": 9.59
       },
       "savegnago": {
-        "nome": "Sabonete Líquido Palmolive Naturals Suavidade Delicada 900ml",
-        "preco": 23.3,
-        "preco_por_kg": 25.89
+        "nome": "Sabonete Líquido Palmolive Naturals Óleo Nutritivo 200ml",
+        "preco": 4.99,
+        "preco_por_kg": 24.95
       },
       "mais_barato": "Arena"
     },
