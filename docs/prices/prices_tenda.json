@@ -42,6 +42,13 @@
     "preco_por_kg": 8.9
   },
   {
+    "id": 10,
+    "supermercado": "Tenda",
+    "produto": "Miolo da Alcatra Bovina Resfriado em Bifes bandeja 400g",
+    "preco": 21,
+    "preco_por_kg": 52.5
+  },
+  {
     "id": 11,
     "supermercado": "Tenda",
     "produto": "Contra Filé Bovino em Bifes Resfriado Bandeja 400g",
@@ -56,9 +63,23 @@
     "preco_por_kg": 37.9
   },
   {
+    "id": 18,
+    "supermercado": "Tenda",
+    "produto": "Pimentão Verde Saco 440g",
+    "preco": 4.4,
+    "preco_por_kg": 10
+  },
+  {
     "id": 19,
     "supermercado": "Tenda",
     "produto": "Pimentão Vermelho 350g",
+    "preco": 13.89,
+    "preco_por_kg": 39.69
+  },
+  {
+    "id": 20,
+    "supermercado": "Tenda",
+    "produto": "Pimentão Amarelo Bandeja 350g",
     "preco": 13.89,
     "preco_por_kg": 39.69
   },
@@ -126,6 +147,13 @@
     "preco_por_kg": 1.59
   },
   {
+    "id": 31,
+    "supermercado": "Tenda",
+    "produto": "Alface Mimosa Unidade",
+    "preco": 4.49,
+    "preco_por_kg": 4.49
+  },
+  {
     "id": 32,
     "supermercado": "Tenda",
     "produto": "Repolho Verde Unidade",
@@ -140,11 +168,25 @@
     "preco_por_kg": 49.45
   },
   {
+    "id": 34,
+    "supermercado": "Tenda",
+    "produto": "Refresco em pó Tang Laranja Mamão 18g",
+    "preco": 1.09,
+    "preco_por_kg": 60.56
+  },
+  {
     "id": 35,
     "supermercado": "Tenda",
     "produto": "Banana Nanica Unidade",
     "preco": 0.93,
     "preco_por_kg": 0.93
+  },
+  {
+    "id": 36,
+    "supermercado": "Tenda",
+    "produto": "Néctar Tial de Uva 1L",
+    "preco": 4.59,
+    "preco_por_kg": 4.59
   },
   {
     "id": 37,
@@ -159,6 +201,13 @@
     "produto": "Mexerica Carioca 120g",
     "preco": 0.97,
     "preco_por_kg": 8.08
+  },
+  {
+    "id": 39,
+    "supermercado": "Tenda",
+    "produto": "Margarina com Sal Dualis 500g",
+    "preco": 3.79,
+    "preco_por_kg": 7.58
   },
   {
     "id": 40,
@@ -210,6 +259,13 @@
     "preco_por_kg": 12.65
   },
   {
+    "id": 49,
+    "supermercado": "Tenda",
+    "produto": "Água de Coco Nocoko Caixa 200ml",
+    "preco": 0.99,
+    "preco_por_kg": 4.95
+  },
+  {
     "id": 50,
     "supermercado": "Tenda",
     "produto": "Leite Fermentado Patati Patata Frutap 450g",
@@ -217,11 +273,25 @@
     "preco_por_kg": 12.2
   },
   {
+    "id": 52,
+    "supermercado": "Tenda",
+    "produto": "Arroz Tipo 1 Select 1Kg",
+    "preco": 3.49,
+    "preco_por_kg": 3.49
+  },
+  {
     "id": 53,
     "supermercado": "Tenda",
     "produto": "Feijão Carioca da Casa 1kg",
     "preco": 4.99,
     "preco_por_kg": 4.99
+  },
+  {
+    "id": 54,
+    "supermercado": "Tenda",
+    "produto": "Macarrão de Arroz Espaguete Urbano 500g",
+    "preco": 3.95,
+    "preco_por_kg": 7.9
   },
   {
     "id": 56,
@@ -301,13 +371,6 @@
     "preco_por_kg": 10.38
   },
   {
-    "id": 76,
-    "supermercado": "Tenda",
-    "produto": "Maionese Hellmann's Tradicional 335g",
-    "preco": 10.39,
-    "preco_por_kg": 31.01
-  },
-  {
     "id": 77,
     "supermercado": "Tenda",
     "produto": "Mostarda Tradicional Quero 190g",
@@ -359,14 +422,14 @@
   {
     "id": 88,
     "supermercado": "Tenda",
-    "produto": "Desinfetante Bruto Original Lysoform 1L",
+    "produto": "Desinfetante Uso Geral Citrus Lysoform 1L",
     "preco": 15.9,
     "preco_por_kg": 15.9
   },
   {
     "id": 90,
     "supermercado": "Tenda",
-    "produto": "Limpador Perfumado Ypê Chá Branco 1 Litro",
+    "produto": "Limpador Perfumado Ypê Doce Vida 1L",
     "preco": 8.95,
     "preco_por_kg": 8.95
   },
@@ -385,6 +448,13 @@
     "preco_por_kg": 3
   },
   {
+    "id": 100,
+    "supermercado": "Tenda",
+    "produto": "Lava-Louças Líquido Ypê Limão - Verde - 500Ml - Controle De Odor - Detergente",
+    "preco": 2.39,
+    "preco_por_kg": 4.78
+  },
+  {
     "id": 101,
     "supermercado": "Tenda",
     "produto": "Limpador Multiuso Original Azulim Squeeze 500ml",
@@ -394,9 +464,9 @@
   {
     "id": 103,
     "supermercado": "Tenda",
-    "produto": "Desinfetante Lavanda Select 2L",
-    "preco": 4.5,
-    "preco_por_kg": 2.25
+    "produto": "Desinfetante Banheiro Mr Músculo Refil Econômico 400ml",
+    "preco": 12.5,
+    "preco_por_kg": 31.25
   },
   {
     "id": 105,
@@ -441,6 +511,13 @@
     "preco_por_kg": 11.88
   },
   {
+    "id": 114,
+    "supermercado": "Tenda",
+    "produto": "Gel Fixador Incolor Soft Fix 250g",
+    "preco": 5.15,
+    "preco_por_kg": 20.6
+  },
+  {
     "id": 115,
     "supermercado": "Tenda",
     "produto": "Haste Flexível Johnsons 150un",
@@ -462,6 +539,13 @@
     "preco_por_kg": 13.22
   },
   {
+    "id": 118,
+    "supermercado": "Tenda",
+    "produto": "Solução Bucal Cool Mint Listerine 250ml",
+    "preco": 19.2,
+    "preco_por_kg": 76.8
+  },
+  {
     "id": 119,
     "supermercado": "Tenda",
     "produto": "Bisnaguinha Select 300g",
@@ -469,10 +553,24 @@
     "preco_por_kg": 16.3
   },
   {
+    "id": 120,
+    "supermercado": "Tenda",
+    "produto": "Areia para Gatos Putz 4kg",
+    "preco": 10.2,
+    "preco_por_kg": 2.55
+  },
+  {
     "id": 121,
     "supermercado": "Tenda",
     "produto": "Fubá Mimoso PQ 500g",
     "preco": 2.15,
     "preco_por_kg": 4.3
+  },
+  {
+    "id": 122,
+    "supermercado": "Tenda",
+    "produto": "Alimento para Gatos Filhotes Sabor Carne Whiskas Junior 85g",
+    "preco": 2.49,
+    "preco_por_kg": 29.29
   }
 ]
