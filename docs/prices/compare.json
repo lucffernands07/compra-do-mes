@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "745.20",
-  "totalTenda": "822.84",
-  "totalArena": "574.78",
-  "totalSavegnago": "767.32",
+  "totalGoodbom": "800.49",
+  "totalTenda": "879.14",
+  "totalArena": "622.30",
+  "totalSavegnago": "800.87",
   "encontradosGoodbom": 82,
   "encontradosTenda": 84,
   "encontradosArena": 78,
-  "encontradosSavegnago": 69,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -26,9 +26,9 @@
         "preco_por_kg": 21.84
       },
       "savegnago": {
-        "nome": "Linguiça Calabresa Aurora 400g Defumada",
+        "nome": "Linguiça Calabresa Perdigão Nabrasa com Pimenta 500g",
         "preco": 12.7,
-        "preco_por_kg": 31.75
+        "preco_por_kg": 25.4
       },
       "mais_barato": "Arena"
     },
@@ -219,10 +219,10 @@
       },
       "savegnago": {
         "nome": "Cenoura 1Kg",
-        "preco": 2.95,
-        "preco_por_kg": 2.95
+        "preco": 4.99,
+        "preco_por_kg": 4.99
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "29",
@@ -319,6 +319,30 @@
         "preco_por_kg": 2.5
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "33",
+      "goodbom": {
+        "nome": "ALHO DESCASCADO 500G",
+        "preco": 19.99,
+        "preco_por_kg": 39.98
+      },
+      "tenda": {
+        "nome": "Alho Descascado Kamar 200g",
+        "preco": 9.89,
+        "preco_por_kg": 49.45
+      },
+      "arena": {
+        "nome": "Alho Descascado Hortmix 600g",
+        "preco": 28.9,
+        "preco_por_kg": 48.17
+      },
+      "savegnago": {
+        "nome": "Alho descascado Natari 1Kg",
+        "preco": 34.9,
+        "preco_por_kg": 34.9
+      },
+      "mais_barato": "Savegnago"
     },
     {
       "id": "34",
@@ -501,16 +525,16 @@
         "preco_por_kg": 25.28
       },
       "arena": {
-        "nome": "Mortadela Perdigão Tradicional Peça/Pedaço Kg",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
+        "nome": "Mortadela Confiança 1 Kg",
+        "preco": 8.69,
+        "preco_por_kg": 8.69
       },
       "savegnago": {
         "nome": "Mortadela mini Confiança",
         "preco": 13.9,
         "preco_por_kg": 13.9
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Arena"
     },
     {
       "id": "47",
@@ -530,9 +554,9 @@
         "preco_por_kg": 3.49
       },
       "savegnago": {
-        "nome": "Mandioca Sertaneja Pacote 700g",
-        "preco": 7.95,
-        "preco_por_kg": 11.36
+        "nome": "Farinha Mandioca Siamar 1k Grossa",
+        "preco": 10.65,
+        "preco_por_kg": 10.65
       },
       "mais_barato": "Tenda"
     },
@@ -655,6 +679,30 @@
         "preco_por_kg": 9.32
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "67",
+      "goodbom": {
+        "nome": "VINAGRE CASTELO ALCOOL COLOR 750ML",
+        "preco": 3.99,
+        "preco_por_kg": 5.32
+      },
+      "tenda": {
+        "nome": "Vinagre de Álcool Neval 750ml",
+        "preco": 1.95,
+        "preco_por_kg": 2.6
+      },
+      "arena": {
+        "nome": "Vinagre Palladio Álcool Pet 750ml",
+        "preco": 1.99,
+        "preco_por_kg": 2.65
+      },
+      "savegnago": {
+        "nome": "Vinagre Galo de Barcelos 750ml Álcool",
+        "preco": 2.75,
+        "preco_por_kg": 3.67
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "68",
@@ -1000,9 +1048,9 @@
         "preco_por_kg": 3
       },
       "tenda": {
-        "nome": "Desinfetante Pato Germinex Lavanda 500ml",
-        "preco": 13.5,
-        "preco_por_kg": 27
+        "nome": "Desinfetante Banheiro Mr Músculo Refil Econômico 400ml",
+        "preco": 12.5,
+        "preco_por_kg": 31.25
       },
       "arena": {
         "nome": "Desinfetante Barbarex Sensações 5l",
@@ -1187,9 +1235,9 @@
     {
       "id": "117",
       "goodbom": {
-        "nome": "ALGODAO TOPZ DISCO 50 UNID.",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
+        "nome": "ALGODAO TOPZ BOLA GAL.PINTADINHA 500G",
+        "preco": 10.99,
+        "preco_por_kg": 21.98
       },
       "tenda": {
         "nome": "Óleo de Algodão Liza 900ml",
