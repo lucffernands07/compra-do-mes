@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "863.11",
-  "totalTenda": "863.17",
-  "totalArena": "957.96",
-  "totalSavegnago": "836.00",
-  "encontradosGoodbom": 83,
-  "encontradosTenda": 82,
+  "totalGoodbom": "777.51",
+  "totalTenda": "862.49",
+  "totalArena": "609.70",
+  "totalSavegnago": "781.63",
+  "encontradosGoodbom": 82,
+  "encontradosTenda": 84,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 69,
   "produtos": [
     {
       "id": "3",
@@ -129,30 +129,6 @@
       "mais_barato": "Arena"
     },
     {
-      "id": "22",
-      "goodbom": {
-        "nome": "VAGEM MACARRÃO KG",
-        "preco": 12.99,
-        "preco_por_kg": 12.99
-      },
-      "tenda": {
-        "nome": "Vagem Macarrão 300g",
-        "preco": 3.72,
-        "preco_por_kg": 12.4
-      },
-      "arena": {
-        "nome": "Vagem Kg",
-        "preco": 15.9,
-        "preco_por_kg": 15.9
-      },
-      "savegnago": {
-        "nome": "Vagem Irmãos Pimenta Bandeja 300g",
-        "preco": 4.45,
-        "preco_por_kg": 14.83
-      },
-      "mais_barato": "Tenda"
-    },
-    {
       "id": "24",
       "goodbom": {
         "nome": "BETERRABA KG",
@@ -251,9 +227,9 @@
     {
       "id": "30",
       "goodbom": {
-        "nome": "TEMPERO MAGGI MEU SEGREDO CHEIRO VERDE 49G",
-        "preco": 4.39,
-        "preco_por_kg": 89.59
+        "nome": "CHEIRO VERDE MAÇO",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
       },
       "tenda": {
         "nome": "Cheiro Verde Maço Unidade",
@@ -261,14 +237,14 @@
         "preco_por_kg": 1.59
       },
       "arena": {
-        "nome": "Cheiro Verde Kisabor Folha 8g",
-        "preco": 2.79,
-        "preco_por_kg": 348.75
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.7,
+        "preco_por_kg": 3.7
       },
       "savegnago": {
-        "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
-        "preco": 7.99,
-        "preco_por_kg": 53.27
+        "nome": "Cheiro Verde Organico Solo Vivo",
+        "preco": 8.59,
+        "preco_por_kg": 8.59
       },
       "mais_barato": "Tenda"
     },
@@ -285,9 +261,9 @@
         "preco_por_kg": 4.49
       },
       "arena": {
-        "nome": "Alface Roxa Jw Unid.",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
+        "nome": "Alface Crespa Unid.",
+        "preco": 4.69,
+        "preco_por_kg": 4.69
       },
       "savegnago": {
         "nome": "Alface Crespa Org Solo Vivo",
@@ -386,9 +362,9 @@
         "preco_por_kg": 7.49
       },
       "savegnago": {
-        "nome": "Banana Prata Bandeja 900g",
+        "nome": "Banana Prata Turma da Mônica 750g",
         "preco": 2.99,
-        "preco_por_kg": 3.32
+        "preco_por_kg": 3.99
       },
       "mais_barato": "Tenda"
     },
@@ -511,6 +487,30 @@
         "preco_por_kg": 40.33
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "44",
+      "goodbom": {
+        "nome": "MORTADELA CONFIANÇA MINI 1KG",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
+      },
+      "tenda": {
+        "nome": "Mortadela Bologna Fatiada Aurora 180g",
+        "preco": 4.55,
+        "preco_por_kg": 25.28
+      },
+      "arena": {
+        "nome": "Mortadela Perdigão Tradicional Peça/Pedaço Kg",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
+      },
+      "savegnago": {
+        "nome": "Mortadela mini Confiança",
+        "preco": 13.9,
+        "preco_por_kg": 13.9
+      },
+      "mais_barato": "Goodbom"
     },
     {
       "id": "47",
@@ -760,9 +760,9 @@
         "preco_por_kg": 15.98
       },
       "tenda": {
-        "nome": "Maionese Hellmann's Tradicional 335g",
-        "preco": 10.39,
-        "preco_por_kg": 31.01
+        "nome": "Maionese Quero 200g",
+        "preco": 3.49,
+        "preco_por_kg": 17.45
       },
       "arena": {
         "nome": "Maionese Quero Big Sachê 1,02kg",
@@ -904,7 +904,7 @@
         "preco_por_kg": 22.99
       },
       "tenda": {
-        "nome": "Desinfetante Lysoform Suave 1L",
+        "nome": "Desinfetante Uso Geral Citrus Lysoform 1L",
         "preco": 15.9,
         "preco_por_kg": 15.9
       },
@@ -1106,9 +1106,9 @@
         "preco_por_kg": 37.72
       },
       "savegnago": {
-        "nome": "Creme Dental Close Up Tripla Proteção Menta Americana 70 g",
-        "preco": 3.85,
-        "preco_por_kg": 55
+        "nome": "Creme Dental Sorriso Tripla Limpeza Completa 70g",
+        "preco": 3.19,
+        "preco_por_kg": 45.57
       },
       "mais_barato": "Arena"
     },

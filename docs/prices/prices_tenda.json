@@ -210,6 +210,13 @@
     "preco_por_kg": 7.58
   },
   {
+    "id": 40,
+    "supermercado": "Tenda",
+    "produto": "Creme de Leite Zero Lactose Italac 200g",
+    "preco": 3.79,
+    "preco_por_kg": 18.95
+  },
+  {
     "id": 42,
     "supermercado": "Tenda",
     "produto": "Queijo Mussarela Portofino 200g",
@@ -303,9 +310,16 @@
   {
     "id": 63,
     "supermercado": "Tenda",
-    "produto": "Tempero Ajinomoto 100g",
-    "preco": 7.89,
-    "preco_por_kg": 78.9
+    "produto": "Tempero Ajinomoto Pet 100g",
+    "preco": 11.95,
+    "preco_por_kg": 119.5
+  },
+  {
+    "id": 65,
+    "supermercado": "Tenda",
+    "produto": "Biscoito Maisena Mabel 300g",
+    "preco": 4.59,
+    "preco_por_kg": 15.3
   },
   {
     "id": 66,
@@ -366,9 +380,9 @@
   {
     "id": 76,
     "supermercado": "Tenda",
-    "produto": "Maionese Hellmann's Tradicional 335g",
-    "preco": 10.39,
-    "preco_por_kg": 31.01
+    "produto": "Maionese Quero 200g",
+    "preco": 3.49,
+    "preco_por_kg": 17.45
   },
   {
     "id": 77,
@@ -422,7 +436,7 @@
   {
     "id": 88,
     "supermercado": "Tenda",
-    "produto": "Desinfetante Lysoform Suave 1L",
+    "produto": "Desinfetante Uso Geral Citrus Lysoform 1L",
     "preco": 15.9,
     "preco_por_kg": 15.9
   },
