@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "770.54",
-  "totalTenda": "863.92",
-  "totalArena": "598.72",
-  "totalSavegnago": "768.26",
+  "totalGoodbom": "798.47",
+  "totalTenda": "871.55",
+  "totalArena": "618.60",
+  "totalSavegnago": "795.91",
   "encontradosGoodbom": 82,
   "encontradosTenda": 81,
   "encontradosArena": 78,
-  "encontradosSavegnago": 70,
+  "encontradosSavegnago": 71,
   "produtos": [
     {
       "id": "3",
@@ -1024,9 +1024,9 @@
         "preco_por_kg": 3
       },
       "tenda": {
-        "nome": "Desinfetante Banheiro Mr Músculo Refil Econômico 400ml",
-        "preco": 12.5,
-        "preco_por_kg": 31.25
+        "nome": "Desinfetante Pato Germinex Lavanda 500ml",
+        "preco": 13.5,
+        "preco_por_kg": 27
       },
       "arena": {
         "nome": "Desinfetante Barbarex Sensações 5l",
@@ -1135,6 +1135,30 @@
         "preco_por_kg": 24.95
       },
       "mais_barato": "Arena"
+    },
+    {
+      "id": "112",
+      "goodbom": {
+        "nome": "SABONETE PALMOLIVE SENSAÇÃO PURIFICANTE 150G",
+        "preco": 4.19,
+        "preco_por_kg": 27.93
+      },
+      "tenda": {
+        "nome": "Sabonete Barra Perfume dos Sonhos Gipsy 80g",
+        "preco": 0.95,
+        "preco_por_kg": 11.88
+      },
+      "arena": {
+        "nome": "Sabonete Ypê Siene Lavanda 85g",
+        "preco": 1.69,
+        "preco_por_kg": 19.88
+      },
+      "savegnago": {
+        "nome": "Sabonete Flor de Ypê Rosas Brancas e Avelã 85g",
+        "preco": 2.35,
+        "preco_por_kg": 27.65
+      },
+      "mais_barato": "Tenda"
     },
     {
       "id": "114",
