@@ -1,10 +1,10 @@
 {
-  "totalGoodbom": "784.95",
-  "totalTenda": "850.19",
-  "totalArena": "595.31",
-  "totalSavegnago": "789.16",
+  "totalGoodbom": "800.77",
+  "totalTenda": "809.55",
+  "totalArena": "604.47",
+  "totalSavegnago": "852.78",
   "encontradosGoodbom": 82,
-  "encontradosTenda": 82,
+  "encontradosTenda": 84,
   "encontradosArena": 78,
   "encontradosSavegnago": 70,
   "produtos": [
@@ -245,6 +245,30 @@
         "nome": "Caldo de Mandioquinha com Frango Na Panelinha Seara 300g",
         "preco": 2.59,
         "preco_por_kg": 8.63
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "30",
+      "goodbom": {
+        "nome": "CHEIRO VERDE MAÇO",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "tenda": {
+        "nome": "Cheiro Verde Maço Unidade",
+        "preco": 1.59,
+        "preco_por_kg": 1.59
+      },
+      "arena": {
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.7,
+        "preco_por_kg": 3.7
+      },
+      "savegnago": {
+        "nome": "Molho Pimenta Veranita 150ml Cheiro Verde",
+        "preco": 7.99,
+        "preco_por_kg": 53.27
       },
       "mais_barato": "Tenda"
     },
@@ -559,6 +583,30 @@
         "preco_por_kg": 8.45
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "50",
+      "goodbom": {
+        "nome": "LEITE FERMENTADO FRUTAP 850G",
+        "preco": 11.49,
+        "preco_por_kg": 13.52
+      },
+      "tenda": {
+        "nome": "Leite Fermentado Patati Patata Frutap 450g",
+        "preco": 5.49,
+        "preco_por_kg": 12.2
+      },
+      "arena": {
+        "nome": "Leite Fermentado Desnatado Frutap 850g",
+        "preco": 9.39,
+        "preco_por_kg": 11.05
+      },
+      "savegnago": {
+        "nome": "Leite Fermentado Itambé 1,150kg",
+        "preco": 14.95,
+        "preco_por_kg": 13
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "52",
@@ -904,9 +952,9 @@
         "preco_por_kg": 8.49
       },
       "tenda": {
-        "nome": "Limpador Perfumado Ypê Premium Roxo Jardim Secreto 1L - Até 30H De Perfumação - Limpador De Uso Geral",
-        "preco": 8.95,
-        "preco_por_kg": 8.95
+        "nome": "Limpador Perfumado Intuizione New Casa & Perfume Frasco 500ml",
+        "preco": 5.69,
+        "preco_por_kg": 11.38
       },
       "arena": {
         "nome": "Limpador Perfumado Ypê Tropical 1l",
@@ -1000,9 +1048,9 @@
         "preco_por_kg": 3
       },
       "tenda": {
-        "nome": "Desinfetante Pato Germinex Lavanda 500ml",
-        "preco": 13.5,
-        "preco_por_kg": 27
+        "nome": "Desinfetante Banheiro Mr Músculo Refil Econômico 400ml",
+        "preco": 12.5,
+        "preco_por_kg": 31.25
       },
       "arena": {
         "nome": "Desinfetante Barbarex Sensações 5l",
@@ -1015,30 +1063,6 @@
         "preco_por_kg": 2.91
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "105",
-      "goodbom": {
-        "nome": "LÃ DE AÇO BOMBRIL C/6",
-        "preco": 2.69,
-        "preco_por_kg": 2.69
-      },
-      "tenda": {
-        "nome": "Esponja de Aço Eco Bombril 45g 6 Unidades",
-        "preco": 2.75,
-        "preco_por_kg": 61.11
-      },
-      "arena": {
-        "nome": "Esponja Bombril Multi Uso Leve 4 Pague 3 Unid.",
-        "preco": 5.59,
-        "preco_por_kg": 5.59
-      },
-      "savegnago": {
-        "nome": "Lã De Aço Bombril Com 6 Unidades",
-        "preco": 2.65,
-        "preco_por_kg": 2.65
-      },
-      "mais_barato": "Savegnago"
     },
     {
       "id": "107",
