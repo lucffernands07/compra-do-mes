@@ -112,10 +112,7 @@ async function main() {
         const nomeProdNorm = normalizar(p.nome);
         
         // --- FILTRO A: Palavras Proibidas (Ruídos de busca) ---
-        const proibidas = [
-          'refresco', 'tang', 'suco em po', 'gelatina', 'po para', 
-          'biscoito recheado', 'salgadinho', 'essencia', 'aroma', 'tempero'
-        ];
+        const proibidas = ['refresco', 'tang', 'suco em po', 'gelatina', 'detergente', 'lava-loucas', 'limpador', 'pacoquinha', 'bebiba lactea'];
         const temProibida = proibidas.some(proc => nomeProdNorm.includes(proc));
         if (temProibida) return false;
 
