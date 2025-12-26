@@ -102,22 +102,28 @@ async function main() {
       const encontrados = await buscarProduto(page, termoParaBusca);
       const termoNorm = normalizar(termoParaBusca);
 
-      const validos = encontrados.filter(p => {
-        const nomeProdNorm = normalizar(p.nome);
+            const validos = encontrados.filter(p => {
+        const nomeProdNorm = normalizar(p.nome); // Ex: "carne moida bovina congelada chuletao"
+        const termoNorm = normalizar(termoParaBusca); // Ex: "carne moida bovina"
 
-        // 1. Bloqueios de Categoria (Essencial para não levar Porco por Boi)
+        // 1. BLOQUEIOS (Para não pegar carne de porco)
         if (!termoNorm.includes('suina') && nomeProdNorm.includes('suina')) return false;
-        if (!termoNorm.includes('oleo') && nomeProdNorm.includes('oleo')) return false;
-        if (!termoNorm.includes('bom ar') && nomeProdNorm.includes('bom ar')) return false;
 
-        // 2. REGRA DE MATCH TOTAL (Todas as palavras da busca devem estar no nome)
+        // 2. REGRA DE PALAVRAS OBRIGATÓRIAS (Match por Radical)
+        // Pegamos as palavras da sua busca: ["carne", "moida", "bovina"]
         const palavrasBusca = termoNorm.split(" ").filter(w => w.length >= 3);
         
-        // Garante que "carne", "moida" e "bovina" existam no nome do produto
-        const temTodasAsPalavras = palavrasBusca.every(pal => nomeProdNorm.includes(pal));
+        // Verificamos se cada uma das suas palavras (ou o início delas) está no nome
+        const temMatches = palavrasBusca.every(palavra => {
+          // Buscamos apenas pelas primeiras 3 letras (ex: "bov" em vez de "bovina")
+          // Isso garante que "Bov.", "Bovina" ou "Bovino" sejam aceitos.
+          const radical = palavra.substring(0, 3);
+          return nomeProdNorm.includes(radical);
+        });
 
-        return p.preco > 0 && temTodasAsPalavras;
+        return p.preco > 0 && temMatches;
       });
+
 
       if (validos.length > 0) {
         // Seleção do melhor preço por KG (Original)
