@@ -9,7 +9,7 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
 
-    steps:
+      steps:
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
@@ -26,17 +26,17 @@ jobs:
       - name: Run scraper Tenda
         run: node scrapers/scraper_tenda.js
 
-      - name: Run scraper GoodBom
-        run: node scrapers/scraper_goodbom.js
+      # - name: Run scraper GoodBom
+      #   run: node scrapers/scraper_goodbom.js
 
-      - name: Run scraper Arena
-        run: node scrapers/scraper_arena.js
+      # - name: Run scraper Arena
+      #   run: node scrapers/scraper_arena.js
 
-      - name: Run scraper Savegnago
-        run: node scrapers/scraper_savegnago.js
+      # - name: Run scraper Savegnago
+      #   run: node scrapers/scraper_savegnago.js
 
-      - name: Compare prices
-        run: node scrapers/compare.js
+      # - name: Compare prices
+      #   run: node scrapers/compare.js
 
       - name: Commit and push updated prices
         run: |
