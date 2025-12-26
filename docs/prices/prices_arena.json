@@ -42,6 +42,13 @@
     "preco_por_kg": 7.98
   },
   {
+    "id": 9,
+    "supermercado": "Arena",
+    "produto": "Bisteca Suína Bandeja Kg",
+    "preco": 22.9,
+    "preco_por_kg": 22.9
+  },
+  {
     "id": 11,
     "supermercado": "Arena",
     "produto": "Contra Filé Bovino Porcionado Embalado À Vácuo Kg",
@@ -58,16 +65,23 @@
   {
     "id": 14,
     "supermercado": "Arena",
-    "produto": "Batata Kg",
-    "preco": 3.99,
-    "preco_por_kg": 3.99
+    "produto": "Batata Saco 10kg",
+    "preco": 4.45,
+    "preco_por_kg": 0.45
   },
   {
     "id": 15,
     "supermercado": "Arena",
-    "produto": "Cebola Kg",
-    "preco": 3.89,
-    "preco_por_kg": 3.89
+    "produto": "Cebola Saco 10kg",
+    "preco": 2.09,
+    "preco_por_kg": 0.21
+  },
+  {
+    "id": 16,
+    "supermercado": "Arena",
+    "produto": "Tomate Carmen Kg",
+    "preco": 6.59,
+    "preco_por_kg": 6.59
   },
   {
     "id": 18,
@@ -89,6 +103,13 @@
     "produto": "Pimentão Amarelo Kg",
     "preco": 19.95,
     "preco_por_kg": 19.95
+  },
+  {
+    "id": 21,
+    "supermercado": "Arena",
+    "produto": "Refrigerante Limão Bioleve Zero Pet 1,5l",
+    "preco": 3.99,
+    "preco_por_kg": 0.8
   },
   {
     "id": 22,
@@ -287,6 +308,20 @@
     "preco_por_kg": 13.72
   },
   {
+    "id": 58,
+    "supermercado": "Arena",
+    "produto": "Tomate Pelado Predilecta Inteiro Lata - 240g",
+    "preco": 4.59,
+    "preco_por_kg": 19.13
+  },
+  {
+    "id": 59,
+    "supermercado": "Arena",
+    "produto": "Molho De Tomate La Pastina Passata Di Pomodoro 680g",
+    "preco": 2.89,
+    "preco_por_kg": 4.25
+  },
+  {
     "id": 64,
     "supermercado": "Arena",
     "produto": "Farofa Temperada Yoki De Mandioca Leve 400g Pague 350g",
@@ -334,6 +369,13 @@
     "produto": "Paçoca Dacolônia Açucar Mascavo Pote 1,008kg",
     "preco": 32.99,
     "preco_por_kg": 4.12
+  },
+  {
+    "id": 73,
+    "supermercado": "Arena",
+    "produto": "Sal Grosso Lebre Para Churrasco 1kg",
+    "preco": 2.78,
+    "preco_por_kg": 2.78
   },
   {
     "id": 75,
@@ -432,6 +474,13 @@
     "produto": "Água Sanitária Bio-Kriss 2l",
     "preco": 3.99,
     "preco_por_kg": 2
+  },
+  {
+    "id": 98,
+    "supermercado": "Arena",
+    "produto": "Amaciante De Roupa Barbarex White 5l",
+    "preco": 11.99,
+    "preco_por_kg": 2.4
   },
   {
     "id": 100,

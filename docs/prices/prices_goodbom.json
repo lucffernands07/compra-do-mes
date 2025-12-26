@@ -1,5 +1,12 @@
 [
   {
+    "id": 1,
+    "supermercado": "Goodbom",
+    "produto": "CARNE MOÍDA TUBETE SWIFT 500G",
+    "preco": 14.9,
+    "preco_por_kg": 29.8
+  },
+  {
     "id": 3,
     "supermercado": "Goodbom",
     "produto": "LINGUIÇA CALABRESA FINA SWIFT 500G",
@@ -37,9 +44,9 @@
   {
     "id": 9,
     "supermercado": "Goodbom",
-    "produto": "BISTECA COPA LOMBO KG",
-    "preco": 24.98,
-    "preco_por_kg": 24.98
+    "produto": "BISTECA 4 FATIAS SWIFT KG",
+    "preco": 21.9,
+    "preco_por_kg": 21.9
   },
   {
     "id": 14,
@@ -54,6 +61,13 @@
     "produto": "CEBOLA KG",
     "preco": 2.99,
     "preco_por_kg": 2.99
+  },
+  {
+    "id": 16,
+    "supermercado": "Goodbom",
+    "produto": "TOMATE ESPECIAL KG",
+    "preco": 7.99,
+    "preco_por_kg": 7.99
   },
   {
     "id": 18,
@@ -79,9 +93,9 @@
   {
     "id": 21,
     "supermercado": "Goodbom",
-    "produto": "CAROLINA D'GUST LIMÃO KG",
-    "preco": 79.9,
-    "preco_por_kg": 79.9
+    "produto": "CHÁ LEÃO ICE TEA LIMÃO GARRAFA 1,5L",
+    "preco": 7.89,
+    "preco_por_kg": 5.26
   },
   {
     "id": 22,
@@ -266,6 +280,20 @@
     "preco_por_kg": 99.8
   },
   {
+    "id": 58,
+    "supermercado": "Goodbom",
+    "produto": "TOMATE PELADO SACCIALI 400G",
+    "preco": 6.99,
+    "preco_por_kg": 17.47
+  },
+  {
+    "id": 59,
+    "supermercado": "Goodbom",
+    "produto": "MOLHO DE TOMATE SACHET PENEIRADO FUGINI 300G",
+    "preco": 2.49,
+    "preco_por_kg": 8.3
+  },
+  {
     "id": 60,
     "supermercado": "Goodbom",
     "produto": "AZEITE EXTRA VIRGEM BORGES VD.500ML",
@@ -331,9 +359,9 @@
   {
     "id": 73,
     "supermercado": "Goodbom",
-    "produto": "SAL HIMALAIA LEBRE MOIDO 100G",
-    "preco": 7.59,
-    "preco_por_kg": 75.9
+    "produto": "SAL GROSSO CISNE 1KG",
+    "preco": 4.49,
+    "preco_por_kg": 4.49
   },
   {
     "id": 74,
@@ -439,6 +467,13 @@
     "produto": "ÁGUA SANITÁRIA YPÊ 2 LITROS",
     "preco": 4.99,
     "preco_por_kg": 2.5
+  },
+  {
+    "id": 98,
+    "supermercado": "Goodbom",
+    "produto": "AMACIANTE ROUPAS BARBAREX WHITE 2L",
+    "preco": 7.99,
+    "preco_por_kg": 4
   },
   {
     "id": 100,
