@@ -23,18 +23,20 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run scraper Tenda
-        run: node scrapers/scraper_tenda.js
+    # - name: Run scraper Tenda
+    #   run: node scrapers/scraper_tenda.js
 
-      # Linhas comentadas corretamente com #
-      # - name: Run scraper GoodBom
-      #   run: node scrapers/scraper_goodbom.js
-      # - name: Run scraper Arena
-      #   run: node scrapers/scraper_arena.js
-      # - name: Run scraper Savegnago
-      #   run: node scrapers/scraper_savegnago.js
-      # - name: Compare prices
-      #   run: node scrapers/compare.js
+    # - name: Run scraper GoodBom
+    #   run: node scrapers/scraper_goodbom.js
+      
+    # - name: Run scraper Arena
+    #   run: node scrapers/scraper_arena.js
+      
+      - name: Run scraper Savegnago
+        run: node scrapers/scraper_savegnago.js
+      
+    # - name: Compare prices
+    #   run: node scrapers/compare.js
 
       - name: Commit and push updated prices
         run: |
