@@ -111,30 +111,46 @@ async function main() {
 const validos = encontrados.filter(p => {
   const nomeProdNorm = normalizar(p.nome);
   const termoNorm = normalizar(termoParaBusca);
+  const preco = p.preco;
+
+  // 1. Lista de ruídos globais (nunca queremos esses itens em buscas genéricas)
+  let proibidas = ['refresco', 'tang', 'suco em po', 'gelatina', 'essencia', 'po para'];
+
+  // 2. EXCEÇÕES INTELIGENTES PARA HORTOLÂNDIA (Baseado nas suas imagens)
   
-  // 1. Lista de ruídos comuns
-  let proibidas = ['refresco', 'tang', 'suco em po', 'gelatina', 'oleo de', 'essencia'];
-
-  // 2. EXCEÇÕES INTELIGENTES:
-  // Se eu NÃO estou buscando "Bom Ar", ele vira proibido (para não sujar a busca do Algodão)
+  // Se NÃO estou buscando "Bom Ar", ele vira proibido (resolve o erro do Algodão)
   if (!termoNorm.includes('bom ar')) {
-    proibidas.push('bom ar', 'aromatizador', 'difusor', 'click spray');
+    proibidas.push('bom ar', 'aromatizador', 'difusor', 'click spray', 'refil');
   }
 
-  // Se eu NÃO estou buscando "Óleo", "Óleo" vira proibido
+  // Se NÃO estou buscando "Óleo", bloqueia óleos (evita Óleo de Algodão na busca de Algodão)
   if (!termoNorm.includes('oleo')) {
-    proibidas.push('oleo');
+    proibidas.push('oleo de');
   }
 
+  // Se estou buscando Carne BOVINA, proíbe SUÍNA e FRANGO (resolve erro da Carne Moída)
+  if (termoNorm.includes('bovina') && (nomeProdNorm.includes('suina') || nomeProdNorm.includes('frango'))) {
+    return false;
+  }
+
+  // Filtro de segurança: Se o nome do produto no site contém a palavra "suina" 
+  // mas você não pediu "suina", descartamos para evitar comparar porco com boi.
+  if (!termoNorm.includes('suina') && nomeProdNorm.includes('suina')) {
+    return false;
+  }
+
+  // 3. Aplicação do filtro de proibidas
   const temProibida = proibidas.some(proc => nomeProdNorm.includes(proc));
   if (temProibida) return false;
 
-  // 3. Regra de Ouro: Todas as palavras da busca devem estar no nome
-  const palavrasBusca = termoNorm.split(" ").filter(w => w.length > 2);
+  // 4. REGRA DE OURO: Todas as palavras importantes da sua busca devem estar no nome do produto
+  // Filtramos palavras curtas como "de", "com", "e" (menores que 3 letras)
+  const palavrasBusca = termoNorm.split(" ").filter(w => w.length >= 3);
   const temTodasAsPalavras = palavrasBusca.every(palavra => nomeProdNorm.includes(palavra));
 
-  return p.preco > 0 && temTodasAsPalavras;
+  return preco > 0 && temTodasAsPalavras;
 });
+      
 
 
       if (validos.length === 0) {
