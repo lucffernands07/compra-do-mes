@@ -37,20 +37,31 @@ async function buscarProduto(page, termo) {
   await page.goto(url, { waitUntil: "domcontentloaded", timeout: 90000 });
 
   return await page.evaluate(() => {
-    return Array.from(document.querySelectorAll("a.showcase-card-content"))
-      .slice(0, 12) // Aumentado para pegar mais opções e filtrar melhor (como a carne moída)
-      .map(card => {
-        const nome = card.querySelector("h3.TitleCardComponent")?.innerText.trim() || "Produto sem nome";
-        const precoTxt = card.querySelector("div.SimplePriceComponent")?.innerText || "0";
-        const preco = parseFloat(
-          precoTxt
-            .replace(/\s/g, "")
-            .replace("R$", "")
-            .replace(",", ".")
-            .replace(/[^\d.]/g, "")
-        ) || 0;
-        return { nome, preco };
-      });
+  return Array.from(document.querySelectorAll("a.showcase-card-content"))
+    .slice(0, 12)
+    .map(card => {
+      const nome = card.querySelector("h3.TitleCardComponent")?.innerText.trim() || "Produto sem nome";
+      
+      // Captura o texto do preço
+      const precoTxt = card.querySelector("div.SimplePriceComponent")?.innerText || "0";
+      
+      // LIMPEZA MELHORADA:
+      // 1. Remove espaços em branco e o caractere especial &nbsp;
+      // 2. Remove "R$" e "un"
+      // 3. Substitui a vírgula por ponto
+      const precoLimpo = precoTxt
+        .replace(/\u00a0/g, " ") // Troca &nbsp; por espaço comum
+        .replace(/\s/g, "")      // Remove todos os espaços
+        .replace("R$", "")
+        .replace("un", "")
+        .replace(",", ".")
+        .replace(/[^\d.]/g, ""); // Garante que fiquem apenas números e ponto
+
+      const preco = parseFloat(precoLimpo) || 0;
+      return { nome, preco };
+    });
+});
+
   });
 }
 
