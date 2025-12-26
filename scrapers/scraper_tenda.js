@@ -33,40 +33,42 @@ function extrairPeso(nome) {
 
 async function buscarProduto(page, termo) {
   const url = `https://www.tendaatacado.com.br/busca?q=${encodeURIComponent(termo)}`;
-  await page.goto(url, { waitUntil: "domcontentloaded", timeout: 90000 });
+  
+  // 1. Vai para a URL e espera o carregamento básico
+  await page.goto(url, { waitUntil: "networkidle2", timeout: 90000 });
+
+  try {
+    // 2. ESPERA ESSENCIAL: Aguarda o seletor dos cards aparecerem na página
+    // Isso evita que o script tente ler a página enquanto ela ainda está "borrada" ou vazia
+    await page.waitForSelector("a.showcase-card-content", { timeout: 15000 });
+    
+    // 3. Pequeno scroll para garantir que o Lazy Loading do Tenda carregue os preços
+    await page.mouse.wheel({ deltaY: 500 });
+    await new Promise(r => setTimeout(r, 1000));
+  } catch (e) {
+    console.log(`⚠️ Tempo esgotado esperando cards para: ${termo}`);
+    return [];
+  }
 
   return await page.evaluate(() => {
-    // Aumentado para 20 para garantir que a carne bovina seja vista mesmo que apareça após a suína
-    return Array.from(document.querySelectorAll("a.showcase-card-content"))
-      .slice(0, 20)
-      .map(card => {
-        const nome = card.querySelector("h3.TitleCardComponent")?.innerText.trim() || "Produto sem nome";
-        
-        // --- LÓGICA DE DUPLA BUSCA DE PREÇO ---
-        // Tenta o seletor padrão enviado
-        let precoElement = card.querySelector("div.SimplePriceComponent");
-        let precoTxt = precoElement?.innerText || "";
+    const cards = Array.from(document.querySelectorAll("a.showcase-card-content"));
+    return cards.slice(0, 20).map(card => {
+      const nome = card.querySelector("h3.TitleCardComponent")?.innerText.trim() || "";
+      
+      // Busca preço em múltiplos lugares (Plano A e B)
+      let precoTxt = card.querySelector("div.SimplePriceComponent")?.innerText || 
+                     card.querySelector("[class*='Price']")?.innerText || "0";
 
-        // Se falhar ou estiver zerado, tenta seletores de oferta/clube (Plano B)
-        if (!precoTxt || precoTxt.includes("0,00")) {
-            const backup = card.querySelector(".price") || 
-                           card.querySelector("[class*='Price']") || 
-                           card.querySelector("span[class*='value']");
-            precoTxt = backup?.innerText || "0";
-        }
+      const precoLimpo = precoTxt
+        .replace(/\u00a0/g, " ") 
+        .replace(/\s/g, "")      
+        .replace("R$", "")
+        .replace("un", "")
+        .replace(",", ".")
+        .replace(/[^\d.]/g, "");
 
-        // Limpeza rigorosa tratando &nbsp;, sufixos e espaços
-        const precoLimpo = precoTxt
-          .replace(/\u00a0/g, " ") 
-          .replace(/\s/g, "")      
-          .replace("R$", "")
-          .replace("un", "")
-          .replace(",", ".")
-          .replace(/[^\d.]/g, "");
-
-        const preco = parseFloat(precoLimpo) || 0;
-        return { nome, preco };
-      });
+      return { nome, preco: parseFloat(precoLimpo) || 0 };
+    });
   });
 }
 
