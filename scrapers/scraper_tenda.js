@@ -89,25 +89,38 @@ async function main() {
   let resultados = [];
   let totalEncontrados = 0;
 
-  for (const [index, termo] of produtos.entries()) {
+    for (const [index, termo] of produtos.entries()) {
     const id = index + 1;
     try {
-      console.log(`🔍 Buscando: ${termo}`);
-      const encontrados = await buscarProduto(page, termo);
+      // --- AJUSTE AQUI: Limpa o termo antes de mandar pro site ---
+      let termoParaBusca = termo.replace(/ kg/gi, "").replace(/ bandeja/gi, "").trim(); 
+      console.log(`🔍 Buscando: ${termoParaBusca}`);
+      
+      const encontrados = await buscarProduto(page, termoParaBusca);
+      const termoNorm = normalizar(termoParaBusca);
+      
+      // --- MELHORIA NO FILTRO: Não exige a frase exata, apenas que as palavras batam ---
+      const palavrasChave = termoNorm.split(" ").filter(p => p.length > 2);
 
-      const termoNorm = normalizar(termo);
-      const validos = encontrados.filter(p =>
-        p.preco > 0 && normalizar(p.nome).includes(termoNorm)
-      );
+      const validos = encontrados.filter(p => {
+        const nomeProdNorm = normalizar(p.nome);
+        // Verifica se o preço é real e se pelo menos uma palavra da sua busca está no nome
+        const temPalavra = palavrasChave.some(palavra => nomeProdNorm.includes(palavra));
+        
+        // Evita falsos positivos (Ex: busca Mamão e vem Suco de Mamão)
+        const palavrasProibidas = ['refresco', 'suco em po', 'gelatina', 'oleo de'];
+        const temProibida = palavrasProibidas.some(proibida => nomeProdNorm.includes(proibida));
+
+        return p.preco > 0 && temPalavra && !temProibida;
+      });
 
       if (validos.length === 0) {
         console.log(`⚠️ Nenhum preço válido encontrado para ${termo}`);
         continue;
       }
 
-      const maisBarato = validos.reduce((a, b) =>
-        a.preco < b.preco ? a : b
-      );
+      // Ordena para pegar o menor preço dos resultados válidos
+      const maisBarato = validos.reduce((a, b) => (a.preco < b.preco ? a : b));
 
       const peso = extrairPeso(maisBarato.nome);
       resultados.push({
@@ -124,6 +137,7 @@ async function main() {
       console.error(`❌ Erro ao buscar ${termo}:`, err.message);
     }
   }
+
 
   await browser.close();
 
