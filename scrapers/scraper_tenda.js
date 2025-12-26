@@ -110,22 +110,32 @@ async function main() {
 
 const validos = encontrados.filter(p => {
   const nomeProdNorm = normalizar(p.nome);
-  const palavrasBusca = termoNorm.split(" ").filter(w => w.length > 2);
+  const termoNorm = normalizar(termoParaBusca);
   
-  // Lista de ruídos
+  // 1. Lista de ruídos comuns
   let proibidas = ['refresco', 'tang', 'suco em po', 'gelatina', 'oleo de', 'essencia'];
 
-  // REGRA ESPECIAL: Só proíbe "detergente" ou "limpador" se NÃO for o que estamos buscando
-  if (!termoNorm.includes('detergente')) proibidas.push('detergente', 'lava-loucas');
-  if (!termoNorm.includes('limpador')) proibidas.push('limpador');
+  // 2. EXCEÇÕES INTELIGENTES:
+  // Se eu NÃO estou buscando "Bom Ar", ele vira proibido (para não sujar a busca do Algodão)
+  if (!termoNorm.includes('bom ar')) {
+    proibidas.push('bom ar', 'aromatizador', 'difusor', 'click spray');
+  }
+
+  // Se eu NÃO estou buscando "Óleo", "Óleo" vira proibido
+  if (!termoNorm.includes('oleo')) {
+    proibidas.push('oleo');
+  }
 
   const temProibida = proibidas.some(proc => nomeProdNorm.includes(proc));
   if (temProibida) return false;
 
+  // 3. Regra de Ouro: Todas as palavras da busca devem estar no nome
+  const palavrasBusca = termoNorm.split(" ").filter(w => w.length > 2);
   const temTodasAsPalavras = palavrasBusca.every(palavra => nomeProdNorm.includes(palavra));
 
   return p.preco > 0 && temTodasAsPalavras;
 });
+
 
       if (validos.length === 0) {
         console.log(`⚠️ Nenhum preço válido encontrado para ${termo}`);
