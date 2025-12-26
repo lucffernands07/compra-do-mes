@@ -3,7 +3,8 @@ name: Scraper Preços
 on:
   workflow_dispatch:        # ISSO ATIVA O BOTÃO MANUAL
   schedule:
-    - cron: "0 */2 * * *"   # roda de 2 em 2 horas
+    # Rodar às 11:00 UTC (08:00 BRT) e 19:00 UTC (16:00 BRT) todos os dias
+    - cron: '0 11,19 * * *'
 
 jobs:
   scrape:
