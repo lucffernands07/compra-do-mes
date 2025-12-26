@@ -1,7 +1,7 @@
 name: Scraper Preços
 
 on:
-  workflow_dispatch:        # permite rodar manualmente
+  workflow_dispatch:        # ISSO ATIVA O BOTÃO MANUAL
   schedule:
     - cron: "0 */2 * * *"   # roda de 2 em 2 horas
 
@@ -9,7 +9,7 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
 
-      steps:
+    steps:
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
@@ -26,15 +26,13 @@ jobs:
       - name: Run scraper Tenda
         run: node scrapers/scraper_tenda.js
 
+      # Linhas comentadas corretamente com #
       # - name: Run scraper GoodBom
       #   run: node scrapers/scraper_goodbom.js
-
       # - name: Run scraper Arena
       #   run: node scrapers/scraper_arena.js
-
       # - name: Run scraper Savegnago
       #   run: node scrapers/scraper_savegnago.js
-
       # - name: Compare prices
       #   run: node scrapers/compare.js
 
@@ -47,3 +45,4 @@ jobs:
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
