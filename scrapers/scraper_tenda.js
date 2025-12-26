@@ -89,29 +89,44 @@ async function main() {
   let resultados = [];
   let totalEncontrados = 0;
 
-    for (const [index, termo] of produtos.entries()) {
+  for (const [index, termo] of produtos.entries()) {
     const id = index + 1;
     try {
-      // --- AJUSTE AQUI: Limpa o termo antes de mandar pro site ---
-      let termoParaBusca = termo.replace(/ kg/gi, "").replace(/ bandeja/gi, "").trim(); 
+      // 1. Limpa o termo de busca (remove KG, g, etc) para o motor de busca do site
+      let termoParaBusca = termo
+        .replace(/\bkg\b/gi, "")
+        .replace(/\bg\b/gi, "")
+        .replace(/ bandeja/gi, "")
+        .trim();
+      
       console.log(`🔍 Buscando: ${termoParaBusca}`);
       
+      // Aumentamos a busca para olhar até 10 itens (ajuste dentro da função buscarProduto se necessário)
       const encontrados = await buscarProduto(page, termoParaBusca);
       const termoNorm = normalizar(termoParaBusca);
       
-      // --- MELHORIA NO FILTRO: Não exige a frase exata, apenas que as palavras batam ---
-      const palavrasChave = termoNorm.split(" ").filter(p => p.length > 2);
+      // Criamos uma lista das palavras que VOCÊ quer encontrar (ex: ["carne", "moida"])
+      const palavrasBusca = termoNorm.split(" ").filter(p => p.length > 2);
 
       const validos = encontrados.filter(p => {
         const nomeProdNorm = normalizar(p.nome);
-        // Verifica se o preço é real e se pelo menos uma palavra da sua busca está no nome
-        const temPalavra = palavrasChave.some(palavra => nomeProdNorm.includes(palavra));
         
-        // Evita falsos positivos (Ex: busca Mamão e vem Suco de Mamão)
-        const palavrasProibidas = ['refresco', 'suco em po', 'gelatina', 'oleo de'];
-        const temProibida = palavrasProibidas.some(proibida => nomeProdNorm.includes(proibida));
+        // --- FILTRO A: Palavras Proibidas (Ruídos de busca) ---
+        const proibidas = [
+          'refresco', 'tang', 'suco em po', 'gelatina', 'po para', 
+          'biscoito recheado', 'salgadinho', 'essencia', 'aroma', 'tempero'
+        ];
+        const temProibida = proibidas.some(proc => nomeProdNorm.includes(proc));
+        if (temProibida) return false;
 
-        return p.preco > 0 && temPalavra && !temProibida;
+        // --- FILTRO B: Regra de Ouro (Todas as palavras da busca devem estar no nome) ---
+        // Se você buscou "Bacon Pedaço", o nome no site DEVE ter "bacon" E "pedaco"
+        // Isso evita que venha "Salgadinho de Bacon" ou "Molho sabor Bacon"
+        const temTodasAsPalavras = palavrasBusca.every(palavra => 
+          nomeProdNorm.includes(palavra)
+        );
+
+        return p.preco > 0 && temTodasAsPalavras;
       });
 
       if (validos.length === 0) {
@@ -119,10 +134,12 @@ async function main() {
         continue;
       }
 
-      // Ordena para pegar o menor preço dos resultados válidos
+      // 2. Entre os válidos, pegamos o menor preço
       const maisBarato = validos.reduce((a, b) => (a.preco < b.preco ? a : b));
 
+      // 3. Extraímos o peso para calcular o preço por KG (normalização)
       const peso = extrairPeso(maisBarato.nome);
+      
       resultados.push({
         id,
         supermercado: "Tenda",
@@ -132,11 +149,13 @@ async function main() {
       });
 
       totalEncontrados++;
-      console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
+      console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)} (R$ ${(maisBarato.preco / peso).toFixed(2)}/kg)`);
+      
     } catch (err) {
       console.error(`❌ Erro ao buscar ${termo}:`, err.message);
     }
   }
+
 
 
   await browser.close();
