@@ -1,20 +1,12 @@
-// scrapers/scraper_arena.js
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 const path = require("path");
 
-// Caminhos
 const produtosTxtPath = path.join(__dirname, "..", "products.txt");
 const outDir = path.join(__dirname, "..", "docs", "prices");
 
-// Lê lista de produtos
-const produtos = fs.readFileSync(produtosTxtPath, "utf-8")
-  .split("\n")
-  .map(l => l.trim())
-  .filter(Boolean);
-
-// Normaliza texto: remove acentos, espaços extras e lowercase
 function normalizar(txt) {
+  if (!txt) return "";
   return txt
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
@@ -22,74 +14,110 @@ function normalizar(txt) {
     .trim();
 }
 
-// Extrai peso em kg/l do nome do produto
 function extrairPeso(nome) {
-  const match = nome.toLowerCase().match(/(\d+)\s*(g|kg|ml|l)/);
+  const n = nome.toLowerCase();
+  const match = n.match(/(\d+[.,]?\d*)\s*(g|kg|ml|l)/);
   if (!match) return 1;
-  let qtd = parseFloat(match[1]);
+  let qtd = parseFloat(match[1].replace(",", "."));
   const unidade = match[2];
   if (unidade === "g" || unidade === "ml") qtd /= 1000;
   return qtd || 1;
 }
 
-// Converte texto de preço para número
 function parsePreco(txt) {
   if (!txt) return 0;
-  return (
-    parseFloat(
-      txt.replace("R$", "")
-         .replace(",", ".")
-         .replace(/[^\d.]/g, "")
-    ) || 0
+  const n = parseFloat(
+    txt.replace("R$", "")
+       .replace(/\s/g, "")
+       .replace(",", ".")
+       .replace(/[^\d.]/g, "")
   );
+  return isNaN(n) ? 0 : n;
 }
 
 async function main() {
-  const browser = await puppeteer.launch({ headless: "new", args: ["--no-sandbox"] });
+  const browser = await puppeteer.launch({ 
+    headless: "new", 
+    args: ["--no-sandbox", "--disable-setuid-sandbox"] 
+  });
   const page = await browser.newPage();
 
+  const produtos = fs.readFileSync(produtosTxtPath, "utf-8")
+    .split("\n").map(l => l.trim()).filter(Boolean);
+
   const resultado = [];
-  let encontrados = 0; // contador de produtos com preço válido
+  let totalEncontrados = 0;
 
   try {
     for (const [index, produto] of produtos.entries()) {
       const id = index + 1;
-      const termoNorm = normalizar(produto);
+      let termoParaBusca = produto.replace(/\bkg\b/gi, "").replace(/\bg\b/gi, "").trim();
+      const termoNorm = normalizar(termoParaBusca);
 
-      await page.goto(
-        `https://www.arenaatacado.com.br/on/demandware.store/Sites-Arena-Site/pt_BR/Search-Show?q=${encodeURIComponent(produto)}`,
-        { waitUntil: "networkidle2", timeout: 90000 }
-      );
+      console.log(`🔍 Buscando: ${termoParaBusca}`);
+
+      try {
+        await page.goto(
+          `https://www.arenaatacado.com.br/on/demandware.store/Sites-Arena-Site/pt_BR/Search-Show?q=${encodeURIComponent(termoParaBusca)}`,
+          { waitUntil: "networkidle2", timeout: 90000 }
+        );
+
+        // 1. ESPERA PELOS CARDS DO ARENA
+        await page.waitForSelector("span.productCard__title", { timeout: 15000 });
+        
+        // 2. SCROLL PARA ATIVAR PREÇOS (Arena carrega alguns elementos dinamicamente)
+        await page.mouse.wheel({ deltaY: 400 });
+        await new Promise(r => setTimeout(r, 1000));
+      } catch (e) {
+        console.log(`⚠️ Cards não apareceram para: ${termoParaBusca}`);
+        continue;
+      }
 
       const items = await page.evaluate(() => {
-        const nomes = Array.from(document.querySelectorAll("span.productCard__title"));
-        const precos = Array.from(document.querySelectorAll("span.productPrice__price"));
-
-        return nomes.slice(0, 9).map((el, i) => {
-          const nome = el.innerText.trim();
-          const precoTxt = precos[i] ? precos[i].innerText.trim() : "0";
+        const cards = Array.from(document.querySelectorAll(".productCard"));
+        return cards.slice(0, 15).map(card => {
+          const nome = card.querySelector("span.productCard__title")?.innerText.trim() || "";
+          
+          // LÓGICA DE DUPLO SELETOR DE PREÇO (Padrão Arena)
+          let precoTxt = card.querySelector("span.productPrice__price")?.innerText || 
+                         card.querySelector(".price")?.innerText || 
+                         card.querySelector("[class*='Price']")?.innerText || "0";
+          
           return { nome, precoTxt };
         });
       });
 
-      // Filtrar produtos cujo nome contenha o termo (ignora acento/maiúsculas)
-      const validos = items
-        .map(it => {
-          const nomeNorm = normalizar(it.nome);
-          const preco = parsePreco(it.precoTxt);
-          const peso = extrairPeso(it.nome);
-          return {
-            nome: it.nome,
-            preco,
-            preco_por_kg: parseFloat((preco / peso).toFixed(2)),
-            nomeNorm
-          };
-        })
-        .filter(it => it.preco > 0 && it.nomeNorm.includes(termoNorm));
+      // 3. FILTRO POR RADICAL (3 letras) - Mesma lógica do Tenda
+      const filtrados = items.map(item => ({
+        nome: item.nome,
+        preco: parsePreco(item.precoTxt),
+        peso_kg: extrairPeso(item.nome)
+      })).filter(item => {
+        const nomeNorm = normalizar(item.nome);
+        
+        // Bloqueios de categoria
+        if (!termoNorm.includes('suina') && nomeNorm.includes('suina')) return false;
+        if (!termoNorm.includes('oleo') && nomeNorm.includes('oleo')) return false;
 
-      if (validos.length > 0) {
-        const maisBarato = validos.sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
-        encontrados++;
+        // Match total por radicais
+        const palavrasBusca = termoNorm.split(" ").filter(w => w.length >= 3);
+        const temTodas = palavrasBusca.every(pal => {
+          const radical = pal.substring(0, 3);
+          return nomeNorm.includes(radical);
+        });
+
+        return item.preco > 0 && temTodas;
+      });
+
+      if (filtrados.length > 0) {
+        // Ordena por melhor preço por KG
+        const ordenados = filtrados.map(item => ({
+          ...item,
+          preco_por_kg: parseFloat((item.preco / item.peso_kg).toFixed(2))
+        })).sort((a, b) => a.preco_por_kg - b.preco_por_kg);
+
+        const maisBarato = ordenados[0];
+        totalEncontrados++;
 
         resultado.push({
           id,
@@ -101,11 +129,10 @@ async function main() {
 
         console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
       } else {
-        console.log(`⚠️ Nenhum resultado válido para: ${produto}`);
+        console.log(`⚠️ Nenhum match válido para: ${produto}`);
       }
     }
 
-    // Salvar JSON
     if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
     fs.writeFileSync(
       path.join(outDir, "prices_arena.json"),
@@ -113,13 +140,13 @@ async function main() {
       "utf-8"
     );
 
-    console.log("💾 Preços Arena salvos com sucesso!");
-    console.log(`📊 Total de produtos com preço válido: ${encontrados}/${produtos.length}`);
+    console.log(`📊 Finalizado Arena: ${totalEncontrados}/${produtos.length}`);
   } catch (err) {
-    console.error("❌ Erro no scraper Arena:", err.message);
+    console.error("❌ Erro fatal Arena:", err.message);
   } finally {
     await browser.close();
   }
 }
 
 main();
+        
