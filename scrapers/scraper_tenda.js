@@ -4,6 +4,7 @@ const fs = require("fs");
 const INPUT_FILE = "products.txt";
 const OUTPUT_FILE = "docs/prices/prices_tenda.json";
 
+// 🔎 Normaliza texto: remove acentos e deixa em minúsculo
 function normalizar(txt) {
   if (!txt) return "";
   return txt
@@ -12,16 +13,21 @@ function normalizar(txt) {
     .replace(/[\u0300-\u036f]/g, "");
 }
 
+// Extrair peso do nome do produto para calcular preço por KG
 function extrairPeso(nome) {
   nome = nome.toLowerCase();
   let match = nome.match(/(\d+)\s*g/);
   if (match) return parseInt(match[1], 10) / 1000;
+
   match = nome.match(/(\d+[.,]?\d*)\s*kg/);
   if (match) return parseFloat(match[1].replace(",", "."));
+
   match = nome.match(/(\d+[.,]?\d*)\s*ml/);
   if (match) return parseFloat(match[1].replace(",", ".")) / 1000;
+
   match = nome.match(/(\d+[.,]?\d*)\s*l/);
   if (match) return parseFloat(match[1].replace(",", "."));
+
   return 1;
 }
 
@@ -30,13 +36,26 @@ async function buscarProduto(page, termo) {
   await page.goto(url, { waitUntil: "domcontentloaded", timeout: 90000 });
 
   return await page.evaluate(() => {
+    // Aumentado para 20 para garantir que a carne bovina seja vista mesmo que apareça após a suína
     return Array.from(document.querySelectorAll("a.showcase-card-content"))
-      .slice(0, 12)
+      .slice(0, 20)
       .map(card => {
         const nome = card.querySelector("h3.TitleCardComponent")?.innerText.trim() || "Produto sem nome";
-        const precoTxt = card.querySelector("div.SimplePriceComponent")?.innerText || "0";
         
-        // Limpeza do preço tratando &nbsp; e sufixo "un"
+        // --- LÓGICA DE DUPLA BUSCA DE PREÇO ---
+        // Tenta o seletor padrão enviado
+        let precoElement = card.querySelector("div.SimplePriceComponent");
+        let precoTxt = precoElement?.innerText || "";
+
+        // Se falhar ou estiver zerado, tenta seletores de oferta/clube (Plano B)
+        if (!precoTxt || precoTxt.includes("0,00")) {
+            const backup = card.querySelector(".price") || 
+                           card.querySelector("[class*='Price']") || 
+                           card.querySelector("span[class*='value']");
+            precoTxt = backup?.innerText || "0";
+        }
+
+        // Limpeza rigorosa tratando &nbsp;, sufixos e espaços
         const precoLimpo = precoTxt
           .replace(/\u00a0/g, " ") 
           .replace(/\s/g, "")      
@@ -58,13 +77,14 @@ async function main() {
   });
   const page = await browser.newPage();
 
+  // Configurações Originais de CEP
   try {
     await page.goto("https://www.tendaatacado.com.br", { waitUntil: "domcontentloaded", timeout: 60000 });
     await page.waitForSelector("#shipping-cep", { timeout: 10000 });
     await page.type("#shipping-cep", "13187166", { delay: 100 });
     await page.keyboard.press("Enter");
     await new Promise(r => setTimeout(r, 4000));
-    console.log("✅ CEP configurado");
+    console.log("✅ CEP configurado para Hortolândia");
   } catch {
     console.log("⚠️ CEP já configurado.");
   }
@@ -84,41 +104,46 @@ async function main() {
 
       const validos = encontrados.filter(p => {
         const nomeProdNorm = normalizar(p.nome);
+
+        // 1. Bloqueios de Categoria (Essencial para não levar Porco por Boi)
         if (!termoNorm.includes('suina') && nomeProdNorm.includes('suina')) return false;
         if (!termoNorm.includes('oleo') && nomeProdNorm.includes('oleo')) return false;
         if (!termoNorm.includes('bom ar') && nomeProdNorm.includes('bom ar')) return false;
 
+        // 2. REGRA DE MATCH TOTAL (Todas as palavras da busca devem estar no nome)
         const palavrasBusca = termoNorm.split(" ").filter(w => w.length >= 3);
-        if (palavrasBusca.length === 0) return nomeProdNorm.includes(termoNorm);
+        
+        // Garante que "carne", "moida" e "bovina" existam no nome do produto
+        const temTodasAsPalavras = palavrasBusca.every(pal => nomeProdNorm.includes(pal));
 
-        return palavrasBusca.every(pal => nomeProdNorm.includes(pal.substring(0, 4)));
+        return p.preco > 0 && temTodasAsPalavras;
       });
 
       if (validos.length > 0) {
-        // Seleção por melhor preço por KG
+        // Seleção do melhor preço por KG (Original)
         const melhorOpcao = validos.reduce((prev, curr) => {
           const precoKgPrev = prev.preco / extrairPeso(prev.nome);
           const precoKgCurr = curr.preco / extrairPeso(curr.nome);
           return (precoKgCurr < precoKgPrev && precoKgCurr > 0) ? curr : prev;
         });
 
-        if (melhorOpcao.preco > 0) {
-          const pesoFinal = extrairPeso(melhorOpcao.nome);
-          resultados.push({
-            id,
-            supermercado: "Tenda",
-            produto: melhorOpcao.nome,
-            preco: melhorOpcao.preco,
-            preco_por_kg: +(melhorOpcao.preco / pesoFinal).toFixed(2)
-          });
-          totalEncontrados++;
-          console.log(`✅ ${melhorOpcao.nome} - R$ ${melhorOpcao.preco.toFixed(2)}`);
-        }
+        const pesoFinal = extrairPeso(melhorOpcao.nome);
+        resultados.push({
+          id,
+          supermercado: "Tenda",
+          produto: melhorOpcao.nome,
+          preco: melhorOpcao.preco,
+          preco_por_kg: +(melhorOpcao.preco / pesoFinal).toFixed(2)
+        });
+
+        totalEncontrados++;
+        console.log(`✅ ${melhorOpcao.nome} - R$ ${melhorOpcao.preco.toFixed(2)}`);
       } else {
-        console.log(`⚠️ Nenhum match para: ${termo}`);
+        console.log(`⚠️ Nenhum match válido para: ${termo}`);
       }
+      
     } catch (err) {
-      console.error(`❌ Erro em ${termo}:`, err.message);
+      console.error(`❌ Erro ao buscar ${termo}:`, err.message);
     }
   }
 
@@ -131,4 +156,4 @@ main().catch(err => {
   console.error("❌ Erro fatal:", err);
   process.exit(1);
 });
-    
+                                              
