@@ -109,47 +109,39 @@ async function main() {
       const palavrasBusca = termoNorm.split(" ").filter(p => p.length > 2);
 
 const validos = encontrados.filter(p => {
-  const nomeProdNorm = normalizar(p.nome);
-  const termoNorm = normalizar(termoParaBusca);
-  const preco = p.preco;
+  const nomeProdNorm = normalizar(p.nome); // Ex: "carne moida bovina congelada chuletao 1kg"
+  const termoNorm = normalizar(termoParaBusca); // Ex: "carne moida bovina"
 
-  // 1. Lista de ruídos globais (nunca queremos esses itens em buscas genéricas)
-  let proibidas = ['refresco', 'tang', 'suco em po', 'gelatina', 'essencia', 'po para'];
-
-  // 2. EXCEÇÕES INTELIGENTES PARA HORTOLÂNDIA (Baseado nas suas imagens)
-  
-  // Se NÃO estou buscando "Bom Ar", ele vira proibido (resolve o erro do Algodão)
-  if (!termoNorm.includes('bom ar')) {
-    proibidas.push('bom ar', 'aromatizador', 'difusor', 'click spray', 'refil');
-  }
-
-  // Se NÃO estou buscando "Óleo", bloqueia óleos (evita Óleo de Algodão na busca de Algodão)
-  if (!termoNorm.includes('oleo')) {
-    proibidas.push('oleo de');
-  }
-
-  // Se estou buscando Carne BOVINA, proíbe SUÍNA e FRANGO (resolve erro da Carne Moída)
-  if (termoNorm.includes('bovina') && (nomeProdNorm.includes('suina') || nomeProdNorm.includes('frango'))) {
-    return false;
-  }
-
-  // Filtro de segurança: Se o nome do produto no site contém a palavra "suina" 
-  // mas você não pediu "suina", descartamos para evitar comparar porco com boi.
+  // 1. Bloqueio de Categoria (Essencial para não levar Porco por Boi)
+  // Se você NÃO buscou por "suina", mas o produto é "suina", ignore.
   if (!termoNorm.includes('suina') && nomeProdNorm.includes('suina')) {
     return false;
   }
 
-  // 3. Aplicação do filtro de proibidas
-  const temProibida = proibidas.some(proc => nomeProdNorm.includes(proc));
-  if (temProibida) return false;
-
-  // 4. REGRA DE OURO: Todas as palavras importantes da sua busca devem estar no nome do produto
-  // Filtramos palavras curtas como "de", "com", "e" (menores que 3 letras)
+  // 2. Flexibilidade de Palavras (Busca por Radical)
+  // Divide sua busca em palavras (carne, moida, bovina)
   const palavrasBusca = termoNorm.split(" ").filter(w => w.length >= 3);
-  const temTodasAsPalavras = palavrasBusca.every(palavra => nomeProdNorm.includes(palavra));
+  
+  // Verifica se cada palavra da sua busca está presente no nome do produto.
+  // Usamos .substring(0, 3) para aceitar "Bov" se você buscou "Bovina".
+  const temMatches = palavrasBusca.every(palavra => 
+    nomeProdNorm.includes(palavra.substring(0, 3))
+  );
 
-  return preco > 0 && temTodasAsPalavras;
+  return p.preco > 0 && temMatches;
 });
+
+// 3. Seleção do Melhor Preço por KG (Para escolher entre Chuletão 1kg ou 500g)
+if (validos.length > 0) {
+  const melhorOpcao = validos.reduce((prev, curr) => {
+    // Calcula o preço por KG real para comparar o pacote de 1kg com o de 500g
+    const precoKgPrev = prev.precoKg || prev.preco; 
+    const precoKgCurr = curr.precoKg || curr.preco;
+    return precoKgCurr < precoKgPrev ? curr : prev;
+  });
+  // Salva o resultado...
+}
+
       
 
 
