@@ -5,10 +5,13 @@ const path = require("path");
 const OUTPUT_FILE = path.join(__dirname, "..", "docs", "prices", "prices_savegnago.json");
 const INPUT_FILE = path.join(__dirname, "..", "products.txt");
 
+// 🔎 Normaliza texto para comparação sem acentos
 function normalizar(txt) {
+  if (!txt) return "";
   return txt.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
 }
 
+// ⚖️ Extração de peso para cálculo de preço por KG
 function extrairPeso(nome) {
   nome = nome.toLowerCase();
   let m = nome.match(/(\d+)\s*g/);
@@ -22,39 +25,68 @@ function extrairPeso(nome) {
   return 1;
 }
 
+// 💰 Parser de preço robusto (converte string em número)
 function parsePreco(txt) {
-  const n = parseFloat(txt.replace("R$", "").replace(",", ".").replace(/[^\d.]/g, ""));
+  if (!txt) return 0;
+  const n = parseFloat(txt.replace("R$", "").replace(/\s/g, "").replace(",", ".").replace(/[^\d.]/g, ""));
   return isNaN(n) ? 0 : n;
 }
 
 async function buscarProdutos(page, termo) {
   const url = `https://www.savegnago.com.br/${encodeURIComponent(termo)}?_q=${encodeURIComponent(termo)}`;
-  await page.goto(url, { waitUntil: "networkidle2", timeout: 90000 });
+  
+  try {
+    // 1. Espera a rede estabilizar
+    await page.goto(url, { waitUntil: "networkidle2", timeout: 90000 });
+
+    // 2. Espera o seletor dos produtos aparecer (Essencial para não dar lista vazia)
+    await page.waitForSelector("span.vtex-product-summary-2-x-productBrand", { timeout: 15000 });
+
+    // 3. Simula um scroll leve para carregar preços que podem estar em lazy load
+    await page.mouse.wheel({ deltaY: 400 });
+    await new Promise(r => setTimeout(r, 1000));
+  } catch (e) {
+    console.log(`⚠️ Cards não carregaram para: ${termo}`);
+    return [];
+  }
+
   return await page.evaluate(() => {
-    const nomes = Array.from(document.querySelectorAll("span.vtex-product-summary-2-x-productBrand"));
-    const precos = Array.from(document.querySelectorAll("p.savegnagoio-store-theme-15-x-priceUnit"));
-    return nomes.slice(0, 9).map((el, i) => ({
-      nome: el.innerText.trim(),
-      precoTxt: precos[i] ? precos[i].innerText.trim() : "0"
-    }));
+    // No Savegnago, pegamos os containers dos produtos para garantir que nome e preço batam
+    const cards = Array.from(document.querySelectorAll("section.vtex-product-summary-2-x-container"));
+    
+    return cards.slice(0, 15).map(card => {
+      const nome = card.querySelector("span.vtex-product-summary-2-x-productBrand")?.innerText.trim() || "";
+      
+      // Múltiplas tentativas de capturar o preço (Venda, Promoção ou Unidade)
+      let precoTxt = card.querySelector("p.savegnagoio-store-theme-15-x-priceUnit")?.innerText || 
+                     card.querySelector(".vtex-product-price-1-x-sellingPrice")?.innerText || 
+                     card.querySelector("[class*='price']")?.innerText || "0";
+
+      return { nome, precoTxt };
+    });
   });
 }
 
 (async () => {
-  const browser = await puppeteer.launch({ headless: "new", args: ["--no-sandbox"] });
+  const browser = await puppeteer.launch({ 
+    headless: "new", 
+    args: ["--no-sandbox", "--disable-setuid-sandbox"] 
+  });
   const page = await browser.newPage();
 
   const produtos = fs.readFileSync(INPUT_FILE, "utf-8")
     .split("\n").map(p => p.trim()).filter(Boolean);
 
   const results = [];
-  let encontrados = 0; // ✅ apenas produtos com preço válido
+  let totalEncontrados = 0;
 
   for (const [index, termo] of produtos.entries()) {
     try {
-      console.log(`🔍 Buscando: ${termo}`);
-      const encontradosProd = await buscarProdutos(page, termo);
-      const termoNorm = normalizar(termo);
+      let termoParaBusca = termo.replace(/\bkg\b/gi, "").replace(/\bg\b/gi, "").trim();
+      console.log(`🔍 Buscando: ${termoParaBusca}`);
+      
+      const encontradosProd = await buscarProdutos(page, termoParaBusca);
+      const termoNorm = normalizar(termoParaBusca);
 
       const filtrados = encontradosProd
         .map(p => ({
@@ -62,13 +94,32 @@ async function buscarProdutos(page, termo) {
           preco: parsePreco(p.precoTxt),
           peso: extrairPeso(p.nome)
         }))
-        .filter(p => p.preco > 0 && normalizar(p.nome).includes(termoNorm));
+        .filter(p => {
+          const nomeNorm = normalizar(p.nome);
+          
+          // BLOQUEIOS (Mesma lógica do Tenda)
+          if (!termoNorm.includes('suina') && nomeNorm.includes('suina')) return false;
+          if (!termoNorm.includes('oleo') && nomeNorm.includes('oleo')) return false;
+
+          // MATCH POR RADICAL (3 letras)
+          const palavrasBusca = termoNorm.split(" ").filter(w => w.length >= 3);
+          const temTodas = palavrasBusca.every(pal => {
+             const radical = pal.substring(0, 3);
+             return nomeNorm.includes(radical);
+          });
+
+          return p.preco > 0 && temTodas;
+        });
 
       if (filtrados.length > 0) {
-        filtrados.forEach(p => p.preco_por_kg = +(p.preco / p.peso).toFixed(2));
-        const maisBarato = filtrados.sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
+        // Ordena por preço por KG e pega o mais barato
+        const ordenados = filtrados.map(p => ({
+          ...p,
+          preco_por_kg: +(p.preco / p.peso).toFixed(2)
+        })).sort((a, b) => a.preco_por_kg - b.preco_por_kg);
 
-        encontrados++; // ✅ só incrementa se preço > 0
+        const maisBarato = ordenados[0];
+        totalEncontrados++;
 
         results.push({
           id: index + 1,
@@ -83,15 +134,14 @@ async function buscarProdutos(page, termo) {
         console.log(`⚠️ Nenhum resultado válido para: ${termo}`);
       }
     } catch (err) {
-      console.error(`❌ Erro ao buscar ${termo}:`, err.message);
+      console.error(`❌ Erro em ${termo}:`, err.message);
     }
   }
 
   await browser.close();
-
-  // ✅ Salvar apenas produtos com preço válido
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(results, null, 2), "utf-8");
 
-  console.log(`💾 Resultados salvos em ${OUTPUT_FILE}`);
-  console.log(`📊 Total de produtos com preço válido: ${encontrados}/${produtos.length}`);
+  console.log(`💾 Salvo em: ${OUTPUT_FILE}`);
+  console.log(`📊 Total Final: ${totalEncontrados}/${produtos.length}`);
 })();
+        
