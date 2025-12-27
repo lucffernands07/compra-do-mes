@@ -73,8 +73,8 @@ async function carregarDados() {
         </tbody>
       </table>
       <br>
-      <p><strong>Vencedor (Mais barato p/ KG): ${maisBaratoName}</strong></p>
-      <p><strong>Total de produtos comparados nesta lista: ${totalProdutosComparados}</strong></p>
+      <p>Vencedor (Mais barato p/ KG): ${maisBaratoName}</p>
+      <p><Total de produtos comparados nesta lista: ${totalProdutosComparados}</p>
     `;
 
     // Lista de produtos
