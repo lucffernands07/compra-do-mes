@@ -1,4 +1,3 @@
-// docs/app.js
 async function carregarDados() {
   const resultadoDiv = document.getElementById("resultado");
   resultadoDiv.innerHTML = "Carregando...";
@@ -23,8 +22,7 @@ async function carregarDados() {
       return Number.isFinite(n) ? n : 0;
     };
 
-    // --- CÁLCULO MANUAL DOS TOTAIS BASEADOS EM KG ---
-    // Ignoramos o data.totalGoodbom e calculamos a soma de todos os preco_por_kg
+    // --- CÁLCULO DOS TOTAIS BASEADOS EM KG ---
     const calcularTotalPorKg = (loja) => {
       return produtos.reduce((acc, p) => {
         return acc + toNumber(p[loja]?.preco_por_kg);
@@ -38,7 +36,7 @@ async function carregarDados() {
       savegnago: calcularTotalPorKg('savegnago')
     };
 
-    // Quantidades encontradas (usamos os valores que já vêm no JSON)
+    // Quantidades encontradas (informação vinda do JSON)
     const quantidades = {
       goodbom: toNumber(data.encontradosGoodbom),
       tenda: toNumber(data.encontradosTenda),
@@ -46,16 +44,16 @@ async function carregarDados() {
       savegnago: toNumber(data.encontradosSavegnago)
     };
 
-    // Determinar o mais barato pela média de preço por KG (para ser justo entre quem encontrou mais ou menos itens)
-    // Se quiser apenas a soma bruta, use totaisKg[a] diretamente
+    // Determinar o mais barato
     const maisBaratoKey = Object.keys(totaisKg).reduce((a, b) => totaisKg[a] <= totaisKg[b] ? a : b);
-    
     const maisBaratoName = maisBaratoKey.charAt(0).toUpperCase() + maisBaratoKey.slice(1);
-    const valorMaisBarato = totaisKg[maisBaratoKey];
+    
+    // ✅ Recupera o total de produtos comparados (itens que estão no JSON)
+    const totalProdutosComparados = produtos.length;
 
     const tabelaTotais = `
       <br><h2>Comparação de Preços (Total por KG/L)</h2>
-      <p><small>*O total abaixo é a soma dos valores proporcionais ao quilo de todos os itens encontrados.</small></p>
+      <p><small>*Soma baseada no valor proporcional de 1kg/1L para cada item.</small></p>
       <table>
         <thead>
           <tr>
@@ -76,9 +74,10 @@ async function carregarDados() {
       </table>
       <br>
       <p><strong>Vencedor (Mais barato por KG): ${maisBaratoName}</strong></p>
+      <p><strong>Total de produtos comparados nesta lista: ${totalProdutosComparados}</strong></p>
     `;
 
-    // Lista produtos mostrando o preço por KG em destaque
+    // Lista de produtos
     const listaProdutos = produtos
       .filter(p => toNumber(p[maisBaratoKey]?.preco_por_kg) > 0)
       .map(p => {
@@ -90,7 +89,7 @@ async function carregarDados() {
             <div><strong>${item.nome}</strong></div>
             <div>
               <span class="preco">R$ ${precoKg.toFixed(2)} /kg</span><br>
-              <small>No caixa: R$ ${precoUn.toFixed(2)}</small>
+              <small>Valor da embalagem: R$ ${precoUn.toFixed(2)}</small>
             </div>
           </li>`;
       }).join("");
