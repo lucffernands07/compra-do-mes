@@ -1,5 +1,208 @@
 [
   {
+    "id": 1,
+    "supermercado": "Tenda",
+    "produto": "Carne Moída Bovina Congelada Chuletão 500g",
+    "preco": 8.5,
+    "preco_por_kg": 17
+  },
+  {
+    "id": 2,
+    "supermercado": "Tenda",
+    "produto": "Bacon Pedaço Frimesa",
+    "preco": 17.22,
+    "preco_por_kg": 17.22
+  },
+  {
+    "id": 3,
+    "supermercado": "Tenda",
+    "produto": "Linguiça Calabresa Defumada Estrela Pacote 2,5kg",
+    "preco": 44.72,
+    "preco_por_kg": 17.89
+  },
+  {
+    "id": 4,
+    "supermercado": "Tenda",
+    "produto": "Hambúrguer de carne de frango e bovina Perdigão caixa 672g 12 unidades",
+    "preco": 16.9,
+    "preco_por_kg": 25.15
+  },
+  {
+    "id": 5,
+    "supermercado": "Tenda",
+    "produto": "Linguiça Toscana Congelada Pérola 5Kg",
+    "preco": 62.45,
+    "preco_por_kg": 12.49
+  },
+  {
+    "id": 6,
+    "supermercado": "Tenda",
+    "produto": "Salsicha Hot Dog Estrela Pacote 3kg",
+    "preco": 23.7,
+    "preco_por_kg": 7.9
+  },
+  {
+    "id": 7,
+    "supermercado": "Tenda",
+    "produto": "Coxa com Sobrecoxa de Frango Congelado 500g",
+    "preco": 4.45,
+    "preco_por_kg": 8.9
+  },
+  {
+    "id": 8,
+    "supermercado": "Tenda",
+    "produto": "Filézinho Sassami de Frango Congelado Lar 6kg",
+    "preco": 106.9,
+    "preco_por_kg": 17.82
+  },
+  {
+    "id": 9,
+    "supermercado": "Tenda",
+    "produto": "Bisteca Suína Congelada Aurora 1,2kg",
+    "preco": 22.68,
+    "preco_por_kg": 18.9
+  },
+  {
+    "id": 10,
+    "supermercado": "Tenda",
+    "produto": "Miolo da Alcatra Bovina Resfriado 5kg",
+    "preco": 209.5,
+    "preco_por_kg": 41.9
+  },
+  {
+    "id": 11,
+    "supermercado": "Tenda",
+    "produto": "Contra Filé Bovino Resfriado Peça 4kg",
+    "preco": 195.6,
+    "preco_por_kg": 48.9
+  },
+  {
+    "id": 12,
+    "supermercado": "Tenda",
+    "produto": "Músculo Bovino Resfriado Peça 4kg",
+    "preco": 135.6,
+    "preco_por_kg": 33.9
+  },
+  {
+    "id": 13,
+    "supermercado": "Tenda",
+    "produto": "Ovos Grandes Branco 12 Unidades",
+    "preco": 7.89,
+    "preco_por_kg": 7.89
+  },
+  {
+    "id": 14,
+    "supermercado": "Tenda",
+    "produto": "Batata Doce Rosada Unidade",
+    "preco": 1.82,
+    "preco_por_kg": 1.82
+  },
+  {
+    "id": 15,
+    "supermercado": "Tenda",
+    "produto": "Cebola Saco 1Kg",
+    "preco": 2.79,
+    "preco_por_kg": 2.79
+  },
+  {
+    "id": 16,
+    "supermercado": "Tenda",
+    "produto": "Molho Tomate Pomodoro Tradicional Cica Sache 300g",
+    "preco": 1.35,
+    "preco_por_kg": 4.5
+  },
+  {
+    "id": 17,
+    "supermercado": "Tenda",
+    "produto": "Molho Tomate Pomodoro Tradicional Cica Sache 300g",
+    "preco": 1.35,
+    "preco_por_kg": 4.5
+  },
+  {
+    "id": 18,
+    "supermercado": "Tenda",
+    "produto": "Pimentão Verde Saco 440g",
+    "preco": 4.4,
+    "preco_por_kg": 10
+  },
+  {
+    "id": 19,
+    "supermercado": "Tenda",
+    "produto": "Pimentão Vermelho Saco 740g",
+    "preco": 18.43,
+    "preco_por_kg": 24.91
+  },
+  {
+    "id": 20,
+    "supermercado": "Tenda",
+    "produto": "Pimentão Amarelo Saco 740g",
+    "preco": 18.43,
+    "preco_por_kg": 24.91
+  },
+  {
+    "id": 21,
+    "supermercado": "Tenda",
+    "produto": "Refrigerante Limão Frutuba 2L",
+    "preco": 3.49,
+    "preco_por_kg": 1.75
+  },
+  {
+    "id": 22,
+    "supermercado": "Tenda",
+    "produto": "Vagem Macarrão 300g",
+    "preco": 3.72,
+    "preco_por_kg": 12.4
+  },
+  {
+    "id": 23,
+    "supermercado": "Tenda",
+    "produto": "Abobrinha Italiana Unidade",
+    "preco": 1.65,
+    "preco_por_kg": 1.65
+  },
+  {
+    "id": 24,
+    "supermercado": "Tenda",
+    "produto": "Beterraba Saco 1Kg",
+    "preco": 2.99,
+    "preco_por_kg": 2.99
+  },
+  {
+    "id": 25,
+    "supermercado": "Tenda",
+    "produto": "Inhame Unidade",
+    "preco": 1.64,
+    "preco_por_kg": 1.64
+  },
+  {
+    "id": 26,
+    "supermercado": "Tenda",
+    "produto": "Gengibre Unidade",
+    "preco": 1.15,
+    "preco_por_kg": 1.15
+  },
+  {
+    "id": 27,
+    "supermercado": "Tenda",
+    "produto": "Cenoura Saco 1kg",
+    "preco": 3.79,
+    "preco_por_kg": 3.79
+  },
+  {
+    "id": 28,
+    "supermercado": "Tenda",
+    "produto": "Chuchu Unidade",
+    "preco": 1.48,
+    "preco_por_kg": 1.48
+  },
+  {
+    "id": 29,
+    "supermercado": "Tenda",
+    "produto": "Mandioquinha Unidade",
+    "preco": 1.28,
+    "preco_por_kg": 1.28
+  },
+  {
     "id": 30,
     "supermercado": "Tenda",
     "produto": "Cheiro Verde Maço Unidade",
@@ -79,9 +282,9 @@
   {
     "id": 42,
     "supermercado": "Tenda",
-    "produto": "Queijo Mussarela Litoral Peça 4,2kg",
-    "preco": 125.54,
-    "preco_por_kg": 29.89
+    "produto": "Queijo Mussarela Peça Apolo 4kg",
+    "preco": 95.56,
+    "preco_por_kg": 23.89
   },
   {
     "id": 43,
@@ -93,9 +296,9 @@
   {
     "id": 44,
     "supermercado": "Tenda",
-    "produto": "Mortadela Marba Marbinha 1kg",
-    "preco": 10.35,
-    "preco_por_kg": 10.35
+    "produto": "Mortadela Estrelinha 400g",
+    "preco": 4.15,
+    "preco_por_kg": 10.38
   },
   {
     "id": 45,
@@ -128,16 +331,16 @@
   {
     "id": 50,
     "supermercado": "Tenda",
-    "produto": "Leite Fermentado Zero Lactose Comevap 900g",
-    "preco": 6.99,
-    "preco_por_kg": 7.77
+    "produto": "Leite Fermentado Frutap 900g",
+    "preco": 8.99,
+    "preco_por_kg": 9.99
   },
   {
     "id": 51,
     "supermercado": "Tenda",
-    "produto": "Polpa de Fruta Congelada Manga De Marchi 100g",
-    "preco": 2.39,
-    "preco_por_kg": 23.9
+    "produto": "Polpa de Fruta Abacaxi com Hortelã Select 100g",
+    "preco": 2.09,
+    "preco_por_kg": 20.9
   },
   {
     "id": 52,
@@ -352,7 +555,7 @@
   {
     "id": 83,
     "supermercado": "Tenda",
-    "produto": "Pipoca para Micro-Ondas Natural com Sal Yoki Pacote 100g",
+    "produto": "Pipoca para Micro-Ondas Manteiga de Cinema Yoki Pacote 100g",
     "preco": 4.29,
     "preco_por_kg": 42.9
   },
