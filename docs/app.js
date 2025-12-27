@@ -14,8 +14,7 @@ async function carregarDados() {
     }
     if (!response) throw new Error("Arquivo compare.json não encontrado");
 
-    const text = await response.text();
-    const data = JSON.parse(text);
+    const data = await response.json();
     const produtos = Array.isArray(data.produtos) ? data.produtos : [];
 
     const toNumber = v => {
@@ -24,88 +23,79 @@ async function carregarDados() {
       return Number.isFinite(n) ? n : 0;
     };
 
-    // totais em R$
-    let totalGoodbom   = toNumber(data.totalGoodbom);
-    let totalTenda     = toNumber(data.totalTenda);
-    let totalArena     = toNumber(data.totalArena);
-    let totalSavegnago = toNumber(data.totalSavegnago);
-
-    // ✅ usar diretamente os encontrados do compare.json
-    const qtdGoodbom   = toNumber(data.encontradosGoodbom);
-    const qtdTenda     = toNumber(data.encontradosTenda);
-    const qtdArena     = toNumber(data.encontradosArena);
-    const qtdSavegnago = toNumber(data.encontradosSavegnago);
-
-    // determinar mais barato
-    const valores = {
-      goodbom: totalGoodbom,
-      tenda: totalTenda,
-      arena: totalArena,
-      savegnago: totalSavegnago
+    // --- CÁLCULO MANUAL DOS TOTAIS BASEADOS EM KG ---
+    // Ignoramos o data.totalGoodbom e calculamos a soma de todos os preco_por_kg
+    const calcularTotalPorKg = (loja) => {
+      return produtos.reduce((acc, p) => {
+        return acc + toNumber(p[loja]?.preco_por_kg);
+      }, 0);
     };
-    const maisBaratoKey = Object.keys(valores).reduce((a,b) => valores[a] <= valores[b] ? a : b);
+
+    const totaisKg = {
+      goodbom: calcularTotalPorKg('goodbom'),
+      tenda: calcularTotalPorKg('tenda'),
+      arena: calcularTotalPorKg('arena'),
+      savegnago: calcularTotalPorKg('savegnago')
+    };
+
+    // Quantidades encontradas (usamos os valores que já vêm no JSON)
+    const quantidades = {
+      goodbom: toNumber(data.encontradosGoodbom),
+      tenda: toNumber(data.encontradosTenda),
+      arena: toNumber(data.encontradosArena),
+      savegnago: toNumber(data.encontradosSavegnago)
+    };
+
+    // Determinar o mais barato pela média de preço por KG (para ser justo entre quem encontrou mais ou menos itens)
+    // Se quiser apenas a soma bruta, use totaisKg[a] diretamente
+    const maisBaratoKey = Object.keys(totaisKg).reduce((a, b) => totaisKg[a] <= totaisKg[b] ? a : b);
+    
     const maisBaratoName = maisBaratoKey.charAt(0).toUpperCase() + maisBaratoKey.slice(1);
-    const valorMaisBarato = valores[maisBaratoKey];
+    const valorMaisBarato = totaisKg[maisBaratoKey];
 
-    const totalProdutos = produtos.length;
-    const produtosDisponiveis = produtos.filter(p => toNumber(p[maisBaratoKey]?.preco) > 0).length;
-    const produtosFaltantes = totalProdutos - produtosDisponiveis;
-
-    // tabela com nova coluna de quantidade
     const tabelaTotais = `
-      <br><h2>Comparação de Preços</h2><br>
+      <br><h2>Comparação de Preços (Total por KG/L)</h2>
+      <p><small>*O total abaixo é a soma dos valores proporcionais ao quilo de todos os itens encontrados.</small></p>
       <table>
         <thead>
           <tr>
             <th>Supermercado</th>
-            <th>Total (R$)</th>
-            <th>Qtd. Produtos Encontrados</th>
+            <th>Soma por KG (R$)</th>
+            <th>Itens Encontrados</th>
           </tr>
         </thead>
         <tbody>
-          <tr ${maisBaratoKey==="goodbom"? 'class="mais-barato"':''}>
-            <td>Goodbom</td>
-            <td>R$ ${totalGoodbom.toFixed(2)}</td>
-            <td>${qtdGoodbom}</td>
-          </tr>
-          <tr ${maisBaratoKey==="tenda"? 'class="mais-barato"':''}>
-            <td>Tenda</td>
-            <td>R$ ${totalTenda.toFixed(2)}</td>
-            <td>${qtdTenda}</td>
-          </tr>
-          <tr ${maisBaratoKey==="arena"? 'class="mais-barato"':''}>
-            <td>Arena</td>
-            <td>R$ ${totalArena.toFixed(2)}</td>
-            <td>${qtdArena}</td>
-          </tr>
-          <tr ${maisBaratoKey==="savegnago"? 'class="mais-barato"':''}>
-            <td>Savegnago</td>
-            <td>R$ ${totalSavegnago.toFixed(2)}</td>
-            <td>${qtdSavegnago}</td>
-          </tr>
+          ${Object.keys(totaisKg).map(loja => `
+            <tr ${maisBaratoKey === loja ? 'class="mais-barato"' : ''}>
+              <td>${loja.charAt(0).toUpperCase() + loja.slice(1)}</td>
+              <td>R$ ${totaisKg[loja].toFixed(2)}</td>
+              <td>${quantidades[loja]}</td>
+            </tr>
+          `).join('')}
         </tbody>
       </table>
       <br>
-      <p>Supermercado mais barato: ${maisBaratoName} (R$ ${valorMaisBarato.toFixed(2)})</p>
-
-      <p>Total de produtos comparados: ${totalProdutos}</p>
-
+      <p><strong>Vencedor (Mais barato por KG): ${maisBaratoName}</strong></p>
     `;
 
-    // lista produtos do mais barato
+    // Lista produtos mostrando o preço por KG em destaque
     const listaProdutos = produtos
-      .filter(p => toNumber(p[maisBaratoKey]?.preco) > 0)
+      .filter(p => toNumber(p[maisBaratoKey]?.preco_por_kg) > 0)
       .map(p => {
-        const nome = p[maisBaratoKey]?.nome || "Sem nome";
-        const preco = toNumber(p[maisBaratoKey]?.preco);
-        return `<li class="item"><div><strong>${nome}</strong></div><div><span class="preco">R$ ${preco.toFixed(2)}</span></div></li>`;
+        const item = p[maisBaratoKey];
+        const precoKg = toNumber(item.preco_por_kg);
+        const precoUn = toNumber(item.preco);
+        return `
+          <li class="item">
+            <div><strong>${item.nome}</strong></div>
+            <div>
+              <span class="preco">R$ ${precoKg.toFixed(2)} /kg</span><br>
+              <small>No caixa: R$ ${precoUn.toFixed(2)}</small>
+            </div>
+          </li>`;
       }).join("");
 
-    const listaHtml = `<h3>Produtos do ${maisBaratoName}</h3>${
-      listaProdutos ? "<ul>" + listaProdutos + "</ul>" : "<p>Nenhum produto com preço disponível</p>"
-    }`;
-
-    resultadoDiv.innerHTML = tabelaTotais + listaHtml;
+    resultadoDiv.innerHTML = tabelaTotais + `<h3>Produtos do ${maisBaratoName}</h3><ul>${listaProdutos}</ul>`;
 
   } catch (err) {
     console.error("Erro ao carregar dados:", err);
