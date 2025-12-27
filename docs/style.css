@@ -86,7 +86,7 @@ li.item:last-child {
 strong {
   font-weight: bold;
   font-size: 40px;
-  color: blue;
+  color: green;
   overflow-wrap: break-word;     /* quebra palavras longas */
   flex: 1;
   min-width: 0;                  /* permite encolher sem empurrar o preço */
