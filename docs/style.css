@@ -23,8 +23,6 @@ body {
 .header-app {
   background: var(--gradiente);
   height: 250px; /* Mais alto para destacar */
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
