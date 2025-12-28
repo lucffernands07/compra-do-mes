@@ -48,7 +48,7 @@ async function carregarDados() {
     const maisBaratoKey = Object.keys(totaisKg).reduce((a, b) => totaisKg[a] <= totaisKg[b] ? a : b);
     const maisBaratoName = maisBaratoKey.charAt(0).toUpperCase() + maisBaratoKey.slice(1);
     
-    // ✅ Recupera o total de produtos comparados (itens que estão no JSON)
+    // ✅ T00otal de produtos comparados (itens que estão no JSON)
     const totalProdutosComparados = produtos.length;
 
     const tabelaTotais = `
@@ -74,7 +74,7 @@ async function carregarDados() {
       </table>
       <br>
       <p>Vencedor (Mais barato p/ KG): ${maisBaratoName}</p>
-      <p><Total de produtos comparados nesta lista: ${totalProdutosComparados}</p>
+      <p>Total de produtos comparados: ${totalProdutosComparados}</p>
     `;
 
     // Lista de produtos
