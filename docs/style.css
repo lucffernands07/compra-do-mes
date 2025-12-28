@@ -5,101 +5,138 @@
   box-sizing: border-box;
 }
 
+:root {
+  /* Cores baseadas nas fotos de referência que você enviou */
+  --gradiente: linear-gradient(135deg, #00b09b, #96c93d);
+  --bg-app: #f0f4f7;
+  --verde-texto: #00b09b;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-app);
+  padding: 0; /* Removemos o padding do body para o gradiente encostar no topo */
 }
 
-/* ===== Centraliza títulos e parágrafos ===== */
-h1, h2, h3, p {
+/* ===== Cabeçalho com Gradiente (Igual à foto do App) ===== */
+.header-app {
+  background: var(--gradiente);
+  height: 220px;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 10px 25px rgba(0, 176, 155, 0.2);
+}
+
+.header-app h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+/* ===== Títulos e Parágrafos (Ajustados para o novo layout) ===== */
+h2, h3 {
   text-align: center;
-  margin: 10px 20px;
+  margin: 20px;
+  color: #333;
 }
 
-/* ===== Tabela de totais ===== */
+/* ===== Tabela de totais (Transformada em Card Flutuante) ===== */
 table {
-  width: calc(100% - 40px); /* margem lateral 20px */
-  margin: 20px auto;
+  width: calc(100% - 40px);
+  margin: -60px auto 30px; /* Margem negativa para subir o card sobre o gradiente */
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  overflow: hidden;
   border-collapse: collapse;
-  text-align: left;
-  border-collapse: collapse;
-  text-align: center;  /* centraliza todo o conteúdo das células */
 }
 
 th, td {
-  border: 1px solid #ccc;
-  padding: 8px;
+  padding: 15px;
+  border: none; /* Removemos as bordas internas para um visual mais limpo */
+  border-bottom: 1px solid #eee;
 }
 
 th {
-  background-color: #f2f2f2;
-  width: 100px;
+  background-color: #fff;
+  color: #888;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top: 25px;
+}
+
+tr:last-child td {
+  border-bottom: none;
 }
 
 tr {
-  font-size: 28px;
+  font-size: 26px; /* Ajuste leve para caber bem no card */
 }
 
 .mais-barato td {
   font-weight: bold;
-  color: green;
+  color: var(--verde-texto);
 }
 
-/* ===== Lista de produtos ===== */
+/* ===== Lista de produtos (Estilo Cards da foto de exercícios) ===== */
 ul {
   list-style-type: none;
-  padding: 0;
-  margin: 20px;
-}
-
-ul li {
-  background-color: #f9f9f9;
-  margin-bottom: 8px;
-  border-radius: 6px;
-  height: 220px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-}
-
-/* Titulos em azul após tabela*/
-p {
-  color: blue;
-  font-weight: bold;
-  font-size: 40px;
+  padding: 0 20px;
+  margin-bottom: 40px;
 }
 
 li.item {
   display: flex;
-  justify-content: space-between; /* nome à esquerda, preço à direita */
-  align-items: center;        /* alinha ao centro */
-  background-color: #f9f9f9;
-  margin-botton: 8px;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  border-bottom: 1px solid #555; /* linha cinza escuro */
-  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  padding: 20px;
+  border-radius: 20px; /* Bordas bem arredondadas como na foto */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.04);
+  min-height: 180px; /* Ajustado para acomodar bem o texto grande */
+  border: 1px solid rgba(0,0,0,0.02);
+  gap: 20px;
 }
 
-li.item:last-child {
-  border-bottom: none; /* remove a linha do último */
+/* Titulos em azul após tabela */
+p {
+  color: #333; /* Mudado para escuro para combinar com o fundo claro */
+  font-weight: bold;
+  font-size: 32px;
+  margin: 30px 0 10px;
 }
 
 strong {
   font-weight: bold;
-  font-size: 40px;
-  color: green;
-  overflow-wrap: break-word;     /* quebra palavras longas */
+  font-size: 38px;
+  color: var(--verde-texto); /* Verde combinando com o gradiente */
   flex: 1;
-  min-width: 0;                  /* permite encolher sem empurrar o preço */
+  min-width: 0;
   overflow-wrap: break-word;
+}
+
+/* Lado direito do preço */
+.preco-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 span.preco {
   font-weight: bold;
-  font-size: 50px;
+  font-size: 55px;
   color: red;
-  white-space: nowrap;           /* impede o preço de quebrar */
-  margin-left: auto;
-  display: flex;
-  align-itens: botton;     
-  padding-top: 40px;
+  white-space: nowrap;
+}
+
+/* Pequeno texto para o valor da embalagem */
+.valor-emb {
+  font-size: 20px;
+  color: #888;
+  margin-top: 5px;
 }
