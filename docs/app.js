@@ -52,7 +52,8 @@ async function carregarDados() {
     const totalProdutosComparados = produtos.length;
 
     const tabelaTotais = `
-      <br><small>Comparação de Preços (Total por KG/L)</small>
+      <br>
+      <p><small>Comparação de Preços (Total por KG/L)</small></p>
       <table>
         <thead>
           <tr>
