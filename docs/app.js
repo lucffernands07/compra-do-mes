@@ -36,7 +36,6 @@ async function carregarDados() {
       savegnago: calcularTotalPorKg('savegnago')
     };
 
-    // Quantidades encontradas (informação vinda do JSON)
     const quantidades = {
       goodbom: toNumber(data.encontradosGoodbom),
       tenda: toNumber(data.encontradosTenda),
@@ -47,24 +46,21 @@ async function carregarDados() {
     // Determinar o mais barato
     const maisBaratoKey = Object.keys(totaisKg).reduce((a, b) => totaisKg[a] <= totaisKg[b] ? a : b);
     const maisBaratoName = maisBaratoKey.charAt(0).toUpperCase() + maisBaratoKey.slice(1);
-    
-    // ✅ T00otal de produtos comparados (itens que estão no JSON)
     const totalProdutosComparados = produtos.length;
 
+    // ✅ 1. GERAR TABELA DE TOTAIS (Respeitando as classes do novo CSS)
     const tabelaTotais = `
-      <br>
-      <p><small>Comparação de Preços (Total por KG/L)</small></p>
       <table>
         <thead>
           <tr>
-            <th>Supermercado</th>
-            <th>Soma por KG (R$)</th>
-            <th>Itens Encontrados</th>
+            <th>Mercado</th>
+            <th>Soma KG</th>
+            <th>Itens</th>
           </tr>
         </thead>
         <tbody>
           ${Object.keys(totaisKg).map(loja => `
-            <tr ${maisBaratoKey === loja ? 'class="mais-barato"' : ''}>
+            <tr class="${maisBaratoKey === loja ? 'mais-barato' : ''}">
               <td>${loja.charAt(0).toUpperCase() + loja.slice(1)}</td>
               <td>R$ ${totaisKg[loja].toFixed(2)}</td>
               <td>${quantidades[loja]}</td>
@@ -72,29 +68,40 @@ async function carregarDados() {
           `).join('')}
         </tbody>
       </table>
-      <br>
-      <p>Vencedor (Mais barato p/ KG): ${maisBaratoName}</p>
-      <p>Total de produtos comparados: ${totalProdutosComparados}</p>
     `;
 
-    // Lista de produtos
-    const listaProdutos = produtos
-      .filter(p => toNumber(p[maisBaratoKey]?.preco_por_kg) > 0)
-      .map(p => {
-        const item = p[maisBaratoKey];
-        const precoKg = toNumber(item.preco_por_kg);
-        const precoUn = toNumber(item.preco);
-        return `
-          <li class="item">
-            <div><strong>${item.nome}</strong></div>
-            <div>
-              <span class="preco">R$ ${precoKg.toFixed(2)} /kg</span><br>
-              <small>Valor da embalagem: R$ ${precoUn.toFixed(2)}</small>
-            </div>
-          </li>`;
-      }).join("");
+    // ✅ 2. GERAR CARD DE DESTAQUE (Vencedor e Total sem sobreposição)
+    const cardDestaque = `
+      <div class="card-destaque">
+        <span class="vencedor-nome">🏆 Vencedor: ${maisBaratoName}</span>
+        <span class="total-produtos">Total de produtos comparados: <strong>${totalProdutosComparados}</strong></span>
+      </div>
+      <h3>Produtos do dia (${maisBaratoName})</h3>
+    `;
 
-    resultadoDiv.innerHTML = tabelaTotais + `<h3>Produtos do ${maisBaratoName}</h3><ul>${listaProdutos}</ul>`;
+    // ✅ 3. GERAR LISTA DE PRODUTOS (Layout de Cards limpos)
+    const listaProdutos = `
+      <ul>
+        ${produtos
+          .filter(p => toNumber(p[maisBaratoKey]?.preco_por_kg) > 0)
+          .map(p => {
+            const item = p[maisBaratoKey];
+            const precoKg = toNumber(item.preco_por_kg);
+            const precoUn = toNumber(item.preco);
+            return `
+              <li class="item">
+                <strong>${item.nome}</strong>
+                <div class="preco-container">
+                  <span class="preco">R$ ${precoKg.toFixed(2)}</span>
+                  <span class="valor-emb">Emb: R$ ${precoUn.toFixed(2)}</span>
+                </div>
+              </li>`;
+          }).join("")}
+      </ul>
+    `;
+
+    // INJETAR TUDO NA ORDEM CORRETA
+    resultadoDiv.innerHTML = tabelaTotais + cardDestaque + listaProdutos;
 
   } catch (err) {
     console.error("Erro ao carregar dados:", err);
@@ -102,6 +109,7 @@ async function carregarDados() {
   }
 }
 
+// Registro do Service Worker para PWA
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('./sw.js')
@@ -110,7 +118,5 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-
 carregarDados();
-
-
+                          
