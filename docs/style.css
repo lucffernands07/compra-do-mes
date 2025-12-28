@@ -6,24 +6,26 @@
 }
 
 :root {
-  /* Cores baseadas nas fotos de referência que você enviou */
+  /* Cores baseadas nas suas fotos de referência */
   --gradiente: linear-gradient(135deg, #00b09b, #96c93d);
   --bg-app: #f0f4f7;
   --verde-texto: #00b09b;
+  --vermelho-preco: #ff4757;
 }
 
 body {
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   background-color: var(--bg-app);
-  padding: 0; /* Removemos o padding do body para o gradiente encostar no topo */
+  padding: 0;
+  color: #333;
 }
 
-/* ===== Cabeçalho com Gradiente (Igual à foto do App) ===== */
+/* ===== Cabeçalho com Gradiente (Estilo Moderno) ===== */
 .header-app {
   background: var(--gradiente);
-  height: 220px;
-  border-bottom-left-radius: 45px;
-  border-bottom-right-radius: 45px;
+  height: 200px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,59 +35,84 @@ body {
 }
 
 .header-app h1 {
-  font-size: 50px;
+  font-size: 32px;
   margin: 0;
+  font-weight: 700;
 }
 
-/* ===== Títulos e Parágrafos (Ajustados para o novo layout) ===== */
-h2, h3 {
-  text-align: center;
-  margin: 20px;
-  color: #333;
+.header-app p {
+  font-size: 16px;
+  opacity: 0.9;
+  margin-top: 5px;
+  color: white; /* Sobrescreve o azul global */
 }
 
-/* ===== Tabela de totais (Transformada em Card Flutuante) ===== */
+/* ===== Tabela de Totais (Card Flutuante Corrigido) ===== */
 table {
-  width: calc(100% - 40px);
-  margin: -60px auto 30px; /* Margem negativa para subir o card sobre o gradiente */
+  width: calc(100% - 30px);
+  margin: -50px auto 20px; 
   background-color: #fff;
-  border-radius: 25px;
-  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
-  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
   border-collapse: collapse;
+  table-layout: fixed; /* Impede que colunas se sobreponham */
+  overflow: hidden;
 }
 
 th, td {
-  padding: 15px;
-  border: none; /* Removemos as bordas internas para um visual mais limpo */
-  border-bottom: 1px solid #eee;
+  padding: 15px 8px;
+  text-align: center;
+  border-bottom: 1px solid #f1f1f1;
+  word-wrap: break-word;
 }
 
 th {
   background-color: #fff;
   color: #888;
-  font-size: 18px;
+  font-size: 13px;
   text-transform: uppercase;
-  padding-top: 25px;
-}
-
-tr:last-child td {
-  border-bottom: none;
+  letter-spacing: 1px;
 }
 
 tr {
-  font-size: 26px; /* Ajuste leve para caber bem no card */
+  font-size: 18px; 
 }
 
 .mais-barato td {
   font-weight: bold;
-  color: var(--verde-texto);
+  color: var(--verde-texto) !important;
 }
 
-/* ===== Lista de produtos (Estilo Cards da foto de exercícios) ===== */
+/* ===== Card de Destaque (Vencedor e Total) ===== */
+.card-destaque {
+  background-color: #fff;
+  width: calc(100% - 30px);
+  margin: 0 auto 25px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.04);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.vencedor-nome {
+  color: var(--verde-texto);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.total-produtos {
+  color: #666;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/* ===== Lista de produtos (Cards estilo Exercícios) ===== */
 ul {
   list-style-type: none;
-  padding: 0 20px;
+  padding: 0 15px;
   margin-bottom: 40px;
 }
 
@@ -94,30 +121,20 @@ li.item {
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   padding: 20px;
-  border-radius: 20px; /* Bordas bem arredondadas como na foto */
-  box-shadow: 0 8px 20px rgba(0,0,0,0.04);
-  min-height: 180px; /* Ajustado para acomodar bem o texto grande */
-  border: 1px solid rgba(0,0,0,0.02);
-  gap: 20px;
-}
-
-/* Titulos em azul após tabela */
-p {
-  color: #333; /* Mudado para escuro para combinar com o fundo claro */
-  font-weight: bold;
-  font-size: 32px;
-  margin: 30px 0 10px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.03);
+  border: 1px solid rgba(0,0,0,0.01);
+  gap: 15px;
 }
 
 strong {
-  font-weight: bold;
-  font-size: 38px;
-  color: var(--verde-texto); /* Verde combinando com o gradiente */
+  font-weight: 600;
+  font-size: 20px; /* Reduzi um pouco para não quebrar tanto */
+  color: var(--verde-texto);
   flex: 1;
-  min-width: 0;
-  overflow-wrap: break-word;
+  line-height: 1.2;
 }
 
 /* Lado direito do preço */
@@ -125,18 +142,29 @@ strong {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  min-width: 120px;
 }
 
 span.preco {
-  font-weight: bold;
-  font-size: 55px;
-  color: red;
+  font-weight: 800;
+  font-size: 26px;
+  color: var(--vermelho-preco);
   white-space: nowrap;
 }
 
-/* Pequeno texto para o valor da embalagem */
 .valor-emb {
-  font-size: 20px;
-  color: #888;
-  margin-top: 5px;
+  font-size: 11px;
+  color: #999;
+  margin-top: 2px;
+  text-align: right;
 }
+
+/* Estilo para o título "Produtos do Dia" */
+h3 {
+  font-size: 18px;
+  color: #666;
+  text-align: left;
+  margin: 0 0 15px 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  }
