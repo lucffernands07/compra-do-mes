@@ -92,8 +92,8 @@ async function carregarDados() {
               <li class="item">
                 <strong>${item.nome}</strong>
                 <div class="preco-container">
-                  <span class="preco">R$ ${precoKg.toFixed(2)}</span>
-                  <span class="valor-emb">Emb: R$ ${precoUn.toFixed(2)}</span>
+                  <span class="preco">R$ ${precoUn.toFixed(2)}</span>
+                  <span class="valor-emb">Kg: R$ ${precoKg.toFixed(2)}</span>
                 </div>
               </li>`;
           }).join("")}
