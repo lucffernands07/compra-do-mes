@@ -1,12 +1,12 @@
 {
-  "totalGoodbom": "1691.44",
-  "totalTenda": "1156.29",
-  "totalArena": "1456.47",
-  "totalSavegnago": "1659.44",
-  "encontradosGoodbom": 114,
-  "encontradosTenda": 117,
+  "totalGoodbom": "1639.58",
+  "totalTenda": "1116.46",
+  "totalArena": "1414.69",
+  "totalSavegnago": "1595.05",
+  "encontradosGoodbom": 113,
+  "encontradosTenda": 116,
   "encontradosArena": 106,
-  "encontradosSavegnago": 115,
+  "encontradosSavegnago": 116,
   "produtos": [
     {
       "id": "3",
@@ -237,9 +237,9 @@
         "preco_por_kg": 1.82
       },
       "arena": {
-        "nome": "Batata Kg",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
+        "nome": "Batata Saco 10kg",
+        "preco": 29.9,
+        "preco_por_kg": 2.99
       },
       "savegnago": {
         "nome": "Batata Primeira 1kg",
@@ -491,9 +491,9 @@
     {
       "id": "27",
       "goodbom": {
-        "nome": "SEMENTE FELTRIN CENOURA",
-        "preco": 2.49,
-        "preco_por_kg": 2.49
+        "nome": "CENOURA KG",
+        "preco": 2.99,
+        "preco_por_kg": 2.99
       },
       "tenda": {
         "nome": "Cenoura Saco 1kg",
@@ -563,9 +563,9 @@
     {
       "id": "30",
       "goodbom": {
-        "nome": "CHÁ LEÃO VERDE 10 SACHÊS",
-        "preco": 6.49,
-        "preco_por_kg": 6.49
+        "nome": "CHEIRO VERDE MAÇO",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
       },
       "tenda": {
         "nome": "Cheiro Verde Maço Unidade",
@@ -669,9 +669,9 @@
         "preco_por_kg": 4.79
       },
       "arena": {
-        "nome": "Iogurte Desnatado Batavo Pense Zero Zero Lactose Mamão 1,150kg",
-        "preco": 15.59,
-        "preco_por_kg": 13.56
+        "nome": "Mamão Papaya Kg",
+        "preco": 12.9,
+        "preco_por_kg": 12.9
       },
       "savegnago": {
         "nome": "Mamão Formosa - 1kg",
@@ -712,9 +712,9 @@
         "preco_por_kg": 13.98
       },
       "tenda": {
-        "nome": "Refrigerante Sabor Uva Fanta 2L",
-        "preco": 7.49,
-        "preco_por_kg": 3.75
+        "nome": "Refresco Adoçado Uva Maguary 1L",
+        "preco": 7.39,
+        "preco_por_kg": 7.39
       },
       "arena": {
         "nome": "Suco Maguary Uva 1l",
@@ -723,10 +723,10 @@
       },
       "savegnago": {
         "nome": "Uva Rosada Cumbuca 1,4Kg",
-        "preco": 22.5,
-        "preco_por_kg": 16.07
+        "preco": 21.9,
+        "preco_por_kg": 15.64
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "37",
@@ -845,30 +845,6 @@
         "nome": "Pizza de mussarela Seara 440g",
         "preco": 15.76,
         "preco_por_kg": 35.82
-      },
-      "mais_barato": "Tenda"
-    },
-    {
-      "id": "43",
-      "goodbom": {
-        "nome": "PRESUNTO COZIDO PERDIGÃO KG",
-        "preco": 26.9,
-        "preco_por_kg": 26.9
-      },
-      "tenda": {
-        "nome": "Lasanha de presunto e queijo Seara 600g",
-        "preco": 12.9,
-        "preco_por_kg": 21.5
-      },
-      "arena": {
-        "nome": "Presunto Cozido Pamplona Sem Capa De Gordura Peça Kg",
-        "preco": 24.99,
-        "preco_por_kg": 24.99
-      },
-      "savegnago": {
-        "nome": "Lasanha de presunto e queijo Seara 600g",
-        "preco": 14.32,
-        "preco_por_kg": 23.87
       },
       "mais_barato": "Tenda"
     },
@@ -1107,8 +1083,8 @@
       },
       "savegnago": {
         "nome": "Molho Tomate Tradicional 300g Sachê Predilecta",
-        "preco": 1.59,
-        "preco_por_kg": 5.3
+        "preco": 1.35,
+        "preco_por_kg": 4.5
       },
       "mais_barato": "Arena"
     },
@@ -1159,30 +1135,6 @@
         "preco_por_kg": 17.35
       },
       "mais_barato": "Tenda"
-    },
-    {
-      "id": "64",
-      "goodbom": {
-        "nome": "FARINHA DE MANDIOCA DEUSA TEMPERADA CEB/ALHO 250G",
-        "preco": 5.99,
-        "preco_por_kg": 23.96
-      },
-      "tenda": {
-        "nome": "Farofa de Mandioca Temperada Pronta Kisabor 400g",
-        "preco": 8.95,
-        "preco_por_kg": 22.37
-      },
-      "arena": {
-        "nome": "Farofa Temperada Kisabor Mandioca 400g",
-        "preco": 5.49,
-        "preco_por_kg": 13.72
-      },
-      "savegnago": {
-        "nome": "Farofa de Mandioca Temperada Monjolinho 400g",
-        "preco": 4.59,
-        "preco_por_kg": 11.47
-      },
-      "mais_barato": "Savegnago"
     },
     {
       "id": "65",
@@ -1269,9 +1221,9 @@
         "preco_por_kg": 5
       },
       "arena": {
-        "nome": "Milho Verde Doce Mais Verdes Bandeja 700g",
-        "preco": 7.98,
-        "preco_por_kg": 11.4
+        "nome": "Milho Verde Jw - Bandeja 700g",
+        "preco": 6.99,
+        "preco_por_kg": 9.99
       },
       "savegnago": {
         "nome": "Milho Verde Espiga Ouro Bandeja 600g",
@@ -1562,7 +1514,7 @@
         "preco_por_kg": 23.49
       },
       "savegnago": {
-        "nome": "Café Nescafé Farmers Origins Brazil 10 Cápsulas",
+        "nome": "Café em Cápsula Nescafé Farmers Origins South Asia 10 cápsulas",
         "preco": 24.95,
         "preco_por_kg": 24.95
       },
@@ -1720,9 +1672,9 @@
         "preco_por_kg": 8.49
       },
       "tenda": {
-        "nome": "Limpador Multiuso Limão Azulim 500ml",
-        "preco": 2.55,
-        "preco_por_kg": 5.1
+        "nome": "Limpador Multiuso Original Azulim Squeeze 500ml",
+        "preco": 2.75,
+        "preco_por_kg": 5.5
       },
       "arena": {
         "nome": "Limpador Multi Uso Barbarex Tradicional 500ml",
@@ -1946,9 +1898,9 @@
         "preco_por_kg": 4.6
       },
       "savegnago": {
-        "nome": "Detergente Líquido Triex 5L Neutro",
-        "preco": 17.95,
-        "preco_por_kg": 3.59
+        "nome": "Detergente Líquido Triex 500ml Clear",
+        "preco": 1.89,
+        "preco_por_kg": 3.78
       },
       "mais_barato": "Tenda"
     },
@@ -2090,9 +2042,9 @@
         "preco_por_kg": 11.9
       },
       "savegnago": {
-        "nome": "Fralda Personal Baby Premium XXG Com 24 Unidades",
-        "preco": 38.9,
-        "preco_por_kg": 38.9
+        "nome": "Fralda Descartavel Vita Mili Adulto Xg",
+        "preco": 13.47,
+        "preco_por_kg": 13.47
       },
       "mais_barato": "Arena"
     },
@@ -2258,11 +2210,11 @@
         "preco_por_kg": 3.59
       },
       "savegnago": {
-        "nome": "Haste Flexiveis Mili Com 75",
-        "preco": 4.85,
-        "preco_por_kg": 4.85
+        "nome": "Haste Flexiveis Topz Com 75 unidades Patrulha Canina Baby",
+        "preco": 2.27,
+        "preco_por_kg": 2.27
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "115",
