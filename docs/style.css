@@ -45,7 +45,7 @@ body {
 
 /* ===== Tabela de Totais (Fonte Grande e Margens) ===== */
 table {
-  width: calc(100% - 40px); /* Mais espaçamento lateral */
+  width: calc(97% - 40px); /* Mais espaçamento lateral */
   margin: -200px auto 30px; 
   background-color: #fff;
   border-radius: 25px;
@@ -79,7 +79,7 @@ tr {
 /* ===== Card de Vencedor (Destaque Gigante) ===== */
 .card-destaque {
   background-color: #fff;
-  width: calc(100% - 40px);
+  width: calc(97% - 40px);
   margin: 0 auto 30px;
   padding: 30px 20px;
   border-radius: 25px;
@@ -103,7 +103,7 @@ tr {
 /* ===== Lista de Produtos (Cards Robustos) ===== */
 ul {
   list-style-type: none;
-  padding: 0 20px; /* Espaçamento lateral da lista */
+  padding: 0 30px; /* Espaçamento lateral da lista */
   margin-bottom: 50px;
 }
 
