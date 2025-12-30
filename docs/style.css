@@ -22,7 +22,8 @@ body {
 /* ===== Cabeçalho (Aumentado) ===== */
 .header-app {
   background: var(--gradiente);
-  height: 250px; /* Mais alto para destacar */
+  height: 450px; /* Mais alto para destacar */
+  padding-bottom: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,7 +46,7 @@ body {
 /* ===== Tabela de Totais (Fonte Grande e Margens) ===== */
 table {
   width: calc(100% - 40px); /* Mais espaçamento lateral */
-  margin: -60px auto 30px; 
+  margin: -200px auto 30px; 
   background-color: #fff;
   border-radius: 25px;
   box-shadow: 0 15px 35px rgba(0,0,0,0.1);
