@@ -100,6 +100,10 @@ tr {
   font-size: 32px; /* Fonte Grande */
 }
 
+h2 {
+  margin-left: 30px;
+}
+
 /* ===== Lista de Produtos (Cards Robustos) ===== */
 ul {
   list-style-type: none;
