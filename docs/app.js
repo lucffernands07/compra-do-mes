@@ -77,6 +77,7 @@ async function carregarDados() {
         <span class="total-produtos">Total de produtos comparados: <strong>${totalProdutosComparados}</strong></span>
       </div>
       <h2>Produtos do dia (${maisBaratoName})</h2>
+      <br>
     `;
 
     // ✅ 3. GERAR LISTA DE PRODUTOS (Layout de Cards limpos)
