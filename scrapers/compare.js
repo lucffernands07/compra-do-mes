@@ -96,20 +96,21 @@ for (const id of ids) {
   });
 }
 
-// ✅ JSON final
+// ✅ Adicione a data de atualização
+const dataAtualizacao = new Date().toLocaleString("pt-BR", { 
+  timeZone: "America/Sao_Paulo" 
+});
+
 const jsonFinal = {
+  ultimaAtualizacao: dataAtualizacao, // Novo campo aqui
   totalGoodbom:   totalGoodbom.toFixed(2),
   totalTenda:     totalTenda.toFixed(2),
   totalArena:     totalArena.toFixed(2),
   totalSavegnago: totalSavegnago.toFixed(2),
-
-  // Contagem de produtos encontrados (bruto de cada scraper)
   encontradosGoodbom,
   encontradosTenda,
   encontradosArena,
   encontradosSavegnago,
-
-  // Produtos realmente comparados
   produtos: escolhidos
 };
 
