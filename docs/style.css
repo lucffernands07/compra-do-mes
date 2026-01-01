@@ -154,12 +154,12 @@ span.preco {
 h3 {
   font-size: 24px;
   color: #444;
-  margin: 0 30px;
+  margin: 0 40px;
 }
 
 /* Container para agrupar Título e Data */
 .titulo-sessao {
-  margin: 10px 30px; /* Alinhado com o recuo dos cards */
+  margin: 10px 40px; /* Alinhado com o recuo dos cards */
   display: flex;
   flex-direction: column;
   gap: 5px;
