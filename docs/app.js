@@ -70,15 +70,19 @@ async function carregarDados() {
       </table>
     `;
 
-    // ✅ 2. GERAR CARD DE DESTAQUE (Vencedor e Total sem sobreposição)
-    const cardDestaque = `
-      <div class="card-destaque">
-        <span class="vencedor-nome">🏆 Vencedor: ${maisBaratoName}</span>
-        <span class="total-produtos">Total de produtos comparados: <strong>${totalProdutosComparados}</strong></span>
-      </div>
-      <h2>Produtos do dia (${maisBaratoName})</h2>
-      <br>
-    `;
+// ✅ 2. GERAR CARD DE DESTAQUE COM DATA ABAIXO DO TÍTULO
+const ultimaAtt = data.ultimaAtualizacao || "Data não disponível";
+
+const cardDestaque = `
+  <div class="card-destaque">
+    <span class="vencedor-nome">🏆 Vencedor: ${maisBaratoName}</span>
+    <span class="total-produtos">Total de produtos comparados: <strong>${totalProdutosComparados}</strong></span>
+  </div>
+  <div class="titulo-sessao">
+    <h2>Produtos do dia (${maisBaratoName})</h2>
+    <span class="data-atualizacao">Atualizado em: ${ultimaAtt}</span>
+  </div>
+`;
 
     // ✅ 3. GERAR LISTA DE PRODUTOS (Layout de Cards limpos)
     const listaProdutos = `
