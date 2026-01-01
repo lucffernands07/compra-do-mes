@@ -155,4 +155,25 @@ h3 {
   font-size: 24px;
   color: #444;
   margin: 0 30px;
-  }
+}
+
+/* Container para agrupar Título e Data */
+.titulo-sessao {
+  margin: 10px 0 20px 25px; /* Alinhado com o recuo dos cards */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.titulo-sessao h2 {
+  font-size: 32px; /* Mantendo seu padrão de fonte grande */
+  color: #444;
+  margin: 0;
+}
+
+.data-atualizacao {
+  font-size: 22px; /* Um pouco menor que o título, mas ainda grande */
+  color: #888;
+  font-weight: 500;
+}
+
