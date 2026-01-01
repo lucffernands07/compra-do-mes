@@ -78,6 +78,16 @@ async function carregarDados() {
       </div>
       <h2>Produtos do dia (${maisBaratoName})</h2>
       <br>
+      const ultimaAtt = data.ultimaAtualizacao || "Data não disponível";
+
+const rodapeHtml = `
+  <footer>
+    Atualizado em: ${ultimaAtt}
+  </footer>
+`;
+
+resultadoDiv.innerHTML = tabelaTotais + cardDestaque + listaProdutos + rodapeHtml;
+<br>
     `;
 
     // ✅ 3. GERAR LISTA DE PRODUTOS (Layout de Cards limpos)
