@@ -1,10 +1,10 @@
 {
-  "ultimaAtualizacao": "13/01/2026, 09:11:14",
-  "totalGoodbom": "1859.86",
-  "totalTenda": "1212.05",
-  "totalArena": "1965.06",
-  "totalSavegnago": "1851.62",
-  "encontradosGoodbom": 112,
+  "ultimaAtualizacao": "13/01/2026, 17:07:38",
+  "totalGoodbom": "1919.65",
+  "totalTenda": "1228.93",
+  "totalArena": "1631.71",
+  "totalSavegnago": "1859.00",
+  "encontradosGoodbom": 113,
   "encontradosTenda": 118,
   "encontradosArena": 113,
   "encontradosSavegnago": 116,
@@ -12,9 +12,9 @@
     {
       "id": "2",
       "goodbom": {
-        "nome": "FAROFA KODILAR BACON 300G",
-        "preco": 6.49,
-        "preco_por_kg": 21.63
+        "nome": "BACON MANTA SADIA KG",
+        "preco": 34.9,
+        "preco_por_kg": 34.9
       },
       "tenda": {
         "nome": "Bacon Pedaço Sadia 500g",
@@ -196,7 +196,7 @@
       },
       "savegnago": {
         "nome": "Capa do Contra Filé Bovino 2,1kg Peça Vácuo",
-        "preco": 81.691569223296,
+        "preco": 81.692362922996,
         "preco_por_kg": 38.9
       },
       "mais_barato": "Savegnago"
@@ -262,14 +262,14 @@
         "preco_por_kg": 1.82
       },
       "arena": {
-        "nome": "Batata Kg",
-        "preco": 3.89,
-        "preco_por_kg": 3.89
+        "nome": "Batata Saco 10kg",
+        "preco": 29.9,
+        "preco_por_kg": 2.99
       },
       "savegnago": {
-        "nome": "Batata Doce Roxa 1Kg",
-        "preco": 4.99499,
-        "preco_por_kg": 4.99
+        "nome": "Batata Primeira 1kg",
+        "preco": 4.4833298298,
+        "preco_por_kg": 4.48
       },
       "mais_barato": "Tenda"
     },
@@ -598,16 +598,16 @@
         "preco_por_kg": 3.99
       },
       "arena": {
-        "nome": "Cheiro Verde Kisabor Folha 8g",
-        "preco": 2.79,
-        "preco_por_kg": 348.75
+        "nome": "Cheiro Verde Jw Unid.",
+        "preco": 3.7,
+        "preco_por_kg": 3.7
       },
       "savegnago": {
         "nome": "Cheiro Verde Organico Solo Vivo",
         "preco": 8.59,
         "preco_por_kg": 8.59
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "30",
@@ -651,11 +651,11 @@
         "preco_por_kg": 3.89
       },
       "savegnago": {
-        "nome": "Repolho Verde 2Kg",
-        "preco": 5.3837338169,
-        "preco_por_kg": 2.69
+        "nome": "Repolho Roxo 500g",
+        "preco": 3.00599,
+        "preco_por_kg": 6.01
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Tenda"
     },
     {
       "id": "32",
@@ -723,9 +723,9 @@
         "preco_por_kg": 7.49
       },
       "savegnago": {
-        "nome": "Banana Prata Turma da Mônica 750g",
-        "preco": 8.89889,
-        "preco_por_kg": 11.87
+        "nome": "Bebida láctea líquida Carolina 1,25kg Açaí com Banana",
+        "preco": 11.9,
+        "preco_por_kg": 9.52
       },
       "mais_barato": "Tenda"
     },
@@ -747,9 +747,9 @@
         "preco_por_kg": 5.95
       },
       "savegnago": {
-        "nome": "Isotônico Gatorade Uva Garrafa 500ml",
-        "preco": 4.79,
-        "preco_por_kg": 9.58
+        "nome": "Suco Del Valle Néctar Sabor Uva Sem Açúcar TP 1L",
+        "preco": 8.89,
+        "preco_por_kg": 8.89
       },
       "mais_barato": "Tenda"
     },
@@ -958,9 +958,9 @@
         "preco_por_kg": 3.3
       },
       "arena": {
-        "nome": "Farinha De Mandioca Pandora Branca Grossa 1kg",
-        "preco": 6.89,
-        "preco_por_kg": 6.89
+        "nome": "Mandioca Kg",
+        "preco": 3.49,
+        "preco_por_kg": 3.49
       },
       "savegnago": {
         "nome": "Farinha de Mandioca Veranita Grossa 1kg",
@@ -1006,9 +1006,9 @@
         "preco_por_kg": 9.08
       },
       "arena": {
-        "nome": "Leite Fermentado Desnatado Frutap 1,2kg",
-        "preco": 12.89,
-        "preco_por_kg": 10.74
+        "nome": "Leite Fermentado Desnatado Frutap 850g",
+        "preco": 9.79,
+        "preco_por_kg": 11.52
       },
       "savegnago": {
         "nome": "Leite Fermentado Itambé 1,150kg",
@@ -1258,6 +1258,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "64",
+      "goodbom": {
+        "nome": "FARINHA DE MANDIOCA DEUSA TEMPERADA CEB/ALHO 250G",
+        "preco": 5.99,
+        "preco_por_kg": 23.96
+      },
+      "tenda": {
+        "nome": "Farofa de Mandioca Temperada Pronta Kisabor 400g",
+        "preco": 6.75,
+        "preco_por_kg": 16.88
+      },
+      "arena": {
+        "nome": "Farofa Temperada Kisabor Mandioca 400g",
+        "preco": 6.09,
+        "preco_por_kg": 15.22
+      },
+      "savegnago": {
+        "nome": "Farofa de Mandioca Temperada Monjolinho 400g",
+        "preco": 5.65,
+        "preco_por_kg": 14.13
+      },
+      "mais_barato": "Savegnago"
+    },
+    {
       "id": "65",
       "goodbom": {
         "nome": "CREME DE TRATAMENTO SKALA AMIDO DE MILHO 1KG",
@@ -1347,7 +1371,7 @@
         "preco_por_kg": 9.99
       },
       "savegnago": {
-        "nome": "Milho Verde Irmãos Pimenta Bandeja 600g",
+        "nome": "Milho Verde Espiga Ouro Bandeja 600g",
         "preco": 5.85,
         "preco_por_kg": 9.75
       },
@@ -1524,9 +1548,9 @@
     {
       "id": "76",
       "goodbom": {
-        "nome": "MAIONESE TRADICIONAL LIZA 450G",
-        "preco": 7.49,
-        "preco_por_kg": 16.64
+        "nome": "MAIONESE TRADICIONAL QUERO 495G",
+        "preco": 7.99,
+        "preco_por_kg": 16.14
       },
       "tenda": {
         "nome": "Maionese Mariana Balde 3kg",
@@ -1635,7 +1659,7 @@
         "preco_por_kg": 23.49
       },
       "savegnago": {
-        "nome": "Café Nescafé Farmers Origins Brazil 10 Cápsulas",
+        "nome": "Café em Cápsula Nescafé Farmers Origins South Asia 10 cápsulas",
         "preco": 24.95,
         "preco_por_kg": 24.95
       },
@@ -2187,11 +2211,11 @@
         "preco_por_kg": 6.59
       },
       "savegnago": {
-        "nome": "Papel Higiênico Personal Vip Folha Dupla 4 rolos de 30 metros",
-        "preco": 7.75,
-        "preco_por_kg": 7.75
+        "nome": "Papel Higiênico Folha Dupla Camaretta Neutro 30m Com 12 L+P-",
+        "preco": 21.9,
+        "preco_por_kg": 1.82
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "108",
@@ -2244,7 +2268,7 @@
     {
       "id": "110",
       "goodbom": {
-        "nome": "Sabonete Líquido Flor de Ypê Flor de Laranjeira e Damasco 250ml",
+        "nome": "Sabonete Líquido Flor de Ypê Água de Coco e Alecrim 250ml",
         "preco": 7.99,
         "preco_por_kg": 31.96
       },
@@ -2268,9 +2292,9 @@
     {
       "id": "111",
       "goodbom": {
-        "nome": "Sabonete Ypê Siene Rosas Vermelhas 85g",
-        "preco": 1.79,
-        "preco_por_kg": 21.06
+        "nome": "SABONETE PALMOLIVE FRESCOR PURIFICANTE 150G",
+        "preco": 4.19,
+        "preco_por_kg": 27.93
       },
       "tenda": {
         "nome": "Sabonete Flor De Ypê Suave - Lilás - Frésia e Pêssego - Glicerina e Óleos Essenciais",
@@ -2292,9 +2316,9 @@
     {
       "id": "112",
       "goodbom": {
-        "nome": "SABONETE PARA BEBÊ PROTEX BABY GLICERINA NATURAL 85G",
-        "preco": 3.99,
-        "preco_por_kg": 46.94
+        "nome": "SABONETE LÍQUIDO PARA BEBÊ PROTEX BABY GLICERINA NATURAL 380ML",
+        "preco": 23.99,
+        "preco_por_kg": 63.13
       },
       "tenda": {
         "nome": "Sabonete Infantil Líquido Granado Bebê Trad.",
@@ -2475,9 +2499,9 @@
         "preco_por_kg": 5.99
       },
       "savegnago": {
-        "nome": "Fuba Mimoso Siamar 500g",
-        "preco": 4.79,
-        "preco_por_kg": 9.58
+        "nome": "Fuba Mimoso Siamar 1k",
+        "preco": 8.99,
+        "preco_por_kg": 8.99
       },
       "mais_barato": "Tenda"
     }
