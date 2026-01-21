@@ -1,13 +1,13 @@
 {
-  "ultimaAtualizacao": "21/01/2026, 09:12:40",
-  "totalGoodbom": "1841.84",
-  "totalTenda": "1203.85",
-  "totalArena": "1553.78",
-  "totalSavegnago": "1774.49",
+  "ultimaAtualizacao": "21/01/2026, 17:12:37",
+  "totalGoodbom": "1833.22",
+  "totalTenda": "1195.09",
+  "totalArena": "1553.17",
+  "totalSavegnago": "1779.78",
   "encontradosGoodbom": 112,
   "encontradosTenda": 118,
   "encontradosArena": 113,
-  "encontradosSavegnago": 116,
+  "encontradosSavegnago": 117,
   "produtos": [
     {
       "id": "2",
@@ -334,9 +334,9 @@
         "preco_por_kg": 9
       },
       "arena": {
-        "nome": "Pimentão Verde Bandeja",
-        "preco": 13.09,
-        "preco_por_kg": 13.09
+        "nome": "Pimentão Verde Kg",
+        "preco": 11.69,
+        "preco_por_kg": 11.69
       },
       "savegnago": {
         "nome": "Pimentão Verde Bandeja 300g",
@@ -411,9 +411,9 @@
         "preco_por_kg": 3.59
       },
       "savegnago": {
-        "nome": "Detergente Líquido Minuano 1300 500ml Limão",
-        "preco": 1.99,
-        "preco_por_kg": 3.98
+        "nome": "Limão Taiti 500g",
+        "preco": 1.6325123245,
+        "preco_por_kg": 3.27
       },
       "mais_barato": "Tenda"
     },
@@ -747,9 +747,9 @@
         "preco_por_kg": 5.95
       },
       "savegnago": {
-        "nome": "Isotônico Gatorade Uva Garrafa 500ml",
-        "preco": 4.99,
-        "preco_por_kg": 9.98
+        "nome": "Uva Niagara Cumbuca 1kg",
+        "preco": 12.95,
+        "preco_por_kg": 12.95
       },
       "mais_barato": "Tenda"
     },
@@ -771,11 +771,35 @@
         "preco_por_kg": 2.29
       },
       "savegnago": {
-        "nome": "Detergente Ypê Maçã 500ml",
-        "preco": 2.59,
-        "preco_por_kg": 5.18
+        "nome": "Detergente Líquido Minuano 1300 500ml Maçã",
+        "preco": 1.99,
+        "preco_por_kg": 3.98
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "37",
+      "goodbom": {
+        "nome": "REFRIGERANTE BIOLEVE ZERO MEXERICA 510ML",
+        "preco": 3.68,
+        "preco_por_kg": 7.22
+      },
+      "tenda": {
+        "nome": "Mexerica Carioca 120g",
+        "preco": 0.86,
+        "preco_por_kg": 7.17
+      },
+      "arena": {
+        "nome": "Refrigerante Bioleve Mexerica E Limão Zero Pet 1,5l",
+        "preco": 5.39,
+        "preco_por_kg": 3.59
+      },
+      "savegnago": {
+        "nome": "Bebida Gaseificada Zero Mexerica 1,5L Bioleve",
+        "preco": 6.35,
+        "preco_por_kg": 4.23
+      },
+      "mais_barato": "Arena"
     },
     {
       "id": "38",
@@ -905,9 +929,9 @@
         "preco_por_kg": 76.87
       },
       "tenda": {
-        "nome": "Batata Palito Congelada Ludi Mix 2kg",
-        "preco": 16.17,
-        "preco_por_kg": 8.09
+        "nome": "Batata Congelada Select 2kg",
+        "preco": 20.9,
+        "preco_por_kg": 10.45
       },
       "arena": {
         "nome": "Batata Congeladal Uai 2kg",
@@ -919,7 +943,7 @@
         "preco": 24.98,
         "preco_por_kg": 12.49
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "45",
@@ -1164,9 +1188,9 @@
     {
       "id": "60",
       "goodbom": {
-        "nome": "AZEITE ESPECIAL EXTRA VIRGEM LUSITANO VD.500ML",
-        "preco": 25.98,
-        "preco_por_kg": 51.96
+        "nome": "AZEITE PORTUGUÊS ANDORINHA PURO PET 500ML",
+        "preco": 26.99,
+        "preco_por_kg": 53.98
       },
       "tenda": {
         "nome": "Azeite Extra Virgem Select 2,01L",
@@ -1308,9 +1332,9 @@
     {
       "id": "68",
       "goodbom": {
-        "nome": "MILHO VERDE SACHET FUGINI 170G",
-        "preco": 3.69,
-        "preco_por_kg": 21.71
+        "nome": "MILHO VERDE BANDEJA 700G",
+        "preco": 8.99,
+        "preco_por_kg": 12.84
       },
       "tenda": {
         "nome": "Milho Verde 300g",
@@ -1433,9 +1457,9 @@
         "preco_por_kg": 2.79
       },
       "tenda": {
-        "nome": "Sal Refinado Marfim 1kg",
-        "preco": 1.89,
-        "preco_por_kg": 1.89
+        "nome": "Sal Grosso Marfim 1kg",
+        "preco": 2.09,
+        "preco_por_kg": 2.09
       },
       "arena": {
         "nome": "Sal Grosso Lebre Para Churrasco 1kg",
@@ -1611,7 +1635,7 @@
         "preco_por_kg": 23.49
       },
       "savegnago": {
-        "nome": "Café em Cápsula Nescafé Farmers Origins South Asia 10 cápsulas",
+        "nome": "Café Nescafé Farmers Origins Brazil 10 Cápsulas",
         "preco": 24.95,
         "preco_por_kg": 24.95
       },
@@ -1630,9 +1654,9 @@
         "preco_por_kg": 49.8
       },
       "arena": {
-        "nome": "Café União Tradicional Pouch 500g",
-        "preco": 28.9,
-        "preco_por_kg": 57.8
+        "nome": "Café Moraes Tradicional Almofada 500g",
+        "preco": 27.5,
+        "preco_por_kg": 55
       },
       "savegnago": {
         "nome": "Café Utam Tradicional 500g",
@@ -1745,7 +1769,7 @@
         "preco_por_kg": 16.5
       },
       "tenda": {
-        "nome": "Desinfetante Uso Geral Suave Odor Lysoform 2L",
+        "nome": "Desinfetante Uso Geral Lavanda Lysoform 2L",
         "preco": 17.99,
         "preco_por_kg": 8.99
       },
@@ -1985,9 +2009,9 @@
         "preco_por_kg": 3.98
       },
       "tenda": {
-        "nome": "Detergente Líquido Neutro Conde 5L",
-        "preco": 12.05,
-        "preco_por_kg": 2.41
+        "nome": "Detergente Líquido Neutro Suprema 5L",
+        "preco": 15.9,
+        "preco_por_kg": 3.18
       },
       "arena": {
         "nome": "Detergente Ypê Clear 5l",
@@ -2009,9 +2033,9 @@
         "preco_por_kg": 7.98
       },
       "tenda": {
-        "nome": "Limpador Multiuso Limão Azulim 500ml",
-        "preco": 2.55,
-        "preco_por_kg": 5.1
+        "nome": "Limpador Multiuso Original Azulim Squeeze 500ml",
+        "preco": 2.75,
+        "preco_por_kg": 5.5
       },
       "arena": {
         "nome": "Limpador Multiuso Ype Floral Senses 500ml",
@@ -2273,9 +2297,9 @@
         "preco_por_kg": 63.13
       },
       "tenda": {
-        "nome": "Sabonete Infantil Líquido Granado Bebê Trad.",
-        "preco": 26.9,
-        "preco_por_kg": 26.9
+        "nome": "Sabonete Líquido Perfuminho para Bebê 1,9L- Dex",
+        "preco": 13.75,
+        "preco_por_kg": 7.24
       },
       "arena": {
         "nome": "Sabonete Granado Bebe Camomila - 90g",
@@ -2388,9 +2412,9 @@
     {
       "id": "117",
       "goodbom": {
-        "nome": "ANTISSÉPTICO LISTERINE COOL MINT 500ML",
-        "preco": 25.99,
-        "preco_por_kg": 51.98
+        "nome": "ANTISSÉPTICO LISTERINE COOL MINT 1L",
+        "preco": 42.99,
+        "preco_por_kg": 42.99
       },
       "tenda": {
         "nome": "Solução Bucal Listerine Zero 500ml",
