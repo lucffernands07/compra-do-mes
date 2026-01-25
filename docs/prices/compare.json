@@ -1,10 +1,10 @@
 {
-  "ultimaAtualizacao": "25/01/2026, 09:07:27",
-  "totalGoodbom": "1849.77",
-  "totalTenda": "1142.89",
-  "totalArena": "1549.92",
-  "totalSavegnago": "1739.85",
-  "encontradosGoodbom": 111,
+  "ultimaAtualizacao": "25/01/2026, 17:02:28",
+  "totalGoodbom": "1855.77",
+  "totalTenda": "1150.88",
+  "totalArena": "1553.91",
+  "totalSavegnago": "1745.24",
+  "encontradosGoodbom": 112,
   "encontradosTenda": 118,
   "encontradosArena": 113,
   "encontradosSavegnago": 117,
@@ -442,6 +442,30 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "23",
+      "goodbom": {
+        "nome": "BETERRABA KG",
+        "preco": 5.99,
+        "preco_por_kg": 5.99
+      },
+      "tenda": {
+        "nome": "Beterraba Saco 1Kg",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
+      },
+      "arena": {
+        "nome": "Beterraba Kg",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
+      },
+      "savegnago": {
+        "nome": "Beterraba 1Kg",
+        "preco": 5.3926399399,
+        "preco_por_kg": 5.39
+      },
+      "mais_barato": "Tenda"
+    },
+    {
       "id": "24",
       "goodbom": {
         "nome": "ABOBRINHA ITÁLIA KG",
@@ -449,9 +473,9 @@
         "preco_por_kg": 5.99
       },
       "tenda": {
-        "nome": "Inhame Unidade",
-        "preco": 2.05,
-        "preco_por_kg": 2.05
+        "nome": "Farinha de Mandioca Grossa Kicaldo 1kg",
+        "preco": 6.05,
+        "preco_por_kg": 6.05
       },
       "arena": {
         "nome": "Inhame Kg",
@@ -463,7 +487,7 @@
         "preco": 15.432058,
         "preco_por_kg": 20.58
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "25",
@@ -1908,9 +1932,9 @@
     {
       "id": "96",
       "goodbom": {
-        "nome": "ÁGUA SANITÁRIA CANDURA 1L",
-        "preco": 2.99,
-        "preco_por_kg": 2.99
+        "nome": "ÁGUA SANITÁRIA BARBAREX 2L",
+        "preco": 5.99,
+        "preco_por_kg": 3
       },
       "tenda": {
         "nome": "Água Sanitária Suprema 2L",
