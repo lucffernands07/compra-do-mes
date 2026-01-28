@@ -1,13 +1,13 @@
 {
-  "ultimaAtualizacao": "28/01/2026, 09:16:07",
-  "totalGoodbom": "1841.12",
-  "totalTenda": "1129.16",
-  "totalArena": "1858.34",
-  "totalSavegnago": "1669.59",
+  "ultimaAtualizacao": "28/01/2026, 17:19:10",
+  "totalGoodbom": "1820.15",
+  "totalTenda": "1151.15",
+  "totalArena": "1844.43",
+  "totalSavegnago": "1645.38",
   "encontradosGoodbom": 112,
   "encontradosTenda": 118,
   "encontradosArena": 113,
-  "encontradosSavegnago": 115,
+  "encontradosSavegnago": 114,
   "produtos": [
     {
       "id": "2",
@@ -75,11 +75,11 @@
         "preco_por_kg": 41.93
       },
       "savegnago": {
-        "nome": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
-        "preco": 25.45,
-        "preco_por_kg": 37.87
+        "nome": "Hambúrguer de Carne Bovina Churrasco Sadia Caixa 672g 12 Unidades",
+        "preco": 13.26,
+        "preco_por_kg": 19.73
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Savegnago"
     },
     {
       "id": "5",
@@ -147,9 +147,9 @@
         "preco_por_kg": 8.69
       },
       "savegnago": {
-        "nome": "Sobrecoxa Seara 1kg",
-        "preco": 12.9,
-        "preco_por_kg": 12.9
+        "nome": "Sobrecoxa de Frango Congelada Sadia 1kg",
+        "preco": 12.7,
+        "preco_por_kg": 12.7
       },
       "mais_barato": "Arena"
     },
@@ -300,9 +300,9 @@
     {
       "id": "16",
       "goodbom": {
-        "nome": "MOLHO DE TOMATE ITALIANO SACCIALI 300G",
-        "preco": 2.99,
-        "preco_por_kg": 9.97
+        "nome": "TOMATE ITALIANO KG",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
       },
       "tenda": {
         "nome": "Tomate Italiano 1kg",
@@ -319,7 +319,7 @@
         "preco": 5.39,
         "preco_por_kg": 5.39
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "17",
@@ -538,30 +538,6 @@
       "mais_barato": "Goodbom"
     },
     {
-      "id": "27",
-      "goodbom": {
-        "nome": "CHUCHU KG",
-        "preco": 13.99,
-        "preco_por_kg": 13.99
-      },
-      "tenda": {
-        "nome": "Chuchu Unidade",
-        "preco": 3.7,
-        "preco_por_kg": 3.7
-      },
-      "arena": {
-        "nome": "Chuchu Kg",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
-      },
-      "savegnago": {
-        "nome": "Chuchu 1kg",
-        "preco": 8.99899,
-        "preco_por_kg": 9
-      },
-      "mais_barato": "Tenda"
-    },
-    {
       "id": "28",
       "goodbom": {
         "nome": "MANDIOQUINHA KG",
@@ -588,9 +564,9 @@
     {
       "id": "29",
       "goodbom": {
-        "nome": "CHÁ LEÃO VERDE 10 SACHÊS",
-        "preco": 6.49,
-        "preco_por_kg": 6.49
+        "nome": "CHEIRO VERDE MAÇO",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
       },
       "tenda": {
         "nome": "Cheiro Verde Maço Unidade",
@@ -737,9 +713,9 @@
         "preco_por_kg": 13.52
       },
       "tenda": {
-        "nome": "Refrigerante Sabor Uva Fanta 2L",
-        "preco": 9.69,
-        "preco_por_kg": 4.84
+        "nome": "Refresco Adoçado Uva Maguary 1L",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
       },
       "arena": {
         "nome": "Suco Maguary Uva 1l",
@@ -771,7 +747,7 @@
         "preco_por_kg": 2.29
       },
       "savegnago": {
-        "nome": "Detergente Líquido Minuano 1300 500ml Maçã",
+        "nome": "Detergente Ypê Maçã 500ml",
         "preco": 2.59,
         "preco_por_kg": 5.18
       },
@@ -867,9 +843,9 @@
         "preco_por_kg": 32.39
       },
       "savegnago": {
-        "nome": "Pizza Sadia 440g Mussarela",
+        "nome": "Pizza Frango com Requeijão e Mussarela Sadia 460g",
         "preco": 11.9,
-        "preco_por_kg": 27.05
+        "preco_por_kg": 25.87
       },
       "mais_barato": "Savegnago"
     },
@@ -910,9 +886,9 @@
         "preco_por_kg": 11.22
       },
       "arena": {
-        "nome": "Mortadela Confiança 1 Kg",
-        "preco": 8.69,
-        "preco_por_kg": 8.69
+        "nome": "Mortadela Aurora Tradicional Peça Kg",
+        "preco": 10.5,
+        "preco_por_kg": 10.5
       },
       "savegnago": {
         "nome": "Mortadela mini Confiança",
@@ -1193,9 +1169,9 @@
         "preco_por_kg": 53.98
       },
       "tenda": {
-        "nome": "Pão de Forma Alecrim e Azeite Artesanale Panco 350g",
-        "preco": 8.49,
-        "preco_por_kg": 24.26
+        "nome": "Azeite Extra Virgem Serrata 500ml",
+        "preco": 24.9,
+        "preco_por_kg": 49.8
       },
       "arena": {
         "nome": "Azeite Extravirgem Argentino Cocinero Pet 500ml",
@@ -1342,9 +1318,9 @@
         "preco_por_kg": 4.99
       },
       "arena": {
-        "nome": "Milho Verde Doce Mais Verdes Bandeja 700g",
-        "preco": 7.98,
-        "preco_por_kg": 11.4
+        "nome": "Milho Verde Jw - Bandeja 700g",
+        "preco": 6.99,
+        "preco_por_kg": 9.99
       },
       "savegnago": {
         "nome": "Milho Verde Irmãos Pimenta Bandeja 600g",
@@ -1510,16 +1486,16 @@
         "preco_por_kg": 6.94
       },
       "arena": {
-        "nome": "Ketchup Ekma Pet 950g",
-        "preco": 8.79,
-        "preco_por_kg": 9.25
+        "nome": "Ketchup Lanchero Garrafa - 1,01kg",
+        "preco": 6.89,
+        "preco_por_kg": 6.82
       },
       "savegnago": {
         "nome": "Ketchup Cepêra 1,01Kg",
         "preco": 9.15,
         "preco_por_kg": 9.06
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "76",
@@ -1558,16 +1534,16 @@
         "preco_por_kg": 5.77
       },
       "arena": {
-        "nome": "Mostarda Ekma Galão 3,3kg",
-        "preco": 25.89,
-        "preco_por_kg": 7.85
+        "nome": "Mostarda Lanchero Amarela Pet 3kg",
+        "preco": 14.89,
+        "preco_por_kg": 4.96
       },
       "savegnago": {
         "nome": "Mostarda Predilecta 180g Bisnaga",
         "preco": 4.49,
         "preco_por_kg": 24.94
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Arena"
     },
     {
       "id": "78",
@@ -1611,9 +1587,9 @@
         "preco_por_kg": 10.95
       },
       "savegnago": {
-        "nome": "Creme de Leite Italac Leve 200g",
-        "preco": 3.29,
-        "preco_por_kg": 16.45
+        "nome": "Margarina Delícia com Creme de Leite com Sal 500g",
+        "preco": 6.99,
+        "preco_por_kg": 13.98
       },
       "mais_barato": "Tenda"
     },
@@ -1635,7 +1611,7 @@
         "preco_por_kg": 23.49
       },
       "savegnago": {
-        "nome": "Café em Cápsula Nescafé Farmers Origins South Asia 10 cápsulas",
+        "nome": "Café Nescafé Farmers Origins Brazil 10 Cápsulas",
         "preco": 18.95,
         "preco_por_kg": 18.95
       },
@@ -1788,9 +1764,9 @@
     {
       "id": "90",
       "goodbom": {
-        "nome": "LIMPADOR PINHO GEL BARBAREX 2L",
-        "preco": 16.98,
-        "preco_por_kg": 8.49
+        "nome": "LIMPADOR PERFUMADO UAU CHÁ BRANCO 1L LV+ PG-",
+        "preco": 7.99,
+        "preco_por_kg": 7.99
       },
       "tenda": {
         "nome": "Limpador Multiuso Limão Azulim 500ml",
@@ -1995,9 +1971,9 @@
         "preco_por_kg": 4.6
       },
       "savegnago": {
-        "nome": "Detergente Líquido Triex 500ml Clear",
-        "preco": 1.89,
-        "preco_por_kg": 3.78
+        "nome": "Detergente Ypê Neutro 5l",
+        "preco": 20.36,
+        "preco_por_kg": 4.07
       },
       "mais_barato": "Tenda"
     },
@@ -2211,9 +2187,9 @@
         "preco_por_kg": 28.5
       },
       "savegnago": {
-        "nome": "Creme Dental Sorriso Dentes Brancos 120g Preço Especial",
-        "preco": 4.69,
-        "preco_por_kg": 39.08
+        "nome": "Creme Dental Sorriso Tripla Limpeza Completa 70g",
+        "preco": 3.19,
+        "preco_por_kg": 45.57
       },
       "mais_barato": "Arena"
     },
