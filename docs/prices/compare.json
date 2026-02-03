@@ -1,13 +1,13 @@
 {
-  "ultimaAtualizacao": "03/02/2026, 09:29:32",
-  "totalGoodbom": "1874.13",
-  "totalTenda": "1189.82",
-  "totalArena": "1898.61",
-  "totalSavegnago": "1662.30",
+  "ultimaAtualizacao": "03/02/2026, 17:33:43",
+  "totalGoodbom": "1819.61",
+  "totalTenda": "1169.92",
+  "totalArena": "1852.92",
+  "totalSavegnago": "1675.58",
   "encontradosGoodbom": 112,
-  "encontradosTenda": 116,
-  "encontradosArena": 113,
-  "encontradosSavegnago": 116,
+  "encontradosTenda": 118,
+  "encontradosArena": 112,
+  "encontradosSavegnago": 114,
   "produtos": [
     {
       "id": "2",
@@ -75,11 +75,11 @@
         "preco_por_kg": 41.93
       },
       "savegnago": {
-        "nome": "Hambúrguer de Carne Bovina Churrasco Sadia Caixa 672g 12 Unidades",
-        "preco": 13.26,
-        "preco_por_kg": 19.73
+        "nome": "Hambúrguer de carne bovina tradicional Sadia caixa 672g 12 unidades",
+        "preco": 25.45,
+        "preco_por_kg": 37.87
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Tenda"
     },
     {
       "id": "5",
@@ -118,9 +118,9 @@
         "preco_por_kg": 7.9
       },
       "arena": {
-        "nome": "Salsicha Hot Dog Copacol Congelada 3kg",
-        "preco": 22.49,
-        "preco_por_kg": 7.5
+        "nome": "Salsicha Hot Dog Nobre Pacote 3kg",
+        "preco": 23.49,
+        "preco_por_kg": 7.83
       },
       "savegnago": {
         "nome": "Salsicha Hot Dog Swift 500g",
@@ -538,30 +538,6 @@
       "mais_barato": "Goodbom"
     },
     {
-      "id": "27",
-      "goodbom": {
-        "nome": "CHUCHU KG",
-        "preco": 12.99,
-        "preco_por_kg": 12.99
-      },
-      "tenda": {
-        "nome": "Chuchu Unidade",
-        "preco": 3.7,
-        "preco_por_kg": 3.7
-      },
-      "arena": {
-        "nome": "Chuchu Kg",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
-      },
-      "savegnago": {
-        "nome": "Chuchu 1kg",
-        "preco": 8.99899,
-        "preco_por_kg": 9
-      },
-      "mais_barato": "Tenda"
-    },
-    {
       "id": "28",
       "goodbom": {
         "nome": "MANDIOQUINHA KG",
@@ -588,9 +564,9 @@
     {
       "id": "29",
       "goodbom": {
-        "nome": "CHÁ LEÃO VERDE 10 SACHÊS",
-        "preco": 6.49,
-        "preco_por_kg": 6.49
+        "nome": "CHEIRO VERDE MAÇO",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
       },
       "tenda": {
         "nome": "Cheiro Verde Maço Unidade",
@@ -804,9 +780,9 @@
     {
       "id": "38",
       "goodbom": {
-        "nome": "MARGARINA CLAYBOM CREMOSA COM SAL 1KG",
-        "preco": 14.99,
-        "preco_por_kg": 14.99
+        "nome": "MARGARINA CLAYBOM CREMOSA COM SAL 250GR",
+        "preco": 4.29,
+        "preco_por_kg": 17.16
       },
       "tenda": {
         "nome": "Margarina com Sal Dualis 500g",
@@ -891,11 +867,11 @@
         "preco_por_kg": 24.99
       },
       "savegnago": {
-        "nome": "Lasanha de presunto e queijo Seara 600g",
-        "preco": 9.99,
-        "preco_por_kg": 16.65
+        "nome": "Presunto cozido Aurora fatiado 180g",
+        "preco": 8.75,
+        "preco_por_kg": 48.61
       },
-      "mais_barato": "Savegnago"
+      "mais_barato": "Tenda"
     },
     {
       "id": "43",
@@ -939,9 +915,33 @@
         "preco_por_kg": 11.74
       },
       "savegnago": {
-        "nome": "Batatas Carinhas Bem Brasil Congelada 400g",
-        "preco": 5.99,
-        "preco_por_kg": 14.97
+        "nome": "Batata Congelada Bem Brasil Palito Mais Batata 2kg",
+        "preco": 28.95,
+        "preco_por_kg": 14.47
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "45",
+      "goodbom": {
+        "nome": "MANDIOCA KG",
+        "preco": 4.99,
+        "preco_por_kg": 4.99
+      },
+      "tenda": {
+        "nome": "Mandioca 500g",
+        "preco": 1.65,
+        "preco_por_kg": 3.3
+      },
+      "arena": {
+        "nome": "Mandioca Kg",
+        "preco": 3.49,
+        "preco_por_kg": 3.49
+      },
+      "savegnago": {
+        "nome": "Farinha de Mandioca Veranita Grossa 1kg",
+        "preco": 8.49,
+        "preco_por_kg": 8.49
       },
       "mais_barato": "Tenda"
     },
@@ -987,9 +987,9 @@
         "preco_por_kg": 10.74
       },
       "savegnago": {
-        "nome": "Leite Fermentado Itambé 1,150kg",
-        "preco": 14.95,
-        "preco_por_kg": 13
+        "nome": "Leite Fermentado Vigor 800g",
+        "preco": 8.9,
+        "preco_por_kg": 11.13
       },
       "mais_barato": "Tenda"
     },
@@ -1126,9 +1126,9 @@
         "preco_por_kg": 15.47
       },
       "arena": {
-        "nome": "Tomate Pelado Sacciali Inteiro Lata 240g",
-        "preco": 6.49,
-        "preco_por_kg": 27.04
+        "nome": "Tomate Pelado Predilecta Inteiro Lata - 240g",
+        "preco": 7.29,
+        "preco_por_kg": 30.38
       },
       "savegnago": {
         "nome": "Tomate pelado Mangiare lata 400g",
@@ -1227,9 +1227,9 @@
         "preco_por_kg": 12.86
       },
       "savegnago": {
-        "nome": "Molho Shoyu Hinomoto 1l Tradicional",
-        "preco": 17.35,
-        "preco_por_kg": 17.35
+        "nome": "Molho Shoyu Karui 1L Tradicional",
+        "preco": 18.95,
+        "preco_por_kg": 18.95
       },
       "mais_barato": "Tenda"
     },
@@ -1810,30 +1810,6 @@
       "mais_barato": "Arena"
     },
     {
-      "id": "92",
-      "goodbom": {
-        "nome": "PURIFICADOR BOM AR LAVANDA 360ML",
-        "preco": 16.99,
-        "preco_por_kg": 47.19
-      },
-      "tenda": {
-        "nome": "Aromatizador Bom Ar Click Spray Refil Leve 3 Pague 2 Flor de Algodão",
-        "preco": 19.5,
-        "preco_por_kg": 19.5
-      },
-      "arena": {
-        "nome": "Odorizante Bom Ar Aerossol Fragrâncias Embalagem Econômica - 360ml",
-        "preco": 15.79,
-        "preco_por_kg": 43.86
-      },
-      "savegnago": {
-        "nome": "Aromatizador Bom Ar Click Spray Refil Leve 3 Pague 2 Campos de Lavanda",
-        "preco": 34.9,
-        "preco_por_kg": 34.9
-      },
-      "mais_barato": "Tenda"
-    },
-    {
       "id": "93",
       "goodbom": {
         "nome": "LÂMPADA LED OUROLUX FRIA 20W BIVOLT",
@@ -1995,9 +1971,9 @@
         "preco_por_kg": 4.32
       },
       "savegnago": {
-        "nome": "Detergente Ypê Neutro 500ml",
-        "preco": 2.21,
-        "preco_por_kg": 4.42
+        "nome": "Detergente Líquido Triex 500ml Clear",
+        "preco": 1.89,
+        "preco_por_kg": 3.78
       },
       "mais_barato": "Tenda"
     },
