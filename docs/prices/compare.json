@@ -1,13 +1,13 @@
 {
-  "ultimaAtualizacao": "05/02/2026, 09:27:02",
-  "totalGoodbom": "1862.49",
-  "totalTenda": "1200.19",
-  "totalArena": "1921.62",
-  "totalSavegnago": "1809.94",
+  "ultimaAtualizacao": "05/02/2026, 17:26:41",
+  "totalGoodbom": "1819.29",
+  "totalTenda": "1185.82",
+  "totalArena": "1883.12",
+  "totalSavegnago": "1781.94",
   "encontradosGoodbom": 112,
-  "encontradosTenda": 117,
+  "encontradosTenda": 118,
   "encontradosArena": 112,
-  "encontradosSavegnago": 117,
+  "encontradosSavegnago": 116,
   "produtos": [
     {
       "id": "2",
@@ -27,9 +27,9 @@
         "preco_por_kg": 34.99
       },
       "savegnago": {
-        "nome": "Farofa Pronta Deusa 400g Bacon",
-        "preco": 6.69,
-        "preco_por_kg": 16.73
+        "nome": "Bacon mantinha Seara",
+        "preco": 27.77524,
+        "preco_por_kg": 27.78
       },
       "mais_barato": "Tenda"
     },
@@ -473,9 +473,9 @@
         "preco_por_kg": 5.99
       },
       "tenda": {
-        "nome": "Inhame Unidade",
-        "preco": 2.05,
-        "preco_por_kg": 2.05
+        "nome": "Farinha de Mandioca Grossa Kicaldo 1kg",
+        "preco": 5.99,
+        "preco_por_kg": 5.99
       },
       "arena": {
         "nome": "Inhame Kg",
@@ -487,7 +487,7 @@
         "preco": 15.432058,
         "preco_por_kg": 20.58
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": "25",
@@ -905,9 +905,9 @@
         "preco_por_kg": 11.99
       },
       "tenda": {
-        "nome": "Mortadela Confiança 400g",
-        "preco": 4.49,
-        "preco_por_kg": 11.22
+        "nome": "Mortadela Estrelinha 400g",
+        "preco": 4.89,
+        "preco_por_kg": 12.22
       },
       "arena": {
         "nome": "Mortadela Confiança 1 Kg",
@@ -934,9 +934,9 @@
         "preco_por_kg": 10.37
       },
       "arena": {
-        "nome": "Batata Congeladal Uai 2kg",
-        "preco": 23.49,
-        "preco_por_kg": 11.74
+        "nome": "Batata Congelada Mais Batata Pacote 2kg",
+        "preco": 26.9,
+        "preco_por_kg": 13.45
       },
       "savegnago": {
         "nome": "Batata Congelada Bem Brasil Palito Mais Batata 2kg",
@@ -1342,9 +1342,9 @@
         "preco_por_kg": 5
       },
       "arena": {
-        "nome": "Milho Verde Doce Mais Verdes Bandeja 700g",
-        "preco": 7.98,
-        "preco_por_kg": 11.4
+        "nome": "Milho Verde Jw - Bandeja 700g",
+        "preco": 6.99,
+        "preco_por_kg": 9.99
       },
       "savegnago": {
         "nome": "Milho Verde Irmãos Pimenta Bandeja 600g",
@@ -1635,7 +1635,7 @@
         "preco_por_kg": 23.49
       },
       "savegnago": {
-        "nome": "Café em Cápsula Compatível com Nespresso Nescafé Farmers Origins México 10 Cápsulas",
+        "nome": "Café Nescafé Farmers Origins Brazil 10 Cápsulas",
         "preco": 24.95,
         "preco_por_kg": 24.95
       },
@@ -1662,6 +1662,30 @@
         "nome": "Café La Santé 500g Tradicional",
         "preco": 25.8,
         "preco_por_kg": 51.6
+      },
+      "mais_barato": "Tenda"
+    },
+    {
+      "id": "82",
+      "goodbom": {
+        "nome": "CHÁ LEÃO HORTELÃ 10 SACHÊS",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
+      },
+      "tenda": {
+        "nome": "Chá Matte Natural Leão 10 Sachês",
+        "preco": 2.59,
+        "preco_por_kg": 2.59
+      },
+      "arena": {
+        "nome": "Chá Ice Tea Leao Limao Zero Pet 1,5lt",
+        "preco": 7.59,
+        "preco_por_kg": 5.06
+      },
+      "savegnago": {
+        "nome": "Chá Real Capim Cidreira com 10",
+        "preco": 4.35,
+        "preco_por_kg": 4.35
       },
       "mais_barato": "Tenda"
     },
@@ -1808,30 +1832,6 @@
         "preco_por_kg": 73.5
       },
       "mais_barato": "Arena"
-    },
-    {
-      "id": "92",
-      "goodbom": {
-        "nome": "PURIFICADOR BOM AR LAVANDA 360ML",
-        "preco": 16.99,
-        "preco_por_kg": 47.19
-      },
-      "tenda": {
-        "nome": "Aromatizador Bom Ar Click Spray Refil Leve 3 Pague 2 Flor de Algodão",
-        "preco": 21.9,
-        "preco_por_kg": 21.9
-      },
-      "arena": {
-        "nome": "Odorizante Bom Ar Aerossol Fragrâncias Embalagem Econômica - 360ml",
-        "preco": 15.79,
-        "preco_por_kg": 43.86
-      },
-      "savegnago": {
-        "nome": "Aromatizador Bom Ar Click Spray Refil Leve 3 Pague 2 Campos de Lavanda",
-        "preco": 34.9,
-        "preco_por_kg": 34.9
-      },
-      "mais_barato": "Tenda"
     },
     {
       "id": "93",
@@ -1995,9 +1995,9 @@
         "preco_por_kg": 4.32
       },
       "savegnago": {
-        "nome": "Detergente Ypê Neutro 500ml",
-        "preco": 2.21,
-        "preco_por_kg": 4.42
+        "nome": "Detergente Líquido Triex 500ml Clear",
+        "preco": 1.89,
+        "preco_por_kg": 3.78
       },
       "mais_barato": "Tenda"
     },
@@ -2211,9 +2211,9 @@
         "preco_por_kg": 37.72
       },
       "savegnago": {
-        "nome": "Creme Dental Colgate Tripla Ação 180g Preço Especial",
-        "preco": 9.35,
-        "preco_por_kg": 51.94
+        "nome": "Creme Dental Sorriso Dentes Brancos 120g Preço Especial",
+        "preco": 5.29,
+        "preco_por_kg": 44.08
       },
       "mais_barato": "Tenda"
     },
