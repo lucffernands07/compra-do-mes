@@ -37,9 +37,9 @@
   {
     "id": 7,
     "supermercado": "Goodbom",
-    "produto": "SOBRECOXA DE FRANGO SWIFT 1KG",
-    "preco": 15.9,
-    "preco_por_kg": 15.9
+    "produto": "SOBRECOXA KG",
+    "preco": 14.99,
+    "preco_por_kg": 14.99
   },
   {
     "id": 9,
@@ -54,6 +54,13 @@
     "produto": "CONTRAFILÉ BOVINO SWIFT MAIS KG",
     "preco": 59.9,
     "preco_por_kg": 59.9
+  },
+  {
+    "id": 12,
+    "supermercado": "Goodbom",
+    "produto": "MÚSCULO TRASEIRO BOVINO KG",
+    "preco": 29.99,
+    "preco_por_kg": 29.99
   },
   {
     "id": 13,
@@ -170,9 +177,9 @@
   {
     "id": 29,
     "supermercado": "Goodbom",
-    "produto": "CHÁ LEÃO VERDE 10 SACHÊS",
-    "preco": 6.49,
-    "preco_por_kg": 6.49
+    "produto": "CHEIRO VERDE MAÇO",
+    "preco": 4.99,
+    "preco_por_kg": 4.99
   },
   {
     "id": 30,
@@ -240,9 +247,9 @@
   {
     "id": 39,
     "supermercado": "Goodbom",
-    "produto": "LEITE UHT ZERO LACTOSE DESNATADO PIRACANJUBA 1L",
-    "preco": 6.49,
-    "preco_por_kg": 6.49
+    "produto": "LEITE UHT ZERO LACTOSE SEMI DESNATADO LIDER PET 1L",
+    "preco": 4.39,
+    "preco_por_kg": 4.39
   },
   {
     "id": 40,
@@ -315,6 +322,34 @@
     "preco_por_kg": 39.9
   },
   {
+    "id": 52,
+    "supermercado": "Goodbom",
+    "produto": "ARROZ TIPO 1 OLIRON 5KG",
+    "preco": 14.99,
+    "preco_por_kg": 3
+  },
+  {
+    "id": 53,
+    "supermercado": "Goodbom",
+    "produto": "FEIJÃO PRETO OLIRON 1KG",
+    "preco": 5.49,
+    "preco_por_kg": 5.49
+  },
+  {
+    "id": 54,
+    "supermercado": "Goodbom",
+    "produto": "MACARRÃO DE SÊMOLA DONA BENTA ESPAGUETE N-8 500GR",
+    "preco": 2.99,
+    "preco_por_kg": 5.98
+  },
+  {
+    "id": 55,
+    "supermercado": "Goodbom",
+    "produto": "MACARRÃO SÊMOLA DONA BENTA PENNE 500GR",
+    "preco": 2.99,
+    "preco_por_kg": 5.98
+  },
+  {
     "id": 56,
     "supermercado": "Goodbom",
     "produto": "MACARRÃO DE SÊMOLA DONA BENTA PARAFUSO 500GR",
@@ -334,6 +369,13 @@
     "produto": "TOMATE PELADO SACCIALI 400G",
     "preco": 6.99,
     "preco_por_kg": 17.47
+  },
+  {
+    "id": 59,
+    "supermercado": "Goodbom",
+    "produto": "MOLHO DE TOMATE SACHET PENEIRADO FUGINI 300G",
+    "preco": 2.49,
+    "preco_por_kg": 8.3
   },
   {
     "id": 60,
@@ -569,9 +611,9 @@
   {
     "id": 96,
     "supermercado": "Goodbom",
-    "produto": "ÁGUA SANITÁRIA BARBAREX 2L",
-    "preco": 5.99,
-    "preco_por_kg": 3
+    "produto": "ÁGUA SANITÁRIA CANDURA 2L",
+    "preco": 6.89,
+    "preco_por_kg": 3.44
   },
   {
     "id": 97,
@@ -660,9 +702,9 @@
   {
     "id": 109,
     "supermercado": "Goodbom",
-    "produto": "CREME DENTAL SORRISO KOLYNOS 90G EDIÇÃO LIMITADA",
-    "preco": 4.99,
-    "preco_por_kg": 55.44
+    "produto": "CREME DENTAL ORAL-B 1-2-3 70G",
+    "preco": 3.99,
+    "preco_por_kg": 57
   },
   {
     "id": 110,
@@ -681,9 +723,9 @@
   {
     "id": 112,
     "supermercado": "Goodbom",
-    "produto": "SABONETE LÍQUIDO PARA BEBÊ PROTEX BABY GLICERINA NATURAL 180ML",
-    "preco": 12.99,
-    "preco_por_kg": 72.17
+    "produto": "SABONETE PARA BEBÊ PROTEX BABY DELICATE CARE 85G",
+    "preco": 4.79,
+    "preco_por_kg": 56.35
   },
   {
     "id": 113,
@@ -721,10 +763,24 @@
     "preco_por_kg": 42.99
   },
   {
+    "id": 118,
+    "supermercado": "Goodbom",
+    "produto": "BISCOITO GALO ROSQUINHA COCO 300G",
+    "preco": 4.29,
+    "preco_por_kg": 14.3
+  },
+  {
     "id": 120,
     "supermercado": "Goodbom",
     "produto": "FUBÁ MIMOSO KISABOR 1KG",
     "preco": 7.49,
     "preco_por_kg": 7.49
+  },
+  {
+    "id": 121,
+    "supermercado": "Goodbom",
+    "produto": "ALIMENTO PARA GATOS DOMUS MIX 1KG",
+    "preco": 16.99,
+    "preco_por_kg": 16.99
   }
 ]
