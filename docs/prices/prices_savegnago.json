@@ -42,11 +42,25 @@
     "preco_por_kg": 19.98
   },
   {
+    "id": 7,
+    "supermercado": "Savegnago",
+    "produto": "Sobrecoxa Frango Swift 1Kg",
+    "preco": 13.9,
+    "preco_por_kg": 13.9
+  },
+  {
     "id": 8,
     "supermercado": "Savegnago",
     "produto": "Filézinho Sassami Big Frango Congelado Kg",
     "preco": 22.752275,
     "preco_por_kg": 22.75
+  },
+  {
+    "id": 9,
+    "supermercado": "Savegnago",
+    "produto": "Bisteca Suína Congelada 700g Bandeja",
+    "preco": 18.402628,
+    "preco_por_kg": 26.29
   },
   {
     "id": 10,
@@ -84,6 +98,13 @@
     "preco_por_kg": 4.98
   },
   {
+    "id": 15,
+    "supermercado": "Savegnago",
+    "produto": "Cebola Nacional - 1kg",
+    "preco": 2.9834198198,
+    "preco_por_kg": 2.98
+  },
+  {
     "id": 16,
     "supermercado": "Savegnago",
     "produto": "Tomate Italiano Redinha 1kg",
@@ -112,6 +133,13 @@
     "preco_por_kg": 25.14
   },
   {
+    "id": 20,
+    "supermercado": "Savegnago",
+    "produto": "Limão Taiti 500g",
+    "preco": 1.3315113225,
+    "preco_por_kg": 2.66
+  },
+  {
     "id": 21,
     "supermercado": "Savegnago",
     "produto": "Vagem Irmãos Pimenta Bandeja 300g",
@@ -138,6 +166,13 @@
     "produto": "Inhame Bandeja 750g",
     "preco": 15.432058,
     "preco_por_kg": 20.58
+  },
+  {
+    "id": 25,
+    "supermercado": "Savegnago",
+    "produto": "Chá Pronto Natural Tea 1L Verde Laranja Gengibre",
+    "preco": 6.99,
+    "preco_por_kg": 6.99
   },
   {
     "id": 26,
@@ -252,6 +287,13 @@
     "preco_por_kg": 38.91
   },
   {
+    "id": 42,
+    "supermercado": "Savegnago",
+    "produto": "Lasanha de presunto e queijo Seara 600g",
+    "preco": 15.95,
+    "preco_por_kg": 26.58
+  },
+  {
     "id": 43,
     "supermercado": "Savegnago",
     "produto": "Mortadela mini Confiança",
@@ -268,9 +310,9 @@
   {
     "id": 45,
     "supermercado": "Savegnago",
-    "produto": "Farinha de Mandioca Veranita Grossa 1kg",
-    "preco": 8.49,
-    "preco_por_kg": 8.49
+    "produto": "Farinha Mandioca Siamar 1k Grossa",
+    "preco": 10.65,
+    "preco_por_kg": 10.65
   },
   {
     "id": 46,
@@ -394,9 +436,9 @@
   {
     "id": 64,
     "supermercado": "Savegnago",
-    "produto": "Farofa Pronta Siamar 400g Milho Temperado",
-    "preco": 7.39,
-    "preco_por_kg": 18.47
+    "produto": "Farofa de Mandioca Temperada Monjolinho 400g",
+    "preco": 5.65,
+    "preco_por_kg": 14.13
   },
   {
     "id": 65,
@@ -506,7 +548,7 @@
   {
     "id": 80,
     "supermercado": "Savegnago",
-    "produto": "Café em Cápsula Nescafé Farmers Origins South Asia 10 cápsulas",
+    "produto": "Café em Cápsula Compatível com Nespresso Nescafé Farmers Origins Índia 10 Cápsulas",
     "preco": 17.95,
     "preco_por_kg": 17.95
   },
