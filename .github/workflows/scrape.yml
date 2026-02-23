@@ -34,8 +34,7 @@ jobs:
       - name: Executar Scraper de Teste
         run: |
           # DEIXE APENAS UMA LINHA ATIVA ABAIXO PARA TESTAR:
-          node scrapers/campinas/scraper_carrefour.js
-          
+          node scrapers/campinas/scraper_carrefour.js      
           # node scrapers/campinas/scraper_giga.js
           # node scrapers/campinas/scraper_covabra.js
           # node scrapers/campinas/scraper_paguemenos.js
