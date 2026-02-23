@@ -2,10 +2,10 @@ const puppeteer = require("puppeteer");
 const fs = require("fs");
 const path = require("path");
 
-const produtosTxtPath = path.join(__dirname, "..", "products.txt");
-const outDir = path.join(__dirname, "..", "docs", "prices");
+// ✅ CORREÇÃO: Sobe dois níveis para achar a raiz a partir de scrapers/hortolandia/
+const produtosTxtPath = path.resolve(__dirname, "..", "..", "products.txt");
+const outDir = path.resolve(__dirname, "..", "..", "docs", "prices");
 
-// ... (suas funções normalizar, extrairPeso e parsePreco permanecem iguais) ...
 function normalizar(txt) {
   if (!txt) return "";
   return txt.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
@@ -33,8 +33,17 @@ async function main() {
     args: ["--no-sandbox", "--disable-setuid-sandbox"] 
   });
   const page = await browser.newPage();
+  
+  // User Agent para evitar bloqueios
+  await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
 
-    const linhasProdutos = fs.readFileSync(produtosTxtPath, "utf-8")
+  if (!fs.existsSync(produtosTxtPath)) {
+    console.error(`❌ products.txt não encontrado em: ${produtosTxtPath}`);
+    await browser.close();
+    return;
+  }
+
+  const linhasProdutos = fs.readFileSync(produtosTxtPath, "utf-8")
     .split("\n")
     .map(l => l.trim())
     .filter(l => l && !l.startsWith("#")); 
@@ -45,18 +54,16 @@ async function main() {
   try {
     for (const [index, linha] of linhasProdutos.entries()) {
       const id = index + 1;
-      
-      // ✅ NOVA LÓGICA: Divide a linha por "|" para suportar ABOBRINHA | ABÓBORA
       const termosParaTentar = linha.split("|").map(t => t.trim());
       let achouAlgumNestaLinha = false;
 
       for (const termoOriginal of termosParaTentar) {
-        if (achouAlgumNestaLinha) break; // Se já achou o primeiro termo, pula o próximo da mesma linha
+        if (achouAlgumNestaLinha) break;
 
         let termoParaBusca = termoOriginal.replace(/\bkg\b/gi, "").replace(/\bg\b/gi, "").trim();
         const termoNorm = normalizar(termoParaBusca);
 
-        console.log(`🔍 Buscando: ${termoParaBusca}`);
+        console.log(`🔍 [Arena] Buscando: ${termoParaBusca}`);
 
         try {
           await page.goto(
@@ -64,12 +71,11 @@ async function main() {
             { waitUntil: "networkidle2", timeout: 60000 }
           );
 
-          await page.waitForSelector("span.productCard__title", { timeout: 10000 });
+          await page.waitForSelector("span.productCard__title", { timeout: 15000 });
           await page.mouse.wheel({ deltaY: 400 });
           await new Promise(r => setTimeout(r, 1000));
         } catch (e) {
-          console.log(`⚠️ Cards não apareceram para: ${termoParaBusca}`);
-          continue; // Tenta o próximo termo (ex: Abóbora) se este falhou
+          continue; 
         }
 
         const items = await page.evaluate(() => {
@@ -77,8 +83,7 @@ async function main() {
           return cards.slice(0, 15).map(card => {
             const nome = card.querySelector("span.productCard__title")?.innerText.trim() || "";
             let precoTxt = card.querySelector("span.productPrice__price")?.innerText || 
-                           card.querySelector(".price")?.innerText || 
-                           card.querySelector("[class*='Price']")?.innerText || "0";
+                           card.querySelector(".price")?.innerText || "0";
             return { nome, precoTxt };
           });
         });
@@ -93,22 +98,16 @@ async function main() {
           if (!termoNorm.includes('oleo') && nomeNorm.includes('oleo')) return false;
 
           const palavrasBusca = termoNorm.split(" ").filter(w => w.length >= 3);
-          const temTodas = palavrasBusca.every(pal => {
-            const radical = pal.substring(0, 3);
-            return nomeNorm.includes(radical);
-          });
-          return item.preco > 0 && temTodas;
+          return item.preco > 0 && palavrasBusca.every(pal => nomeNorm.includes(pal.substring(0, 3)));
         });
 
         if (filtrados.length > 0) {
-          const ordenados = filtrados.map(item => ({
+          const maisBarato = filtrados.map(item => ({
             ...item,
             preco_por_kg: parseFloat((item.preco / item.peso_kg).toFixed(2))
-          })).sort((a, b) => a.preco_por_kg - b.preco_por_kg);
+          })).sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
 
-          const maisBarato = ordenados[0];
           totalEncontrados++;
-
           resultado.push({
             id,
             supermercado: "Arena",
@@ -118,16 +117,14 @@ async function main() {
           });
 
           console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
-          achouAlgumNestaLinha = true; // Marca como encontrado para não buscar o segundo termo
+          achouAlgumNestaLinha = true;
         }
-      } // Fim do for termosParaTentar
-
-      if (!achouAlgumNestaLinha) {
-        console.log(`⚠️ Nenhum match válido para nenhum dos termos: ${linha}`);
       }
-    } // Fim do for linhasProdutos
+    }
 
     if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
+    
+    // ✅ Caminho de salvamento organizado
     fs.writeFileSync(
       path.join(outDir, "prices_arena.json"),
       JSON.stringify(resultado, null, 2),
@@ -143,3 +140,4 @@ async function main() {
 }
 
 main();
+            
