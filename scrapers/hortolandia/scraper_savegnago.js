@@ -2,17 +2,15 @@ const puppeteer = require("puppeteer");
 const fs = require("fs");
 const path = require("path");
 
-const OUTPUT_FILE = path.join(__dirname, "..", "docs", "prices", "prices_savegnago.json");
-// ✅ Definido corretamente aqui
-const INPUT_FILE = path.join(__dirname, "..", "products.txt");
+// ✅ CORREÇÃO DE CAMINHOS: Sobe dois níveis (sai de hortolandia, sai de scrapers) para chegar na raiz
+const OUTPUT_FILE = path.resolve(__dirname, "..", "..", "docs", "prices", "prices_savegnago.json");
+const INPUT_FILE = path.resolve(__dirname, "..", "..", "products.txt");
 
-// 🔎 Normaliza texto para comparação sem acentos
 function normalizar(txt) {
   if (!txt) return "";
   return txt.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
 }
 
-// ⚖️ Extração de peso para cálculo de preço por KG
 function extrairPeso(nome) {
   nome = nome.toLowerCase();
   let m = nome.match(/(\d+)\s*g/);
@@ -26,7 +24,6 @@ function extrairPeso(nome) {
   return 1;
 }
 
-// 💰 Parser de preço robusto
 function parsePreco(txt) {
   if (!txt) return 0;
   const n = parseFloat(txt.replace("R$", "").replace(/\s/g, "").replace(",", ".").replace(/[^\d.]/g, ""));
@@ -37,12 +34,12 @@ async function buscarProdutos(page, termo) {
   const url = `https://www.savegnago.com.br/${encodeURIComponent(termo)}?_q=${encodeURIComponent(termo)}`;
   
   try {
-    await page.goto(url, { waitUntil: "networkidle2", timeout: 90000 });
+    await page.goto(url, { waitUntil: "networkidle2", timeout: 60000 });
+    // Seletor específico da VTEX usado pelo Savegnago
     await page.waitForSelector("span.vtex-product-summary-2-x-productBrand", { timeout: 15000 });
     await page.mouse.wheel({ deltaY: 400 });
-    await new Promise(r => setTimeout(r, 1000));
+    await new Promise(r => setTimeout(r, 1500));
   } catch (e) {
-    console.log(`⚠️ Cards não carregaram para: ${termo}`);
     return [];
   }
 
@@ -51,8 +48,7 @@ async function buscarProdutos(page, termo) {
     return cards.slice(0, 15).map(card => {
       const nome = card.querySelector("span.vtex-product-summary-2-x-productBrand")?.innerText.trim() || "";
       let precoTxt = card.querySelector("p.savegnagoio-store-theme-15-x-priceUnit")?.innerText || 
-                     card.querySelector(".vtex-product-price-1-x-sellingPrice")?.innerText || 
-                     card.querySelector("[class*='price']")?.innerText || "0";
+                     card.querySelector(".vtex-product-price-1-x-sellingPrice")?.innerText || "0";
       return { nome, precoTxt };
     });
   });
@@ -64,21 +60,28 @@ async function buscarProdutos(page, termo) {
     args: ["--no-sandbox", "--disable-setuid-sandbox"] 
   });
   const page = await browser.newPage();
+  
+  // ✅ Adicionado User-Agent para evitar bloqueios do Savegnago
+  await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
 
-  // ✅ CORREÇÃO: Usando INPUT_FILE e salvando na variável 'produtos'
+  if (!fs.existsSync(INPUT_FILE)) {
+    console.error(`❌ products.txt não encontrado em: ${INPUT_FILE}`);
+    await browser.close();
+    return;
+  }
+
   const produtos = fs.readFileSync(INPUT_FILE, "utf-8")
     .split("\n")
     .map(l => l.trim())
-    .filter(l => l && !l.startsWith("#") && !l.startsWith("//")); 
+    .filter(l => l && !l.startsWith("#")); 
 
   const results = [];
   let totalEncontrados = 0;
 
-  // ✅ CORREÇÃO: O loop agora usa a variável 'produtos' definida acima
   for (const [index, termo] of produtos.entries()) {
     try {
       let termoParaBusca = termo.replace(/\bkg\b/gi, "").replace(/\bg\b/gi, "").trim();
-      console.log(`🔍 Buscando: ${termoParaBusca}`);
+      console.log(`🔍 [Savegnago] Buscando: ${termoParaBusca}`);
       
       const encontradosProd = await buscarProdutos(page, termoParaBusca);
       const termoNorm = normalizar(termoParaBusca);
@@ -92,25 +95,18 @@ async function buscarProdutos(page, termo) {
         .filter(p => {
           const nomeNorm = normalizar(p.nome);
           if (!termoNorm.includes('suina') && nomeNorm.includes('suina')) return false;
-          if (!termoNorm.includes('oleo') && nomeNorm.includes('oleo')) return false;
-
+          
           const palavrasBusca = termoNorm.split(" ").filter(w => w.length >= 3);
-          const temTodas = palavrasBusca.every(pal => {
-             const radical = pal.substring(0, 3);
-             return nomeNorm.includes(radical);
-          });
-          return p.preco > 0 && temTodas;
+          return p.preco > 0 && palavrasBusca.every(pal => nomeNorm.includes(pal.substring(0, 3)));
         });
 
       if (filtrados.length > 0) {
-        const ordenados = filtrados.map(p => ({
+        const maisBarato = filtrados.map(p => ({
           ...p,
           preco_por_kg: +(p.preco / p.peso).toFixed(2)
-        })).sort((a, b) => a.preco_por_kg - b.preco_por_kg);
+        })).sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
 
-        const maisBarato = ordenados[0];
         totalEncontrados++;
-
         results.push({
           id: index + 1,
           supermercado: "Savegnago",
@@ -120,8 +116,6 @@ async function buscarProdutos(page, termo) {
         });
 
         console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
-      } else {
-        console.log(`⚠️ Nenhum resultado válido para: ${termo}`);
       }
     } catch (err) {
       console.error(`❌ Erro em ${termo}:`, err.message);
@@ -130,12 +124,10 @@ async function buscarProdutos(page, termo) {
 
   await browser.close();
 
-  // Garante que a pasta de destino existe
   const dir = path.dirname(OUTPUT_FILE);
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(results, null, 2), "utf-8");
 
-  console.log(`💾 Salvo em: ${OUTPUT_FILE}`);
-  console.log(`📊 Total Final: ${totalEncontrados}/${produtos.length}`);
+  console.log(`📊 Finalizado Savegnago: ${totalEncontrados}/${produtos.length}`);
 })();
+                                  
