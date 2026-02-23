@@ -98,7 +98,7 @@ const cardDestaque = `
                 <strong>${item.nome}</strong>
                 <div class="preco-container">
                   <span class="preco">R$ ${precoUn.toFixed(2)}</span>
-                  <span class="valor-emb">Kg: R$ ${precoKg.toFixed(2)}</span>
+                  <span class="valor-emb">Kg/L: R$ ${precoKg.toFixed(2)}</span>
                 </div>
               </li>`;
           }).join("")}
