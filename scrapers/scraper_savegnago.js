@@ -3,6 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 const OUTPUT_FILE = path.join(__dirname, "..", "docs", "prices", "prices_savegnago.json");
+// ✅ Definido corretamente aqui
 const INPUT_FILE = path.join(__dirname, "..", "products.txt");
 
 // 🔎 Normaliza texto para comparação sem acentos
@@ -25,7 +26,7 @@ function extrairPeso(nome) {
   return 1;
 }
 
-// 💰 Parser de preço robusto (converte string em número)
+// 💰 Parser de preço robusto
 function parsePreco(txt) {
   if (!txt) return 0;
   const n = parseFloat(txt.replace("R$", "").replace(/\s/g, "").replace(",", ".").replace(/[^\d.]/g, ""));
@@ -36,13 +37,8 @@ async function buscarProdutos(page, termo) {
   const url = `https://www.savegnago.com.br/${encodeURIComponent(termo)}?_q=${encodeURIComponent(termo)}`;
   
   try {
-    // 1. Espera a rede estabilizar
     await page.goto(url, { waitUntil: "networkidle2", timeout: 90000 });
-
-    // 2. Espera o seletor dos produtos aparecer (Essencial para não dar lista vazia)
     await page.waitForSelector("span.vtex-product-summary-2-x-productBrand", { timeout: 15000 });
-
-    // 3. Simula um scroll leve para carregar preços que podem estar em lazy load
     await page.mouse.wheel({ deltaY: 400 });
     await new Promise(r => setTimeout(r, 1000));
   } catch (e) {
@@ -51,17 +47,12 @@ async function buscarProdutos(page, termo) {
   }
 
   return await page.evaluate(() => {
-    // No Savegnago, pegamos os containers dos produtos para garantir que nome e preço batam
     const cards = Array.from(document.querySelectorAll("section.vtex-product-summary-2-x-container"));
-    
     return cards.slice(0, 15).map(card => {
       const nome = card.querySelector("span.vtex-product-summary-2-x-productBrand")?.innerText.trim() || "";
-      
-      // Múltiplas tentativas de capturar o preço (Venda, Promoção ou Unidade)
       let precoTxt = card.querySelector("p.savegnagoio-store-theme-15-x-priceUnit")?.innerText || 
                      card.querySelector(".vtex-product-price-1-x-sellingPrice")?.innerText || 
                      card.querySelector("[class*='price']")?.innerText || "0";
-
       return { nome, precoTxt };
     });
   });
@@ -74,14 +65,16 @@ async function buscarProdutos(page, termo) {
   });
   const page = await browser.newPage();
 
-  const linhasProdutos = fs.readFileSync(produtosTxtPath, "utf-8")
+  // ✅ CORREÇÃO: Usando INPUT_FILE e salvando na variável 'produtos'
+  const produtos = fs.readFileSync(INPUT_FILE, "utf-8")
     .split("\n")
     .map(l => l.trim())
-    .filter(l => l && !l.startsWith("#")); 
+    .filter(l => l && !l.startsWith("#") && !l.startsWith("//")); 
 
   const results = [];
   let totalEncontrados = 0;
 
+  // ✅ CORREÇÃO: O loop agora usa a variável 'produtos' definida acima
   for (const [index, termo] of produtos.entries()) {
     try {
       let termoParaBusca = termo.replace(/\bkg\b/gi, "").replace(/\bg\b/gi, "").trim();
@@ -98,23 +91,18 @@ async function buscarProdutos(page, termo) {
         }))
         .filter(p => {
           const nomeNorm = normalizar(p.nome);
-          
-          // BLOQUEIOS (Mesma lógica do Tenda)
           if (!termoNorm.includes('suina') && nomeNorm.includes('suina')) return false;
           if (!termoNorm.includes('oleo') && nomeNorm.includes('oleo')) return false;
 
-          // MATCH POR RADICAL (3 letras)
           const palavrasBusca = termoNorm.split(" ").filter(w => w.length >= 3);
           const temTodas = palavrasBusca.every(pal => {
              const radical = pal.substring(0, 3);
              return nomeNorm.includes(radical);
           });
-
           return p.preco > 0 && temTodas;
         });
 
       if (filtrados.length > 0) {
-        // Ordena por preço por KG e pega o mais barato
         const ordenados = filtrados.map(p => ({
           ...p,
           preco_por_kg: +(p.preco / p.peso).toFixed(2)
@@ -141,9 +129,13 @@ async function buscarProdutos(page, termo) {
   }
 
   await browser.close();
+
+  // Garante que a pasta de destino existe
+  const dir = path.dirname(OUTPUT_FILE);
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(results, null, 2), "utf-8");
 
   console.log(`💾 Salvo em: ${OUTPUT_FILE}`);
   console.log(`📊 Total Final: ${totalEncontrados}/${produtos.length}`);
 })();
-        
