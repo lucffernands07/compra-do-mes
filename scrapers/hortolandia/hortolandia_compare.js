@@ -8,7 +8,7 @@ const goodbomFile   = path.join(baseDir, "prices_goodbom.json");
 const tendaFile     = path.join(baseDir, "prices_tenda_hortolandia.json"); // ✅ Nome atualizado
 const arenaFile     = path.join(baseDir, "prices_arena.json");
 const savegnagoFile = path.join(baseDir, "prices_savegnago.json");
-const outputFile    = path.join(baseDir, "hortolandia_compare.json");
+const outputFile    = path.join(baseDir, "compare_hortolandia.json");
 
 function load(file) {
   if (!fs.existsSync(file)) {
