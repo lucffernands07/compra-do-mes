@@ -91,10 +91,11 @@ async function main() {
     console.log("⚠️ CEP já configurado.");
   }
 
-  const linhasProdutos = fs.readFileSync(produtosTxtPath, "utf-8")
+    const linhasProdutos = fs.readFileSync(path.resolve(__dirname, "..", "products.txt"), "utf-8")
     .split("\n")
     .map(l => l.trim())
-    .filter(l => l && !l.startsWith("#")); 
+    .filter(l => l && !l.startsWith("#"));
+ 
   
   let resultados = [];
   let totalEncontrados = 0;
