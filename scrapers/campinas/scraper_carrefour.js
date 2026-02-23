@@ -2,17 +2,12 @@ const puppeteer = require("puppeteer");
 const fs = require("fs");
 const path = require("path");
 
-// Ajuste de caminhos para a nova estrutura de pastas
 const produtosTxtPath = path.join(__dirname, "..", "..", "products.txt");
 const outDir = path.join(__dirname, "..", "..", "docs", "prices");
 
 function normalizar(txt) {
   if (!txt) return "";
-  return txt
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .trim();
+  return txt.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
 }
 
 function extrairPeso(nome) {
@@ -27,12 +22,7 @@ function extrairPeso(nome) {
 
 function parsePreco(txt) {
   if (!txt) return 0;
-  const n = parseFloat(
-    txt.replace("R$", "")
-       .replace(/\s/g, "")
-       .replace(",", ".")
-       .replace(/[^\d.]/g, "")
-  );
+  const n = parseFloat(txt.replace("R$", "").replace(/\s/g, "").replace(",", ".").replace(/[^\d.]/g, ""));
   return isNaN(n) ? 0 : n;
 }
 
@@ -43,118 +33,93 @@ async function main() {
   });
   const page = await browser.newPage();
 
-  // Configura CEP de Campinas para o Carrefour (Ex: Centro)
-  await page.setCookie({
-    name: 'zipCode',
-    value: '13010001',
-    domain: '.carrefour.com.br'
-  });
+  // User-agent para evitar bloqueios
+  await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
 
   const linhasProdutos = fs.readFileSync(produtosTxtPath, "utf-8")
-    .split("\n")
-    .map(l => l.trim())
-    .filter(l => l && !l.startsWith("#"));
+    .split("\n").map(l => l.trim()).filter(l => l && !l.startsWith("#"));
 
   const resultado = [];
-  let totalEncontrados = 0;
 
   try {
-    for (const [index, linha] of linhasProdutos.entries()) {
+    for (const [index, nomeOriginal] of linhasProdutos.entries()) {
       const id = index + 1;
-      const termosParaTentar = linha.split("|").map(t => t.trim());
-      let achouAlgumNestaLinha = false;
+      let termoParaBusca = nomeOriginal.replace(/\bkg\b/gi, "").replace(/\bg\b/gi, "").trim();
+      const termoNorm = normalizar(termoParaBusca);
 
-      for (const termoOriginal of termosParaTentar) {
-        if (achouAlgumNestaLinha) break;
+      console.log(`🔍 [Carrefour] Buscando: ${termoParaBusca}`);
 
-        let termoParaBusca = termoOriginal.replace(/\bkg\b/gi, "").replace(/\bg\b/gi, "").trim();
-        const termoNorm = normalizar(termoParaBusca);
+      try {
+        await page.goto(
+          `https://mercado.carrefour.com.br/busca/${encodeURIComponent(termoParaBusca)}`,
+          { waitUntil: "networkidle2", timeout: 60000 }
+        );
 
-        console.log(`🔍 [Carrefour] Buscando: ${termoParaBusca}`);
+        // Aguarda o título que você me enviou aparecer
+        await page.waitForSelector("h2.text-zinc-medium", { timeout: 15000 });
+        
+        // Scroll rápido para garantir renderização dos preços
+        await page.mouse.wheel({ deltaY: 700 });
+        await new Promise(r => setTimeout(r, 1000));
+      } catch (e) {
+        console.log(`⚠️ Produto não carregou: ${termoParaBusca}`);
+        continue;
+      }
 
-        try {
-          await page.goto(
-            `https://www.carrefour.com.br/busca/${encodeURIComponent(termoParaBusca)}`,
-            { waitUntil: "networkidle2", timeout: 60000 }
-          );
+      const items = await page.evaluate(() => {
+        // Buscamos o container de cada produto (geralmente uma div que envolve o h2 e o span de preço)
+        const products = [];
+        const titles = document.querySelectorAll("h2.text-zinc-medium");
 
-          // Espera pelos cards de produto do Carrefour (padrão VTEX)
-          await page.waitForSelector("article[class*='vtex-product-summary']", { timeout: 20000 });
-          
-          // Scroll suave para garantir carregamento dos preços dinâmicos
-          await page.mouse.wheel({ deltaY: 500 });
-          await new Promise(r => setTimeout(r, 1500));
-        } catch (e) {
-          console.log(`⚠️ Produto não localizado: ${termoParaBusca}`);
-          continue;
-        }
+        titles.forEach(title => {
+          // Subimos até um container comum que tenha tanto o nome quanto o preço
+          const container = title.closest("div[role='group']") || title.parentElement.parentElement;
+          if (container) {
+            const nome = title.innerText.trim();
+            // Busca o span com a classe de preço que você me enviou
+            const precoTxt = container.querySelector("span.text-price-default")?.innerText || "0";
+            products.push({ nome, precoTxt });
+          }
+        });
+        return products;
+      });
 
-        const items = await page.evaluate(() => {
-          const cards = Array.from(document.querySelectorAll("article[class*='vtex-product-summary']"));
-          return cards.slice(0, 15).map(card => {
-            const nome = card.querySelector("[class*='productBrand']")?.innerText.trim() || "";
-            // Captura o preço de venda (sellingPrice)
-            const precoTxt = card.querySelector("[class*='sellingPriceValue']")?.innerText || "0";
-            return { nome, precoTxt };
-          });
+      const filtrados = items.map(item => ({
+        nome: item.nome,
+        preco: parsePreco(item.precoTxt),
+        peso_kg: extrairPeso(item.nome)
+      })).filter(item => {
+        const nomeNorm = normalizar(item.nome);
+        const palavrasBusca = termoNorm.split(" ").filter(w => w.length >= 3);
+        return item.preco > 0 && palavrasBusca.every(pal => nomeNorm.includes(pal.substring(0, 3)));
+      });
+
+      if (filtrados.length > 0) {
+        const maisBarato = filtrados.map(item => ({
+          ...item,
+          preco_por_kg: parseFloat((item.preco / item.peso_kg).toFixed(2))
+        })).sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
+
+        resultado.push({
+          id,
+          supermercado: "Carrefour",
+          produto: maisBarato.nome,
+          preco: maisBarato.preco,
+          preco_por_kg: maisBarato.preco_por_kg
         });
 
-        const filtrados = items.map(item => ({
-          nome: item.nome,
-          preco: parsePreco(item.precoTxt),
-          peso_kg: extrairPeso(item.nome)
-        })).filter(item => {
-          const nomeNorm = normalizar(item.nome);
-          
-          // Bloqueios de categoria
-          if (!termoNorm.includes('suina') && nomeNorm.includes('suina')) return false;
-          if (!termoNorm.includes('oleo') && nomeNorm.includes('oleo')) return false;
-
-          const palavrasBusca = termoNorm.split(" ").filter(w => w.length >= 3);
-          const temTodas = palavrasBusca.every(pal => {
-            const radical = pal.substring(0, 3);
-            return nomeNorm.includes(radical);
-          });
-
-          return item.preco > 0 && temTodas;
-        });
-
-        if (filtrados.length > 0) {
-          const ordenados = filtrados.map(item => ({
-            ...item,
-            preco_por_kg: parseFloat((item.preco / item.peso_kg).toFixed(2))
-          })).sort((a, b) => a.preco_por_kg - b.preco_por_kg);
-
-          const maisBarato = ordenados[0];
-          totalEncontrados++;
-
-          resultado.push({
-            id,
-            supermercado: "Carrefour",
-            produto: maisBarato.nome,
-            preco: maisBarato.preco,
-            preco_por_kg: maisBarato.preco_por_kg
-          });
-
-          console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
-          achouAlgumNestaLinha = true;
-        }
+        console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
       }
     }
 
     if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
-    fs.writeFileSync(
-      path.join(outDir, "prices_carrefour.json"),
-      JSON.stringify(resultado, null, 2),
-      "utf-8"
-    );
+    fs.writeFileSync(path.join(outDir, "prices_carrefour.json"), JSON.stringify(resultado, null, 2), "utf-8");
+    console.log(`\n✨ Sucesso! ${resultado.length} produtos salvos.`);
 
-    console.log(`📊 Finalizado Carrefour: ${totalEncontrados}/${linhasProdutos.length}`);
-  } catch (err) {
-    console.error("❌ Erro fatal Carrefour:", err.message);
   } finally {
     await browser.close();
   }
 }
 
 main();
+                     
