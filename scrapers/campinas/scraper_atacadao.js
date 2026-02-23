@@ -57,9 +57,12 @@ async function main() {
             `https://www.atacadao.com.br/busca/?q=${encodeURIComponent(termoParaBusca)}`,
             { waitUntil: "networkidle2", timeout: 60000 }
           );
-
           await page.waitForSelector(".product-card", { timeout: 15000 });
-        } catch (e) { continue; }
+          await page.mouse.wheel({ deltaY: 400 });
+          await new Promise(r => setTimeout(r, 1000));
+        } catch (e) { 
+          continue; 
+        }
 
         const items = await page.evaluate(() => {
           const cards = Array.from(document.querySelectorAll(".product-card"));
@@ -93,10 +96,11 @@ async function main() {
       }
     }
 
+    if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
     fs.writeFileSync(path.join(outDir, "prices_atacadao.json"), JSON.stringify(resultado, null, 2), "utf-8");
   } finally {
     await browser.close();
   }
 }
 main();
-    
+        
