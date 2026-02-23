@@ -1,10 +1,7 @@
 name: Scraper Preços
 
 on:
-  workflow_dispatch:        # Permite rodar manualmente pelo botão "Run workflow"
-  schedule:
-    # Rodar às 11:00 UTC (08:00 BRT) e 19:00 UTC (16:00 BRT) todos os dias
-    - cron: '0 11,19 * * *'
+  workflow_dispatch:        # Ativa o botão manual no GitHub Actions
 
 jobs:
   scrape:
@@ -24,33 +21,38 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # --- BLOCO HORTOLÂNDIA ---
-      - name: Executar Scrapers Hortolândia
-        run: |
-          node scrapers/hortolandia/scraper_tenda.js
-          node scrapers/hortolandia/scraper_goodbom.js
-          node scrapers/hortolandia/scraper_arena.js
-          node scrapers/hortolandia/scraper_savegnago.js
-          node scrapers/hortolandia/hortolandia_compare.js
+      # --- BLOCO HORTOLÂNDIA (DESATIVADO PARA TESTE) ---
+      # - name: Executar Scrapers Hortolândia
+      #   run: |
+      #     node scrapers/hortolandia/scraper_tenda.js
+      #     node scrapers/hortolandia/scraper_goodbom.js
+      #     node scrapers/hortolandia/scraper_arena.js
+      #     node scrapers/hortolandia/scraper_savegnago.js
+      #     node scrapers/hortolandia/hortolandia_compare.js
 
-      # --- BLOCO CAMPINAS ---
-      - name: Executar Scrapers Campinas
+      # --- BLOCO CAMPINAS (TESTE INDIVIDUAL) ---
+      - name: Executar Scraper de Teste
         run: |
+          # DEIXE APENAS UMA LINHA ATIVA ABAIXO PARA TESTAR:
           node scrapers/campinas/scraper_carrefour.js
-          node scrapers/campinas/scraper_giga.js
-          node scrapers/campinas/scraper_covabra.js
-          node scrapers/campinas/scraper_paguemenos.js
-          node scrapers/campinas/scraper_atacadao.js
-          node scrapers/campinas/scraper_enxuto.js
-          node scrapers/campinas/scraper_tenda.js
-          node scrapers/campinas/campinas_compare.js
+          
+          # node scrapers/campinas/scraper_giga.js
+          # node scrapers/campinas/scraper_covabra.js
+          # node scrapers/campinas/scraper_paguemenos.js
+          # node scrapers/campinas/scraper_atacadao.js
+          # node scrapers/campinas/scraper_enxuto.js
+          # node scrapers/campinas/scraper_tenda.js
+
+      # --- GERAÇÃO DO JSON DE COMPARAÇÃO (Obrigatório para o App ler) ---
+      - name: Gerar Compare Campinas
+        run: node scrapers/campinas/campinas_compare.js
 
       - name: Commit and push updated prices
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@users.noreply.github.com"
           git add docs/prices/*.json
-          git commit -m "Atualiza preços: Hortolândia e Campinas [skip ci]" || echo "Nenhuma alteração para commitar"
+          git commit -m "Teste individual de scraper [skip ci]" || echo "Nenhuma alteração"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
