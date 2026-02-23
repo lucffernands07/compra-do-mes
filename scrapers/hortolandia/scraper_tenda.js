@@ -1,52 +1,43 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
-const path = require("path"); // 👈 ADICIONADO: Faltava isso para o path.resolve funcionar
+const path = require("path");
 
-const OUTPUT_FILE = "docs/prices/prices_tenda.json";
+// ✅ CORREÇÃO DE CAMINHOS: Sobe dois níveis (sai de hortolandia, sai de scrapers) para chegar na raiz
+const PRODUTOS_TXT = path.resolve(__dirname, "..", "..", "products.txt");
+const OUTPUT_FILE = path.resolve(__dirname, "..", "..", "docs", "prices", "prices_tenda_hortolandia.json");
 
-// 🔎 Normaliza texto: remove acentos e deixa em minúsculo
 function normalizar(txt) {
   if (!txt) return "";
-  return txt
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "");
+  return txt.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
 
-// Extrair peso do nome do produto para calcular preço por KG
 function extrairPeso(nome) {
   nome = nome.toLowerCase();
   let match = nome.match(/(\d+)\s*g/);
   if (match) return parseInt(match[1], 10) / 1000;
-
   match = nome.match(/(\d+[.,]?\d*)\s*kg/);
   if (match) return parseFloat(match[1].replace(",", "."));
-
   match = nome.match(/(\d+[.,]?\d*)\s*ml/);
   if (match) return parseFloat(match[1].replace(",", ".")) / 1000;
-
   match = nome.match(/(\d+[.,]?\d*)\s*l/);
   if (match) return parseFloat(match[1].replace(",", "."));
-
   return 1;
 }
 
 async function buscarProduto(page, termo) {
   const url = `https://www.tendaatacado.com.br/busca?q=${encodeURIComponent(termo)}`;
-  await page.goto(url, { waitUntil: "networkidle2", timeout: 90000 });
-
   try {
+    await page.goto(url, { waitUntil: "networkidle2", timeout: 60000 });
     await page.waitForSelector("a.showcase-card-content", { timeout: 15000 });
     await page.mouse.wheel({ deltaY: 500 });
     await new Promise(r => setTimeout(r, 1000));
   } catch (e) {
-    console.log(`⚠️ Tempo esgotado esperando cards para: ${termo}`);
     return [];
   }
 
   return await page.evaluate(() => {
     const cards = Array.from(document.querySelectorAll("a.showcase-card-content"));
-    return cards.slice(0, 20).map(card => {
+    return cards.slice(0, 15).map(card => {
       const nome = card.querySelector("h3.TitleCardComponent")?.innerText.trim() || "";
       let precoTxt = card.querySelector("div.SimplePriceComponent")?.innerText || 
                      card.querySelector("[class*='Price']")?.innerText || "0";
@@ -55,7 +46,6 @@ async function buscarProduto(page, termo) {
         .replace(/\u00a0/g, " ") 
         .replace(/\s/g, "")      
         .replace("R$", "")
-        .replace("un", "")
         .replace(",", ".")
         .replace(/[^\d.]/g, "");
 
@@ -70,88 +60,69 @@ async function main() {
     args: ["--no-sandbox", "--disable-setuid-sandbox"]
   });
   const page = await browser.newPage();
+  await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
 
   try {
-    await page.goto("https://www.tendaatacado.com.br", { waitUntil: "domcontentloaded", timeout: 60000 });
+    console.log("📍 Configurando CEP para Hortolândia...");
+    await page.goto("https://www.tendaatacado.com.br", { waitUntil: "networkidle2", timeout: 60000 });
     await page.waitForSelector("#shipping-cep", { timeout: 10000 });
-    await page.type("#shipping-cep", "13187166", { delay: 100 });
+    await page.type("#shipping-cep", "13187166", { delay: 100 }); // CEP HORTOLÂNDIA
     await page.keyboard.press("Enter");
-    await new Promise(r => setTimeout(r, 4000));
-    console.log("✅ CEP configurado para Hortolândia");
+    await new Promise(r => setTimeout(r, 5000));
   } catch {
     console.log("⚠️ CEP já configurado.");
   }
 
-  // ✅ CORREÇÃO AQUI: Lendo e filtrando os produtos
-  const produtos = fs.readFileSync(path.resolve(__dirname, "..", "products.txt"), "utf-8")
-    .split("\n")
-    .map(l => l.trim())
-    .filter(l => l && !l.startsWith("#") && !l.startsWith("//")); 
+  if (!fs.existsSync(PRODUTOS_TXT)) {
+    console.error(`❌ products.txt não encontrado em: ${PRODUTOS_TXT}`);
+    await browser.close();
+    return;
+  }
+
+  const produtos = fs.readFileSync(PRODUTOS_TXT, "utf-8")
+    .split("\n").map(l => l.trim()).filter(l => l && !l.startsWith("#"));
   
   let resultados = [];
-  let totalEncontrados = 0;
 
-  // ✅ CORREÇÃO AQUI: Usando a variável 'produtos' definida acima
   for (const [index, termo] of produtos.entries()) {
     const id = index + 1;
-    try {
-      let termoParaBusca = termo.replace(/\bkg\b/gi, "").replace(/\bg\b/gi, "").replace(/ bandeja/gi, "").trim();
-      console.log(`🔍 Buscando: ${termoParaBusca}`);
-      
-      const encontrados = await buscarProduto(page, termoParaBusca);
-      const termoNorm = normalizar(termoParaBusca);
+    let termoParaBusca = termo.replace(/\bkg\b/gi, "").replace(/\bg\b/gi, "").trim();
+    console.log(`🔍 [Tenda Horto] Buscando: ${termoParaBusca}`);
+    
+    const encontrados = await buscarProduto(page, termoParaBusca);
+    const termoNorm = normalizar(termoParaBusca);
 
-      const validos = encontrados.filter(p => {
-        const nomeProdNorm = normalizar(p.nome);
-        if (!termoNorm.includes('suina') && nomeProdNorm.includes('suina')) return false;
+    const validos = encontrados.filter(p => {
+      const nomeProdNorm = normalizar(p.nome);
+      const palavrasBusca = termoNorm.split(" ").filter(w => w.length >= 3);
+      return p.preco > 0 && palavrasBusca.every(pal => nomeProdNorm.includes(pal.substring(0, 3)));
+    });
 
-        const palavrasBusca = termoNorm.split(" ").filter(w => w.length >= 3);
-        const temMatches = palavrasBusca.every(palavra => {
-          const radical = palavra.substring(0, 3);
-          return nomeProdNorm.includes(radical);
-        });
-
-        return p.preco > 0 && temMatches;
+    if (validos.length > 0) {
+      const melhorOpcao = validos.reduce((prev, curr) => {
+        const precoKgPrev = prev.preco / extrairPeso(prev.nome);
+        const precoKgCurr = curr.preco / extrairPeso(curr.nome);
+        return (precoKgCurr < precoKgPrev) ? curr : prev;
       });
 
-      if (validos.length > 0) {
-        const melhorOpcao = validos.reduce((prev, curr) => {
-          const precoKgPrev = prev.preco / extrairPeso(prev.nome);
-          const precoKgCurr = curr.preco / extrairPeso(curr.nome);
-          return (precoKgCurr < precoKgPrev && precoKgCurr > 0) ? curr : prev;
-        });
-
-        const pesoFinal = extrairPeso(melhorOpcao.nome);
-        resultados.push({
-          id,
-          supermercado: "Tenda",
-          produto: melhorOpcao.nome,
-          preco: melhorOpcao.preco,
-          preco_por_kg: +(melhorOpcao.preco / pesoFinal).toFixed(2)
-        });
-
-        totalEncontrados++;
-        console.log(`✅ ${melhorOpcao.nome} - R$ ${melhorOpcao.preco.toFixed(2)}`);
-      } else {
-        console.log(`⚠️ Nenhum match válido para: ${termo}`);
-      }
-      
-    } catch (err) {
-      console.error(`❌ Erro ao buscar ${termo}:`, err.message);
+      resultados.push({
+        id,
+        supermercado: "Tenda",
+        produto: melhorOpcao.nome,
+        preco: melhorOpcao.preco,
+        preco_por_kg: +(melhorOpcao.preco / extrairPeso(melhorOpcao.nome)).toFixed(2)
+      });
+      console.log(`✅ ${melhorOpcao.nome} - R$ ${melhorOpcao.preco.toFixed(2)}`);
     }
   }
 
-  await browser.close();
-  
-  // Garante que a pasta existe antes de salvar
   const dir = path.dirname(OUTPUT_FILE);
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(resultados, null, 2), "utf-8");
-  console.log(`📊 Finalizado: ${totalEncontrados}/${produtos.length}`);
+  
+  await browser.close();
+  console.log(`📊 Finalizado Hortolândia: ${resultados.length} produtos.`);
 }
 
-main().catch(err => {
-  console.error("❌ Erro fatal:", err);
-  process.exit(1);
-});
+main().catch(err => console.error("❌ Erro fatal:", err));
+      
