@@ -8,7 +8,7 @@ async function carregarDados() {
   
   subtitulo.innerText = cidade === "campinas" ? "Campinas - SP" : "Hortolândia - SP";
 
-  const jsonFile = cidade === "campinas" ? "campinas_compare.json" : "hortolandia_compare.json";
+  const jsonFile = cidade === "campinas" ? "compare_campinas.json" : "compare_hortolandia.json";
   const filePath = `./prices/${jsonFile}`;
 
   try {
