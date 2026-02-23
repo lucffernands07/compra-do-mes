@@ -34,8 +34,10 @@ async function main() {
   });
   const page = await browser.newPage();
 
-  const linhasProdutos = fs.readFileSync(produtosTxtPath, "utf-8")
-    .split("\n").map(l => l.trim()).filter(Boolean);
+    const linhasProdutos = fs.readFileSync(produtosTxtPath, "utf-8")
+    .split("\n")
+    .map(l => l.trim())
+    .filter(l => l && !l.startsWith("#")); 
 
   const resultado = [];
   let totalEncontrados = 0;
