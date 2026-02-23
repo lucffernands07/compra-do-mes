@@ -1,0 +1,730 @@
+[
+  {
+    "id": 1,
+    "supermercado": "Pague Menos",
+    "produto": "Ovos Brancos Grandes Mantiqueira Happy Eggs Com 10 Unidades",
+    "preco": 11.99,
+    "preco_por_kg": 11.99
+  },
+  {
+    "id": 2,
+    "supermercado": "Pague Menos",
+    "produto": "Batata Extra 300g",
+    "preco": 1.497,
+    "preco_por_kg": 4.99
+  },
+  {
+    "id": 3,
+    "supermercado": "Pague Menos",
+    "produto": "Cebola Extra 250g",
+    "preco": 0.9975,
+    "preco_por_kg": 3.99
+  },
+  {
+    "id": 4,
+    "supermercado": "Pague Menos",
+    "produto": "Tomate Italiano 200g",
+    "preco": 1.598,
+    "preco_por_kg": 7.99
+  },
+  {
+    "id": 5,
+    "supermercado": "Pague Menos",
+    "produto": "Pimentão Verde 400g",
+    "preco": 6.796,
+    "preco_por_kg": 16.99
+  },
+  {
+    "id": 6,
+    "supermercado": "Pague Menos",
+    "produto": "Pimentão Verde 400g",
+    "preco": 6.796,
+    "preco_por_kg": 16.99
+  },
+  {
+    "id": 7,
+    "supermercado": "Pague Menos",
+    "produto": "Pimentão Amarelo 400g",
+    "preco": 7.996,
+    "preco_por_kg": 19.99
+  },
+  {
+    "id": 8,
+    "supermercado": "Pague Menos",
+    "produto": "Pimentão Verde 400g",
+    "preco": 6.796,
+    "preco_por_kg": 16.99
+  },
+  {
+    "id": 9,
+    "supermercado": "Pague Menos",
+    "produto": "Limão Taiti 200g",
+    "preco": 0.798,
+    "preco_por_kg": 3.99
+  },
+  {
+    "id": 10,
+    "supermercado": "Pague Menos",
+    "produto": "Vagem 100g",
+    "preco": 1.999,
+    "preco_por_kg": 19.99
+  },
+  {
+    "id": 11,
+    "supermercado": "Pague Menos",
+    "produto": "Abobrinha Italiana 350g",
+    "preco": 2.7965,
+    "preco_por_kg": 7.99
+  },
+  {
+    "id": 12,
+    "supermercado": "Pague Menos",
+    "produto": "Beterraba 350g",
+    "preco": 2.0965,
+    "preco_por_kg": 5.99
+  },
+  {
+    "id": 13,
+    "supermercado": "Pague Menos",
+    "produto": "Inhame 200g",
+    "preco": 2.998,
+    "preco_por_kg": 14.99
+  },
+  {
+    "id": 14,
+    "supermercado": "Pague Menos",
+    "produto": "Gengibre 150g",
+    "preco": 2.9985,
+    "preco_por_kg": 19.99
+  },
+  {
+    "id": 15,
+    "supermercado": "Pague Menos",
+    "produto": "Cenoura 200g",
+    "preco": 1.198,
+    "preco_por_kg": 5.99
+  },
+  {
+    "id": 16,
+    "supermercado": "Pague Menos",
+    "produto": "Chuchu 500g",
+    "preco": 5.995,
+    "preco_por_kg": 11.99
+  },
+  {
+    "id": 17,
+    "supermercado": "Pague Menos",
+    "produto": "Mandioquinha 300g",
+    "preco": 7.497,
+    "preco_por_kg": 24.99
+  },
+  {
+    "id": 19,
+    "supermercado": "Pague Menos",
+    "produto": "Alface Americana Campo Alegre Unidade",
+    "preco": 5.99,
+    "preco_por_kg": 5.99
+  },
+  {
+    "id": 20,
+    "supermercado": "Pague Menos",
+    "produto": "Repolho Verde KG",
+    "preco": 4.99,
+    "preco_por_kg": 4.99
+  },
+  {
+    "id": 21,
+    "supermercado": "Pague Menos",
+    "produto": "Alho Descascado Zamuner 500g",
+    "preco": 29.99,
+    "preco_por_kg": 59.98
+  },
+  {
+    "id": 22,
+    "supermercado": "Pague Menos",
+    "produto": "Mamão Papaya KG",
+    "preco": 12.99,
+    "preco_por_kg": 12.99
+  },
+  {
+    "id": 23,
+    "supermercado": "Pague Menos",
+    "produto": "Banana Nanica 500g",
+    "preco": 3.495,
+    "preco_por_kg": 6.99
+  },
+  {
+    "id": 24,
+    "supermercado": "Pague Menos",
+    "produto": "Uva Niagara Cumbuca 500g",
+    "preco": 9.99,
+    "preco_por_kg": 19.98
+  },
+  {
+    "id": 25,
+    "supermercado": "Pague Menos",
+    "produto": "Maçã Fuji 300g",
+    "preco": 4.197,
+    "preco_por_kg": 13.99
+  },
+  {
+    "id": 27,
+    "supermercado": "Pague Menos",
+    "produto": "Margarina Claybom Com Sal 1kg",
+    "preco": 14.49,
+    "preco_por_kg": 14.49
+  },
+  {
+    "id": 28,
+    "supermercado": "Pague Menos",
+    "produto": "Leite Longa Vida Itambé Desnatado Zero Lactose 1l",
+    "preco": 5.79,
+    "preco_por_kg": 5.79
+  },
+  {
+    "id": 29,
+    "supermercado": "Pague Menos",
+    "produto": "Requeijão Cremoso Itambé Nolac Zero Lactose 400g",
+    "preco": 18.99,
+    "preco_por_kg": 47.47
+  },
+  {
+    "id": 30,
+    "supermercado": "Pague Menos",
+    "produto": "Pizza Sadia Frango Com Requeijão e Mussarela 460g",
+    "preco": 21.99,
+    "preco_por_kg": 47.8
+  },
+  {
+    "id": 31,
+    "supermercado": "Pague Menos",
+    "produto": "Presunto Cozido Perdigão Fatiado 200g",
+    "preco": 5.778,
+    "preco_por_kg": 28.89
+  },
+  {
+    "id": 32,
+    "supermercado": "Pague Menos",
+    "produto": "Mortadela Seara Confiança 1kg",
+    "preco": 11.49,
+    "preco_por_kg": 11.49
+  },
+  {
+    "id": 33,
+    "supermercado": "Pague Menos",
+    "produto": "Batata Smiles McCain Congelada 400g",
+    "preco": 19.99,
+    "preco_por_kg": 49.97
+  },
+  {
+    "id": 34,
+    "supermercado": "Pague Menos",
+    "produto": "Mandioca 800g",
+    "preco": 3.192,
+    "preco_por_kg": 3.99
+  },
+  {
+    "id": 35,
+    "supermercado": "Pague Menos",
+    "produto": "Mix 4 Legumes D'Aucy Congelado 300g",
+    "preco": 8.79,
+    "preco_por_kg": 2.2
+  },
+  {
+    "id": 36,
+    "supermercado": "Pague Menos",
+    "produto": "Água de Coco - Coco Quadrado Tradicional 1l",
+    "preco": 9.89,
+    "preco_por_kg": 9.89
+  },
+  {
+    "id": 37,
+    "supermercado": "Pague Menos",
+    "produto": "Leite Fermentado Yakult 40 Light Com 6 Unidades",
+    "preco": 14.79,
+    "preco_por_kg": 0.37
+  },
+  {
+    "id": 38,
+    "supermercado": "Pague Menos",
+    "produto": "Iogurte Infantil Ninho Polpa de Morango 540g",
+    "preco": 10.49,
+    "preco_por_kg": 19.43
+  },
+  {
+    "id": 39,
+    "supermercado": "Pague Menos",
+    "produto": "Polpa de Fruta Nuty Acerola 100g",
+    "preco": 2.49,
+    "preco_por_kg": 24.9
+  },
+  {
+    "id": 41,
+    "supermercado": "Pague Menos",
+    "produto": "Arroz Branco Raroz Tipo 1 5kg",
+    "preco": 19.89,
+    "preco_por_kg": 3.98
+  },
+  {
+    "id": 42,
+    "supermercado": "Pague Menos",
+    "produto": "Feijão Preto Camil Tipo 1 1kg",
+    "preco": 5.39,
+    "preco_por_kg": 5.39
+  },
+  {
+    "id": 43,
+    "supermercado": "Pague Menos",
+    "produto": "Macarrão de Sêmola Camil Espaguete 500g",
+    "preco": 3.39,
+    "preco_por_kg": 6.78
+  },
+  {
+    "id": 44,
+    "supermercado": "Pague Menos",
+    "produto": "Macarrão de Sêmola Camil Penne 500g",
+    "preco": 3.39,
+    "preco_por_kg": 6.78
+  },
+  {
+    "id": 45,
+    "supermercado": "Pague Menos",
+    "produto": "Macarrão de Sêmola Lili Parafuso 500g",
+    "preco": 3.09,
+    "preco_por_kg": 6.18
+  },
+  {
+    "id": 46,
+    "supermercado": "Pague Menos",
+    "produto": "Queijo Parmesão Ralado Tirolez 50g",
+    "preco": 6.39,
+    "preco_por_kg": 127.8
+  },
+  {
+    "id": 47,
+    "supermercado": "Pague Menos",
+    "produto": "Tomate Pelado Argentino Sedna Em Pedaços 400g",
+    "preco": 7.99,
+    "preco_por_kg": 19.97
+  },
+  {
+    "id": 48,
+    "supermercado": "Pague Menos",
+    "produto": "Molho de Tomate Tchetto Tradicional 300g",
+    "preco": 1.49,
+    "preco_por_kg": 4.97
+  },
+  {
+    "id": 49,
+    "supermercado": "Pague Menos",
+    "produto": "Azeitona Verde Tozzi Com Caroço 500g",
+    "preco": 18.99,
+    "preco_por_kg": 37.98
+  },
+  {
+    "id": 50,
+    "supermercado": "Pague Menos",
+    "produto": "Azeitona Verde Inteira Tozzi Sem Caroço 120g",
+    "preco": 7.99,
+    "preco_por_kg": 66.58
+  },
+  {
+    "id": 51,
+    "supermercado": "Pague Menos",
+    "produto": "Molho Shoyu Cepêra 1,01l",
+    "preco": 23.99,
+    "preco_por_kg": 23.75
+  },
+  {
+    "id": 52,
+    "supermercado": "Pague Menos",
+    "produto": "Tempero Ajinomoto Receita de Casa Completo 450g",
+    "preco": 15.95,
+    "preco_por_kg": 35.44
+  },
+  {
+    "id": 53,
+    "supermercado": "Pague Menos",
+    "produto": "Farofa de Milho Yoki Temperada 400g",
+    "preco": 10.99,
+    "preco_por_kg": 27.47
+  },
+  {
+    "id": 54,
+    "supermercado": "Pague Menos",
+    "produto": "Amido de Milho Uni Sabor 500g",
+    "preco": 8.49,
+    "preco_por_kg": 16.98
+  },
+  {
+    "id": 55,
+    "supermercado": "Pague Menos",
+    "produto": "Óleo de Soja Vila Velha 900ml",
+    "preco": 8.69,
+    "preco_por_kg": 9.66
+  },
+  {
+    "id": 56,
+    "supermercado": "Pague Menos",
+    "produto": "Vinagre de Álcool Uni Sabor 5l",
+    "preco": 15.99,
+    "preco_por_kg": 3.2
+  },
+  {
+    "id": 57,
+    "supermercado": "Pague Menos",
+    "produto": "Milho Verde Bandeja 700g",
+    "preco": 7.99,
+    "preco_por_kg": 11.41
+  },
+  {
+    "id": 59,
+    "supermercado": "Pague Menos",
+    "produto": "Sardinha Gomes Da Costa Em Óleo 250g",
+    "preco": 12.89,
+    "preco_por_kg": 51.56
+  },
+  {
+    "id": 60,
+    "supermercado": "Pague Menos",
+    "produto": "Açúcar Demerara Santa Isabel 1kg",
+    "preco": 5.49,
+    "preco_por_kg": 5.49
+  },
+  {
+    "id": 61,
+    "supermercado": "Pague Menos",
+    "produto": "Açúcar Mascavo União 1kg",
+    "preco": 23.99,
+    "preco_por_kg": 23.99
+  },
+  {
+    "id": 62,
+    "supermercado": "Pague Menos",
+    "produto": "Sal Grosso Marinho Garça 1kg",
+    "preco": 2.15,
+    "preco_por_kg": 2.15
+  },
+  {
+    "id": 63,
+    "supermercado": "Pague Menos",
+    "produto": "Suco Concentrado Dafruta Tropical Abacaxi 950ml",
+    "preco": 8.99,
+    "preco_por_kg": 9.46
+  },
+  {
+    "id": 64,
+    "supermercado": "Pague Menos",
+    "produto": "Ketchup Quero Tradicional 1,28kg",
+    "preco": 15.15,
+    "preco_por_kg": 11.84
+  },
+  {
+    "id": 65,
+    "supermercado": "Pague Menos",
+    "produto": "Maionese Liza Tradicional 450g",
+    "preco": 7.19,
+    "preco_por_kg": 15.98
+  },
+  {
+    "id": 66,
+    "supermercado": "Pague Menos",
+    "produto": "Mostarda Amarela Cepêra 1l",
+    "preco": 14.55,
+    "preco_por_kg": 14.55
+  },
+  {
+    "id": 67,
+    "supermercado": "Pague Menos",
+    "produto": "Leite Condensado Piracanjuba 395g",
+    "preco": 6.89,
+    "preco_por_kg": 17.44
+  },
+  {
+    "id": 68,
+    "supermercado": "Pague Menos",
+    "produto": "Mistura de Creme de Leite Mococa 200g",
+    "preco": 2.99,
+    "preco_por_kg": 14.95
+  },
+  {
+    "id": 69,
+    "supermercado": "Pague Menos",
+    "produto": "Cápsula 3 Corações Café Mogiana Paulista Com 10 Unidades",
+    "preco": 20.99,
+    "preco_por_kg": 20.99
+  },
+  {
+    "id": 70,
+    "supermercado": "Pague Menos",
+    "produto": "Café Paulista Tradicional 500g",
+    "preco": 26.99,
+    "preco_por_kg": 53.98
+  },
+  {
+    "id": 71,
+    "supermercado": "Pague Menos",
+    "produto": "Chá Matte Leão Natural Com 10 Unidades",
+    "preco": 4.99,
+    "preco_por_kg": 4.99
+  },
+  {
+    "id": 72,
+    "supermercado": "Pague Menos",
+    "produto": "Pipoca Para Microondas Yoki Natural Com Sal 100g",
+    "preco": 4.49,
+    "preco_por_kg": 44.9
+  },
+  {
+    "id": 73,
+    "supermercado": "Pague Menos",
+    "produto": "Macarrão Oriental Bifum Arroz Chiang 500g",
+    "preco": 24.79,
+    "preco_por_kg": 49.58
+  },
+  {
+    "id": 74,
+    "supermercado": "Pague Menos",
+    "produto": "Farinha de Milho Dona Clara Flocão 500g",
+    "preco": 3.99,
+    "preco_por_kg": 7.98
+  },
+  {
+    "id": 75,
+    "supermercado": "Pague Menos",
+    "produto": "Pão de Forma Visconti Tradicional 400g",
+    "preco": 7.29,
+    "preco_por_kg": 18.22
+  },
+  {
+    "id": 76,
+    "supermercado": "Pague Menos",
+    "produto": "Goma de Tapioca Uni Sabor 1kg",
+    "preco": 13.99,
+    "preco_por_kg": 13.99
+  },
+  {
+    "id": 77,
+    "supermercado": "Pague Menos",
+    "produto": "Desinfetante Lysoform Original 2l",
+    "preco": 29.99,
+    "preco_por_kg": 14.99
+  },
+  {
+    "id": 78,
+    "supermercado": "Pague Menos",
+    "produto": "Álcool Líquido Etílico Uni Limp 46,2% Inpm 1l",
+    "preco": 7.99,
+    "preco_por_kg": 7.99
+  },
+  {
+    "id": 79,
+    "supermercado": "Pague Menos",
+    "produto": "Limpador Perfumado Uni Limp Essências Chá Branco 2l",
+    "preco": 13.99,
+    "preco_por_kg": 7
+  },
+  {
+    "id": 80,
+    "supermercado": "Pague Menos",
+    "produto": "Lenços Removedores de Esmalte Ricca Com 32 Unidades",
+    "preco": 14.59,
+    "preco_por_kg": 14.59
+  },
+  {
+    "id": 81,
+    "supermercado": "Pague Menos",
+    "produto": "Desodorizador Aerosol Bom Ar Lavanda 360ml",
+    "preco": 19.69,
+    "preco_por_kg": 54.69
+  },
+  {
+    "id": 82,
+    "supermercado": "Pague Menos",
+    "produto": "Lâmpada Kian Branca Classic Led A-60 9w 6500k",
+    "preco": 5.99,
+    "preco_por_kg": 5.99
+  },
+  {
+    "id": 83,
+    "supermercado": "Pague Menos",
+    "produto": "Saco Para Lixo Utilix Rolo Preto 100l Com 15 Unidades",
+    "preco": 12.99,
+    "preco_por_kg": 0.13
+  },
+  {
+    "id": 84,
+    "supermercado": "Pague Menos",
+    "produto": "Saco Para Lixo Utilix 50l Com 30 Unidades",
+    "preco": 12.99,
+    "preco_por_kg": 0.26
+  },
+  {
+    "id": 85,
+    "supermercado": "Pague Menos",
+    "produto": "Água Sanitária Barbarex 5l",
+    "preco": 11.49,
+    "preco_por_kg": 2.3
+  },
+  {
+    "id": 87,
+    "supermercado": "Pague Menos",
+    "produto": "Amaciante Barbarex Blue 2l",
+    "preco": 6.99,
+    "preco_por_kg": 3.5
+  },
+  {
+    "id": 88,
+    "supermercado": "Pague Menos",
+    "produto": "Detergente Candura Neutro 5l",
+    "preco": 16.99,
+    "preco_por_kg": 3.4
+  },
+  {
+    "id": 89,
+    "supermercado": "Pague Menos",
+    "produto": "Limpador Multiuso Ypê Com Álcool 500ml",
+    "preco": 4.59,
+    "preco_por_kg": 9.18
+  },
+  {
+    "id": 90,
+    "supermercado": "Pague Menos",
+    "produto": "Limpador Cloro Gel Nathan 2l",
+    "preco": 28.99,
+    "preco_por_kg": 14.49
+  },
+  {
+    "id": 91,
+    "supermercado": "Pague Menos",
+    "produto": "Desinfetante Barbarex Violex 5l",
+    "preco": 15.89,
+    "preco_por_kg": 3.18
+  },
+  {
+    "id": 92,
+    "supermercado": "Pague Menos",
+    "produto": "Esponja Multiuso Condor Unidade",
+    "preco": 1.79,
+    "preco_por_kg": 1.79
+  },
+  {
+    "id": 93,
+    "supermercado": "Pague Menos",
+    "produto": "Lã de Aço Bombril 45g Com 6 Unidades",
+    "preco": 2.99,
+    "preco_por_kg": 66.44
+  },
+  {
+    "id": 94,
+    "supermercado": "Pague Menos",
+    "produto": "Fralda Natural Baby Premium SXG Com 30 Unidades",
+    "preco": 32.99,
+    "preco_por_kg": 32.99
+  },
+  {
+    "id": 95,
+    "supermercado": "Pague Menos",
+    "produto": "Papel Higiênico Personal 20m Folha Tripla Vip3 Leve 12 Pague 11",
+    "preco": 22.99,
+    "preco_por_kg": 7.66
+  },
+  {
+    "id": 96,
+    "supermercado": "Pague Menos",
+    "produto": "Pedra Sanitária Perfumada Harpic Pinho Com 2 Unidades",
+    "preco": 6.69,
+    "preco_por_kg": 6.69
+  },
+  {
+    "id": 97,
+    "supermercado": "Pague Menos",
+    "produto": "Escova Dental Oral-B Média Pro",
+    "preco": 4.29,
+    "preco_por_kg": 4.29
+  },
+  {
+    "id": 98,
+    "supermercado": "Pague Menos",
+    "produto": "Creme Dental Sorriso Tripla Limpeza 120g",
+    "preco": 5.29,
+    "preco_por_kg": 44.08
+  },
+  {
+    "id": 99,
+    "supermercado": "Pague Menos",
+    "produto": "Sabonete Líquido Ikebana Erva Doce 2l",
+    "preco": 24.59,
+    "preco_por_kg": 12.29
+  },
+  {
+    "id": 100,
+    "supermercado": "Pague Menos",
+    "produto": "Sabonete Sie Ne Proteínas do Leite 85g",
+    "preco": 1.79,
+    "preco_por_kg": 21.06
+  },
+  {
+    "id": 101,
+    "supermercado": "Pague Menos",
+    "produto": "Sabonete Líquido Para Bebês Protex Baby Glicerina Natural Refil 800ml",
+    "preco": 49.99,
+    "preco_por_kg": 62.49
+  },
+  {
+    "id": 102,
+    "supermercado": "Pague Menos",
+    "produto": "Gel Fixador Tribal Incolor Sem Álcool 500g",
+    "preco": 13.99,
+    "preco_por_kg": 27.98
+  },
+  {
+    "id": 103,
+    "supermercado": "Pague Menos",
+    "produto": "Hastes Flexíveis Uni Care Com 75 Unidades",
+    "preco": 3.49,
+    "preco_por_kg": 3.49
+  },
+  {
+    "id": 104,
+    "supermercado": "Pague Menos",
+    "produto": "Lenço Umedecido Mimmo Freshaqua Com 40 Unidades",
+    "preco": 13.49,
+    "preco_por_kg": 13.49
+  },
+  {
+    "id": 105,
+    "supermercado": "Pague Menos",
+    "produto": "Coador de Café Em Algodão",
+    "preco": 7.29,
+    "preco_por_kg": 7.29
+  },
+  {
+    "id": 106,
+    "supermercado": "Pague Menos",
+    "produto": "Enxaguante Bucal Listerine Cool Mint Refrescância Intensa 1l",
+    "preco": 38.99,
+    "preco_por_kg": 38.99
+  },
+  {
+    "id": 107,
+    "supermercado": "Pague Menos",
+    "produto": "Bisnaguinha Visconti Tradicional 240g",
+    "preco": 6.29,
+    "preco_por_kg": 26.21
+  },
+  {
+    "id": 108,
+    "supermercado": "Pague Menos",
+    "produto": "Areia Sanitária Para Gatos Beauty Pet 4kg",
+    "preco": 11.9,
+    "preco_por_kg": 2.98
+  },
+  {
+    "id": 109,
+    "supermercado": "Pague Menos",
+    "produto": "Fubá Angélica Mimoso 1kg",
+    "preco": 6.99,
+    "preco_por_kg": 6.99
+  }
+]

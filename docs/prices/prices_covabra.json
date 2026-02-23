@@ -1,0 +1,723 @@
+[
+  {
+    "id": 1,
+    "supermercado": "Covabra",
+    "produto": "Ovos Mantiqueira Jumbo Branco Polpa com 10 un",
+    "preco": 8.99,
+    "preco_por_kg": 8.99
+  },
+  {
+    "id": 2,
+    "supermercado": "Covabra",
+    "produto": "Batata 1 Unidade 280g",
+    "preco": 0.83,
+    "preco_por_kg": 2.96
+  },
+  {
+    "id": 3,
+    "supermercado": "Covabra",
+    "produto": "Cebola 1 Unidade 280g",
+    "preco": 1.39,
+    "preco_por_kg": 4.96
+  },
+  {
+    "id": 4,
+    "supermercado": "Covabra",
+    "produto": "Tomate Italiano 1 Unidade 181g",
+    "preco": 1.62,
+    "preco_por_kg": 8.95
+  },
+  {
+    "id": 5,
+    "supermercado": "Covabra",
+    "produto": "Pimentão Verde 1 Unidade 368g",
+    "preco": 6.21,
+    "preco_por_kg": 16.88
+  },
+  {
+    "id": 6,
+    "supermercado": "Covabra",
+    "produto": "Pimentão Vermelho 1 Unidade 352g",
+    "preco": 8.76,
+    "preco_por_kg": 24.89
+  },
+  {
+    "id": 7,
+    "supermercado": "Covabra",
+    "produto": "Pimentão Amarelo 1 Unidade 396g",
+    "preco": 9.86,
+    "preco_por_kg": 24.9
+  },
+  {
+    "id": 8,
+    "supermercado": "Covabra",
+    "produto": "Pimentão Verde 1 Unidade 368g",
+    "preco": 6.21,
+    "preco_por_kg": 16.88
+  },
+  {
+    "id": 9,
+    "supermercado": "Covabra",
+    "produto": "Refrigerante Bioleve Zero Limão 1,5l",
+    "preco": 6.29,
+    "preco_por_kg": 4.19
+  },
+  {
+    "id": 10,
+    "supermercado": "Covabra",
+    "produto": "Vagem Pettirossi Xavier 300 g",
+    "preco": 7.99,
+    "preco_por_kg": 26.63
+  },
+  {
+    "id": 11,
+    "supermercado": "Covabra",
+    "produto": "Abobrinha Brasil 1 Unidade 647g",
+    "preco": 6.46,
+    "preco_por_kg": 9.98
+  },
+  {
+    "id": 12,
+    "supermercado": "Covabra",
+    "produto": "Beterraba + Fit 600g",
+    "preco": 4.99,
+    "preco_por_kg": 8.32
+  },
+  {
+    "id": 13,
+    "supermercado": "Covabra",
+    "produto": "Inhame + Fit 450g",
+    "preco": 6.99,
+    "preco_por_kg": 15.53
+  },
+  {
+    "id": 14,
+    "supermercado": "Covabra",
+    "produto": "Gengibre + Fit 500g",
+    "preco": 7.99,
+    "preco_por_kg": 15.98
+  },
+  {
+    "id": 15,
+    "supermercado": "Covabra",
+    "produto": "Cenoura 1 Unidade 323g",
+    "preco": 0.96,
+    "preco_por_kg": 2.97
+  },
+  {
+    "id": 16,
+    "supermercado": "Covabra",
+    "produto": "Chuchu 1 Unidade 445g",
+    "preco": 1.77,
+    "preco_por_kg": 3.98
+  },
+  {
+    "id": 17,
+    "supermercado": "Covabra",
+    "produto": "Mandioquinha 1 Unidade 191g",
+    "preco": 3.22,
+    "preco_por_kg": 16.86
+  },
+  {
+    "id": 18,
+    "supermercado": "Covabra",
+    "produto": "Cheiro Verde Mais Verde Hidropônico",
+    "preco": 5.99,
+    "preco_por_kg": 5.99
+  },
+  {
+    "id": 19,
+    "supermercado": "Covabra",
+    "produto": "Alface Sítio Novo Mundo Americana Orgânico Unidade",
+    "preco": 3.99,
+    "preco_por_kg": 3.99
+  },
+  {
+    "id": 20,
+    "supermercado": "Covabra",
+    "produto": "Repolho Verde 1 Unidade 1,691kg",
+    "preco": 5.05,
+    "preco_por_kg": 2.99
+  },
+  {
+    "id": 21,
+    "supermercado": "Covabra",
+    "produto": "Alho Poró Mais Verdes Unidade",
+    "preco": 8.99,
+    "preco_por_kg": 8.99
+  },
+  {
+    "id": 22,
+    "supermercado": "Covabra",
+    "produto": "Mamão Formosa 1 Unidade 1,702kg",
+    "preco": 13.59,
+    "preco_por_kg": 7.98
+  },
+  {
+    "id": 23,
+    "supermercado": "Covabra",
+    "produto": "Banana Nanica 1 Unidade 228g",
+    "preco": 2.04,
+    "preco_por_kg": 8.95
+  },
+  {
+    "id": 24,
+    "supermercado": "Covabra",
+    "produto": "Uva Sweet Jubille Doce Uva com Semente 500g",
+    "preco": 8.99,
+    "preco_por_kg": 17.98
+  },
+  {
+    "id": 25,
+    "supermercado": "Covabra",
+    "produto": "Maçã Gala 750g",
+    "preco": 9.9,
+    "preco_por_kg": 13.2
+  },
+  {
+    "id": 26,
+    "supermercado": "Covabra",
+    "produto": "Refrigerante Bioleve Zero Mexirica 1.5l",
+    "preco": 6.29,
+    "preco_por_kg": 4.19
+  },
+  {
+    "id": 27,
+    "supermercado": "Covabra",
+    "produto": "Margarina Claybom com Sal 500g",
+    "preco": 4.99,
+    "preco_por_kg": 9.98
+  },
+  {
+    "id": 28,
+    "supermercado": "Covabra",
+    "produto": "Leite Shefa Semi-Desnatado Zero Lactose Garrafa 1l",
+    "preco": 5.49,
+    "preco_por_kg": 5.49
+  },
+  {
+    "id": 29,
+    "supermercado": "Covabra",
+    "produto": "Requeijão Tirolez Light Zero Lactose 200g",
+    "preco": 10.98,
+    "preco_por_kg": 54.9
+  },
+  {
+    "id": 30,
+    "supermercado": "Covabra",
+    "produto": "Queijo Mussarela Porto Alegre Fatiado 402g",
+    "preco": 17.64,
+    "preco_por_kg": 43.88
+  },
+  {
+    "id": 31,
+    "supermercado": "Covabra",
+    "produto": "Presunto Seara Magro Fatiado 1 Pacote 309g",
+    "preco": 9.23,
+    "preco_por_kg": 29.87
+  },
+  {
+    "id": 32,
+    "supermercado": "Covabra",
+    "produto": "Mortadela Perdigão Mista 1kg",
+    "preco": 15.19,
+    "preco_por_kg": 15.19
+  },
+  {
+    "id": 34,
+    "supermercado": "Covabra",
+    "produto": "Mandioca Descascada 1 Unidade 288g",
+    "preco": 2.85,
+    "preco_por_kg": 9.9
+  },
+  {
+    "id": 35,
+    "supermercado": "Covabra",
+    "produto": "Legumes De Marchi Congelado para Saltear 1,02kg",
+    "preco": 19.99,
+    "preco_por_kg": 19.6
+  },
+  {
+    "id": 36,
+    "supermercado": "Covabra",
+    "produto": "Água de Coco Kero Coco 1l",
+    "preco": 13.99,
+    "preco_por_kg": 13.99
+  },
+  {
+    "id": 37,
+    "supermercado": "Covabra",
+    "produto": "Leite Fermentado Yakult 40 com 6 Light Bandeja 480g",
+    "preco": 14.99,
+    "preco_por_kg": 2.5
+  },
+  {
+    "id": 38,
+    "supermercado": "Covabra",
+    "produto": "Bebida Láctea Batavo Polpa Morango/Morango 510g",
+    "preco": 6.59,
+    "preco_por_kg": 12.92
+  },
+  {
+    "id": 39,
+    "supermercado": "Covabra",
+    "produto": "Polpa Fruta de Marchi Acerola 100g",
+    "preco": 4.49,
+    "preco_por_kg": 44.9
+  },
+  {
+    "id": 40,
+    "supermercado": "Covabra",
+    "produto": "Polpa Fruta de Marchi Abacaxi com Hortelã 100g",
+    "preco": 5.49,
+    "preco_por_kg": 54.9
+  },
+  {
+    "id": 41,
+    "supermercado": "Covabra",
+    "produto": "Arroz Oliron Tipo 1 5kg",
+    "preco": 14.99,
+    "preco_por_kg": 3
+  },
+  {
+    "id": 42,
+    "supermercado": "Covabra",
+    "produto": "Feijão Oliron Carioca 1kg",
+    "preco": 4.99,
+    "preco_por_kg": 4.99
+  },
+  {
+    "id": 43,
+    "supermercado": "Covabra",
+    "produto": "Macarrão de Arroz Urbano Espaguete 500g",
+    "preco": 4.99,
+    "preco_por_kg": 9.98
+  },
+  {
+    "id": 44,
+    "supermercado": "Covabra",
+    "produto": "Macarrão de Arroz Urbano Pena 500g",
+    "preco": 4.99,
+    "preco_por_kg": 9.98
+  },
+  {
+    "id": 45,
+    "supermercado": "Covabra",
+    "produto": "Macarrão de Arroz Urbano Parafuso 500g",
+    "preco": 4.99,
+    "preco_por_kg": 9.98
+  },
+  {
+    "id": 46,
+    "supermercado": "Covabra",
+    "produto": "Queijo Mussarela Porto Alegre Ralado 402g",
+    "preco": 17.64,
+    "preco_por_kg": 43.88
+  },
+  {
+    "id": 47,
+    "supermercado": "Covabra",
+    "produto": "Tomate Pelado Sacciali Lata 240g",
+    "preco": 5.99,
+    "preco_por_kg": 24.96
+  },
+  {
+    "id": 48,
+    "supermercado": "Covabra",
+    "produto": "Molho Tomate Tarantella Sachê Tradicional 300g",
+    "preco": 1.89,
+    "preco_por_kg": 6.3
+  },
+  {
+    "id": 49,
+    "supermercado": "Covabra",
+    "produto": "Azeite Cocinero Extra Virgem Pet 500ml",
+    "preco": 26.99,
+    "preco_por_kg": 53.98
+  },
+  {
+    "id": 50,
+    "supermercado": "Covabra",
+    "produto": "Azeitona Diza Verde sem Caroco Premium Vidro 500g",
+    "preco": 29.99,
+    "preco_por_kg": 59.98
+  },
+  {
+    "id": 51,
+    "supermercado": "Covabra",
+    "produto": "Molho Shoyu Karui Tradicional 1,01l",
+    "preco": 27.99,
+    "preco_por_kg": 27.71
+  },
+  {
+    "id": 52,
+    "supermercado": "Covabra",
+    "produto": "Realçador de Sabor Ajinomoto Refil 100g",
+    "preco": 8.69,
+    "preco_por_kg": 86.9
+  },
+  {
+    "id": 54,
+    "supermercado": "Covabra",
+    "produto": "Creme de Tratamento Skala Amido de Milho 1kg",
+    "preco": 15.49,
+    "preco_por_kg": 15.49
+  },
+  {
+    "id": 55,
+    "supermercado": "Covabra",
+    "produto": "Óleo de Soja Soya 900ml",
+    "preco": 6.98,
+    "preco_por_kg": 7.76
+  },
+  {
+    "id": 56,
+    "supermercado": "Covabra",
+    "produto": "Vinagre Toscano Álcool 750ml",
+    "preco": 2.99,
+    "preco_por_kg": 3.99
+  },
+  {
+    "id": 57,
+    "supermercado": "Covabra",
+    "produto": "Milho Verde + Fit 700g",
+    "preco": 5.99,
+    "preco_por_kg": 8.56
+  },
+  {
+    "id": 58,
+    "supermercado": "Covabra",
+    "produto": "Seleta Legumes Bonduelle Suave 200 g",
+    "preco": 6.69,
+    "preco_por_kg": 33.45
+  },
+  {
+    "id": 59,
+    "supermercado": "Covabra",
+    "produto": "Sardinha Pescador em Óleo 125g",
+    "preco": 5.49,
+    "preco_por_kg": 43.92
+  },
+  {
+    "id": 60,
+    "supermercado": "Covabra",
+    "produto": "Açúcar Caravelas Natural Demerara 1kg",
+    "preco": 5.49,
+    "preco_por_kg": 5.49
+  },
+  {
+    "id": 61,
+    "supermercado": "Covabra",
+    "produto": "Açúcar União Mascavo 1kg",
+    "preco": 27.99,
+    "preco_por_kg": 27.99
+  },
+  {
+    "id": 62,
+    "supermercado": "Covabra",
+    "produto": "Sal Lebre Refinado 1kg",
+    "preco": 2.89,
+    "preco_por_kg": 2.89
+  },
+  {
+    "id": 64,
+    "supermercado": "Covabra",
+    "produto": "Ketchup Fugini Tradicional Sachê 300gr",
+    "preco": 4.49,
+    "preco_por_kg": 14.97
+  },
+  {
+    "id": 65,
+    "supermercado": "Covabra",
+    "produto": "Maionese Hemmer Receita Caseira 500g",
+    "preco": 9.59,
+    "preco_por_kg": 19.18
+  },
+  {
+    "id": 66,
+    "supermercado": "Covabra",
+    "produto": "Mostarda Hemmer Amarela 700g",
+    "preco": 13.99,
+    "preco_por_kg": 19.99
+  },
+  {
+    "id": 67,
+    "supermercado": "Covabra",
+    "produto": "Leite Condensado Italac Semidesnatado TP 395g",
+    "preco": 7.39,
+    "preco_por_kg": 18.71
+  },
+  {
+    "id": 68,
+    "supermercado": "Covabra",
+    "produto": "Creme de Leite Shefa 200g",
+    "preco": 3.69,
+    "preco_por_kg": 18.45
+  },
+  {
+    "id": 69,
+    "supermercado": "Covabra",
+    "produto": "Capsula de Café Espresso Cerrado Mineiro 3 Corações Gourmet 10 unid",
+    "preco": 18.99,
+    "preco_por_kg": 18.99
+  },
+  {
+    "id": 70,
+    "supermercado": "Covabra",
+    "produto": "Café Pele Tradicional Vácuo 500g",
+    "preco": 25.99,
+    "preco_por_kg": 51.98
+  },
+  {
+    "id": 71,
+    "supermercado": "Covabra",
+    "produto": "Chá Matte Leão com Limão Zero Pet 1,5l",
+    "preco": 7.49,
+    "preco_por_kg": 4.99
+  },
+  {
+    "id": 74,
+    "supermercado": "Covabra",
+    "produto": "Farinha Milho Dona Clara Flocão 500g",
+    "preco": 3.99,
+    "preco_por_kg": 7.98
+  },
+  {
+    "id": 75,
+    "supermercado": "Covabra",
+    "produto": "Pão de Forma Seven Boys Tradicional 450g",
+    "preco": 6.98,
+    "preco_por_kg": 15.51
+  },
+  {
+    "id": 76,
+    "supermercado": "Covabra",
+    "produto": "Goma paraTapioca Akio 1kg",
+    "preco": 14.99,
+    "preco_por_kg": 14.99
+  },
+  {
+    "id": 77,
+    "supermercado": "Covabra",
+    "produto": "Desinfetante Lysoform Original 2lt",
+    "preco": 29.9,
+    "preco_por_kg": 14.95
+  },
+  {
+    "id": 79,
+    "supermercado": "Covabra",
+    "produto": "Limpador Veja Perfumes Lavanda da França 2l",
+    "preco": 13.99,
+    "preco_por_kg": 7
+  },
+  {
+    "id": 80,
+    "supermercado": "Covabra",
+    "produto": "Removedor de Esmaltes Beira Alta 90ml",
+    "preco": 3.99,
+    "preco_por_kg": 44.33
+  },
+  {
+    "id": 81,
+    "supermercado": "Covabra",
+    "produto": "Refil Difusor Bom Ar Elétrico Algodão 30% Desconto no Segundo Refil un",
+    "preco": 44.9,
+    "preco_por_kg": 44.9
+  },
+  {
+    "id": 82,
+    "supermercado": "Covabra",
+    "produto": "Lâmpada Kian Led Classic 9W Bivolt Amarela",
+    "preco": 4.99,
+    "preco_por_kg": 4.99
+  },
+  {
+    "id": 83,
+    "supermercado": "Covabra",
+    "produto": "Saco Plástico Saron para Lixo 100l 5Unidades",
+    "preco": 4.79,
+    "preco_por_kg": 0.05
+  },
+  {
+    "id": 84,
+    "supermercado": "Covabra",
+    "produto": "Saco Plástico Saron para Lixo 50l 10Unidades",
+    "preco": 4.79,
+    "preco_por_kg": 0.1
+  },
+  {
+    "id": 85,
+    "supermercado": "Covabra",
+    "produto": "Água Sanitária Ypê 5l",
+    "preco": 13.9,
+    "preco_por_kg": 2.78
+  },
+  {
+    "id": 86,
+    "supermercado": "Covabra",
+    "produto": "Lava Roupas Omo Liquido Roupas Finas e Delicadas Original 900ml Grátis 200ml",
+    "preco": 15.39,
+    "preco_por_kg": 17.1
+  },
+  {
+    "id": 87,
+    "supermercado": "Covabra",
+    "produto": "Amaciante Candura Clássico 5l",
+    "preco": 13.9,
+    "preco_por_kg": 2.78
+  },
+  {
+    "id": 88,
+    "supermercado": "Covabra",
+    "produto": "Detergente Ypê Neutro 5l",
+    "preco": 26.9,
+    "preco_por_kg": 5.38
+  },
+  {
+    "id": 89,
+    "supermercado": "Covabra",
+    "produto": "Limpador Multiuso Ypê Desengordurante 500ml",
+    "preco": 4.79,
+    "preco_por_kg": 9.58
+  },
+  {
+    "id": 90,
+    "supermercado": "Covabra",
+    "produto": "Limpador Veja Limpeza Pesada com Cloro 2em1 com 20% Desconto 1l",
+    "preco": 16.9,
+    "preco_por_kg": 16.9
+  },
+  {
+    "id": 91,
+    "supermercado": "Covabra",
+    "produto": "Desinfetante Lysoform Original 2lt",
+    "preco": 29.9,
+    "preco_por_kg": 14.95
+  },
+  {
+    "id": 92,
+    "supermercado": "Covabra",
+    "produto": "Esponja Santa Maria para Banho Laqua Banho",
+    "preco": 3.59,
+    "preco_por_kg": 3.59
+  },
+  {
+    "id": 93,
+    "supermercado": "Covabra",
+    "produto": "Lã de Aço Bombril 6 un",
+    "preco": 2.39,
+    "preco_por_kg": 2.39
+  },
+  {
+    "id": 94,
+    "supermercado": "Covabra",
+    "produto": "Fralda Capricho Bummis Tubos Mega Xxg 36Unidades",
+    "preco": 39.99,
+    "preco_por_kg": 39.99
+  },
+  {
+    "id": 95,
+    "supermercado": "Covabra",
+    "produto": "Papel Higiênico Mimmo Folha Dupla Neutro Lv12 Pg11 30m",
+    "preco": 16.9,
+    "preco_por_kg": 16.9
+  },
+  {
+    "id": 96,
+    "supermercado": "Covabra",
+    "produto": "Detergente Sanitário Pato Gel Adesivo Azul c/ 6 Discos 6un",
+    "preco": 15.9,
+    "preco_por_kg": 15.9
+  },
+  {
+    "id": 97,
+    "supermercado": "Covabra",
+    "produto": "Escova Dental Colgate Classic Clean 3un",
+    "preco": 10.99,
+    "preco_por_kg": 10.99
+  },
+  {
+    "id": 98,
+    "supermercado": "Covabra",
+    "produto": "Creme Dental Sorriso Tripla Limpeza Completa 120 g",
+    "preco": 3.99,
+    "preco_por_kg": 33.25
+  },
+  {
+    "id": 99,
+    "supermercado": "Covabra",
+    "produto": "Sabonete Líquido Palmolive Nutri Milk Refil 900ml",
+    "preco": 27.9,
+    "preco_por_kg": 31
+  },
+  {
+    "id": 100,
+    "supermercado": "Covabra",
+    "produto": "Sabonete Flor de Ypê Rosas Brancas e Avelã 85 g",
+    "preco": 2.19,
+    "preco_por_kg": 25.76
+  },
+  {
+    "id": 101,
+    "supermercado": "Covabra",
+    "produto": "Sabonete Granado Bebê 90g",
+    "preco": 7.69,
+    "preco_por_kg": 85.44
+  },
+  {
+    "id": 102,
+    "supermercado": "Covabra",
+    "produto": "Gel Softfix Fliptop Azul 250g",
+    "preco": 7.69,
+    "preco_por_kg": 30.76
+  },
+  {
+    "id": 103,
+    "supermercado": "Covabra",
+    "produto": "Hastes Flexíveis Dengo com 75un",
+    "preco": 2.69,
+    "preco_por_kg": 2.69
+  },
+  {
+    "id": 104,
+    "supermercado": "Covabra",
+    "produto": "Lenços Umedecidos Mimmo com 40un",
+    "preco": 11.9,
+    "preco_por_kg": 11.9
+  },
+  {
+    "id": 105,
+    "supermercado": "Covabra",
+    "produto": "Algodão Dengo Rolo 1un",
+    "preco": 5.09,
+    "preco_por_kg": 5.09
+  },
+  {
+    "id": 106,
+    "supermercado": "Covabra",
+    "produto": "Anti-Septico Bucal Listerine Cool Mint Hortelã 1l",
+    "preco": 38.9,
+    "preco_por_kg": 38.9
+  },
+  {
+    "id": 107,
+    "supermercado": "Covabra",
+    "produto": "Bisnaguinha Pullman Bisnaguito 300g",
+    "preco": 7.68,
+    "preco_por_kg": 25.6
+  },
+  {
+    "id": 109,
+    "supermercado": "Covabra",
+    "produto": "Fubá Faria 500 g",
+    "preco": 4.19,
+    "preco_por_kg": 8.38
+  },
+  {
+    "id": 110,
+    "supermercado": "Covabra",
+    "produto": "Alimento para Gatos Whiskas Gatos Castrados Carne 2,7kg",
+    "preco": 49.99,
+    "preco_por_kg": 18.51
+  }
+]
