@@ -1,7 +1,7 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
+const path = require("path"); // 👈 ADICIONADO: Faltava isso para o path.resolve funcionar
 
-const INPUT_FILE = "products.txt";
 const OUTPUT_FILE = "docs/prices/prices_tenda.json";
 
 // 🔎 Normaliza texto: remove acentos e deixa em minúsculo
@@ -33,16 +33,10 @@ function extrairPeso(nome) {
 
 async function buscarProduto(page, termo) {
   const url = `https://www.tendaatacado.com.br/busca?q=${encodeURIComponent(termo)}`;
-  
-  // 1. Vai para a URL e espera o carregamento básico
   await page.goto(url, { waitUntil: "networkidle2", timeout: 90000 });
 
   try {
-    // 2. ESPERA ESSENCIAL: Aguarda o seletor dos cards aparecerem na página
-    // Isso evita que o script tente ler a página enquanto ela ainda está "borrada" ou vazia
     await page.waitForSelector("a.showcase-card-content", { timeout: 15000 });
-    
-    // 3. Pequeno scroll para garantir que o Lazy Loading do Tenda carregue os preços
     await page.mouse.wheel({ deltaY: 500 });
     await new Promise(r => setTimeout(r, 1000));
   } catch (e) {
@@ -54,8 +48,6 @@ async function buscarProduto(page, termo) {
     const cards = Array.from(document.querySelectorAll("a.showcase-card-content"));
     return cards.slice(0, 20).map(card => {
       const nome = card.querySelector("h3.TitleCardComponent")?.innerText.trim() || "";
-      
-      // Busca preço em múltiplos lugares (Plano A e B)
       let precoTxt = card.querySelector("div.SimplePriceComponent")?.innerText || 
                      card.querySelector("[class*='Price']")?.innerText || "0";
 
@@ -79,7 +71,6 @@ async function main() {
   });
   const page = await browser.newPage();
 
-  // Configurações Originais de CEP
   try {
     await page.goto("https://www.tendaatacado.com.br", { waitUntil: "domcontentloaded", timeout: 60000 });
     await page.waitForSelector("#shipping-cep", { timeout: 10000 });
@@ -91,15 +82,16 @@ async function main() {
     console.log("⚠️ CEP já configurado.");
   }
 
-    const linhasProdutos = fs.readFileSync(path.resolve(__dirname, "..", "products.txt"), "utf-8")
+  // ✅ CORREÇÃO AQUI: Lendo e filtrando os produtos
+  const produtos = fs.readFileSync(path.resolve(__dirname, "..", "products.txt"), "utf-8")
     .split("\n")
     .map(l => l.trim())
-    .filter(l => l && !l.startsWith("#"));
- 
+    .filter(l => l && !l.startsWith("#") && !l.startsWith("//")); 
   
   let resultados = [];
   let totalEncontrados = 0;
 
+  // ✅ CORREÇÃO AQUI: Usando a variável 'produtos' definida acima
   for (const [index, termo] of produtos.entries()) {
     const id = index + 1;
     try {
@@ -109,21 +101,12 @@ async function main() {
       const encontrados = await buscarProduto(page, termoParaBusca);
       const termoNorm = normalizar(termoParaBusca);
 
-            const validos = encontrados.filter(p => {
-        const nomeProdNorm = normalizar(p.nome); // Ex: "carne moida bovina congelada chuletao"
-        const termoNorm = normalizar(termoParaBusca); // Ex: "carne moida bovina"
-
-        // 1. BLOQUEIOS (Para não pegar carne de porco)
+      const validos = encontrados.filter(p => {
+        const nomeProdNorm = normalizar(p.nome);
         if (!termoNorm.includes('suina') && nomeProdNorm.includes('suina')) return false;
 
-        // 2. REGRA DE PALAVRAS OBRIGATÓRIAS (Match por Radical)
-        // Pegamos as palavras da sua busca: ["carne", "moida", "bovina"]
         const palavrasBusca = termoNorm.split(" ").filter(w => w.length >= 3);
-        
-        // Verificamos se cada uma das suas palavras (ou o início delas) está no nome
         const temMatches = palavrasBusca.every(palavra => {
-          // Buscamos apenas pelas primeiras 3 letras (ex: "bov" em vez de "bovina")
-          // Isso garante que "Bov.", "Bovina" ou "Bovino" sejam aceitos.
           const radical = palavra.substring(0, 3);
           return nomeProdNorm.includes(radical);
         });
@@ -131,9 +114,7 @@ async function main() {
         return p.preco > 0 && temMatches;
       });
 
-
       if (validos.length > 0) {
-        // Seleção do melhor preço por KG (Original)
         const melhorOpcao = validos.reduce((prev, curr) => {
           const precoKgPrev = prev.preco / extrairPeso(prev.nome);
           const precoKgCurr = curr.preco / extrairPeso(curr.nome);
@@ -161,6 +142,11 @@ async function main() {
   }
 
   await browser.close();
+  
+  // Garante que a pasta existe antes de salvar
+  const dir = path.dirname(OUTPUT_FILE);
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(resultados, null, 2), "utf-8");
   console.log(`📊 Finalizado: ${totalEncontrados}/${produtos.length}`);
 }
@@ -169,4 +155,3 @@ main().catch(err => {
   console.error("❌ Erro fatal:", err);
   process.exit(1);
 });
-                                              
