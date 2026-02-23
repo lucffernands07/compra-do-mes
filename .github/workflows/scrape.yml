@@ -38,8 +38,8 @@ jobs:
           # node scrapers/campinas/scraper_giga.js
           # node scrapers/campinas/scraper_covabra.js
           # node scrapers/campinas/scraper_paguemenos.js
-          node scrapers/campinas/scraper_atacadao.js
-          # node scrapers/campinas/scraper_enxuto.js
+          # node scrapers/campinas/scraper_atacadao.js
+          node scrapers/campinas/scraper_enxuto.js
           # node scrapers/campinas/scraper_tenda.js
 
       # --- GERAÇÃO DO JSON DE COMPARAÇÃO (Obrigatório para o App ler) ---
