@@ -22,7 +22,6 @@ function extrairPeso(nome) {
 
 function parsePreco(txt) {
   if (!txt) return 0;
-  // Limpa R$, espaços inquebráveis (&nbsp;) e converte vírgula
   const n = parseFloat(txt.replace(/[^\d,]/g, "").replace(",", "."));
   return isNaN(n) ? 0 : n;
 }
@@ -55,39 +54,34 @@ async function main() {
       console.log(`🔍 [Atacadão] Buscando: ${termoParaBusca}`);
 
       try {
+        // ✅ URL ATUALIZADA PARA O PADRÃO /s?q=
         await page.goto(
-          `https://www.atacadao.com.br/busca?q=${encodeURIComponent(termoParaBusca)}`,
+          `https://www.atacadao.com.br/s?q=${encodeURIComponent(termoParaBusca)}`,
           { waitUntil: "networkidle2", timeout: 45000 }
         );
 
-        // Espera o container de conteúdo do card (usando o data-testid do seu HTML)
         await page.waitForSelector("[data-testid='store-product-card-content']", { timeout: 15000 });
         
         await page.mouse.wheel({ deltaY: 500 });
         await new Promise(r => setTimeout(r, 1000));
       } catch (e) {
-        console.log(`⚠️ Não encontrado no Atacadão: ${termoParaBusca}`);
+        console.log(`⚠️ Não carregou: ${termoParaBusca}`);
         continue;
       }
 
       const items = await page.evaluate(() => {
-        const products = [];
-        // Seleciona o conteúdo do card conforme seu HTML
         const cards = document.querySelectorAll("[data-testid='store-product-card-content']");
+        const products = [];
 
         cards.forEach(card => {
-          // Busca o link que tem o data-testid="product-link"
           const linkEl = card.querySelector("[data-testid='product-link']");
           const nome = linkEl ? linkEl.innerText.trim() : "";
           
-          // Busca o preço no parágrafo com a classe de destaque (text-neutral-500 font-bold)
-          // Usamos uma busca por "R$" dentro do card para ser mais seguro
+          // Busca o preço no parágrafo que contém R$
           const precoEl = Array.from(card.querySelectorAll("p")).find(p => p.innerText.includes("R$"));
           const precoTxt = precoEl ? precoEl.innerText : "0";
 
-          if (nome) {
-            products.push({ nome, precoTxt });
-          }
+          if (nome) products.push({ nome, precoTxt });
         });
         return products;
       });
@@ -129,3 +123,4 @@ async function main() {
 }
 
 main();
+                                           
