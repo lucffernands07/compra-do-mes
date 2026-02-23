@@ -1,36 +1,27 @@
 const fs = require("fs");
 const path = require("path");
 
-// Caminhos dos JSONs
-const goodbomFile   = path.join(__dirname, "..", "docs", "prices", "prices_goodbom.json");
-const tendaFile     = path.join(__dirname, "..", "docs", "prices", "prices_tenda.json");
-const arenaFile     = path.join(__dirname, "..", "docs", "prices", "prices_arena.json");
-const savegnagoFile = path.join(__dirname, "..", "docs", "prices", "prices_savegnago.json");
-const outputFile    = path.join(__dirname, "..", "docs", "prices", "compare.json");
+// ✅ CORREÇÃO 1: Sobe dois níveis (.. , ..) para achar a pasta docs na raiz
+const baseDir = path.resolve(__dirname, "..", "..", "docs", "prices");
 
-// Função para carregar JSON
+const goodbomFile   = path.join(baseDir, "prices_goodbom.json");
+const tendaFile     = path.join(baseDir, "prices_tenda_hortolandia.json"); // ✅ Nome atualizado
+const arenaFile     = path.join(baseDir, "prices_arena.json");
+const savegnagoFile = path.join(baseDir, "prices_savegnago.json");
+const outputFile    = path.join(baseDir, "compare.json");
+
 function load(file) {
-  if (!fs.existsSync(file)) return [];
+  if (!fs.existsSync(file)) {
+    console.log(`⚠️ Arquivo não encontrado: ${path.basename(file)}`);
+    return [];
+  }
   return JSON.parse(fs.readFileSync(file, "utf-8"));
 }
 
-// === Carrega dados brutos para contagem ===
 const rawGoodbom   = load(goodbomFile);
 const rawTenda     = load(tendaFile);
 const rawArena     = load(arenaFile);
 const rawSavegnago = load(savegnagoFile);
-
-// Contagem bruta de produtos encontrados em cada scraper
-const encontradosGoodbom   = rawGoodbom.length;
-const encontradosTenda     = rawTenda.length;
-const encontradosArena     = rawArena.length;
-const encontradosSavegnago = rawSavegnago.length;
-
-// === Usa dados brutos para agrupar por id ===
-function safeNumber(n) {
-  n = parseFloat(n);
-  return isNaN(n) || !isFinite(n) || n <= 0 ? 0 : n;
-}
 
 function groupById(data) {
   const map = {};
@@ -46,47 +37,43 @@ const tendaById     = groupById(rawTenda);
 const arenaById     = groupById(rawArena);
 const savegnagoById = groupById(rawSavegnago);
 
-// IDs presentes em Goodbom e Tenda (base obrigatória)
-const ids = Object.keys(goodbomById).filter(id => tendaById[id]);
+// ✅ CORREÇÃO 2: Pega todos os IDs únicos que apareceram em QUALQUER mercado
+const allIds = new Set([
+  ...Object.keys(goodbomById),
+  ...Object.keys(tendaById),
+  ...Object.keys(arenaById),
+  ...Object.keys(savegnagoById)
+]);
 
-let totalGoodbom   = 0;
-let totalTenda     = 0;
-let totalArena     = 0;
-let totalSavegnago = 0;
+let totalGoodbom = 0, totalTenda = 0, totalArena = 0, totalSavegnago = 0;
 let escolhidos = [];
 
-for (const id of ids) {
-  const g = goodbomById[id].sort((a, b) => safeNumber(a.preco_por_kg) - safeNumber(b.preco_por_kg))[0];
-  const t = tendaById[id].sort((a, b) => safeNumber(a.preco_por_kg) - safeNumber(b.preco_por_kg))[0];
-  const a = arenaById[id]?.sort((x, y) => safeNumber(x.preco_por_kg) - safeNumber(y.preco_por_kg))[0]
-           || { produto: null, preco: 0, preco_por_kg: 0 };
-  const s = savegnagoById[id]?.sort((x, y) => safeNumber(x.preco_por_kg) - safeNumber(y.preco_por_kg))[0]
-           || { produto: null, preco: 0, preco_por_kg: 0 };
+for (const id of allIds) {
+  const g = goodbomById[id]?.[0]   || { produto: "N/A", preco: 0, preco_por_kg: 0 };
+  const t = tendaById[id]?.[0]     || { produto: "N/A", preco: 0, preco_por_kg: 0 };
+  const a = arenaById[id]?.[0]     || { produto: "N/A", preco: 0, preco_por_kg: 0 };
+  const s = savegnagoById[id]?.[0] || { produto: "N/A", preco: 0, preco_por_kg: 0 };
 
-  // Só inclui se TODOS tiverem preço > 0
-  const gVal = safeNumber(g.preco_por_kg);
-  const tVal = safeNumber(t.preco_por_kg);
-  const aVal = safeNumber(a.preco_por_kg);
-  const sVal = safeNumber(s.preco_por_kg);
-  if (gVal <= 0 || tVal <= 0 || aVal <= 0 || sVal <= 0) continue;
+  const precosValidos = [
+    { loja: "Goodbom", valor: g.preco_por_kg },
+    { loja: "Tenda", valor: t.preco_por_kg },
+    { loja: "Arena", valor: a.preco_por_kg },
+    { loja: "Savegnago", valor: s.preco_por_kg }
+  ].filter(p => p.valor > 0);
 
-  // Totais
-  totalGoodbom   += gVal;
-  totalTenda     += tVal;
-  totalArena     += aVal;
-  totalSavegnago += sVal;
+  if (precosValidos.length === 0) continue;
 
-  // Determinar mais barato
-  const preços = [
-    { loja: "Goodbom", preco: gVal },
-    { loja: "Tenda", preco: tVal },
-    { loja: "Arena", preco: aVal },
-    { loja: "Savegnago", preco: sVal },
-  ];
-  const mais_barato = preços.reduce((min, p) => (p.preco < min.preco ? p : min), preços[0]).loja;
+  // Soma totais
+  totalGoodbom   += g.preco_por_kg;
+  totalTenda     += t.preco_por_kg;
+  totalArena     += a.preco_por_kg;
+  totalSavegnago += s.preco_por_kg;
+
+  // Acha o campeão de preço deste item
+  const mais_barato = precosValidos.reduce((min, p) => p.valor < min.valor ? p : min).loja;
 
   escolhidos.push({
-    id,
+    id: parseInt(id),
     goodbom:   { nome: g.produto, preco: g.preco, preco_por_kg: g.preco_por_kg },
     tenda:     { nome: t.produto, preco: t.preco, preco_por_kg: t.preco_por_kg },
     arena:     { nome: a.produto, preco: a.preco, preco_por_kg: a.preco_por_kg },
@@ -95,41 +82,18 @@ for (const id of ids) {
   });
 }
 
-// ✅ Adicione a data de atualização
-const dataAtualizacao = new Date().toLocaleString("pt-BR", { 
-  timeZone: "America/Sao_Paulo" 
-});
-
 const jsonFinal = {
-  ultimaAtualizacao: dataAtualizacao, // Novo campo aqui
+  ultimaAtualizacao: new Date().toLocaleString("pt-BR", { timeZone: "America/Sao_Paulo" }),
   totalGoodbom:   totalGoodbom.toFixed(2),
   totalTenda:     totalTenda.toFixed(2),
   totalArena:     totalArena.toFixed(2),
   totalSavegnago: totalSavegnago.toFixed(2),
-  encontradosGoodbom,
-  encontradosTenda,
-  encontradosArena,
-  encontradosSavegnago,
-  produtos: escolhidos
+  encontradosGoodbom: rawGoodbom.length,
+  encontradosTenda: rawTenda.length,
+  encontradosArena: rawArena.length,
+  encontradosSavegnago: rawSavegnago.length,
+  produtos: escolhidos.sort((a, b) => a.id - b.id)
 };
 
-if (!fs.existsSync(path.dirname(outputFile))) {
-  fs.mkdirSync(path.dirname(outputFile), { recursive: true });
-}
 fs.writeFileSync(outputFile, JSON.stringify(jsonFinal, null, 2), "utf-8");
-
-console.log(`💾 JSON final salvo em ${outputFile}`);
-console.log("Produtos comparados:", escolhidos.length);
-console.log("🛒 Total GoodBom:",   totalGoodbom.toFixed(2));
-console.log("🛒 Total Tenda:",     totalTenda.toFixed(2));
-console.log("🛒 Total Arena:",     totalArena.toFixed(2));
-console.log("🛒 Total Savegnago:", totalSavegnago.toFixed(2));
-console.log("\n📊 Comparação detalhada:");
-console.table(escolhidos.map(e => ({
-  ID: e.id,
-  GoodBom:   `${e.goodbom.nome} - R$${e.goodbom.preco} (R$${e.goodbom.preco_por_kg}/kg)`,
-  Tenda:     `${e.tenda.nome} - R$${e.tenda.preco} (R$${e.tenda.preco_por_kg}/kg)`,
-  Arena:     `${e.arena.nome} - R$${e.arena.preco} (R$${e.arena.preco_por_kg}/kg)`,
-  Savegnago: `${e.savegnago.nome} - R$${e.savegnago.preco} (R$${e.savegnago.preco_por_kg}/kg)`,
-  "Mais barato": e.mais_barato
-})));
+console.log(`✅ Sucesso! Comparação de Hortolândia gerada com ${escolhidos.length} itens.`);
