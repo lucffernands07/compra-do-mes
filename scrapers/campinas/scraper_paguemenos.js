@@ -22,7 +22,7 @@ function extrairPeso(nome) {
 
 function parsePreco(txt) {
   if (!txt) return 0;
-  const n = parseFloat(txt.replace("R$", "").replace(/\s/g, "").replace(",", ".").replace(/[^\d.]/g, ""));
+  const n = parseFloat(txt.toString().replace("R$", "").replace(/\s/g, "").replace(",", ".").replace(/[^\d.]/g, ""));
   return isNaN(n) ? 0 : n;
 }
 
@@ -32,6 +32,13 @@ async function main() {
     args: ["--no-sandbox", "--disable-setuid-sandbox"] 
   });
   const page = await browser.newPage();
+  await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
+
+  if (!fs.existsSync(produtosTxtPath)) {
+    console.error("❌ products.txt não encontrado!");
+    await browser.close();
+    return;
+  }
 
   const linhasProdutos = fs.readFileSync(produtosTxtPath, "utf-8")
     .split("\n").map(l => l.trim()).filter(l => l && !l.startsWith("#"));
@@ -39,67 +46,91 @@ async function main() {
   const resultado = [];
 
   try {
-    for (const [index, linha] of linhasProdutos.entries()) {
+    for (const [index, nomeOriginal] of linhasProdutos.entries()) {
       const id = index + 1;
-      const termosParaTentar = linha.split("|").map(t => t.trim());
-      let achouAlgumNestaLinha = false;
+      let termoParaBusca = nomeOriginal.replace(/\bkg\b/gi, "").replace(/\bg\b/gi, "").trim();
+      const termoNorm = normalizar(termoParaBusca);
 
-      for (const termoOriginal of termosParaTentar) {
-        if (achouAlgumNestaLinha) break;
+      console.log(`🔍 [Pague Menos] Buscando: ${termoParaBusca}`);
 
-        let termoParaBusca = termoOriginal.replace(/\bkg\b/gi, "").replace(/\bg\b/gi, "").trim();
-        const termoNorm = normalizar(termoParaBusca);
+      try {
+        // URL de busca padrão do Pague Menos
+        await page.goto(
+          `https://www.superpaguemenos.com.br/busca?q=${encodeURIComponent(termoParaBusca)}`,
+          { waitUntil: "networkidle2", timeout: 45000 }
+        );
 
-        console.log(`🔍 [Pague Menos] Buscando: ${termoParaBusca}`);
+        // Espera carregar o container do produto baseado na tag que você enviou
+        await page.waitForSelector(".item-product", { timeout: 15000 });
+        
+        await page.mouse.wheel({ deltaY: 600 });
+        await new Promise(r => setTimeout(r, 1000));
+      } catch (e) {
+        console.log(`⚠️ Nada encontrado para: ${termoParaBusca}`);
+        continue;
+      }
 
-        try {
-          await page.goto(
-            `https://www.paguemenos.com.br/s/${encodeURIComponent(termoParaBusca)}?sort=price-asc`,
-            { waitUntil: "networkidle2", timeout: 60000 }
-          );
+      const items = await page.evaluate(() => {
+        const products = [];
+        const cards = document.querySelectorAll(".item-product");
 
-          // Seletor específico VTEX do Pague Menos
-          await page.waitForSelector(".vtex-product-summary-2-x-container", { timeout: 15000 });
-        } catch (e) {
-          continue;
-        }
+        cards.forEach(card => {
+          // Estratégia Principal: Pegar do JSON dentro do formulário (mais preciso)
+          const form = card.querySelector("form.product-form");
+          if (form && form.getAttribute("data-json")) {
+            try {
+              const data = JSON.parse(form.getAttribute("data-json"));
+              products.push({
+                nome: data.item_name || "",
+                precoTxt: data.price ? data.price.toString() : "0"
+              });
+              return;
+            } catch (err) {}
+          }
 
-        const items = await page.evaluate(() => {
-          const cards = Array.from(document.querySelectorAll(".vtex-product-summary-2-x-container"));
-          return cards.slice(0, 12).map(card => {
-            const nome = card.querySelector(".vtex-product-summary-2-x-productBrand")?.innerText.trim() || "";
-            const precoTxt = card.querySelector(".vtex-product-price-1-x-sellingPriceValue")?.innerText || "0";
-            return { nome, precoTxt };
-          });
+          // Estratégia de Backup: Pegar das classes de título e preço
+          const nome = card.querySelector(".title")?.innerText.trim() || "";
+          const preco = card.querySelector(".sale-price")?.innerText.trim() || "0";
+          products.push({ nome, precoTxt: preco });
+        });
+        return products;
+      });
+
+      const filtrados = items.map(item => ({
+        nome: item.nome,
+        preco: parsePreco(item.precoTxt),
+        peso_kg: extrairPeso(item.nome)
+      })).filter(item => {
+        const nomeNorm = normalizar(item.nome);
+        const palavrasBusca = termoNorm.split(" ").filter(w => w.length >= 3);
+        return item.preco > 0 && palavrasBusca.every(pal => nomeNorm.includes(pal.substring(0, 3)));
+      });
+
+      if (filtrados.length > 0) {
+        const maisBarato = filtrados.map(item => ({
+          ...item,
+          preco_por_kg: parseFloat((item.preco / item.peso_kg).toFixed(2))
+        })).sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
+
+        resultado.push({
+          id,
+          supermercado: "Pague Menos",
+          produto: maisBarato.nome,
+          preco: maisBarato.preco,
+          preco_por_kg: maisBarato.preco_por_kg
         });
 
-        const filtrados = items.map(item => ({
-          nome: item.nome,
-          preco: parsePreco(item.precoTxt),
-          peso_kg: extrairPeso(item.nome)
-        })).filter(item => {
-          const nomeNorm = normalizar(item.nome);
-          const palavrasBusca = termoNorm.split(" ").filter(w => w.length >= 3);
-          return item.preco > 0 && palavrasBusca.every(pal => nomeNorm.includes(pal.substring(0, 3)));
-        });
-
-        if (filtrados.length > 0) {
-          const maisBarato = filtrados.map(item => ({
-            ...item,
-            preco_por_kg: parseFloat((item.preco / item.peso_kg).toFixed(2))
-          })).sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
-
-          resultado.push({ id, supermercado: "Pague Menos", produto: maisBarato.nome, preco: maisBarato.preco, preco_por_kg: maisBarato.preco_por_kg });
-          console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
-          achouAlgumNestaLinha = true;
-        }
+        console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
       }
     }
 
-    fs.writeFileSync(path.join(outDir, "prices_pague_menos.json"), JSON.stringify(resultado, null, 2), "utf-8");
+    if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
+    fs.writeFileSync(path.join(outDir, "prices_paguemenos.json"), JSON.stringify(resultado, null, 2), "utf-8");
+
   } finally {
     await browser.close();
   }
 }
+
 main();
-  
+                                        
