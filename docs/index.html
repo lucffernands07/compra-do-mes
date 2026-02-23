@@ -2,19 +2,26 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Comparação de Preços</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Compra do Mês - Comparador</title>
   <link rel="stylesheet" href="style.css?v=7.3">
   <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#007bff">
+  <meta name="theme-color" content="#2e7d32">
   <link rel="apple-touch-icon" href="icons/icon-192x192.png">
-  
 </head>
 <body>
+
   <div class="header-app">
-  <h1>Compra do Mês</h1>
-  <p>Hortolândia - SP</p>
-</div>
-<div id="resultado"></di>
+    <select id="selectCidade" class="select-premium">
+      <option value="hortolandia">Hortolândia - SP</option>
+      <option value="campinas">Campinas - SP</option>
+    </select>
+    
+    <h1>Compra do Mês</h1>
+    <p id="subtitulo-cidade">Hortolândia - SP</p>
+  </div>
+
+  <div id="resultado"></div>
 
   <script src="app.js?v=2.0"></script>
 </body>
