@@ -1,7 +1,7 @@
 name: Scraper Preços
 
 on:
-  workflow_dispatch:        # ISSO ATIVA O BOTÃO MANUAL
+  workflow_dispatch:        # Permite rodar manualmente pelo botão "Run workflow"
   schedule:
     # Rodar às 11:00 UTC (08:00 BRT) e 19:00 UTC (16:00 BRT) todos os dias
     - cron: '0 11,19 * * *'
@@ -24,27 +24,33 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run scraper Tenda
-        run: node scrapers/scraper_tenda.js
+      # --- BLOCO HORTOLÂNDIA ---
+      - name: Executar Scrapers Hortolândia
+        run: |
+          node scrapers/hortolandia/scraper_tenda.js
+          node scrapers/hortolandia/scraper_goodbom.js
+          node scrapers/hortolandia/scraper_arena.js
+          node scrapers/hortolandia/scraper_savegnago.js
+          node scrapers/hortolandia/hortolandia_compare.js
 
-      - name: Run scraper GoodBom
-        run: node scrapers/scraper_goodbom.js
-      
-      - name: Run scraper Arena
-        run: node scrapers/scraper_arena.js
-      
-      - name: Run scraper Savegnago
-        run: node scrapers/scraper_savegnago.js
-      
-      - name: Compare prices
-        run: node scrapers/compare.js
+      # --- BLOCO CAMPINAS ---
+      - name: Executar Scrapers Campinas
+        run: |
+          node scrapers/campinas/scraper_carrefour.js
+          node scrapers/campinas/scraper_giga.js
+          node scrapers/campinas/scraper_covabra.js
+          node scrapers/campinas/scraper_paguemenos.js
+          node scrapers/campinas/scraper_atacadao.js
+          node scrapers/campinas/scraper_enxuto.js
+          node scrapers/campinas/scraper_tenda.js
+          node scrapers/campinas/campinas_compare.js
 
       - name: Commit and push updated prices
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@users.noreply.github.com"
           git add docs/prices/*.json
-          git commit -m "Atualiza preços [skip ci]" || echo "Nenhuma alteração"
+          git commit -m "Atualiza preços: Hortolândia e Campinas [skip ci]" || echo "Nenhuma alteração para commitar"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
