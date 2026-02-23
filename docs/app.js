@@ -1,17 +1,21 @@
 async function carregarDados() {
   const resultadoDiv = document.getElementById("resultado");
+  const selectCidade = document.getElementById("selectCidade");
+  const subtitulo = document.getElementById("subtitulo-cidade");
+  
+  const cidade = selectCidade.value;
   resultadoDiv.innerHTML = "Carregando...";
+  
+  // Atualiza o texto do subtítulo baseado na escolha
+  subtitulo.innerText = cidade === "campinas" ? "Campinas - SP" : "Hortolândia - SP";
 
-  const tryPaths = ["./prices/compare.json","prices/compare.json","/prices/compare.json"];
+  // Define o arquivo correto para carregar
+  const jsonFile = cidade === "campinas" ? "compare_campinas.json" : "compare.json";
+  const path = `./prices/${jsonFile}`;
+
   try {
-    let response = null;
-    for (const p of tryPaths) {
-      try { 
-        const r = await fetch(p); 
-        if (r.ok) { response = r; break; } 
-      } catch {}
-    }
-    if (!response) throw new Error("Arquivo compare.json não encontrado");
+    const response = await fetch(path);
+    if (!response.ok) throw new Error("Arquivo não encontrado");
 
     const data = await response.json();
     const produtos = Array.isArray(data.produtos) ? data.produtos : [];
@@ -22,106 +26,117 @@ async function carregarDados() {
       return Number.isFinite(n) ? n : 0;
     };
 
-    // --- CÁLCULO DOS TOTAIS BASEADOS EM KG ---
-    const calcularTotalPorKg = (loja) => {
-      return produtos.reduce((acc, p) => {
-        return acc + toNumber(p[loja]?.preco_por_kg);
-      }, 0);
-    };
+    // --- DETECÇÃO DINÂMICA DE LOJAS ---
+    // Pega todas as chaves do primeiro produto (exceto 'id' e 'mais_barato')
+    const lojasChaves = Object.keys(produtos[0] || {}).filter(k => k !== 'id' && k !== 'mais_barato');
 
-    const totaisKg = {
-      goodbom: calcularTotalPorKg('goodbom'),
-      tenda: calcularTotalPorKg('tenda'),
-      arena: calcularTotalPorKg('arena'),
-      savegnago: calcularTotalPorKg('savegnago')
-    };
+    // --- CÁLCULO DO RANKING ---
+    const ranking = lojasChaves.map(chave => {
+      const totalKg = produtos.reduce((acc, p) => acc + toNumber(p[chave]?.preco_por_kg), 0);
+      
+      // Busca a contagem de itens no JSON (ex: encontradosGoodbom ou encontradosCarrefour)
+      const labelContagem = "encontrados" + chave.charAt(0).toUpperCase() + chave.slice(1);
+      const qtdItens = data[labelContagem] || 0;
 
-    const quantidades = {
-      goodbom: toNumber(data.encontradosGoodbom),
-      tenda: toNumber(data.encontradosTenda),
-      arena: toNumber(data.encontradosArena),
-      savegnago: toNumber(data.encontradosSavegnago)
-    };
+      return {
+        id: chave,
+        nomeExibicao: chave.charAt(0).toUpperCase() + chave.slice(1).replace("_", " "),
+        total: totalKg,
+        itens: qtdItens
+      };
+    });
 
-    // Determinar o mais barato
-    const maisBaratoKey = Object.keys(totaisKg).reduce((a, b) => totaisKg[a] <= totaisKg[b] ? a : b);
-    const maisBaratoName = maisBaratoKey.charAt(0).toUpperCase() + maisBaratoKey.slice(1);
+    // Ordenar ranking: menor preço primeiro (quem tem total 0 vai para o fim)
+    ranking.sort((a, b) => {
+      if (a.total === 0) return 1;
+      if (b.total === 0) return -1;
+      return a.total - b.total;
+    });
+
+    // O primeiro do ranking é o vencedor
+    const vencedor = ranking[0];
+    const maisBaratoKey = vencedor.id;
+    const maisBaratoName = vencedor.nomeExibicao;
     const totalProdutosComparados = produtos.length;
 
-    // ✅ 1. GERAR TABELA DE TOTAIS (Respeitando as classes do novo CSS)
+    // ✅ 1. GERAR TABELA DE TOTAIS (RANKING ORDENADO)
     const tabelaTotais = `
       <table>
         <thead>
           <tr>
+            <th>Pos.</th>
             <th>Mercado</th>
             <th>Soma KG</th>
             <th>Itens</th>
           </tr>
         </thead>
         <tbody>
-          ${Object.keys(totaisKg).map(loja => `
-            <tr class="${maisBaratoKey === loja ? 'mais-barato' : ''}">
-              <td>${loja.charAt(0).toUpperCase() + loja.slice(1)}</td>
-              <td>R$ ${totaisKg[loja].toFixed(2)}</td>
-              <td>${quantidades[loja]}</td>
+          ${ranking.map((loja, index) => `
+            <tr class="${index === 0 ? 'mais-barato' : ''}">
+              <td>${index + 1}º</td>
+              <td>${loja.nomeExibicao}</td>
+              <td>R$ ${loja.total.toFixed(2)}</td>
+              <td>${loja.itens}</td>
             </tr>
           `).join('')}
         </tbody>
       </table>
     `;
 
-// ✅ 2. GERAR CARD DE DESTAQUE COM DATA ABAIXO DO TÍTULO
-const ultimaAtt = data.ultimaAtualizacao || "Data não disponível";
+    // ✅ 2. GERAR CARD DE DESTAQUE
+    const ultimaAtt = data.ultimaAtualizacao || "Data não disponível";
+    const cardDestaque = `
+      <div class="card-destaque">
+        <span class="vencedor-nome">🏆 Vencedor: ${maisBaratoName}</span>
+        <span class="total-produtos">Produtos comparados: <strong>${totalProdutosComparados}</strong></span>
+      </div>
+      <div class="titulo-sessao">
+        <h2>Produtos do dia (${maisBaratoName})</h2>
+        <span class="data-atualizacao">Atualizado em: ${ultimaAtt}</span>
+      </div>
+    `;
 
-const cardDestaque = `
-  <div class="card-destaque">
-    <span class="vencedor-nome">🏆 Vencedor: ${maisBaratoName}</span>
-    <span class="total-produtos">Total de produtos comparados: <strong>${totalProdutosComparados}</strong></span>
-  </div>
-  <div class="titulo-sessao">
-    <h2>Produtos do dia (${maisBaratoName})</h2>
-    <span class="data-atualizacao">Atualizado em: ${ultimaAtt}</span>
-  </div>
-`;
-
-    // ✅ 3. GERAR LISTA DE PRODUTOS (Layout de Cards limpos)
+    // ✅ 3. GERAR LISTA DE PRODUTOS
     const listaProdutos = `
       <ul>
         ${produtos
           .filter(p => toNumber(p[maisBaratoKey]?.preco_por_kg) > 0)
           .map(p => {
             const item = p[maisBaratoKey];
-            const precoKg = toNumber(item.preco_por_kg);
-            const precoUn = toNumber(item.preco);
             return `
               <li class="item">
                 <strong>${item.nome}</strong>
                 <div class="preco-container">
-                  <span class="preco">R$ ${precoUn.toFixed(2)}</span>
-                  <span class="valor-emb">Kg/L: R$ ${precoKg.toFixed(2)}</span>
+                  <span class="preco">R$ ${toNumber(item.preco).toFixed(2)}</span>
+                  <span class="valor-emb">Kg/L: R$ ${toNumber(item.preco_por_kg).toFixed(2)}</span>
                 </div>
               </li>`;
           }).join("")}
       </ul>
     `;
 
-    // INJETAR TUDO NA ORDEM CORRETA
     resultadoDiv.innerHTML = tabelaTotais + cardDestaque + listaProdutos;
 
   } catch (err) {
     console.error("Erro ao carregar dados:", err);
-    resultadoDiv.innerHTML = "Erro ao carregar dados.";
+    resultadoDiv.innerHTML = `<div class="card-destaque" style="background:#ffeeee; color:#cc0000;">
+      ❌ Dados de ${cidade} não encontrados ou em processamento.
+    </div>`;
   }
 }
 
-// Registro do Service Worker para PWA
+// Escuta a mudança no Select de Cidades
+document.getElementById("selectCidade").addEventListener("change", carregarDados);
+
+// Registro do Service Worker
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('./sw.js')
-      .then(reg => console.log('Service Worker registrado!', reg))
-      .catch(err => console.log('Erro ao registrar SW', err));
+      .then(reg => console.log('SW registrado!', reg))
+      .catch(err => console.log('Erro SW', err));
   });
 }
 
+// Inicia o app
 carregarDados();
-                          
+      
