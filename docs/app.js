@@ -6,15 +6,13 @@ async function carregarDados() {
   const cidade = selectCidade.value;
   resultadoDiv.innerHTML = '<div style="text-align:center; padding:50px;">Carregando preços...</div>';
   
-  // Atualiza o texto do subtítulo baseado na escolha
   subtitulo.innerText = cidade === "campinas" ? "Campinas - SP" : "Hortolândia - SP";
 
-  // Define o arquivo correto para carregar (docs/prices/...)
-  const jsonFile = cidade === "campinas" ? "compare_campinas.json" : "compare.json";
-  const path = `./prices/${jsonFile}`;
+  const jsonFile = cidade === "campinas" ? "compare_campinas.json" : "hortolandia_compare.json";
+  const filePath = `./prices/${jsonFile}`;
 
   try {
-    const response = await fetch(path);
+    const response = await fetch(filePath);
     if (!response.ok) throw new Error("Arquivo não encontrado");
 
     const data = await response.json();
@@ -31,50 +29,50 @@ async function carregarDados() {
       return Number.isFinite(n) ? n : 0;
     };
 
-    // --- DETECÇÃO DINÂMICA DE LOJAS ---
     const lojasChaves = Object.keys(produtos[0] || {}).filter(k => k !== 'id' && k !== 'mais_barato');
 
-    // --- CÁLCULO DO RANKING ---
+    // --- CÁLCULO DO RANKING POR PREÇO MÉDIO ---
     const ranking = lojasChaves.map(chave => {
-      const totalKg = produtos.reduce((acc, p) => acc + toNumber(p[chave]?.preco_por_kg), 0);
+      const itensComPreco = produtos.filter(p => toNumber(p[chave]?.preco_por_kg) > 0);
       
-      // Busca contagem (ex: encontradosCarrefour, encontradosPaguemenos, encontradosGoodbom)
-      // Normalizamos para camelCase básico
+      // Soma todos os preços por KG encontrados para esta loja
+      const somaPrecoKg = itensComPreco.reduce((acc, p) => acc + toNumber(p[chave]?.preco_por_kg), 0);
+      
+      // Calcula a média (Soma / Quantidade de itens que ela achou)
+      const precoMedioKg = itensComPreco.length > 0 ? (somaPrecoKg / itensComPreco.length) : 0;
+      
       const keyFormatada = chave.charAt(0).toUpperCase() + chave.slice(1).toLowerCase();
       const labelContagem = "encontrados" + keyFormatada;
-      const qtdItens = data[labelContagem] || data[`encontrados${chave}`] || 0;
+      const qtdItens = data[labelContagem] || itensComPreco.length;
 
       return {
         id: chave,
-        // Deixa o nome bonito: "paguemenos" -> "Paguemenos", "savegnago" -> "Savegnago"
         nomeExibicao: chave.charAt(0).toUpperCase() + chave.slice(1),
-        total: totalKg,
+        media: precoMedioKg,
         itens: qtdItens
       };
-    });
+    }).filter(loja => loja.media > 0);
 
-    // Ordenar ranking: menor preço primeiro
-    ranking.sort((a, b) => {
-      if (a.total === 0) return 1;
-      if (b.total === 0) return -1;
-      return a.total - b.total;
-    });
+    // ✅ ORDENAÇÃO POR PREÇO MÉDIO (Menor para o maior)
+    ranking.sort((a, b) => a.media - b.media);
 
-    // O primeiro do ranking é o vencedor
     const vencedor = ranking[0];
     const maisBaratoKey = vencedor.id;
     const maisBaratoName = vencedor.nomeExibicao;
     const totalProdutosComparados = produtos.length;
 
-    // ✅ 1. GERAR TABELA DE TOTAIS (RANKING ORDENADO)
+    // ✅ 1. TABELA DE RANKING (POR MÉDIA)
     const tabelaTotais = `
+      <div class="titulo-sessao">
+        <h2>Ranking: Melhor Preço Médio</h2>
+      </div>
       <table>
         <thead>
           <tr>
             <th style="width:50px">Pos.</th>
             <th>Mercado</th>
-            <th>Soma KG</th>
-            <th>Itens</th>
+            <th>Média R$/kg</th>
+            <th>Achados</th>
           </tr>
         </thead>
         <tbody>
@@ -82,7 +80,7 @@ async function carregarDados() {
             <tr class="${index === 0 ? 'mais-barato' : ''}">
               <td>${index + 1}º</td>
               <td><strong>${loja.nomeExibicao}</strong></td>
-              <td>R$ ${loja.total.toFixed(2)}</td>
+              <td>R$ ${loja.media.toFixed(2)}</td>
               <td>${loja.itens}</td>
             </tr>
           `).join('')}
@@ -90,20 +88,18 @@ async function carregarDados() {
       </table>
     `;
 
-    // ✅ 2. GERAR CARD DE DESTAQUE
     const ultimaAtt = data.ultimaAtualizacao || "Data não disponível";
     const cardDestaque = `
       <div class="card-destaque">
-        <span class="vencedor-nome">🏆 Vencedor: ${maisBaratoName}</span>
-        <span class="total-produtos">Produtos comparados: <strong>${totalProdutosComparados}</strong></span>
+        <span class="vencedor-nome">🏆 Líder em Economia: ${maisBaratoName}</span>
+        <span class="total-produtos">Base de comparação: <strong>${totalProdutosComparados} produtos</strong></span>
       </div>
       <div class="titulo-sessao">
-        <h2>Produtos do dia em ${maisBaratoName}</h2>
+        <h2>Melhores ofertas de hoje: ${maisBaratoName}</h2>
         <span class="data-atualizacao">Atualizado em: ${ultimaAtt}</span>
       </div>
     `;
 
-    // ✅ 3. GERAR LISTA DE PRODUTOS
     const listaProdutos = `
       <ul>
         ${produtos
@@ -129,24 +125,17 @@ async function carregarDados() {
     resultadoDiv.innerHTML = `
       <div style="padding:40px; text-align:center;">
         <div style="font-size:50px">🔍</div>
-        <p>Os preços de <b>${cidade.toUpperCase()}</b> ainda não foram processados hoje.</p>
-        <p style="font-size:12px; color:#666;">Verifique novamente em instantes.</p>
+        <p>Preços de <b>${cidade.toUpperCase()}</b> não processados.</p>
       </div>`;
   }
 }
 
-// Escuta a mudança no Select de Cidades
 document.getElementById("selectCidade").addEventListener("change", carregarDados);
 
-// Registro do Service Worker para PWA
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./sw.js')
-      .then(reg => console.log('SW ok!'))
-      .catch(err => console.log('Erro SW', err));
+    navigator.serviceWorker.register('./sw.js').catch(err => console.log('Erro SW:', err));
   });
 }
 
-// Inicia o app na primeira carga
 carregarDados();
-      
