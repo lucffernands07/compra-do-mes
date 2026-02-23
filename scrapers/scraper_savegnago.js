@@ -74,8 +74,10 @@ async function buscarProdutos(page, termo) {
   });
   const page = await browser.newPage();
 
-  const produtos = fs.readFileSync(INPUT_FILE, "utf-8")
-    .split("\n").map(p => p.trim()).filter(Boolean);
+  const linhasProdutos = fs.readFileSync(produtosTxtPath, "utf-8")
+    .split("\n")
+    .map(l => l.trim())
+    .filter(l => l && !l.startsWith("#")); 
 
   const results = [];
   let totalEncontrados = 0;
