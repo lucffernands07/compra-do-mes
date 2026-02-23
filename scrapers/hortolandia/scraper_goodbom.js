@@ -2,16 +2,13 @@ const puppeteer = require("puppeteer");
 const fs = require("fs");
 const path = require("path");
 
-const produtosTxtPath = path.join(__dirname, "..", "products.txt");
-const outDir = path.join(__dirname, "..", "docs", "prices");
+// ✅ CORREÇÃO DE CAMINHO: Sobe dois níveis para achar a raiz
+const produtosTxtPath = path.resolve(__dirname, "..", "..", "products.txt");
+const outDir = path.resolve(__dirname, "..", "..", "docs", "prices");
 
 function normalizar(txt) {
   if (!txt) return "";
-  return txt
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .trim();
+  return txt.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
 }
 
 function extrairPeso(nome) {
@@ -33,7 +30,15 @@ async function main() {
     args: ["--no-sandbox", "--disable-setuid-sandbox"] 
   });
   const page = await browser.newPage();
+  await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
 
+  if (!fs.existsSync(produtosTxtPath)) {
+    console.error(`❌ products.txt não encontrado em: ${produtosTxtPath}`);
+    await browser.close();
+    return;
+  }
+
+  // ✅ CORREÇÃO: Lendo as linhas corretamente
   const linhasProdutos = fs.readFileSync(produtosTxtPath, "utf-8")
     .split("\n")
     .map(l => l.trim())
@@ -43,27 +48,24 @@ async function main() {
   let totalEncontrados = 0;
 
   try {
-    for (const [index, produto] of produtos.entries()) {
+    for (const [index, produto] of linhasProdutos.entries()) { // ✅ Corrigido de 'produtos' para 'linhasProdutos'
       const id = index + 1;
       let termoParaBusca = produto.replace(/\bkg\b/gi, "").replace(/\bg\b/gi, "").trim();
       const termoNorm = normalizar(termoParaBusca);
 
-      console.log(`🔍 Buscando: ${termoParaBusca}`);
+      console.log(`🔍 [GoodBom] Buscando: ${termoParaBusca}`);
 
       try {
         await page.goto(
           `https://www.goodbom.com.br/hortolandia/busca?q=${encodeURIComponent(termoParaBusca)}`,
-          { waitUntil: "networkidle2", timeout: 90000 }
+          { waitUntil: "networkidle2", timeout: 60000 }
         );
 
-        // 1. ESPERA PELOS CARDS (Igual ao Tenda)
         await page.waitForSelector("span.product-name", { timeout: 15000 });
-        
-        // 2. SCROLL PARA ATIVAR PREÇOS
         await page.mouse.wheel({ deltaY: 400 });
         await new Promise(r => setTimeout(r, 1000));
       } catch (e) {
-        console.log(`⚠️ Cards não apareceram para: ${termoParaBusca}`);
+        console.log(`⚠️ Sem resultados para: ${termoParaBusca}`);
         continue;
       }
 
@@ -72,17 +74,12 @@ async function main() {
         return spans.slice(0, 15).map(span => {
           const nome = span.innerText.trim();
           const card = span.closest("a") || span.parentElement;
-          
-          // LÓGICA DE DUPLO SELETOR DE PREÇO
           let precoTxt = card.querySelector("span.price")?.innerText || 
-                         card.querySelector(".sale-price")?.innerText || 
-                         card.querySelector("[class*='price']")?.innerText || "0";
-          
+                         card.querySelector(".sale-price")?.innerText || "0";
           return { nome, precoTxt };
         });
       });
 
-      // 3. FILTRO POR RADICAL (3 letras)
       const filtrados = items.map(item => {
         const pTxt = item.precoTxt.replace("R$", "").replace(/\s/g, "").replace(",", ".").replace(/[^\d.]/g, "");
         return {
@@ -92,31 +89,19 @@ async function main() {
         };
       }).filter(item => {
         const nomeNorm = normalizar(item.nome);
-        
-        // Bloqueios de categoria
         if (!termoNorm.includes('suina') && nomeNorm.includes('suina')) return false;
-        if (!termoNorm.includes('oleo') && nomeNorm.includes('oleo')) return false;
-
-        // Todas as palavras da busca (radicais) devem estar no nome
+        
         const palavrasBusca = termoNorm.split(" ").filter(w => w.length >= 3);
-        const temTodas = palavrasBusca.every(pal => {
-          const radical = pal.substring(0, 3);
-          return nomeNorm.includes(radical);
-        });
-
-        return item.preco > 0 && temTodas;
+        return item.preco > 0 && palavrasBusca.every(pal => nomeNorm.includes(pal.substring(0, 3)));
       });
 
       if (filtrados.length > 0) {
-        // Seleção por melhor preço por KG
-        const ordenados = filtrados.map(item => ({
+        const maisBarato = filtrados.map(item => ({
           ...item,
           preco_por_kg: parseFloat((item.preco / item.peso_kg).toFixed(2))
-        })).sort((a, b) => a.preco_por_kg - b.preco_por_kg);
+        })).sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
 
-        const maisBarato = ordenados[0];
         totalEncontrados++;
-
         resultado.push({
           id,
           supermercado: "Goodbom",
@@ -126,18 +111,18 @@ async function main() {
         });
 
         console.log(`✅ ${maisBarato.nome} - R$ ${maisBarato.preco.toFixed(2)}`);
-      } else {
-        console.log(`⚠️ Nenhum match válido para: ${produto}`);
       }
     }
 
+    if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
+    
     fs.writeFileSync(
       path.join(outDir, "prices_goodbom.json"),
       JSON.stringify(resultado, null, 2),
       "utf-8"
     );
 
-    console.log(`📊 Finalizado GoodBom: ${totalEncontrados}/${produtos.length}`);
+    console.log(`📊 Finalizado GoodBom: ${totalEncontrados}/${linhasProdutos.length}`);
   } catch (err) {
     console.error("❌ Erro fatal GoodBom:", err.message);
   } finally {
@@ -146,4 +131,4 @@ async function main() {
 }
 
 main();
-          
+    
