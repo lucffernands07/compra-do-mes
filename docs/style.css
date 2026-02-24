@@ -88,7 +88,7 @@ th:nth-child(4), td:nth-child(4) { width: 20%; font-size: 0.85em; } /* ITENS */
   background-color: #fff;
   width: 94%;
   max-width: 800px;
-  margin: 0 auto 30px;
+  margin: 0 auto 15px;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.05);
@@ -157,7 +157,7 @@ span.preco {
 .titulo-sessao {
   width: 94%;
   max-width: 800px;
-  margin: 10px auto 60px; /* Espaçamento idêntico aos containers debaixo */
+  margin: 10px auto 55px; /* Espaçamento idêntico aos containers debaixo */
   padding: 0 10px; 
 }
 
