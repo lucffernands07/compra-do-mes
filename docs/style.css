@@ -15,100 +15,107 @@
 body {
   font-family: 'Segoe UI', Roboto, sans-serif;
   background-color: var(--bg-app);
-  padding: 0;
   color: #333;
+  line-height: 1.4;
 }
 
-/* ===== Cabeçalho (Aumentado) ===== */
+/* ===== Cabeçalho ===== */
 .header-app {
   background: var(--gradiente);
-  height: 450px; /* Mais alto para destacar */
-  padding-bottom: 200px;
+  height: 300px; /* Reduzido para não empurrar a tabela demais no mobile */
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
-  box-shadow: 0 10px 25px rgba(0, 176, 155, 0.2);
+  text-align: center;
 }
 
 .header-app h1 {
-  font-size: 45px; /* Fonte Grande */
+  font-size: clamp(28px, 8vw, 45px); /* Ajusta conforme a tela */
   font-weight: 800;
+  margin-bottom: 10px;
 }
 
 .header-app p {
-  font-size: 22px;
+  font-size: 18px;
   opacity: 0.9;
-  color: white;
 }
 
-/* ===== Tabela de Totais (Fonte Grande e Margens) ===== */
+/* ===== Tabela de Totais (RANKING) ===== */
 table {
-  width: calc(97% - 40px); /* Mais espaçamento lateral */
-  margin: -200px auto 30px; 
+  width: 94%; /* Margens laterais melhores */
+  max-width: 800px;
+  margin: -60px auto 30px; /* Subida controlada */
   background-color: #fff;
-  border-radius: 25px;
+  border-radius: 20px;
   box-shadow: 0 15px 35px rgba(0,0,0,0.1);
   border-collapse: collapse;
-  table-layout: fixed;
+  table-layout: fixed; /* ESSENCIAL para não encavalar */
   overflow: hidden;
+  position: relative;
+  z-index: 10;
 }
 
 th, td {
-  padding: 20px 10px;
+  padding: 15px 10px;
   text-align: center;
   border-bottom: 1px solid #f1f1f1;
+  word-wrap: break-word; /* Quebra palavras longas */
 }
 
 th {
   color: #888;
-  font-size: 28px;
+  font-size: 14px; /* Tamanho padrão de cabeçalho */
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 tr {
-  font-size: 32px; /* Fonte Grande na Tabela */
+  font-size: clamp(16px, 4vw, 22px); /* Fonte responsiva na tabela */
 }
 
+/* Ajuste de colunas para evitar o erro da foto */
+th:nth-child(1), td:nth-child(1) { width: 15%; } /* POS */
+th:nth-child(2), td:nth-child(2) { width: 35%; text-align: left; padding-left: 20px; font-weight: bold; } /* MERCADO */
+th:nth-child(3), td:nth-child(3) { width: 30%; color: #444; } /* MÉDIA */
+th:nth-child(4), td:nth-child(4) { width: 20%; font-size: 0.9em; } /* ACHADOS */
+
 .mais-barato td {
-  font-weight: bold;
   color: var(--verde-texto) !important;
 }
 
-/* ===== Card de Vencedor (Destaque Gigante) ===== */
+/* ===== Card de Vencedor (Destaque) ===== */
 .card-destaque {
   background-color: #fff;
-  width: calc(97% - 40px);
+  width: 94%;
+  max-width: 800px;
   margin: 0 auto 30px;
-  padding: 30px 20px;
-  border-radius: 25px;
+  padding: 20px;
+  border-radius: 20px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.05);
   text-align: center;
 }
 
 .vencedor-nome {
   color: var(--verde-texto);
-  font-size: 38px; /* Fonte Grande */
+  font-size: 28px;
   font-weight: 800;
   display: block;
-  margin-bottom: 10px;
 }
 
 .total-produtos {
   color: #666;
-  font-size: 32px; /* Fonte Grande */
+  font-size: 18px;
 }
 
-h2 {
-  margin-left: 30px;
-}
-
-/* ===== Lista de Produtos (Cards Robustos) ===== */
+/* ===== Lista de Produtos (Cards) ===== */
 ul {
   list-style-type: none;
-  padding: 0 30px; /* Espaçamento lateral da lista */
-  margin-bottom: 50px;
+  padding: 0 3%;
+  max-width: 900px;
+  margin: 0 auto 50px;
 }
 
 li.item {
@@ -116,64 +123,68 @@ li.item {
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
-  margin-bottom: 20px;
-  padding: 25px;
-  border-radius: 25px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.04);
-  gap: 20px;
+  margin-bottom: 15px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  gap: 15px;
 }
 
 strong {
   font-weight: 700;
-  font-size: 36px; /* Nome do produto bem visível */
+  font-size: clamp(16px, 4vw, 24px); /* Título do produto */
   color: var(--verde-texto);
   flex: 1;
-  line-height: 1.1;
 }
 
 .preco-container {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  min-width: 160px;
+  min-width: 120px;
 }
 
 span.preco {
   font-weight: 800;
-  font-size: 48px; /* Preço Gigante como antes */
+  font-size: clamp(24px, 6vw, 36px); /* Preço destaque */
   color: var(--vermelho-preco);
   white-space: nowrap;
 }
 
 .valor-emb {
-  font-size: 18px; /* Valor da embalagem legível */
+  font-size: 14px;
   color: #999;
-  margin-top: 5px;
 }
 
-h3 {
-  font-size: 24px;
-  color: #444;
-  margin: 0 40px;
-}
-
-/* Container para agrupar Título e Data */
+/* Títulos de Sessão e Data */
 .titulo-sessao {
-  margin: 10px 40px; /* Alinhado com o recuo dos cards */
+  width: 94%;
+  max-width: 800px;
+  margin: 20px auto 15px;
   display: flex;
   flex-direction: column;
-  gap: 5px;
 }
 
 .titulo-sessao h2 {
-  font-size: 32px; /* Mantendo seu padrão de fonte grande */
+  font-size: 24px;
   color: #444;
   margin: 0;
 }
 
 .data-atualizacao {
-  font-size: 22px; /* Um pouco menor que o título, mas ainda grande */
+  font-size: 14px;
   color: #888;
-  font-weight: 500;
 }
 
+/* ===== Ajuste fino para Mobile ===== */
+@media (max-width: 480px) {
+  .header-app { height: 250px; }
+  table { margin-top: -40px; }
+  th { font-size: 11px; padding: 10px 5px; }
+  td { padding: 12px 5px; }
+  th:nth-child(2), td:nth-child(2) { padding-left: 10px; }
+  
+  li.item { padding: 15px; flex-direction: row; align-items: center; }
+  .preco-container { min-width: 100px; }
+  }
+    
