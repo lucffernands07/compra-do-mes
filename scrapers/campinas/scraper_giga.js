@@ -12,14 +12,11 @@ function normalizar(txt) {
 
 function extrairPeso(nome, textoCard = "") {
   const n = (nome + " " + textoCard).toLowerCase();
-  
-  // Captura o padrão "Aprox. 200g" ou similar, comum no Giga para legumes/frutas
   const matchAprox = n.match(/aprox\.\s*(\d+)\s*(g|kg)/);
   if (matchAprox) {
     let valor = parseFloat(matchAprox[1]);
     return matchAprox[2] === "g" ? valor / 1000 : valor;
   }
-
   const match = n.match(/(\d+[.,]?\d*)\s*(g|kg|ml|l)/);
   if (!match) return 1;
   let qtd = parseFloat(match[1].replace(",", "."));
@@ -31,11 +28,16 @@ function extrairPeso(nome, textoCard = "") {
 async function main() {
   const browser = await puppeteer.launch({ 
     headless: "new", 
-    args: ["--no-sandbox", "--disable-setuid-sandbox", "--disable-http2"] 
+    args: [
+      "--no-sandbox", 
+      "--disable-setuid-sandbox", 
+      "--window-size=1920,1080",
+      "--disable-features=IsolateOrigins,site-per-process"
+    ] 
   });
-  const page = await browser.newPage();
   
-  // User agent moderno para evitar detecção de bot
+  const page = await browser.newPage();
+  await page.setViewport({ width: 1920, height: 1080 });
   await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36');
 
   if (!fs.existsSync(produtosTxtPath)) {
@@ -49,56 +51,46 @@ async function main() {
 
   const resultado = [];
 
-  try {
-    for (const [index, nomeOriginal] of linhasProdutos.entries()) {
-      const id = index + 1;
-      let termoParaBusca = nomeOriginal.replace(/\bkg\b/gi, "").replace(/\bg\b/gi, "").trim();
-      const termoNorm = normalizar(termoParaBusca);
-      const termoEncoded = encodeURIComponent(termoParaBusca);
+  for (const [index, nomeOriginal] of linhasProdutos.entries()) {
+    let termoParaBusca = nomeOriginal.replace(/\bkg\b/gi, "").replace(/\bg\b/gi, "").trim();
+    const termoEncoded = encodeURIComponent(termoParaBusca);
 
-      console.log(`🔍 [Giga] Buscando: ${termoParaBusca}`);
+    console.log(`🔍 [Giga] Buscando: ${termoParaBusca}`);
 
-      try {
-        // ✅ URL atualizada com o padrão de busca Full Text (map=ft)
-        await page.goto(
-          `https://www.giga.com.vc/${termoEncoded}?_q=${termoEncoded}&map=ft`,
-          { waitUntil: "networkidle2", timeout: 45000 }
-        );
+    try {
+      // Usamos domcontentloaded para ser mais rápido e menos propenso a travar
+      await page.goto(
+        `https://www.giga.com.vc/${termoEncoded}?_q=${termoEncoded}&map=ft`,
+        { waitUntil: "domcontentloaded", timeout: 40000 }
+      );
 
-        // Espera o carregamento de um elemento de produto (marca/nome)
-        await page.waitForSelector("span[class*='productBrand']", { timeout: 10000 });
-        
-        // Scroll para garantir que os preços assíncronos carreguem
-        await page.evaluate(() => window.scrollBy(0, 500));
-        await new Promise(r => setTimeout(r, 2500)); 
-      } catch (e) {
-        console.log(`⚠️ Sem resultados ou timeout para: ${termoParaBusca}`);
-        continue;
-      }
+      // Aguarda o seletor principal ou um sinal de "vazio"
+      await Promise.race([
+        page.waitForSelector("span[class*='productBrand']", { timeout: 15000 }),
+        page.waitForSelector(".vtex-search-result-3-x-searchNotFound", { timeout: 15000 }).catch(() => null)
+      ]);
+
+      // Scroll para triggar o lazy load da VTEX
+      await page.evaluate(() => window.scrollBy(0, 800));
+      await new Promise(r => setTimeout(r, 3000)); 
 
       const items = await page.evaluate(() => {
         const products = [];
-        // Seleciona os containers de produto da VTEX
-        const cards = document.querySelectorAll("section[class*='vtex-product-summary'], div[class*='vtex-product-summary']");
+        const cards = document.querySelectorAll("section[class*='vtex-product-summary']");
 
         cards.forEach(card => {
           const nomeEl = card.querySelector("span[class*='productBrand']");
           if (!nomeEl) return;
 
-          // 1. Tenta pegar o preço por KG direto (comum em hortifruti no Giga)
           const precoKgEl = card.querySelector("[class*='unity-complete']");
           let precoFinal = 0;
           let isPorKgDireto = false;
 
-          // Define qual elemento de preço ler (prioriza o preço por quilo se existir)
           const targetEl = (precoKgEl && precoKgEl.innerText.includes("/kg")) ? precoKgEl : card.querySelector("[class*='sellingPriceValue']");
           
           if (targetEl) {
-            // ✅ Captura fragmentada: Inteiro + Fração
             const pInt = targetEl.querySelector("[class*='currencyInteger']")?.innerText || "0";
             const pFrac = targetEl.querySelector("[class*='currencyFraction']")?.innerText || "00";
-            
-            // Limpa caracteres não numéricos e converte para float
             precoFinal = parseFloat(`${pInt.replace(/\D/g,'')}.${pFrac.replace(/\D/g,'')}`);
             if (targetEl === precoKgEl) isPorKgDireto = true;
           }
@@ -107,13 +99,13 @@ async function main() {
             nome: nomeEl.innerText.trim(), 
             preco: precoFinal,
             isPorKgDireto,
-            textoCompleto: card.innerText // Enviado para ajudar na extração de peso (ex: "Aprox. 200g")
+            textoCompleto: card.innerText 
           });
         });
         return products;
       });
 
-      // Processamento dos dados capturados
+      const termoNorm = normalizar(termoParaBusca);
       const filtrados = items.map(item => {
         const peso = item.isPorKgDireto ? 1 : extrairPeso(item.nome, item.textoCompleto);
         return {
@@ -124,42 +116,37 @@ async function main() {
         };
       }).filter(item => {
         const nomeNorm = normalizar(item.nome);
-        const palavrasBusca = termoNorm.split(" ").filter(w => w.length >= 3);
-        // Filtra para garantir que o produto tenha preço e contenha a primeira palavra da busca
-        return item.preco > 0 && nomeNorm.includes(palavrasBusca[0]);
+        const primeiraPalavra = termoNorm.split(" ")[0];
+        return item.preco > 0 && nomeNorm.includes(primeiraPalavra);
       });
 
       if (filtrados.length > 0) {
-        // Ordena pelo menor preço por quilo para ignorar itens como "batata chips" se estiver buscando "batata"
         const melhorOpcao = filtrados.sort((a, b) => a.preco_por_kg - b.preco_por_kg)[0];
-
         resultado.push({
-          id,
+          id: index + 1,
           supermercado: "Giga",
           produto: melhorOpcao.nome,
           preco: melhorOpcao.preco,
           preco_por_kg: melhorOpcao.preco_por_kg
         });
-
-        console.log(`✅ ${melhorOpcao.nome} - R$ ${melhorOpcao.preco.toFixed(2)} (R$ ${melhorOpcao.preco_por_kg}/kg)`);
+        console.log(`✅ ${melhorOpcao.nome} - R$ ${melhorOpcao.preco.toFixed(2)}`);
       } else {
-        console.log(`❌ Nenhum item válido encontrado para: ${termoParaBusca}`);
+        console.log(`❌ Sem itens válidos para: ${termoParaBusca}`);
       }
-      
-      await new Promise(r => setTimeout(r, 1000));
+
+    } catch (e) {
+      console.log(`⚠️ Erro na busca de ${termoParaBusca}: ${e.message}`);
+      // Em caso de erro, tenta recarregar a página ou prosseguir para o próximo
+      continue;
     }
-
-    // Salva o resultado final
-    if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
-    fs.writeFileSync(path.join(outDir, "prices_giga.json"), JSON.stringify(resultado, null, 2), "utf-8");
-    console.log(`\n📂 Arquivo prices_giga.json gerado com sucesso em ${outDir}`);
-
-  } catch (err) {
-    console.error("❌ Erro Crítico no Scraper Giga:", err.message);
-  } finally {
-    await browser.close();
+    
+    await new Promise(r => setTimeout(r, 2000));
   }
+
+  if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
+  fs.writeFileSync(path.join(outDir, "prices_giga.json"), JSON.stringify(resultado, null, 2), "utf-8");
+  await browser.close();
 }
 
 main();
-  
+                                                    
