@@ -22,8 +22,8 @@ body {
 /* ===== Cabeçalho ===== */
 .header-app {
   background: var(--gradiente);
-  height: 300px; /* Reduzido para não empurrar a tabela demais no mobile */
-  padding: 20px;
+  /* Removido height fixo para ser flexível */
+  padding: 60px 20px 80px; /* Padding maior em cima e embaixo */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,7 +33,7 @@ body {
 }
 
 .header-app h1 {
-  font-size: clamp(28px, 8vw, 45px); /* Ajusta conforme a tela */
+  font-size: clamp(28px, 8vw, 45px);
   font-weight: 800;
   margin-bottom: 10px;
 }
@@ -45,14 +45,15 @@ body {
 
 /* ===== Tabela de Totais (RANKING) ===== */
 table {
-  width: 94%; /* Margens laterais melhores */
+  width: 94%;
   max-width: 800px;
-  margin: -60px auto 30px; /* Subida controlada */
+  /* Mudamos a margem negativa para ser menor ou zero se o título estiver sumindo */
+  margin: -40px auto 30px; 
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 0 15px 35px rgba(0,0,0,0.1);
   border-collapse: collapse;
-  table-layout: fixed; /* ESSENCIAL para não encavalar */
+  table-layout: fixed;
   overflow: hidden;
   position: relative;
   z-index: 10;
