@@ -77,6 +77,8 @@ async function carregarDados() {
       <div class="titulo-sessao">
         <h2>Ranking: Itens em Comum</h2>
       </div>
+      <br>
+      <br>
       <table>
         <thead>
           <tr>
