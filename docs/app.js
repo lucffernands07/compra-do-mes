@@ -23,64 +23,67 @@ async function carregarDados() {
       return;
     }
 
+    // Função auxiliar para garantir que valores virem números tratáveis
     const toNumber = v => {
       if (v == null) return 0;
       const n = parseFloat(v.toString().replace(",", ".").replace(/[^0-9.\-]/g, ""));
       return Number.isFinite(n) ? n : 0;
     };
 
-    const lojasChaves = Object.keys(produtos[0] || {}).filter(k => k !== 'id' && k !== 'mais_barato');
+    // Identifica as chaves das lojas dinamicamente (ex: carrefour, tenda, etc)
+    const lojasChaves = Object.keys(produtos[0] || {}).filter(k => 
+      !['id', 'mais_barato', 'produto', 'preco', 'preco_por_kg'].includes(k)
+    );
 
-    // --- CÁLCULO DO RANKING POR PREÇO MÉDIO ---
+    // --- CÁLCULO DO RANKING POR TOTAL DA COMPRA ---
     const ranking = lojasChaves.map(chave => {
-      const itensComPreco = produtos.filter(p => toNumber(p[chave]?.preco_por_kg) > 0);
+      // Formata a chave para bater com o padrão do JSON (ex: "tenda" vira "Tenda")
+      const keyFormatada = chave.charAt(0).toUpperCase() + chave.slice(1);
       
-      // Soma todos os preços por KG encontrados para esta loja
-      const somaPrecoKg = itensComPreco.reduce((acc, p) => acc + toNumber(p[chave]?.preco_por_kg), 0);
+      // Busca o total direto das propriedades do JSON (ex: data.totalTenda)
+      const labelTotal = "total" + keyFormatada;
+      const valorTotalCompra = toNumber(data[labelTotal]);
       
-      // Calcula a média (Soma / Quantidade de itens que ela achou)
-      const precoMedioKg = itensComPreco.length > 0 ? (somaPrecoKg / itensComPreco.length) : 0;
-      
-      const keyFormatada = chave.charAt(0).toUpperCase() + chave.slice(1).toLowerCase();
+      // Busca a contagem de itens (ex: data.encontradosTenda)
       const labelContagem = "encontrados" + keyFormatada;
-      const qtdItens = data[labelContagem] || itensComPreco.length;
+      const qtdItens = data[labelContagem] || 0;
 
       return {
         id: chave,
-        nomeExibicao: chave.charAt(0).toUpperCase() + chave.slice(1),
-        media: precoMedioKg,
+        nomeExibicao: keyFormatada,
+        total: valorTotalCompra,
         itens: qtdItens
       };
-    }).filter(loja => loja.media > 0);
+    }).filter(loja => loja.total > 0);
 
-    // ✅ ORDENAÇÃO POR PREÇO MÉDIO (Menor para o maior)
-    ranking.sort((a, b) => a.media - b.media);
+    // ✅ ORDENAÇÃO PELO MENOR TOTAL DA COMPRA
+    ranking.sort((a, b) => a.total - b.total);
 
     const vencedor = ranking[0];
     const maisBaratoKey = vencedor.id;
     const maisBaratoName = vencedor.nomeExibicao;
     const totalProdutosComparados = produtos.length;
 
-    // ✅ 1. TABELA DE RANKING (POR MÉDIA)
+    // ✅ 1. TABELA DE RANKING (Exibindo Totais Reais)
     const tabelaTotais = `
       <div class="titulo-sessao">
-        <h2>Ranking: Melhor Preço Médio</h2>
+        <h2>Ranking: Economia Total</h2>
       </div>
       <table>
         <thead>
           <tr>
-            <th style="width:50px">Pos.</th>
-            <th>Mercado</th>
-            <th>Média R$/kg</th>
-            <th>Achados</th>
+            <th style="width:15%">Pos.</th>
+            <th style="width:40%; text-align:left;">Mercado</th>
+            <th style="width:30%">Total Compra</th>
+            <th style="width:15%">Itens</th>
           </tr>
         </thead>
         <tbody>
           ${ranking.map((loja, index) => `
             <tr class="${index === 0 ? 'mais-barato' : ''}">
               <td>${index + 1}º</td>
-              <td><strong>${loja.nomeExibicao}</strong></td>
-              <td>R$ ${loja.media.toFixed(2)}</td>
+              <td style="text-align:left;"><strong>${loja.nomeExibicao}</strong></td>
+              <td>R$ ${loja.total.toLocaleString('pt-BR', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</td>
               <td>${loja.itens}</td>
             </tr>
           `).join('')}
@@ -103,15 +106,15 @@ async function carregarDados() {
     const listaProdutos = `
       <ul>
         ${produtos
-          .filter(p => toNumber(p[maisBaratoKey]?.preco_por_kg) > 0)
+          .filter(p => toNumber(p[maisBaratoKey]?.preco) > 0)
           .map(p => {
             const item = p[maisBaratoKey];
             return `
               <li class="item">
                 <strong>${item.nome}</strong>
                 <div class="preco-container">
-                  <span class="preco">R$ ${toNumber(item.preco).toFixed(2)}</span>
-                  <span class="valor-emb">Kg/L: R$ ${toNumber(item.preco_por_kg).toFixed(2)}</span>
+                  <span class="preco">R$ ${toNumber(item.preco).toLocaleString('pt-BR', {minimumFractionDigits: 2})}</span>
+                  <span class="valor-emb">Kg/L: R$ ${toNumber(item.preco_por_kg).toLocaleString('pt-BR', {minimumFractionDigits: 2})}</span>
                 </div>
               </li>`;
           }).join("")}
@@ -125,17 +128,20 @@ async function carregarDados() {
     resultadoDiv.innerHTML = `
       <div style="padding:40px; text-align:center;">
         <div style="font-size:50px">🔍</div>
-        <p>Preços de <b>${cidade.toUpperCase()}</b> não processados.</p>
+        <p>Preços de <b>${cidade.toUpperCase()}</b> ainda não processados hoje.</p>
       </div>`;
   }
 }
 
 document.getElementById("selectCidade").addEventListener("change", carregarDados);
 
+// Service Worker para PWA
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('./sw.js').catch(err => console.log('Erro SW:', err));
   });
 }
 
+// Inicializa o app
 carregarDados();
+          
