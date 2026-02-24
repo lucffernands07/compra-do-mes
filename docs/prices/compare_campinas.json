@@ -1,14 +1,14 @@
 {
-  "ultimaAtualizacao": "23/02/2026, 19:28:09",
+  "ultimaAtualizacao": "23/02/2026, 22:10:35",
   "cidade": "Campinas",
-  "totalCarrefour": "2288.26",
+  "totalCarrefour": "2240.36",
   "totalGiga": "1032.86",
   "totalCovabra": "1895.88",
   "totalPagueMenos": "0.00",
-  "totalAtacadao": "1315.84",
+  "totalAtacadao": "1314.88",
   "totalTenda": "0.00",
   "totalEnxuto": "1663.43",
-  "encontradosCarrefour": 104,
+  "encontradosCarrefour": 103,
   "encontradosGiga": 27,
   "encontradosCovabra": 103,
   "encontradosPagueMenos": 0,
@@ -171,45 +171,6 @@
         "preco_por_kg": 13.98
       },
       "mais_barato": "Giga"
-    },
-    {
-      "id": "5",
-      "carrefour": {
-        "nome": "Azeitona Verde com Recheio de Pimentão Nucete 180g",
-        "preco": 7.99,
-        "preco_por_kg": 44.39
-      },
-      "giga": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "covabra": {
-        "nome": "Pimentão Verde 1 Unidade 368g",
-        "preco": 6.21,
-        "preco_por_kg": 16.88
-      },
-      "paguemenos": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "atacadao": {
-        "nome": "Molho de Pimenta Gota Verde 150ml",
-        "preco": 2.79,
-        "preco_por_kg": 18.6
-      },
-      "tenda": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "enxuto": {
-        "nome": "Pimentão Verde 420g (aprox. 2 Unidades)",
-        "preco": 4.99,
-        "preco_por_kg": 11.88
-      },
-      "mais_barato": "Enxuto"
     },
     {
       "id": "6",
@@ -1814,8 +1775,8 @@
       "id": "51",
       "carrefour": {
         "nome": "Molho Aji No Shoyu Sakura 150 ml",
-        "preco": 5.69,
-        "preco_por_kg": 37.93
+        "preco": 5.89,
+        "preco_por_kg": 39.27
       },
       "giga": {
         "nome": "N/A",
@@ -3237,9 +3198,9 @@
         "preco_por_kg": 0
       },
       "atacadao": {
-        "nome": "Amaciante para Roupas Ypê Aconchego Azul 5L",
-        "preco": 18.75,
-        "preco_por_kg": 3.75
+        "nome": "Amaciante para Roupas Urca Brisa 5L",
+        "preco": 13.96,
+        "preco_por_kg": 2.79
       },
       "tenda": {
         "nome": "N/A",
@@ -3724,9 +3685,9 @@
     {
       "id": "100",
       "carrefour": {
-        "nome": "Sabonete em Barra Palmolive Naturals Hidratação Intensiva 85 g",
-        "preco": 2.39,
-        "preco_por_kg": 28.12
+        "nome": "Sabonete em Barra Palmolive Naturals Sensação Purificante 150g",
+        "preco": 3.49,
+        "preco_por_kg": 23.27
       },
       "giga": {
         "nome": "Sabonete Protex Fresh Antibacteriano 85G",
@@ -4110,6 +4071,45 @@
         "preco_por_kg": 12.99
       },
       "mais_barato": "Atacadão"
+    },
+    {
+      "id": "5",
+      "carrefour": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "giga": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "covabra": {
+        "nome": "Pimentão Verde 1 Unidade 368g",
+        "preco": 6.21,
+        "preco_por_kg": 16.88
+      },
+      "paguemenos": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "atacadao": {
+        "nome": "Molho de Pimenta Gota Verde 150ml",
+        "preco": 2.79,
+        "preco_por_kg": 18.6
+      },
+      "tenda": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "enxuto": {
+        "nome": "Pimentão Verde 420g (aprox. 2 Unidades)",
+        "preco": 4.99,
+        "preco_por_kg": 11.88
+      },
+      "mais_barato": "Enxuto"
     },
     {
       "id": "7",
