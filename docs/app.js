@@ -29,12 +29,12 @@ async function carregarDados() {
       return Number.isFinite(n) ? n : 0;
     };
 
-    // Identifica as lojas
+    // Identifica as chaves das lojas (ex: giga, tenda, carrefour)
     const lojasChaves = Object.keys(produtosBase[0] || {}).filter(k => 
       !['id', 'mais_barato', 'produto', 'preco', 'preco_por_kg'].includes(k)
     );
 
-    // ✅ NOVA LÓGICA: Filtrar apenas produtos que existem em TODAS as lojas selecionadas
+    // ✅ FILTRAGEM: Apenas produtos presentes em TODAS as lojas
     const produtosComuns = produtosBase.filter(p => {
       return lojasChaves.every(loja => toNumber(p[loja]?.preco) > 0);
     });
@@ -44,30 +44,35 @@ async function carregarDados() {
       return;
     }
 
-    // --- CÁLCULO DO RANKING POR SOMA DOS ITENS COMUNS ---
+    // --- CÁLCULO DO RANKING ---
     const ranking = lojasChaves.map(chave => {
       const keyFormatada = chave.charAt(0).toUpperCase() + chave.slice(1);
       
-      // ✅ Recalcula a soma usando apenas a cesta comum
+      // ✅ Soma dos itens da cesta comum
       const somaCestaComum = produtosComuns.reduce((acc, p) => acc + toNumber(p[chave].preco), 0);
+
+      // ✅ Captura a quantidade total encontrada pelo scraper no JSON original
+      // Ex: data.encontradosGiga ou data.encontradosTenda
+      const labelEncontrados = "encontrados" + keyFormatada;
+      const totalIndividual = data[labelEncontrados] || 0;
 
       return {
         id: chave,
         nomeExibicao: keyFormatada,
         total: somaCestaComum,
-        itens: produtosComuns.length
+        comprados: produtosComuns.length,
+        encontrados: totalIndividual
       };
     });
 
-    // ✅ ORDENAÇÃO PELO MENOR TOTAL DA CESTA COMUM
+    // ✅ ORDENAÇÃO PELO MENOR TOTAL
     ranking.sort((a, b) => a.total - b.total);
 
     const vencedor = ranking[0];
     const maisBaratoKey = vencedor.id;
     const maisBaratoName = vencedor.nomeExibicao;
-    const totalComparadosCesta = produtosComuns.length;
 
-    // ✅ 1. TABELA DE RANKING (Mantendo suas classes)
+    // ✅ 1. TABELA DE RANKING (Com a coluna Itens formatada: Comprados / Encontrados)
     const tabelaTotais = `
       <div class="titulo-sessao">
         <h2>Ranking: Itens em Comum</h2>
@@ -86,8 +91,8 @@ async function carregarDados() {
             <tr class="${index === 0 ? 'mais-barato' : ''}">
               <td>${index + 1}º</td>
               <td style="text-align:left;"><strong>${loja.nomeExibicao}</strong></td>
-              <td>R$ ${loja.total.toLocaleString('pt-BR', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</td>
-              <td>${loja.itens}</td>
+              <td>R$ ${loja.total.toLocaleString('pt-BR', {minimumFractionDigits: 2})}</td>
+              <td>${loja.comprados} / ${loja.encontrados}</td>
             </tr>
           `).join('')}
         </tbody>
@@ -98,7 +103,7 @@ async function carregarDados() {
     const cardDestaque = `
       <div class="card-destaque">
         <span class="vencedor-nome">🏆 Líder em Economia: ${maisBaratoName}</span>
-        <span class="total-produtos">Cesta comparada: <strong>${totalComparadosCesta} produtos em todos</strong></span>
+        <span class="total-produtos">Cesta comparada: <strong>${produtosComuns.length} produtos em todos</strong></span>
       </div>
       <div class="titulo-sessao">
         <h2>Melhores ofertas da cesta: ${maisBaratoName}</h2>
@@ -106,11 +111,9 @@ async function carregarDados() {
       </div>
     `;
 
-    // Lista apenas os produtos da cesta comum
     const listaProdutos = `
       <ul>
-        ${produtosComuns
-          .map(p => {
+        ${produtosComuns.map(p => {
             const item = p[maisBaratoKey];
             return `
               <li class="item">
