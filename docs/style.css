@@ -44,24 +44,22 @@ body {
 
 /* ===== Tabela de Totais (RANKING) ===== */
 table {
-  width: 94%;
+  width: 94%; /* Mantém o padrão dos containers debaixo */
   max-width: 800px;
-  margin: 30px 30px; 
+  margin: 20px auto; /* Removido o negativo para não esconder o título */
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 0 15px 35px rgba(0,0,0,0.1);
   border-collapse: collapse;
-  table-layout: fixed;
+  table-layout: fixed; /* Essencial para manter as colunas controladas */
   overflow: hidden;
-  position: relative;
-  z-index: 10;
 }
 
+/* Ajuste de colunas para garantir que o texto não "esparrame" */
 th, td {
   padding: 15px 10px;
   text-align: center;
   border-bottom: 1px solid #f1f1f1;
-  word-wrap: break-word; /* Quebra palavras longas */
 }
 
 th {
@@ -75,11 +73,11 @@ tr {
   font-size: clamp(16px, 4vw, 22px); /* Fonte responsiva na tabela */
 }
 
-/* Ajuste as larguras das colunas para caber o "51 / 104" sem quebrar */
-th:nth-child(1), td:nth-child(1) { width: 12%; } /* POS */
-th:nth-child(2), td:nth-child(2) { width: 38%; text-align: left; padding-left: 20px; font-weight: bold; } /* MERCADO */
-th:nth-child(3), td:nth-child(3) { width: 28%; color: #444; } /* TOTAL CESTA */
-th:nth-child(4), td:nth-child(4) { width: 22%; font-size: 0.85em; } /* ITENS */
+/* Definição exata das larguras para centralizar o conteúdo */
+th:nth-child(1), td:nth-child(1) { width: 15%; } /* POS */
+th:nth-child(2), td:nth-child(2) { width: 40%; text-align: left; padding-left: 20px; } /* MERCADO */
+th:nth-child(3), td:nth-child(3) { width: 25%; } /* TOTAL */
+th:nth-child(4), td:nth-child(4) { width: 20%; font-size: 0.85em; } /* ITENS */
 
 .mais-barato td {
   color: var(--verde-texto) !important;
@@ -156,19 +154,12 @@ span.preco {
 }
 
 /* Títulos de Sessão e Data */
+/* Títulos de Sessão (Ajuste de margem para alinhar com os cards) */
 .titulo-sessao {
   width: 94%;
   max-width: 800px;
-  margin: 20px auto 10px; /* Aumentei a margem para dar respiro */
-  display: flex;
-  flex-direction: column;
-  position: relative; /* Garante que ele respeite o fluxo */
-  z-index: 11;
-}
-.titulo-sessao h2 {
-  font-size: 24px;
-  color: #444;
-  margin: 0;
+  margin: 10px auto 5px; /* Espaçamento idêntico aos containers debaixo */
+  padding: 0 10px; 
 }
 
 .data-atualizacao {
