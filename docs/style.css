@@ -48,15 +48,15 @@ table {
   width: 94%;
   max-width: 800px;
   /* Mudamos a margem negativa para ser menor ou zero se o título estiver sumindo */
-  margin: 10px auto 30px; 
+  margin: 0 auto 30px; 
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 0 15px 35px rgba(0,0,0,0.1);
   border-collapse: collapse;
-  table-layout: fixed;
+  /*table-layout: fixed;*
   overflow: hidden;
   position: relative;
-  z-index: 10;
+  z-index: 10;*/
   left: 50%;
   transform: translateX(-50%);
 }
