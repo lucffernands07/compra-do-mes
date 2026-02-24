@@ -44,7 +44,7 @@ jobs:
           #node scrapers/campinas/scraper_atacadao.js
           #node scrapers/campinas/scraper_enxuto.js
           #node scrapers/campinas/scraper_tenda.js
-          #node scrapers/campinas/campinas_compare.js
+          node scrapers/campinas/campinas_compare.js
 
       # --- SALVAR RESULTADOS ---
       - name: 💾 Commit and push updated prices
