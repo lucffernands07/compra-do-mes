@@ -22,8 +22,7 @@ body {
 /* ===== Cabeçalho ===== */
 .header-app {
   background: var(--gradiente);
-  /* Removido height fixo para ser flexível */
-  padding: 60px 20px 80px; /* Padding maior em cima e embaixo */
+  padding: 30px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
