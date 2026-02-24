@@ -4,7 +4,7 @@ const path = require("path");
 
 // ✅ Caminhos ajustados para a pasta de Campinas
 const PRODUTOS_TXT = path.resolve(__dirname, "../../products.txt");
-const OUTPUT_FILE = path.resolve(__dirname, "../../docs/prices/prices_tenda.json");
+const OUTPUT_FILE = path.resolve(__dirname, "../../docs/prices/prices_tenda_campinas.json");
 
 function normalizar(txt) {
   if (!txt) return "";
