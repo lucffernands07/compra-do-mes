@@ -35,13 +35,16 @@ body {
 .header-app h1 {
   font-size: clamp(28px, 8vw, 45px);
   font-weight: 800;
-  margin-bottom: 10px;
 }
 
 .header-app p {
   font-size: 18px;
   opacity: 0.9;
   margin-top: 40px;
+}
+
+.titulo-sessao {
+  margin-botton: 40px;
 }
 
 /* ===== Tabela de Totais (RANKING) ===== */
