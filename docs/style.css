@@ -43,16 +43,12 @@ body {
   margin-top: 40px;
 }
 
-.titulo-sessao {
-  margin-bottom: 40px;
-}
-
 /* ===== Tabela de Totais (RANKING) ===== */
 table {
   width: 94%;
   max-width: 800px;
   /* Mudamos a margem negativa para ser menor ou zero se o título estiver sumindo */
-  margin: -40px auto 30px; 
+  margin-top: 40px; 
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 0 15px 35px rgba(0,0,0,0.1);
