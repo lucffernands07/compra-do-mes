@@ -48,7 +48,7 @@ table {
   width: 94%;
   max-width: 800px;
   /* Mudamos a margem negativa para ser menor ou zero se o título estiver sumindo */
-  margin: -40px auto 30px; 
+  margin: 10px auto 30px; 
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 0 15px 35px rgba(0,0,0,0.1);
@@ -57,6 +57,8 @@ table {
   overflow: hidden;
   position: relative;
   z-index: 10;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 th, td {
@@ -77,11 +79,11 @@ tr {
   font-size: clamp(16px, 4vw, 22px); /* Fonte responsiva na tabela */
 }
 
-/* Ajuste de colunas para evitar o erro da foto */
-th:nth-child(1), td:nth-child(1) { width: 15%; } /* POS */
-th:nth-child(2), td:nth-child(2) { width: 35%; text-align: left; padding-left: 20px; font-weight: bold; } /* MERCADO */
-th:nth-child(3), td:nth-child(3) { width: 30%; color: #444; } /* MÉDIA */
-th:nth-child(4), td:nth-child(4) { width: 20%; font-size: 0.9em; } /* ACHADOS */
+/* Ajuste as larguras das colunas para caber o "51 / 104" sem quebrar */
+th:nth-child(1), td:nth-child(1) { width: 12%; } /* POS */
+th:nth-child(2), td:nth-child(2) { width: 38%; text-align: left; padding-left: 20px; font-weight: bold; } /* MERCADO */
+th:nth-child(3), td:nth-child(3) { width: 28%; color: #444; } /* TOTAL CESTA */
+th:nth-child(4), td:nth-child(4) { width: 22%; font-size: 0.85em; } /* ITENS */
 
 .mais-barato td {
   color: var(--verde-texto) !important;
@@ -161,11 +163,12 @@ span.preco {
 .titulo-sessao {
   width: 94%;
   max-width: 800px;
-  margin: 20px auto 15px;
+  margin: 20px auto 10px; /* Aumentei a margem para dar respiro */
   display: flex;
   flex-direction: column;
+  position: relative; /* Garante que ele respeite o fluxo */
+  z-index: 11;
 }
-
 .titulo-sessao h2 {
   font-size: 24px;
   color: #444;
