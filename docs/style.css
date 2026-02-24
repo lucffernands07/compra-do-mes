@@ -46,7 +46,7 @@ body {
 table {
   width: 94%; /* Mantém o padrão dos containers debaixo */
   max-width: 800px;
-  margin: -100px auto 30px; /* Removido o negativo para não esconder o título */
+  margin: 0 auto 30px; /* Removido o negativo para não esconder o título */
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 0 15px 35px rgba(0,0,0,0.1);
@@ -154,11 +154,10 @@ span.preco {
 }
 
 /* Títulos de Sessão e Data */
-/* Títulos de Sessão (Ajuste de margem para alinhar com os cards) */
 .titulo-sessao {
   width: 94%;
   max-width: 800px;
-  margin: 10px auto 5px; /* Espaçamento idêntico aos containers debaixo */
+  margin: 10px auto 30px; /* Espaçamento idêntico aos containers debaixo */
   padding: 0 10px; 
 }
 
