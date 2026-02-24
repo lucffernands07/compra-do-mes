@@ -1,5 +1,12 @@
 [
   {
+    "id": 1,
+    "supermercado": "Giga",
+    "produto": "Ovo Grande Vermelho Hap Eggs Pvc Com 20 Unidades",
+    "preco": 17.9,
+    "preco_por_kg": 17.9
+  },
+  {
     "id": 2,
     "supermercado": "Giga",
     "produto": "Batata Lavada",
@@ -9,9 +16,9 @@
   {
     "id": 3,
     "supermercado": "Giga",
-    "produto": "Salgadinho De Milho Sabor Cebola Torcida 60G",
-    "preco": 2.05,
-    "preco_por_kg": 2.05
+    "produto": "Cebola Nacional",
+    "preco": 3.48,
+    "preco_por_kg": 3.48
   },
   {
     "id": 4,
@@ -28,13 +35,6 @@
     "preco_por_kg": 0.4
   },
   {
-    "id": 15,
-    "supermercado": "Giga",
-    "produto": "Bisnaguinha Cenoura E Mandioquinha Nutrella 300g",
-    "preco": 9.85,
-    "preco_por_kg": 9.85
-  },
-  {
     "id": 16,
     "supermercado": "Giga",
     "produto": "Chuchu Comum",
@@ -42,18 +42,18 @@
     "preco_por_kg": 2.48
   },
   {
-    "id": 17,
-    "supermercado": "Giga",
-    "produto": "Bisnaguinha Cenoura E Mandioquinha Nutrella 300g",
-    "preco": 9.85,
-    "preco_por_kg": 9.85
-  },
-  {
     "id": 18,
     "supermercado": "Giga",
     "produto": "Cheiro Verde Maço",
     "preco": 3.99,
     "preco_por_kg": 3.99
+  },
+  {
+    "id": 21,
+    "supermercado": "Giga",
+    "produto": "Pão De Alho Mezzani Tradicional Pacote 310G",
+    "preco": 9.99,
+    "preco_por_kg": 9.99
   },
   {
     "id": 23,
@@ -84,11 +84,11 @@
     "preco_por_kg": 12.89
   },
   {
-    "id": 31,
+    "id": 28,
     "supermercado": "Giga",
-    "produto": "Salgadinho De Milho Sabor Presunto Elma Chips Fandangos 160G",
-    "preco": 17.99,
-    "preco_por_kg": 17.99
+    "produto": "Leite Líquido Ninho Vitaminado Integral 1l",
+    "preco": 6.19,
+    "preco_por_kg": 6.19
   },
   {
     "id": 32,
@@ -112,6 +112,41 @@
     "preco_por_kg": 7.69
   },
   {
+    "id": 36,
+    "supermercado": "Giga",
+    "produto": "Água Mineral Sem Gás Serras De Cunha 1,5L",
+    "preco": 2.65,
+    "preco_por_kg": 2.65
+  },
+  {
+    "id": 37,
+    "supermercado": "Giga",
+    "produto": "Leite Líquido Ninho Vitaminado Integral 1l",
+    "preco": 6.19,
+    "preco_por_kg": 6.19
+  },
+  {
+    "id": 38,
+    "supermercado": "Giga",
+    "produto": "Açaí Origem Sabor Natural Polpa Norte Balde 3,4Kg",
+    "preco": 73.09,
+    "preco_por_kg": 73.09
+  },
+  {
+    "id": 39,
+    "supermercado": "Giga",
+    "produto": "Açaí Origem Sabor Natural Polpa Norte Balde 3,4Kg",
+    "preco": 73.09,
+    "preco_por_kg": 73.09
+  },
+  {
+    "id": 40,
+    "supermercado": "Giga",
+    "produto": "Açaí Origem Sabor Natural Polpa Norte Balde 3,4Kg",
+    "preco": 73.09,
+    "preco_por_kg": 73.09
+  },
+  {
     "id": 41,
     "supermercado": "Giga",
     "produto": "Arroz Tipo 1 Empório São João Pacote 1Kg",
@@ -119,11 +154,11 @@
     "preco_por_kg": 6.2
   },
   {
-    "id": 48,
+    "id": 47,
     "supermercado": "Giga",
-    "produto": "Molho De Tomate Quero Sachet 240g Manjericao",
-    "preco": 2.69,
-    "preco_por_kg": 2.69
+    "produto": "Tomate Italiano",
+    "preco": 1.42,
+    "preco_por_kg": 1.42
   },
   {
     "id": 49,
@@ -131,6 +166,13 @@
     "produto": "Azeite De Oliva Clássico Gallo 250Ml",
     "preco": 23.9,
     "preco_por_kg": 23.9
+  },
+  {
+    "id": 53,
+    "supermercado": "Giga",
+    "produto": "Farofa De Mandioca Tradicional Yoki Pacote 400g",
+    "preco": 7.69,
+    "preco_por_kg": 7.69
   },
   {
     "id": 55,
@@ -154,6 +196,20 @@
     "preco_por_kg": 7.5
   },
   {
+    "id": 60,
+    "supermercado": "Giga",
+    "produto": "Refrigerante Coca-Cola Zero Açúcar 200Ml",
+    "preco": 2.09,
+    "preco_por_kg": 2.09
+  },
+  {
+    "id": 61,
+    "supermercado": "Giga",
+    "produto": "Refrigerante Coca-Cola Zero Açúcar 200Ml",
+    "preco": 2.09,
+    "preco_por_kg": 2.09
+  },
+  {
     "id": 62,
     "supermercado": "Giga",
     "produto": "Sal Refinado Lebre 1Kg",
@@ -161,32 +217,25 @@
     "preco_por_kg": 2.79
   },
   {
-    "id": 64,
-    "supermercado": "Giga",
-    "produto": "Salgadinho Ketchup Doritos 110G",
-    "preco": 16.05,
-    "preco_por_kg": 16.05
-  },
-  {
-    "id": 66,
-    "supermercado": "Giga",
-    "produto": "Salgadinho Sabor Mostarda Doritos 110G",
-    "preco": 16.05,
-    "preco_por_kg": 16.05
-  },
-  {
     "id": 67,
     "supermercado": "Giga",
-    "produto": "Biscoito Amanteigado De Leite Condensado Uai Pote 300G",
-    "preco": 7.69,
-    "preco_por_kg": 7.69
+    "produto": "Leite Condensado Semidesnatado Piracanjuba Pacote 5kg",
+    "preco": 82.7,
+    "preco_por_kg": 82.7
+  },
+  {
+    "id": 68,
+    "supermercado": "Giga",
+    "produto": "Creme Dental Tripla Limpeza Completa Sorriso Leve Mais Pague Menos 140G",
+    "preco": 5.69,
+    "preco_por_kg": 5.69
   },
   {
     "id": 69,
     "supermercado": "Giga",
-    "produto": "Capsula Nescafe Dolce Gusto Café Espresso 60g",
-    "preco": 22.89,
-    "preco_por_kg": 22.89
+    "produto": "Capsula De Café Filtrado Gourmet 3 Corações Com 10Un",
+    "preco": 29.9,
+    "preco_por_kg": 29.9
   },
   {
     "id": 70,
@@ -201,6 +250,20 @@
     "produto": "Chá Verde Zero Açúcar Turma Da Mônica Melancia Yaí 200Ml",
     "preco": 3.29,
     "preco_por_kg": 3.29
+  },
+  {
+    "id": 72,
+    "supermercado": "Giga",
+    "produto": "Milho Para Pipoca Yoki Premium Tipo 1 400G",
+    "preco": 9.19,
+    "preco_por_kg": 9.19
+  },
+  {
+    "id": 75,
+    "supermercado": "Giga",
+    "produto": "Pão De Forma Sabor Tradicional Visconti 400g",
+    "preco": 5.99,
+    "preco_por_kg": 5.99
   },
   {
     "id": 76,
@@ -238,18 +301,32 @@
     "preco_por_kg": 4.9
   },
   {
+    "id": 83,
+    "supermercado": "Giga",
+    "produto": "Saco Xadrez Bom Pano",
+    "preco": 4.9,
+    "preco_por_kg": 4.9
+  },
+  {
     "id": 84,
     "supermercado": "Giga",
-    "produto": "Saco De Lixo Embalixo Preto 30 Unidades 50L",
-    "preco": 14.59,
-    "preco_por_kg": 14.59
+    "produto": "Saco Xadrez Bom Pano",
+    "preco": 4.9,
+    "preco_por_kg": 4.9
+  },
+  {
+    "id": 85,
+    "supermercado": "Giga",
+    "produto": "Água Mineral Sem Gás Serras De Cunha 1,5L",
+    "preco": 2.65,
+    "preco_por_kg": 2.65
   },
   {
     "id": 86,
     "supermercado": "Giga",
-    "produto": "Detergente Lava-Roupas Líquido Omo Ciclo Rápido Ação Antiodor 1,4L",
-    "preco": 28.29,
-    "preco_por_kg": 28.29
+    "produto": "Lava Roupas Em Pó Limpeza Total Brilhante 800G",
+    "preco": 9.49,
+    "preco_por_kg": 9.49
   },
   {
     "id": 87,
@@ -275,9 +352,9 @@
   {
     "id": 90,
     "supermercado": "Giga",
-    "produto": "Limpador Limpeza Pesada Com Cloro E Detergente Eucalipto Veja Power Fusion Frasco 1L",
-    "preco": 20.89,
-    "preco_por_kg": 20.89
+    "produto": "Limpador Multiuso Clássico Ypê 500Ml",
+    "preco": 4.05,
+    "preco_por_kg": 4.05
   },
   {
     "id": 91,
@@ -308,18 +385,32 @@
     "preco_por_kg": 5.69
   },
   {
+    "id": 99,
+    "supermercado": "Giga",
+    "produto": "Sabonete Protex Fresh Antibacteriano 85G",
+    "preco": 3.95,
+    "preco_por_kg": 3.95
+  },
+  {
     "id": 100,
     "supermercado": "Giga",
-    "produto": "Sabonete Orquidea Negra Lux 125G",
-    "preco": 3.5,
-    "preco_por_kg": 3.5
+    "produto": "Sabonete Protex Fresh Antibacteriano 85G",
+    "preco": 3.95,
+    "preco_por_kg": 3.95
   },
   {
     "id": 101,
     "supermercado": "Giga",
-    "produto": "Sabonete Em Barra De Glicerina Granado Bebê Tradicional 90g",
-    "preco": 6.39,
-    "preco_por_kg": 6.39
+    "produto": "Sabonete Protex Fresh Antibacteriano 85G",
+    "preco": 3.95,
+    "preco_por_kg": 3.95
+  },
+  {
+    "id": 102,
+    "supermercado": "Giga",
+    "produto": "Acendedor Paraná Gel 80º Embalagem 480g",
+    "preco": 12.05,
+    "preco_por_kg": 12.05
   },
   {
     "id": 103,
@@ -334,13 +425,6 @@
     "produto": "Antisséptico Bucal Listerine Cool Mint Zero 500Ml",
     "preco": 19.9,
     "preco_por_kg": 19.9
-  },
-  {
-    "id": 107,
-    "supermercado": "Giga",
-    "produto": "Bisnaguinha Tradicional Zero Lactose Bauducco Pacote 260g",
-    "preco": 5.99,
-    "preco_por_kg": 5.99
   },
   {
     "id": 110,
