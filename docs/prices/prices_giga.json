@@ -10,41 +10,118 @@
     "id": 2,
     "supermercado": "Giga",
     "produto": "Batata Lavada",
-    "preco": 0.8,
-    "preco_por_kg": 0.8
+    "preco": 2.98,
+    "preco_por_kg": 2.98
   },
   {
     "id": 3,
     "supermercado": "Giga",
     "produto": "Cebola Nacional",
-    "preco": 3.48,
-    "preco_por_kg": 3.48
+    "preco": 2.75,
+    "preco_por_kg": 2.75
   },
   {
     "id": 4,
     "supermercado": "Giga",
     "produto": "Tomate Italiano",
-    "preco": 1.42,
-    "preco_por_kg": 1.42
+    "preco": 5.98,
+    "preco_por_kg": 5.98
+  },
+  {
+    "id": 5,
+    "supermercado": "Giga",
+    "produto": "Pimentão Verde",
+    "preco": 12.9,
+    "preco_por_kg": 12.9
+  },
+  {
+    "id": 6,
+    "supermercado": "Giga",
+    "produto": "Pimentao Vermelho",
+    "preco": 19.9,
+    "preco_por_kg": 19.9
+  },
+  {
+    "id": 7,
+    "supermercado": "Giga",
+    "produto": "Pimentão Amarelo",
+    "preco": 19.9,
+    "preco_por_kg": 19.9
+  },
+  {
+    "id": 8,
+    "supermercado": "Giga",
+    "produto": "Pimentão Verde",
+    "preco": 12.9,
+    "preco_por_kg": 12.9
   },
   {
     "id": 9,
     "supermercado": "Giga",
-    "produto": "Limão Tahiti",
-    "preco": 0.4,
-    "preco_por_kg": 0.4
+    "produto": "Refresco Em Pó Limão Frisco 18g",
+    "preco": 1.06,
+    "preco_por_kg": 1.06
+  },
+  {
+    "id": 11,
+    "supermercado": "Giga",
+    "produto": "Abóbrinha Italiana Kg",
+    "preco": 5.99,
+    "preco_por_kg": 5.99
+  },
+  {
+    "id": 12,
+    "supermercado": "Giga",
+    "produto": "Beterraba",
+    "preco": 6.48,
+    "preco_por_kg": 6.48
+  },
+  {
+    "id": 13,
+    "supermercado": "Giga",
+    "produto": "Inhame",
+    "preco": 13.5,
+    "preco_por_kg": 13.5
+  },
+  {
+    "id": 14,
+    "supermercado": "Giga",
+    "produto": "Sabonete Puro Vegetal Chá Branco E Gengibre Orgânica Embalagem 90G",
+    "preco": 6.59,
+    "preco_por_kg": 6.59
+  },
+  {
+    "id": 15,
+    "supermercado": "Giga",
+    "produto": "Cenoura",
+    "preco": 4.5,
+    "preco_por_kg": 4.5
   },
   {
     "id": 16,
     "supermercado": "Giga",
     "produto": "Chuchu Comum",
-    "preco": 2.48,
-    "preco_por_kg": 2.48
+    "preco": 3.98,
+    "preco_por_kg": 3.98
+  },
+  {
+    "id": 17,
+    "supermercado": "Giga",
+    "produto": "Mandioquinha",
+    "preco": 12.9,
+    "preco_por_kg": 12.9
   },
   {
     "id": 18,
     "supermercado": "Giga",
     "produto": "Cheiro Verde Maço",
+    "preco": 3.99,
+    "preco_por_kg": 3.99
+  },
+  {
+    "id": 20,
+    "supermercado": "Giga",
+    "produto": "Repolho Branco",
     "preco": 3.99,
     "preco_por_kg": 3.99
   },
@@ -56,11 +133,18 @@
     "preco_por_kg": 9.99
   },
   {
+    "id": 22,
+    "supermercado": "Giga",
+    "produto": "Mamão Formosa",
+    "preco": 6.9,
+    "preco_por_kg": 6.9
+  },
+  {
     "id": 23,
     "supermercado": "Giga",
     "produto": "Banana Nanica",
-    "preco": 1.13,
-    "preco_por_kg": 1.13
+    "preco": 4.9,
+    "preco_por_kg": 4.9
   },
   {
     "id": 24,
@@ -72,9 +156,9 @@
   {
     "id": 25,
     "supermercado": "Giga",
-    "produto": "Maçã Gala Nacional",
-    "preco": 2.32,
-    "preco_por_kg": 2.32
+    "produto": "Sabonete Flor De Ypê Flor De Maçã E Framboesa 85g",
+    "preco": 1.87,
+    "preco_por_kg": 1.87
   },
   {
     "id": 27,
@@ -91,11 +175,25 @@
     "preco_por_kg": 5.39
   },
   {
+    "id": 30,
+    "supermercado": "Giga",
+    "produto": "Quejo Mussarela F4 Três Barras",
+    "preco": 30.75,
+    "preco_por_kg": 30.75
+  },
+  {
+    "id": 31,
+    "supermercado": "Giga",
+    "produto": "Presunto Cozido Sem Capa Inteiro Perdigão",
+    "preco": 24.79,
+    "preco_por_kg": 24.79
+  },
+  {
     "id": 32,
     "supermercado": "Giga",
-    "produto": "Mortadela Sadilar Sadia 1Kg",
-    "preco": 12.9,
-    "preco_por_kg": 12.9
+    "produto": "Mortadela Tradicional Inteira Aurora",
+    "preco": 12.65,
+    "preco_por_kg": 12.65
   },
   {
     "id": 33,
@@ -121,9 +219,9 @@
   {
     "id": 37,
     "supermercado": "Giga",
-    "produto": "Leite Uht Tirol Semi Desnatado 1L",
-    "preco": 5.39,
-    "preco_por_kg": 5.39
+    "produto": "Leite Fermentado Family Frutap 850g",
+    "preco": 9.89,
+    "preco_por_kg": 9.89
   },
   {
     "id": 38,
@@ -154,11 +252,18 @@
     "preco_por_kg": 6.2
   },
   {
+    "id": 46,
+    "supermercado": "Giga",
+    "produto": "Queijo Mussarela F4 Inteiro Monte Castelo",
+    "preco": 32.9,
+    "preco_por_kg": 32.9
+  },
+  {
     "id": 47,
     "supermercado": "Giga",
     "produto": "Tomate Italiano",
-    "preco": 1.42,
-    "preco_por_kg": 1.42
+    "preco": 5.98,
+    "preco_por_kg": 5.98
   },
   {
     "id": 49,
@@ -166,6 +271,13 @@
     "produto": "Azeite De Oliva Clássico Gallo 250Ml",
     "preco": 23.9,
     "preco_por_kg": 23.9
+  },
+  {
+    "id": 50,
+    "supermercado": "Giga",
+    "produto": "Azeitona Verde Arauco Graúda 12/16",
+    "preco": 39.9,
+    "preco_por_kg": 39.9
   },
   {
     "id": 53,
@@ -177,9 +289,9 @@
   {
     "id": 55,
     "supermercado": "Giga",
-    "produto": "Óleo De Soja Liza 900 Ml",
-    "preco": 7.29,
-    "preco_por_kg": 7.29
+    "produto": "Óleo King Peroba Embalagem 500Ml",
+    "preco": 36.69,
+    "preco_por_kg": 36.69
   },
   {
     "id": 56,
@@ -191,23 +303,30 @@
   {
     "id": 57,
     "supermercado": "Giga",
-    "produto": "Milho Verde Guarapiranga Bandeja 900g",
-    "preco": 7.5,
-    "preco_por_kg": 7.5
+    "produto": "Milho Verde Quero 170g.",
+    "preco": 3.79,
+    "preco_por_kg": 3.79
+  },
+  {
+    "id": 59,
+    "supermercado": "Giga",
+    "produto": "Sardinha Com Óleo Coqueiro Lata 125g",
+    "preco": 5.99,
+    "preco_por_kg": 5.99
   },
   {
     "id": 60,
     "supermercado": "Giga",
-    "produto": "Refrigerante Coca-Cola Zero Açúcar 200Ml",
-    "preco": 2.09,
-    "preco_por_kg": 2.09
+    "produto": "Açúcar Refinado Tradicional Da Barra 1Kg",
+    "preco": 3.69,
+    "preco_por_kg": 3.69
   },
   {
     "id": 61,
     "supermercado": "Giga",
-    "produto": "Refrigerante Coca-Cola Zero Açúcar 200Ml",
-    "preco": 2.09,
-    "preco_por_kg": 2.09
+    "produto": "Açúcar Refinado Tradicional Da Barra 1Kg",
+    "preco": 3.69,
+    "preco_por_kg": 3.69
   },
   {
     "id": 62,
@@ -233,16 +352,16 @@
   {
     "id": 69,
     "supermercado": "Giga",
-    "produto": "Capsula De Café Filtrado Gourmet 3 Corações Com 10Un",
+    "produto": "Capsula De Café Com Leite 3 Corações 10Un",
     "preco": 29.9,
     "preco_por_kg": 29.9
   },
   {
     "id": 70,
     "supermercado": "Giga",
-    "produto": "Café Sabor Tradicional União 250G",
-    "preco": 18.9,
-    "preco_por_kg": 18.9
+    "produto": "Cafe Caps Nescafe 53 G C/10 India Espres Tor/Moid",
+    "preco": 22.89,
+    "preco_por_kg": 22.89
   },
   {
     "id": 71,
@@ -259,6 +378,13 @@
     "preco_por_kg": 9.19
   },
   {
+    "id": 74,
+    "supermercado": "Giga",
+    "produto": "Flocão De Milho Dona Clara 500g",
+    "preco": 3.15,
+    "preco_por_kg": 3.15
+  },
+  {
     "id": 75,
     "supermercado": "Giga",
     "produto": "Pão De Forma Sabor Tradicional Visconti 400g",
@@ -268,9 +394,9 @@
   {
     "id": 76,
     "supermercado": "Giga",
-    "produto": "Pão Tortilha Pullman 198g Rap10 Tapioca",
-    "preco": 16.65,
-    "preco_por_kg": 16.65
+    "produto": "Massa Para Tapioca Terrinha 500G",
+    "preco": 7.3,
+    "preco_por_kg": 7.3
   },
   {
     "id": 77,
@@ -289,9 +415,16 @@
   {
     "id": 79,
     "supermercado": "Giga",
-    "produto": "Limpador Multiuso Clássico Ypê 500Ml",
-    "preco": 4.05,
-    "preco_por_kg": 4.05
+    "produto": "Limpador Vinagreen Multiuso Lavanda 500Ml",
+    "preco": 3.69,
+    "preco_por_kg": 3.69
+  },
+  {
+    "id": 80,
+    "supermercado": "Giga",
+    "produto": "Removedor Zulu Clean Sem Cheiro Embalagem 450Ml",
+    "preco": 27.99,
+    "preco_por_kg": 27.99
   },
   {
     "id": 81,
@@ -303,44 +436,44 @@
   {
     "id": 83,
     "supermercado": "Giga",
-    "produto": "Saco De Lixo Dover Roll Banheiro E Piá Embalagem 50 Unidades",
-    "preco": 14.45,
-    "preco_por_kg": 14.45
+    "produto": "Saco Alvejado Carvalho Pasqualini Unidade",
+    "preco": 6.5,
+    "preco_por_kg": 6.5
   },
   {
     "id": 84,
     "supermercado": "Giga",
-    "produto": "Saco De Lixo Dover Roll Banheiro E Piá Embalagem 50 Unidades",
-    "preco": 14.45,
-    "preco_por_kg": 14.45
+    "produto": "Saco Alvejado Carvalho Pasqualini Unidade",
+    "preco": 6.5,
+    "preco_por_kg": 6.5
   },
   {
     "id": 85,
     "supermercado": "Giga",
-    "produto": "Água Mineral Sem Gás Serras De Cunha 1,5L",
-    "preco": 2.65,
-    "preco_por_kg": 2.65
+    "produto": "Água Sanitária Ypê 5L",
+    "preco": 12.9,
+    "preco_por_kg": 12.9
   },
   {
     "id": 86,
     "supermercado": "Giga",
-    "produto": "Lava Roupas Em Pó Limpeza Total Brilhante 800G",
-    "preco": 9.49,
-    "preco_por_kg": 9.49
+    "produto": "Lava-Louças Líquido Clear Ypê Squeeze 500ml",
+    "preco": 2.45,
+    "preco_por_kg": 2.45
   },
   {
     "id": 87,
     "supermercado": "Giga",
-    "produto": "Amaciante De Roupa Brisa Elegante Comfort Sachê Refil 900Ml",
-    "preco": 18.89,
-    "preco_por_kg": 18.89
+    "produto": "Amaciante Concentrado Ypê Delicado 900Ml",
+    "preco": 16.4,
+    "preco_por_kg": 16.4
   },
   {
     "id": 88,
     "supermercado": "Giga",
-    "produto": "Detergente Líquido Ypê Neutro Galão Com 7 Litros",
-    "preco": 29.41,
-    "preco_por_kg": 29.41
+    "produto": "Detergente Líquido Lava Louça Ypê Squeeze 500Ml",
+    "preco": 2.45,
+    "preco_por_kg": 2.45
   },
   {
     "id": 89,
@@ -352,16 +485,16 @@
   {
     "id": 90,
     "supermercado": "Giga",
-    "produto": "Limpador Multiuso Clássico Ypê 500Ml",
-    "preco": 4.05,
-    "preco_por_kg": 4.05
+    "produto": "Limpador Vinagreen Multiuso Lavanda 500Ml",
+    "preco": 3.69,
+    "preco_por_kg": 3.69
   },
   {
     "id": 91,
     "supermercado": "Giga",
-    "produto": "Desinfetante Lysoform Original 1L",
-    "preco": 14.9,
-    "preco_por_kg": 14.9
+    "produto": "Desinfetante Suprema Lavanda Bouquet Embalagem 2 Litros",
+    "preco": 4.99,
+    "preco_por_kg": 4.99
   },
   {
     "id": 92,
@@ -378,6 +511,20 @@
     "preco_por_kg": 14.9
   },
   {
+    "id": 96,
+    "supermercado": "Giga",
+    "produto": "Kit Desodorizador Sanitário Gel Adesivo Marine Refil Pato 2Un Com 6 Discos Cada",
+    "preco": 23.39,
+    "preco_por_kg": 23.39
+  },
+  {
+    "id": 97,
+    "supermercado": "Giga",
+    "produto": "Escova Dental Oral B Mickey/Minnie Com 2 Preço Especial",
+    "preco": 12.49,
+    "preco_por_kg": 12.49
+  },
+  {
     "id": 98,
     "supermercado": "Giga",
     "produto": "Creme De Avela Com Cacau Cuisine & Co 350g",
@@ -387,30 +534,30 @@
   {
     "id": 99,
     "supermercado": "Giga",
-    "produto": "Sabonete Protex Fresh Antibacteriano 85G",
-    "preco": 3.95,
-    "preco_por_kg": 3.95
+    "produto": "Sabonete Líquido Para Corpo E Mãos Flor De Ypê Rosas Brancas E Avelã Frasco Pump 250Ml",
+    "preco": 7.2,
+    "preco_por_kg": 7.2
   },
   {
     "id": 100,
     "supermercado": "Giga",
-    "produto": "Sabonete Protex Fresh Antibacteriano 85G",
-    "preco": 3.95,
-    "preco_por_kg": 3.95
+    "produto": "Sabonete Barra Flor De Baunilha E Amêndoas Flor De Ypê Envoltório 85g",
+    "preco": 1.87,
+    "preco_por_kg": 1.87
   },
   {
     "id": 101,
     "supermercado": "Giga",
-    "produto": "Sabonete Protex Fresh Antibacteriano 85G",
-    "preco": 3.95,
-    "preco_por_kg": 3.95
+    "produto": "Sabonete Barra Flor De Baunilha E Amêndoas Flor De Ypê Envoltório 85g",
+    "preco": 1.87,
+    "preco_por_kg": 1.87
   },
   {
     "id": 102,
     "supermercado": "Giga",
-    "produto": "Acendedor Paraná Gel 80º Embalagem 480g",
-    "preco": 12.05,
-    "preco_por_kg": 12.05
+    "produto": "Detergente Sanitario Gel Adesivo Marine Pato 3 Unidades 38G",
+    "preco": 32.99,
+    "preco_por_kg": 32.99
   },
   {
     "id": 103,
@@ -422,7 +569,7 @@
   {
     "id": 106,
     "supermercado": "Giga",
-    "produto": "Antisséptico Bucal Listerine Cool Mint Zero 500Ml",
+    "produto": "Enxaguante Bucal Hortelã Listerine Cool Mint Frasco 500Ml",
     "preco": 19.9,
     "preco_por_kg": 19.9
   }
