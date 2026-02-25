@@ -45,20 +45,24 @@ async function carregarDados() {
     }
 
     // --- CÁLCULO DO RANKING ---
-    const ranking = lojasChaves.map(chave => {
-      const keyFormatada = chave.charAt(0).toUpperCase() + chave.slice(1);
-      
-      // ✅ Soma dos itens da cesta comum
-      const somaCestaComum = produtosComuns.reduce((acc, p) => acc + toNumber(p[chave].preco), 0);
+      const ranking = lojasChaves.map(chave => {
+      // 1. Soma da cesta comum (usando a chave original do array de produtos)
+      const somaCestaComum = produtosComuns.reduce((acc, p) => acc + toNumber(p[chave]?.preco), 0);
 
-      // ✅ Captura a quantidade total encontrada pelo scraper no JSON original
-      // Ex: data.encontradosGiga ou data.encontradosTenda
-      const labelEncontrados = "encontrados" + keyFormatada;
-      const totalIndividual = data[labelEncontrados] || 0;
+      // 2. Localização inteligente da contagem (Resolve o erro do Pague Menos zerado)
+      // Procuramos no objeto 'data' uma chave que, em minúsculas, seja igual a "encontrados" + chave
+      const labelBusca = ("encontrados" + chave).toLowerCase();
+      const chaveRealNoJson = Object.keys(data).find(k => k.toLowerCase() === labelBusca);
+      
+      // Se achar a chave (ex: encontradosPagueMenos), pega o valor; se não, 0.
+      const totalIndividual = chaveRealNoJson ? data[chaveRealNoJson] : 0;
+
+      // 3. Formata o nome para exibição (ex: paguemenos -> Paguemenos)
+      const nomeExibicao = chave.charAt(0).toUpperCase() + chave.slice(1);
 
       return {
         id: chave,
-        nomeExibicao: keyFormatada,
+        nomeExibicao: nomeExibicao,
         total: somaCestaComum,
         comprados: produtosComuns.length,
         encontrados: totalIndividual
