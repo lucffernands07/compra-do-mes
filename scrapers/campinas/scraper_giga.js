@@ -2,13 +2,11 @@ const puppeteer = require("puppeteer");
 const fs = require("fs");
 const path = require("path");
 
-// Caminhos de arquivos
 const produtosTxtPath = path.join(__dirname, "..", "..", "products.txt");
 const outDir = path.join(__dirname, "..", "..", "docs", "prices");
 
-// ✅ Filtros de segurança e palavras negativas
 const PALAVRAS_NEGATIVAS = [
-  "pascoa", "kinder", "ferrero", "lacta", "nestle", "garoto", "hershey", // Anti-Páscoa
+  "pascoa", "kinder", "ferrero", "lacta", "nestle", "garoto", "hershey",
   "salgadinho", "bisnaguinha", "chips", "bolacha", "biscoito", "torcida", 
   "suco", "tempero", "congelado", "pote", "caixa", "mini"
 ];
@@ -40,7 +38,6 @@ async function main() {
   const resultado = [];
 
   for (const [index, nomeOriginal] of linhasProdutos.entries()) {
-    // Lógica de tentativa dupla: 1º Nome completo, 2º Apenas a primeira palavra
     let termosParaTestar = [nomeOriginal];
     if (nomeOriginal.split(" ").length > 1) {
       termosParaTestar.push(nomeOriginal.split(" ")[0]); 
@@ -57,26 +54,36 @@ async function main() {
       try {
         const urlBusca = `https://www.giga.com.vc/${encodeURIComponent(termoLimpo)}?_q=${encodeURIComponent(termoLimpo)}&map=ft`;
         
-        await page.goto(urlBusca, { waitUntil: "domcontentloaded", timeout: 40000 });
+        await page.goto(urlBusca, { waitUntil: "networkidle2", timeout: 45000 });
 
-        // ✅ Espera pelo seletor de nome capturado nas suas imagens
+        // Espera o seletor da VTEX carregar
         await page.waitForSelector("[class*='ProductName']", { timeout: 15000 }).catch(() => null);
         
-        // Scroll para garantir o carregamento do preço (Lazy Load da VTEX)
-        await page.evaluate(() => window.scrollBy(0, 600));
-        await new Promise(r => setTimeout(r, 3000));
+        // Scroll necessário para disparar o carregamento dos preços (Lazy Load)
+        await page.evaluate(() => window.scrollBy(0, 800));
+        await new Promise(r => setTimeout(r, 4000));
 
         const items = await page.evaluate(() => {
           const products = [];
+          // Seleciona todos os cards de produto
           const cards = document.querySelectorAll("section[class*='vtex-product-summary']");
 
           cards.forEach(card => {
-            // TÍTULO: Hierarquia gigavc-giga-components-0-x-ProductName
-            const nomeEl = card.querySelector("[class*='ProductName']");
+            const nomeEl = card.querySelector("p[class*='ProductName']");
             
-            // PREÇO: Hierarquia gigavc-giga-components-0-x-currencyInteger / currencyFraction
-            const pInt = card.querySelector("[class*='currencyInteger']")?.innerText || "";
-            const pFrac = card.querySelector("[class*='currencyFraction']")?.innerText || "";
+            // LÓGICA DE PREÇO: Prioriza o preço por quilo se disponível
+            let pInt, pFrac;
+            
+            const unityKg = card.querySelector("[class*='unity-complete']");
+            if (unityKg) {
+              // Se achou a div de preço por KG, busca o preço dentro dela
+              pInt = unityKg.querySelector("[class*='currencyInteger']")?.innerText || "";
+              pFrac = unityKg.querySelector("[class*='currencyFraction']")?.innerText || "";
+            } else {
+              // Senão busca o preço padrão (venda)
+              pInt = card.querySelector("[class*='currencyInteger']")?.innerText || "";
+              pFrac = card.querySelector("[class*='currencyFraction']")?.innerText || "";
+            }
             
             if (nomeEl && pInt) {
               const precoFinal = parseFloat(`${pInt.replace(/\D/g,'')}.${pFrac.replace(/\D/g,'')}`);
@@ -91,27 +98,19 @@ async function main() {
 
         const termoNorm = normalizar(termoLimpo);
         
-        // ✅ FILTRAGEM INTELIGENTE
         const filtrados = items.filter(item => {
           const nomeNorm = normalizar(item.nome);
-          
-          // 1. Deve conter o termo de busca
           const contemTermo = nomeNorm.includes(termoNorm);
-          
-          // 2. NÃO deve conter palavras negativas (Salgadinhos, Ovos de Páscoa)
           const temNegativa = PALAVRAS_NEGATIVAS.some(neg => nomeNorm.includes(neg));
           
-          // 3. Filtro Teto de Preço para Ovos (Evitar Ovos de Páscoa caros)
           let precoSuspeito = false;
-          if (termoNorm === "ovo" && item.preco > 35) {
-             precoSuspeito = true;
-          }
+          if (termoNorm === "ovo" && item.preco > 40) precoSuspeito = true;
           
           return contemTermo && !temNegativa && !precoSuspeito && item.preco > 0;
         });
 
         if (filtrados.length > 0) {
-          // Ordena pelo preço (itens in natura costumam ser os mais baratos da lista)
+          // Ordena pelo preço para pegar o item in natura mais barato
           const melhor = filtrados.sort((a,b) => a.preco - b.preco)[0];
           
           resultado.push({
@@ -132,10 +131,9 @@ async function main() {
     }
     
     if (!encontrado) console.log(`❌ Sem resultados válidos para: ${nomeOriginal}`);
-    await new Promise(r => setTimeout(r, 1500));
+    await new Promise(r => setTimeout(r, 2000));
   }
 
-  // ✅ Salva o arquivo no docs/prices/prices_giga.json
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
   fs.writeFileSync(path.join(outDir, "prices_giga.json"), JSON.stringify(resultado, null, 2), "utf-8");
   console.log(`\n📂 Finalizado! prices_giga.json gerado.`);
@@ -144,4 +142,3 @@ async function main() {
 }
 
 main();
-                  
