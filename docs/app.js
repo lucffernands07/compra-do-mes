@@ -36,7 +36,7 @@ async function carregarDados() {
 
     // ✅ FILTRAGEM: Apenas produtos presentes em TODAS as lojas
     const produtosComuns = produtosBase.filter(p => {
-      return lojasChaves.every(loja => toNumber(p[loja]?.preco) > 0);
+      return lojasChaves.every(loja => toNumber(p[loja]?.preco_por_kg) > 0);
     });
 
     if (produtosComuns.length === 0) {
@@ -44,17 +44,14 @@ async function carregarDados() {
       return;
     }
 
-    // --- CÁLCULO DO RANKING ---
-      const ranking = lojasChaves.map(chave => {
-      // 1. Soma da cesta comum (usando a chave original do array de produtos)
-      const somaCestaComum = produtosComuns.reduce((acc, p) => acc + toNumber(p[chave]?.preco), 0);
+    // --- CÁLCULO DO RANKING POR KG/L ---
+    const ranking = lojasChaves.map(chave => {
+      // 1. Soma da cesta usando PRECO_POR_KG para comparação justa
+      const somaCestaComum = produtosComuns.reduce((acc, p) => acc + toNumber(p[chave]?.preco_por_kg), 0);
 
-      // 2. Localização inteligente da contagem (Resolve o erro do Pague Menos zerado)
-      // Procuramos no objeto 'data' uma chave que, em minúsculas, seja igual a "encontrados" + chave
+      // 2. Localização inteligente da contagem (Resolve Pague Menos e nomes compostos)
       const labelBusca = ("encontrados" + chave).toLowerCase();
       const chaveRealNoJson = Object.keys(data).find(k => k.toLowerCase() === labelBusca);
-      
-      // Se achar a chave (ex: encontradosPagueMenos), pega o valor; se não, 0.
       const totalIndividual = chaveRealNoJson ? data[chaveRealNoJson] : 0;
 
       // 3. Formata o nome para exibição (ex: paguemenos -> Paguemenos)
@@ -69,14 +66,14 @@ async function carregarDados() {
       };
     });
 
-    // ✅ ORDENAÇÃO PELO MENOR TOTAL
+    // ✅ ORDENAÇÃO PELO MENOR TOTAL (QUEM TEM O KG MAIS BARATO)
     ranking.sort((a, b) => a.total - b.total);
 
     const vencedor = ranking[0];
     const maisBaratoKey = vencedor.id;
     const maisBaratoName = vencedor.nomeExibicao;
 
-    // ✅ 1. TABELA DE RANKING (Com a coluna Itens formatada: Comprados / Encontrados)
+    // ✅ 1. TABELA DE RANKING (Total por Kg/L)
     const tabelaTotais = `
       <div class="titulo-sessao">
         <h2>Ranking: Itens em Comum</h2>
@@ -86,7 +83,7 @@ async function carregarDados() {
           <tr>
             <th style="width:15%">Pos.</th>
             <th style="width:40%; text-align:left;">Mercado</th>
-            <th style="width:30%">Total Cesta</th>
+            <th style="width:30%">Total (Kg/L)</th>
             <th style="width:15%">Itens</th>
           </tr>
         </thead>
@@ -96,7 +93,7 @@ async function carregarDados() {
               <td>${index + 1}º</td>
               <td style="text-align:left;"><strong>${loja.nomeExibicao}</strong></td>
               <td>R$ ${loja.total.toLocaleString('pt-BR', {minimumFractionDigits: 2})}</td>
-              <td>${loja.comprados} / ${loja.encontrados}</td>
+              <td style="font-size: 0.9em; color: #666;">${loja.comprados} / ${loja.encontrados}</td>
             </tr>
           `).join('')}
         </tbody>
@@ -124,7 +121,7 @@ async function carregarDados() {
                 <strong>${item.nome}</strong>
                 <div class="preco-container">
                   <span class="preco">R$ ${toNumber(item.preco).toLocaleString('pt-BR', {minimumFractionDigits: 2})}</span>
-                  <span class="valor-emb">Kg/L: R$ ${toNumber(item.preco_por_kg).toLocaleString('pt-BR', {minimumFractionDigits: 2})}</span>
+                  <span class="valor-emb" style="color: #2e7d32; font-weight: bold;">Kg/L: R$ ${toNumber(item.preco_por_kg).toLocaleString('pt-BR', {minimumFractionDigits: 2})}</span>
                 </div>
               </li>`;
           }).join("")}
@@ -152,4 +149,3 @@ if ('serviceWorker' in navigator) {
 }
 
 carregarDados();
-      
