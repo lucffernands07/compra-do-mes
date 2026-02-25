@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-       --- BLOCO 1: HORTOLÂNDIA ---
+       # --- BLOCO 1: HORTOLÂNDIA ---
       - name: 🏠 Executar Scrapers Hortolândia
         run: |
           echo "Iniciando captura de Hortolândia..."
