@@ -14,6 +14,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           persist-credentials: false
+          fetch-depth: 0 # Permite o rebase correto
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -23,27 +24,27 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-       # --- BLOCO 1: HORTOLÂNDIA ---
-      - name: 🏠 Executar Scrapers Hortolândia
-        run: |
-          echo "Iniciando captura de Hortolândia..."
-          node scrapers/hortolandia/scraper_tenda.js
-          node scrapers/hortolandia/scraper_goodbom.js
-          node scrapers/hortolandia/scraper_arena.js
-          node scrapers/hortolandia/scraper_savegnago.js
-          node scrapers/hortolandia/hortolandia_compare.js
+       # --- BLOCO 1: HORTOLÂNDIA (COMENTADO) ---
+      # - name: 🏠 Executar Scrapers Hortolândia
+      #   run: |
+      #     echo "Iniciando captura de Hortolândia..."
+      #     node scrapers/hortolandia/scraper_tenda.js
+      #     node scrapers/hortolandia/scraper_goodbom.js
+      #     node scrapers/hortolandia/scraper_arena.js
+      #     node scrapers/hortolandia/scraper_savegnago.js
+      #     node scrapers/hortolandia/hortolandia_compare.js
 
-      # --- BLOCO 2: CAMPINAS ---
+      # --- BLOCO 2: CAMPINAS (APENAS ENXUTO E COMPARE ATIVOS) ---
       - name: 🏢 Executar Scrapers Campinas
         run: |
-          echo "Iniciando captura de Campinas..."
-          node scrapers/campinas/scraper_carrefour.js
-          #node scrapers/campinas/scraper_giga.js
-          node scrapers/campinas/scraper_covabra.js
-          node scrapers/campinas/scraper_paguemenos.js
-          node scrapers/campinas/scraper_atacadao.js
+          echo "Iniciando captura de Campinas (Teste Enxuto)..."
+          # node scrapers/campinas/scraper_carrefour.js
+          # node scrapers/campinas/scraper_giga.js
+          # node scrapers/campinas/scraper_covabra.js
+          # node scrapers/campinas/scraper_paguemenos.js
+          # node scrapers/campinas/scraper_atacadao.js
           node scrapers/campinas/scraper_enxuto.js
-          node scrapers/campinas/scraper_tenda.js
+          # node scrapers/campinas/scraper_tenda.js
           node scrapers/campinas/campinas_compare.js
 
       # --- SALVAR RESULTADOS ---
@@ -52,8 +53,13 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@users.noreply.github.com"
           git add docs/prices/*.json
-          # O '|| true' evita que o Action falhe se não houver mudança nos preços
-          git commit -m "Preços atualizados: Hortolândia e Campinas [skip ci]" || true
+          
+          # Tenta o commit; se não houver mudanças, segue adiante
+          git commit -m "Preços atualizados: Teste Enxuto [skip ci]" || true
+          
+          # ✅ Resolve o erro de 'rejected' baixando mudanças remotas antes do push
+          git pull --rebase origin main
+          
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
