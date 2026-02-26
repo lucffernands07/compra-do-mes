@@ -32,6 +32,7 @@ async function carregarDados() {
     // Identifica as chaves das lojas (ex: giga, tenda, carrefour)
     const lojasChaves = Object.keys(produtosBase[0] || {}).filter(k => 
       !['id', 'mais_barato', 'produto', 'preco', 'preco_por_kg'].includes(k)
+                                                                  && k !== 'giga' //Para ativar Giga, apague essa linnha
     );
 
     // ✅ FILTRAGEM: Apenas produtos presentes em TODAS as lojas
