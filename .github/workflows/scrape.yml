@@ -38,7 +38,7 @@ jobs:
         run: |
           echo "Iniciando captura de Campinas..."
           node scrapers/campinas/scraper_carrefour.js
-          node scrapers/campinas/scraper_giga.js
+          #node scrapers/campinas/scraper_giga.js
           node scrapers/campinas/scraper_covabra.js
           node scrapers/campinas/scraper_paguemenos.js
           node scrapers/campinas/scraper_atacadao.js
