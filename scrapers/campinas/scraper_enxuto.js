@@ -12,19 +12,18 @@ function normalizar(txt) {
 
 function extrairPeso(nome) {
   const n = nome.toLowerCase();
-  // Captura unidades comuns: 1kg, 500g, 12un, c/20, 1l
+  // Captura: 1kg, 500g, 12un, c/20, 1l, unidades
   const match = n.match(/(\d+[.,]?\d*)\s*(g|kg|ml|l|un|c\/|unidades)/);
   if (!match) return 1;
   let qtd = parseFloat(match[1].replace(",", "."));
   const unidade = match[2];
   if (unidade === "g" || unidade === "ml") qtd /= 1000;
-  // Se for bandeja (ex: C/20 ovos), tratamos como 1 unidade de compra para o ranking
   return qtd || 1;
 }
 
 function parsePreco(txt) {
   if (!txt) return 0;
-  // Limpeza profunda para o formato "R$ 13,99"
+  // Limpeza para formatos como "R$ 13,99" ou "1.200,00"
   const n = parseFloat(txt.replace("R$", "").replace(/\s/g, "").replace(".", "").replace(",", "."));
   return isNaN(n) ? 0 : n;
 }
@@ -35,6 +34,8 @@ async function main() {
     args: ["--no-sandbox", "--disable-setuid-sandbox"] 
   });
   const page = await browser.newPage();
+  
+  // Viewport maior ajuda a carregar mais elementos da vitrine
   await page.setViewport({ width: 1280, height: 1024 });
   await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36');
 
@@ -60,24 +61,23 @@ async function main() {
       try {
         await page.goto(
           `https://www.enxuto.com/busca?termo=${encodeURIComponent(termoParaBusca)}`,
-          { waitUntil: "networkidle2", timeout: 40000 }
+          { waitUntil: "networkidle0", timeout: 60000 }
         );
 
-        // Espera o container principal da busca aparecer
-        await page.waitForSelector("[data-cy='produto-descricao']", { timeout: 10000 }).catch(() => null);
+        // Aguarda o seletor que você identificou no HTML
+        await page.waitForSelector("[data-cy='produto-descricao']", { timeout: 15000 }).catch(() => null);
         
-        // Scroll para carregar a vitrine dinâmica do Enxuto
-        await page.evaluate(() => window.scrollBy(0, 500));
-        await new Promise(r => setTimeout(r, 2000));
+        // Scroll para garantir que o Angular carregue os dados dos produtos
+        await page.evaluate(() => window.scrollBy(0, 800));
+        await new Promise(r => setTimeout(r, 3500)); // Espera 3.5s para o preço injetar na tela
 
         const items = await page.evaluate(() => {
-          // O Enxuto usa componentes Angular. Buscamos o pai mais próximo de cada produto.
           const products = [];
           const labels = document.querySelectorAll("[data-cy='produto-descricao']");
 
           labels.forEach(label => {
-            // Sobe no DOM para achar o container do card que contém o preço
-            const card = label.closest("app-vip-card-produto") || label.parentElement.parentElement;
+            // Sobe para o container do card para achar o preço correspondente
+            const card = label.closest("app-vip-card-produto") || label.closest(".vip-card-produto") || label.parentElement.parentElement;
             const precoEl = card.querySelector("[data-cy='preco']");
             
             if (label && precoEl) {
@@ -90,7 +90,7 @@ async function main() {
           return products;
         });
 
-        // FILTRO DE QUALIDADE (Evita o Algodão Doce e Ração)
+        // ✅ FILTRO FLEXÍVEL (Estilo Covabra) + Proteção contra itens errados
         const filtrados = items.map(item => ({
           nome: item.nome,
           preco: parsePreco(item.precoTxt),
@@ -99,11 +99,18 @@ async function main() {
           const nomeNorm = normalizar(item.nome);
           const palavrasBusca = termoNorm.split(" ").filter(w => w.length >= 3);
           
-          // Critério: O nome deve conter TODAS as palavras da busca (mínimo 3 letras cada)
-          return item.preco > 1 && palavrasBusca.every(pal => nomeNorm.includes(pal));
+          // Verifica se as palavras da busca (primeiras 3 letras) estão no nome do produto
+          const bateBusca = palavrasBusca.every(pal => nomeNorm.includes(pal.substring(0, 3)));
+          
+          // Bloqueia itens indesejados que costumam aparecer em buscas genéricas
+          const termosProibidos = ["gato", "dog", "doce", "listerine", "shampoo", "sabonete"];
+          const eProibido = termosProibidos.some(tp => nomeNorm.includes(tp));
+
+          return item.preco > 0.5 && bateBusca && !eProibido;
         });
 
         if (filtrados.length > 0) {
+          // Ordena pelo preço por KG para pegar a melhor oferta
           const melhor = filtrados.sort((a, b) => (a.preco / a.peso_kg) - (b.preco / b.peso_kg))[0];
 
           resultado.push({
@@ -116,16 +123,17 @@ async function main() {
 
           console.log(`✅ ${melhor.nome} - R$ ${melhor.preco.toFixed(2)}`);
         } else {
-          console.log(`❌ Nada relevante para: ${termoParaBusca}`);
+          console.log(`❌ Nada relevante encontrado para: ${termoParaBusca}`);
         }
       } catch (e) {
-        console.log(`⚠️ Erro na busca: ${termoParaBusca}`);
+        console.log(`⚠️ Erro ao processar: ${termoParaBusca}`);
       }
     }
 
+    // Salva o JSON final
     if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
     fs.writeFileSync(path.join(outDir, "prices_enxuto.json"), JSON.stringify(resultado, null, 2), "utf-8");
-    console.log(`\n📂 Finalizado Enxuto com ${resultado.length} produtos.`);
+    console.log(`\n📂 Sucesso! prices_enxuto.json gerado com ${resultado.length} itens.`);
 
   } finally {
     await browser.close();
@@ -133,4 +141,3 @@ async function main() {
 }
 
 main();
-                                                                             
