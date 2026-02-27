@@ -17,8 +17,8 @@
     "id": 4,
     "supermercado": "Giga",
     "produto": "Tomate Italiano",
-    "preco": 7.9,
-    "preco_por_kg": 7.9
+    "preco": 9.9,
+    "preco_por_kg": 9.9
   },
   {
     "id": 5,
@@ -56,6 +56,13 @@
     "preco_por_kg": 1.06
   },
   {
+    "id": 10,
+    "supermercado": "Giga",
+    "produto": "Vagem Macarrão Bandeja 300g",
+    "preco": 6.9,
+    "preco_por_kg": 6.9
+  },
+  {
     "id": 11,
     "supermercado": "Giga",
     "produto": "Abóbrinha Italiana Kg",
@@ -79,16 +86,16 @@
   {
     "id": 14,
     "supermercado": "Giga",
-    "produto": "Sabonete Puro Vegetal Chá Branco E Gengibre Orgânica Embalagem 90G",
-    "preco": 6.59,
-    "preco_por_kg": 6.59
+    "produto": "Gengibre",
+    "preco": 19.98,
+    "preco_por_kg": 19.98
   },
   {
     "id": 15,
     "supermercado": "Giga",
     "produto": "Cenoura",
-    "preco": 4.5,
-    "preco_por_kg": 4.5
+    "preco": 4.98,
+    "preco_por_kg": 4.98
   },
   {
     "id": 16,
@@ -149,9 +156,9 @@
   {
     "id": 25,
     "supermercado": "Giga",
-    "produto": "SABONETE FLOR DE YPE 125G FLOR DE MACA E FRAMBOESA",
-    "preco": 2.59,
-    "preco_por_kg": 2.59
+    "produto": "Maçã Pacote 850g",
+    "preco": 10.99,
+    "preco_por_kg": 10.99
   },
   {
     "id": 27,
@@ -168,6 +175,13 @@
     "preco_por_kg": 5.39
   },
   {
+    "id": 29,
+    "supermercado": "Giga",
+    "produto": "Requeijão Cremoso Tradicional Catupiry 420g",
+    "preco": 17.59,
+    "preco_por_kg": 17.59
+  },
+  {
     "id": 30,
     "supermercado": "Giga",
     "produto": "Quejo Mussarela F4 Três Barras",
@@ -177,9 +191,9 @@
   {
     "id": 31,
     "supermercado": "Giga",
-    "produto": "Presunto Cozido Sem Capa Inteiro Perdigão",
-    "preco": 24.79,
-    "preco_por_kg": 24.79
+    "produto": "Lasanha De Presunto E Queijo Sadia 600G",
+    "preco": 17.5,
+    "preco_por_kg": 17.5
   },
   {
     "id": 32,
@@ -247,9 +261,16 @@
   {
     "id": 47,
     "supermercado": "Giga",
-    "produto": "Tomate Italiano",
-    "preco": 7.9,
-    "preco_por_kg": 7.9
+    "produto": "Molho De Tomate Tradicional Fugini Sachê 300g",
+    "preco": 1.89,
+    "preco_por_kg": 1.89
+  },
+  {
+    "id": 48,
+    "supermercado": "Giga",
+    "produto": "Molho De Tomate Tradicional Fugini Sachê 300g",
+    "preco": 1.89,
+    "preco_por_kg": 1.89
   },
   {
     "id": 49,
@@ -261,23 +282,23 @@
   {
     "id": 50,
     "supermercado": "Giga",
-    "produto": "Azeitona Verde Arauco Graúda 12/16",
-    "preco": 39.9,
-    "preco_por_kg": 39.9
+    "produto": "Azeitonas Verdes Imperador Com Caroço Embalagem 200G",
+    "preco": 11.9,
+    "preco_por_kg": 11.9
+  },
+  {
+    "id": 51,
+    "supermercado": "Giga",
+    "produto": "Molho De Tomate Tradicional Fugini Sachê 300g",
+    "preco": 1.89,
+    "preco_por_kg": 1.89
   },
   {
     "id": 55,
     "supermercado": "Giga",
-    "produto": "Óleo King Peroba Embalagem 500Ml",
-    "preco": 36.69,
-    "preco_por_kg": 36.69
-  },
-  {
-    "id": 56,
-    "supermercado": "Giga",
-    "produto": "Batata Frita Lisa Sal E Vinagre Lays 70g",
-    "preco": 12.79,
-    "preco_por_kg": 12.79
+    "produto": "Óleo De Soja Liza 900 Ml",
+    "preco": 7.29,
+    "preco_por_kg": 7.29
   },
   {
     "id": 57,
@@ -296,23 +317,23 @@
   {
     "id": 60,
     "supermercado": "Giga",
-    "produto": "Açúcar Refinado Tradicional Da Barra 1Kg",
-    "preco": 3.69,
-    "preco_por_kg": 3.69
+    "produto": "Açúcar Refinado Guarani 1Kg",
+    "preco": 4.09,
+    "preco_por_kg": 4.09
   },
   {
     "id": 61,
     "supermercado": "Giga",
-    "produto": "Açúcar Refinado Tradicional Da Barra 1Kg",
-    "preco": 3.69,
-    "preco_por_kg": 3.69
+    "produto": "Açúcar Refinado Guarani 1Kg",
+    "preco": 4.09,
+    "preco_por_kg": 4.09
   },
   {
-    "id": 62,
+    "id": 65,
     "supermercado": "Giga",
-    "produto": "Batata Frita Lisa Sal E Vinagre Lays 70g",
-    "preco": 12.79,
-    "preco_por_kg": 12.79
+    "produto": "Maionese Quero 3 Kg",
+    "preco": 40.39,
+    "preco_por_kg": 40.39
   },
   {
     "id": 67,
@@ -324,23 +345,23 @@
   {
     "id": 68,
     "supermercado": "Giga",
-    "produto": "Creme De Avela Com Cacau Cuisine & Co 350g",
-    "preco": 25.49,
-    "preco_por_kg": 25.49
+    "produto": "Creme Tratamento Skala Mais Cachos 2 Em 1 1Kg",
+    "preco": 10.59,
+    "preco_por_kg": 10.59
   },
   {
     "id": 69,
     "supermercado": "Giga",
-    "produto": "Capsula De Café Com Leite 3 Corações 10Un",
-    "preco": 29.9,
-    "preco_por_kg": 29.9
+    "produto": "Capsula De Café Filtrado Gourmet 3 Corações Com 10Un",
+    "preco": 26.7,
+    "preco_por_kg": 26.7
   },
   {
     "id": 70,
     "supermercado": "Giga",
-    "produto": "Café Sabor Tradicional União 250G",
-    "preco": 18.9,
-    "preco_por_kg": 18.9
+    "produto": "Café Solúvel 3 Corações Refil Tradicional 40G",
+    "preco": 8.75,
+    "preco_por_kg": 8.75
   },
   {
     "id": 71,
@@ -378,18 +399,25 @@
     "preco_por_kg": 7.3
   },
   {
+    "id": 77,
+    "supermercado": "Giga",
+    "produto": "Desinfetante Lysoform Suave Odor 1L",
+    "preco": 14.9,
+    "preco_por_kg": 14.9
+  },
+  {
     "id": 78,
     "supermercado": "Giga",
-    "produto": "Alcool Coperalcool Em Gel Clássico 70 Inpm 500g",
-    "preco": 13.9,
-    "preco_por_kg": 13.9
+    "produto": "Alcool Coperalcool Liquido Tradicional 46 Inpm 1Lt",
+    "preco": 11.9,
+    "preco_por_kg": 11.9
   },
   {
     "id": 79,
     "supermercado": "Giga",
-    "produto": "Limpador Vinagreen Multiuso Lavanda 500Ml",
-    "preco": 3.69,
-    "preco_por_kg": 3.69
+    "produto": "Limpador Multiuso Uau Desengordurante Concentrado Limão-Siciliano Squeeze 500ml",
+    "preco": 4.39,
+    "preco_por_kg": 4.39
   },
   {
     "id": 80,
@@ -429,16 +457,16 @@
   {
     "id": 86,
     "supermercado": "Giga",
-    "produto": "Lava Roupas Em Pó Limpeza Total Brilhante 800G",
-    "preco": 9.49,
-    "preco_por_kg": 9.49
+    "produto": "Lava Roupas Líquido Rosas E Sedução Uau Perfumes Sachê 800Ml Refil",
+    "preco": 8.49,
+    "preco_por_kg": 8.49
   },
   {
     "id": 87,
     "supermercado": "Giga",
-    "produto": "Amaciante Concentrado Ypê Delicado 900Ml",
-    "preco": 16.4,
-    "preco_por_kg": 16.4
+    "produto": "Amaciante Concentrado Downy Brisa De Verão 3L",
+    "preco": 63.89,
+    "preco_por_kg": 63.89
   },
   {
     "id": 88,
@@ -450,23 +478,23 @@
   {
     "id": 89,
     "supermercado": "Giga",
-    "produto": "Limpador Multiuso Clássico Ypê 500Ml",
-    "preco": 4.05,
-    "preco_por_kg": 4.05
+    "produto": "Limpador Multiuso Uau Desengordurante Concentrado Limão-Siciliano Squeeze 500ml",
+    "preco": 4.39,
+    "preco_por_kg": 4.39
   },
   {
     "id": 90,
     "supermercado": "Giga",
-    "produto": "Limpador Vinagreen Multiuso Lavanda 500Ml",
-    "preco": 3.69,
-    "preco_por_kg": 3.69
+    "produto": "Limpador Multiuso Uau Desengordurante Concentrado Limão-Siciliano Squeeze 500ml",
+    "preco": 4.39,
+    "preco_por_kg": 4.39
   },
   {
     "id": 91,
     "supermercado": "Giga",
-    "produto": "Desinfetante Suprema Lavanda Bouquet Embalagem 2 Litros",
-    "preco": 4.99,
-    "preco_por_kg": 4.99
+    "produto": "Desinfetante Lysoform Suave Odor 1L",
+    "preco": 14.9,
+    "preco_por_kg": 14.9
   },
   {
     "id": 92,
@@ -483,53 +511,46 @@
     "preco_por_kg": 14.9
   },
   {
-    "id": 96,
+    "id": 97,
     "supermercado": "Giga",
-    "produto": "Detergente Sanitario Gel Adesivo Marine Pato 3 Unidades 38G",
-    "preco": 32.99,
-    "preco_por_kg": 32.99
+    "produto": "Escova Sanitária Com Suporte Condor",
+    "preco": 19.9,
+    "preco_por_kg": 19.9
   },
   {
     "id": 98,
     "supermercado": "Giga",
-    "produto": "Creme De Avela Com Cacau Cuisine & Co 350g",
-    "preco": 25.49,
-    "preco_por_kg": 25.49
+    "produto": "Creme Tratamento Skala Mais Cachos 2 Em 1 1Kg",
+    "preco": 10.59,
+    "preco_por_kg": 10.59
   },
   {
     "id": 99,
     "supermercado": "Giga",
-    "produto": "Sabonete Barra Francis Clássico Rosa Branca E Patchouli 90g",
-    "preco": 3.95,
-    "preco_por_kg": 3.95
+    "produto": "Sabonete Protex Fresh Antibacteriano 85G",
+    "preco": 3.99,
+    "preco_por_kg": 3.99
   },
   {
     "id": 100,
     "supermercado": "Giga",
-    "produto": "Sabonete Barra Francis Clássico Rosa Branca E Patchouli 90g",
-    "preco": 3.95,
-    "preco_por_kg": 3.95
+    "produto": "Sabonete Protex Fresh Antibacteriano 85G",
+    "preco": 3.99,
+    "preco_por_kg": 3.99
   },
   {
     "id": 101,
     "supermercado": "Giga",
-    "produto": "Sabonete Barra Francis Clássico Rosa Branca E Patchouli 90g",
-    "preco": 3.95,
-    "preco_por_kg": 3.95
+    "produto": "Sabonete Protex Fresh Antibacteriano 85G",
+    "preco": 3.99,
+    "preco_por_kg": 3.99
   },
   {
-    "id": 102,
+    "id": 104,
     "supermercado": "Giga",
-    "produto": "Detergente Sanitario Gel Adesivo Marine Pato 3 Unidades 38G",
-    "preco": 32.99,
-    "preco_por_kg": 32.99
-  },
-  {
-    "id": 103,
-    "supermercado": "Giga",
-    "produto": "Hastes Flexíveis Cotonetes 75 Unidades",
-    "preco": 6.89,
-    "preco_por_kg": 6.89
+    "produto": "Lenços Umedecidos Pampers Aroma De Aloe Vera 48 Unidades",
+    "preco": 15.69,
+    "preco_por_kg": 15.69
   },
   {
     "id": 106,
@@ -537,5 +558,12 @@
     "produto": "Enxaguante Bucal Hortelã Listerine Cool Mint Frasco 500Ml",
     "preco": 19.9,
     "preco_por_kg": 19.9
+  },
+  {
+    "id": 108,
+    "supermercado": "Giga",
+    "produto": "Areia Sanitária Para Gatos Baw Waw 4Kg",
+    "preco": 7.99,
+    "preco_por_kg": 7.99
   }
 ]
