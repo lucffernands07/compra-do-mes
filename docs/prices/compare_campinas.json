@@ -1,27 +1,27 @@
 {
-  "ultimaAtualizacao": "02/03/2026, 01:47:51",
+  "ultimaAtualizacao": "03/03/2026, 02:44:19",
   "cidade": "Campinas",
-  "totalCarrefour": "2168.65",
-  "totalGiga": "801.55",
-  "totalCovabra": "1905.23",
-  "totalPagueMenos": "1875.59",
-  "totalAtacadao": "1344.70",
-  "totalTenda": "1259.35",
-  "totalEnxuto": "1709.78",
-  "encontradosCarrefour": 104,
-  "encontradosGiga": 80,
+  "totalCarrefour": "2177.88",
+  "totalGiga": "829.55",
+  "totalCovabra": "1889.62",
+  "totalPagueMenos": "1922.81",
+  "totalAtacadao": "1358.18",
+  "totalTenda": "400.86",
+  "totalEnxuto": "1581.50",
+  "encontradosCarrefour": 103,
+  "encontradosGiga": 83,
   "encontradosCovabra": 104,
-  "encontradosPagueMenos": 103,
-  "encontradosAtacadao": 103,
-  "encontradosTenda": 107,
-  "encontradosEnxuto": 101,
+  "encontradosPagueMenos": 104,
+  "encontradosAtacadao": 104,
+  "encontradosTenda": 8,
+  "encontradosEnxuto": 99,
   "produtos": [
     {
       "id": "1",
       "carrefour": {
         "nome": "Ovo Branco Grande Ac Planalto Ovos Bandeja com 20",
-        "preco": 18.99,
-        "preco_por_kg": 18.99
+        "preco": 15.99,
+        "preco_por_kg": 15.99
       },
       "giga": {
         "nome": "N/A",
@@ -29,9 +29,9 @@
         "preco_por_kg": 0
       },
       "covabra": {
-        "nome": "Ovos Mantiqueira Jumbo Branco Polpa com 10 un",
-        "preco": 8.9,
-        "preco_por_kg": 8.9
+        "nome": "Ovos Jovanil Brancos Grandes Pvc com 12Unidades",
+        "preco": 12.9,
+        "preco_por_kg": 12.9
       },
       "paguemenos": {
         "nome": "Ovos Brancos Grandes Mantiqueira Happy Eggs Com 10 Unidades",
@@ -44,23 +44,23 @@
         "preco_por_kg": 8.99
       },
       "tenda": {
-        "nome": "Ovos Grandes Branco 12 Unidades",
-        "preco": 9.4,
-        "preco_por_kg": 9.4
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "N/A",
         "preco": 0,
         "preco_por_kg": 0
       },
-      "mais_barato": "Covabra"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "2",
       "carrefour": {
-        "nome": "Batata Lavada Único Carrefour 1Kg",
+        "nome": "Batata Monalisa Carrefour Aprox. 500g",
         "preco": 3.99,
-        "preco_por_kg": 3.99
+        "preco_por_kg": 7.98
       },
       "giga": {
         "nome": "Batata Rosada Gb Kg",
@@ -83,16 +83,16 @@
         "preco_por_kg": 3.32
       },
       "tenda": {
-        "nome": "Batata Doce Rosada Unidade",
-        "preco": 2.55,
-        "preco_por_kg": 2.55
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Batata Doce Branca 600g (aprox. 2 Unidades)",
         "preco": 6.59,
         "preco_por_kg": 10.98
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "3",
@@ -122,23 +122,23 @@
         "preco_por_kg": 3.15
       },
       "tenda": {
-        "nome": "Cebola Select 2kg",
-        "preco": 5.45,
-        "preco_por_kg": 2.73
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Cebola 500g (aprox. 3 A 4 Unidades)",
         "preco": 1.49,
         "preco_por_kg": 2.98
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Enxuto"
     },
     {
       "id": "4",
       "carrefour": {
         "nome": "Tomate Italiano Carrefour Aprox. 200g",
-        "preco": 2.19,
-        "preco_por_kg": 10.95
+        "preco": 1.75,
+        "preco_por_kg": 8.75
       },
       "giga": {
         "nome": "Tomate Italiano",
@@ -161,14 +161,14 @@
         "preco_por_kg": 13.7
       },
       "tenda": {
-        "nome": "Tomate Italiano 1kg",
-        "preco": 6.99,
-        "preco_por_kg": 6.99
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
-        "nome": "Tomate Grape La Vita 180g",
-        "preco": 8.99,
-        "preco_por_kg": 49.94
+        "nome": "Tomate Italiano Enxuto Origem Bandeja 500g",
+        "preco": 6.99,
+        "preco_por_kg": 13.98
       },
       "mais_barato": "Covabra"
     },
@@ -185,9 +185,9 @@
         "preco_por_kg": 12.9
       },
       "covabra": {
-        "nome": "Pimentão Verde + Fit 400g",
-        "preco": 6.99,
-        "preco_por_kg": 17.47
+        "nome": "Pimentão Verde 1 Unidade 368g",
+        "preco": 6.95,
+        "preco_por_kg": 18.89
       },
       "paguemenos": {
         "nome": "Pimentão Verde 400g",
@@ -200,16 +200,16 @@
         "preco_por_kg": 18.6
       },
       "tenda": {
-        "nome": "Pimentão Verde Saco 440g",
-        "preco": 4.4,
-        "preco_por_kg": 10
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Pimentão Verde 420g (aprox. 2 Unidades)",
         "preco": 4.99,
         "preco_por_kg": 11.88
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Enxuto"
     },
     {
       "id": "6",
@@ -239,9 +239,9 @@
         "preco_por_kg": 8.41
       },
       "tenda": {
-        "nome": "Pimentão Vermelho Saco 740g",
-        "preco": 14.73,
-        "preco_por_kg": 19.91
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Pimentão Vermelho 440g (aprox. 1 A 2 Unidades)",
@@ -254,8 +254,8 @@
       "id": "8",
       "carrefour": {
         "nome": "Pimentão Sweet Palermo Carrefour Mercado 300g",
-        "preco": 7.99,
-        "preco_por_kg": 26.63
+        "preco": 13.49,
+        "preco_por_kg": 44.97
       },
       "giga": {
         "nome": "Pimentão Verde",
@@ -263,9 +263,9 @@
         "preco_por_kg": 12.9
       },
       "covabra": {
-        "nome": "Pimentão Verde + Fit 400g",
-        "preco": 6.99,
-        "preco_por_kg": 17.47
+        "nome": "Pimentão Verde 1 Unidade 368g",
+        "preco": 6.95,
+        "preco_por_kg": 18.89
       },
       "paguemenos": {
         "nome": "Pimentão Verde 400g",
@@ -278,23 +278,23 @@
         "preco_por_kg": 17.3
       },
       "tenda": {
-        "nome": "Pimentão Verde Saco 440g",
-        "preco": 4.4,
-        "preco_por_kg": 10
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Pimentão Verde 420g (aprox. 2 Unidades)",
         "preco": 4.99,
         "preco_por_kg": 11.88
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Enxuto"
     },
     {
       "id": "9",
       "carrefour": {
-        "nome": "Limão Tahiti Único 700g",
-        "preco": 3.99,
-        "preco_por_kg": 5.7
+        "nome": "Limão Tahiti Turma da Monica Pacote 1kg",
+        "preco": 5.99,
+        "preco_por_kg": 5.99
       },
       "giga": {
         "nome": "Refresco Em Pó Limão Tang 18g",
@@ -317,14 +317,14 @@
         "preco_por_kg": 0.1
       },
       "tenda": {
-        "nome": "Refrigerante Limão Frutuba 2L",
-        "preco": 3.69,
-        "preco_por_kg": 1.84
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
-        "nome": "Refrigerante Limão Sukita Garrafa 2l",
-        "preco": 9.99,
-        "preco_por_kg": 5
+        "nome": "Limão Tahiti 400g (aprox. 4 Unidades)",
+        "preco": 1.19,
+        "preco_por_kg": 2.97
       },
       "mais_barato": "Atacadão"
     },
@@ -356,55 +356,16 @@
         "preco_por_kg": 0
       },
       "tenda": {
-        "nome": "Vagem Macarrão Bandeja 340g",
-        "preco": 5.75,
-        "preco_por_kg": 16.91
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
-        "nome": "Vagem Macarrao Caisp Org 400g",
-        "preco": 15.9,
-        "preco_por_kg": 39.75
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Giga"
-    },
-    {
-      "id": "11",
-      "carrefour": {
-        "nome": "Abobrinha Italiana Único 1Kg",
-        "preco": 5.59,
-        "preco_por_kg": 5.59
-      },
-      "giga": {
-        "nome": "Abóbrinha Italiana Kg",
-        "preco": 6.9,
-        "preco_por_kg": 6.9
-      },
-      "covabra": {
-        "nome": "Abobrinha Brasil 1 Unidade 647g",
-        "preco": 2.58,
-        "preco_por_kg": 3.99
-      },
-      "paguemenos": {
-        "nome": "Abobrinha Italiana 350g",
-        "preco": 2.7965,
-        "preco_por_kg": 7.99
-      },
-      "atacadao": {
-        "nome": "Abóbora Italiana 500g",
-        "preco": 4.99,
-        "preco_por_kg": 9.98
-      },
-      "tenda": {
-        "nome": "Abobrinha Italiana Unidade",
-        "preco": 2.2,
-        "preco_por_kg": 2.2
-      },
-      "enxuto": {
-        "nome": "Abobrinha Brasileira 1kg (aprox. 2 Unidades)",
-        "preco": 9.99,
-        "preco_por_kg": 9.99
-      },
-      "mais_barato": "Tenda"
     },
     {
       "id": "12",
@@ -419,9 +380,9 @@
         "preco_por_kg": 6.48
       },
       "covabra": {
-        "nome": "Beterraba + Fit 600g",
-        "preco": 4.99,
-        "preco_por_kg": 8.32
+        "nome": "Beterraba 1 Unidade 333g",
+        "preco": 2.99,
+        "preco_por_kg": 8.98
       },
       "paguemenos": {
         "nome": "Beterraba 350g",
@@ -434,9 +395,9 @@
         "preco_por_kg": 8.32
       },
       "tenda": {
-        "nome": "Beterraba Saco 1Kg",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Beterraba 520g (aprox. 2 Unidades)",
@@ -449,8 +410,8 @@
       "id": "13",
       "carrefour": {
         "nome": "Mandioquinha Carrefour Aprox. 300g",
-        "preco": 3.27,
-        "preco_por_kg": 10.9
+        "preco": 4.76,
+        "preco_por_kg": 15.87
       },
       "giga": {
         "nome": "Inhame",
@@ -473,23 +434,23 @@
         "preco_por_kg": 0
       },
       "tenda": {
-        "nome": "Farinha de Mandioca Grossa Kicaldo 1kg",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "N/A",
         "preco": 0,
         "preco_por_kg": 0
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Giga"
     },
     {
       "id": "15",
       "carrefour": {
         "nome": "Cenoura Carrefour Aprox. 250g",
-        "preco": 1.24,
-        "preco_por_kg": 4.96
+        "preco": 1.04,
+        "preco_por_kg": 4.16
       },
       "giga": {
         "nome": "Cenoura",
@@ -497,9 +458,9 @@
         "preco_por_kg": 4.98
       },
       "covabra": {
-        "nome": "Cenoura + Fit 600g",
-        "preco": 3.99,
-        "preco_por_kg": 6.65
+        "nome": "Cenoura 1 Unidade 323g",
+        "preco": 2.58,
+        "preco_por_kg": 7.99
       },
       "paguemenos": {
         "nome": "Cenoura 200g",
@@ -508,20 +469,20 @@
       },
       "atacadao": {
         "nome": "Mistura para Bolo Itaiquara Cenoura 390g",
-        "preco": 2.99,
-        "preco_por_kg": 7.67
+        "preco": 2.97,
+        "preco_por_kg": 7.62
       },
       "tenda": {
-        "nome": "Cenoura Saco 1kg",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Iogurte Danone Integral Laranja Cenoura E Mel",
         "preco": 4.39,
         "preco_por_kg": 4.39
       },
-      "mais_barato": "Enxuto"
+      "mais_barato": "Carrefour"
     },
     {
       "id": "16",
@@ -551,23 +512,23 @@
         "preco_por_kg": 10.39
       },
       "tenda": {
-        "nome": "Chuchu Unidade",
-        "preco": 1.85,
-        "preco_por_kg": 1.85
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
-        "nome": "Chuchu Enxuto Origem Bandeja 500g",
-        "preco": 4.99,
-        "preco_por_kg": 9.98
+        "nome": "Chuchu 1kg (aprox. 2 Unidades)",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Covabra"
     },
     {
       "id": "17",
       "carrefour": {
         "nome": "Mandioquinha Carrefour Aprox. 300g",
-        "preco": 3.27,
-        "preco_por_kg": 10.9
+        "preco": 4.76,
+        "preco_por_kg": 15.87
       },
       "giga": {
         "nome": "Mandioquinha",
@@ -590,23 +551,23 @@
         "preco_por_kg": 4.78
       },
       "tenda": {
-        "nome": "Mandioquinha Unidade",
-        "preco": 1.21,
-        "preco_por_kg": 1.21
+        "nome": "Caldo de Mandioquinha com Frango Na Panelinha Seara 300g",
+        "preco": 15.9,
+        "preco_por_kg": 53
       },
       "enxuto": {
         "nome": "Pão De Mandioquinha Enxuto Origem - Peso Aprox. 225g",
         "preco": 6.72,
         "preco_por_kg": 29.87
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "18",
       "carrefour": {
-        "nome": "Cheiro Verde Orgânico Carrefour Bio Em Unidade",
-        "preco": 5.99,
-        "preco_por_kg": 5.99
+        "nome": "Tempero Maggi Meu Segredo Cheiro Verde 49g",
+        "preco": 3.79,
+        "preco_por_kg": 77.35
       },
       "giga": {
         "nome": "Removedor Zulu Clean Sem Cheiro Embalagem 450Ml",
@@ -624,28 +585,28 @@
         "preco_por_kg": 0
       },
       "atacadao": {
-        "nome": "Tempero Meu Segredo Maggi Cheiro Verde 49g",
-        "preco": 2.78,
-        "preco_por_kg": 56.73
+        "nome": "Cheiro-Verde un",
+        "preco": 3.69,
+        "preco_por_kg": 3.69
       },
       "tenda": {
-        "nome": "Cheiro Verde Maço Unidade",
-        "preco": 3.49,
-        "preco_por_kg": 3.49
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Tempero Sazon Na Medida Cheiro Verde Pct 30g",
         "preco": 2.39,
         "preco_por_kg": 79.67
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "19",
       "carrefour": {
-        "nome": "Alface Roxa Carrefour Mercado Em Unidade",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
+        "nome": "Alface Lisa Orgânico Carrefour Bio Unidade",
+        "preco": 5.99,
+        "preco_por_kg": 5.99
       },
       "giga": {
         "nome": "N/A",
@@ -668,16 +629,16 @@
         "preco_por_kg": 4.15
       },
       "tenda": {
-        "nome": "Alface Crespa Unidade",
-        "preco": 3.99,
-        "preco_por_kg": 3.99
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Alface Lisa Enxuto Origem Maço",
         "preco": 4.45,
         "preco_por_kg": 4.45
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "20",
@@ -707,9 +668,9 @@
         "preco_por_kg": 0
       },
       "tenda": {
-        "nome": "Repolho Verde Unidade",
-        "preco": 4.07,
-        "preco_por_kg": 4.07
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Repolho Verde Fatiado Enxuto Origem - Peso Aprox.250g",
@@ -746,9 +707,9 @@
         "preco_por_kg": 19.67
       },
       "tenda": {
-        "nome": "Alho Descascado Kamar Pacote 500g",
-        "preco": 20.9,
-        "preco_por_kg": 41.8
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Alho Nacional Granel 250g (aprox. 4 Unidades)",
@@ -761,8 +722,8 @@
       "id": "22",
       "carrefour": {
         "nome": "Mamão Formosa Garantia de Origem Aprox. 1,6 Kg",
-        "preco": 11.18,
-        "preco_por_kg": 6.99
+        "preco": 13.9,
+        "preco_por_kg": 8.69
       },
       "giga": {
         "nome": "Mamão Formosa",
@@ -781,27 +742,27 @@
       },
       "atacadao": {
         "nome": "Iogurte Pense Zero Batavo Mamão 1,15kg",
-        "preco": 12.98,
-        "preco_por_kg": 11.29
+        "preco": 9.97,
+        "preco_por_kg": 8.67
       },
       "tenda": {
-        "nome": "Mamão Papaya Unidade",
-        "preco": 5.74,
-        "preco_por_kg": 5.74
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Mamão Formosa 1,6 Kg (1 Unidade)",
         "preco": 12.78,
         "preco_por_kg": 7.99
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Giga"
     },
     {
       "id": "23",
       "carrefour": {
         "nome": "Banana Nanica Carrefour Aprox. 120g (estimado de cada banana)",
-        "preco": 0.92,
-        "preco_por_kg": 7.67
+        "preco": 0.74,
+        "preco_por_kg": 6.17
       },
       "giga": {
         "nome": "Banana Nanica",
@@ -815,8 +776,8 @@
       },
       "paguemenos": {
         "nome": "Banana Nanica 500g",
-        "preco": 3.495,
-        "preco_por_kg": 6.99
+        "preco": 2.995,
+        "preco_por_kg": 5.99
       },
       "atacadao": {
         "nome": "Iogurte Batavo Banana, Maçã e Cereal 1,15kg",
@@ -824,23 +785,23 @@
         "preco_por_kg": 12.09
       },
       "tenda": {
-        "nome": "Banana Prata Unidade",
-        "preco": 1.5,
-        "preco_por_kg": 1.5
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Banana Nanica 1,1kg (aprox. 6 Unidades)",
         "preco": 4.38,
         "preco_por_kg": 3.98
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Covabra"
     },
     {
       "id": "24",
       "carrefour": {
         "nome": "Mini Tomate Mônica Uva Trebeschi",
-        "preco": 6.99,
-        "preco_por_kg": 6.99
+        "preco": 9.9,
+        "preco_por_kg": 9.9
       },
       "giga": {
         "nome": "Creme De Tratamento Skala Uva 1Kg",
@@ -863,9 +824,9 @@
         "preco_por_kg": 4.69
       },
       "tenda": {
-        "nome": "Néctar de Uva Nutri Néctar 1L",
-        "preco": 5.59,
-        "preco_por_kg": 5.59
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Refrigerante Sukita Uva 2l",
@@ -878,13 +839,13 @@
       "id": "25",
       "carrefour": {
         "nome": "Maçã Gala Carrefour Aprox. 200g",
-        "preco": 1.98,
-        "preco_por_kg": 9.9
+        "preco": 2.59,
+        "preco_por_kg": 12.95
       },
       "giga": {
-        "nome": "Maçã Pacote 850g",
-        "preco": 10.99,
-        "preco_por_kg": 10.99
+        "nome": "Sabonete Flor De Ypê Flor De Maçã E Framboesa 85g",
+        "preco": 1.87,
+        "preco_por_kg": 1.87
       },
       "covabra": {
         "nome": "Maçã Gala 1 Unidade 306g",
@@ -902,23 +863,23 @@
         "preco_por_kg": 4.7
       },
       "tenda": {
-        "nome": "Maçã Golden Unidade",
-        "preco": 3.18,
-        "preco_por_kg": 3.18
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Detergente Líquido Ypê Maça 500ml",
         "preco": 2.89,
         "preco_por_kg": 5.78
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Giga"
     },
     {
       "id": "26",
       "carrefour": {
         "nome": "Mexerica Importada do Uruguai Aprox. 300g",
-        "preco": 5.09,
-        "preco_por_kg": 16.97
+        "preco": 4.07,
+        "preco_por_kg": 13.57
       },
       "giga": {
         "nome": "N/A",
@@ -941,9 +902,9 @@
         "preco_por_kg": 0
       },
       "tenda": {
-        "nome": "Mexerica Carioca 120g",
-        "preco": 0.75,
-        "preco_por_kg": 6.25
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "N/A",
@@ -980,16 +941,16 @@
         "preco_por_kg": 9.7
       },
       "tenda": {
-        "nome": "Margarina com Sal Dualis 500g",
-        "preco": 3.49,
-        "preco_por_kg": 6.98
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Margarina Doriana Com Sal 500g",
         "preco": 5.99,
         "preco_por_kg": 11.98
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "28",
@@ -1009,9 +970,9 @@
         "preco_por_kg": 5.79
       },
       "paguemenos": {
-        "nome": "Leite Longa Vida Itambé Desnatado Zero Lactose 1l",
-        "preco": 4.99,
-        "preco_por_kg": 4.99
+        "nome": "Leite Semidesnatado Italac Zero Lactose 1l",
+        "preco": 4.95,
+        "preco_por_kg": 4.95
       },
       "atacadao": {
         "nome": "Leite Longa Vida Parmalat Zero Lactose Semidesnatado 1L",
@@ -1019,9 +980,9 @@
         "preco_por_kg": 3.27
       },
       "tenda": {
-        "nome": "Leite Desnatado Zero Lactose Italac 1L",
-        "preco": 3.89,
-        "preco_por_kg": 3.89
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Leite L.v Piracanjuba 0% Zero Lactose 1l",
@@ -1048,9 +1009,9 @@
         "preco_por_kg": 54.9
       },
       "paguemenos": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Requeijão Cremoso Itambé Nolac Zero Lactose 400g",
+        "preco": 18.99,
+        "preco_por_kg": 47.47
       },
       "atacadao": {
         "nome": "Requeijão Cremoso Batavo Light Pense Zero 400g",
@@ -1072,9 +1033,9 @@
     {
       "id": "30",
       "carrefour": {
-        "nome": "Queijo Mussarela Fatiado President 1kg",
-        "preco": 50.49,
-        "preco_por_kg": 50.49
+        "nome": "Queijo Mussarela Fatiado Mandaká com 150 g",
+        "preco": 7.19,
+        "preco_por_kg": 47.93
       },
       "giga": {
         "nome": "Quejo Mussarela F4 Três Barras",
@@ -1092,14 +1053,14 @@
         "preco_por_kg": 49.75
       },
       "atacadao": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Queijo Mussarela Fatiado Ipanema Zero Lactose 150g",
+        "preco": 6.98,
+        "preco_por_kg": 46.53
       },
       "tenda": {
-        "nome": "Queijo Mussarela Litoral Peça 4,2kg",
-        "preco": 125.58,
-        "preco_por_kg": 29.9
+        "nome": "Pizza Mussarela Seara 440g",
+        "preco": 15.9,
+        "preco_por_kg": 36.14
       },
       "enxuto": {
         "nome": "Queijo Mussarela Bandeira Palito Kg",
@@ -1136,9 +1097,9 @@
         "preco_por_kg": 21.33
       },
       "tenda": {
-        "nome": "Presunto Cozido Perdigao sem Capa Fatiado 400g",
-        "preco": 9.96,
-        "preco_por_kg": 24.9
+        "nome": "Empanado Presunto e Queijo Seara 110g",
+        "preco": 4.5,
+        "preco_por_kg": 40.91
       },
       "enxuto": {
         "nome": "Presunto Levissimo Seara Fat Kg",
@@ -1160,9 +1121,9 @@
         "preco_por_kg": 12.65
       },
       "covabra": {
-        "nome": "Mortadela Seara Gourmet Defumada Fatiada 1 Pacote 206g",
-        "preco": 4.09,
-        "preco_por_kg": 19.85
+        "nome": "Mortadela Marba Fatiada 1 Pacote 206g",
+        "preco": 3.89,
+        "preco_por_kg": 18.88
       },
       "paguemenos": {
         "nome": "Mortadela Seara Confiança 1kg",
@@ -1175,9 +1136,9 @@
         "preco_por_kg": 7.9
       },
       "tenda": {
-        "nome": "Mortadela Estrelinha 400g",
-        "preco": 4.15,
-        "preco_por_kg": 10.38
+        "nome": "Mortadela Tradicional Fatiada Seara 180g",
+        "preco": 5.75,
+        "preco_por_kg": 31.94
       },
       "enxuto": {
         "nome": "Mortadela Frango Confianca Seara 1kg",
@@ -1189,9 +1150,9 @@
     {
       "id": "33",
       "carrefour": {
-        "nome": "Batata Pré-Frita Palito Congelada Uai Pacote 2kg",
-        "preco": 33.79,
-        "preco_por_kg": 16.89
+        "nome": "Batata Pré-Frita Palito Tradicional Congelada Bem Brasil Seleção Especial Pacote 1,5kg",
+        "preco": 23.29,
+        "preco_por_kg": 15.53
       },
       "giga": {
         "nome": "Batata Congelada Tradicional Bem Brasil 1,050Kg",
@@ -1214,14 +1175,14 @@
         "preco_por_kg": 8.95
       },
       "tenda": {
-        "nome": "Batata Palito Congelada Uai - 2kg",
-        "preco": 18.9,
-        "preco_por_kg": 9.45
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
-        "nome": "Batata Palito Cong Bem Brasil1,5kg",
-        "preco": 17.89,
-        "preco_por_kg": 11.93
+        "nome": "Batata Palito Trevisan Congelada 1,5kg",
+        "preco": 16.98,
+        "preco_por_kg": 11.32
       },
       "mais_barato": "Atacadão"
     },
@@ -1253,9 +1214,9 @@
         "preco_por_kg": 4.3
       },
       "tenda": {
-        "nome": "Seleta de Legumes Congelados De Marchi 1,02kg",
-        "preco": 13.9,
-        "preco_por_kg": 13.63
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Legumes De Marchi Saltear Congelado 1,02kg",
@@ -1267,7 +1228,7 @@
     {
       "id": "36",
       "carrefour": {
-        "nome": "Água De Coco Kero Coco Caixa 1L",
+        "nome": "Água de Coco Coco Quadrado Com 1L",
         "preco": 8.99,
         "preco_por_kg": 8.99
       },
@@ -1292,16 +1253,16 @@
         "preco_por_kg": 6.9
       },
       "tenda": {
-        "nome": "Água de Coco Nocoko Caixa 200ml",
-        "preco": 0.99,
-        "preco_por_kg": 4.95
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
-        "nome": "Água De Coco Quadrado Tp 1l",
-        "preco": 9.89,
-        "preco_por_kg": 9.89
+        "nome": "Água De Coco Sococo Mais Tangerina 200ml",
+        "preco": 1.69,
+        "preco_por_kg": 8.45
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "37",
@@ -1331,9 +1292,9 @@
         "preco_por_kg": 0.22
       },
       "tenda": {
-        "nome": "Leite Fermentado Baunilha Frutap Big Garrafa 1,2kg",
-        "preco": 9.99,
-        "preco_por_kg": 8.33
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Leite Fermentado Yakult 40 Light Com 6 Unidades 480g",
@@ -1365,14 +1326,14 @@
         "preco_por_kg": 19.43
       },
       "atacadao": {
-        "nome": "Bebida Láctea Frutilac Polpa Morango 480g",
-        "preco": 4.49,
-        "preco_por_kg": 9.35
+        "nome": "Iogurte Polpa Nestlé Morango 510g",
+        "preco": 4.68,
+        "preco_por_kg": 9.18
       },
       "tenda": {
-        "nome": "Bebida Láctea Fermentada Polpa de Morango Elegê 510g",
-        "preco": 5.19,
-        "preco_por_kg": 10.18
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Polpa Congelada De Marchi Morango 100g",
@@ -1409,9 +1370,9 @@
         "preco_por_kg": 0
       },
       "tenda": {
-        "nome": "Polpa de Fruta Acerola Select 100g",
-        "preco": 2.19,
-        "preco_por_kg": 21.9
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Polpa Congelada De Marchi Acerola E Laranja100g",
@@ -1448,9 +1409,9 @@
         "preco_por_kg": 20.9
       },
       "tenda": {
-        "nome": "Polpa de Fruta Abacaxi com Hortelã Select 100g",
-        "preco": 2.09,
-        "preco_por_kg": 20.9
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Polpa Congelada De Marchi Abacaxi Com Hortela 100g",
@@ -1487,28 +1448,28 @@
         "preco_por_kg": 2.66
       },
       "tenda": {
-        "nome": "Arroz Tipo 1 Visconde 5kg",
-        "preco": 12.99,
-        "preco_por_kg": 2.6
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Arroz Camil Tp1 5kg",
         "preco": 24.99,
         "preco_por_kg": 5
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "42",
       "carrefour": {
-        "nome": "Feijão Solito Preto Tipo 1Kg",
-        "preco": 5.49,
-        "preco_por_kg": 5.49
+        "nome": "Feijão Preto Tipo 1 Kicaldo 1Kg",
+        "preco": 5.09,
+        "preco_por_kg": 5.09
       },
       "giga": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Feijão Carioca A Vapor Caldo Bom 250g",
+        "preco": 8.8,
+        "preco_por_kg": 8.8
       },
       "covabra": {
         "nome": "Feijão Oliron Carioca 1kg",
@@ -1526,9 +1487,9 @@
         "preco_por_kg": 5.29
       },
       "tenda": {
-        "nome": "Feijão Preto Tipo 1 Select 1kg",
-        "preco": 5.09,
-        "preco_por_kg": 5.09
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Feijao Preto Camil 1kg",
@@ -1565,9 +1526,9 @@
         "preco_por_kg": 7.98
       },
       "tenda": {
-        "nome": "Macarrão de Arroz Espaguete Urbano 500g",
-        "preco": 3.95,
-        "preco_por_kg": 7.9
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Macarrão Galo Semola Espaguete Furadinho Pa 500g",
@@ -1643,9 +1604,9 @@
         "preco_por_kg": 7.98
       },
       "tenda": {
-        "nome": "Macarrão de Arroz Parafuso Urbano 500g",
-        "preco": 3.95,
-        "preco_por_kg": 7.9
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Macarrão D Benta Com Ovos Parafuso 500g",
@@ -1658,8 +1619,8 @@
       "id": "46",
       "carrefour": {
         "nome": "Queijo Parmesão Ralado Vigor 100g",
-        "preco": 12.69,
-        "preco_por_kg": 126.9
+        "preco": 10.19,
+        "preco_por_kg": 101.9
       },
       "giga": {
         "nome": "Queijo Mussarela F4 Inteiro Monte Castelo Kg",
@@ -1682,9 +1643,9 @@
         "preco_por_kg": 64.75
       },
       "tenda": {
-        "nome": "Queijo Parmesão Ralado Teixeira Tradicional 40g",
-        "preco": 2.99,
-        "preco_por_kg": 74.75
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Queijo Parmesão Vale Canastra Ralado",
@@ -1721,9 +1682,9 @@
         "preco_por_kg": 14.36
       },
       "tenda": {
-        "nome": "Tomate Pelado Inteiro Sacciali 400g",
-        "preco": 6.19,
-        "preco_por_kg": 15.47
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Tomate Pelado Olé Inteiro Lata 240g",
@@ -1735,9 +1696,9 @@
     {
       "id": "48",
       "carrefour": {
-        "nome": "Molho de Tomate Tradicional Sófruta Sachê 300g",
-        "preco": 1.29,
-        "preco_por_kg": 4.3
+        "nome": "Molho de Tomate Tradicional Tarantella Sachê 300 g",
+        "preco": 1.69,
+        "preco_por_kg": 5.63
       },
       "giga": {
         "nome": "Molho De Tomate Tradicional Predilecta 300g",
@@ -1760,9 +1721,9 @@
         "preco_por_kg": 4.3
       },
       "tenda": {
-        "nome": "Molho Tomate Pomodoro Tradicional Cica Sache 300g",
-        "preco": 1.35,
-        "preco_por_kg": 4.5
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Molho Tomate Quero Tradicional 240g",
@@ -1774,9 +1735,9 @@
     {
       "id": "49",
       "carrefour": {
-        "nome": "Azeite de Dendê Kodilar 200ml",
-        "preco": 8.99,
-        "preco_por_kg": 44.95
+        "nome": "Azeite Terras de Camões Extra Virgem Frutado 500ml",
+        "preco": 22.09,
+        "preco_por_kg": 44.18
       },
       "giga": {
         "nome": "Azeite De Oliva Clássico Gallo 250Ml",
@@ -1799,23 +1760,23 @@
         "preco_por_kg": 47.8
       },
       "tenda": {
-        "nome": "Azeite Extra Virgem Select 2,01L",
-        "preco": 87.5,
-        "preco_por_kg": 43.53
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
-        "nome": "Pão De Forma Panco Artesanale Alecrim E Azeite 350g",
-        "preco": 10.99,
-        "preco_por_kg": 31.4
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Giga"
     },
     {
       "id": "50",
       "carrefour": {
-        "nome": "Azeitona Preta sem Caroço em Conserva Ting 320 g",
-        "preco": 17.49,
-        "preco_por_kg": 54.66
+        "nome": "Azeitonas Verdes sem Caroço Carrefour 120g",
+        "preco": 5.79,
+        "preco_por_kg": 48.25
       },
       "giga": {
         "nome": "Azeitonas Verdes Imperador Com Caroço Embalagem 200G",
@@ -1823,9 +1784,9 @@
         "preco_por_kg": 11.9
       },
       "covabra": {
-        "nome": "Azeitona Diza Verde sem Caroco Premium Vidro 500g",
-        "preco": 29.99,
-        "preco_por_kg": 59.98
+        "nome": "Azeitona Vale Fértil Verde sem Caroço Doypack 120g",
+        "preco": 7.89,
+        "preco_por_kg": 65.75
       },
       "paguemenos": {
         "nome": "Azeitona Verde Inteira Tozzi Sem Caroço 120g",
@@ -1838,9 +1799,9 @@
         "preco_por_kg": 32.5
       },
       "tenda": {
-        "nome": "Azeitona Verde sem Caroço Campo Belo 2kg",
-        "preco": 64.9,
-        "preco_por_kg": 32.45
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Azeitona Verde Rivoli Sem Caraço Light 160g",
@@ -1877,9 +1838,9 @@
         "preco_por_kg": 6.6
       },
       "tenda": {
-        "nome": "Molho Shoyu Campo Belo 1,01L",
-        "preco": 6.89,
-        "preco_por_kg": 6.82
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Molho Shoyu Kirin Tradicional 900ml",
@@ -1891,9 +1852,9 @@
     {
       "id": "53",
       "carrefour": {
-        "nome": "Farofa de Mandioca Temperada Kodilar 500g",
-        "preco": 6.99,
-        "preco_por_kg": 13.98
+        "nome": "Farofa de Mandioca Temperada Yoki Leve 400g Pague 350g",
+        "preco": 5.39,
+        "preco_por_kg": 13.47
       },
       "giga": {
         "nome": "N/A",
@@ -1916,9 +1877,9 @@
         "preco_por_kg": 11.29
       },
       "tenda": {
-        "nome": "Farofa de Mandioca Temperada Pronta Kisabor 400g",
-        "preco": 7.55,
-        "preco_por_kg": 18.88
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Farofa De Milho Yoki Temperada 400g",
@@ -1941,8 +1902,8 @@
       },
       "covabra": {
         "nome": "Creme de Tratamento Skala Amido de Milho 1kg",
-        "preco": 15.49,
-        "preco_por_kg": 15.49
+        "preco": 12.9,
+        "preco_por_kg": 12.9
       },
       "paguemenos": {
         "nome": "Amido de Milho Uni Sabor 500g",
@@ -1955,28 +1916,28 @@
         "preco_por_kg": 9.98
       },
       "tenda": {
-        "nome": "Amido de Milho Pq 1kg",
-        "preco": 7.9,
-        "preco_por_kg": 7.9
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Creme Tratamento Skala Amido De Milho 1kg",
         "preco": 14.99,
         "preco_por_kg": 14.99
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "55",
       "carrefour": {
-        "nome": "Óleo de Soja Refinado Coamo 900ml",
-        "preco": 6.99,
-        "preco_por_kg": 7.77
+        "nome": "Óleo de Soja Soya 900ml",
+        "preco": 6.29,
+        "preco_por_kg": 6.99
       },
       "giga": {
-        "nome": "Óleo E Serum Bifásico Dove Bond Repair 110Ml",
-        "preco": 44.05,
-        "preco_por_kg": 44.05
+        "nome": "Óleo Lubrificante Para Moto Ipiranga Protection Sl 20W50 4T Embalagem 1L",
+        "preco": 30.9,
+        "preco_por_kg": 30.9
       },
       "covabra": {
         "nome": "Óleo de Soja Soya 900ml",
@@ -1994,16 +1955,16 @@
         "preco_por_kg": 7.72
       },
       "tenda": {
-        "nome": "Óleo de Soja Select 900ml",
-        "preco": 6.49,
-        "preco_por_kg": 7.21
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Oleo Soja Vitaliv",
         "preco": 8.99,
         "preco_por_kg": 8.99
       },
-      "mais_barato": "Covabra"
+      "mais_barato": "Carrefour"
     },
     {
       "id": "56",
@@ -2023,19 +1984,19 @@
         "preco_por_kg": 3.99
       },
       "paguemenos": {
-        "nome": "Vinagre de Álcool Uni Sabor 5l",
-        "preco": 15.99,
-        "preco_por_kg": 3.2
+        "nome": "Vinagre de Álcool Uni Sabor Colorido 750ml",
+        "preco": 2.99,
+        "preco_por_kg": 3.99
       },
       "atacadao": {
-        "nome": "Vinagre de Álcool Vitalia 750ml",
-        "preco": 1.59,
-        "preco_por_kg": 2.12
+        "nome": "Vinagre de Álcool Castelo 5L",
+        "preco": 12.9,
+        "preco_por_kg": 2.58
       },
       "tenda": {
-        "nome": "Vinagre de Álcool Colorido Vitalia 750ml",
-        "preco": 2.29,
-        "preco_por_kg": 3.05
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Vinagre Toscano De Álcool Colorido 750ml",
@@ -2072,16 +2033,16 @@
         "preco_por_kg": 6.45
       },
       "tenda": {
-        "nome": "Milho Verde 300g",
-        "preco": 1.08,
-        "preco_por_kg": 3.6
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Rosq Panco Milho Verde 500g",
         "preco": 11.89,
         "preco_por_kg": 23.78
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Giga"
     },
     {
       "id": "58",
@@ -2111,23 +2072,23 @@
         "preco_por_kg": 19.91
       },
       "tenda": {
-        "nome": "Seleta de Legumes Congelados De Marchi 1,02kg",
-        "preco": 13.9,
-        "preco_por_kg": 13.63
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Seleta Legumes Quero Lata 170g",
         "preco": 6.39,
         "preco_por_kg": 37.59
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "59",
       "carrefour": {
-        "nome": "Sardinha em Óleo 88 125g",
-        "preco": 5.89,
-        "preco_por_kg": 47.12
+        "nome": "Sardinha Ralada em Óleo Comestível 88 110g",
+        "preco": 4.39,
+        "preco_por_kg": 39.91
       },
       "giga": {
         "nome": "Sardinha Com Óleo Coqueiro Lata 125g",
@@ -2150,9 +2111,9 @@
         "preco_por_kg": 46.13
       },
       "tenda": {
-        "nome": "Sardinha em Óleo Pescador 125g",
-        "preco": 4.79,
-        "preco_por_kg": 38.32
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Sardinha Coqueiro Oleo 125g",
@@ -2189,9 +2150,9 @@
         "preco_por_kg": 3.98
       },
       "tenda": {
-        "nome": "Açúcar Demerara Caravelas 1kg",
-        "preco": 5.49,
-        "preco_por_kg": 5.49
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Açúcar Demerara Native Orgânico 1kg",
@@ -2203,9 +2164,9 @@
     {
       "id": "61",
       "carrefour": {
-        "nome": "Açúcar Mascavo Doces Santo Antônio Pacote 1kg",
-        "preco": 14.99,
-        "preco_por_kg": 14.99
+        "nome": "Açúcar Mascavo Dacolonia 1kg",
+        "preco": 15.99,
+        "preco_por_kg": 15.99
       },
       "giga": {
         "nome": "Açúcar Refinado Guarani 1Kg",
@@ -2228,9 +2189,9 @@
         "preco_por_kg": 14.98
       },
       "tenda": {
-        "nome": "Açúcar Mascavo Jp Pereira 1 Kg",
-        "preco": 15.99,
-        "preco_por_kg": 15.99
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Acucar Granelli Mascavo 1kg",
@@ -2242,9 +2203,9 @@
     {
       "id": "62",
       "carrefour": {
-        "nome": "Sal Refinado Globo 1 kg",
-        "preco": 2.29,
-        "preco_por_kg": 2.29
+        "nome": "Sal Refinado Carrefour 1Kg",
+        "preco": 2.19,
+        "preco_por_kg": 2.19
       },
       "giga": {
         "nome": "Pipoca De Microondas Natural Com Sal Da Terrinha 85g",
@@ -2263,20 +2224,20 @@
       },
       "atacadao": {
         "nome": "Sal Lebre Refinado 1kg",
-        "preco": 1.99,
-        "preco_por_kg": 1.99
+        "preco": 2.79,
+        "preco_por_kg": 2.79
       },
       "tenda": {
-        "nome": "Sal Grosso Marfim 1kg",
-        "preco": 2.09,
-        "preco_por_kg": 2.09
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Sal Refinado Lebre 1kg",
         "preco": 2.99,
         "preco_por_kg": 2.99
       },
-      "mais_barato": "Atacadão"
+      "mais_barato": "Pague Menos"
     },
     {
       "id": "63",
@@ -2306,9 +2267,9 @@
         "preco_por_kg": 6.98
       },
       "tenda": {
-        "nome": "Suco Concentrado de Caju Maguary 500ml",
-        "preco": 4.45,
-        "preco_por_kg": 8.9
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Suco Maguary Concentrado Caju 500ml",
@@ -2341,13 +2302,13 @@
       },
       "atacadao": {
         "nome": "Ketchup Campo Belo 3,05kg",
-        "preco": 13.9,
-        "preco_por_kg": 4.56
+        "preco": 9.9,
+        "preco_por_kg": 3.25
       },
       "tenda": {
-        "nome": "Ketchup Tradicional Ekma 3,3Kg",
-        "preco": 20.5,
-        "preco_por_kg": 6.21
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Ketchup Heinz Picles",
@@ -2384,9 +2345,9 @@
         "preco_por_kg": 7.98
       },
       "tenda": {
-        "nome": "Maionese Quero 1,020kg",
-        "preco": 12.89,
-        "preco_por_kg": 12.64
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Maionese Quero Tradicional 495g",
@@ -2403,9 +2364,9 @@
         "preco_por_kg": 26.84
       },
       "giga": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Mostarda Amarela Hemmer 200G",
+        "preco": 12.35,
+        "preco_por_kg": 12.35
       },
       "covabra": {
         "nome": "Mostarda Hemmer Amarela 700g",
@@ -2423,23 +2384,23 @@
         "preco_por_kg": 8.76
       },
       "tenda": {
-        "nome": "Mostarda Campo Belo 3,05kg",
-        "preco": 17.9,
-        "preco_por_kg": 5.87
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Mostarda Cepera 1,01kg",
         "preco": 14.99,
         "preco_por_kg": 14.84
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "67",
       "carrefour": {
         "nome": "Leite Condensado Semi Desnatado Campos Jordão Caixa 395g",
-        "preco": 4.49,
-        "preco_por_kg": 11.37
+        "preco": 3.99,
+        "preco_por_kg": 10.1
       },
       "giga": {
         "nome": "Leite Condensado Semidesnatado Piracanjuba 395g",
@@ -2457,19 +2418,19 @@
         "preco_por_kg": 17.44
       },
       "atacadao": {
-        "nome": "Iogurte Frutap Morango com Leite Condensado 1,25kg",
-        "preco": 9.99,
-        "preco_por_kg": 7.99
+        "nome": "Leite Condensado Milk + Semidesnatado 395g",
+        "preco": 4.85,
+        "preco_por_kg": 12.28
       },
       "tenda": {
-        "nome": "Leite Condensado Semidesnatado Campos do Jordão 395g",
-        "preco": 4.59,
-        "preco_por_kg": 11.62
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
-        "nome": "Leite Condensado Italac Tp 395g",
-        "preco": 6.99,
-        "preco_por_kg": 17.7
+        "nome": "Iogurte Frutap Morango Com Leite Condensado 1,25kg",
+        "preco": 16.4,
+        "preco_por_kg": 13.12
       },
       "mais_barato": "Giga"
     },
@@ -2477,8 +2438,8 @@
       "id": "68",
       "carrefour": {
         "nome": "Mistura de Creme de Leite Mococa 200g",
-        "preco": 1.99,
-        "preco_por_kg": 9.95
+        "preco": 2.09,
+        "preco_por_kg": 10.45
       },
       "giga": {
         "nome": "Creme De Leite Italac 200G",
@@ -2501,9 +2462,9 @@
         "preco_por_kg": 9.8
       },
       "tenda": {
-        "nome": "Creme de Leite Mococa 200g",
-        "preco": 2.19,
-        "preco_por_kg": 10.95
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Creme De Leite Italac Tp 200g",
@@ -2540,9 +2501,9 @@
         "preco_por_kg": 109.88
       },
       "tenda": {
-        "nome": "Capsula de Café Espresso Supremo 3 Corações 10 unid",
-        "preco": 16.9,
-        "preco_por_kg": 16.9
+        "nome": "Capsula de Café Cerrado Mineiro Compativel com Nespresso 3 Corações 10 unid",
+        "preco": 19.99,
+        "preco_por_kg": 19.99
       },
       "enxuto": {
         "nome": "Capsula de Café Descafeinado 3 Corações 10 unid",
@@ -2554,9 +2515,9 @@
     {
       "id": "70",
       "carrefour": {
-        "nome": "Café Torrado e Moído Tradicional Jardim 500 g",
-        "preco": 19.9,
-        "preco_por_kg": 39.8
+        "nome": "Café Torrado e Moído Caboclo Tradicional Almofada 500 g",
+        "preco": 24.49,
+        "preco_por_kg": 48.98
       },
       "giga": {
         "nome": "Café Solúvel 3 Corações Refil Tradicional 40G",
@@ -2575,13 +2536,13 @@
       },
       "atacadao": {
         "nome": "Café Bom Jesus Tradicional 500g",
-        "preco": 22.88,
-        "preco_por_kg": 45.76
+        "preco": 25.98,
+        "preco_por_kg": 51.96
       },
       "tenda": {
-        "nome": "Café Torrado e Moído Tradicional União 500g",
-        "preco": 25.9,
-        "preco_por_kg": 51.8
+        "nome": "Café em pó 3 Corações Tradicional 500g",
+        "preco": 27.99,
+        "preco_por_kg": 55.98
       },
       "enxuto": {
         "nome": "Café Almofada Enxuto Desde 1963 Tradicional 500g",
@@ -2594,8 +2555,8 @@
       "id": "71",
       "carrefour": {
         "nome": "Chá Lipton Ice Tea Pêssego Garrafa 1,5L",
-        "preco": 6.69,
-        "preco_por_kg": 4.46
+        "preco": 5.39,
+        "preco_por_kg": 3.59
       },
       "giga": {
         "nome": "N/A",
@@ -2618,9 +2579,9 @@
         "preco_por_kg": 2.65
       },
       "tenda": {
-        "nome": "Chá Matte Natural Leão 10 Sachês",
-        "preco": 2.89,
-        "preco_por_kg": 2.89
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Chá Matte Leão Natural Pet 1,5l",
@@ -2657,9 +2618,9 @@
         "preco_por_kg": 44.9
       },
       "tenda": {
-        "nome": "Pipoca para Micro-Ondas Bacon Yoki Pacote 100g",
-        "preco": 4.69,
-        "preco_por_kg": 46.9
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "N/A",
@@ -2720,9 +2681,9 @@
         "preco_por_kg": 3.15
       },
       "covabra": {
-        "nome": "Farinha Milho Dona Clara Flocão 500g",
-        "preco": 3.39,
-        "preco_por_kg": 6.78
+        "nome": "Flocos de Milho Kisabor Flocão 500g",
+        "preco": 4.59,
+        "preco_por_kg": 9.18
       },
       "paguemenos": {
         "nome": "Farinha de Milho Dona Clara Flocão 500g",
@@ -2735,9 +2696,9 @@
         "preco_por_kg": 3.78
       },
       "tenda": {
-        "nome": "Flocão de Milho Pré-Cozido Dalon 400g",
-        "preco": 1.69,
-        "preco_por_kg": 4.22
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Flocão Dona Clara 500g",
@@ -2749,9 +2710,9 @@
     {
       "id": "75",
       "carrefour": {
-        "nome": "Pão de Forma Tradicional Visconti Pacote 400 g",
-        "preco": 5.19,
-        "preco_por_kg": 12.97
+        "nome": "Pão de Forma Integral Wickbold 500g",
+        "preco": 7.69,
+        "preco_por_kg": 15.38
       },
       "giga": {
         "nome": "Pão De Forma Tradicional Kim Pacote 400g",
@@ -2769,14 +2730,14 @@
         "preco_por_kg": 18.22
       },
       "atacadao": {
-        "nome": "Pão de Forma Seven Boys 450g",
-        "preco": 5.48,
-        "preco_por_kg": 12.18
+        "nome": "Pão de Forma De Panes Integral 400g",
+        "preco": 5.09,
+        "preco_por_kg": 12.72
       },
       "tenda": {
-        "nome": "Pão Select Forma Tradicional 500g",
-        "preco": 6.35,
-        "preco_por_kg": 12.7
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Pão de Forma Tradicional Enxuto Desde 1963 500g",
@@ -2788,9 +2749,9 @@
     {
       "id": "76",
       "carrefour": {
-        "nome": "Goma Tapioca Siamar 500 g",
-        "preco": 4.49,
-        "preco_por_kg": 8.98
+        "nome": "Tapioca Garlic Foods 1kg",
+        "preco": 10.19,
+        "preco_por_kg": 10.19
       },
       "giga": {
         "nome": "Massa Para Tapioca Terrinha 500G",
@@ -2813,14 +2774,14 @@
         "preco_por_kg": 9.79
       },
       "tenda": {
-        "nome": "Massa de Tapioca Beijubom 1kg",
-        "preco": 9.99,
-        "preco_por_kg": 9.99
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
-        "nome": "Tapioca Enxuto Desde 1963 500g",
-        "preco": 7.99,
-        "preco_por_kg": 15.98
+        "nome": "Tapioca Da Terrinha 500g",
+        "preco": 4.69,
+        "preco_por_kg": 9.38
       },
       "mais_barato": "Giga"
     },
@@ -2828,8 +2789,8 @@
       "id": "77",
       "carrefour": {
         "nome": "Desinfetante Líquido Lysoform Lavanda 5L",
-        "preco": 53.99,
-        "preco_por_kg": 10.8
+        "preco": 45.89,
+        "preco_por_kg": 9.18
       },
       "giga": {
         "nome": "N/A",
@@ -2847,28 +2808,28 @@
         "preco_por_kg": 14.99
       },
       "atacadao": {
-        "nome": "Desinfetante Líquido Lysoform Original 5L",
-        "preco": 46.9,
-        "preco_por_kg": 9.38
+        "nome": "Desinfetante Lysoform Suave 2L",
+        "preco": 18.99,
+        "preco_por_kg": 9.49
       },
       "tenda": {
-        "nome": "Desinfetante Bruto Original Lysoform 5L",
-        "preco": 46.5,
-        "preco_por_kg": 9.3
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Desinfetante Lysoform Suave 2l",
         "preco": 28.49,
         "preco_por_kg": 14.24
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Carrefour"
     },
     {
       "id": "78",
       "carrefour": {
-        "nome": "Álcool Liquido Eucalipto Com Bicarbonato Zulu 1l",
-        "preco": 7.89,
-        "preco_por_kg": 7.89
+        "nome": "Álcool Liquido Com Bicarbonato Zulu 1l",
+        "preco": 6.59,
+        "preco_por_kg": 6.59
       },
       "giga": {
         "nome": "Vinagre De Álcool Colorido Castelo 750Ml",
@@ -2891,9 +2852,9 @@
         "preco_por_kg": 7.49
       },
       "tenda": {
-        "nome": "Álcool Líquido Select Lavanda - 1L",
-        "preco": 5.89,
-        "preco_por_kg": 5.89
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Álcool Safra Líquido 46,2° 1L Eucalipto",
@@ -2905,9 +2866,9 @@
     {
       "id": "79",
       "carrefour": {
-        "nome": "Limpador Multiuso Veja Gold Original 500ml com 10% de Desconto",
-        "preco": 3.79,
-        "preco_por_kg": 7.58
+        "nome": "Limpador Multiuso Casa e Perfume Agradable 2 Litros",
+        "preco": 13.99,
+        "preco_por_kg": 7
       },
       "giga": {
         "nome": "Limpador Multiuso Zulu Perfumes 500Ml Paixao",
@@ -2925,14 +2886,14 @@
         "preco_por_kg": 7
       },
       "atacadao": {
-        "nome": "Limpador Multiuso Ypê Com Álcool 500ml",
+        "nome": "Limpador Multiuso Ypê Tira Manchas 500ml",
         "preco": 3.5,
         "preco_por_kg": 7
       },
       "tenda": {
-        "nome": "Limpador Multiuso Limão Azulim 500ml",
-        "preco": 2.55,
-        "preco_por_kg": 5.1
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Limpador Ypê Fácil Multiuso Natureza 500ml",
@@ -2969,9 +2930,9 @@
         "preco_por_kg": 25.8
       },
       "tenda": {
-        "nome": "Removedor de Esmalte Seduction Zulu 90ml",
-        "preco": 4.05,
-        "preco_por_kg": 45
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Removedor De Esmalte Zulu 500ml",
@@ -2983,9 +2944,9 @@
     {
       "id": "81",
       "carrefour": {
-        "nome": "Aromatizador Bom Ar Freshmatic Aerossol Cheirinho de Talco 360ml 20% de desconto",
-        "preco": 17.49,
-        "preco_por_kg": 48.58
+        "nome": "Aromatizador Bom Ar Aerossol Campos de Lavanda Embalagem Econômica 360ml",
+        "preco": 15.49,
+        "preco_por_kg": 43.03
       },
       "giga": {
         "nome": "Pano De Prato Vies Bom Pano Unidade",
@@ -3008,9 +2969,9 @@
         "preco_por_kg": 19.32
       },
       "tenda": {
-        "nome": "Aromatizador Bom Ar Click Spray Refil Leve 3 Pague 2 Flor de Algodão",
-        "preco": 21.9,
-        "preco_por_kg": 21.9
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Odorizador De Ambientes Bom Ar Click Spray Aparelho E Refil Lavanda",
@@ -3047,23 +3008,23 @@
         "preco_por_kg": 7.99
       },
       "tenda": {
-        "nome": "Lâmpada Led 6,0W 6.5K Bivolt Kian",
-        "preco": 3.95,
-        "preco_por_kg": 3.95
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Lampada Galaxy Led Bivolt A60 7w",
         "preco": 4.39,
         "preco_por_kg": 4.39
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Carrefour"
     },
     {
       "id": "83",
       "carrefour": {
         "nome": "Saco de Lixo Preto 100l Embalixo Pacote com 10 Unidades",
-        "preco": 5.99,
-        "preco_por_kg": 0.06
+        "preco": 10.99,
+        "preco_por_kg": 0.11
       },
       "giga": {
         "nome": "Saco De Lixo Dover Roll Banheiro E Piá Embalagem 50 Unidades",
@@ -3086,23 +3047,23 @@
         "preco_por_kg": 0.04
       },
       "tenda": {
-        "nome": "Saco Lixo Econômico Rolo Azul Embalixo 100L 25un.",
-        "preco": 3.07,
-        "preco_por_kg": 0.03
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Saco Lixo Esfrelux 100l C/15und Emb Economica",
         "preco": 16.99,
         "preco_por_kg": 0.17
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "84",
       "carrefour": {
         "nome": "Saco de Lixo Preto 50l Embalixo Pacote com 20 Unidades",
-        "preco": 5.99,
-        "preco_por_kg": 0.12
+        "preco": 10.99,
+        "preco_por_kg": 0.22
       },
       "giga": {
         "nome": "Saco De Lixo Dover Roll Banheiro E Piá Embalagem 50 Unidades",
@@ -3125,9 +3086,9 @@
         "preco_por_kg": 0.08
       },
       "tenda": {
-        "nome": "Saco Lixo Rolo Select 50L 30un.",
-        "preco": 9.3,
-        "preco_por_kg": 0.19
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Saco Lixo Esfrelux 50l C/30und Emb Economica",
@@ -3140,13 +3101,13 @@
       "id": "85",
       "carrefour": {
         "nome": "Água Sanitária Olimpo 2L",
-        "preco": 3.99,
-        "preco_por_kg": 2
+        "preco": 3.59,
+        "preco_por_kg": 1.79
       },
       "giga": {
-        "nome": "Água Sanitária Ypê 1L",
-        "preco": 3.79,
-        "preco_por_kg": 3.79
+        "nome": "Água Sanitária Suprema 2L",
+        "preco": 4.19,
+        "preco_por_kg": 4.19
       },
       "covabra": {
         "nome": "Água Sanitária Candura 5l",
@@ -3164,16 +3125,16 @@
         "preco_por_kg": 2
       },
       "tenda": {
-        "nome": "Água Sanitária Branca Triex 5L",
-        "preco": 9.69,
-        "preco_por_kg": 1.94
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Água Sanitária Sanol 2l",
         "preco": 4.99,
         "preco_por_kg": 2.5
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Carrefour"
     },
     {
       "id": "86",
@@ -3189,8 +3150,8 @@
       },
       "covabra": {
         "nome": "Lava Roupas Omo Liquido Roupas Finas e Delicadas Original 900ml Grátis 200ml",
-        "preco": 15.9,
-        "preco_por_kg": 17.67
+        "preco": 15.39,
+        "preco_por_kg": 17.1
       },
       "paguemenos": {
         "nome": "N/A",
@@ -3199,13 +3160,13 @@
       },
       "atacadao": {
         "nome": "Lava Roupas Líquido Omo Lavagem Perfeita 7L",
-        "preco": 75.99,
-        "preco_por_kg": 10.86
+        "preco": 71.9,
+        "preco_por_kg": 10.27
       },
       "tenda": {
-        "nome": "Lava Roupas Líquido OMO Lavanderia Profissional Perfect White 7 L",
-        "preco": 85.65,
-        "preco_por_kg": 12.24
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Lava Roupas Líquido Omo Lavagem Perfeita Refil 900ml",
@@ -3217,14 +3178,14 @@
     {
       "id": "87",
       "carrefour": {
-        "nome": "Amaciante de Roupa Diluído Toque de Carinho Baby Soft 5 L",
-        "preco": 17.69,
-        "preco_por_kg": 3.54
+        "nome": "Amaciante Carrefour Essential Classic 2 litros",
+        "preco": 6.59,
+        "preco_por_kg": 3.29
       },
       "giga": {
-        "nome": "Amaciante De Roupa + Perfume Mon Bijou 1,7L",
-        "preco": 9.55,
-        "preco_por_kg": 9.55
+        "nome": "Amaciante Ypê Tradicional Intenso Rende 25 Lavagens 2 Litros",
+        "preco": 8.99,
+        "preco_por_kg": 8.99
       },
       "covabra": {
         "nome": "Amaciante Candura Clássico 5l",
@@ -3242,9 +3203,9 @@
         "preco_por_kg": 2.79
       },
       "tenda": {
-        "nome": "Amaciante Baby Soft Azul 5L",
-        "preco": 15.9,
-        "preco_por_kg": 3.18
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Amaciante Plush Harmonia Da Manha5l",
@@ -3256,9 +3217,9 @@
     {
       "id": "88",
       "carrefour": {
-        "nome": "Detergente Líquido Carrefour Neutro 1L",
-        "preco": 3.79,
-        "preco_por_kg": 3.79
+        "nome": "Detergente Líquido Carrefour Clear 500ml",
+        "preco": 1.89,
+        "preco_por_kg": 3.78
       },
       "giga": {
         "nome": "Detergente Líquido Suprema Coco Embalagem 500Ml",
@@ -3281,12 +3242,12 @@
         "preco_por_kg": 3.5
       },
       "tenda": {
-        "nome": "Detergente Líquido Minuano Marine 500ml",
-        "preco": 1.7,
-        "preco_por_kg": 3.4
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
-        "nome": "Detergente Líquido Esfrelux Neutro 500ml",
+        "nome": "Detergente Liquido Esfrelux Tangerina 500ml",
         "preco": 2.09,
         "preco_por_kg": 4.18
       },
@@ -3295,9 +3256,9 @@
     {
       "id": "89",
       "carrefour": {
-        "nome": "Limpador Multiuso Veja Gold Original 500ml com 10% de Desconto",
-        "preco": 3.79,
-        "preco_por_kg": 7.58
+        "nome": "Limpador Multiuso Casa e Perfume Agradable 2 Litros",
+        "preco": 13.99,
+        "preco_por_kg": 7
       },
       "giga": {
         "nome": "Limpador Multiuso Zulu Perfumes 500Ml Paixao",
@@ -3305,9 +3266,9 @@
         "preco_por_kg": 2.59
       },
       "covabra": {
-        "nome": "Limpador Multiuso Ypê Desengordurante 500ml",
-        "preco": 4.79,
-        "preco_por_kg": 9.58
+        "nome": "Limpador Veja Multiuso Original 750ml",
+        "preco": 5.99,
+        "preco_por_kg": 7.99
       },
       "paguemenos": {
         "nome": "Limpador Multiuso Ypê Com Álcool 500ml",
@@ -3315,14 +3276,14 @@
         "preco_por_kg": 9.18
       },
       "atacadao": {
-        "nome": "Limpador Multiuso Veja Gold Original 500ml",
-        "preco": 3.99,
-        "preco_por_kg": 7.98
+        "nome": "Kit Veja 2 Limp Multiuso Original 500ml + 1 Multiuso Power Fusion Limão 500ml",
+        "preco": 17.9,
+        "preco_por_kg": 8.95
       },
       "tenda": {
-        "nome": "Limpador Multiuso Limão Azulim 500ml",
-        "preco": 2.55,
-        "preco_por_kg": 5.1
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Limpador Ype Multiuso 2 Em 1 Premium Clareante 500ml",
@@ -3359,9 +3320,9 @@
         "preco_por_kg": 9.99
       },
       "tenda": {
-        "nome": "Limpador Tira Limo com Cloro Ativo Azulim 500ml",
-        "preco": 4.1,
-        "preco_por_kg": 8.2
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Limpador Veja Limpador Pesada Cloro 1l Com 20% Desconto",
@@ -3373,9 +3334,9 @@
     {
       "id": "91",
       "carrefour": {
-        "nome": "Desinfetante Búfalo Eucalipto 2 Litros",
-        "preco": 3.69,
-        "preco_por_kg": 1.84
+        "nome": "Desinfetante Urca Lavanda 2 Litros",
+        "preco": 4.69,
+        "preco_por_kg": 2.35
       },
       "giga": {
         "nome": "Desinfetante Suprema Oceanic 2L",
@@ -3398,16 +3359,16 @@
         "preco_por_kg": 1.9
       },
       "tenda": {
-        "nome": "Desinfetante Eucalipto Select 2L",
-        "preco": 3.5,
-        "preco_por_kg": 1.75
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
-        "nome": "Desinfetante Sanol Lavanda 5l",
-        "preco": 13.99,
-        "preco_por_kg": 2.8
+        "nome": "Desinfetante Candura Pinho Lavanda 5l",
+        "preco": 13.9,
+        "preco_por_kg": 2.78
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "92",
@@ -3437,9 +3398,9 @@
         "preco_por_kg": 0.59
       },
       "tenda": {
-        "nome": "Esponja Multiuso Esfrebom 1 Unidade",
-        "preco": 1.89,
-        "preco_por_kg": 1.89
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Esponja La De Aco Assolan C/8un 45g",
@@ -3476,9 +3437,9 @@
         "preco_por_kg": 1.65
       },
       "tenda": {
-        "nome": "Desinfetante Multiuso Pinho Silvestre Pinho Bril Bom Bril 1L",
-        "preco": 12.25,
-        "preco_por_kg": 12.25
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "N/A",
@@ -3515,9 +3476,9 @@
         "preco_por_kg": 19.5
       },
       "tenda": {
-        "nome": "Fralda Capricho Gluby Piscina G/XG - Pacote com 10 Unidades",
-        "preco": 19.9,
-        "preco_por_kg": 19.9
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Fralda Descartável Babysec Ultra Mega M 38und",
@@ -3529,14 +3490,14 @@
     {
       "id": "95",
       "carrefour": {
-        "nome": "Papel Higiênico Folha Dupla Neutro Deluxe Ultra 20 m Pacote Leve 12 Pague 11 Unidades",
-        "preco": 16.39,
-        "preco_por_kg": 16.39
+        "nome": "Papel Higiênico Folha Dupla Neutro Personal Vip 20m Leve 12 Pague 11 Unidades",
+        "preco": 13.89,
+        "preco_por_kg": 13.89
       },
       "giga": {
-        "nome": "Papel Higiênico Folha Dupla Hyris Rolo 20 Metros Com 12 Unidades",
-        "preco": 14.9,
-        "preco_por_kg": 14.9
+        "nome": "Papel Higiênico Neve Toque De Seda Folha Dupla 4 Rolos 30M",
+        "preco": 9.59,
+        "preco_por_kg": 9.59
       },
       "covabra": {
         "nome": "Papel Higiênico Stylus Folha Dupla Neutro com 12 Rolos 20m",
@@ -3550,13 +3511,13 @@
       },
       "atacadao": {
         "nome": "Papel Higiênico Personal Vip Folha Dupla - 30m 4 rolos",
-        "preco": 6.14,
-        "preco_por_kg": 6.14
+        "preco": 6.87,
+        "preco_por_kg": 6.87
       },
       "tenda": {
-        "nome": "Papel Higiênico Folha Simples Select 30m 4un",
-        "preco": 5.25,
-        "preco_por_kg": 5.25
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Papel Higiênico Paloma Folha Simples Neutro 30mt Com 8und",
@@ -3573,9 +3534,9 @@
         "preco_por_kg": 16.89
       },
       "giga": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Rolo Adesivo Scotch-Brite Com 21 Folhas",
+        "preco": 30.45,
+        "preco_por_kg": 30.45
       },
       "covabra": {
         "nome": "Detergente Sanitário Pato Gel Adesivo Marine com 6 Discos Refil 6un",
@@ -3593,9 +3554,9 @@
         "preco_por_kg": 6.99
       },
       "tenda": {
-        "nome": "Desodorizador Sanitário Pato Gel Adesivo Marine Refil 6 Discos Aparelho Grátis",
-        "preco": 12.9,
-        "preco_por_kg": 12.9
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Rolo Adesivo Sanremo P/pelos 50 Fls",
@@ -3612,14 +3573,14 @@
         "preco_por_kg": 7.49
       },
       "giga": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Escova Dental Macia Tripla 123 Sorriso 3Un",
+        "preco": 13.8,
+        "preco_por_kg": 13.8
       },
       "covabra": {
-        "nome": "Escova Dental Condor Top Plus Classic com 3un",
-        "preco": 12.99,
-        "preco_por_kg": 12.99
+        "nome": "Escova Dental Colgate Classic Clean 3un",
+        "preco": 10.99,
+        "preco_por_kg": 10.99
       },
       "paguemenos": {
         "nome": "Escova Dental Oral-B Média Pro",
@@ -3632,9 +3593,9 @@
         "preco_por_kg": 2.48
       },
       "tenda": {
-        "nome": "Escova Dental Oral B 123 Leve 3 Pague 2",
-        "preco": 11.8,
-        "preco_por_kg": 0.1
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Escova Dental Colgate 360 Luminous White Leve 2 E Pague 1",
@@ -3646,9 +3607,9 @@
     {
       "id": "98",
       "carrefour": {
-        "nome": "Creme Dental Colgate Máxima Proteção Anticáries Menta Refrescante 90g",
-        "preco": 5.09,
-        "preco_por_kg": 56.56
+        "nome": "Creme Dental Colgate Tripla Ação 180g",
+        "preco": 7.49,
+        "preco_por_kg": 41.61
       },
       "giga": {
         "nome": "Creme De Leite Italac 200G",
@@ -3657,8 +3618,8 @@
       },
       "covabra": {
         "nome": "Creme Dental Sorriso Tripla Limpeza Completa 120 g",
-        "preco": 4.89,
-        "preco_por_kg": 40.75
+        "preco": 3.99,
+        "preco_por_kg": 33.25
       },
       "paguemenos": {
         "nome": "Creme Dental Oral-B 1.2.3 Anticáries Menta Suave 70g",
@@ -3666,14 +3627,14 @@
         "preco_por_kg": 34.14
       },
       "atacadao": {
-        "nome": "Creme Dental Even Juá e Hortelã 70g",
-        "preco": 1.39,
-        "preco_por_kg": 19.86
+        "nome": "Creme Dental Closeup Triple Menta 70g",
+        "preco": 2.19,
+        "preco_por_kg": 31.29
       },
       "tenda": {
-        "nome": "Creme dental Sorriso Tripla Limpeza Completa 140g Leve Mais Pague Menos",
-        "preco": 5.49,
-        "preco_por_kg": 39.21
+        "nome": "Creme Dental Sensitive Pro-Alívio Imediato Original Colgate 90g",
+        "preco": 11.79,
+        "preco_por_kg": 131
       },
       "enxuto": {
         "nome": "Creme Dental Colgate Totalgengiva Reforçada",
@@ -3685,9 +3646,9 @@
     {
       "id": "99",
       "carrefour": {
-        "nome": "Sabonete Líquido Suavidade Delicada Corporal Palmolive Naturals Sachê 200ml Refil",
-        "preco": 7.09,
-        "preco_por_kg": 35.45
+        "nome": "Sabonete Líquido Flor de Ypê Flor de Maçã e Framboesa Refil 200ml",
+        "preco": 4.69,
+        "preco_por_kg": 23.45
       },
       "giga": {
         "nome": "Sabonete Líquido Palmolive Naturals Óleo De Amêndoas 250Ml",
@@ -3695,9 +3656,9 @@
         "preco_por_kg": 10.35
       },
       "covabra": {
-        "nome": "Sabonete Líquido Palmolive Nutri Milk Refil 900ml",
-        "preco": 27.9,
-        "preco_por_kg": 31
+        "nome": "Sabonete Líquido Flor de Ypê Flor de Maçã e Framboesa Refil 200ml",
+        "preco": 4.99,
+        "preco_por_kg": 24.95
       },
       "paguemenos": {
         "nome": "Sabonete Líquido Ikebana Erva Doce 2l",
@@ -3710,33 +3671,33 @@
         "preco_por_kg": 6.78
       },
       "tenda": {
-        "nome": "Sabonete Líquido Perfuminho para Bebê 1,9L- Dex",
-        "preco": 10.9,
-        "preco_por_kg": 5.74
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Sabonete Líquido Ikebana 2l Frutas Vermelhas",
         "preco": 32.09,
         "preco_por_kg": 16.05
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "100",
       "carrefour": {
-        "nome": "Sabonete em Barra Palmolive Naturals, Framboesa e Turmalina, 510g",
-        "preco": 12.9,
-        "preco_por_kg": 25.29
+        "nome": "Sabonete em Barra Palmolive Naturals Sensação Purificante 150g",
+        "preco": 3.49,
+        "preco_por_kg": 23.27
       },
       "giga": {
-        "nome": "Sabonete Protex Fresh Antibacteriano 85G",
-        "preco": 3.95,
-        "preco_por_kg": 3.95
+        "nome": "Sabonete Barra Flor De Baunilha E Amêndoas Flor De Ypê Envoltório 85g",
+        "preco": 1.87,
+        "preco_por_kg": 1.87
       },
       "covabra": {
-        "nome": "Sabonete Farnese Proteína do Leite 85g",
-        "preco": 1.99,
-        "preco_por_kg": 23.41
+        "nome": "Sabonete Flor de Ypê Rosas Brancas e Avelã 85 g",
+        "preco": 1.79,
+        "preco_por_kg": 21.06
       },
       "paguemenos": {
         "nome": "Sabonete Sie Ne Proteínas do Leite 85g",
@@ -3749,16 +3710,16 @@
         "preco_por_kg": 6.78
       },
       "tenda": {
-        "nome": "Sabonete Flor De Ypê Suave - Lilás - Frésia e Pêssego - Glicerina e Óleos Essenciais",
-        "preco": 1.65,
-        "preco_por_kg": 1.65
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Sabonete Dove Orig Com 6und 90g Leve + Pague -",
-        "preco": 33.9,
-        "preco_por_kg": 5.65
+        "preco": 34.5,
+        "preco_por_kg": 5.75
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Giga"
     },
     {
       "id": "101",
@@ -3768,9 +3729,9 @@
         "preco_por_kg": 59.88
       },
       "giga": {
-        "nome": "Sabonete Protex Fresh Antibacteriano 85G",
-        "preco": 3.95,
-        "preco_por_kg": 3.95
+        "nome": "Sabonete Barra Flor De Baunilha E Amêndoas Flor De Ypê Envoltório 85g",
+        "preco": 1.87,
+        "preco_por_kg": 1.87
       },
       "covabra": {
         "nome": "Sabonete Granado Bebê 90g",
@@ -3788,9 +3749,9 @@
         "preco_por_kg": 39.75
       },
       "tenda": {
-        "nome": "Sabonete Líquido Perfuminho para Bebê 1,9L- Dex",
-        "preco": 10.9,
-        "preco_por_kg": 5.74
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Sabonete Granado Bebe Lavanda 90g",
@@ -3827,9 +3788,9 @@
         "preco_por_kg": 20.42
       },
       "tenda": {
-        "nome": "Gel Fixador Incolor Soft Fix 250g",
-        "preco": 5.9,
-        "preco_por_kg": 23.6
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Gel Fixador Azul Tryfix 1kg",
@@ -3866,9 +3827,9 @@
         "preco_por_kg": 1.39
       },
       "tenda": {
-        "nome": "Haste Flex Select 75 Unidades",
-        "preco": 3.7,
-        "preco_por_kg": 3.7
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "N/A",
@@ -3905,9 +3866,9 @@
         "preco_por_kg": 12.9
       },
       "tenda": {
-        "nome": "Lenço Umedecido Care On The Go Neve 16 Unidades",
-        "preco": 7.95676,
-        "preco_por_kg": 7.96
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Lenco Umedecido Small Baby C/120 Und",
@@ -3944,9 +3905,9 @@
         "preco_por_kg": 6.9
       },
       "tenda": {
-        "nome": "Algodão Disco Select 50Un",
-        "preco": 6.65,
-        "preco_por_kg": 6.65
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Algodão Johnson Baby Recém-nascido Quadrado 50 Unid",
@@ -3958,9 +3919,9 @@
     {
       "id": "106",
       "carrefour": {
-        "nome": "Enxaguante Bucal Hortelã Listerine Cool Mint 1,5l Leve Mais Pague Menos",
-        "preco": 49.99,
-        "preco_por_kg": 33.33
+        "nome": "Enxaguante Bucal Zero Álcool Hortelã Suave Listerine Cool Mint 1l Leve Mais Pague Menos",
+        "preco": 21.99,
+        "preco_por_kg": 21.99
       },
       "giga": {
         "nome": "Enxaguante Bucal Hortelã Listerine Cool Mint Frasco 500Ml",
@@ -3969,8 +3930,8 @@
       },
       "covabra": {
         "nome": "Anti-Septico Bucal Listerine Cool Mint Hortelã 1l",
-        "preco": 38.9,
-        "preco_por_kg": 38.9
+        "preco": 29.9,
+        "preco_por_kg": 29.9
       },
       "paguemenos": {
         "nome": "Enxaguante Bucal Listerine Cool Mint Refrescância Intensa 1l",
@@ -3983,9 +3944,9 @@
         "preco_por_kg": 28.6
       },
       "tenda": {
-        "nome": "Enxaguante Bucal Hortelã Cool Mint Listerine 1,5L",
-        "preco": 44.9,
-        "preco_por_kg": 29.93
+        "nome": "Enxaguante Bucal Zero Álcool Melancia & Hortelã Listerine 1L",
+        "preco": 31.9,
+        "preco_por_kg": 31.9
       },
       "enxuto": {
         "nome": "Enxaguante Bucal Listerine Melancia E Hortelã 1l",
@@ -3998,8 +3959,8 @@
       "id": "107",
       "carrefour": {
         "nome": "Bisnaguinha Kim 300g",
-        "preco": 5.89,
-        "preco_por_kg": 19.63
+        "preco": 4.99,
+        "preco_por_kg": 16.63
       },
       "giga": {
         "nome": "N/A",
@@ -4022,9 +3983,9 @@
         "preco_por_kg": 13.16
       },
       "tenda": {
-        "nome": "Bisnaguinha Kim 300g",
-        "preco": 5.49,
-        "preco_por_kg": 18.3
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Bisnaguinha Panco 300g",
@@ -4061,9 +4022,9 @@
         "preco_por_kg": 3.19
       },
       "tenda": {
-        "nome": "Fubá Mimoso PQ 5kg",
-        "preco": 19,
-        "preco_por_kg": 3.8
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Fubá De Milho Faria 1kg",
@@ -4100,9 +4061,9 @@
         "preco_por_kg": 39.98
       },
       "tenda": {
-        "nome": "Pimentão Amarelo Saco 740g",
-        "preco": 14.73,
-        "preco_por_kg": 19.91
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Pimentão Amarelo 300g (1 Unidade)",
@@ -4110,6 +4071,45 @@
         "preco_por_kg": 24.9
       },
       "mais_barato": "Giga"
+    },
+    {
+      "id": "11",
+      "carrefour": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "giga": {
+        "nome": "Abóbrinha Italiana Kg",
+        "preco": 6.9,
+        "preco_por_kg": 6.9
+      },
+      "covabra": {
+        "nome": "Abobrinha Brasil 1 Unidade 647g",
+        "preco": 2.58,
+        "preco_por_kg": 3.99
+      },
+      "paguemenos": {
+        "nome": "Abobrinha Italiana 350g",
+        "preco": 2.7965,
+        "preco_por_kg": 7.99
+      },
+      "atacadao": {
+        "nome": "Abóbora Italiana 500g",
+        "preco": 4.99,
+        "preco_por_kg": 9.98
+      },
+      "tenda": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "enxuto": {
+        "nome": "Abobrinha Brasileira 1kg (aprox. 2 Unidades)",
+        "preco": 9.99,
+        "preco_por_kg": 9.99
+      },
+      "mais_barato": "Covabra"
     },
     {
       "id": "14",
@@ -4135,20 +4135,20 @@
       },
       "atacadao": {
         "nome": "Refresco Líquido Guaraviton Gengibre e Laranja 500ml",
-        "preco": 2.39,
-        "preco_por_kg": 4.78
+        "preco": 1.99,
+        "preco_por_kg": 3.98
       },
       "tenda": {
-        "nome": "Gengibre Unidade",
-        "preco": 2.4,
-        "preco_por_kg": 2.4
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Gengibre 250g",
         "preco": 4.49,
         "preco_por_kg": 17.96
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "108",
@@ -4178,9 +4178,9 @@
         "preco_por_kg": 1.5
       },
       "tenda": {
-        "nome": "Areia para Gatos Putz 4kg",
-        "preco": 11.9,
-        "preco_por_kg": 2.98
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "N/A",
@@ -4188,45 +4188,6 @@
         "preco_por_kg": 0
       },
       "mais_barato": "Atacadão"
-    },
-    {
-      "id": "110",
-      "carrefour": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "giga": {
-        "nome": "Alimento Para Cães Pro Dental Care Raças Pequenas Baw Waw 40G",
-        "preco": 5.5,
-        "preco_por_kg": 5.5
-      },
-      "covabra": {
-        "nome": "Alimento para Gatos Whiskas Gatos Castrados Carne 2,7kg",
-        "preco": 53.99,
-        "preco_por_kg": 20
-      },
-      "paguemenos": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "atacadao": {
-        "nome": "Alimento para Gatos Bast Cat Frango 6kg",
-        "preco": 54.9,
-        "preco_por_kg": 9.15
-      },
-      "tenda": {
-        "nome": "Alimento para Gatos Castrados Select 3kg",
-        "preco": 38.5,
-        "preco_por_kg": 12.83
-      },
-      "enxuto": {
-        "nome": "Alimento Para Gatos Domus 1kg Mix",
-        "preco": 17.9,
-        "preco_por_kg": 17.9
-      },
-      "mais_barato": "Giga"
     },
     {
       "id": "34",
@@ -4256,16 +4217,16 @@
         "preco_por_kg": 4.78
       },
       "tenda": {
-        "nome": "Mandioca 500g",
-        "preco": 1.65,
-        "preco_por_kg": 3.3
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Mandioca 800g",
         "preco": 3.59,
         "preco_por_kg": 4.49
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Pague Menos"
     },
     {
       "id": "52",
@@ -4295,14 +4256,53 @@
         "preco_por_kg": 13.45
       },
       "tenda": {
-        "nome": "Tempero Receita de Casa Ajinomoto 450g",
-        "preco": 13.89,
-        "preco_por_kg": 30.87
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Realçador De Sabor Para Churrasco Ajinomoto 500g",
         "preco": 11.59,
         "preco_por_kg": 23.18
+      },
+      "mais_barato": "Atacadão"
+    },
+    {
+      "id": "110",
+      "carrefour": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "giga": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "covabra": {
+        "nome": "Alimento para Gatos Whiskas Gatos Castrados Carne 2,7kg",
+        "preco": 53.99,
+        "preco_por_kg": 20
+      },
+      "paguemenos": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "atacadao": {
+        "nome": "Alimento para Gatos Bast Cat Frango 6kg",
+        "preco": 54.9,
+        "preco_por_kg": 9.15
+      },
+      "tenda": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "enxuto": {
+        "nome": "Alimento Para Gatos Domus 1kg Mix",
+        "preco": 17.9,
+        "preco_por_kg": 17.9
       },
       "mais_barato": "Atacadão"
     }
