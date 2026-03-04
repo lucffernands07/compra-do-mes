@@ -1,72 +1,653 @@
 [
   {
+    "id": 2,
+    "supermercado": "Tenda",
+    "produto": "Batata Bolinha Select 2kg",
+    "preco": 11.95,
+    "preco_por_kg": 5.97
+  },
+  {
+    "id": 3,
+    "supermercado": "Tenda",
+    "produto": "Anéis de Cebola Congelados Tajá - 1,1kg",
+    "preco": 23.9,
+    "preco_por_kg": 21.73
+  },
+  {
+    "id": 4,
+    "supermercado": "Tenda",
+    "produto": "Tomate Italiano 1kg",
+    "preco": 8.49,
+    "preco_por_kg": 8.49
+  },
+  {
+    "id": 5,
+    "supermercado": "Tenda",
+    "produto": "Pimentão Verde Saco 440g",
+    "preco": 4.4,
+    "preco_por_kg": 10
+  },
+  {
+    "id": 6,
+    "supermercado": "Tenda",
+    "produto": "Pimentão Vermelho Saco 740g",
+    "preco": 14.73,
+    "preco_por_kg": 19.91
+  },
+  {
+    "id": 7,
+    "supermercado": "Tenda",
+    "produto": "Pimentão Amarelo Saco 740g",
+    "preco": 14.73,
+    "preco_por_kg": 19.91
+  },
+  {
+    "id": 8,
+    "supermercado": "Tenda",
+    "produto": "Pimentão Verde Saco 440g",
+    "preco": 4.4,
+    "preco_por_kg": 10
+  },
+  {
+    "id": 9,
+    "supermercado": "Tenda",
+    "produto": "Detergente Líquido Minuano Limão 500ml",
+    "preco": 1.7,
+    "preco_por_kg": 3.4
+  },
+  {
+    "id": 10,
+    "supermercado": "Tenda",
+    "produto": "Lava Roupas em Pó Omo Lavagem Perfeita 2,4kg",
+    "preco": 24.5,
+    "preco_por_kg": 10.21
+  },
+  {
+    "id": 11,
+    "supermercado": "Tenda",
+    "produto": "Abobrinha Italiana Unidade",
+    "preco": 2.2,
+    "preco_por_kg": 2.2
+  },
+  {
+    "id": 12,
+    "supermercado": "Tenda",
+    "produto": "Beterraba Saco 1Kg",
+    "preco": 4.99,
+    "preco_por_kg": 4.99
+  },
+  {
+    "id": 13,
+    "supermercado": "Tenda",
+    "produto": "Inhame Unidade",
+    "preco": 2.66,
+    "preco_por_kg": 2.66
+  },
+  {
+    "id": 14,
+    "supermercado": "Tenda",
+    "produto": "Gengibre Unidade",
+    "preco": 2.4,
+    "preco_por_kg": 2.4
+  },
+  {
+    "id": 15,
+    "supermercado": "Tenda",
+    "produto": "Cenoura Saco 1kg",
+    "preco": 5.49,
+    "preco_por_kg": 5.49
+  },
+  {
+    "id": 16,
+    "supermercado": "Tenda",
+    "produto": "Chuchu Unidade",
+    "preco": 1.11,
+    "preco_por_kg": 1.11
+  },
+  {
     "id": 17,
     "supermercado": "Tenda",
-    "produto": "Caldo de Mandioquinha com Frango Na Panelinha Seara 300g",
-    "preco": 15.9,
-    "preco_por_kg": 53
+    "produto": "Mandioquinha Unidade",
+    "preco": 1.21,
+    "preco_por_kg": 1.21
+  },
+  {
+    "id": 18,
+    "supermercado": "Tenda",
+    "produto": "Cheiro Verde Maço Unidade",
+    "preco": 3.49,
+    "preco_por_kg": 3.49
+  },
+  {
+    "id": 19,
+    "supermercado": "Tenda",
+    "produto": "Alface Crespa Unidade",
+    "preco": 3.99,
+    "preco_por_kg": 3.99
+  },
+  {
+    "id": 20,
+    "supermercado": "Tenda",
+    "produto": "Repolho Verde Unidade",
+    "preco": 4.07,
+    "preco_por_kg": 4.07
+  },
+  {
+    "id": 21,
+    "supermercado": "Tenda",
+    "produto": "Alho Descascado Kamar Pacote 500g",
+    "preco": 20.9,
+    "preco_por_kg": 41.8
+  },
+  {
+    "id": 22,
+    "supermercado": "Tenda",
+    "produto": "Mamão Papaya Unidade",
+    "preco": 5.74,
+    "preco_por_kg": 5.74
+  },
+  {
+    "id": 23,
+    "supermercado": "Tenda",
+    "produto": "Banana Nanica Unidade",
+    "preco": 0.91,
+    "preco_por_kg": 0.91
+  },
+  {
+    "id": 24,
+    "supermercado": "Tenda",
+    "produto": "Bebida de Soja Sabor Uva Ades 1L",
+    "preco": 7.39,
+    "preco_por_kg": 7.39
+  },
+  {
+    "id": 25,
+    "supermercado": "Tenda",
+    "produto": "Energético Maça Verde Long One 2L",
+    "preco": 3.99,
+    "preco_por_kg": 2
+  },
+  {
+    "id": 26,
+    "supermercado": "Tenda",
+    "produto": "Mexerica Carioca 120g",
+    "preco": 0.75,
+    "preco_por_kg": 6.25
+  },
+  {
+    "id": 27,
+    "supermercado": "Tenda",
+    "produto": "Margarina com Sal Dualis 500g",
+    "preco": 3.49,
+    "preco_por_kg": 6.98
+  },
+  {
+    "id": 28,
+    "supermercado": "Tenda",
+    "produto": "Leite Zero Lactose Semidesnatado Piracanjuba 1L",
+    "preco": 4.49,
+    "preco_por_kg": 4.49
   },
   {
     "id": 30,
     "supermercado": "Tenda",
-    "produto": "Pizza Mussarela Seara 440g",
-    "preco": 15.9,
-    "preco_por_kg": 36.14
+    "produto": "Pizza Mussarela Select 440g",
+    "preco": 14.5,
+    "preco_por_kg": 32.95
   },
   {
     "id": 31,
     "supermercado": "Tenda",
-    "produto": "Empanado Presunto e Queijo Seara 110g",
-    "preco": 4.5,
-    "preco_por_kg": 40.91
+    "produto": "Biscoito Salgado Sabor Presunto Crush Tucs 50g",
+    "preco": 1.15,
+    "preco_por_kg": 23
   },
   {
     "id": 32,
     "supermercado": "Tenda",
-    "produto": "Mortadela Tradicional Fatiada Seara 180g",
-    "preco": 5.75,
-    "preco_por_kg": 31.94
+    "produto": "Mortadela Estrelinha 400g",
+    "preco": 4.15,
+    "preco_por_kg": 10.38
+  },
+  {
+    "id": 33,
+    "supermercado": "Tenda",
+    "produto": "Batata Congelada Carinhas Bem Brasil 1,05kg",
+    "preco": 9.9,
+    "preco_por_kg": 9.43
+  },
+  {
+    "id": 34,
+    "supermercado": "Tenda",
+    "produto": "Farinha de Mandioca Grossa Kicaldo 1kg",
+    "preco": 5.99,
+    "preco_por_kg": 5.99
+  },
+  {
+    "id": 35,
+    "supermercado": "Tenda",
+    "produto": "Seleta de Legumes Congelados De Marchi 1,02kg",
+    "preco": 13.9,
+    "preco_por_kg": 13.63
+  },
+  {
+    "id": 36,
+    "supermercado": "Tenda",
+    "produto": "Água de Coco Nocoko Caixa 200ml",
+    "preco": 0.99,
+    "preco_por_kg": 4.95
+  },
+  {
+    "id": 37,
+    "supermercado": "Tenda",
+    "produto": "Leite Fermentado Baunilha Frutap Big Garrafa 1,2kg",
+    "preco": 9.99,
+    "preco_por_kg": 8.33
+  },
+  {
+    "id": 38,
+    "supermercado": "Tenda",
+    "produto": "Iogurte Nestlé Polpa Morango 540g",
+    "preco": 7.19,
+    "preco_por_kg": 13.31
+  },
+  {
+    "id": 41,
+    "supermercado": "Tenda",
+    "produto": "Arroz Branco Camil Tipo 1 5kg",
+    "preco": 17.7,
+    "preco_por_kg": 3.54
+  },
+  {
+    "id": 42,
+    "supermercado": "Tenda",
+    "produto": "Feijão Carioca 5 Estrelas 1kg",
+    "preco": 5.59,
+    "preco_por_kg": 5.59
+  },
+  {
+    "id": 46,
+    "supermercado": "Tenda",
+    "produto": "Queijo Ralado Parmesão Vigor - 1kg",
+    "preco": 84.5,
+    "preco_por_kg": 84.5
+  },
+  {
+    "id": 47,
+    "supermercado": "Tenda",
+    "produto": "Tomate Pelado Inteiro Sacciali 400g",
+    "preco": 6.19,
+    "preco_por_kg": 15.47
+  },
+  {
+    "id": 48,
+    "supermercado": "Tenda",
+    "produto": "Molho de Tomate Bolonhesa Tarantella 300g",
+    "preco": 1.75,
+    "preco_por_kg": 5.83
+  },
+  {
+    "id": 49,
+    "supermercado": "Tenda",
+    "produto": "Azeite Extra Virgem La Española 750ml",
+    "preco": 35.9,
+    "preco_por_kg": 47.87
+  },
+  {
+    "id": 51,
+    "supermercado": "Tenda",
+    "produto": "Molho Shoyu Campo Belo 1,01L",
+    "preco": 6.89,
+    "preco_por_kg": 6.82
+  },
+  {
+    "id": 52,
+    "supermercado": "Tenda",
+    "produto": "Tempero Receita de Casa Ajinomoto 450g",
+    "preco": 13.89,
+    "preco_por_kg": 30.87
+  },
+  {
+    "id": 54,
+    "supermercado": "Tenda",
+    "produto": "Amido de Milho Pq 1kg",
+    "preco": 7.9,
+    "preco_por_kg": 7.9
+  },
+  {
+    "id": 55,
+    "supermercado": "Tenda",
+    "produto": "Óleo de Soja Select 900ml",
+    "preco": 6.49,
+    "preco_por_kg": 7.21
+  },
+  {
+    "id": 56,
+    "supermercado": "Tenda",
+    "produto": "Vinagre de Álcool Colorido Vitalia 750ml",
+    "preco": 2.29,
+    "preco_por_kg": 3.05
+  },
+  {
+    "id": 57,
+    "supermercado": "Tenda",
+    "produto": "Milho Verde 300g",
+    "preco": 1.08,
+    "preco_por_kg": 3.6
+  },
+  {
+    "id": 58,
+    "supermercado": "Tenda",
+    "produto": "Seleta de Legumes Congelados De Marchi 1,02kg",
+    "preco": 13.9,
+    "preco_por_kg": 13.63
+  },
+  {
+    "id": 59,
+    "supermercado": "Tenda",
+    "produto": "Sardinha em Óleo Pescador 125g",
+    "preco": 4.79,
+    "preco_por_kg": 38.32
+  },
+  {
+    "id": 60,
+    "supermercado": "Tenda",
+    "produto": "Açúcar Demerara Caravelas 1kg",
+    "preco": 5.49,
+    "preco_por_kg": 5.49
+  },
+  {
+    "id": 61,
+    "supermercado": "Tenda",
+    "produto": "Açúcar Mascavo Jp Pereira 1 Kg",
+    "preco": 15.99,
+    "preco_por_kg": 15.99
+  },
+  {
+    "id": 62,
+    "supermercado": "Tenda",
+    "produto": "Biscoito Integral Salt Plus Águia Sol 360g",
+    "preco": 6.39,
+    "preco_por_kg": 17.75
+  },
+  {
+    "id": 63,
+    "supermercado": "Tenda",
+    "produto": "Suco Concentrado de Caju Maguary 500ml",
+    "preco": 4.99,
+    "preco_por_kg": 9.98
+  },
+  {
+    "id": 64,
+    "supermercado": "Tenda",
+    "produto": "Ketchup Tradicional Ekma 3,3Kg",
+    "preco": 20.5,
+    "preco_por_kg": 6.21
+  },
+  {
+    "id": 65,
+    "supermercado": "Tenda",
+    "produto": "Maionese Uso Profissional Vigor Pacote 2,8kg",
+    "preco": 34.9,
+    "preco_por_kg": 12.46
+  },
+  {
+    "id": 66,
+    "supermercado": "Tenda",
+    "produto": "Mostarda Campo Belo 3,05kg",
+    "preco": 17.5,
+    "preco_por_kg": 5.74
+  },
+  {
+    "id": 67,
+    "supermercado": "Tenda",
+    "produto": "Leite Condensado Semidesnatado Campos do Jordão 395g",
+    "preco": 3.89,
+    "preco_por_kg": 9.85
+  },
+  {
+    "id": 68,
+    "supermercado": "Tenda",
+    "produto": "Creme de Leite Mococa 200g",
+    "preco": 2.19,
+    "preco_por_kg": 10.95
   },
   {
     "id": 69,
     "supermercado": "Tenda",
-    "produto": "Capsula de Café Mogiana Paulista Compativel com Nespresso 3 Corações 10 unid",
-    "preco": 19.99,
-    "preco_por_kg": 19.99
+    "produto": "Capsula de Cafe com Leite 3 Corações 10 unid",
+    "preco": 16.9,
+    "preco_por_kg": 16.9
   },
   {
     "id": 70,
     "supermercado": "Tenda",
-    "produto": "Café em pó 3 Corações Tradicional 500g",
-    "preco": 27.99,
-    "preco_por_kg": 55.98
+    "produto": "Café Tradicional Canecão 500g",
+    "preco": 25.9,
+    "preco_por_kg": 51.8
+  },
+  {
+    "id": 71,
+    "supermercado": "Tenda",
+    "produto": "Borracha BIC Neon",
+    "preco": 4.07,
+    "preco_por_kg": 4.07
+  },
+  {
+    "id": 74,
+    "supermercado": "Tenda",
+    "produto": "Flocão de Milho Pré-Cozido Dalon 400g",
+    "preco": 1.69,
+    "preco_por_kg": 4.22
+  },
+  {
+    "id": 75,
+    "supermercado": "Tenda",
+    "produto": "Pão de Forma Integral Select 500g",
+    "preco": 7.65,
+    "preco_por_kg": 15.3
+  },
+  {
+    "id": 76,
+    "supermercado": "Tenda",
+    "produto": "Massa de Tapioca Beijubom 1kg",
+    "preco": 9.99,
+    "preco_por_kg": 9.99
+  },
+  {
+    "id": 77,
+    "supermercado": "Tenda",
+    "produto": "Desinfetante Uso Geral Citrus Lysoform 2L",
+    "preco": 17.9,
+    "preco_por_kg": 8.95
+  },
+  {
+    "id": 78,
+    "supermercado": "Tenda",
+    "produto": "Álcool Líquido Select Bicarbonato - 1 Litro",
+    "preco": 5.89,
+    "preco_por_kg": 5.89
+  },
+  {
+    "id": 79,
+    "supermercado": "Tenda",
+    "produto": "Limpador Multiuso Ypê Antibac 500ml",
+    "preco": 2.85,
+    "preco_por_kg": 5.7
+  },
+  {
+    "id": 80,
+    "supermercado": "Tenda",
+    "produto": "Removedor de Esmalte Seduction Zulu 90ml",
+    "preco": 4.05,
+    "preco_por_kg": 45
+  },
+  {
+    "id": 81,
+    "supermercado": "Tenda",
+    "produto": "Aromatizador Bom Ar Click Spray Refil Leve 3 Pague 2 Flor de Algodão",
+    "preco": 21.9,
+    "preco_por_kg": 21.9
+  },
+  {
+    "id": 82,
+    "supermercado": "Tenda",
+    "produto": "Lâmpada Led 6,0W 6.5K Bivolt Kian",
+    "preco": 3.95,
+    "preco_por_kg": 3.95
+  },
+  {
+    "id": 85,
+    "supermercado": "Tenda",
+    "produto": "Água Sanitária Branca Triex 5L",
+    "preco": 9.69,
+    "preco_por_kg": 1.94
+  },
+  {
+    "id": 87,
+    "supermercado": "Tenda",
+    "produto": "Amaciante Select Brisa 2L",
+    "preco": 6.5,
+    "preco_por_kg": 3.25
+  },
+  {
+    "id": 88,
+    "supermercado": "Tenda",
+    "produto": "Detergente Líquido Minuano Coco 500ml",
+    "preco": 1.7,
+    "preco_por_kg": 3.4
+  },
+  {
+    "id": 89,
+    "supermercado": "Tenda",
+    "produto": "Limpador Multiuso Limão Azulim 500ml",
+    "preco": 2.55,
+    "preco_por_kg": 5.1
+  },
+  {
+    "id": 90,
+    "supermercado": "Tenda",
+    "produto": "Limpador Cloro Gel Floral Vim 700ml",
+    "preco": 15.55,
+    "preco_por_kg": 22.21
+  },
+  {
+    "id": 91,
+    "supermercado": "Tenda",
+    "produto": "Desinfetante Eucalipto Select 2L",
+    "preco": 3.5,
+    "preco_por_kg": 1.75
+  },
+  {
+    "id": 92,
+    "supermercado": "Tenda",
+    "produto": "Esponja Multiuso Esfrebom 1 Unidade",
+    "preco": 1.89,
+    "preco_por_kg": 1.89
+  },
+  {
+    "id": 93,
+    "supermercado": "Tenda",
+    "produto": "Lã de Aço Bombril 8un",
+    "preco": 3.1,
+    "preco_por_kg": 3.1
+  },
+  {
+    "id": 95,
+    "supermercado": "Tenda",
+    "produto": "Papel Higiênico Folha Simples Select 30m 4un",
+    "preco": 5.25,
+    "preco_por_kg": 5.25
+  },
+  {
+    "id": 97,
+    "supermercado": "Tenda",
+    "produto": "Escova Dental Infantil Oral B Kids Mickey",
+    "preco": 8.45,
+    "preco_por_kg": 8.45
   },
   {
     "id": 98,
     "supermercado": "Tenda",
-    "produto": "Creme Dental Para Sensibilidade Colgate Sensitive Pro Alívio Imediato Braqueador Fresh 90g",
-    "preco": 11.79,
-    "preco_por_kg": 131
+    "produto": "Creme Dental Colgate Máxima Proteção Anticáries 90g",
+    "preco": 4.89,
+    "preco_por_kg": 54.33
   },
   {
     "id": 99,
     "supermercado": "Tenda",
-    "produto": "Sabonete Líquido Cabeça aos Pés Johnsons Baby Refil 380ml",
-    "preco": 25.5,
-    "preco_por_kg": 67.11
+    "produto": "Sabonete Liquido Dex Erva Doce Soft Fix 1,9L",
+    "preco": 10.9,
+    "preco_por_kg": 5.74
   },
   {
     "id": 100,
     "supermercado": "Tenda",
-    "produto": "Sabonete Líquido Cabeça aos Pés Johnsons Baby Refil 380ml",
-    "preco": 25.5,
-    "preco_por_kg": 67.11
+    "produto": "Sabonete em Barra Buquê de Jasmim Lux 85g",
+    "preco": 2.29,
+    "preco_por_kg": 26.94
+  },
+  {
+    "id": 102,
+    "supermercado": "Tenda",
+    "produto": "Gel Fixador Incolor Soft Fix 250g",
+    "preco": 5.9,
+    "preco_por_kg": 23.6
+  },
+  {
+    "id": 103,
+    "supermercado": "Tenda",
+    "produto": "Haste Flexível Johnsons 150un",
+    "preco": 10.9,
+    "preco_por_kg": 10.9
+  },
+  {
+    "id": 104,
+    "supermercado": "Tenda",
+    "produto": "Lenço Umedecido Care On The Go Neve 16 Unidades",
+    "preco": 7.95676,
+    "preco_por_kg": 7.96
+  },
+  {
+    "id": 105,
+    "supermercado": "Tenda",
+    "produto": "Algodão Disco Select 50Un",
+    "preco": 6.65,
+    "preco_por_kg": 6.65
   },
   {
     "id": 106,
     "supermercado": "Tenda",
-    "produto": "Enxaguante Bucal Zero Álcool Melancia & Hortelã Listerine 1L",
-    "preco": 31.9,
-    "preco_por_kg": 31.9
+    "produto": "Enxaguante Bucal Hortelã Cool Mint Listerine 1,5L",
+    "preco": 44.9,
+    "preco_por_kg": 29.93
+  },
+  {
+    "id": 107,
+    "supermercado": "Tenda",
+    "produto": "Bisnaguinha Kim 300g",
+    "preco": 5.49,
+    "preco_por_kg": 18.3
+  },
+  {
+    "id": 108,
+    "supermercado": "Tenda",
+    "produto": "Areia para Gatos Putz 4kg",
+    "preco": 11.9,
+    "preco_por_kg": 2.98
+  },
+  {
+    "id": 109,
+    "supermercado": "Tenda",
+    "produto": "Fubá Mimoso PQ 5kg",
+    "preco": 19,
+    "preco_por_kg": 3.8
+  },
+  {
+    "id": 110,
+    "supermercado": "Tenda",
+    "produto": "Alimento para Gatos Castrados Select 3kg",
+    "preco": 38.5,
+    "preco_por_kg": 12.83
   }
 ]
