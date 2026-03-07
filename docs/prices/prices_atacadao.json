@@ -17,8 +17,8 @@
     "id": 3,
     "supermercado": "Atacadão",
     "produto": "Cebola 19kg",
-    "preco": 59.9,
-    "preco_por_kg": 3.15
+    "preco": 74.9,
+    "preco_por_kg": 3.94
   },
   {
     "id": 4,
@@ -42,13 +42,6 @@
     "preco_por_kg": 8.41
   },
   {
-    "id": 7,
-    "supermercado": "Atacadão",
-    "produto": "Pimentão Amarelo 400g",
-    "preco": 16.49,
-    "preco_por_kg": 41.22
-  },
-  {
     "id": 8,
     "supermercado": "Atacadão",
     "produto": "Tempero Completo Sabor Ami Sem Pimenta 300g",
@@ -61,6 +54,13 @@
     "produto": "Ice 51 Limão 275ml",
     "preco": 5.19,
     "preco_por_kg": 0.1
+  },
+  {
+    "id": 10,
+    "supermercado": "Atacadão",
+    "produto": "Vagem Macarrão 400g",
+    "preco": 8.99,
+    "preco_por_kg": 22.47
   },
   {
     "id": 11,
@@ -86,9 +86,9 @@
   {
     "id": 15,
     "supermercado": "Atacadão",
-    "produto": "Mistura para Bolo Itaiquara Cenoura 390g",
-    "preco": 2.28,
-    "preco_por_kg": 5.85
+    "produto": "Cenoura 20kg",
+    "preco": 99,
+    "preco_por_kg": 4.95
   },
   {
     "id": 16,
@@ -100,16 +100,16 @@
   {
     "id": 17,
     "supermercado": "Atacadão",
-    "produto": "Farinha de Mandioca Glúten Free Fina 500g",
-    "preco": 2.39,
-    "preco_por_kg": 4.78
+    "produto": "Mandioca Aipim 20kg",
+    "preco": 67,
+    "preco_por_kg": 3.35
   },
   {
     "id": 18,
     "supermercado": "Atacadão",
     "produto": "Cheiro-Verde un",
-    "preco": 1.65,
-    "preco_por_kg": 1.65
+    "preco": 3.69,
+    "preco_por_kg": 3.69
   },
   {
     "id": 19,
@@ -142,9 +142,9 @@
   {
     "id": 24,
     "supermercado": "Atacadão",
-    "produto": "Suco de Uva Campo Largo Integral 1,35L",
-    "preco": 14.9,
-    "preco_por_kg": 11.04
+    "produto": "Suco Néctar Maratá Uva 1L",
+    "preco": 4.29,
+    "preco_por_kg": 4.29
   },
   {
     "id": 25,
@@ -178,29 +178,29 @@
     "id": 31,
     "supermercado": "Atacadão",
     "produto": "Lasanha Seara Congelada Presunto e Queijo 600g",
-    "preco": 12.9,
-    "preco_por_kg": 21.5
+    "preco": 10.8,
+    "preco_por_kg": 18
   },
   {
     "id": 32,
     "supermercado": "Atacadão",
-    "produto": "Mortadela Mini Confiança 1kg",
-    "preco": 7.9,
-    "preco_por_kg": 7.9
+    "produto": "Mortadela Suína Confiança 400g",
+    "preco": 2.97,
+    "preco_por_kg": 7.42
   },
   {
     "id": 33,
     "supermercado": "Atacadão",
-    "produto": "Batata Pré-Frita Bem Brasil Congelada Carinhas 1,05kg",
-    "preco": 9.8,
-    "preco_por_kg": 9.33
+    "produto": "Batata Pré-Frita Uai Congelada 2kg",
+    "preco": 17.9,
+    "preco_por_kg": 8.95
   },
   {
     "id": 34,
     "supermercado": "Atacadão",
-    "produto": "Farinha de Mandioca Glúten Free Fina 500g",
-    "preco": 2.39,
-    "preco_por_kg": 4.78
+    "produto": "Mandioca Aipim 20kg",
+    "preco": 67,
+    "preco_por_kg": 3.35
   },
   {
     "id": 35,
@@ -210,18 +210,25 @@
     "preco_por_kg": 3.73
   },
   {
+    "id": 36,
+    "supermercado": "Atacadão",
+    "produto": "Água de Coco Quadrado 1L",
+    "preco": 6.39,
+    "preco_por_kg": 6.39
+  },
+  {
     "id": 37,
     "supermercado": "Atacadão",
     "produto": "Leite Fermentado Yakult 40 Light 6x80g",
-    "preco": 8.9,
-    "preco_por_kg": 0.22
+    "preco": 12.9,
+    "preco_por_kg": 0.32
   },
   {
     "id": 38,
     "supermercado": "Atacadão",
-    "produto": "Iogurte Polpa Nestlé Morango 510g",
-    "preco": 4.68,
-    "preco_por_kg": 9.18
+    "produto": "Bebida Láctea Polpa Elegê Morango 510g",
+    "preco": 4.59,
+    "preco_por_kg": 9
   },
   {
     "id": 39,
@@ -338,7 +345,7 @@
   {
     "id": 55,
     "supermercado": "Atacadão",
-    "produto": "Óleo de Soja Soya 900ml",
+    "produto": "Óleo de Soja Liza 900ml",
     "preco": 6.55,
     "preco_por_kg": 7.28
   },
@@ -464,9 +471,9 @@
   {
     "id": 74,
     "supermercado": "Atacadão",
-    "produto": "Flocão de Milho Dona Clara 500g",
-    "preco": 1.89,
-    "preco_por_kg": 3.78
+    "produto": "Flocos de Milho Maratá 500g",
+    "preco": 2.19,
+    "preco_por_kg": 4.38
   },
   {
     "id": 75,
@@ -485,9 +492,9 @@
   {
     "id": 77,
     "supermercado": "Atacadão",
-    "produto": "Desinfetante Lysoform Suave 5L",
-    "preco": 46.9,
-    "preco_por_kg": 9.38
+    "produto": "Desinfetante Lysoform Suave 2L",
+    "preco": 18.99,
+    "preco_por_kg": 9.49
   },
   {
     "id": 78,
@@ -555,16 +562,16 @@
   {
     "id": 88,
     "supermercado": "Atacadão",
-    "produto": "Detergente Líquido Ypê PRO Neutro 7L",
-    "preco": 24.9,
-    "preco_por_kg": 3.56
+    "produto": "Detergente Líquido Candura Neutro 500ml",
+    "preco": 1.75,
+    "preco_por_kg": 3.5
   },
   {
     "id": 89,
     "supermercado": "Atacadão",
-    "produto": "Kit Veja 2 Limp Multiuso Original 500ml + 1 Multiuso Power Fusion Limão 500ml",
-    "preco": 17.9,
-    "preco_por_kg": 8.95
+    "produto": "Limpador Multiuso Veja Gold Original 750ml Embalagem Econômica",
+    "preco": 5.9,
+    "preco_por_kg": 7.87
   },
   {
     "id": 90,
@@ -605,8 +612,8 @@
     "id": 95,
     "supermercado": "Atacadão",
     "produto": "Papel Higiênico Personal Vip Folha Dupla - 30m 4 rolos",
-    "preco": 5.78,
-    "preco_por_kg": 5.78
+    "preco": 5.41,
+    "preco_por_kg": 5.41
   },
   {
     "id": 96,
