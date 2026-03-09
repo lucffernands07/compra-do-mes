@@ -56,13 +56,6 @@
     "preco_por_kg": 1.39
   },
   {
-    "id": 10,
-    "supermercado": "Giga",
-    "produto": "Vagem Macarrão Bandeja 300g",
-    "preco": 6.9,
-    "preco_por_kg": 6.9
-  },
-  {
     "id": 11,
     "supermercado": "Giga",
     "produto": "Abóbrinha Italiana Kg",
@@ -147,13 +140,6 @@
     "preco_por_kg": 7.5
   },
   {
-    "id": 24,
-    "supermercado": "Giga",
-    "produto": "Creme De Tratamento Skala Uva 1Kg",
-    "preco": 10.59,
-    "preco_por_kg": 10.59
-  },
-  {
     "id": 25,
     "supermercado": "Giga",
     "produto": "Sabonete Flor De Ypê Flor De Maçã E Framboesa 85g",
@@ -170,9 +156,9 @@
   {
     "id": 28,
     "supermercado": "Giga",
-    "produto": "Leite Em Pó Integral Italac 400g",
-    "preco": 14.29,
-    "preco_por_kg": 14.29
+    "produto": "Leite Uht Tirol Semi Desnatado 1L",
+    "preco": 5.39,
+    "preco_por_kg": 5.39
   },
   {
     "id": 29,
@@ -233,9 +219,9 @@
   {
     "id": 37,
     "supermercado": "Giga",
-    "produto": "Leite Em Pó Integral Italac 400g",
-    "preco": 14.29,
-    "preco_por_kg": 14.29
+    "produto": "Leite Uht Tirol Semi Desnatado 1L",
+    "preco": 5.39,
+    "preco_por_kg": 5.39
   },
   {
     "id": 38,
@@ -261,9 +247,9 @@
   {
     "id": 41,
     "supermercado": "Giga",
-    "produto": "Arroz 7 Grãos Integrais + Quinoa Tio João 500G",
-    "preco": 12.15,
-    "preco_por_kg": 12.15
+    "produto": "Arroz Integral Biju Pacote 1Kg",
+    "preco": 4.95,
+    "preco_por_kg": 4.95
   },
   {
     "id": 42,
@@ -303,7 +289,7 @@
   {
     "id": 47,
     "supermercado": "Giga",
-    "produto": "Molho De Tomate Tradicional Fugini Sachê 300g",
+    "produto": "Molho De Tomate Tradicional Quero Sachê 240g",
     "preco": 1.89,
     "preco_por_kg": 1.89
   },
@@ -331,7 +317,7 @@
   {
     "id": 51,
     "supermercado": "Giga",
-    "produto": "Molho De Tomate Tradicional Fugini Sachê 300g",
+    "produto": "Molho De Tomate Tradicional Quero Sachê 240g",
     "preco": 1.89,
     "preco_por_kg": 1.89
   },
@@ -383,6 +369,20 @@
     "produto": "Sardinha Com Óleo Coqueiro Lata 125g",
     "preco": 5.99,
     "preco_por_kg": 5.99
+  },
+  {
+    "id": 60,
+    "supermercado": "Giga",
+    "produto": "Açúcar Cristal Orgânico Native Claro O Pacote 1Kg",
+    "preco": 7.15,
+    "preco_por_kg": 7.15
+  },
+  {
+    "id": 61,
+    "supermercado": "Giga",
+    "produto": "Açúcar Cristal Orgânico Native Claro O Pacote 1Kg",
+    "preco": 7.15,
+    "preco_por_kg": 7.15
   },
   {
     "id": 62,
@@ -513,16 +513,16 @@
   {
     "id": 83,
     "supermercado": "Giga",
-    "produto": "Saco De Lixo Embalixo Para Banheiro Embalagem 50 Unidades",
-    "preco": 5.95,
-    "preco_por_kg": 5.95
+    "produto": "Saco Xadrez Bom Pano",
+    "preco": 5.4,
+    "preco_por_kg": 5.4
   },
   {
     "id": 84,
     "supermercado": "Giga",
-    "produto": "Saco De Lixo Embalixo Para Banheiro Embalagem 50 Unidades",
-    "preco": 5.95,
-    "preco_por_kg": 5.95
+    "produto": "Saco Xadrez Bom Pano",
+    "preco": 5.4,
+    "preco_por_kg": 5.4
   },
   {
     "id": 85,
@@ -590,9 +590,9 @@
   {
     "id": 96,
     "supermercado": "Giga",
-    "produto": "Kit Desodorizador Sanitário Gel Adesivo Marine Refil Pato 2Un Com 6 Discos Cada",
-    "preco": 23.39,
-    "preco_por_kg": 23.39
+    "produto": "Detergente Sanitário Gel Adesivo Com Aplicador Citrus Pato Refil 38G",
+    "preco": 17.05,
+    "preco_por_kg": 17.05
   },
   {
     "id": 97,
@@ -646,9 +646,9 @@
   {
     "id": 104,
     "supermercado": "Giga",
-    "produto": "Lenços Umedecidos Pampers Aroma De Aloe Vera 48 Unidades",
-    "preco": 15.69,
-    "preco_por_kg": 15.69
+    "produto": "Lenços Huggies Higiene Superior Limpam 2X Mais 96 Unidades",
+    "preco": 28.85,
+    "preco_por_kg": 28.85
   },
   {
     "id": 105,
@@ -663,13 +663,6 @@
     "produto": "Enxaguante Bucal Hortelã Listerine Cool Mint Frasco 500Ml",
     "preco": 19.9,
     "preco_por_kg": 19.9
-  },
-  {
-    "id": 108,
-    "supermercado": "Giga",
-    "produto": "Areia Sanitária Para Gatos Baw Waw 4Kg",
-    "preco": 7.99,
-    "preco_por_kg": 7.99
   },
   {
     "id": 109,
