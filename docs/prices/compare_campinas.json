@@ -1,15 +1,15 @@
 {
-  "ultimaAtualizacao": "16/03/2026, 00:35:37",
+  "ultimaAtualizacao": "16/03/2026, 23:58:23",
   "cidade": "Campinas",
-  "totalCarrefour": "338.82",
-  "totalGiga": "200.06",
-  "totalCovabra": "331.58",
+  "totalCarrefour": "354.60",
+  "totalGiga": "221.82",
+  "totalCovabra": "350.63",
   "totalPagueMenos": "305.88",
-  "totalAtacadao": "135.51",
-  "totalTenda": "407.88",
+  "totalAtacadao": "139.36",
+  "totalTenda": "408.13",
   "totalEnxuto": "345.94",
   "encontradosCarrefour": 12,
-  "encontradosGiga": 11,
+  "encontradosGiga": 12,
   "encontradosCovabra": 11,
   "encontradosPagueMenos": 11,
   "encontradosAtacadao": 10,
@@ -19,9 +19,9 @@
     {
       "id": "1",
       "carrefour": {
-        "nome": "Paleta Bovina Moída Carrefour Aproximadamente 500 g",
-        "preco": 23.49,
-        "preco_por_kg": 46.98
+        "nome": "Carne Moida Patinho Bovino Congelado IGF Carrefour Selection 400g",
+        "preco": 28.99,
+        "preco_por_kg": 72.47
       },
       "giga": {
         "nome": "Alimento Para Gatos Adultos Carne Ao Molho Kitekat Sachê 70g",
@@ -98,8 +98,8 @@
       "id": "3",
       "carrefour": {
         "nome": "Linguiça de Calabresa Defumada Sadia 1 Kg",
-        "preco": 29.19,
-        "preco_por_kg": 29.19
+        "preco": 24.79,
+        "preco_por_kg": 24.79
       },
       "giga": {
         "nome": "Linguiça Calabresa Fatiada Frimesa Embalagem 1Kg",
@@ -141,14 +141,14 @@
         "preco_por_kg": 30.18
       },
       "giga": {
-        "nome": "Pão Brioche Para Hambúrguer Kim Nobre Pacote 280g 4 Unidades De 70g Cada",
-        "preco": 6.79,
-        "preco_por_kg": 6.79
+        "nome": "Pão Para Hambúrguer Australiano Vegano Wickbold Do Forno Premium Pacote 320g",
+        "preco": 12.65,
+        "preco_por_kg": 12.65
       },
       "covabra": {
-        "nome": "Hamburguer Seara Air Fryer Carne Bovina 150g",
-        "preco": 5.99,
-        "preco_por_kg": 39.93
+        "nome": "Hamburguer Sadia Burguer Carne Bovina 113g",
+        "preco": 4.98,
+        "preco_por_kg": 44.07
       },
       "paguemenos": {
         "nome": "N/A",
@@ -157,8 +157,8 @@
       },
       "atacadao": {
         "nome": "Hambúrguer Texas Burger Carne de Frango e Bovina 672g",
-        "preco": 12.9,
-        "preco_por_kg": 19.2
+        "preco": 15.49,
+        "preco_por_kg": 23.05
       },
       "tenda": {
         "nome": "Hambúrguer de carne de frango e bovina Perdigão caixa 672g 12 unidades",
@@ -176,8 +176,8 @@
       "id": "5",
       "carrefour": {
         "nome": "Linguiça Toscana Swift 700g",
-        "preco": 18.9,
-        "preco_por_kg": 27
+        "preco": 16.09,
+        "preco_por_kg": 22.99
       },
       "giga": {
         "nome": "Linguiça Fininha Defumada Seara 215g",
@@ -214,7 +214,7 @@
     {
       "id": "6",
       "carrefour": {
-        "nome": "Salsicha Hot Dog Resfriada Carrefour Aproximadamente 500 g",
+        "nome": "Salsicha Hot Dog Resfriada Aurora Aproximadamente 500 g",
         "preco": 7.44,
         "preco_por_kg": 14.88
       },
@@ -318,22 +318,22 @@
       },
       "tenda": {
         "nome": "Filézinho Sassami de Frango Congelado Seara Bloco 6kg",
-        "preco": 96.9,
-        "preco_por_kg": 16.15
+        "preco": 98.4,
+        "preco_por_kg": 16.4
       },
       "enxuto": {
         "nome": "Filezinho Frango Sassami Copacol Congelado Pacote 1kg",
         "preco": 28.9,
         "preco_por_kg": 28.9
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "9",
       "carrefour": {
         "nome": "Bisteca Suína Congelada Fatiada Aprox. 1Kg",
-        "preco": 21.99,
-        "preco_por_kg": 21.99
+        "preco": 18.69,
+        "preco_por_kg": 18.69
       },
       "giga": {
         "nome": "Bisteca Suína Swift",
@@ -420,8 +420,8 @@
       },
       "covabra": {
         "nome": "Contra Filé Bovino Pul Resfriado Peça a Vacuo 1,320kg",
-        "preco": 59.37,
-        "preco_por_kg": 44.98
+        "preco": 79.06,
+        "preco_por_kg": 59.89
       },
       "paguemenos": {
         "nome": "Contrafilé Bovino Resfriado KG",
@@ -443,19 +443,19 @@
         "preco": 37.74,
         "preco_por_kg": 62.9
       },
-      "mais_barato": "Covabra"
+      "mais_barato": "Tenda"
     },
     {
       "id": "13",
       "carrefour": {
         "nome": "Ovo Branco Pvc Extra Classe Asa Carrefour Bandeja com 20 Unidades",
-        "preco": 14.99,
-        "preco_por_kg": 14.99
+        "preco": 16.99,
+        "preco_por_kg": 16.99
       },
       "giga": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Ovos Brancos Grandes Bandeja Com 20 Unidades",
+        "preco": 15.9,
+        "preco_por_kg": 15.9
       },
       "covabra": {
         "nome": "Ovos Caipira Mantiqueira Happy Eggs Branco Grande Pvc Caixa com 10un",
