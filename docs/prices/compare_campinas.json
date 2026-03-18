@@ -1,14 +1,14 @@
 {
-  "ultimaAtualizacao": "16/03/2026, 23:58:23",
+  "ultimaAtualizacao": "18/03/2026, 00:05:09",
   "cidade": "Campinas",
-  "totalCarrefour": "354.60",
-  "totalGiga": "221.82",
-  "totalCovabra": "350.63",
+  "totalCarrefour": "403.45",
+  "totalGiga": "222.82",
+  "totalCovabra": "349.74",
   "totalPagueMenos": "305.88",
-  "totalAtacadao": "139.36",
-  "totalTenda": "408.13",
-  "totalEnxuto": "345.94",
-  "encontradosCarrefour": 12,
+  "totalAtacadao": "141.74",
+  "totalTenda": "407.73",
+  "totalEnxuto": "350.85",
+  "encontradosCarrefour": 13,
   "encontradosGiga": 12,
   "encontradosCovabra": 11,
   "encontradosPagueMenos": 11,
@@ -20,8 +20,8 @@
       "id": "1",
       "carrefour": {
         "nome": "Carne Moida Patinho Bovino Congelado IGF Carrefour Selection 400g",
-        "preco": 28.99,
-        "preco_por_kg": 72.47
+        "preco": 30.09,
+        "preco_por_kg": 75.22
       },
       "giga": {
         "nome": "Alimento Para Gatos Adultos Carne Ao Molho Kitekat Sachê 70g",
@@ -107,9 +107,9 @@
         "preco_por_kg": 27.55
       },
       "covabra": {
-        "nome": "Linguiça Calabresa Aurora Fresca 1 Porção 515g",
-        "preco": 14.88,
-        "preco_por_kg": 28.89
+        "nome": "Linguiça Calabresa Sadia Defumada 1 Unidade 502g",
+        "preco": 14.05,
+        "preco_por_kg": 27.99
       },
       "paguemenos": {
         "nome": "Linguiça Calabresa Defumada 200g",
@@ -196,8 +196,8 @@
       },
       "atacadao": {
         "nome": "Linguiça Toscana Pérola Congelada 5kg",
-        "preco": 64.5,
-        "preco_por_kg": 12.9
+        "preco": 72,
+        "preco_por_kg": 14.4
       },
       "tenda": {
         "nome": "Linguiça Toscana Congelada Pérola 5Kg",
@@ -214,7 +214,7 @@
     {
       "id": "6",
       "carrefour": {
-        "nome": "Salsicha Hot Dog Resfriada Aurora Aproximadamente 500 g",
+        "nome": "Salsicha Hot Dog Resfriada Carrefour Aproximadamente 500 g",
         "preco": 7.44,
         "preco_por_kg": 14.88
       },
@@ -235,8 +235,8 @@
       },
       "atacadao": {
         "nome": "Salsicha Hot Dog Aurora Congelada 3kg",
-        "preco": 25.27,
-        "preco_por_kg": 8.42
+        "preco": 27.9,
+        "preco_por_kg": 9.3
       },
       "tenda": {
         "nome": "Salsa Maço Unidade",
@@ -253,9 +253,9 @@
     {
       "id": "7",
       "carrefour": {
-        "nome": "Coxa com Sobrecoxa Congelada Dorsal Carrefour Aprox. 1 Kg",
-        "preco": 8.89,
-        "preco_por_kg": 8.89
+        "nome": "Pedaços de Frango Asa, Coxinha da Asa, Sobrecoxa e Peito Congelado com Osso Sadia 1Kg",
+        "preco": 12.79,
+        "preco_por_kg": 12.79
       },
       "giga": {
         "nome": "Sobrecoxa De Frango Congelada Sadia 1Kg",
@@ -293,13 +293,13 @@
       "id": "8",
       "carrefour": {
         "nome": "Filé de Peito de Frango Congelado sem Osso Perdigão 1Kg - Sassami",
-        "preco": 22.89,
-        "preco_por_kg": 22.89
+        "preco": 18.9,
+        "preco_por_kg": 18.9
       },
       "giga": {
-        "nome": "Filé De Peito De Frango Sadia 1Kg",
-        "preco": 20.9,
-        "preco_por_kg": 20.9
+        "nome": "Filé De Peito De Frango Bandeja 1Kg",
+        "preco": 21.9,
+        "preco_por_kg": 21.9
       },
       "covabra": {
         "nome": "Filézinho de Frango Sassami Resfriado Bandeja 1 Unidade 515g",
@@ -318,22 +318,22 @@
       },
       "tenda": {
         "nome": "Filézinho Sassami de Frango Congelado Seara Bloco 6kg",
-        "preco": 98.4,
-        "preco_por_kg": 16.4
+        "preco": 96,
+        "preco_por_kg": 16
       },
       "enxuto": {
         "nome": "Filezinho Frango Sassami Copacol Congelado Pacote 1kg",
         "preco": 28.9,
         "preco_por_kg": 28.9
       },
-      "mais_barato": "Atacadão"
+      "mais_barato": "Tenda"
     },
     {
       "id": "9",
       "carrefour": {
         "nome": "Bisteca Suína Congelada Fatiada Aprox. 1Kg",
-        "preco": 18.69,
-        "preco_por_kg": 18.69
+        "preco": 21.99,
+        "preco_por_kg": 21.99
       },
       "giga": {
         "nome": "Bisteca Suína Swift",
@@ -362,8 +362,8 @@
       },
       "enxuto": {
         "nome": "Bisteca Suína Carré Lombo Congelada 700g",
-        "preco": 11.89,
-        "preco_por_kg": 16.99
+        "preco": 15.33,
+        "preco_por_kg": 21.9
       },
       "mais_barato": "Tenda"
     },
@@ -419,9 +419,9 @@
         "preco_por_kg": 58.9
       },
       "covabra": {
-        "nome": "Contra Filé Bovino Pul Resfriado Peça a Vacuo 1,320kg",
-        "preco": 79.06,
-        "preco_por_kg": 59.89
+        "nome": "Contra Filé Bovino Friboi Pedaço a Vácuo 1,280kg",
+        "preco": 76.67,
+        "preco_por_kg": 59.9
       },
       "paguemenos": {
         "nome": "Contrafilé Bovino Resfriado KG",
@@ -446,9 +446,48 @@
       "mais_barato": "Tenda"
     },
     {
+      "id": "12",
+      "carrefour": {
+        "nome": "Músculo Bovino Carrefour Aproximadamente 1 kg",
+        "preco": 42.89,
+        "preco_por_kg": 42.89
+      },
+      "giga": {
+        "nome": "Desengordurante Mr Musculo Cozinha Refil Laranja Oferta Especial 400ml",
+        "preco": 11.69,
+        "preco_por_kg": 11.69
+      },
+      "covabra": {
+        "nome": "Músculo Traseiro Bovino Cubos Bandeja 1 Unidade 515g",
+        "preco": 18.01,
+        "preco_por_kg": 34.97
+      },
+      "paguemenos": {
+        "nome": "Músculo Bovino Resfriado KG",
+        "preco": 39.99,
+        "preco_por_kg": 39.99
+      },
+      "atacadao": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "tenda": {
+        "nome": "Músculo Bovino Resfriado Peça 4kg",
+        "preco": 135.6,
+        "preco_por_kg": 33.9
+      },
+      "enxuto": {
+        "nome": "Musculo Bov Tortuguita Bd Kg",
+        "preco": 18.87,
+        "preco_por_kg": 18.87
+      },
+      "mais_barato": "Giga"
+    },
+    {
       "id": "13",
       "carrefour": {
-        "nome": "Ovo Branco Pvc Extra Classe Asa Carrefour Bandeja com 20 Unidades",
+        "nome": "Ovo Branco Grande Shinoda Com 20 Unidades",
         "preco": 16.99,
         "preco_por_kg": 16.99
       },
@@ -483,45 +522,6 @@
         "preco_por_kg": 8.99
       },
       "mais_barato": "Covabra"
-    },
-    {
-      "id": "12",
-      "carrefour": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "giga": {
-        "nome": "Desengordurante Mr Musculo Cozinha Refil Laranja Oferta Especial 400ml",
-        "preco": 11.69,
-        "preco_por_kg": 11.69
-      },
-      "covabra": {
-        "nome": "Músculo Traseiro Bovino Cubos Bandeja 1 Unidade 515g",
-        "preco": 18.01,
-        "preco_por_kg": 34.97
-      },
-      "paguemenos": {
-        "nome": "Músculo Bovino Resfriado KG",
-        "preco": 39.99,
-        "preco_por_kg": 39.99
-      },
-      "atacadao": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "tenda": {
-        "nome": "Músculo Bovino Resfriado Peça 4kg",
-        "preco": 135.6,
-        "preco_por_kg": 33.9
-      },
-      "enxuto": {
-        "nome": "Musculo Bov Tortuguita Bd Kg",
-        "preco": 18.87,
-        "preco_por_kg": 18.87
-      },
-      "mais_barato": "Giga"
     }
   ]
 }
