@@ -1,13 +1,13 @@
 {
-  "ultimaAtualizacao": "30/03/2026, 00:39:27",
+  "ultimaAtualizacao": "31/03/2026, 00:31:03",
   "cidade": "Campinas",
-  "totalCarrefour": "487.27",
-  "totalGiga": "212.96",
+  "totalCarrefour": "312.97",
+  "totalGiga": "279.29",
   "totalCovabra": "374.63",
   "totalPagueMenos": "302.88",
-  "totalAtacadao": "141.49",
+  "totalAtacadao": "146.83",
   "totalTenda": "384.83",
-  "totalEnxuto": "266.82",
+  "totalEnxuto": "478.61",
   "encontradosCarrefour": 12,
   "encontradosGiga": 10,
   "encontradosCovabra": 11,
@@ -63,9 +63,9 @@
         "preco_por_kg": 8.99
       },
       "giga": {
-        "nome": "Lasanha Congelada Perdigão Frango E Bacon Embalagem 600G",
-        "preco": 14.85,
-        "preco_por_kg": 14.85
+        "nome": "Pizza Frango Com Bacon E Creme De Requeijão Perdigão 460g",
+        "preco": 19.69,
+        "preco_por_kg": 19.69
       },
       "covabra": {
         "nome": "Maionese Hellmann s Bacon Sinistro Squeeze 335g",
@@ -98,8 +98,8 @@
       "id": "3",
       "carrefour": {
         "nome": "Linguiça de Calabresa Defumada Sadia 1 Kg",
-        "preco": 29.19,
-        "preco_por_kg": 29.19
+        "preco": 24.79,
+        "preco_por_kg": 24.79
       },
       "giga": {
         "nome": "Linguiça Suína Nobre 700g",
@@ -117,9 +117,9 @@
         "preco_por_kg": 24.99
       },
       "atacadao": {
-        "nome": "Linguiça Calabresa Aurora Resfriada 5kg",
-        "preco": 89.9,
-        "preco_por_kg": 17.98
+        "nome": "Linguiça Calabresa Alegra Resfriada 2,5kg",
+        "preco": 49.5,
+        "preco_por_kg": 19.8
       },
       "tenda": {
         "nome": "Linguiça Calabresa Defumada Estrela Pacote 2,5kg",
@@ -157,11 +157,11 @@
       },
       "atacadao": {
         "nome": "Hambúrguer Texas Burger Carne de Frango e Bovina 672g",
-        "preco": 14.8,
-        "preco_por_kg": 22.02
+        "preco": 15.4,
+        "preco_por_kg": 22.92
       },
       "tenda": {
-        "nome": "Hambúrguer de carne de frango e bovina Perdigão caixa 672g 12 unidades",
+        "nome": "Hambúrguer de Carne Bovina Churrasco Sadia Caixa 672g 12 Unidades",
         "preco": 17.9,
         "preco_por_kg": 26.64
       },
@@ -176,13 +176,13 @@
       "id": "5",
       "carrefour": {
         "nome": "Linguiça Toscana Swift 700g",
-        "preco": 17.9,
-        "preco_por_kg": 25.57
+        "preco": 15.19,
+        "preco_por_kg": 21.7
       },
       "giga": {
-        "nome": "Linguiça Toscana Congelada Sadia Pacote 5kg",
-        "preco": 22.18,
-        "preco_por_kg": 22.18
+        "nome": "Linguiça Toscana Congelada Perdigão Na Brasa Pacote 5kg",
+        "preco": 23.58,
+        "preco_por_kg": 23.58
       },
       "covabra": {
         "nome": "Linguiça Toscana Seara 1 Porção 824g",
@@ -196,8 +196,8 @@
       },
       "atacadao": {
         "nome": "Linguiça Toscana Pérola Congelada 5kg",
-        "preco": 59.9,
-        "preco_por_kg": 11.98
+        "preco": 72,
+        "preco_por_kg": 14.4
       },
       "tenda": {
         "nome": "Linguiça Toscana Congelada Pérola 5Kg",
@@ -209,7 +209,7 @@
         "preco": 13.95,
         "preco_por_kg": 13.95
       },
-      "mais_barato": "Atacadão"
+      "mais_barato": "Tenda"
     },
     {
       "id": "6",
@@ -219,9 +219,9 @@
         "preco_por_kg": 11.88
       },
       "giga": {
-        "nome": "Salsicha Hot Dog Sadia 500g",
-        "preco": 12.9,
-        "preco_por_kg": 12.9
+        "nome": "Salsicha Hot Dog Congelada Perdigão Pacote 5kg",
+        "preco": 12.99,
+        "preco_por_kg": 12.99
       },
       "covabra": {
         "nome": "Salsicha Seara Hot Dog 1 Porção 515g",
@@ -235,8 +235,8 @@
       },
       "atacadao": {
         "nome": "Salsicha Hot Dog Aurora Congelada 3kg",
-        "preco": 31.5,
-        "preco_por_kg": 10.5
+        "preco": 32.1,
+        "preco_por_kg": 10.7
       },
       "tenda": {
         "nome": "Salsicha Hot Dog Aurora Pacote 3kg",
@@ -245,17 +245,17 @@
       },
       "enxuto": {
         "nome": "Salsicha Hot Dog Sadia Granel Kg",
-        "preco": 7.78,
-        "preco_por_kg": 7.78
+        "preco": 8.75,
+        "preco_por_kg": 8.75
       },
       "mais_barato": "Enxuto"
     },
     {
       "id": "7",
       "carrefour": {
-        "nome": "Sobrecoxa de Frango Swift 1Kg",
-        "preco": 12.9,
-        "preco_por_kg": 12.9
+        "nome": "Coxa com Sobrecoxa Congelada Dorsal Carrefour Aprox. 1 Kg",
+        "preco": 7.59,
+        "preco_por_kg": 7.59
       },
       "giga": {
         "nome": "N/A",
@@ -292,14 +292,14 @@
     {
       "id": "8",
       "carrefour": {
-        "nome": "Filé Sassami de Peito de Frango Congelado Sadia 1Kg",
-        "preco": 22.99,
-        "preco_por_kg": 22.99
+        "nome": "Filé de Peito de Frango Congelado sem Osso Perdigão 1Kg - Sassami",
+        "preco": 20.49,
+        "preco_por_kg": 20.49
       },
       "giga": {
-        "nome": "Filé Mignon Suíno Swift Quilo",
-        "preco": 34.9,
-        "preco_por_kg": 34.9
+        "nome": "Filé Mignon Swift Bronze Kg",
+        "preco": 94.9,
+        "preco_por_kg": 94.9
       },
       "covabra": {
         "nome": "Filézinho de Frango Sassami Resfriado Bandeja 1 Unidade 515g",
@@ -332,8 +332,8 @@
       "id": "9",
       "carrefour": {
         "nome": "Bisteca Suína Congelada Fatiada Aprox. 1Kg",
-        "preco": 17.69,
-        "preco_por_kg": 17.69
+        "preco": 18.69,
+        "preco_por_kg": 18.69
       },
       "giga": {
         "nome": "Bisteca Suína Congelada Aurora",
@@ -448,9 +448,9 @@
     {
       "id": "13",
       "carrefour": {
-        "nome": "Ovo de Páscoa Chocolate Branco Divino Vicio 140g",
-        "preco": 24.95,
-        "preco_por_kg": 178.21
+        "nome": "Ovo Branco Extra P.C. Iana Com 20 Unidades",
+        "preco": 18.99,
+        "preco_por_kg": 18.99
       },
       "giga": {
         "nome": "N/A",
@@ -478,9 +478,9 @@
         "preco_por_kg": 119.33
       },
       "enxuto": {
-        "nome": "Ovo Satoshi Extra Branco C/20",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
+        "nome": "Ovo De Páscoa Lacta Ouro Branco 359g",
+        "preco": 79.99,
+        "preco_por_kg": 222.81
       },
       "mais_barato": "Atacadão"
     },
