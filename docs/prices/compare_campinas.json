@@ -1,20 +1,20 @@
 {
-  "ultimaAtualizacao": "01/04/2026, 00:43:52",
+  "ultimaAtualizacao": "02/04/2026, 00:10:43",
   "cidade": "Campinas",
-  "totalCarrefour": "497.98",
-  "totalGiga": "273.81",
+  "totalCarrefour": "329.68",
+  "totalGiga": "213.81",
   "totalCovabra": "374.63",
   "totalPagueMenos": "300.13",
-  "totalAtacadao": "146.33",
-  "totalTenda": "384.83",
-  "totalEnxuto": "452.60",
+  "totalAtacadao": "144.39",
+  "totalTenda": "406.10",
+  "totalEnxuto": "584.97",
   "encontradosCarrefour": 12,
   "encontradosGiga": 10,
   "encontradosCovabra": 11,
   "encontradosPagueMenos": 11,
   "encontradosAtacadao": 10,
   "encontradosTenda": 13,
-  "encontradosEnxuto": 12,
+  "encontradosEnxuto": 13,
   "produtos": [
     {
       "id": "1",
@@ -117,9 +117,9 @@
         "preco_por_kg": 24.99
       },
       "atacadao": {
-        "nome": "Linguiça Tipo Calabresa Prieto 2kg",
-        "preco": 39.8,
-        "preco_por_kg": 19.9
+        "nome": "Linguiça Calabresa Marba Resfriada Defumada 2,5kg",
+        "preco": 44.9,
+        "preco_por_kg": 17.96
       },
       "tenda": {
         "nome": "Linguiça Calabresa Defumada Estrela Pacote 2,5kg",
@@ -128,17 +128,17 @@
       },
       "enxuto": {
         "nome": "Linguica Calabresa Brasa 400g",
-        "preco": 9.98,
-        "preco_por_kg": 24.95
+        "preco": 8.98,
+        "preco_por_kg": 22.45
       },
       "mais_barato": "Giga"
     },
     {
       "id": "4",
       "carrefour": {
-        "nome": "Hambúrguer Misto de Carne de Frango e Bovina Sadia 56 g",
-        "preco": 1.69,
-        "preco_por_kg": 30.18
+        "nome": "Hambúrguer de carne de frango e de carne bovina Perdigão - 56 g",
+        "preco": 1.59,
+        "preco_por_kg": 28.39
       },
       "giga": {
         "nome": "Hambúrguer Bovino Sadia Bassi Picanha 360G",
@@ -245,8 +245,8 @@
       },
       "enxuto": {
         "nome": "Salsicha Hot Dog Sadia Granel Kg",
-        "preco": 8.75,
-        "preco_por_kg": 8.75
+        "preco": 6.58,
+        "preco_por_kg": 6.58
       },
       "mais_barato": "Enxuto"
     },
@@ -273,8 +273,8 @@
         "preco_por_kg": 14.99
       },
       "atacadao": {
-        "nome": "Coxa com Sobrecoxa de Frango Copacol Congelada 16kg",
-        "preco": 120,
+        "nome": "Coxa e Sobrecoxa de Frango Canção Congelada 18kg",
+        "preco": 135,
         "preco_por_kg": 7.5
       },
       "tenda": {
@@ -283,23 +283,23 @@
         "preco_por_kg": 7.9
       },
       "enxuto": {
-        "nome": "Sobrecoxa Frango Sadia Iqf Congelado 1kg",
-        "preco": 17.9,
-        "preco_por_kg": 17.9
+        "nome": "Coxa C/sobrecoxa C/osso Levemente Temp Cong Pct Kg",
+        "preco": 12.58,
+        "preco_por_kg": 12.58
       },
       "mais_barato": "Atacadão"
     },
     {
       "id": "8",
       "carrefour": {
-        "nome": "Filé Sassami de Peito de Frango Congelado Sadia 1Kg",
-        "preco": 22.99,
-        "preco_por_kg": 22.99
+        "nome": "Filé de Peito de Frango Congelado sem Osso Perdigão 1Kg - Sassami",
+        "preco": 21.89,
+        "preco_por_kg": 21.89
       },
       "giga": {
-        "nome": "Filé Mignon Swift Bronze Kg",
-        "preco": 94.9,
-        "preco_por_kg": 94.9
+        "nome": "Filé Mignon Suíno Swift Quilo",
+        "preco": 34.9,
+        "preco_por_kg": 34.9
       },
       "covabra": {
         "nome": "Filézinho de Frango Sassami Resfriado Bandeja 1 Unidade 515g",
@@ -323,8 +323,8 @@
       },
       "enxuto": {
         "nome": "Filezinho Frango Sassami Copacol Congelado Pacote 1kg",
-        "preco": 16.98,
-        "preco_por_kg": 16.98
+        "preco": 16.89,
+        "preco_por_kg": 16.89
       },
       "mais_barato": "Tenda"
     },
@@ -361,9 +361,9 @@
         "preco_por_kg": 15.5
       },
       "enxuto": {
-        "nome": "Bisteca Suína Carré Lombo Congelada 700g",
-        "preco": 12.52,
-        "preco_por_kg": 17.89
+        "nome": "Bisteca Suína Copa Lombo Fresco 700g",
+        "preco": 11.13,
+        "preco_por_kg": 15.9
       },
       "mais_barato": "Tenda"
     },
@@ -396,13 +396,13 @@
       },
       "tenda": {
         "nome": "Miolo da Alcatra Bovina Resfriado 5kg",
-        "preco": 244.5,
-        "preco_por_kg": 48.9
+        "preco": 229.5,
+        "preco_por_kg": 45.9
       },
       "enxuto": {
         "nome": "Miolo Da Alcatra Bovino Bife 500g",
-        "preco": 27.45,
-        "preco_por_kg": 54.9
+        "preco": 29.95,
+        "preco_por_kg": 59.9
       },
       "mais_barato": "Tenda"
     },
@@ -434,23 +434,23 @@
         "preco_por_kg": 0
       },
       "tenda": {
-        "nome": "Contra Filé Bovino Resfriado Peça 4kg",
-        "preco": 195.6,
-        "preco_por_kg": 48.9
+        "nome": "Contra Filé Bovino em Bifes Resfriado Bandeja 400g",
+        "preco": 18.36,
+        "preco_por_kg": 45.9
       },
       "enxuto": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Contra Filé Bovino Pedaço 600g",
+        "preco": 37.74,
+        "preco_por_kg": 62.9
       },
       "mais_barato": "Carrefour"
     },
     {
       "id": "13",
       "carrefour": {
-        "nome": "Ovo de Páscoa Chocolate Branco Divino Vicio 140g",
-        "preco": 24.95,
-        "preco_por_kg": 178.21
+        "nome": "Ovo Branco Grande Shinoda Com 20 Unidades",
+        "preco": 12.8,
+        "preco_por_kg": 12.8
       },
       "giga": {
         "nome": "N/A",
@@ -474,13 +474,13 @@
       },
       "tenda": {
         "nome": "Ovo de Páscoa Branco Q-buono 150g",
-        "preco": 17.9,
-        "preco_por_kg": 119.33
+        "preco": 21.99,
+        "preco_por_kg": 146.6
       },
       "enxuto": {
         "nome": "Ovo Páscoa Lacta Bis Branco 234g",
-        "preco": 46.99,
-        "preco_por_kg": 200.81
+        "preco": 64.9,
+        "preco_por_kg": 277.35
       },
       "mais_barato": "Atacadão"
     },

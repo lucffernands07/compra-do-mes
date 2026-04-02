@@ -1,10 +1,10 @@
 {
-  "ultimaAtualizacao": "01/04/2026, 00:34:08",
-  "totalGoodbom": "232.18",
-  "totalTenda": "384.83",
+  "ultimaAtualizacao": "02/04/2026, 00:00:19",
+  "totalGoodbom": "163.32",
+  "totalTenda": "406.10",
   "totalArena": "347.45",
-  "totalSavegnago": "272.56",
-  "encontradosGoodbom": 9,
+  "totalSavegnago": "262.19",
+  "encontradosGoodbom": 4,
   "encontradosTenda": 13,
   "encontradosArena": 12,
   "encontradosSavegnago": 10,
@@ -36,9 +36,9 @@
     {
       "id": 2,
       "goodbom": {
-        "nome": "BACON MANTA SADIA KG",
-        "preco": 34.9,
-        "preco_por_kg": 34.9
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "tenda": {
         "nome": "Bacon tablete Seara Gourmet",
@@ -108,9 +108,9 @@
     {
       "id": 5,
       "goodbom": {
-        "nome": "LINGUIÇA TOSCANA SEARA KG",
-        "preco": 16.99,
-        "preco_por_kg": 16.99
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "tenda": {
         "nome": "Linguiça Toscana Congelada Pérola 5Kg",
@@ -123,18 +123,18 @@
         "preco_por_kg": 18.49
       },
       "savegnago": {
-        "nome": "Linguiça Toscana Swift 700g",
-        "preco": 17.95,
-        "preco_por_kg": 25.64
+        "nome": "Linguiça Toscana Camari 600g Apimentada",
+        "preco": 9.16,
+        "preco_por_kg": 15.27
       },
       "mais_barato": "Tenda"
     },
     {
       "id": 6,
       "goodbom": {
-        "nome": "SALSICHA HOT DOG SEARA KG",
-        "preco": 7.99,
-        "preco_por_kg": 7.99
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "tenda": {
         "nome": "Salsicha Hot Dog Aurora Pacote 3kg",
@@ -156,9 +156,9 @@
     {
       "id": 7,
       "goodbom": {
-        "nome": "SOBRECOXA KG",
-        "preco": 14.99,
-        "preco_por_kg": 14.99
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "tenda": {
         "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
@@ -204,9 +204,9 @@
     {
       "id": 9,
       "goodbom": {
-        "nome": "BISTECA SUÍNA ESPECIAL KG",
-        "preco": 23.99,
-        "preco_por_kg": 23.99
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "tenda": {
         "nome": "Bisteca Suína Congelada Aurora 1,2kg",
@@ -234,8 +234,8 @@
       },
       "tenda": {
         "nome": "Miolo da Alcatra Bovina Resfriado 5kg",
-        "preco": 244.5,
-        "preco_por_kg": 48.9
+        "preco": 229.5,
+        "preco_por_kg": 45.9
       },
       "arena": {
         "nome": "Miolo Alcatra Bovino Porcionado Kg",
@@ -257,9 +257,9 @@
         "preco_por_kg": 59.9
       },
       "tenda": {
-        "nome": "Contra Filé Bovino Resfriado Peça 4kg",
-        "preco": 195.6,
-        "preco_por_kg": 48.9
+        "nome": "Contra Filé Bovino em Bifes Resfriado Bandeja 400g",
+        "preco": 18.36,
+        "preco_por_kg": 45.9
       },
       "arena": {
         "nome": "Contra Filé Bovino Porcionado Embalado À Vácuo Kg",
@@ -276,9 +276,9 @@
     {
       "id": 12,
       "goodbom": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "MÚSCULO TRASEIRO BOVINO KG",
+        "preco": 36.99,
+        "preco_por_kg": 36.99
       },
       "tenda": {
         "nome": "Músculo Bovino Resfriado Peça 4kg",
@@ -300,14 +300,14 @@
     {
       "id": 13,
       "goodbom": {
-        "nome": "OVOS SATOSHI GRANDE BRANCO COM 06",
-        "preco": 6.99,
-        "preco_por_kg": 6.99
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "tenda": {
         "nome": "Ovo de Páscoa Branco Q-buono 150g",
-        "preco": 17.9,
-        "preco_por_kg": 119.33
+        "preco": 21.99,
+        "preco_por_kg": 146.6
       },
       "arena": {
         "nome": "Ovos Iana Grande Branco Graciana Queens Eggs Com 10 Unidades",
@@ -319,7 +319,7 @@
         "preco": 8.9,
         "preco_por_kg": 8.9
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Savegnago"
     }
   ]
 }
