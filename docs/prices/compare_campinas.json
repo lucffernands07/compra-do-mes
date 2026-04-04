@@ -1,13 +1,13 @@
 {
-  "ultimaAtualizacao": "03/04/2026, 00:10:46",
+  "ultimaAtualizacao": "04/04/2026, 00:01:38",
   "cidade": "Campinas",
-  "totalCarrefour": "331.24",
+  "totalCarrefour": "322.78",
   "totalGiga": "217.66",
   "totalCovabra": "358.86",
   "totalPagueMenos": "300.13",
-  "totalAtacadao": "137.02",
-  "totalTenda": "409.10",
-  "totalEnxuto": "605.56",
+  "totalAtacadao": "135.00",
+  "totalTenda": "375.83",
+  "totalEnxuto": "788.11",
   "encontradosCarrefour": 12,
   "encontradosGiga": 11,
   "encontradosCovabra": 11,
@@ -117,9 +117,9 @@
         "preco_por_kg": 24.99
       },
       "atacadao": {
-        "nome": "Linguiça Calabresa Seara 2,5kg",
-        "preco": 47.5,
-        "preco_por_kg": 19
+        "nome": "Linguiça Calabresa Marba Resfriada Defumada 2,5kg",
+        "preco": 29.89,
+        "preco_por_kg": 11.96
       },
       "tenda": {
         "nome": "Linguiça Calabresa Defumada Estrela Pacote 2,5kg",
@@ -131,14 +131,14 @@
         "preco": 8.98,
         "preco_por_kg": 22.45
       },
-      "mais_barato": "Giga"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "4",
       "carrefour": {
-        "nome": "Hambúrguer Misto de Carne de Frango e Bovina Sadia 56 g",
-        "preco": 1.69,
-        "preco_por_kg": 30.18
+        "nome": "Hambúrguer de carne de frango e de carne bovina Perdigão - 56 g",
+        "preco": 1.59,
+        "preco_por_kg": 28.39
       },
       "giga": {
         "nome": "Hambúrguer Bovino Sadia Bassi Picanha 360G",
@@ -157,11 +157,11 @@
       },
       "atacadao": {
         "nome": "Hambúrguer Texas Burger Carne de Frango e Bovina 672g",
-        "preco": 10.9,
-        "preco_por_kg": 16.22
+        "preco": 15.9,
+        "preco_por_kg": 23.66
       },
       "tenda": {
-        "nome": "Hambúrguer de Carne Bovina Churrasco Sadia Caixa 672g 12 Unidades",
+        "nome": "Hambúrguer de carne de frango e bovina Perdigão caixa 672g 12 unidades",
         "preco": 17.9,
         "preco_por_kg": 26.64
       },
@@ -175,9 +175,9 @@
     {
       "id": "5",
       "carrefour": {
-        "nome": "Linguiça Toscana Swift 700g",
-        "preco": 17.9,
-        "preco_por_kg": 25.57
+        "nome": "Lingüiça Toscana Grossa Auora Aprox. 700g",
+        "preco": 15.33,
+        "preco_por_kg": 21.9
       },
       "giga": {
         "nome": "Linguiça Toscana Congelada Perdigão Na Brasa Pacote 5kg",
@@ -196,8 +196,8 @@
       },
       "atacadao": {
         "nome": "Linguiça Toscana Pérola Congelada 5kg",
-        "preco": 72,
-        "preco_por_kg": 14.4
+        "preco": 59.9,
+        "preco_por_kg": 11.98
       },
       "tenda": {
         "nome": "Linguiça Toscana Congelada Pérola 5Kg",
@@ -209,7 +209,7 @@
         "preco": 13.95,
         "preco_por_kg": 13.95
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "6",
@@ -435,8 +435,8 @@
       },
       "tenda": {
         "nome": "Contra Filé Bovino Resfriado Peça 4kg",
-        "preco": 195.6,
-        "preco_por_kg": 48.9
+        "preco": 171.6,
+        "preco_por_kg": 42.9
       },
       "enxuto": {
         "nome": "Contra Filé Bovino Pedaço 600g",
@@ -448,9 +448,9 @@
     {
       "id": "13",
       "carrefour": {
-        "nome": "Ovo Branco Grande Shinoda Com 20 Unidades",
-        "preco": 18.99,
-        "preco_por_kg": 18.99
+        "nome": "Ovo Branco Extra P.C. Iana Com 20 Unidades",
+        "preco": 15.99,
+        "preco_por_kg": 15.99
       },
       "giga": {
         "nome": "N/A",
@@ -474,13 +474,13 @@
       },
       "tenda": {
         "nome": "Ovo de Páscoa Branco Q-buono 150g",
-        "preco": 21.99,
-        "preco_por_kg": 146.6
+        "preco": 17.9,
+        "preco_por_kg": 119.33
       },
       "enxuto": {
-        "nome": "Ovo Páscoa Lacta Bis Branco 234g",
-        "preco": 64.9,
-        "preco_por_kg": 277.35
+        "nome": "Ovo De Páscoa Arcor Tortuguita Chocolate Branco 100g",
+        "preco": 45.99,
+        "preco_por_kg": 459.9
       },
       "mais_barato": "Atacadão"
     },
