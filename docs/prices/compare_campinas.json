@@ -1,27 +1,27 @@
 {
-  "ultimaAtualizacao": "05/04/2026, 00:38:20",
+  "ultimaAtualizacao": "06/04/2026, 00:41:33",
   "cidade": "Campinas",
-  "totalCarrefour": "326.45",
-  "totalGiga": "217.66",
-  "totalCovabra": "358.86",
+  "totalCarrefour": "312.95",
+  "totalGiga": "230.82",
+  "totalCovabra": "359.85",
   "totalPagueMenos": "300.13",
   "totalAtacadao": "135.60",
-  "totalTenda": "369.17",
-  "totalEnxuto": "799.21",
+  "totalTenda": "378.17",
+  "totalEnxuto": "291.24",
   "encontradosCarrefour": 12,
   "encontradosGiga": 11,
   "encontradosCovabra": 11,
   "encontradosPagueMenos": 11,
   "encontradosAtacadao": 10,
   "encontradosTenda": 13,
-  "encontradosEnxuto": 13,
+  "encontradosEnxuto": 11,
   "produtos": [
     {
       "id": "1",
       "carrefour": {
-        "nome": "Carne Moida Dianteiro Bovino Congelado IGF Carrefour Selection 400g",
-        "preco": 21.39,
-        "preco_por_kg": 53.48
+        "nome": "Paleta Bovina Moída Carrefour Aproximadamente 500 g",
+        "preco": 19.99,
+        "preco_por_kg": 39.98
       },
       "giga": {
         "nome": "Alimento Para Gatos Adultos Carne Ao Molho Kitekat Sachê 70G",
@@ -102,9 +102,9 @@
         "preco_por_kg": 29.19
       },
       "giga": {
-        "nome": "Linguiça Suína Nobre 700g",
-        "preco": 15.9,
-        "preco_por_kg": 15.9
+        "nome": "Linguiça Toscana Congelada Perdigão Na Brasa Pacote 5kg",
+        "preco": 23.58,
+        "preco_por_kg": 23.58
       },
       "covabra": {
         "nome": "Linguiça Calabresa Sadia Defumada 1 Unidade 502g",
@@ -127,9 +127,9 @@
         "preco_por_kg": 17.89
       },
       "enxuto": {
-        "nome": "Linguica Calabresa Brasa 400g",
-        "preco": 9.98,
-        "preco_por_kg": 24.95
+        "nome": "Ling Calabresa Perdigao Def Pct 4,5kg",
+        "preco": 129,
+        "preco_por_kg": 28.67
       },
       "mais_barato": "Atacadão"
     },
@@ -167,8 +167,8 @@
       },
       "enxuto": {
         "nome": "Hamburguer Maturatta Carne Bovina/costela 180g",
-        "preco": 5.99,
-        "preco_por_kg": 33.28
+        "preco": 7.99,
+        "preco_por_kg": 44.39
       },
       "mais_barato": "Atacadão"
     },
@@ -186,8 +186,8 @@
       },
       "covabra": {
         "nome": "Linguiça Toscana Perdigão Na Brasa 1 Porção 824g",
-        "preco": 15.57,
-        "preco_por_kg": 18.9
+        "preco": 16.39,
+        "preco_por_kg": 19.89
       },
       "paguemenos": {
         "nome": "Linguiça Toscana Leve Mais 500g",
@@ -381,8 +381,8 @@
       },
       "covabra": {
         "nome": "Miolo de Alcatra Bovino Cubos Bandeja 1 Unidade 515g",
-        "preco": 35.48,
-        "preco_por_kg": 68.89
+        "preco": 27.28,
+        "preco_por_kg": 52.97
       },
       "paguemenos": {
         "nome": "N/A",
@@ -396,8 +396,8 @@
       },
       "tenda": {
         "nome": "Miolo da Alcatra Bovina Resfriado 5kg",
-        "preco": 229.5,
-        "preco_por_kg": 45.9
+        "preco": 244.5,
+        "preco_por_kg": 48.9
       },
       "enxuto": {
         "nome": "Miolo Da Alcatra Bovino Peça 600g",
@@ -415,13 +415,13 @@
       },
       "giga": {
         "nome": "Contra Filé Bovino Resfriado Porcionado Friboi",
-        "preco": 49.42,
-        "preco_por_kg": 49.42
+        "preco": 54.9,
+        "preco_por_kg": 54.9
       },
       "covabra": {
         "nome": "Contra Filé Bovino Pul Resfriado Peça a Vacuo 1,320kg",
-        "preco": 56.73,
-        "preco_por_kg": 42.98
+        "preco": 79.06,
+        "preco_por_kg": 59.89
       },
       "paguemenos": {
         "nome": "Contrafilé Bovino Resfriado KG",
@@ -435,13 +435,13 @@
       },
       "tenda": {
         "nome": "Contra Filé Bovino Resfriado Peça 4kg",
-        "preco": 171.6,
-        "preco_por_kg": 42.9
+        "preco": 195.6,
+        "preco_por_kg": 48.9
       },
       "enxuto": {
-        "nome": "Contra Filé Bovino Pedaço 600g",
-        "preco": 37.74,
-        "preco_por_kg": 62.9
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Carrefour"
     },
@@ -478,9 +478,9 @@
         "preco_por_kg": 112.67
       },
       "enxuto": {
-        "nome": "Ovo De Páscoa Arcor Tortuguita Chocolate Branco 100g",
-        "preco": 45.99,
-        "preco_por_kg": 459.9
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Atacadão"
     },
@@ -498,8 +498,8 @@
       },
       "covabra": {
         "nome": "Músculo Traseiro Bovino Cubos Bandeja 1 Unidade 515g",
-        "preco": 19.55,
-        "preco_por_kg": 37.96
+        "preco": 19.04,
+        "preco_por_kg": 36.97
       },
       "paguemenos": {
         "nome": "Músculo Bovino Resfriado KG",
