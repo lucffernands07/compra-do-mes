@@ -1,20 +1,20 @@
 {
-  "ultimaAtualizacao": "07/04/2026, 00:31:58",
+  "ultimaAtualizacao": "08/04/2026, 00:40:20",
   "cidade": "Campinas",
-  "totalCarrefour": "329.88",
-  "totalGiga": "223.14",
-  "totalCovabra": "359.85",
+  "totalCarrefour": "326.74",
+  "totalGiga": "199.69",
+  "totalCovabra": "356.86",
   "totalPagueMenos": "300.13",
-  "totalAtacadao": "130.56",
+  "totalAtacadao": "27.71",
   "totalTenda": "364.83",
-  "totalEnxuto": "279.32",
+  "totalEnxuto": "266.77",
   "encontradosCarrefour": 12,
-  "encontradosGiga": 11,
+  "encontradosGiga": 9,
   "encontradosCovabra": 11,
   "encontradosPagueMenos": 11,
-  "encontradosAtacadao": 10,
+  "encontradosAtacadao": 2,
   "encontradosTenda": 13,
-  "encontradosEnxuto": 12,
+  "encontradosEnxuto": 11,
   "produtos": [
     {
       "id": "1",
@@ -24,9 +24,9 @@
         "preco_por_kg": 53.48
       },
       "giga": {
-        "nome": "Alimento Para Gatos Adultos Carne Ao Molho Kitekat Sachê 70G",
-        "preco": 2.55,
-        "preco_por_kg": 2.55
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "covabra": {
         "nome": "N/A",
@@ -39,9 +39,9 @@
         "preco_por_kg": 37.98
       },
       "atacadao": {
-        "nome": "Carne Bovina Moída Rkótima Congelada 500g",
-        "preco": 6.99,
-        "preco_por_kg": 13.98
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "tenda": {
         "nome": "Carne Moída Bovina Congelada Chuletão 500g",
@@ -53,7 +53,7 @@
         "preco": 26.35,
         "preco_por_kg": 26.35
       },
-      "mais_barato": "Giga"
+      "mais_barato": "Tenda"
     },
     {
       "id": "2",
@@ -78,9 +78,9 @@
         "preco_por_kg": 34.99
       },
       "atacadao": {
-        "nome": "Biscoito Salgado Tuc's Bacon 100g",
-        "preco": 1.39,
-        "preco_por_kg": 13.9
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "tenda": {
         "nome": "Bacon tablete Seara Gourmet",
@@ -98,8 +98,8 @@
       "id": "3",
       "carrefour": {
         "nome": "Linguiça de Calabresa Defumada Sadia 1 Kg",
-        "preco": 29.19,
-        "preco_por_kg": 29.19
+        "preco": 24.79,
+        "preco_por_kg": 24.79
       },
       "giga": {
         "nome": "Linguiça Suína Nobre 700g",
@@ -117,9 +117,9 @@
         "preco_por_kg": 24.99
       },
       "atacadao": {
-        "nome": "Linguiça Calabresa Seara 2,5kg",
-        "preco": 35.89,
-        "preco_por_kg": 14.36
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "tenda": {
         "nome": "Linguiça Calabresa Defumada Estrela Pacote 2,5kg",
@@ -131,14 +131,14 @@
         "preco": 11.95,
         "preco_por_kg": 23.9
       },
-      "mais_barato": "Atacadão"
+      "mais_barato": "Giga"
     },
     {
       "id": "4",
       "carrefour": {
-        "nome": "Hambúrguer de carne de frango e de carne bovina Perdigão - 56 g",
-        "preco": 1.59,
-        "preco_por_kg": 28.39
+        "nome": "Hambúrguer Misto de Carne de Frango e Bovina Sadia 56 g",
+        "preco": 1.69,
+        "preco_por_kg": 30.18
       },
       "giga": {
         "nome": "Hambúrguer Bovino Sadia Bassi Picanha 360G",
@@ -156,9 +156,9 @@
         "preco_por_kg": 0
       },
       "atacadao": {
-        "nome": "Hambúrguer Texas Burger Carne de Frango e Bovina 672g",
-        "preco": 10.9,
-        "preco_por_kg": 16.22
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "tenda": {
         "nome": "Hambúrguer de carne de frango e bovina Perdigão caixa 672g 12 unidades",
@@ -170,14 +170,14 @@
         "preco": 7.99,
         "preco_por_kg": 44.39
       },
-      "mais_barato": "Atacadão"
+      "mais_barato": "Giga"
     },
     {
       "id": "5",
       "carrefour": {
-        "nome": "Linguiça Toscana Swift 700g",
-        "preco": 18.9,
-        "preco_por_kg": 27
+        "nome": "Linguiça Toscana Perdigão Na Brasa Aproximadamente 600 g",
+        "preco": 17.87,
+        "preco_por_kg": 29.78
       },
       "giga": {
         "nome": "Linguiça Toscana Congelada Perdigão Na Brasa Pacote 5kg",
@@ -195,9 +195,9 @@
         "preco_por_kg": 21.99
       },
       "atacadao": {
-        "nome": "Linguiça Toscana Pérola Congelada 5kg",
-        "preco": 59.9,
-        "preco_por_kg": 11.98
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "tenda": {
         "nome": "Linguiça Toscana Congelada Pérola 5Kg",
@@ -209,7 +209,7 @@
         "preco": 13.95,
         "preco_por_kg": 13.95
       },
-      "mais_barato": "Atacadão"
+      "mais_barato": "Tenda"
     },
     {
       "id": "6",
@@ -224,9 +224,9 @@
         "preco_por_kg": 12.99
       },
       "covabra": {
-        "nome": "Salsicha Seara Hot Dog 1 Porção 515g",
-        "preco": 5.65,
-        "preco_por_kg": 10.97
+        "nome": "Salsicha Sadia Hot Dog 1 Porção 515g",
+        "preco": 4.11,
+        "preco_por_kg": 7.98
       },
       "paguemenos": {
         "nome": "Salsicha de Frango 200g",
@@ -234,9 +234,9 @@
         "preco_por_kg": 8.99
       },
       "atacadao": {
-        "nome": "Salsicha Hot Dog Aurora Congelada 3kg",
-        "preco": 25.77,
-        "preco_por_kg": 8.59
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "tenda": {
         "nome": "Salsicha Hot Dog Aurora Pacote 3kg",
@@ -254,8 +254,8 @@
       "id": "7",
       "carrefour": {
         "nome": "Sobrecoxa de Frango Swift 1Kg",
-        "preco": 12.9,
-        "preco_por_kg": 12.9
+        "preco": 11.59,
+        "preco_por_kg": 11.59
       },
       "giga": {
         "nome": "Sobrecoxa De Frango Congelada Temperada Sadia Frango Fácil 800g",
@@ -273,9 +273,9 @@
         "preco_por_kg": 14.99
       },
       "atacadao": {
-        "nome": "Coxa e Sobrecoxa de Frango Canção Congelada 18kg",
-        "preco": 135,
-        "preco_por_kg": 7.5
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "tenda": {
         "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
@@ -287,7 +287,7 @@
         "preco": 12.58,
         "preco_por_kg": 12.58
       },
-      "mais_barato": "Atacadão"
+      "mais_barato": "Tenda"
     },
     {
       "id": "8",
@@ -297,9 +297,9 @@
         "preco_por_kg": 21.89
       },
       "giga": {
-        "nome": "Filé De Peito De Frango Sadia 1Kg",
-        "preco": 20.9,
-        "preco_por_kg": 20.9
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "covabra": {
         "nome": "Filézinho de Frango Sassami Resfriado Bandeja 1 Unidade 515g",
@@ -312,9 +312,9 @@
         "preco_por_kg": 23.99
       },
       "atacadao": {
-        "nome": "Filezinho de Frango Sassami Perdigão Congelado Temperado 3kg",
-        "preco": 48.97,
-        "preco_por_kg": 16.32
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "tenda": {
         "nome": "Filezinho Sassami de Frango Congelado Perdigão Temperado 3kg",
@@ -361,9 +361,9 @@
         "preco_por_kg": 15.5
       },
       "enxuto": {
-        "nome": "Bisteca Suína Carré Lombo Fresco 700g",
-        "preco": 13.93,
-        "preco_por_kg": 19.9
+        "nome": "Bisteca Suína Carré Lombo Congelada 700g",
+        "preco": 11.82,
+        "preco_por_kg": 16.89
       },
       "mais_barato": "Tenda"
     },
@@ -400,9 +400,9 @@
         "preco_por_kg": 48.9
       },
       "enxuto": {
-        "nome": "Miolo Da Alcatra Bovino Peça 600g",
-        "preco": 41.1,
-        "preco_por_kg": 68.5
+        "nome": "Miolo Da Alcatra Bovino Bife 500g",
+        "preco": 29.95,
+        "preco_por_kg": 59.9
       },
       "mais_barato": "Tenda"
     },
@@ -448,9 +448,9 @@
     {
       "id": "13",
       "carrefour": {
-        "nome": "Ovo Branco Pvc Extra Classe Asa Carrefour Bandeja com 20 Unidades",
-        "preco": 17.99,
-        "preco_por_kg": 17.99
+        "nome": "Ovo Branco Extra P.C. Iana Com 20 Unidades",
+        "preco": 15.99,
+        "preco_por_kg": 15.99
       },
       "giga": {
         "nome": "N/A",
@@ -458,7 +458,7 @@
         "preco_por_kg": 0
       },
       "covabra": {
-        "nome": "Ovos Jovanil Brancos Grandes Pvc com 12Unidades",
+        "nome": "Ovos Jovanil Brancos Grandes Caixa com 12Unidades",
         "preco": 12.9,
         "preco_por_kg": 12.9
       },
@@ -478,11 +478,11 @@
         "preco_por_kg": 99.33
       },
       "enxuto": {
-        "nome": "Ovos Tonon Grande Pvc Branco C/20und",
-        "preco": 18.9,
-        "preco_por_kg": 0.94
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
-      "mais_barato": "Enxuto"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "12",
