@@ -1,11 +1,11 @@
 {
-  "ultimaAtualizacao": "08/04/2026, 00:25:10",
+  "ultimaAtualizacao": "09/04/2026, 00:00:19",
   "totalGoodbom": "266.10",
-  "totalTenda": "364.83",
-  "totalArena": "340.82",
-  "totalSavegnago": "277.59",
+  "totalTenda": "347.21",
+  "totalArena": "339.92",
+  "totalSavegnago": "278.63",
   "encontradosGoodbom": 10,
-  "encontradosTenda": 13,
+  "encontradosTenda": 12,
   "encontradosArena": 12,
   "encontradosSavegnago": 10,
   "produtos": [
@@ -41,9 +41,9 @@
         "preco_por_kg": 34.9
       },
       "tenda": {
-        "nome": "Bacon tablete Seara Gourmet",
-        "preco": 11.62,
-        "preco_por_kg": 11.62
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "arena": {
         "nome": "Bacon Sadia Bandeja Kg",
@@ -52,10 +52,10 @@
       },
       "savegnago": {
         "nome": "Macarrão Instantâneo Nissin 85g Bacon",
-        "preco": 3.25,
-        "preco_por_kg": 38.24
+        "preco": 2.99,
+        "preco_por_kg": 35.18
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": 3,
@@ -75,9 +75,9 @@
         "preco_por_kg": 22.9
       },
       "savegnago": {
-        "nome": "Linguiça Calabresa Perdigão Resfriada 400g",
-        "preco": 9.96,
-        "preco_por_kg": 24.9
+        "nome": "Linguiça Tipo Calabresa Brasa 400g",
+        "preco": 11.9,
+        "preco_por_kg": 29.75
       },
       "mais_barato": "Tenda"
     },
@@ -99,9 +99,9 @@
         "preco_por_kg": 41.93
       },
       "savegnago": {
-        "nome": "Hambúrguer de Carne Bovina Churrasco Sadia Caixa 672g 12 Unidades",
-        "preco": 25.5,
-        "preco_por_kg": 37.95
+        "nome": "Hambúrguer de Carne de Frango e Bovina Perdigão Pacote 56g",
+        "preco": 1.79,
+        "preco_por_kg": 31.96
       },
       "mais_barato": "Tenda"
     },
@@ -123,9 +123,9 @@
         "preco_por_kg": 18.49
       },
       "savegnago": {
-        "nome": "Linguiça Toscana Swift 700g",
-        "preco": 18.9,
-        "preco_por_kg": 27
+        "nome": "Linguiça Toscana Camari 600g",
+        "preco": 16.95,
+        "preco_por_kg": 28.25
       },
       "mais_barato": "Tenda"
     },
@@ -167,8 +167,8 @@
       },
       "arena": {
         "nome": "Coxa E Sobrecoxa Congelada Pacote Kg",
-        "preco": 9.79,
-        "preco_por_kg": 9.79
+        "preco": 8.89,
+        "preco_por_kg": 8.89
       },
       "savegnago": {
         "nome": "Sobrecoxa Frango Swift 1Kg",
@@ -195,9 +195,9 @@
         "preco_por_kg": 0
       },
       "savegnago": {
-        "nome": "Filezinho Sassami de Frango Congelado Perdigão Pacote 1kg",
-        "preco": 16.9,
-        "preco_por_kg": 16.9
+        "nome": "Filezinho de frango sassami Seara 1kg",
+        "preco": 19.8,
+        "preco_por_kg": 19.8
       },
       "mais_barato": "Tenda"
     },
@@ -234,8 +234,8 @@
       },
       "tenda": {
         "nome": "Miolo da Alcatra Bovina Resfriado 5kg",
-        "preco": 244.5,
-        "preco_por_kg": 48.9
+        "preco": 234.5,
+        "preco_por_kg": 46.9
       },
       "arena": {
         "nome": "Miolo Alcatra Bovino Porcionado Kg",
@@ -282,8 +282,8 @@
       },
       "tenda": {
         "nome": "Músculo Bovino Resfriado Peça 4kg",
-        "preco": 135.6,
-        "preco_por_kg": 33.9
+        "preco": 119.6,
+        "preco_por_kg": 29.9
       },
       "arena": {
         "nome": "Músculo Bovino Bandeja Kg",
@@ -295,7 +295,7 @@
         "preco": 0,
         "preco_por_kg": 0
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Tenda"
     },
     {
       "id": 13,
@@ -316,8 +316,8 @@
       },
       "savegnago": {
         "nome": "Ovo Branco Grande Coag Com 12",
-        "preco": 8.9,
-        "preco_por_kg": 8.9
+        "preco": 9.99,
+        "preco_por_kg": 9.99
       },
       "mais_barato": "Goodbom"
     }

@@ -1,5 +1,12 @@
 [
   {
+    "id": 1,
+    "supermercado": "Giga",
+    "produto": "Alimento Para Gatos Adultos Carne Ao Molho Kitekat Sachê 70G",
+    "preco": 2.55,
+    "preco_por_kg": 2.55
+  },
+  {
     "id": 2,
     "supermercado": "Giga",
     "produto": "Pizza Frango Com Bacon E Creme De Requeijão Perdigão 460g",
@@ -42,6 +49,13 @@
     "preco_por_kg": 17.85
   },
   {
+    "id": 8,
+    "supermercado": "Giga",
+    "produto": "Filé De Peito De Frango Sadia 1Kg",
+    "preco": 20.9,
+    "preco_por_kg": 20.9
+  },
+  {
     "id": 9,
     "supermercado": "Giga",
     "produto": "Bisteca Suína Congelada Aurora",
@@ -58,8 +72,8 @@
   {
     "id": 12,
     "supermercado": "Giga",
-    "produto": "Limpador Mr. Músculo Desengordurante Lavanda 400Ml",
-    "preco": 12.09,
-    "preco_por_kg": 12.09
+    "produto": "Limpador Desengordurante Cozinha Mr Musculo 500Ml",
+    "preco": 12.99,
+    "preco_por_kg": 12.99
   }
 ]
