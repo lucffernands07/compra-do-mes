@@ -1,5 +1,33 @@
 [
   {
+    "id": 1,
+    "supermercado": "Giga",
+    "produto": "Alimento Para Gatos Adultos Carne Ao Molho Kitekat Sachê 70G",
+    "preco": 2.55,
+    "preco_por_kg": 2.55
+  },
+  {
+    "id": 2,
+    "supermercado": "Giga",
+    "produto": "Pizza Frango Com Bacon E Creme De Requeijão Perdigão 460g",
+    "preco": 19.69,
+    "preco_por_kg": 19.69
+  },
+  {
+    "id": 3,
+    "supermercado": "Giga",
+    "produto": "Linguiça Calabresa Seara 400g",
+    "preco": 13.9,
+    "preco_por_kg": 13.9
+  },
+  {
+    "id": 4,
+    "supermercado": "Giga",
+    "produto": "Pão De Hambúrguer Grand Burger Brioche Pullman 420g",
+    "preco": 15.99,
+    "preco_por_kg": 15.99
+  },
+  {
     "id": 5,
     "supermercado": "Giga",
     "produto": "Linguiça Toscana Congelada Perdigão Na Brasa Pacote 5kg",
@@ -21,6 +49,13 @@
     "preco_por_kg": 17.85
   },
   {
+    "id": 8,
+    "supermercado": "Giga",
+    "produto": "Filé De Peito De Frango Sadia 1Kg",
+    "preco": 20.9,
+    "preco_por_kg": 20.9
+  },
+  {
     "id": 9,
     "supermercado": "Giga",
     "produto": "Bisteca Suína Congelada Aurora",
@@ -33,5 +68,12 @@
     "produto": "Contra Filé Bovino Resfriado Porcionado Friboi",
     "preco": 54.9,
     "preco_por_kg": 54.9
+  },
+  {
+    "id": 12,
+    "supermercado": "Giga",
+    "produto": "Limpador Desengordurante Cozinha Mr Musculo 500Ml",
+    "preco": 12.99,
+    "preco_por_kg": 12.99
   }
 ]
