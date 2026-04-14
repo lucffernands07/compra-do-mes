@@ -1,19 +1,19 @@
 {
-  "ultimaAtualizacao": "13/04/2026, 00:53:36",
+  "ultimaAtualizacao": "14/04/2026, 00:43:53",
   "cidade": "Campinas",
-  "totalCarrefour": "368.87",
-  "totalGiga": "218.72",
-  "totalCovabra": "367.79",
+  "totalCarrefour": "329.25",
+  "totalGiga": "232.72",
+  "totalCovabra": "332.81",
   "totalPagueMenos": "300.13",
-  "totalAtacadao": "139.92",
-  "totalTenda": "413.10",
-  "totalEnxuto": "352.25",
-  "encontradosCarrefour": 13,
+  "totalAtacadao": "138.48",
+  "totalTenda": "396.30",
+  "totalEnxuto": "328.64",
+  "encontradosCarrefour": 12,
   "encontradosGiga": 11,
-  "encontradosCovabra": 11,
+  "encontradosCovabra": 10,
   "encontradosPagueMenos": 11,
   "encontradosAtacadao": 10,
-  "encontradosTenda": 13,
+  "encontradosTenda": 12,
   "encontradosEnxuto": 12,
   "produtos": [
     {
@@ -44,9 +44,9 @@
         "preco_por_kg": 13.98
       },
       "tenda": {
-        "nome": "Carne Moída Bovina Congelada Chuletão 500g",
-        "preco": 8.9,
-        "preco_por_kg": 17.8
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "enxuto": {
         "nome": "Bov Carne Moida Patinho Bd Kg",
@@ -63,9 +63,9 @@
         "preco_por_kg": 8.99
       },
       "giga": {
-        "nome": "Pipoca Para Microondas Bacon Yoki 100g",
-        "preco": 4.79,
-        "preco_por_kg": 4.79
+        "nome": "Pizza Frango Com Bacon E Creme De Requeijão Perdigão 460g",
+        "preco": 19.69,
+        "preco_por_kg": 19.69
       },
       "covabra": {
         "nome": "Bacon Sadia Defumado 1 Unidade 450g",
@@ -92,14 +92,14 @@
         "preco": 17.97,
         "preco_por_kg": 17.97
       },
-      "mais_barato": "Giga"
+      "mais_barato": "Carrefour"
     },
     {
       "id": "3",
       "carrefour": {
         "nome": "Linguiça de Calabresa Defumada Sadia 1 Kg",
-        "preco": 29.19,
-        "preco_por_kg": 29.19
+        "preco": 24.79,
+        "preco_por_kg": 24.79
       },
       "giga": {
         "nome": "Linguiça Toscana Congelada Perdigão Na Brasa Pacote 5kg",
@@ -117,9 +117,9 @@
         "preco_por_kg": 24.99
       },
       "atacadao": {
-        "nome": "Linguiça Calabresa Pamplona Reta 2,5kg",
-        "preco": 39.5,
-        "preco_por_kg": 15.8
+        "nome": "Linguiça Calabresa Aurora Congelada 2,5kg",
+        "preco": 35.9,
+        "preco_por_kg": 14.36
       },
       "tenda": {
         "nome": "Linguiça Calabresa Defumada Estrela Pacote 2,5kg",
@@ -161,7 +161,7 @@
         "preco_por_kg": 23.66
       },
       "tenda": {
-        "nome": "Hambúrguer de carne de frango e bovina Perdigão caixa 672g 12 unidades",
+        "nome": "Hambúrguer de Carne Bovina Churrasco Sadia Caixa 672g 12 Unidades",
         "preco": 17.9,
         "preco_por_kg": 26.64
       },
@@ -175,9 +175,9 @@
     {
       "id": "5",
       "carrefour": {
-        "nome": "Lingüiça Toscana Grossa Auora Aprox. 700g",
-        "preco": 15.33,
-        "preco_por_kg": 21.9
+        "nome": "Linguiça Toscana Swift 700g",
+        "preco": 16.09,
+        "preco_por_kg": 22.99
       },
       "giga": {
         "nome": "Linguiça Toscana Congelada Perdigão Na Brasa Pacote 5kg",
@@ -185,9 +185,9 @@
         "preco_por_kg": 23.58
       },
       "covabra": {
-        "nome": "Linguiça Toscana Seara 1 Porção 824g",
-        "preco": 14.74,
-        "preco_por_kg": 17.89
+        "nome": "Linguiça Toscana Sadia 1 Porção 824g",
+        "preco": 16.39,
+        "preco_por_kg": 19.89
       },
       "paguemenos": {
         "nome": "Linguiça Toscana Leve Mais 500g",
@@ -254,8 +254,8 @@
       "id": "7",
       "carrefour": {
         "nome": "Sobrecoxa de Frango Swift 1Kg",
-        "preco": 12.9,
-        "preco_por_kg": 12.9
+        "preco": 11.59,
+        "preco_por_kg": 11.59
       },
       "giga": {
         "nome": "Sobrecoxa De Frango Congelada Temperada Sadia Frango Fácil 800g",
@@ -292,9 +292,9 @@
     {
       "id": "8",
       "carrefour": {
-        "nome": "Filé Sassami de Peito de Frango Congelado Sadia 1Kg",
-        "preco": 21.59,
-        "preco_por_kg": 21.59
+        "nome": "Filé de Peito de Frango Congelado sem Osso Perdigão 1Kg - Sassami",
+        "preco": 18.59,
+        "preco_por_kg": 18.59
       },
       "giga": {
         "nome": "Filé De Peito De Frango Bandeja 1Kg",
@@ -361,9 +361,9 @@
         "preco_por_kg": 15.5
       },
       "enxuto": {
-        "nome": "Bisteca Suína Carré Lombo Fresco 700g",
-        "preco": 15.33,
-        "preco_por_kg": 21.9
+        "nome": "Bisteca Suína Carré Lombo Congelada 700g",
+        "preco": 11.82,
+        "preco_por_kg": 16.89
       },
       "mais_barato": "Tenda"
     },
@@ -371,8 +371,8 @@
       "id": "10",
       "carrefour": {
         "nome": "Miolo de Alcatra Maturatta Aprox. 1,5 Kg",
-        "preco": 89.98,
-        "preco_por_kg": 59.99
+        "preco": 101.23,
+        "preco_por_kg": 67.49
       },
       "giga": {
         "nome": "N/A",
@@ -381,8 +381,8 @@
       },
       "covabra": {
         "nome": "Miolo de Alcatra Bovino Cubos Bandeja 1 Unidade 515g",
-        "preco": 35.48,
-        "preco_por_kg": 68.89
+        "preco": 37.54,
+        "preco_por_kg": 72.89
       },
       "paguemenos": {
         "nome": "N/A",
@@ -400,9 +400,9 @@
         "preco_por_kg": 49.9
       },
       "enxuto": {
-        "nome": "Miolo Da Alcatra Bovino Peça 600g",
-        "preco": 41.1,
-        "preco_por_kg": 68.5
+        "nome": "Miolo Da Alcatra Bovino Bife 500g",
+        "preco": 24.95,
+        "preco_por_kg": 49.9
       },
       "mais_barato": "Tenda"
     },
@@ -435,8 +435,8 @@
       },
       "tenda": {
         "nome": "Contra Filé Bovino Resfriado Peça 4kg",
-        "preco": 195.6,
-        "preco_por_kg": 48.9
+        "preco": 199.6,
+        "preco_por_kg": 49.9
       },
       "enxuto": {
         "nome": "Contra Filé Bovino Pedaço 600g",
@@ -446,21 +446,60 @@
       "mais_barato": "Carrefour"
     },
     {
-      "id": "12",
+      "id": "13",
       "carrefour": {
-        "nome": "Músculo Bovino Carrefour Aproximadamente 1 kg",
-        "preco": 43.99,
-        "preco_por_kg": 43.99
+        "nome": "Ovo Branco Pvc Extra Classe Asa Carrefour Bandeja com 20 Unidades",
+        "preco": 16.99,
+        "preco_por_kg": 16.99
       },
       "giga": {
-        "nome": "Limpador Desengordurante Cozinha Mr Musculo 500Ml",
-        "preco": 12.99,
-        "preco_por_kg": 12.99
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "covabra": {
-        "nome": "Músculo Traseiro Bovino Cubos Bandeja 1 Unidade 515g",
-        "preco": 24.15,
-        "preco_por_kg": 46.89
+        "nome": "Ovos Jovanil Brancos Grandes Caixa com 12Unidades",
+        "preco": 12.9,
+        "preco_por_kg": 12.9
+      },
+      "paguemenos": {
+        "nome": "Ovos Brancos Extra Graciana Com 10 Unidades",
+        "preco": 10.99,
+        "preco_por_kg": 10.99
+      },
+      "atacadao": {
+        "nome": "Ovo Branco Mantiqueira Jumbo Polpa 10 un",
+        "preco": 8.99,
+        "preco_por_kg": 8.99
+      },
+      "tenda": {
+        "nome": "Ovo de Páscoa Branco Q-buono 150g",
+        "preco": 21.99,
+        "preco_por_kg": 146.6
+      },
+      "enxuto": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "mais_barato": "Atacadão"
+    },
+    {
+      "id": "12",
+      "carrefour": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "giga": {
+        "nome": "Limpador Mr. Músculo Desengordurante Lavanda 400Ml",
+        "preco": 12.09,
+        "preco_por_kg": 12.09
+      },
+      "covabra": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "paguemenos": {
         "nome": "Músculo Bovino Resfriado KG",
@@ -483,45 +522,6 @@
         "preco_por_kg": 18.87
       },
       "mais_barato": "Giga"
-    },
-    {
-      "id": "13",
-      "carrefour": {
-        "nome": "Ovo Branco Pvc Extra Classe Asa Carrefour Bandeja com 20 Unidades",
-        "preco": 12.5,
-        "preco_por_kg": 12.5
-      },
-      "giga": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "covabra": {
-        "nome": "Ovos Caipira Mantiqueira Happy Eggs Branco Grande Pvc Caixa com 10un",
-        "preco": 6.99,
-        "preco_por_kg": 6.99
-      },
-      "paguemenos": {
-        "nome": "Ovos Brancos Extra Graciana Com 10 Unidades",
-        "preco": 10.99,
-        "preco_por_kg": 10.99
-      },
-      "atacadao": {
-        "nome": "Ovo Branco Mantiqueira Jumbo Polpa 10 un",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
-      },
-      "tenda": {
-        "nome": "Ovo de Páscoa Branco Q-buono 150g",
-        "preco": 21.99,
-        "preco_por_kg": 146.6
-      },
-      "enxuto": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Covabra"
     }
   ]
 }
