@@ -1,19 +1,19 @@
 {
-  "ultimaAtualizacao": "17/04/2026, 00:53:12",
+  "ultimaAtualizacao": "18/04/2026, 00:32:44",
   "cidade": "Campinas",
-  "totalCarrefour": "340.48",
-  "totalGiga": "223.67",
-  "totalCovabra": "361.21",
-  "totalPagueMenos": "301.13",
-  "totalAtacadao": "138.09",
-  "totalTenda": "251.49",
+  "totalCarrefour": "322.88",
+  "totalGiga": "238.57",
+  "totalCovabra": "310.61",
+  "totalPagueMenos": "299.13",
+  "totalAtacadao": "137.79",
+  "totalTenda": "264.25",
   "totalEnxuto": "303.16",
   "encontradosCarrefour": 12,
   "encontradosGiga": 11,
-  "encontradosCovabra": 11,
+  "encontradosCovabra": 10,
   "encontradosPagueMenos": 11,
   "encontradosAtacadao": 10,
-  "encontradosTenda": 11,
+  "encontradosTenda": 12,
   "encontradosEnxuto": 12,
   "produtos": [
     {
@@ -63,9 +63,9 @@
         "preco_por_kg": 8.99
       },
       "giga": {
-        "nome": "Pipoca Para Microondas Bacon Yoki 100g",
-        "preco": 4.79,
-        "preco_por_kg": 4.79
+        "nome": "Pizza Frango Com Bacon E Creme De Requeijão Perdigão 460g",
+        "preco": 19.69,
+        "preco_por_kg": 19.69
       },
       "covabra": {
         "nome": "Bacon Sadia Defumado 1 Unidade 450g",
@@ -79,8 +79,8 @@
       },
       "atacadao": {
         "nome": "Biscoito Salgado Tuc's Bacon 100g",
-        "preco": 1.45,
-        "preco_por_kg": 14.5
+        "preco": 1.39,
+        "preco_por_kg": 13.9
       },
       "tenda": {
         "nome": "Bacon tablete Seara Gourmet",
@@ -92,7 +92,7 @@
         "preco": 17.97,
         "preco_por_kg": 17.97
       },
-      "mais_barato": "Giga"
+      "mais_barato": "Carrefour"
     },
     {
       "id": "3",
@@ -137,8 +137,8 @@
       "id": "4",
       "carrefour": {
         "nome": "Hambúrguer Misto de Carne de Frango e Bovina Sadia 56 g",
-        "preco": 1.69,
-        "preco_por_kg": 30.18
+        "preco": 1.29,
+        "preco_por_kg": 23.04
       },
       "giga": {
         "nome": "Hambúrguer Bovino Sadia Bassi Picanha 360G",
@@ -146,9 +146,9 @@
         "preco_por_kg": 25.8
       },
       "covabra": {
-        "nome": "Hamburguer Seara Air Fryer Carne Bovina 150g",
-        "preco": 7.59,
-        "preco_por_kg": 50.6
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "paguemenos": {
         "nome": "N/A",
@@ -175,9 +175,9 @@
     {
       "id": "5",
       "carrefour": {
-        "nome": "Linguiça Toscana Swift 700g",
-        "preco": 18.9,
-        "preco_por_kg": 27
+        "nome": "Fanta Guaraná Pet 2L + Linguiça Toscana com Alho e Ervas Perdigão Na Brasa 600g",
+        "preco": 37.08,
+        "preco_por_kg": 18.54
       },
       "giga": {
         "nome": "Linguiça Fininha Aurora Pacote 2,5kg",
@@ -195,9 +195,9 @@
         "preco_por_kg": 21.99
       },
       "atacadao": {
-        "nome": "Linguiça Toscana Frimesa Congelada 5kg",
-        "preco": 49.9,
-        "preco_por_kg": 9.98
+        "nome": "Linguiça Toscana Pérola Congelada 5kg",
+        "preco": 45.9,
+        "preco_por_kg": 9.18
       },
       "tenda": {
         "nome": "Linguiça Toscana Congelada Pérola 5Kg",
@@ -239,9 +239,9 @@
         "preco_por_kg": 7.99
       },
       "tenda": {
-        "nome": "Salsicha Hot Dog Estrela Pacote 3kg",
-        "preco": 23.85,
-        "preco_por_kg": 7.95
+        "nome": "Salsicha Hot Dog Seara 5Kg",
+        "preco": 51.25,
+        "preco_por_kg": 10.25
       },
       "enxuto": {
         "nome": "Salsicha Hot Dog Sadia Granel Kg",
@@ -254,8 +254,8 @@
       "id": "7",
       "carrefour": {
         "nome": "Sobrecoxa de Frango Swift 1Kg",
-        "preco": 12.9,
-        "preco_por_kg": 12.9
+        "preco": 10.9,
+        "preco_por_kg": 10.9
       },
       "giga": {
         "nome": "Sobrecoxa De Frango Congelada Temperada Sadia Frango Fácil 800g",
@@ -317,16 +317,16 @@
         "preco_por_kg": 16.98
       },
       "tenda": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Filezinho Sassami de Frango Congelado Perdigão Temperado 3kg",
+        "preco": 43.37,
+        "preco_por_kg": 14.46
       },
       "enxuto": {
         "nome": "Filezinho Peito De Frango Sassami Sadia Iqf Congelado 1kg",
         "preco": 25.99,
         "preco_por_kg": 25.99
       },
-      "mais_barato": "Atacadão"
+      "mais_barato": "Tenda"
     },
     {
       "id": "9",
@@ -435,8 +435,8 @@
       },
       "tenda": {
         "nome": "Contra Filé Bovino Resfriado Peça 4kg",
-        "preco": 199.6,
-        "preco_por_kg": 49.9
+        "preco": 183.6,
+        "preco_por_kg": 45.9
       },
       "enxuto": {
         "nome": "Contra Filé Bovino Pedaço 600g",
@@ -464,13 +464,13 @@
       },
       "paguemenos": {
         "nome": "Ovos Brancos Extra Graciana Com 10 Unidades",
-        "preco": 10.99,
-        "preco_por_kg": 10.99
+        "preco": 8.99,
+        "preco_por_kg": 8.99
       },
       "atacadao": {
-        "nome": "Ovo Branco Grande 20 un",
-        "preco": 11.8,
-        "preco_por_kg": 11.8
+        "nome": "Ovo Branco Grande Polpa 12 un",
+        "preco": 12.9,
+        "preco_por_kg": 12.9
       },
       "tenda": {
         "nome": "N/A",
@@ -482,7 +482,7 @@
         "preco": 0,
         "preco_por_kg": 0
       },
-      "mais_barato": "Covabra"
+      "mais_barato": "Pague Menos"
     },
     {
       "id": "12",
