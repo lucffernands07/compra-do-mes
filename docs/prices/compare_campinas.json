@@ -1,13 +1,13 @@
 {
-  "ultimaAtualizacao": "19/04/2026, 00:53:48",
+  "ultimaAtualizacao": "20/04/2026, 00:55:33",
   "cidade": "Campinas",
   "totalCarrefour": "322.88",
   "totalGiga": "258.07",
   "totalCovabra": "310.61",
   "totalPagueMenos": "299.13",
-  "totalAtacadao": "137.57",
-  "totalTenda": "264.25",
-  "totalEnxuto": "305.47",
+  "totalAtacadao": "135.59",
+  "totalTenda": "266.25",
+  "totalEnxuto": "354.11",
   "encontradosCarrefour": 12,
   "encontradosGiga": 12,
   "encontradosCovabra": 10,
@@ -127,9 +127,9 @@
         "preco_por_kg": 17.89
       },
       "enxuto": {
-        "nome": "Linguica Calabresa Brasa 400g",
-        "preco": 9.98,
-        "preco_por_kg": 24.95
+        "nome": "Ling Calabresa Perdigao Def Pct 4,5kg",
+        "preco": 128.88,
+        "preco_por_kg": 28.64
       },
       "mais_barato": "Atacadão"
     },
@@ -167,10 +167,10 @@
       },
       "enxuto": {
         "nome": "Hamburguer Maturatta Carne Bovina/costela 180g",
-        "preco": 3.99,
-        "preco_por_kg": 22.17
+        "preco": 7.99,
+        "preco_por_kg": 44.39
       },
-      "mais_barato": "Enxuto"
+      "mais_barato": "Carrefour"
     },
     {
       "id": "5",
@@ -206,8 +206,8 @@
       },
       "enxuto": {
         "nome": "Ling Toscana Nabrasa Granel Kg Balcao",
-        "preco": 9.99,
-        "preco_por_kg": 9.99
+        "preco": 13.95,
+        "preco_por_kg": 13.95
       },
       "mais_barato": "Atacadão"
     },
@@ -234,9 +234,9 @@
         "preco_por_kg": 8.99
       },
       "atacadao": {
-        "nome": "Salsicha Hot Dog Sadia Congelada 3kg",
-        "preco": 29.9,
-        "preco_por_kg": 9.97
+        "nome": "Salsicha Hot Dog Copacol Congelada 3kg",
+        "preco": 23.97,
+        "preco_por_kg": 7.99
       },
       "tenda": {
         "nome": "Salsicha Hot Dog Seara 5Kg",
@@ -245,10 +245,10 @@
       },
       "enxuto": {
         "nome": "Salsicha Hot Dog Sadia Granel Kg",
-        "preco": 6.58,
-        "preco_por_kg": 6.58
+        "preco": 8.75,
+        "preco_por_kg": 8.75
       },
-      "mais_barato": "Enxuto"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "7",
@@ -361,9 +361,9 @@
         "preco_por_kg": 15.5
       },
       "enxuto": {
-        "nome": "Bisteca Suína Carré Lombo Congelada 700g",
-        "preco": 11.13,
-        "preco_por_kg": 15.9
+        "nome": "Bisteca Suína Carré Lombo Fresco 700g",
+        "preco": 13.93,
+        "preco_por_kg": 19.9
       },
       "mais_barato": "Tenda"
     },
@@ -381,8 +381,8 @@
       },
       "covabra": {
         "nome": "Miolo de Alcatra Bovino Cubos Bandeja 1 Unidade 515g",
-        "preco": 37.54,
-        "preco_por_kg": 72.89
+        "preco": 27.28,
+        "preco_por_kg": 52.97
       },
       "paguemenos": {
         "nome": "N/A",
@@ -396,13 +396,13 @@
       },
       "tenda": {
         "nome": "Miolo da Alcatra Bovina Resfriado 5kg",
-        "preco": 249.5,
-        "preco_por_kg": 49.9
+        "preco": 239.5,
+        "preco_por_kg": 47.9
       },
       "enxuto": {
-        "nome": "Miolo Da Alcatra Bovino Bife 500g",
-        "preco": 27.95,
-        "preco_por_kg": 55.9
+        "nome": "Miolo Da Alcatra Bovino Peça 600g",
+        "preco": 41.1,
+        "preco_por_kg": 68.5
       },
       "mais_barato": "Tenda"
     },
@@ -420,8 +420,8 @@
       },
       "covabra": {
         "nome": "Contra Filé Bovino Pul Resfriado Peça a Vacuo 1,320kg",
-        "preco": 50.14,
-        "preco_por_kg": 37.98
+        "preco": 79.06,
+        "preco_por_kg": 59.89
       },
       "paguemenos": {
         "nome": "Contrafilé Bovino Resfriado KG",
@@ -435,20 +435,20 @@
       },
       "tenda": {
         "nome": "Contra Filé Bovino Resfriado Peça 4kg",
-        "preco": 183.6,
-        "preco_por_kg": 45.9
+        "preco": 199.6,
+        "preco_por_kg": 49.9
       },
       "enxuto": {
         "nome": "Contra Filé Bovino Pedaço 600g",
         "preco": 37.74,
         "preco_por_kg": 62.9
       },
-      "mais_barato": "Covabra"
+      "mais_barato": "Tenda"
     },
     {
       "id": "13",
       "carrefour": {
-        "nome": "Ovo Branco Pvc Extra Classe Asa Carrefour Bandeja com 20 Unidades",
+        "nome": "Ovo Branco Grande Shinoda Com 20 Unidades",
         "preco": 14.99,
         "preco_por_kg": 14.99
       },
@@ -458,12 +458,12 @@
         "preco_por_kg": 16.5
       },
       "covabra": {
-        "nome": "Ovos Mantiqueira Jumbo Branco Polpa com 10 un",
-        "preco": 10.9,
-        "preco_por_kg": 10.9
+        "nome": "Ovos Jovanil Brancos Grandes Pvc com 20Unidades",
+        "preco": 9.9,
+        "preco_por_kg": 9.9
       },
       "paguemenos": {
-        "nome": "Ovos Brancos Extra Graciana Com 10 Unidades",
+        "nome": "Ovos Brancos Grandes Katayama Gourmet Com 10 Unidades",
         "preco": 8.99,
         "preco_por_kg": 8.99
       },
@@ -498,8 +498,8 @@
       },
       "covabra": {
         "nome": "Músculo Traseiro Bovino Cubos Bandeja 1 Unidade 515g",
-        "preco": 19.55,
-        "preco_por_kg": 37.96
+        "preco": 19.04,
+        "preco_por_kg": 36.97
       },
       "paguemenos": {
         "nome": "Músculo Bovino Resfriado KG",
