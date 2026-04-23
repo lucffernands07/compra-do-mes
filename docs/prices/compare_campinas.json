@@ -1,16 +1,16 @@
 {
-  "ultimaAtualizacao": "22/04/2026, 00:46:12",
+  "ultimaAtualizacao": "23/04/2026, 00:49:24",
   "cidade": "Campinas",
-  "totalCarrefour": "357.06",
+  "totalCarrefour": "321.79",
   "totalGiga": "258.77",
-  "totalCovabra": "273.73",
+  "totalCovabra": "317.61",
   "totalPagueMenos": "299.13",
-  "totalAtacadao": "141.37",
-  "totalTenda": "269.25",
-  "totalEnxuto": "331.41",
-  "encontradosCarrefour": 13,
+  "totalAtacadao": "141.97",
+  "totalTenda": "270.25",
+  "totalEnxuto": "346.56",
+  "encontradosCarrefour": 12,
   "encontradosGiga": 12,
-  "encontradosCovabra": 9,
+  "encontradosCovabra": 10,
   "encontradosPagueMenos": 11,
   "encontradosAtacadao": 10,
   "encontradosTenda": 12,
@@ -68,9 +68,9 @@
         "preco_por_kg": 19.69
       },
       "covabra": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Bacon Sadia Defumado 1 Unidade 450g",
+        "preco": 17.95,
+        "preco_por_kg": 39.89
       },
       "paguemenos": {
         "nome": "Bacon Defumado Pedaço 200g",
@@ -79,8 +79,8 @@
       },
       "atacadao": {
         "nome": "Biscoito Salgado Tuc's Bacon 100g",
-        "preco": 1.39,
-        "preco_por_kg": 13.9
+        "preco": 1.45,
+        "preco_por_kg": 14.5
       },
       "tenda": {
         "nome": "Bacon tablete Seara Gourmet",
@@ -97,9 +97,9 @@
     {
       "id": "3",
       "carrefour": {
-        "nome": "Linguiça Tipo Calabresa Sadia 400g",
-        "preco": 10.99,
-        "preco_por_kg": 27.47
+        "nome": "Linguiça de Calabresa Defumada Sadia 1 Kg",
+        "preco": 29.19,
+        "preco_por_kg": 29.19
       },
       "giga": {
         "nome": "Linguiça Fininha Aurora Pacote 2,5kg",
@@ -127,9 +127,9 @@
         "preco_por_kg": 17.89
       },
       "enxuto": {
-        "nome": "Ling Calabresa Perdigao Def Pct 4,5kg",
-        "preco": 128.88,
-        "preco_por_kg": 28.64
+        "nome": "Linguica Calabresa Brasa 400g",
+        "preco": 8.98,
+        "preco_por_kg": 22.45
       },
       "mais_barato": "Tenda"
     },
@@ -245,8 +245,8 @@
       },
       "enxuto": {
         "nome": "Salsicha Hot Dog Sadia Granel Kg",
-        "preco": 7.97,
-        "preco_por_kg": 7.97
+        "preco": 5.39,
+        "preco_por_kg": 5.39
       },
       "mais_barato": "Enxuto"
     },
@@ -254,8 +254,8 @@
       "id": "7",
       "carrefour": {
         "nome": "Sobrecoxa de Frango Swift 1Kg",
-        "preco": 10.9,
-        "preco_por_kg": 10.9
+        "preco": 12.9,
+        "preco_por_kg": 12.9
       },
       "giga": {
         "nome": "Sobrecoxa De Frango Congelada Temperada Sadia Frango Fácil 800g",
@@ -283,9 +283,9 @@
         "preco_por_kg": 7.9
       },
       "enxuto": {
-        "nome": "Coxa C/sobrecoxa C/osso Levemente Temp Cong Pct Kg",
-        "preco": 12.58,
-        "preco_por_kg": 12.58
+        "nome": "Sobrecoxa Frango Sadia Iqf Congelado 1kg",
+        "preco": 17.9,
+        "preco_por_kg": 17.9
       },
       "mais_barato": "Atacadão"
     },
@@ -381,8 +381,8 @@
       },
       "covabra": {
         "nome": "Miolo de Alcatra Bovino Cubos Bandeja 1 Unidade 515g",
-        "preco": 27.28,
-        "preco_por_kg": 52.97
+        "preco": 37.54,
+        "preco_por_kg": 72.89
       },
       "paguemenos": {
         "nome": "N/A",
@@ -396,13 +396,13 @@
       },
       "tenda": {
         "nome": "Miolo da Alcatra Bovina Resfriado 5kg",
-        "preco": 239.5,
-        "preco_por_kg": 47.9
+        "preco": 249.5,
+        "preco_por_kg": 49.9
       },
       "enxuto": {
-        "nome": "Miolo Da Alcatra Bovino Bife 500g",
-        "preco": 24.95,
-        "preco_por_kg": 49.9
+        "nome": "Miolo Da Alcatra Bovino Peça 600g",
+        "preco": 41.1,
+        "preco_por_kg": 68.5
       },
       "mais_barato": "Tenda"
     },
@@ -420,8 +420,8 @@
       },
       "covabra": {
         "nome": "Contra Filé Bovino Frigon Pedaço à Vácuo 1 Peça 1,339kg",
-        "preco": 80.2,
-        "preco_por_kg": 59.9
+        "preco": 57.55,
+        "preco_por_kg": 42.98
       },
       "paguemenos": {
         "nome": "Contrafilé Bovino Resfriado KG",
@@ -443,51 +443,12 @@
         "preco": 37.74,
         "preco_por_kg": 62.9
       },
-      "mais_barato": "Carrefour"
-    },
-    {
-      "id": "12",
-      "carrefour": {
-        "nome": "Músculo Bovino Carrefour Aproximadamente 1 kg",
-        "preco": 38.99,
-        "preco_por_kg": 38.99
-      },
-      "giga": {
-        "nome": "Limpador Mr. Músculo Desengordurante Lavanda 400Ml",
-        "preco": 12.09,
-        "preco_por_kg": 12.09
-      },
-      "covabra": {
-        "nome": "Músculo Traseiro Bovino Cubos Bandeja 1 Unidade 515g",
-        "preco": 19.04,
-        "preco_por_kg": 36.97
-      },
-      "paguemenos": {
-        "nome": "Músculo Bovino Resfriado KG",
-        "preco": 39.99,
-        "preco_por_kg": 39.99
-      },
-      "atacadao": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "tenda": {
-        "nome": "Músculo Bovino Resfriado Peça 4kg",
-        "preco": 139.6,
-        "preco_por_kg": 34.9
-      },
-      "enxuto": {
-        "nome": "Musculo Bov Tortuguita Bd Kg",
-        "preco": 18.87,
-        "preco_por_kg": 18.87
-      },
-      "mais_barato": "Giga"
+      "mais_barato": "Covabra"
     },
     {
       "id": "13",
       "carrefour": {
-        "nome": "Ovo Branco Grande Shinoda Com 20 Unidades",
+        "nome": "Ovo Branco Pvc Extra Classe Asa Carrefour Bandeja com 20 Unidades",
         "preco": 11.9,
         "preco_por_kg": 11.9
       },
@@ -522,6 +483,45 @@
         "preco_por_kg": 0
       },
       "mais_barato": "Pague Menos"
+    },
+    {
+      "id": "12",
+      "carrefour": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "giga": {
+        "nome": "Limpador Mr. Músculo Desengordurante Lavanda 400Ml",
+        "preco": 12.09,
+        "preco_por_kg": 12.09
+      },
+      "covabra": {
+        "nome": "Músculo Traseiro Bovino Cubos Bandeja 1 Unidade 515g",
+        "preco": 19.55,
+        "preco_por_kg": 37.96
+      },
+      "paguemenos": {
+        "nome": "Músculo Bovino Resfriado KG",
+        "preco": 39.99,
+        "preco_por_kg": 39.99
+      },
+      "atacadao": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "tenda": {
+        "nome": "Músculo Bovino Resfriado Peça 4kg",
+        "preco": 135.6,
+        "preco_por_kg": 33.9
+      },
+      "enxuto": {
+        "nome": "Musculo Bov Tortuguita Bd Kg",
+        "preco": 18.87,
+        "preco_por_kg": 18.87
+      },
+      "mais_barato": "Giga"
     }
   ]
 }
