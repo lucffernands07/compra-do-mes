@@ -1,13 +1,13 @@
 {
-  "ultimaAtualizacao": "27/04/2026, 01:02:17",
+  "ultimaAtualizacao": "28/04/2026, 01:07:20",
   "cidade": "Campinas",
-  "totalCarrefour": "319.79",
-  "totalGiga": "248.92",
+  "totalCarrefour": "333.38",
+  "totalGiga": "247.53",
   "totalCovabra": "331.76",
-  "totalPagueMenos": "304.13",
-  "totalAtacadao": "156.01",
-  "totalTenda": "268.67",
-  "totalEnxuto": "286.68",
+  "totalPagueMenos": "308.13",
+  "totalAtacadao": "159.54",
+  "totalTenda": "272.64",
+  "totalEnxuto": "280.56",
   "encontradosCarrefour": 12,
   "encontradosGiga": 11,
   "encontradosCovabra": 10,
@@ -78,9 +78,9 @@
         "preco_por_kg": 34.99
       },
       "atacadao": {
-        "nome": "Salgadinho Lucky Torcida Bacon 60g",
-        "preco": 1.59,
-        "preco_por_kg": 26.5
+        "nome": "Bacon em Cubos Perdigão Congelado Defumado 1kg",
+        "preco": 29,
+        "preco_por_kg": 29
       },
       "tenda": {
         "nome": "Bacon tablete Seara Gourmet",
@@ -117,9 +117,9 @@
         "preco_por_kg": 24.99
       },
       "atacadao": {
-        "nome": "Linguiça Calabresa Seara 2,5kg",
-        "preco": 45.89,
-        "preco_por_kg": 18.36
+        "nome": "Linguiça Calabresa Frimesa Resfriada 2kg",
+        "preco": 35.8,
+        "preco_por_kg": 17.9
       },
       "tenda": {
         "nome": "Linguiça Calabresa Defumada Estrela Pacote 2,5kg",
@@ -157,20 +157,20 @@
       },
       "atacadao": {
         "nome": "Hambúrguer Texas Burger Carne de Frango e Bovina 672g",
-        "preco": 14.9,
-        "preco_por_kg": 22.17
+        "preco": 15.9,
+        "preco_por_kg": 23.66
       },
       "tenda": {
-        "nome": "Hambúrguer de carne de frango e bovina Perdigão caixa 672g 12 unidades",
-        "preco": 17.9,
-        "preco_por_kg": 26.64
+        "nome": "Hambúrguer de Carne Bovina Churrasco Sadia Caixa 672g 12 Unidades",
+        "preco": 19.9,
+        "preco_por_kg": 29.61
       },
       "enxuto": {
         "nome": "Hamburguer Maturatta Carne Bovina/costela 180g",
         "preco": 7.99,
         "preco_por_kg": 44.39
       },
-      "mais_barato": "Atacadão"
+      "mais_barato": "Carrefour"
     },
     {
       "id": "5",
@@ -219,9 +219,9 @@
         "preco_por_kg": 11.88
       },
       "giga": {
-        "nome": "Salsicha Hot Dog Congelada Perdigão Pacote 5kg",
-        "preco": 12.99,
-        "preco_por_kg": 12.99
+        "nome": "Salsicha Longuette Seara 500G",
+        "preco": 11.6,
+        "preco_por_kg": 11.6
       },
       "covabra": {
         "nome": "Salsicha Seara Hot Dog 1 Porção 515g",
@@ -244,18 +244,18 @@
         "preco_por_kg": 9.5
       },
       "enxuto": {
-        "nome": "Salsicha Hot Dog Sadia Granel Kg",
-        "preco": 7.79,
-        "preco_por_kg": 7.79
+        "nome": "Salsicha Hot Dog Perdigao Granel Kg",
+        "preco": 6.59,
+        "preco_por_kg": 6.59
       },
-      "mais_barato": "Atacadão"
+      "mais_barato": "Enxuto"
     },
     {
       "id": "7",
       "carrefour": {
         "nome": "Sobrecoxa de Frango Swift 1Kg",
-        "preco": 11.9,
-        "preco_por_kg": 11.9
+        "preco": 12.9,
+        "preco_por_kg": 12.9
       },
       "giga": {
         "nome": "Sobrecoxa De Frango Congelada Temperada Sadia Frango Fácil 800g",
@@ -283,9 +283,9 @@
         "preco_por_kg": 7.9
       },
       "enxuto": {
-        "nome": "Sobrecoxa Frango Sadia Iqf Congelado 1kg",
-        "preco": 17.9,
-        "preco_por_kg": 17.9
+        "nome": "Sobrecoxa De Frango Com Pele 600g",
+        "preco": 7.79,
+        "preco_por_kg": 12.98
       },
       "mais_barato": "Atacadão"
     },
@@ -357,8 +357,8 @@
       },
       "tenda": {
         "nome": "Bisteca Suína Congelada Aurora 1,2kg",
-        "preco": 18.6,
-        "preco_por_kg": 15.5
+        "preco": 19.8,
+        "preco_por_kg": 16.5
       },
       "enxuto": {
         "nome": "Bisteca Suína Copa Lombo Congelada 700g",
@@ -371,8 +371,8 @@
       "id": "10",
       "carrefour": {
         "nome": "Miolo de Alcatra Maturatta Aprox. 1,5 Kg",
-        "preco": 83.85,
-        "preco_por_kg": 55.9
+        "preco": 101.23,
+        "preco_por_kg": 67.49
       },
       "giga": {
         "nome": "N/A",
@@ -449,8 +449,8 @@
       "id": "13",
       "carrefour": {
         "nome": "Ovo Branco Pvc Extra Classe Asa Carrefour Bandeja com 20 Unidades",
-        "preco": 14.99,
-        "preco_por_kg": 14.99
+        "preco": 15.99,
+        "preco_por_kg": 15.99
       },
       "giga": {
         "nome": "N/A",
@@ -503,8 +503,8 @@
       },
       "paguemenos": {
         "nome": "Músculo Bovino Resfriado KG",
-        "preco": 39.99,
-        "preco_por_kg": 39.99
+        "preco": 43.99,
+        "preco_por_kg": 43.99
       },
       "atacadao": {
         "nome": "N/A",
