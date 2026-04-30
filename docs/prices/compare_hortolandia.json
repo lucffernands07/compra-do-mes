@@ -1,13 +1,13 @@
 {
-  "ultimaAtualizacao": "29/04/2026, 00:53:50",
-  "totalGoodbom": "269.08",
-  "totalTenda": "271.09",
-  "totalArena": "349.25",
-  "totalSavegnago": "311.76",
+  "ultimaAtualizacao": "30/04/2026, 01:02:08",
+  "totalGoodbom": "266.08",
+  "totalTenda": "272.09",
+  "totalArena": "351.04",
+  "totalSavegnago": "232.56",
   "encontradosGoodbom": 10,
   "encontradosTenda": 12,
   "encontradosArena": 12,
-  "encontradosSavegnago": 11,
+  "encontradosSavegnago": 9,
   "produtos": [
     {
       "id": 1,
@@ -99,18 +99,18 @@
         "preco_por_kg": 41.93
       },
       "savegnago": {
-        "nome": "Hambúrguer de Carne de Frango e Bovina Perdigão Pacote 56g",
-        "preco": 1.79,
-        "preco_por_kg": 31.96
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
     {
       "id": 5,
       "goodbom": {
-        "nome": "LINGUIÇA TOSCANA NA BRASA PERDIGÃO KG",
-        "preco": 18.99,
-        "preco_por_kg": 18.99
+        "nome": "LINGUIÇA TOSCANA SEARA KG",
+        "preco": 16.99,
+        "preco_por_kg": 16.99
       },
       "tenda": {
         "nome": "Linguiça Toscana Congelada Pérola 5Kg",
@@ -142,16 +142,16 @@
         "preco_por_kg": 7.95
       },
       "arena": {
-        "nome": "Salsicha Hot Dog Nobre Pacote 3kg",
-        "preco": 23.49,
-        "preco_por_kg": 7.83
+        "nome": "Salsicha Hot Dog Copacol Granel Kg",
+        "preco": 8.99,
+        "preco_por_kg": 8.99
       },
       "savegnago": {
-        "nome": "Salsicha Hot Dog Swift 500g",
-        "preco": 9.9,
-        "preco_por_kg": 19.8
+        "nome": "Salsicha Hot Dog Aurora 500g",
+        "preco": 7.98,
+        "preco_por_kg": 15.96
       },
-      "mais_barato": "Arena"
+      "mais_barato": "Tenda"
     },
     {
       "id": 7,
@@ -195,9 +195,9 @@
         "preco_por_kg": 0
       },
       "savegnago": {
-        "nome": "Filezinho Sassami de Frango Congelado Perdigão Pacote 1kg",
-        "preco": 22.35,
-        "preco_por_kg": 22.35
+        "nome": "Filezinho de frango sassami Seara 1kg",
+        "preco": 19.7,
+        "preco_por_kg": 19.7
       },
       "mais_barato": "Tenda"
     },
@@ -277,13 +277,13 @@
       "id": 12,
       "goodbom": {
         "nome": "MÚSCULO TRASEIRO BOVINO KG",
-        "preco": 35.9,
-        "preco_por_kg": 35.9
+        "preco": 34.9,
+        "preco_por_kg": 34.9
       },
       "tenda": {
         "nome": "Músculo Bovino Resfriado Peça 4kg",
-        "preco": 135.6,
-        "preco_por_kg": 33.9
+        "preco": 139.6,
+        "preco_por_kg": 34.9
       },
       "arena": {
         "nome": "Músculo Bovino Bandeja Kg",
@@ -291,11 +291,11 @@
         "preco_por_kg": 39.9
       },
       "savegnago": {
-        "nome": "Carne Bovina Músculo Mole Swift 500g Cubos",
-        "preco": 19.9,
-        "preco_por_kg": 39.8
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Goodbom"
     },
     {
       "id": 13,
@@ -310,16 +310,16 @@
         "preco_por_kg": 0
       },
       "arena": {
-        "nome": "Ovos Mantiqueira Jumbo Branco Embalagem C/ 10 Unid.",
-        "preco": 9.85,
-        "preco_por_kg": 9.85
+        "nome": "Ovos Iana Grande Branco Graciana Queens Eggs Com 10 Unidades",
+        "preco": 10.48,
+        "preco_por_kg": 10.48
       },
       "savegnago": {
         "nome": "Ovo Branco Mantiqueira Extra Com 10 Unidades",
-        "preco": 7.9,
-        "preco_por_kg": 7.9
+        "preco": 6.95,
+        "preco_por_kg": 6.95
       },
-      "mais_barato": "Goodbom"
+      "mais_barato": "Savegnago"
     }
   ]
 }
