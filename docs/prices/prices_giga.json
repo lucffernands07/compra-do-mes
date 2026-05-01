@@ -1,5 +1,19 @@
 [
   {
+    "id": 1,
+    "supermercado": "Giga",
+    "produto": "Carne Bovina Moida Congelada Frimaster 500 Gramas",
+    "preco": 12.9,
+    "preco_por_kg": 12.9
+  },
+  {
+    "id": 2,
+    "supermercado": "Giga",
+    "produto": "Bacon Defumado Manta Inteiro Sadia",
+    "preco": 27.9,
+    "preco_por_kg": 27.9
+  },
+  {
     "id": 3,
     "supermercado": "Giga",
     "produto": "Linguiça Fininha Aurora Pacote 2,5kg",
@@ -28,11 +42,18 @@
     "preco_por_kg": 17.85
   },
   {
+    "id": 8,
+    "supermercado": "Giga",
+    "produto": "Filé De Peito De Frango Sadia 1Kg",
+    "preco": 20.9,
+    "preco_por_kg": 20.9
+  },
+  {
     "id": 9,
     "supermercado": "Giga",
-    "produto": "Bisteca Suína Congelada Sadia",
-    "preco": 16.9,
-    "preco_por_kg": 16.9
+    "produto": "Bisteca Suína Swift",
+    "preco": 18.59,
+    "preco_por_kg": 18.59
   },
   {
     "id": 11,

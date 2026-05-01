@@ -1,5 +1,12 @@
 [
   {
+    "id": 2,
+    "supermercado": "Covabra",
+    "produto": "Ketchup Heinz Squeeze Bacon e Cebola Caramelizada 397g",
+    "preco": 12.99,
+    "preco_por_kg": 32.72
+  },
+  {
     "id": 3,
     "supermercado": "Covabra",
     "produto": "Linguiça Calabresa Sadia Defumada 1 Unidade 502g",
@@ -7,11 +14,39 @@
     "preco_por_kg": 27.99
   },
   {
+    "id": 4,
+    "supermercado": "Covabra",
+    "produto": "Hamburguer Seara Air Fryer Carne Bovina 150g",
+    "preco": 7.59,
+    "preco_por_kg": 50.6
+  },
+  {
+    "id": 5,
+    "supermercado": "Covabra",
+    "produto": "Linguiça Toscana Sadia 1 Porção 824g",
+    "preco": 17.22,
+    "preco_por_kg": 20.9
+  },
+  {
+    "id": 6,
+    "supermercado": "Covabra",
+    "produto": "Salsicha Seara Hot Dog 1 Porção 515g",
+    "preco": 5.65,
+    "preco_por_kg": 10.97
+  },
+  {
     "id": 7,
     "supermercado": "Covabra",
-    "produto": "Sobrecoxa de Frango Seara Congelada 1A1 1kg",
-    "preco": 18.9,
-    "preco_por_kg": 18.9
+    "produto": "Sobrecoxa de Frango Perdigao Congelada Assa Fácil 1,2kg",
+    "preco": 21.98,
+    "preco_por_kg": 18.32
+  },
+  {
+    "id": 8,
+    "supermercado": "Covabra",
+    "produto": "Filézinho de Frango Sassami Resfriado Bandeja 1 Unidade 515g",
+    "preco": 15.39,
+    "preco_por_kg": 29.88
   },
   {
     "id": 10,
@@ -23,9 +58,9 @@
   {
     "id": 11,
     "supermercado": "Covabra",
-    "produto": "Contra Filé Bovino Friboi Pedaço a Vácuo 1,280kg",
-    "preco": 57.57,
-    "preco_por_kg": 44.98
+    "produto": "Contra Filé Bovino Frigon Pedaço à Vácuo 1 Peça 1,339kg",
+    "preco": 53.53,
+    "preco_por_kg": 39.98
   },
   {
     "id": 12,
@@ -33,5 +68,12 @@
     "produto": "Músculo Traseiro Bovino Cubos Bandeja 1 Unidade 515g",
     "preco": 19.55,
     "preco_por_kg": 37.96
+  },
+  {
+    "id": 13,
+    "supermercado": "Covabra",
+    "produto": "Ovos Caipira Mantiqueira Happy Eggs Branco Grande Pvc Caixa com 10un",
+    "preco": 8.9,
+    "preco_por_kg": 8.9
   }
 ]
