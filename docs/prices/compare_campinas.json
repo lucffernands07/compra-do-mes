@@ -1,13 +1,13 @@
 {
-  "ultimaAtualizacao": "01/05/2026, 01:16:40",
+  "ultimaAtualizacao": "02/05/2026, 00:49:02",
   "cidade": "Campinas",
-  "totalCarrefour": "338.89",
-  "totalGiga": "231.63",
+  "totalCarrefour": "341.78",
+  "totalGiga": "233.02",
   "totalCovabra": "351.11",
   "totalPagueMenos": "308.13",
-  "totalAtacadao": "143.42",
-  "totalTenda": "272.09",
-  "totalEnxuto": "361.55",
+  "totalAtacadao": "145.31",
+  "totalTenda": "266.09",
+  "totalEnxuto": "340.49",
   "encontradosCarrefour": 12,
   "encontradosGiga": 10,
   "encontradosCovabra": 11,
@@ -79,8 +79,8 @@
       },
       "atacadao": {
         "nome": "Biscoito Salgado Tuc's Bacon 100g",
-        "preco": 1.45,
-        "preco_por_kg": 14.5
+        "preco": 1.37,
+        "preco_por_kg": 13.7
       },
       "tenda": {
         "nome": "Bacon tablete Seara Gourmet",
@@ -117,9 +117,9 @@
         "preco_por_kg": 24.99
       },
       "atacadao": {
-        "nome": "Linguiça Calabresa Pamplona Reta 2,5kg",
-        "preco": 42.47,
-        "preco_por_kg": 16.99
+        "nome": "Linguiça Calabresa Perdigão Defumada 1kg",
+        "preco": 17.9,
+        "preco_por_kg": 17.9
       },
       "tenda": {
         "nome": "Linguiça Calabresa Defumada Estrela Pacote 2,5kg",
@@ -131,7 +131,7 @@
         "preco": 128.88,
         "preco_por_kg": 28.64
       },
-      "mais_barato": "Atacadão"
+      "mais_barato": "Tenda"
     },
     {
       "id": "4",
@@ -175,9 +175,9 @@
     {
       "id": "5",
       "carrefour": {
-        "nome": "Linguiça Toscana Swift 700g",
-        "preco": 18.9,
-        "preco_por_kg": 27
+        "nome": "Linguiça Toscana Grossa Sadia Aprox 5Kg",
+        "preco": 164.45,
+        "preco_por_kg": 32.89
       },
       "giga": {
         "nome": "Linguiça Fininha Aurora Pacote 2,5kg",
@@ -206,10 +206,10 @@
       },
       "enxuto": {
         "nome": "Ling Toscana Nabrasa Granel Kg Balcao",
-        "preco": 13.95,
-        "preco_por_kg": 13.95
+        "preco": 9.49,
+        "preco_por_kg": 9.49
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Enxuto"
     },
     {
       "id": "6",
@@ -219,9 +219,9 @@
         "preco_por_kg": 11.88
       },
       "giga": {
-        "nome": "Salsicha Longuette Seara 500G",
-        "preco": 11.6,
-        "preco_por_kg": 11.6
+        "nome": "Salsicha Hot Dog Congelada Perdigão Pacote 5kg",
+        "preco": 12.99,
+        "preco_por_kg": 12.99
       },
       "covabra": {
         "nome": "Salsicha Seara Hot Dog 1 Porção 515g",
@@ -245,17 +245,17 @@
       },
       "enxuto": {
         "nome": "Salsicha Hot Dog Sadia Granel Kg",
-        "preco": 8.39,
-        "preco_por_kg": 8.39
+        "preco": 7.79,
+        "preco_por_kg": 7.79
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Enxuto"
     },
     {
       "id": "7",
       "carrefour": {
         "nome": "Sobrecoxa de Frango Swift 1Kg",
-        "preco": 12.9,
-        "preco_por_kg": 12.9
+        "preco": 11.9,
+        "preco_por_kg": 11.9
       },
       "giga": {
         "nome": "Sobrecoxa De Frango Congelada Temperada Sadia Frango Fácil 800g",
@@ -274,8 +274,8 @@
       },
       "atacadao": {
         "nome": "Coxa e Sobrecoxa de Frango Canção Congelada 18kg",
-        "preco": 124.2,
-        "preco_por_kg": 6.9
+        "preco": 135,
+        "preco_por_kg": 7.5
       },
       "tenda": {
         "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
@@ -283,9 +283,9 @@
         "preco_por_kg": 7.9
       },
       "enxuto": {
-        "nome": "Frango Resfriado Coxa/sobrecoxa Aprox. 900g",
-        "preco": 14.31,
-        "preco_por_kg": 15.9
+        "nome": "Sobrecoxa Frango Sadia Iqf Congelado 1kg",
+        "preco": 17.9,
+        "preco_por_kg": 17.9
       },
       "mais_barato": "Atacadão"
     },
@@ -313,8 +313,8 @@
       },
       "atacadao": {
         "nome": "Filezinho de Frango Sassami Seara Congelado 6kg",
-        "preco": 95.4,
-        "preco_por_kg": 15.9
+        "preco": 101.88,
+        "preco_por_kg": 16.98
       },
       "tenda": {
         "nome": "Filezinho Sassami de Frango Congelado Perdigão Temperado 3kg",
@@ -401,8 +401,8 @@
       },
       "enxuto": {
         "nome": "Miolo Da Alcatra Bovino Bife 500g",
-        "preco": 36.45,
-        "preco_por_kg": 72.9
+        "preco": 27.45,
+        "preco_por_kg": 54.9
       },
       "mais_barato": "Tenda"
     },
@@ -435,8 +435,8 @@
       },
       "tenda": {
         "nome": "Contra Filé Bovino Resfriado Peça 4kg",
-        "preco": 207.6,
-        "preco_por_kg": 51.9
+        "preco": 183.6,
+        "preco_por_kg": 45.9
       },
       "enxuto": {
         "nome": "Contra Filé Bovino Pedaço 600g",
@@ -449,8 +449,8 @@
       "id": "13",
       "carrefour": {
         "nome": "Ovo Branco Pvc Extra Classe Asa Carrefour Bandeja com 20 Unidades",
-        "preco": 15.99,
-        "preco_por_kg": 15.99
+        "preco": 13.99,
+        "preco_por_kg": 13.99
       },
       "giga": {
         "nome": "N/A",
@@ -468,9 +468,9 @@
         "preco_por_kg": 8.99
       },
       "atacadao": {
-        "nome": "Ovo Grande Granja Lobo Branco Pvc 20 un",
-        "preco": 10.8,
-        "preco_por_kg": 10.8
+        "nome": "Ovo Branco Gourmet 10 un",
+        "preco": 10.9,
+        "preco_por_kg": 10.9
       },
       "tenda": {
         "nome": "N/A",
