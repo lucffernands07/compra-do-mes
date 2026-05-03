@@ -1,60 +1,21 @@
 {
-  "ultimaAtualizacao": "02/05/2026, 00:49:02",
+  "ultimaAtualizacao": "03/05/2026, 01:11:09",
   "cidade": "Campinas",
-  "totalCarrefour": "341.78",
+  "totalCarrefour": "281.89",
   "totalGiga": "233.02",
-  "totalCovabra": "351.11",
+  "totalCovabra": "300.51",
   "totalPagueMenos": "308.13",
   "totalAtacadao": "145.31",
   "totalTenda": "266.09",
   "totalEnxuto": "340.49",
-  "encontradosCarrefour": 12,
+  "encontradosCarrefour": 11,
   "encontradosGiga": 10,
-  "encontradosCovabra": 11,
+  "encontradosCovabra": 10,
   "encontradosPagueMenos": 11,
   "encontradosAtacadao": 10,
   "encontradosTenda": 12,
   "encontradosEnxuto": 12,
   "produtos": [
-    {
-      "id": "1",
-      "carrefour": {
-        "nome": "Carne Moida Dianteiro Bovino Congelado IGF Carrefour Selection 400g",
-        "preco": 21.39,
-        "preco_por_kg": 53.48
-      },
-      "giga": {
-        "nome": "Carne Bovina Moida Congelada Frimaster 500 Gramas",
-        "preco": 12.9,
-        "preco_por_kg": 12.9
-      },
-      "covabra": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "paguemenos": {
-        "nome": "Carne Bovina Moída Brasa Congelada 500g",
-        "preco": 18.99,
-        "preco_por_kg": 37.98
-      },
-      "atacadao": {
-        "nome": "Carne Bovina Moída Rkótima Congelada 500g",
-        "preco": 6.99,
-        "preco_por_kg": 13.98
-      },
-      "tenda": {
-        "nome": "Carne Moída Bovina Congelada Chuletão 500g",
-        "preco": 8.9,
-        "preco_por_kg": 17.8
-      },
-      "enxuto": {
-        "nome": "Bov Carne Moida Patinho Bd Kg",
-        "preco": 26.35,
-        "preco_por_kg": 26.35
-      },
-      "mais_barato": "Giga"
-    },
     {
       "id": "2",
       "carrefour": {
@@ -146,9 +107,9 @@
         "preco_por_kg": 0
       },
       "covabra": {
-        "nome": "Hamburguer Seara Air Fryer Carne Bovina 150g",
-        "preco": 7.59,
-        "preco_por_kg": 50.6
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "paguemenos": {
         "nome": "N/A",
@@ -175,9 +136,9 @@
     {
       "id": "5",
       "carrefour": {
-        "nome": "Linguiça Toscana Grossa Sadia Aprox 5Kg",
-        "preco": 164.45,
-        "preco_por_kg": 32.89
+        "nome": "Linguiça Toscana Inteira Sadia Aproximadamente 600 g",
+        "preco": 13.14,
+        "preco_por_kg": 21.9
       },
       "giga": {
         "nome": "Linguiça Fininha Aurora Pacote 2,5kg",
@@ -253,9 +214,9 @@
     {
       "id": "7",
       "carrefour": {
-        "nome": "Sobrecoxa de Frango Swift 1Kg",
-        "preco": 11.9,
-        "preco_por_kg": 11.9
+        "nome": "Sobrecoxa Seara IQF 1Kg",
+        "preco": 13.79,
+        "preco_por_kg": 13.79
       },
       "giga": {
         "nome": "Sobrecoxa De Frango Congelada Temperada Sadia Frango Fácil 800g",
@@ -292,9 +253,9 @@
     {
       "id": "8",
       "carrefour": {
-        "nome": "Filé de Peito de Frango Congelado sem Osso Perdigão 1Kg - Sassami",
-        "preco": 18.9,
-        "preco_por_kg": 18.9
+        "nome": "Filé Sassami de Peito de Frango Congelado Sadia 1Kg",
+        "preco": 21.59,
+        "preco_por_kg": 21.59
       },
       "giga": {
         "nome": "Filé De Peito De Frango Sadia 1Kg",
@@ -448,7 +409,7 @@
     {
       "id": "13",
       "carrefour": {
-        "nome": "Ovo Branco Pvc Extra Classe Asa Carrefour Bandeja com 20 Unidades",
+        "nome": "Ovo Branco Extra P.C. Iana Com 20 Unidades",
         "preco": 13.99,
         "preco_por_kg": 13.99
       },
@@ -483,6 +444,45 @@
         "preco_por_kg": 0
       },
       "mais_barato": "Covabra"
+    },
+    {
+      "id": "1",
+      "carrefour": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "giga": {
+        "nome": "Carne Bovina Moida Congelada Frimaster 500 Gramas",
+        "preco": 12.9,
+        "preco_por_kg": 12.9
+      },
+      "covabra": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "paguemenos": {
+        "nome": "Carne Bovina Moída Brasa Congelada 500g",
+        "preco": 18.99,
+        "preco_por_kg": 37.98
+      },
+      "atacadao": {
+        "nome": "Carne Bovina Moída Rkótima Congelada 500g",
+        "preco": 6.99,
+        "preco_por_kg": 13.98
+      },
+      "tenda": {
+        "nome": "Carne Moída Bovina Congelada Chuletão 500g",
+        "preco": 8.9,
+        "preco_por_kg": 17.8
+      },
+      "enxuto": {
+        "nome": "Bov Carne Moida Patinho Bd Kg",
+        "preco": 26.35,
+        "preco_por_kg": 26.35
+      },
+      "mais_barato": "Giga"
     },
     {
       "id": "12",
