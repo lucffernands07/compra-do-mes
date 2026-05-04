@@ -1,13 +1,13 @@
 {
-  "ultimaAtualizacao": "03/05/2026, 01:11:09",
+  "ultimaAtualizacao": "04/05/2026, 01:08:52",
   "cidade": "Campinas",
-  "totalCarrefour": "281.89",
-  "totalGiga": "233.02",
-  "totalCovabra": "300.51",
+  "totalCarrefour": "307.79",
+  "totalGiga": "236.92",
+  "totalCovabra": "301.51",
   "totalPagueMenos": "308.13",
   "totalAtacadao": "145.31",
-  "totalTenda": "266.09",
-  "totalEnxuto": "340.49",
+  "totalTenda": "272.09",
+  "totalEnxuto": "343.37",
   "encontradosCarrefour": 11,
   "encontradosGiga": 10,
   "encontradosCovabra": 10,
@@ -16,6 +16,45 @@
   "encontradosTenda": 12,
   "encontradosEnxuto": 12,
   "produtos": [
+    {
+      "id": "1",
+      "carrefour": {
+        "nome": "Carne Moida Dianteiro Bovino Congelado IGF Carrefour Selection 400g",
+        "preco": 21.39,
+        "preco_por_kg": 53.48
+      },
+      "giga": {
+        "nome": "Carne Bovina Moida Congelada Frimaster 500 Gramas",
+        "preco": 12.9,
+        "preco_por_kg": 12.9
+      },
+      "covabra": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "paguemenos": {
+        "nome": "Carne Bovina Moída Brasa Congelada 500g",
+        "preco": 18.99,
+        "preco_por_kg": 37.98
+      },
+      "atacadao": {
+        "nome": "Carne Bovina Moída Rkótima Congelada 500g",
+        "preco": 6.99,
+        "preco_por_kg": 13.98
+      },
+      "tenda": {
+        "nome": "Carne Moída Bovina Congelada Chuletão 500g",
+        "preco": 8.9,
+        "preco_por_kg": 17.8
+      },
+      "enxuto": {
+        "nome": "Bov Carne Moida Patinho Bd Kg",
+        "preco": 26.35,
+        "preco_por_kg": 26.35
+      },
+      "mais_barato": "Giga"
+    },
     {
       "id": "2",
       "carrefour": {
@@ -58,9 +97,9 @@
     {
       "id": "3",
       "carrefour": {
-        "nome": "Linguiça Tipo Calabresa Sadia 400g",
-        "preco": 10.99,
-        "preco_por_kg": 27.47
+        "nome": "Linguiça de Calabresa Defumada Sadia 1 Kg",
+        "preco": 29.19,
+        "preco_por_kg": 29.19
       },
       "giga": {
         "nome": "Linguiça Fininha Aurora Pacote 2,5kg",
@@ -88,57 +127,18 @@
         "preco_por_kg": 17.89
       },
       "enxuto": {
-        "nome": "Ling Calabresa Perdigao Def Pct 4,5kg",
-        "preco": 128.88,
-        "preco_por_kg": 28.64
+        "nome": "Linguica Calabresa Brasa 400g",
+        "preco": 7.99,
+        "preco_por_kg": 19.97
       },
       "mais_barato": "Tenda"
     },
     {
-      "id": "4",
-      "carrefour": {
-        "nome": "Hambúrguer Misto de Carne de Frango e Bovina Sadia 56 g",
-        "preco": 1.29,
-        "preco_por_kg": 23.04
-      },
-      "giga": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "covabra": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "paguemenos": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "atacadao": {
-        "nome": "Hambúrguer Texas Burger Carne de Frango e Bovina 672g",
-        "preco": 15.9,
-        "preco_por_kg": 23.66
-      },
-      "tenda": {
-        "nome": "Hambúrguer de Carne Bovina Churrasco Sadia Caixa 672g 12 Unidades",
-        "preco": 19.9,
-        "preco_por_kg": 29.61
-      },
-      "enxuto": {
-        "nome": "Hamburguer Maturatta Carne Bovina/costela 180g",
-        "preco": 7.99,
-        "preco_por_kg": 44.39
-      },
-      "mais_barato": "Carrefour"
-    },
-    {
       "id": "5",
       "carrefour": {
-        "nome": "Linguiça Toscana Inteira Sadia Aproximadamente 600 g",
-        "preco": 13.14,
-        "preco_por_kg": 21.9
+        "nome": "Fanta Guaraná Pet 2L + Linguiça Toscana com Alho e Ervas Perdigão Na Brasa 600g",
+        "preco": 37.08,
+        "preco_por_kg": 18.54
       },
       "giga": {
         "nome": "Linguiça Fininha Aurora Pacote 2,5kg",
@@ -167,10 +167,10 @@
       },
       "enxuto": {
         "nome": "Ling Toscana Nabrasa Granel Kg Balcao",
-        "preco": 9.49,
-        "preco_por_kg": 9.49
+        "preco": 13.95,
+        "preco_por_kg": 13.95
       },
-      "mais_barato": "Enxuto"
+      "mais_barato": "Tenda"
     },
     {
       "id": "6",
@@ -214,9 +214,9 @@
     {
       "id": "7",
       "carrefour": {
-        "nome": "Sobrecoxa Seara IQF 1Kg",
-        "preco": 13.79,
-        "preco_por_kg": 13.79
+        "nome": "Coxa com Sobrecoxa Congelada Dorsal Carrefour Aprox. 1 Kg",
+        "preco": 8.89,
+        "preco_por_kg": 8.89
       },
       "giga": {
         "nome": "Sobrecoxa De Frango Congelada Temperada Sadia Frango Fácil 800g",
@@ -258,9 +258,9 @@
         "preco_por_kg": 21.59
       },
       "giga": {
-        "nome": "Filé De Peito De Frango Sadia 1Kg",
-        "preco": 20.9,
-        "preco_por_kg": 20.9
+        "nome": "Filé Mignon Suíno Swift",
+        "preco": 23.9,
+        "preco_por_kg": 23.9
       },
       "covabra": {
         "nome": "Filézinho de Frango Sassami Resfriado Bandeja 1 Unidade 515g",
@@ -323,8 +323,8 @@
       },
       "enxuto": {
         "nome": "Bisteca Suína Carré Lombo Congelada 700g",
-        "preco": 13.93,
-        "preco_por_kg": 19.9
+        "preco": 11.89,
+        "preco_por_kg": 16.99
       },
       "mais_barato": "Tenda"
     },
@@ -342,8 +342,8 @@
       },
       "covabra": {
         "nome": "Miolo de Alcatra Bovino Cubos Bandeja 1 Unidade 515g",
-        "preco": 37.54,
-        "preco_por_kg": 72.89
+        "preco": 28.31,
+        "preco_por_kg": 54.97
       },
       "paguemenos": {
         "nome": "N/A",
@@ -362,8 +362,8 @@
       },
       "enxuto": {
         "nome": "Miolo Da Alcatra Bovino Bife 500g",
-        "preco": 27.45,
-        "preco_por_kg": 54.9
+        "preco": 32.45,
+        "preco_por_kg": 64.9
       },
       "mais_barato": "Tenda"
     },
@@ -380,9 +380,9 @@
         "preco_por_kg": 54.9
       },
       "covabra": {
-        "nome": "Contra Filé Bovino Frigon Pedaço à Vácuo 1 Peça 1,339kg",
-        "preco": 53.53,
-        "preco_por_kg": 39.98
+        "nome": "Contra Filé Bovino Pul Resfriado Peça a Vacuo 1,320kg",
+        "preco": 79.06,
+        "preco_por_kg": 59.89
       },
       "paguemenos": {
         "nome": "Contrafilé Bovino Resfriado KG",
@@ -396,22 +396,22 @@
       },
       "tenda": {
         "nome": "Contra Filé Bovino Resfriado Peça 4kg",
-        "preco": 183.6,
-        "preco_por_kg": 45.9
+        "preco": 207.6,
+        "preco_por_kg": 51.9
       },
       "enxuto": {
         "nome": "Contra Filé Bovino Pedaço 600g",
         "preco": 40.98,
         "preco_por_kg": 68.3
       },
-      "mais_barato": "Covabra"
+      "mais_barato": "Tenda"
     },
     {
       "id": "13",
       "carrefour": {
         "nome": "Ovo Branco Extra P.C. Iana Com 20 Unidades",
-        "preco": 13.99,
-        "preco_por_kg": 13.99
+        "preco": 15.99,
+        "preco_por_kg": 15.99
       },
       "giga": {
         "nome": "N/A",
@@ -446,45 +446,6 @@
       "mais_barato": "Covabra"
     },
     {
-      "id": "1",
-      "carrefour": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "giga": {
-        "nome": "Carne Bovina Moida Congelada Frimaster 500 Gramas",
-        "preco": 12.9,
-        "preco_por_kg": 12.9
-      },
-      "covabra": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "paguemenos": {
-        "nome": "Carne Bovina Moída Brasa Congelada 500g",
-        "preco": 18.99,
-        "preco_por_kg": 37.98
-      },
-      "atacadao": {
-        "nome": "Carne Bovina Moída Rkótima Congelada 500g",
-        "preco": 6.99,
-        "preco_por_kg": 13.98
-      },
-      "tenda": {
-        "nome": "Carne Moída Bovina Congelada Chuletão 500g",
-        "preco": 8.9,
-        "preco_por_kg": 17.8
-      },
-      "enxuto": {
-        "nome": "Bov Carne Moida Patinho Bd Kg",
-        "preco": 26.35,
-        "preco_por_kg": 26.35
-      },
-      "mais_barato": "Giga"
-    },
-    {
       "id": "12",
       "carrefour": {
         "nome": "N/A",
@@ -492,14 +453,14 @@
         "preco_por_kg": 0
       },
       "giga": {
-        "nome": "Limpador Mr. Músculo Desengordurante Lavanda 400Ml",
-        "preco": 12.09,
-        "preco_por_kg": 12.09
+        "nome": "Limpador Desengordurante Cozinha Mr Musculo 500Ml",
+        "preco": 12.99,
+        "preco_por_kg": 12.99
       },
       "covabra": {
         "nome": "Músculo Traseiro Bovino Cubos Bandeja 1 Unidade 515g",
-        "preco": 19.55,
-        "preco_por_kg": 37.96
+        "preco": 19.04,
+        "preco_por_kg": 36.97
       },
       "paguemenos": {
         "nome": "Músculo Bovino Resfriado KG",
@@ -522,6 +483,45 @@
         "preco_por_kg": 18.87
       },
       "mais_barato": "Giga"
+    },
+    {
+      "id": "4",
+      "carrefour": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "giga": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "covabra": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "paguemenos": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "atacadao": {
+        "nome": "Hambúrguer Texas Burger Carne de Frango e Bovina 672g",
+        "preco": 15.9,
+        "preco_por_kg": 23.66
+      },
+      "tenda": {
+        "nome": "Hambúrguer de Carne Bovina Churrasco Sadia Caixa 672g 12 Unidades",
+        "preco": 19.9,
+        "preco_por_kg": 29.61
+      },
+      "enxuto": {
+        "nome": "Hamburguer Maturatta Carne Bovina/costela 180g",
+        "preco": 7.99,
+        "preco_por_kg": 44.39
+      },
+      "mais_barato": "Atacadão"
     }
   ]
 }
