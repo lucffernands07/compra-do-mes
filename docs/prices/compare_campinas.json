@@ -1,20 +1,20 @@
 {
-  "ultimaAtualizacao": "04/05/2026, 01:08:52",
+  "ultimaAtualizacao": "05/05/2026, 00:50:51",
   "cidade": "Campinas",
-  "totalCarrefour": "307.79",
-  "totalGiga": "236.92",
+  "totalCarrefour": "332.31",
+  "totalGiga": "237.62",
   "totalCovabra": "301.51",
   "totalPagueMenos": "308.13",
   "totalAtacadao": "145.31",
   "totalTenda": "272.09",
-  "totalEnxuto": "343.37",
-  "encontradosCarrefour": 11,
+  "totalEnxuto": "291.74",
+  "encontradosCarrefour": 12,
   "encontradosGiga": 10,
   "encontradosCovabra": 10,
   "encontradosPagueMenos": 11,
   "encontradosAtacadao": 10,
   "encontradosTenda": 12,
-  "encontradosEnxuto": 12,
+  "encontradosEnxuto": 11,
   "produtos": [
     {
       "id": "1",
@@ -98,8 +98,8 @@
       "id": "3",
       "carrefour": {
         "nome": "Linguiça de Calabresa Defumada Sadia 1 Kg",
-        "preco": 29.19,
-        "preco_por_kg": 29.19
+        "preco": 21.07,
+        "preco_por_kg": 21.07
       },
       "giga": {
         "nome": "Linguiça Fininha Aurora Pacote 2,5kg",
@@ -127,11 +127,50 @@
         "preco_por_kg": 17.89
       },
       "enxuto": {
-        "nome": "Linguica Calabresa Brasa 400g",
-        "preco": 7.99,
-        "preco_por_kg": 19.97
+        "nome": "Ling Calabresa Perdigao Def Pct 4,5kg",
+        "preco": 128.88,
+        "preco_por_kg": 28.64
       },
       "mais_barato": "Tenda"
+    },
+    {
+      "id": "4",
+      "carrefour": {
+        "nome": "Hambúrguer Misto de Carne de Frango e Bovina Sadia 56 g",
+        "preco": 1.29,
+        "preco_por_kg": 23.04
+      },
+      "giga": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "covabra": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "paguemenos": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "atacadao": {
+        "nome": "Hambúrguer Texas Burger Carne de Frango e Bovina 672g",
+        "preco": 15.9,
+        "preco_por_kg": 23.66
+      },
+      "tenda": {
+        "nome": "Hambúrguer de Carne Bovina Churrasco Sadia Caixa 672g 12 Unidades",
+        "preco": 19.9,
+        "preco_por_kg": 29.61
+      },
+      "enxuto": {
+        "nome": "Hamburguer Maturatta Carne Bovina/costela 180g",
+        "preco": 7.99,
+        "preco_por_kg": 44.39
+      },
+      "mais_barato": "Carrefour"
     },
     {
       "id": "5",
@@ -175,7 +214,7 @@
     {
       "id": "6",
       "carrefour": {
-        "nome": "Salsicha Hot Dog Resfriada Carrefour Aproximadamente 500 g",
+        "nome": "Salsicha Hot Dog Resfriada Aurora Aproximadamente 500 g",
         "preco": 5.94,
         "preco_por_kg": 11.88
       },
@@ -214,9 +253,9 @@
     {
       "id": "7",
       "carrefour": {
-        "nome": "Coxa com Sobrecoxa Congelada Dorsal Carrefour Aprox. 1 Kg",
-        "preco": 8.89,
-        "preco_por_kg": 8.89
+        "nome": "Sobrecoxa de Frango Congelada e Temperada Sadia 1Kg",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
       },
       "giga": {
         "nome": "Sobrecoxa De Frango Congelada Temperada Sadia Frango Fácil 800g",
@@ -258,9 +297,9 @@
         "preco_por_kg": 21.59
       },
       "giga": {
-        "nome": "Filé Mignon Suíno Swift",
-        "preco": 23.9,
-        "preco_por_kg": 23.9
+        "nome": "Filé De Frango À Parmegiana Sadia 500g",
+        "preco": 24.6,
+        "preco_por_kg": 24.6
       },
       "covabra": {
         "nome": "Filézinho de Frango Sassami Resfriado Bandeja 1 Unidade 515g",
@@ -332,8 +371,8 @@
       "id": "10",
       "carrefour": {
         "nome": "Miolo de Alcatra Maturatta Aprox. 1,5 Kg",
-        "preco": 89.98,
-        "preco_por_kg": 59.99
+        "preco": 101.23,
+        "preco_por_kg": 67.49
       },
       "giga": {
         "nome": "N/A",
@@ -362,8 +401,8 @@
       },
       "enxuto": {
         "nome": "Miolo Da Alcatra Bovino Bife 500g",
-        "preco": 32.45,
-        "preco_por_kg": 64.9
+        "preco": 36.45,
+        "preco_por_kg": 72.9
       },
       "mais_barato": "Tenda"
     },
@@ -400,18 +439,18 @@
         "preco_por_kg": 51.9
       },
       "enxuto": {
-        "nome": "Contra Filé Bovino Pedaço 600g",
-        "preco": 40.98,
-        "preco_por_kg": 68.3
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Tenda"
     },
     {
       "id": "13",
       "carrefour": {
-        "nome": "Ovo Branco Extra P.C. Iana Com 20 Unidades",
-        "preco": 15.99,
-        "preco_por_kg": 15.99
+        "nome": "Ovo Branco Pvc Extra Classe Asa Carrefour Bandeja com 20 Unidades",
+        "preco": 14.99,
+        "preco_por_kg": 14.99
       },
       "giga": {
         "nome": "N/A",
@@ -483,45 +522,6 @@
         "preco_por_kg": 18.87
       },
       "mais_barato": "Giga"
-    },
-    {
-      "id": "4",
-      "carrefour": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "giga": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "covabra": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "paguemenos": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "atacadao": {
-        "nome": "Hambúrguer Texas Burger Carne de Frango e Bovina 672g",
-        "preco": 15.9,
-        "preco_por_kg": 23.66
-      },
-      "tenda": {
-        "nome": "Hambúrguer de Carne Bovina Churrasco Sadia Caixa 672g 12 Unidades",
-        "preco": 19.9,
-        "preco_por_kg": 29.61
-      },
-      "enxuto": {
-        "nome": "Hamburguer Maturatta Carne Bovina/costela 180g",
-        "preco": 7.99,
-        "preco_por_kg": 44.39
-      },
-      "mais_barato": "Atacadão"
     }
   ]
 }
