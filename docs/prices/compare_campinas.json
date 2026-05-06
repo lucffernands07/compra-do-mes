@@ -1,27 +1,27 @@
 {
-  "ultimaAtualizacao": "05/05/2026, 00:50:51",
+  "ultimaAtualizacao": "06/05/2026, 01:05:21",
   "cidade": "Campinas",
-  "totalCarrefour": "332.31",
+  "totalCarrefour": "308.26",
   "totalGiga": "237.62",
-  "totalCovabra": "301.51",
+  "totalCovabra": "345.67",
   "totalPagueMenos": "308.13",
-  "totalAtacadao": "145.31",
+  "totalAtacadao": "138.45",
   "totalTenda": "272.09",
-  "totalEnxuto": "291.74",
-  "encontradosCarrefour": 12,
+  "totalEnxuto": "365.35",
+  "encontradosCarrefour": 11,
   "encontradosGiga": 10,
-  "encontradosCovabra": 10,
+  "encontradosCovabra": 11,
   "encontradosPagueMenos": 11,
   "encontradosAtacadao": 10,
   "encontradosTenda": 12,
-  "encontradosEnxuto": 11,
+  "encontradosEnxuto": 12,
   "produtos": [
     {
       "id": "1",
       "carrefour": {
-        "nome": "Carne Moida Dianteiro Bovino Congelado IGF Carrefour Selection 400g",
-        "preco": 21.39,
-        "preco_por_kg": 53.48
+        "nome": "Paleta Bovina Moída Carrefour Aproximadamente 500 g",
+        "preco": 24.09,
+        "preco_por_kg": 48.18
       },
       "giga": {
         "nome": "Carne Bovina Moida Congelada Frimaster 500 Gramas",
@@ -50,8 +50,8 @@
       },
       "enxuto": {
         "nome": "Bov Carne Moida Patinho Bd Kg",
-        "preco": 26.35,
-        "preco_por_kg": 26.35
+        "preco": 30.75,
+        "preco_por_kg": 30.75
       },
       "mais_barato": "Giga"
     },
@@ -79,8 +79,8 @@
       },
       "atacadao": {
         "nome": "Biscoito Salgado Tuc's Bacon 100g",
-        "preco": 1.37,
-        "preco_por_kg": 13.7
+        "preco": 1.29,
+        "preco_por_kg": 12.9
       },
       "tenda": {
         "nome": "Bacon tablete Seara Gourmet",
@@ -98,8 +98,8 @@
       "id": "3",
       "carrefour": {
         "nome": "Linguiça de Calabresa Defumada Sadia 1 Kg",
-        "preco": 21.07,
-        "preco_por_kg": 21.07
+        "preco": 24.81,
+        "preco_por_kg": 24.81
       },
       "giga": {
         "nome": "Linguiça Fininha Aurora Pacote 2,5kg",
@@ -117,9 +117,9 @@
         "preco_por_kg": 24.99
       },
       "atacadao": {
-        "nome": "Linguiça Calabresa Perdigão Defumada 1kg",
-        "preco": 17.9,
-        "preco_por_kg": 17.9
+        "nome": "Linguiça Tipo Calabresa Prieto 2kg",
+        "preco": 34.9,
+        "preco_por_kg": 17.45
       },
       "tenda": {
         "nome": "Linguiça Calabresa Defumada Estrela Pacote 2,5kg",
@@ -131,7 +131,7 @@
         "preco": 128.88,
         "preco_por_kg": 28.64
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "4",
@@ -146,9 +146,9 @@
         "preco_por_kg": 0
       },
       "covabra": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Hamburguer Sadia Burguer Carne Bovina 113g",
+        "preco": 4.99,
+        "preco_por_kg": 44.16
       },
       "paguemenos": {
         "nome": "N/A",
@@ -195,9 +195,9 @@
         "preco_por_kg": 21.99
       },
       "atacadao": {
-        "nome": "Linguiça Toscana Alegra Congelada 5kg",
-        "preco": 69.9,
-        "preco_por_kg": 13.98
+        "nome": "Linguiça Toscana Pamplona Congelada 4kg",
+        "preco": 55.6,
+        "preco_por_kg": 13.9
       },
       "tenda": {
         "nome": "Linguiça Toscana Congelada Pérola 5Kg",
@@ -214,7 +214,7 @@
     {
       "id": "6",
       "carrefour": {
-        "nome": "Salsicha Hot Dog Resfriada Aurora Aproximadamente 500 g",
+        "nome": "Salsicha Hot Dog Resfriada Carrefour Aproximadamente 500 g",
         "preco": 5.94,
         "preco_por_kg": 11.88
       },
@@ -253,9 +253,9 @@
     {
       "id": "7",
       "carrefour": {
-        "nome": "Sobrecoxa de Frango Congelada e Temperada Sadia 1Kg",
-        "preco": 11.99,
-        "preco_por_kg": 11.99
+        "nome": "Sobrecoxa de Frango Swift 1Kg",
+        "preco": 11.59,
+        "preco_por_kg": 11.59
       },
       "giga": {
         "nome": "Sobrecoxa De Frango Congelada Temperada Sadia Frango Fácil 800g",
@@ -283,9 +283,9 @@
         "preco_por_kg": 7.9
       },
       "enxuto": {
-        "nome": "Sobrecoxa Frango Sadia Iqf Congelado 1kg",
-        "preco": 17.9,
-        "preco_por_kg": 17.9
+        "nome": "Frango Resfriado Coxa/sobrecoxa Aprox. 900g",
+        "preco": 14.31,
+        "preco_por_kg": 15.9
       },
       "mais_barato": "Atacadão"
     },
@@ -322,18 +322,18 @@
         "preco_por_kg": 14.46
       },
       "enxuto": {
-        "nome": "Filezinho Peito De Frango Sassami Sadia Iqf Congelado 1kg",
-        "preco": 25.99,
-        "preco_por_kg": 25.99
+        "nome": "Filezinho Frango Sassami Copacol Congelado Pacote 1kg",
+        "preco": 28.9,
+        "preco_por_kg": 28.9
       },
       "mais_barato": "Tenda"
     },
     {
       "id": "9",
       "carrefour": {
-        "nome": "Bisteca Suína Congelada Fatiada Aprox. 1Kg",
-        "preco": 21.99,
-        "preco_por_kg": 21.99
+        "nome": "Bisteca Suína em Cortes Resfriada Carrefour Aprox. 750g",
+        "preco": 11.17,
+        "preco_por_kg": 14.89
       },
       "giga": {
         "nome": "Bisteca Suína Swift",
@@ -352,8 +352,8 @@
       },
       "atacadao": {
         "nome": "Bisteca Suína Sadia Congelada 800g",
-        "preco": 14.98,
-        "preco_por_kg": 18.72
+        "preco": 10.55,
+        "preco_por_kg": 13.19
       },
       "tenda": {
         "nome": "Bisteca Suína Congelada Aurora 1,2kg",
@@ -365,7 +365,7 @@
         "preco": 11.89,
         "preco_por_kg": 16.99
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "10",
@@ -439,50 +439,11 @@
         "preco_por_kg": 51.9
       },
       "enxuto": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Contra Filé Bovino Pedaço 600g",
+        "preco": 40.98,
+        "preco_por_kg": 68.3
       },
       "mais_barato": "Tenda"
-    },
-    {
-      "id": "13",
-      "carrefour": {
-        "nome": "Ovo Branco Pvc Extra Classe Asa Carrefour Bandeja com 20 Unidades",
-        "preco": 14.99,
-        "preco_por_kg": 14.99
-      },
-      "giga": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "covabra": {
-        "nome": "Ovos Caipira Mantiqueira Happy Eggs Branco Grande Pvc Caixa com 10un",
-        "preco": 8.9,
-        "preco_por_kg": 8.9
-      },
-      "paguemenos": {
-        "nome": "Ovos Brancos Grandes Katayama Gourmet Com 10 Unidades",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
-      },
-      "atacadao": {
-        "nome": "Ovo Branco Gourmet 10 un",
-        "preco": 10.9,
-        "preco_por_kg": 10.9
-      },
-      "tenda": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "enxuto": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Covabra"
     },
     {
       "id": "12",
@@ -522,6 +483,45 @@
         "preco_por_kg": 18.87
       },
       "mais_barato": "Giga"
+    },
+    {
+      "id": "13",
+      "carrefour": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "giga": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "covabra": {
+        "nome": "Ovos Caipira Mantiqueira Happy Eggs Branco Grande Pvc Caixa com 10un",
+        "preco": 8.9,
+        "preco_por_kg": 8.9
+      },
+      "paguemenos": {
+        "nome": "Ovos Brancos Grandes Katayama Gourmet Com 10 Unidades",
+        "preco": 8.99,
+        "preco_por_kg": 8.99
+      },
+      "atacadao": {
+        "nome": "Ovo Branco Gourmet 10 un",
+        "preco": 10.9,
+        "preco_por_kg": 10.9
+      },
+      "tenda": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "enxuto": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "mais_barato": "Covabra"
     }
   ]
 }
