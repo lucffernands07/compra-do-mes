@@ -1,15 +1,15 @@
 {
-  "ultimaAtualizacao": "11/05/2026, 01:23:46",
+  "ultimaAtualizacao": "12/05/2026, 01:07:17",
   "cidade": "Campinas",
-  "totalCarrefour": "379.73",
-  "totalGiga": "233.23",
-  "totalCovabra": "379.02",
+  "totalCarrefour": "325.43",
+  "totalGiga": "209.38",
+  "totalCovabra": "378.02",
   "totalPagueMenos": "308.13",
-  "totalAtacadao": "140.40",
-  "totalTenda": "270.63",
-  "totalEnxuto": "326.04",
-  "encontradosCarrefour": 13,
-  "encontradosGiga": 10,
+  "totalAtacadao": "142.15",
+  "totalTenda": "269.14",
+  "totalEnxuto": "318.05",
+  "encontradosCarrefour": 12,
+  "encontradosGiga": 9,
   "encontradosCovabra": 11,
   "encontradosPagueMenos": 11,
   "encontradosAtacadao": 10,
@@ -98,8 +98,8 @@
       "id": "3",
       "carrefour": {
         "nome": "Linguiça de Calabresa Defumada Sadia 1 Kg",
-        "preco": 33.09,
-        "preco_por_kg": 33.09
+        "preco": 26.49,
+        "preco_por_kg": 26.49
       },
       "giga": {
         "nome": "Linguiça Fininha Aurora Pacote 2,5kg",
@@ -117,9 +117,9 @@
         "preco_por_kg": 24.99
       },
       "atacadao": {
-        "nome": "Linguiça Calabresa Aurora Resfriada 5kg",
-        "preco": 99.5,
-        "preco_por_kg": 19.9
+        "nome": "Linguiça Calabresa Seara 2,5kg",
+        "preco": 39.89,
+        "preco_por_kg": 15.96
       },
       "tenda": {
         "nome": "Linguiça Calabresa Defumada Estrela Pacote 2,5kg",
@@ -131,7 +131,7 @@
         "preco": 11.95,
         "preco_por_kg": 23.9
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Atacadão"
     },
     {
       "id": "4",
@@ -157,20 +157,20 @@
       },
       "atacadao": {
         "nome": "Hambúrguer Texas Burger Carne de Frango e Bovina 672g",
-        "preco": 14.9,
-        "preco_por_kg": 22.17
+        "preco": 15.9,
+        "preco_por_kg": 23.66
       },
       "tenda": {
         "nome": "Hambúrguer de Carne Bovina Churrasco Sadia Caixa 672g 12 Unidades",
-        "preco": 19.9,
-        "preco_por_kg": 29.61
+        "preco": 18.9,
+        "preco_por_kg": 28.12
       },
       "enxuto": {
         "nome": "Hamburguer Maturatta Carne Bovina/costela 180g",
         "preco": 3.99,
         "preco_por_kg": 22.17
       },
-      "mais_barato": "Atacadão"
+      "mais_barato": "Enxuto"
     },
     {
       "id": "5",
@@ -195,9 +195,9 @@
         "preco_por_kg": 21.99
       },
       "atacadao": {
-        "nome": "Linguiça Toscana Pamplona Congelada 880g",
-        "preco": 12.95,
-        "preco_por_kg": 14.72
+        "nome": "Linguiça Toscana Pamplona Congelada 4kg",
+        "preco": 63.6,
+        "preco_por_kg": 15.9
       },
       "tenda": {
         "nome": "Linguiça Toscana Congelada Pérola 5Kg",
@@ -214,7 +214,7 @@
     {
       "id": "6",
       "carrefour": {
-        "nome": "Salsicha Hot Dog Resfriada Carrefour Aproximadamente 500 g",
+        "nome": "Salsicha Hot Dog Resfriada Aurora Aproximadamente 500 g",
         "preco": 5.94,
         "preco_por_kg": 11.88
       },
@@ -254,13 +254,13 @@
       "id": "7",
       "carrefour": {
         "nome": "Sobrecoxa de Frango Swift 1Kg",
-        "preco": 12.9,
-        "preco_por_kg": 12.9
+        "preco": 11.59,
+        "preco_por_kg": 11.59
       },
       "giga": {
-        "nome": "Sobrecoxa De Frango Congelada Temperada Sadia Frango Fácil 800g",
-        "preco": 17.85,
-        "preco_por_kg": 17.85
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "covabra": {
         "nome": "Sobrecoxa de Frango Seara Congelada 1A1 1kg",
@@ -273,9 +273,9 @@
         "preco_por_kg": 15.99
       },
       "atacadao": {
-        "nome": "Coxa com Sobrecoxa de Frango Copacol Congelada 16kg",
-        "preco": 118.24,
-        "preco_por_kg": 7.39
+        "nome": "Coxa e Sobrecoxa de Frango Canção Congelada 18kg",
+        "preco": 135,
+        "preco_por_kg": 7.5
       },
       "tenda": {
         "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
@@ -332,8 +332,8 @@
       "id": "9",
       "carrefour": {
         "nome": "Bisteca Suína Congelada Fatiada Aprox. 1Kg",
-        "preco": 21.99,
-        "preco_por_kg": 21.99
+        "preco": 17.59,
+        "preco_por_kg": 17.59
       },
       "giga": {
         "nome": "Bisteca Suína Congelada Sadia",
@@ -362,8 +362,8 @@
       },
       "enxuto": {
         "nome": "Bisteca Suína Carré Lombo Congelada 700g",
-        "preco": 13.93,
-        "preco_por_kg": 19.9
+        "preco": 11.82,
+        "preco_por_kg": 16.89
       },
       "mais_barato": "Tenda"
     },
@@ -401,8 +401,8 @@
       },
       "enxuto": {
         "nome": "Miolo Da Alcatra Bovino Bife 500g",
-        "preco": 34.94,
-        "preco_por_kg": 69.88
+        "preco": 32.45,
+        "preco_por_kg": 64.9
       },
       "mais_barato": "Tenda"
     },
@@ -414,9 +414,9 @@
         "preco_por_kg": 57.26
       },
       "giga": {
-        "nome": "Contra Filé Bovino Resfriado Porcionado Friboi",
-        "preco": 54.9,
-        "preco_por_kg": 54.9
+        "nome": "Contra Filé Combo Swift",
+        "preco": 48.9,
+        "preco_por_kg": 48.9
       },
       "covabra": {
         "nome": "Contra Filé Bovino Pul Resfriado Peça a Vacuo 1,320kg",
@@ -443,14 +443,53 @@
         "preco": 40.98,
         "preco_por_kg": 68.3
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Giga"
+    },
+    {
+      "id": "13",
+      "carrefour": {
+        "nome": "Ovo Branco Grande Shinoda Com 20 Unidades",
+        "preco": 14.99,
+        "preco_por_kg": 14.99
+      },
+      "giga": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "covabra": {
+        "nome": "Ovos Caipira Mantiqueira Happy Eggs Branco Grande Pvc Caixa com 10un",
+        "preco": 7.9,
+        "preco_por_kg": 7.9
+      },
+      "paguemenos": {
+        "nome": "Ovos Brancos Grandes Katayama Gourmet Com 10 Unidades",
+        "preco": 8.99,
+        "preco_por_kg": 8.99
+      },
+      "atacadao": {
+        "nome": "Ovo Branco Grande Polpa 12 un",
+        "preco": 9.9,
+        "preco_por_kg": 9.9
+      },
+      "tenda": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "enxuto": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "mais_barato": "Covabra"
     },
     {
       "id": "12",
       "carrefour": {
-        "nome": "Músculo Bovino Carrefour Aproximadamente 1 kg",
-        "preco": 43.99,
-        "preco_por_kg": 43.99
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "giga": {
         "nome": "Limpador Desengordurante Cozinha Mr Musculo 500Ml",
@@ -483,45 +522,6 @@
         "preco_por_kg": 0
       },
       "mais_barato": "Giga"
-    },
-    {
-      "id": "13",
-      "carrefour": {
-        "nome": "Ovo Branco Extra P.C. Iana Com 20 Unidades",
-        "preco": 12.99,
-        "preco_por_kg": 12.99
-      },
-      "giga": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "covabra": {
-        "nome": "Ovos Caipira Mantiqueira Happy Eggs Branco Grande Pvc Caixa com 10un",
-        "preco": 8.9,
-        "preco_por_kg": 8.9
-      },
-      "paguemenos": {
-        "nome": "Ovos Brancos Grandes Katayama Gourmet Com 10 Unidades",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
-      },
-      "atacadao": {
-        "nome": "Ovo Branco Grande Polpa 12 un",
-        "preco": 6.99,
-        "preco_por_kg": 6.99
-      },
-      "tenda": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "enxuto": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Atacadão"
     }
   ]
 }
