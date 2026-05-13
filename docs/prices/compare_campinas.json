@@ -1,32 +1,32 @@
 {
-  "ultimaAtualizacao": "12/05/2026, 01:07:17",
+  "ultimaAtualizacao": "13/05/2026, 01:15:26",
   "cidade": "Campinas",
-  "totalCarrefour": "325.43",
-  "totalGiga": "209.38",
+  "totalCarrefour": "323.24",
+  "totalGiga": "282.03",
   "totalCovabra": "378.02",
   "totalPagueMenos": "308.13",
-  "totalAtacadao": "142.15",
-  "totalTenda": "269.14",
-  "totalEnxuto": "318.05",
+  "totalAtacadao": "144.55",
+  "totalTenda": "266.04",
+  "totalEnxuto": "530.91",
   "encontradosCarrefour": 12,
   "encontradosGiga": 9,
   "encontradosCovabra": 11,
   "encontradosPagueMenos": 11,
   "encontradosAtacadao": 10,
   "encontradosTenda": 12,
-  "encontradosEnxuto": 11,
+  "encontradosEnxuto": 12,
   "produtos": [
     {
       "id": "1",
       "carrefour": {
-        "nome": "Carne Moida Dianteiro Bovino Congelado IGF Carrefour Selection 400g",
-        "preco": 21.39,
-        "preco_por_kg": 53.48
+        "nome": "Paleta Bovina Moída Carrefour Aproximadamente 500 g",
+        "preco": 24.09,
+        "preco_por_kg": 48.18
       },
       "giga": {
-        "nome": "Carne Bovina Moida Congelada Frimaster 500 Gramas",
-        "preco": 12.9,
-        "preco_por_kg": 12.9
+        "nome": "Alimento Para Gatos Adultos Carne Ao Molho Kitekat Sachê 70G",
+        "preco": 2.55,
+        "preco_por_kg": 2.55
       },
       "covabra": {
         "nome": "N/A",
@@ -117,9 +117,9 @@
         "preco_por_kg": 24.99
       },
       "atacadao": {
-        "nome": "Linguiça Calabresa Seara 2,5kg",
-        "preco": 39.89,
-        "preco_por_kg": 15.96
+        "nome": "Linguiça Calabresa Estrela Resfriada 2,5kg",
+        "preco": 45.9,
+        "preco_por_kg": 18.36
       },
       "tenda": {
         "nome": "Linguiça Calabresa Defumada Estrela Pacote 2,5kg",
@@ -131,7 +131,7 @@
         "preco": 11.95,
         "preco_por_kg": 23.9
       },
-      "mais_barato": "Atacadão"
+      "mais_barato": "Tenda"
     },
     {
       "id": "4",
@@ -180,9 +180,9 @@
         "preco_por_kg": 18.54
       },
       "giga": {
-        "nome": "Linguiça Fininha Aurora Pacote 2,5kg",
-        "preco": 27.45,
-        "preco_por_kg": 27.45
+        "nome": "Linguiça Toscana Congelada Braganca 5kg",
+        "preco": 110.45,
+        "preco_por_kg": 110.45
       },
       "covabra": {
         "nome": "Linguiça Toscana Seara 1 Porção 824g",
@@ -205,9 +205,9 @@
         "preco_por_kg": 12.49
       },
       "enxuto": {
-        "nome": "Linguica Toscana Sadia Granel 500g",
-        "preco": 11.95,
-        "preco_por_kg": 23.9
+        "nome": "Ling Toscana Nabrasa Granel Kg Balcao",
+        "preco": 13.95,
+        "preco_por_kg": 13.95
       },
       "mais_barato": "Tenda"
     },
@@ -215,8 +215,8 @@
       "id": "6",
       "carrefour": {
         "nome": "Salsicha Hot Dog Resfriada Aurora Aproximadamente 500 g",
-        "preco": 5.94,
-        "preco_por_kg": 11.88
+        "preco": 5.09,
+        "preco_por_kg": 10.18
       },
       "giga": {
         "nome": "Salsicha Hot Dog Congelada Perdigão Pacote 5kg",
@@ -239,9 +239,9 @@
         "preco_por_kg": 7.99
       },
       "tenda": {
-        "nome": "Salsicha Hot Dog Estrela Pacote 3kg",
-        "preco": 22.47,
-        "preco_por_kg": 7.49
+        "nome": "Salsa Maço Unidade",
+        "preco": 3.99,
+        "preco_por_kg": 3.99
       },
       "enxuto": {
         "nome": "Salsicha Hot Dog Sadia Granel Kg",
@@ -292,9 +292,9 @@
     {
       "id": "8",
       "carrefour": {
-        "nome": "Filé Sassami de Peito de Frango Congelado Sadia 1Kg",
-        "preco": 21.59,
-        "preco_por_kg": 21.59
+        "nome": "Filé de Peito de Frango Congelado sem Osso Perdigão 1Kg - Sassami",
+        "preco": 18.9,
+        "preco_por_kg": 18.9
       },
       "giga": {
         "nome": "Filé De Peito De Frango Sadia 1Kg",
@@ -356,23 +356,23 @@
         "preco_por_kg": 17.38
       },
       "tenda": {
-        "nome": "Bisteca Suína Congelada Aurora 1,2kg",
-        "preco": 19.8,
-        "preco_por_kg": 16.5
+        "nome": "Bisteca Suína Resfriado 500g",
+        "preco": 8.45,
+        "preco_por_kg": 16.9
       },
       "enxuto": {
         "nome": "Bisteca Suína Carré Lombo Congelada 700g",
         "preco": 11.82,
         "preco_por_kg": 16.89
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Enxuto"
     },
     {
       "id": "10",
       "carrefour": {
         "nome": "Miolo de Alcatra Maturatta Aprox. 1,5 Kg",
-        "preco": 89.98,
-        "preco_por_kg": 59.99
+        "preco": 101.23,
+        "preco_por_kg": 67.49
       },
       "giga": {
         "nome": "N/A",
@@ -448,7 +448,7 @@
     {
       "id": "13",
       "carrefour": {
-        "nome": "Ovo Branco Grande Shinoda Com 20 Unidades",
+        "nome": "Ovo Branco Extra P.C. Iana Com 20 Unidades",
         "preco": 14.99,
         "preco_por_kg": 14.99
       },
@@ -478,9 +478,9 @@
         "preco_por_kg": 0
       },
       "enxuto": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
+        "nome": "Ovo De Páscoa Lacta Ouro Branco 359g",
+        "preco": 79.99,
+        "preco_por_kg": 222.81
       },
       "mais_barato": "Covabra"
     },
