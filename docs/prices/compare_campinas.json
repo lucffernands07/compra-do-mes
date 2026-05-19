@@ -1,11 +1,11 @@
 {
-  "ultimaAtualizacao": "18/05/2026, 01:33:42",
+  "ultimaAtualizacao": "19/05/2026, 01:26:43",
   "cidade": "Campinas",
-  "totalCarrefour": "359.57",
-  "totalGiga": "242.79",
-  "totalCovabra": "360.97",
+  "totalCarrefour": "352.29",
+  "totalGiga": "346.09",
+  "totalCovabra": "363.97",
   "totalPagueMenos": "308.13",
-  "totalAtacadao": "138.45",
+  "totalAtacadao": "139.97",
   "totalTenda": "272.44",
   "totalEnxuto": "345.67",
   "encontradosCarrefour": 12,
@@ -24,9 +24,9 @@
         "preco_por_kg": 53.48
       },
       "giga": {
-        "nome": "Alimento Para Gatos Adultos Carne Ao Molho Kitekat Sachê 70G",
-        "preco": 2.55,
-        "preco_por_kg": 2.55
+        "nome": "Carne Bovina Moida Congelada Frimaster 500 Gramas",
+        "preco": 12.9,
+        "preco_por_kg": 12.9
       },
       "covabra": {
         "nome": "N/A",
@@ -117,9 +117,9 @@
         "preco_por_kg": 24.99
       },
       "atacadao": {
-        "nome": "Linguiça Calabresa Marba Resfriada Defumada 2,5kg",
-        "preco": 42.89,
-        "preco_por_kg": 17.16
+        "nome": "Linguiça Calabresa Estrela Resfriada 2,5kg",
+        "preco": 42.47,
+        "preco_por_kg": 16.99
       },
       "tenda": {
         "nome": "Linguiça Calabresa Defumada Estrela Pacote 2,5kg",
@@ -134,16 +134,55 @@
       "mais_barato": "Atacadão"
     },
     {
-      "id": "5",
+      "id": "4",
       "carrefour": {
-        "nome": "Linguiça Toscana Swift 700g",
-        "preco": 18.9,
-        "preco_por_kg": 27
+        "nome": "Hambúrguer Misto de Carne de Frango e Bovina Sadia 56 g",
+        "preco": 1.29,
+        "preco_por_kg": 23.04
       },
       "giga": {
-        "nome": "Linguiça De Carne Suína Nobre 5kg",
-        "preco": 17.5,
-        "preco_por_kg": 17.5
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "covabra": {
+        "nome": "Hamburguer Sadia Burguer Carne Bovina 113g",
+        "preco": 4.99,
+        "preco_por_kg": 44.16
+      },
+      "paguemenos": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "atacadao": {
+        "nome": "Hambúrguer Texas Burger Carne de Frango e Bovina 672g",
+        "preco": 15.9,
+        "preco_por_kg": 23.66
+      },
+      "tenda": {
+        "nome": "Hambúrguer de Carne Bovina Churrasco Sadia Caixa 672g 12 Unidades",
+        "preco": 19.9,
+        "preco_por_kg": 29.61
+      },
+      "enxuto": {
+        "nome": "Hamburguer Maturatta Carne Bovina/costela 180g",
+        "preco": 5.99,
+        "preco_por_kg": 33.28
+      },
+      "mais_barato": "Carrefour"
+    },
+    {
+      "id": "5",
+      "carrefour": {
+        "nome": "Linguiça Toscana Inteira Sadia Aproximadamente 600 g",
+        "preco": 15.54,
+        "preco_por_kg": 25.9
+      },
+      "giga": {
+        "nome": "Linguiça Toscana Congelada Braganca 5kg",
+        "preco": 110.45,
+        "preco_por_kg": 110.45
       },
       "covabra": {
         "nome": "Linguiça Toscana Perdigão Na Brasa 1 Porção 824g",
@@ -214,9 +253,9 @@
     {
       "id": "7",
       "carrefour": {
-        "nome": "Coxa com Sobrecoxa Congelada Dorsal Carrefour Aprox. 1 Kg",
-        "preco": 8.89,
-        "preco_por_kg": 8.89
+        "nome": "Sobrecoxa de Frango Swift 1Kg",
+        "preco": 12.9,
+        "preco_por_kg": 12.9
       },
       "giga": {
         "nome": "Sobrecoxa De Frango Congelada Temperada Sadia Frango Fácil 800g",
@@ -234,9 +273,9 @@
         "preco_por_kg": 15.99
       },
       "atacadao": {
-        "nome": "Coxa com Sobrecoxa de Frango Copacol Congelada 16kg",
-        "preco": 116.8,
-        "preco_por_kg": 7.3
+        "nome": "Coxa e Sobrecoxa de Frango Canção Congelada 18kg",
+        "preco": 135,
+        "preco_por_kg": 7.5
       },
       "tenda": {
         "nome": "Coxa com Sobrecoxa de Frango Congelado 500g",
@@ -332,8 +371,8 @@
       "id": "10",
       "carrefour": {
         "nome": "Miolo de Alcatra Maturatta Aprox. 1,5 Kg",
-        "preco": 80.98,
-        "preco_por_kg": 53.99
+        "preco": 101.23,
+        "preco_por_kg": 67.49
       },
       "giga": {
         "nome": "N/A",
@@ -371,8 +410,8 @@
       "id": "11",
       "carrefour": {
         "nome": "Contra Filé Bovino Swift Mais 1,7Kg",
-        "preco": 97.35,
-        "preco_por_kg": 57.26
+        "preco": 87.58,
+        "preco_por_kg": 51.52
       },
       "giga": {
         "nome": "Contra Filé Bovino Resfriado Porcionado Friboi",
@@ -404,14 +443,53 @@
         "preco": 40.98,
         "preco_por_kg": 68.3
       },
-      "mais_barato": "Tenda"
+      "mais_barato": "Carrefour"
+    },
+    {
+      "id": "13",
+      "carrefour": {
+        "nome": "Ovo Branco Pvc Extra Classe Asa Carrefour Bandeja com 20 Unidades",
+        "preco": 11.99,
+        "preco_por_kg": 11.99
+      },
+      "giga": {
+        "nome": "Ovos Brancos Grandes Bandeja Com 20 Unidades",
+        "preco": 15.9,
+        "preco_por_kg": 15.9
+      },
+      "covabra": {
+        "nome": "Ovos Mantiqueira Jumbo Branco Polpa com 10 un",
+        "preco": 10.9,
+        "preco_por_kg": 10.9
+      },
+      "paguemenos": {
+        "nome": "Ovos Brancos Grandes Katayama Gourmet Com 10 Unidades",
+        "preco": 8.99,
+        "preco_por_kg": 8.99
+      },
+      "atacadao": {
+        "nome": "Ovo Branco Grande Polpa 12 un",
+        "preco": 9.9,
+        "preco_por_kg": 9.9
+      },
+      "tenda": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "enxuto": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "mais_barato": "Pague Menos"
     },
     {
       "id": "12",
       "carrefour": {
-        "nome": "Músculo Bovino Carrefour Aproximadamente 1 kg",
-        "preco": 39.99,
-        "preco_por_kg": 39.99
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "giga": {
         "nome": "Músculo Dianteiro Swift Mais Kg",
@@ -444,84 +522,6 @@
         "preco_por_kg": 19.75
       },
       "mais_barato": "Enxuto"
-    },
-    {
-      "id": "13",
-      "carrefour": {
-        "nome": "Ovo Branco Grande Shinoda Com 20 Unidades",
-        "preco": 12.99,
-        "preco_por_kg": 12.99
-      },
-      "giga": {
-        "nome": "Ovos Brancos Grandes Bandeja Com 20 Unidades",
-        "preco": 15.9,
-        "preco_por_kg": 15.9
-      },
-      "covabra": {
-        "nome": "Ovos Caipira Mantiqueira Happy Eggs Branco Grande Pvc Caixa com 10un",
-        "preco": 7.9,
-        "preco_por_kg": 7.9
-      },
-      "paguemenos": {
-        "nome": "Ovos Brancos Grandes Katayama Gourmet Com 10 Unidades",
-        "preco": 8.99,
-        "preco_por_kg": 8.99
-      },
-      "atacadao": {
-        "nome": "Ovo Branco Grande Polpa 12 un",
-        "preco": 9.9,
-        "preco_por_kg": 9.9
-      },
-      "tenda": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "enxuto": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Covabra"
-    },
-    {
-      "id": "4",
-      "carrefour": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "giga": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "covabra": {
-        "nome": "Hamburguer Sadia Burguer Carne Bovina 113g",
-        "preco": 4.99,
-        "preco_por_kg": 44.16
-      },
-      "paguemenos": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "atacadao": {
-        "nome": "Hambúrguer Texas Burger Carne de Frango e Bovina 672g",
-        "preco": 14.9,
-        "preco_por_kg": 22.17
-      },
-      "tenda": {
-        "nome": "Hambúrguer de Carne Bovina Churrasco Sadia Caixa 672g 12 Unidades",
-        "preco": 19.9,
-        "preco_por_kg": 29.61
-      },
-      "enxuto": {
-        "nome": "Hamburguer Maturatta Carne Bovina/costela 180g",
-        "preco": 5.99,
-        "preco_por_kg": 33.28
-      },
-      "mais_barato": "Atacadão"
     }
   ]
 }
