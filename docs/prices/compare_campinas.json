@@ -1,14 +1,14 @@
 {
-  "ultimaAtualizacao": "24/05/2026, 01:30:10",
+  "ultimaAtualizacao": "25/05/2026, 01:41:02",
   "cidade": "Campinas",
-  "totalCarrefour": "371.83",
-  "totalGiga": "361.09",
-  "totalCovabra": "350.69",
+  "totalCarrefour": "383.56",
+  "totalGiga": "362.09",
+  "totalCovabra": "372.67",
   "totalPagueMenos": "309.13",
-  "totalAtacadao": "154.65",
-  "totalTenda": "266.44",
-  "totalEnxuto": "304.44",
-  "encontradosCarrefour": 12,
+  "totalAtacadao": "156.10",
+  "totalTenda": "268.95",
+  "totalEnxuto": "296.79",
+  "encontradosCarrefour": 13,
   "encontradosGiga": 12,
   "encontradosCovabra": 11,
   "encontradosPagueMenos": 11,
@@ -68,9 +68,9 @@
         "preco_por_kg": 28.9
       },
       "covabra": {
-        "nome": "Maionese Hellmann s Bacon Sinistro Squeeze 335g",
-        "preco": 9.99,
-        "preco_por_kg": 29.82
+        "nome": "Bacon Sadia Defumado 1 Unidade 450g",
+        "preco": 19.75,
+        "preco_por_kg": 43.89
       },
       "paguemenos": {
         "nome": "Bacon Defumado Pedaço 200g",
@@ -97,9 +97,9 @@
     {
       "id": "3",
       "carrefour": {
-        "nome": "Linguiça de Calabresa Defumada Sadia 1 Kg",
-        "preco": 26.89,
-        "preco_por_kg": 26.89
+        "nome": "Linguiça Tipo Calabresa Sadia 400g",
+        "preco": 10.99,
+        "preco_por_kg": 27.47
       },
       "giga": {
         "nome": "Linguiça De Carne Suína Nobre 5kg",
@@ -117,9 +117,9 @@
         "preco_por_kg": 24.99
       },
       "atacadao": {
-        "nome": "Linguiça Calabresa Frimesa Resfriada 2kg",
-        "preco": 36.9,
-        "preco_por_kg": 18.45
+        "nome": "Linguiça Tipo Calabresa Prieto 2kg",
+        "preco": 39.8,
+        "preco_por_kg": 19.9
       },
       "tenda": {
         "nome": "Linguiça Calabresa Defumada Estrela Pacote 2,5kg",
@@ -127,9 +127,48 @@
         "preco_por_kg": 17.89
       },
       "enxuto": {
-        "nome": "Ling Calabresa Perdigao Def Pct 4,5kg",
-        "preco": 128.88,
-        "preco_por_kg": 28.64
+        "nome": "Linguiça Calabresa Sadia Def 500g",
+        "preco": 12.45,
+        "preco_por_kg": 24.9
+      },
+      "mais_barato": "Giga"
+    },
+    {
+      "id": "4",
+      "carrefour": {
+        "nome": "Hambúrguer Misto de Carne de Frango e Bovina Sadia 56 g",
+        "preco": 1.29,
+        "preco_por_kg": 23.04
+      },
+      "giga": {
+        "nome": "Hambúrguer Brasa Burguers Unidade 672g",
+        "preco": 14.9,
+        "preco_por_kg": 14.9
+      },
+      "covabra": {
+        "nome": "Hamburguer Sadia Burguer Carne Bovina 113g",
+        "preco": 4.69,
+        "preco_por_kg": 41.5
+      },
+      "paguemenos": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
+      },
+      "atacadao": {
+        "nome": "Hambúrguer Texas Burger Carne de Frango e Bovina 672g",
+        "preco": 15.9,
+        "preco_por_kg": 23.66
+      },
+      "tenda": {
+        "nome": "Hambúrguer de Carne Bovina Churrasco Sadia Caixa 672g 12 Unidades",
+        "preco": 18.9,
+        "preco_por_kg": 28.12
+      },
+      "enxuto": {
+        "nome": "N/A",
+        "preco": 0,
+        "preco_por_kg": 0
       },
       "mais_barato": "Giga"
     },
@@ -214,9 +253,9 @@
     {
       "id": "7",
       "carrefour": {
-        "nome": "Pedaços de Frango Asa, Coxinha da Asa, Sobrecoxa e Peito Congelado com Osso Sadia 1Kg",
-        "preco": 12.69,
-        "preco_por_kg": 12.69
+        "nome": "Coxa com Sobrecoxa Congelada Dorsal Carrefour Aprox. 1 Kg",
+        "preco": 8.89,
+        "preco_por_kg": 8.89
       },
       "giga": {
         "nome": "Sobrecoxa De Frango Congelada Temperada Sadia Frango Fácil 800g",
@@ -293,8 +332,8 @@
       "id": "9",
       "carrefour": {
         "nome": "Bisteca Suína Congelada Fatiada Aprox. 1Kg",
-        "preco": 21.99,
-        "preco_por_kg": 21.99
+        "preco": 13.9,
+        "preco_por_kg": 13.9
       },
       "giga": {
         "nome": "Bisteca Suína Congelada Sadia",
@@ -317,16 +356,16 @@
         "preco_por_kg": 17.38
       },
       "tenda": {
-        "nome": "Bisteca Suína Resfriado 500g",
-        "preco": 8.45,
-        "preco_por_kg": 16.9
+        "nome": "Bisteca Suína Congelada Aurora 1,2kg",
+        "preco": 17.88,
+        "preco_por_kg": 14.9
       },
       "enxuto": {
         "nome": "Bisteca Suína Carré Lombo Congelada 700g",
-        "preco": 11.82,
-        "preco_por_kg": 16.89
+        "preco": 13.93,
+        "preco_por_kg": 19.9
       },
-      "mais_barato": "Enxuto"
+      "mais_barato": "Carrefour"
     },
     {
       "id": "10",
@@ -362,8 +401,8 @@
       },
       "enxuto": {
         "nome": "Miolo Da Alcatra Bovino Bife 500g",
-        "preco": 28.45,
-        "preco_por_kg": 56.9
+        "preco": 24.99,
+        "preco_por_kg": 49.98
       },
       "mais_barato": "Tenda"
     },
@@ -376,13 +415,13 @@
       },
       "giga": {
         "nome": "Contra Filé Bovino Resfriado Porcionado Friboi",
-        "preco": 54.9,
-        "preco_por_kg": 54.9
+        "preco": 55.9,
+        "preco_por_kg": 55.9
       },
       "covabra": {
-        "nome": "Contra Filé Bovino Friboi Pedaço a Vácuo 1,280kg",
-        "preco": 63.97,
-        "preco_por_kg": 49.98
+        "nome": "Contra Filé Bovino Pul Resfriado Peça a Vacuo 1,320kg",
+        "preco": 79.06,
+        "preco_por_kg": 59.89
       },
       "paguemenos": {
         "nome": "Contrafilé Bovino Resfriado KG",
@@ -396,8 +435,8 @@
       },
       "tenda": {
         "nome": "Contra Filé Bovino Resfriado Peça 4kg",
-        "preco": 183.6,
-        "preco_por_kg": 45.9
+        "preco": 207.6,
+        "preco_por_kg": 51.9
       },
       "enxuto": {
         "nome": "Contra Filé Bovino Pedaço 600g",
@@ -420,8 +459,8 @@
       },
       "covabra": {
         "nome": "Músculo Traseiro Bovino Cubos Bandeja 1 Unidade 515g",
-        "preco": 20.07,
-        "preco_por_kg": 38.97
+        "preco": 19.04,
+        "preco_por_kg": 36.97
       },
       "paguemenos": {
         "nome": "Músculo Bovino Resfriado KG",
@@ -483,45 +522,6 @@
         "preco_por_kg": 0
       },
       "mais_barato": "Covabra"
-    },
-    {
-      "id": "4",
-      "carrefour": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "giga": {
-        "nome": "Hambúrguer Brasa Burguers Unidade 672g",
-        "preco": 14.9,
-        "preco_por_kg": 14.9
-      },
-      "covabra": {
-        "nome": "Hamburguer Sadia Burguer Carne Bovina 113g",
-        "preco": 4.69,
-        "preco_por_kg": 41.5
-      },
-      "paguemenos": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "atacadao": {
-        "nome": "Hambúrguer Texas Burger Carne de Frango e Bovina 672g",
-        "preco": 15.9,
-        "preco_por_kg": 23.66
-      },
-      "tenda": {
-        "nome": "Hambúrguer de Carne Bovina Churrasco Sadia Caixa 672g 12 Unidades",
-        "preco": 19.9,
-        "preco_por_kg": 29.61
-      },
-      "enxuto": {
-        "nome": "N/A",
-        "preco": 0,
-        "preco_por_kg": 0
-      },
-      "mais_barato": "Giga"
     }
   ]
 }
