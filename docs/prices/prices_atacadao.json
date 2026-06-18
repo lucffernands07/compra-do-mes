@@ -21,13 +21,6 @@
     "preco_por_kg": 6.84
   },
   {
-    "id": 5,
-    "supermercado": "Atacadão",
-    "produto": "Tomate Italiano 700g",
-    "preco": 11.49,
-    "preco_por_kg": 16.41
-  },
-  {
     "id": 6,
     "supermercado": "Atacadão",
     "produto": "Molho de Pimenta Gota Verde 150ml",
@@ -59,8 +52,8 @@
     "id": 10,
     "supermercado": "Atacadão",
     "produto": "Ice 51 Limão 275ml",
-    "preco": 4.45,
-    "preco_por_kg": 0.09
+    "preco": 4.29,
+    "preco_por_kg": 0.08
   },
   {
     "id": 12,
@@ -114,9 +107,9 @@
   {
     "id": 20,
     "supermercado": "Atacadão",
-    "produto": "Alface Crespa un",
-    "preco": 3.99,
-    "preco_por_kg": 3.99
+    "produto": "Alface Mimosa Maço",
+    "preco": 3.89,
+    "preco_por_kg": 3.89
   },
   {
     "id": 22,
@@ -143,8 +136,8 @@
     "id": 25,
     "supermercado": "Atacadão",
     "produto": "Suco Del Valle Frut Uva 1,5L",
-    "preco": 6.79,
-    "preco_por_kg": 4.53
+    "preco": 5.49,
+    "preco_por_kg": 3.66
   },
   {
     "id": 26,
@@ -191,9 +184,9 @@
   {
     "id": 34,
     "supermercado": "Atacadão",
-    "produto": "Batata Pré-Frita Bem Brasil Congelada Carinhas 1,05kg",
-    "preco": 10.9,
-    "preco_por_kg": 10.38
+    "produto": "Batata Pré-Frita Uai Congelada 2kg",
+    "preco": 17.9,
+    "preco_por_kg": 8.95
   },
   {
     "id": 35,
@@ -339,8 +332,8 @@
     "id": 55,
     "supermercado": "Atacadão",
     "produto": "Amido de Milho Apti 1kg",
-    "preco": 8.98,
-    "preco_por_kg": 8.98
+    "preco": 8.28,
+    "preco_por_kg": 8.28
   },
   {
     "id": 56,
@@ -415,9 +408,9 @@
   {
     "id": 66,
     "supermercado": "Atacadão",
-    "produto": "Maionese Vigor 1kg",
-    "preco": 10.9,
-    "preco_por_kg": 10.9
+    "produto": "Maionese Vigor 500g",
+    "preco": 4.99,
+    "preco_por_kg": 9.98
   },
   {
     "id": 67,
@@ -451,15 +444,15 @@
     "id": 71,
     "supermercado": "Atacadão",
     "produto": "Café Jardim Tradicional Pouch 500g",
-    "preco": 21.58,
-    "preco_por_kg": 43.16
+    "preco": 17.9,
+    "preco_por_kg": 35.8
   },
   {
     "id": 72,
     "supermercado": "Atacadão",
-    "produto": "Chá Lipton Ice Tea Pêssego 1,5L",
-    "preco": 6.99,
-    "preco_por_kg": 4.66
+    "produto": "Chá Ice Tea Leão Pêssego 1,5L",
+    "preco": 6.49,
+    "preco_por_kg": 4.33
   },
   {
     "id": 73,
@@ -471,9 +464,9 @@
   {
     "id": 75,
     "supermercado": "Atacadão",
-    "produto": "Flocos de Milho Zanin 500g",
-    "preco": 1.99,
-    "preco_por_kg": 3.98
+    "produto": "Flocos de Milho Maratá 500g",
+    "preco": 2.19,
+    "preco_por_kg": 4.38
   },
   {
     "id": 76,
@@ -500,8 +493,8 @@
     "id": 79,
     "supermercado": "Atacadão",
     "produto": "Desinfetante Álcool Líquido Tupi Zerobac 46°INPM 1L",
-    "preco": 7.5,
-    "preco_por_kg": 7.5
+    "preco": 7.3,
+    "preco_por_kg": 7.3
   },
   {
     "id": 80,
@@ -546,6 +539,13 @@
     "preco_por_kg": 0.1
   },
   {
+    "id": 86,
+    "supermercado": "Atacadão",
+    "produto": "Água Sanitária Super Candida 5L",
+    "preco": 12.5,
+    "preco_por_kg": 2.5
+  },
+  {
     "id": 87,
     "supermercado": "Atacadão",
     "produto": "Lava Roupas Líquido Omo Lavagem Perfeita 7L",
@@ -569,9 +569,16 @@
   {
     "id": 90,
     "supermercado": "Atacadão",
-    "produto": "Limpador Multiuso Veja Gold Original 750ml Embalagem Econômica",
-    "preco": 6.4,
-    "preco_por_kg": 8.53
+    "produto": "Limpador Multiuso Ypê Natureza 500ml",
+    "preco": 3.08,
+    "preco_por_kg": 6.16
+  },
+  {
+    "id": 91,
+    "supermercado": "Atacadão",
+    "produto": "Limpador Desinfetante Qboa Cloro Gel 1L",
+    "preco": 9.99,
+    "preco_por_kg": 9.99
   },
   {
     "id": 92,
