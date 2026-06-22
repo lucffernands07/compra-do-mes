@@ -7,13 +7,6 @@
     "preco_por_kg": 5.99
   },
   {
-    "id": 3,
-    "supermercado": "Atacadão",
-    "produto": "Batata Lavada 25kg",
-    "preco": 220,
-    "preco_por_kg": 8.8
-  },
-  {
     "id": 4,
     "supermercado": "Atacadão",
     "produto": "Cebola Roxa 19kg",
@@ -135,9 +128,9 @@
   {
     "id": 25,
     "supermercado": "Atacadão",
-    "produto": "Refrigerante Fanta Uva 2L",
-    "preco": 7.49,
-    "preco_por_kg": 3.75
+    "produto": "Refrigerante Sukita Uva 2L",
+    "preco": 4.65,
+    "preco_por_kg": 2.33
   },
   {
     "id": 26,
@@ -194,6 +187,13 @@
     "produto": "Farinha de Mandioca Glúten Free Fina 500g",
     "preco": 2.39,
     "preco_por_kg": 4.78
+  },
+  {
+    "id": 36,
+    "supermercado": "Atacadão",
+    "produto": "Dueto de Legumes Nutriz Congelado 1kg",
+    "preco": 12.9,
+    "preco_por_kg": 12.9
   },
   {
     "id": 37,
@@ -420,13 +420,6 @@
     "preco_por_kg": 10.1
   },
   {
-    "id": 69,
-    "supermercado": "Atacadão",
-    "produto": "Creme de Leite Casaberta 200g",
-    "preco": 1.79,
-    "preco_por_kg": 8.95
-  },
-  {
     "id": 70,
     "supermercado": "Atacadão",
     "produto": "Café em Cápsulas Dolce Gusto Mochaccino Canela 172g",
@@ -460,13 +453,6 @@
     "produto": "Flocão de Milho Kisabor 500g",
     "preco": 1.99,
     "preco_por_kg": 3.98
-  },
-  {
-    "id": 76,
-    "supermercado": "Atacadão",
-    "produto": "Pão de Forma De Panes 400g",
-    "preco": 4.29,
-    "preco_por_kg": 10.72
   },
   {
     "id": 77,
@@ -562,7 +548,7 @@
   {
     "id": 90,
     "supermercado": "Atacadão",
-    "produto": "Limpador Multiuso Ypê Com Álcool 500ml",
+    "produto": "Limpador Multiuso Ypê Desengordurante 500ml",
     "preco": 3.08,
     "preco_por_kg": 6.16
   },
@@ -581,6 +567,13 @@
     "preco_por_kg": 2.5
   },
   {
+    "id": 93,
+    "supermercado": "Atacadão",
+    "produto": "Esponja Multiuso Bulnez un",
+    "preco": 0.59,
+    "preco_por_kg": 0.59
+  },
+  {
     "id": 94,
     "supermercado": "Atacadão",
     "produto": "Esponja Multiuso Bombril un",
@@ -597,9 +590,9 @@
   {
     "id": 96,
     "supermercado": "Atacadão",
-    "produto": "Papel Higiênico Fofinho F S 4 rolos",
-    "preco": 3.84,
-    "preco_por_kg": 3.84
+    "produto": "Papel Higiênico Personal Vip Folha Dupla - 30m 4 rolos",
+    "preco": 6.69,
+    "preco_por_kg": 6.69
   },
   {
     "id": 97,
