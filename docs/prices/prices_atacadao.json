@@ -7,6 +7,13 @@
     "preco_por_kg": 5.99
   },
   {
+    "id": 3,
+    "supermercado": "Atacadão",
+    "produto": "Batata Lavada 25kg",
+    "preco": 220,
+    "preco_por_kg": 8.8
+  },
+  {
     "id": 4,
     "supermercado": "Atacadão",
     "produto": "Cebola Roxa 19kg",
@@ -16,16 +23,16 @@
   {
     "id": 5,
     "supermercado": "Atacadão",
-    "produto": "Tomate Italiano 700g",
-    "preco": 11.49,
-    "preco_por_kg": 16.41
+    "produto": "Tomate Italiano 18kg",
+    "preco": 239,
+    "preco_por_kg": 13.28
   },
   {
     "id": 6,
     "supermercado": "Atacadão",
-    "produto": "Molho de Pimenta Gota Verde 150ml",
-    "preco": 2.85,
-    "preco_por_kg": 19
+    "produto": "Pimentão Verde 9kg",
+    "preco": 99.9,
+    "preco_por_kg": 11.1
   },
   {
     "id": 7,
@@ -44,9 +51,9 @@
   {
     "id": 9,
     "supermercado": "Atacadão",
-    "produto": "Molho de Pimenta Gota Vermelha 150ml",
-    "preco": 2.85,
-    "preco_por_kg": 19
+    "produto": "Pimentão Verde 9kg",
+    "preco": 99.9,
+    "preco_por_kg": 11.1
   },
   {
     "id": 10,
@@ -58,9 +65,9 @@
   {
     "id": 12,
     "supermercado": "Atacadão",
-    "produto": "Abóbora Italiana 500g",
-    "preco": 6.49,
-    "preco_por_kg": 12.98
+    "produto": "Abóbora Italiana 20kg",
+    "preco": 110,
+    "preco_por_kg": 5.5
   },
   {
     "id": 13,
@@ -86,23 +93,23 @@
   {
     "id": 17,
     "supermercado": "Atacadão",
-    "produto": "Ketchup Cepêra 1,010kg",
-    "preco": 9.9,
-    "preco_por_kg": 9.8
+    "produto": "Chuchu 20kg",
+    "preco": 74.9,
+    "preco_por_kg": 3.75
   },
   {
     "id": 18,
     "supermercado": "Atacadão",
-    "produto": "Farinha de Mandioca Glúten Free Fina 500g",
-    "preco": 2.39,
-    "preco_por_kg": 4.78
+    "produto": "Mandioca Aipim 20kg",
+    "preco": 71,
+    "preco_por_kg": 3.55
   },
   {
     "id": 19,
     "supermercado": "Atacadão",
     "produto": "Tempero Meu Segredo Maggi Cheiro Verde 49g",
-    "preco": 2.19,
-    "preco_por_kg": 44.69
+    "preco": 3.15,
+    "preco_por_kg": 64.29
   },
   {
     "id": 22,
@@ -129,8 +136,8 @@
     "id": 25,
     "supermercado": "Atacadão",
     "produto": "Refrigerante Sukita Uva 2L",
-    "preco": 4.65,
-    "preco_por_kg": 2.33
+    "preco": 6.99,
+    "preco_por_kg": 3.5
   },
   {
     "id": 26,
@@ -178,29 +185,29 @@
     "id": 34,
     "supermercado": "Atacadão",
     "produto": "Batata Pré-Frita Bem Brasil Congelada Carinhas 1,05kg",
-    "preco": 9.9,
-    "preco_por_kg": 9.43
+    "preco": 10.9,
+    "preco_por_kg": 10.38
   },
   {
     "id": 35,
     "supermercado": "Atacadão",
-    "produto": "Farinha de Mandioca Glúten Free Fina 500g",
-    "preco": 2.39,
-    "preco_por_kg": 4.78
+    "produto": "Mandioca Aipim 20kg",
+    "preco": 71,
+    "preco_por_kg": 3.55
   },
   {
     "id": 36,
     "supermercado": "Atacadão",
     "produto": "Dueto de Legumes Nutriz Congelado 1kg",
-    "preco": 12.9,
-    "preco_por_kg": 12.9
+    "preco": 14.9,
+    "preco_por_kg": 14.9
   },
   {
     "id": 37,
     "supermercado": "Atacadão",
-    "produto": "Água de Coco Quadrado 1L",
-    "preco": 6.15,
-    "preco_por_kg": 6.15
+    "produto": "Água de Coco Puro Coco 1L",
+    "preco": 6.9,
+    "preco_por_kg": 6.9
   },
   {
     "id": 38,
@@ -213,8 +220,8 @@
     "id": 39,
     "supermercado": "Atacadão",
     "produto": "Bebida Láctea Polpa Elegê Morango 510g",
-    "preco": 3.97,
-    "preco_por_kg": 7.78
+    "preco": 3.6,
+    "preco_por_kg": 7.06
   },
   {
     "id": 40,
@@ -287,13 +294,6 @@
     "preco_por_kg": 4.3
   },
   {
-    "id": 50,
-    "supermercado": "Atacadão",
-    "produto": "Azeite de Oliva Andorinha 500ml",
-    "preco": 19.9,
-    "preco_por_kg": 39.8
-  },
-  {
     "id": 51,
     "supermercado": "Atacadão",
     "produto": "Azeitona Verde Fornello Sem Caroço 2kg",
@@ -339,15 +339,15 @@
     "id": 57,
     "supermercado": "Atacadão",
     "produto": "Vinagre de Álcool Peixe 750ml",
-    "preco": 1.89,
-    "preco_por_kg": 2.52
+    "preco": 1.79,
+    "preco_por_kg": 2.39
   },
   {
     "id": 58,
     "supermercado": "Atacadão",
     "produto": "Milho Verde un",
-    "preco": 0.89,
-    "preco_por_kg": 0.89
+    "preco": 1.49,
+    "preco_por_kg": 1.49
   },
   {
     "id": 59,
@@ -380,9 +380,9 @@
   {
     "id": 63,
     "supermercado": "Atacadão",
-    "produto": "Sal Cisne Refinado Extra 1kg",
-    "preco": 2.49,
-    "preco_por_kg": 2.49
+    "produto": "Sal Lebre Refinado 1kg",
+    "preco": 2.99,
+    "preco_por_kg": 2.99
   },
   {
     "id": 64,
@@ -420,39 +420,53 @@
     "preco_por_kg": 10.1
   },
   {
+    "id": 69,
+    "supermercado": "Atacadão",
+    "produto": "Creme de Leite Casaberta 200g",
+    "preco": 1.79,
+    "preco_por_kg": 8.95
+  },
+  {
     "id": 70,
     "supermercado": "Atacadão",
     "produto": "Café em Cápsulas Dolce Gusto Mochaccino Canela 172g",
-    "preco": 15.99,
-    "preco_por_kg": 92.97
+    "preco": 17.89,
+    "preco_por_kg": 104.01
   },
   {
     "id": 71,
     "supermercado": "Atacadão",
     "produto": "Café Jardim Tradicional Pouch 500g",
-    "preco": 17.9,
-    "preco_por_kg": 35.8
+    "preco": 21.58,
+    "preco_por_kg": 43.16
   },
   {
     "id": 72,
     "supermercado": "Atacadão",
     "produto": "Chá Lipton Ice Tea Pêssego 1,5L",
-    "preco": 5.49,
-    "preco_por_kg": 3.66
+    "preco": 7.19,
+    "preco_por_kg": 4.79
   },
   {
     "id": 73,
     "supermercado": "Atacadão",
     "produto": "Milho de Pipoca para Micro-ondas Yoki Manteiga Cinema 100g",
-    "preco": 3.99,
-    "preco_por_kg": 39.9
+    "preco": 4.29,
+    "preco_por_kg": 42.9
   },
   {
     "id": 75,
     "supermercado": "Atacadão",
-    "produto": "Flocão de Milho Kisabor 500g",
+    "produto": "Flocos de Milho Zanin 500g",
     "preco": 1.99,
     "preco_por_kg": 3.98
+  },
+  {
+    "id": 76,
+    "supermercado": "Atacadão",
+    "produto": "Pão de Forma Seven Boys 450g",
+    "preco": 4.89,
+    "preco_por_kg": 10.87
   },
   {
     "id": 77,
@@ -521,8 +535,8 @@
     "id": 86,
     "supermercado": "Atacadão",
     "produto": "Água Sanitária Super Candida 5L",
-    "preco": 10.79,
-    "preco_por_kg": 2.16
+    "preco": 12.5,
+    "preco_por_kg": 2.5
   },
   {
     "id": 87,
@@ -548,9 +562,9 @@
   {
     "id": 90,
     "supermercado": "Atacadão",
-    "produto": "Limpador Multiuso Ypê Desengordurante 500ml",
-    "preco": 3.08,
-    "preco_por_kg": 6.16
+    "produto": "Kit Veja 2 Limp Multiuso Original 500ml + 1 Multiuso Power Fusion Limão 500ml",
+    "preco": 17.5,
+    "preco_por_kg": 8.75
   },
   {
     "id": 91,
@@ -563,8 +577,8 @@
     "id": 92,
     "supermercado": "Atacadão",
     "produto": "Desinfetante Urca Lavanda 5L",
-    "preco": 12.5,
-    "preco_por_kg": 2.5
+    "preco": 9.5,
+    "preco_por_kg": 1.9
   },
   {
     "id": 93,
@@ -591,8 +605,8 @@
     "id": 96,
     "supermercado": "Atacadão",
     "produto": "Papel Higiênico Personal Vip Folha Dupla - 30m 4 rolos",
-    "preco": 6.69,
-    "preco_por_kg": 6.69
+    "preco": 7.23,
+    "preco_por_kg": 7.23
   },
   {
     "id": 97,
@@ -611,9 +625,9 @@
   {
     "id": 99,
     "supermercado": "Atacadão",
-    "produto": "Creme Dental Sorriso Tripla Limpeza Completa 70g",
-    "preco": 2.15,
-    "preco_por_kg": 30.71
+    "produto": "Creme Dental Oral-B 1-2-3 70g",
+    "preco": 2.69,
+    "preco_por_kg": 38.43
   },
   {
     "id": 100,
@@ -632,9 +646,9 @@
   {
     "id": 102,
     "supermercado": "Atacadão",
-    "produto": "Sabonete Líquido Bebê Natureza Suave 400ml",
-    "preco": 13.9,
-    "preco_por_kg": 34.75
+    "produto": "Sabonete Em Barra Para Bebê Protex Baby Glicerina Natural 85g",
+    "preco": 3.3,
+    "preco_por_kg": 38.82
   },
   {
     "id": 103,
@@ -646,9 +660,9 @@
   {
     "id": 104,
     "supermercado": "Atacadão",
-    "produto": "Hastes Flexíveis Cotonela 75 un",
-    "preco": 1.39,
-    "preco_por_kg": 1.39
+    "produto": "Hastes Flexíveis Piquitucho 68 un",
+    "preco": 1.55,
+    "preco_por_kg": 1.55
   },
   {
     "id": 105,
@@ -667,9 +681,9 @@
   {
     "id": 107,
     "supermercado": "Atacadão",
-    "produto": "Antisséptico Bucal Listerine Cool Mint 1L",
-    "preco": 25.89,
-    "preco_por_kg": 25.89
+    "produto": "Listerine Cool Mint Enxaguante Bucal 1,5L",
+    "preco": 45.99,
+    "preco_por_kg": 30.66
   },
   {
     "id": 108,
@@ -695,8 +709,8 @@
   {
     "id": 111,
     "supermercado": "Atacadão",
-    "produto": "Alimento para Gatos Bast Cat Frango 6kg",
-    "preco": 54.9,
-    "preco_por_kg": 9.15
+    "produto": "Alimento para Gatos Bast Cat Carne 1kg",
+    "preco": 8.9,
+    "preco_por_kg": 8.9
   }
 ]
