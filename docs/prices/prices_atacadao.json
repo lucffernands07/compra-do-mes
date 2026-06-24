@@ -23,16 +23,16 @@
   {
     "id": 5,
     "supermercado": "Atacadão",
-    "produto": "Tomate Italiano 18kg",
-    "preco": 239,
-    "preco_por_kg": 13.28
+    "produto": "Tomate Italiano 700g",
+    "preco": 11.49,
+    "preco_por_kg": 16.41
   },
   {
     "id": 6,
     "supermercado": "Atacadão",
-    "produto": "Pimentão Verde 9kg",
-    "preco": 99.9,
-    "preco_por_kg": 11.1
+    "produto": "Molho de Pimenta Gota Verde 150ml",
+    "preco": 2.85,
+    "preco_por_kg": 19
   },
   {
     "id": 7,
@@ -44,16 +44,16 @@
   {
     "id": 8,
     "supermercado": "Atacadão",
-    "produto": "Pimentão Amarelo 400g",
-    "preco": 16.9,
-    "preco_por_kg": 42.25
+    "produto": "Pimentão Amarelo 9kg",
+    "preco": 180,
+    "preco_por_kg": 20
   },
   {
     "id": 9,
     "supermercado": "Atacadão",
-    "produto": "Pimentão Verde 9kg",
-    "preco": 99.9,
-    "preco_por_kg": 11.1
+    "produto": "Pimentão Amarelo 9kg",
+    "preco": 180,
+    "preco_por_kg": 20
   },
   {
     "id": 10,
@@ -65,9 +65,9 @@
   {
     "id": 12,
     "supermercado": "Atacadão",
-    "produto": "Abóbora Italiana 20kg",
-    "preco": 110,
-    "preco_por_kg": 5.5
+    "produto": "Abóbora Italiana 500g",
+    "preco": 6.49,
+    "preco_por_kg": 12.98
   },
   {
     "id": 13,
@@ -80,22 +80,22 @@
     "id": 15,
     "supermercado": "Atacadão",
     "produto": "Refresco Líquido Guaraviton Gengibre e Laranja 500ml",
-    "preco": 1.79,
-    "preco_por_kg": 3.58
+    "preco": 2.49,
+    "preco_por_kg": 4.98
   },
   {
     "id": 16,
     "supermercado": "Atacadão",
     "produto": "Mistura para Bolo Itaiquara Cenoura 390g",
-    "preco": 2.48,
-    "preco_por_kg": 6.36
+    "preco": 2.38,
+    "preco_por_kg": 6.1
   },
   {
     "id": 17,
     "supermercado": "Atacadão",
-    "produto": "Chuchu 20kg",
-    "preco": 74.9,
-    "preco_por_kg": 3.75
+    "produto": "Ketchup Cepêra 1,010kg",
+    "preco": 9.9,
+    "preco_por_kg": 9.8
   },
   {
     "id": 18,
@@ -107,9 +107,16 @@
   {
     "id": 19,
     "supermercado": "Atacadão",
-    "produto": "Tempero Meu Segredo Maggi Cheiro Verde 49g",
-    "preco": 3.15,
-    "preco_por_kg": 64.29
+    "produto": "Cheiro-Verde un",
+    "preco": 3.95,
+    "preco_por_kg": 3.95
+  },
+  {
+    "id": 20,
+    "supermercado": "Atacadão",
+    "produto": "Alface Crespa un",
+    "preco": 3.69,
+    "preco_por_kg": 3.69
   },
   {
     "id": 22,
@@ -121,9 +128,9 @@
   {
     "id": 23,
     "supermercado": "Atacadão",
-    "produto": "Iogurte Itambé Fit Mamão com Laranja 170g",
-    "preco": 2.49,
-    "preco_por_kg": 14.65
+    "produto": "Iogurte Pense Zero Batavo Mamão 1,15kg",
+    "preco": 14.9,
+    "preco_por_kg": 12.96
   },
   {
     "id": 24,
@@ -159,6 +166,13 @@
     "produto": "Leite Longa Vida Italac Zero Lactose Semidesnatado 1L",
     "preco": 5.79,
     "preco_por_kg": 5.79
+  },
+  {
+    "id": 30,
+    "supermercado": "Atacadão",
+    "produto": "Requeijão Cremoso Batavo Light Pense Zero 400g",
+    "preco": 16.3,
+    "preco_por_kg": 40.75
   },
   {
     "id": 31,
@@ -205,9 +219,9 @@
   {
     "id": 37,
     "supermercado": "Atacadão",
-    "produto": "Água de Coco Puro Coco 1L",
-    "preco": 6.9,
-    "preco_por_kg": 6.9
+    "produto": "Água de Coco Quadrado 1L",
+    "preco": 6.15,
+    "preco_por_kg": 6.15
   },
   {
     "id": 38,
@@ -226,9 +240,9 @@
   {
     "id": 40,
     "supermercado": "Atacadão",
-    "produto": "Polpa de Fruta Brasfrut Congelada Acerola 100g",
-    "preco": 1.85,
-    "preco_por_kg": 18.5
+    "produto": "Polpa de Fruta Polpanorte Cong Acerola, Cen e lar 100g",
+    "preco": 2.19,
+    "preco_por_kg": 21.9
   },
   {
     "id": 41,
@@ -248,8 +262,8 @@
     "id": 43,
     "supermercado": "Atacadão",
     "produto": "Feijão Preto Sabor Máximo Tipo 1 1kg",
-    "preco": 5.59,
-    "preco_por_kg": 5.59
+    "preco": 5.99,
+    "preco_por_kg": 5.99
   },
   {
     "id": 44,
@@ -294,6 +308,13 @@
     "preco_por_kg": 4.3
   },
   {
+    "id": 50,
+    "supermercado": "Atacadão",
+    "produto": "Azeite de Oliva Cocinero Extra Virgem 500ml",
+    "preco": 21.9,
+    "preco_por_kg": 43.8
+  },
+  {
     "id": 51,
     "supermercado": "Atacadão",
     "produto": "Azeitona Verde Fornello Sem Caroço 2kg",
@@ -325,8 +346,8 @@
     "id": 55,
     "supermercado": "Atacadão",
     "produto": "Amido de Milho Apti 1kg",
-    "preco": 8.28,
-    "preco_por_kg": 8.28
+    "preco": 8.38,
+    "preco_por_kg": 8.38
   },
   {
     "id": 56,
@@ -346,8 +367,8 @@
     "id": 58,
     "supermercado": "Atacadão",
     "produto": "Milho Verde un",
-    "preco": 1.49,
-    "preco_por_kg": 1.49
+    "preco": 1.59,
+    "preco_por_kg": 1.59
   },
   {
     "id": 59,
@@ -416,8 +437,8 @@
     "id": 68,
     "supermercado": "Atacadão",
     "produto": "Leite Condensado Milk + Semidesnatado 395g",
-    "preco": 3.99,
-    "preco_por_kg": 10.1
+    "preco": 4.39,
+    "preco_por_kg": 11.11
   },
   {
     "id": 69,
@@ -486,8 +507,8 @@
     "id": 79,
     "supermercado": "Atacadão",
     "produto": "Desinfetante Álcool Líquido Tupi Zerobac 46°INPM 1L",
-    "preco": 7.3,
-    "preco_por_kg": 7.3
+    "preco": 5.9,
+    "preco_por_kg": 5.9
   },
   {
     "id": 80,
@@ -562,9 +583,9 @@
   {
     "id": 90,
     "supermercado": "Atacadão",
-    "produto": "Kit Veja 2 Limp Multiuso Original 500ml + 1 Multiuso Power Fusion Limão 500ml",
-    "preco": 17.5,
-    "preco_por_kg": 8.75
+    "produto": "Limpador Multiuso Ypê Com Álcool 500ml",
+    "preco": 3.08,
+    "preco_por_kg": 6.16
   },
   {
     "id": 91,
@@ -604,9 +625,9 @@
   {
     "id": 96,
     "supermercado": "Atacadão",
-    "produto": "Papel Higiênico Personal Vip Folha Dupla - 30m 4 rolos",
-    "preco": 7.23,
-    "preco_por_kg": 7.23
+    "produto": "Papel Higiênico Fofinho F S 4 rolos",
+    "preco": 3.84,
+    "preco_por_kg": 3.84
   },
   {
     "id": 97,
