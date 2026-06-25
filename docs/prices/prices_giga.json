@@ -1,12 +1,5 @@
 [
   {
-    "id": 2,
-    "supermercado": "Giga",
-    "produto": "Ovos Brancos Grandes Bandeja Com 20 Unidades",
-    "preco": 15.9,
-    "preco_por_kg": 15.9
-  },
-  {
     "id": 3,
     "supermercado": "Giga",
     "produto": "Batata Doce Rosada",
@@ -44,9 +37,9 @@
   {
     "id": 8,
     "supermercado": "Giga",
-    "produto": "Pimentão Amarelo",
-    "preco": 28.89,
-    "preco_por_kg": 28.89
+    "produto": "Pimentão Verde",
+    "preco": 8.9,
+    "preco_por_kg": 8.9
   },
   {
     "id": 9,
@@ -161,18 +154,25 @@
     "preco_por_kg": 4.99
   },
   {
+    "id": 30,
+    "supermercado": "Giga",
+    "produto": "Requeijão Tradicional Itambé 200g",
+    "preco": 10.29,
+    "preco_por_kg": 10.29
+  },
+  {
     "id": 31,
     "supermercado": "Giga",
-    "produto": "Quejo Mussarela F4 Três Barras",
-    "preco": 39.45,
-    "preco_por_kg": 39.45
+    "produto": "Queijo Mussarela Fatiado Zero Lactose President 150g",
+    "preco": 13.75,
+    "preco_por_kg": 13.75
   },
   {
     "id": 32,
     "supermercado": "Giga",
-    "produto": "Presunto Cozido Sem Capa Inteiro Perdigão",
-    "preco": 24.09,
-    "preco_por_kg": 24.09
+    "produto": "Patê De Presunto Seara 100g",
+    "preco": 3.69,
+    "preco_por_kg": 3.69
   },
   {
     "id": 33,
@@ -343,20 +343,6 @@
     "preco_por_kg": 4.25
   },
   {
-    "id": 80,
-    "supermercado": "Giga",
-    "produto": "Limpador Vinagreen Multiuso Lavanda 500Ml",
-    "preco": 4.7,
-    "preco_por_kg": 4.7
-  },
-  {
-    "id": 81,
-    "supermercado": "Giga",
-    "produto": "Limpador Removedor Lavanda Sanol 500Ml",
-    "preco": 8.29,
-    "preco_por_kg": 8.29
-  },
-  {
     "id": 84,
     "supermercado": "Giga",
     "produto": "Saco De Lixo Embalixo Super Econômico Preto Rolo 50 Unidades 50L",
@@ -373,9 +359,9 @@
   {
     "id": 86,
     "supermercado": "Giga",
-    "produto": "Água Sanitária Ypê 5L",
-    "preco": 15.6,
-    "preco_por_kg": 15.6
+    "produto": "Água Mineral Natural Com Gás Pureza Vital Garrafa 510ml",
+    "preco": 2.15,
+    "preco_por_kg": 2.15
   },
   {
     "id": 88,
@@ -385,46 +371,11 @@
     "preco_por_kg": 9.98
   },
   {
-    "id": 89,
-    "supermercado": "Giga",
-    "produto": "Detergente Ypê Clear 5L",
-    "preco": 26.7,
-    "preco_por_kg": 26.7
-  },
-  {
-    "id": 90,
-    "supermercado": "Giga",
-    "produto": "Limpador Vinagreen Multiuso Lavanda 500Ml",
-    "preco": 4.7,
-    "preco_por_kg": 4.7
-  },
-  {
-    "id": 91,
-    "supermercado": "Giga",
-    "produto": "Limpador Vinagreen Multiuso Lavanda 500Ml",
-    "preco": 4.7,
-    "preco_por_kg": 4.7
-  },
-  {
-    "id": 93,
-    "supermercado": "Giga",
-    "produto": "Esponja Grill Scotch Brite",
-    "preco": 15.19,
-    "preco_por_kg": 15.19
-  },
-  {
     "id": 96,
     "supermercado": "Giga",
     "produto": "Papel Higiênico Folha Dupla Qualité Rolo 30 Centímetros Pacote Com 40 Unidades",
     "preco": 56.99,
     "preco_por_kg": 56.99
-  },
-  {
-    "id": 97,
-    "supermercado": "Giga",
-    "produto": "Limpador Sanitário Leve Brisa Gel Adesivo Fresh 7g",
-    "preco": 10.25,
-    "preco_por_kg": 10.25
   },
   {
     "id": 103,
