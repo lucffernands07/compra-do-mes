@@ -1,5 +1,418 @@
 [
   {
+    "id": 24,
+    "supermercado": "Enxuto",
+    "produto": "Banana Nanica 1,1kg (aprox. 6 Unidades)",
+    "preco": 5.48,
+    "preco_por_kg": 4.98
+  },
+  {
+    "id": 25,
+    "supermercado": "Enxuto",
+    "produto": "Refrigerante Sukita Uva 2l",
+    "preco": 5.99,
+    "preco_por_kg": 3
+  },
+  {
+    "id": 26,
+    "supermercado": "Enxuto",
+    "produto": "Refrigerante Bioleve Zero Maçã Verde Pet 1,5l",
+    "preco": 6.19,
+    "preco_por_kg": 4.13
+  },
+  {
+    "id": 27,
+    "supermercado": "Enxuto",
+    "produto": "Refrigerante Bioleve Zero Mexerica Pet 1,5l",
+    "preco": 6.19,
+    "preco_por_kg": 4.13
+  },
+  {
+    "id": 28,
+    "supermercado": "Enxuto",
+    "produto": "Margarina Claybom Com Sal 500g",
+    "preco": 5.59,
+    "preco_por_kg": 11.18
+  },
+  {
+    "id": 29,
+    "supermercado": "Enxuto",
+    "produto": "Leite L.v Italac 0% Zero Lactose Int Tp 1l",
+    "preco": 3.99,
+    "preco_por_kg": 3.99
+  },
+  {
+    "id": 30,
+    "supermercado": "Enxuto",
+    "produto": "Requeijao Tirolez Zero Lactose 370g",
+    "preco": 19.99,
+    "preco_por_kg": 54.03
+  },
+  {
+    "id": 31,
+    "supermercado": "Enxuto",
+    "produto": "Queijo Mussarela Parlak Peca 4,1kg",
+    "preco": 143.08,
+    "preco_por_kg": 34.9
+  },
+  {
+    "id": 32,
+    "supermercado": "Enxuto",
+    "produto": "Presunto Levissimo Seara Fat Kg",
+    "preco": 8.15,
+    "preco_por_kg": 8.15
+  },
+  {
+    "id": 33,
+    "supermercado": "Enxuto",
+    "produto": "Mortadela Frango Confianca Seara 1kg",
+    "preco": 13.79,
+    "preco_por_kg": 13.79
+  },
+  {
+    "id": 34,
+    "supermercado": "Enxuto",
+    "produto": "Batata Pré-frita Palito Congelada Pacote Sadia 1,05k",
+    "preco": 9.99,
+    "preco_por_kg": 9.99
+  },
+  {
+    "id": 35,
+    "supermercado": "Enxuto",
+    "produto": "Farinha De Mandioca Monjolinho Grossa 1kg",
+    "preco": 7.99,
+    "preco_por_kg": 7.99
+  },
+  {
+    "id": 36,
+    "supermercado": "Enxuto",
+    "produto": "Legumes De Marchi Saltear Congelado 1,02kg",
+    "preco": 23.59,
+    "preco_por_kg": 23.13
+  },
+  {
+    "id": 37,
+    "supermercado": "Enxuto",
+    "produto": "Água De Coco Mais Coco 1l",
+    "preco": 11.99,
+    "preco_por_kg": 11.99
+  },
+  {
+    "id": 38,
+    "supermercado": "Enxuto",
+    "produto": "Leite Fermentado Yakult 40 Light Com 6 Unidades 480g",
+    "preco": 14.99,
+    "preco_por_kg": 0.37
+  },
+  {
+    "id": 39,
+    "supermercado": "Enxuto",
+    "produto": "Iogurte Nestlé Polpa Morango 510g",
+    "preco": 8.99,
+    "preco_por_kg": 17.63
+  },
+  {
+    "id": 40,
+    "supermercado": "Enxuto",
+    "produto": "Polpa Congelada De Marchi Acerola E Laranja100g",
+    "preco": 4.99,
+    "preco_por_kg": 49.9
+  },
+  {
+    "id": 41,
+    "supermercado": "Enxuto",
+    "produto": "Polpa Congelada De Marchi Abacaxi Com Hortela 100g",
+    "preco": 4.99,
+    "preco_por_kg": 49.9
+  },
+  {
+    "id": 42,
+    "supermercado": "Enxuto",
+    "produto": "Arroz Broto Legal Tp1 5kg",
+    "preco": 19.98,
+    "preco_por_kg": 4
+  },
+  {
+    "id": 43,
+    "supermercado": "Enxuto",
+    "produto": "Feijão Preto Oliron 1kg",
+    "preco": 6.59,
+    "preco_por_kg": 6.59
+  },
+  {
+    "id": 44,
+    "supermercado": "Enxuto",
+    "produto": "Macarrão Galo Semola Espaguete Furadinho Pa 500g",
+    "preco": 4.59,
+    "preco_por_kg": 9.18
+  },
+  {
+    "id": 45,
+    "supermercado": "Enxuto",
+    "produto": "Macarrão De Sêmola Com Ovos Penne Renata Pacote 500g",
+    "preco": 4.99,
+    "preco_por_kg": 9.98
+  },
+  {
+    "id": 46,
+    "supermercado": "Enxuto",
+    "produto": "Macarrão D Benta Com Ovos Parafuso 500g",
+    "preco": 3.99,
+    "preco_por_kg": 7.98
+  },
+  {
+    "id": 47,
+    "supermercado": "Enxuto",
+    "produto": "Queijo Parmesão Vale Canastra Ralado",
+    "preco": 7.9,
+    "preco_por_kg": 7.9
+  },
+  {
+    "id": 48,
+    "supermercado": "Enxuto",
+    "produto": "Tomate Don Ravello Pelado 400g",
+    "preco": 8.9,
+    "preco_por_kg": 22.25
+  },
+  {
+    "id": 49,
+    "supermercado": "Enxuto",
+    "produto": "Molho Tomate Quero Tradicional 240g",
+    "preco": 2.29,
+    "preco_por_kg": 9.54
+  },
+  {
+    "id": 50,
+    "supermercado": "Enxuto",
+    "produto": "Pão De Forma Panco Artesanale Alecrim E Azeite 350g",
+    "preco": 11.19,
+    "preco_por_kg": 31.97
+  },
+  {
+    "id": 51,
+    "supermercado": "Enxuto",
+    "produto": "Azeitona Verde Diza Gordal Sem Caroço Premium Vidro 500g",
+    "preco": 32.99,
+    "preco_por_kg": 65.98
+  },
+  {
+    "id": 52,
+    "supermercado": "Enxuto",
+    "produto": "Molho Shoyu Kirin Tradicional 900ml",
+    "preco": 17.99,
+    "preco_por_kg": 19.99
+  },
+  {
+    "id": 53,
+    "supermercado": "Enxuto",
+    "produto": "Realçador De Sabor Para Churrasco Ajinomoto 500g",
+    "preco": 11.59,
+    "preco_por_kg": 23.18
+  },
+  {
+    "id": 54,
+    "supermercado": "Enxuto",
+    "produto": "Farofa De Milho Yoki Temperada 400g",
+    "preco": 9.89,
+    "preco_por_kg": 24.73
+  },
+  {
+    "id": 55,
+    "supermercado": "Enxuto",
+    "produto": "Creme Tratamento Skala Amido De Milho 1kg",
+    "preco": 15.29,
+    "preco_por_kg": 15.29
+  },
+  {
+    "id": 56,
+    "supermercado": "Enxuto",
+    "produto": "Óleo Soja Soya Pet 900ml",
+    "preco": 5.99,
+    "preco_por_kg": 6.66
+  },
+  {
+    "id": 57,
+    "supermercado": "Enxuto",
+    "produto": "Vinagre Toscano De Álcool Colorido 750ml",
+    "preco": 3.49,
+    "preco_por_kg": 4.65
+  },
+  {
+    "id": 58,
+    "supermercado": "Enxuto",
+    "produto": "Milho Verde Fugini Sc 170g",
+    "preco": 3.79,
+    "preco_por_kg": 22.29
+  },
+  {
+    "id": 59,
+    "supermercado": "Enxuto",
+    "produto": "Seleta De Legumes D`aucy 300g",
+    "preco": 8.99,
+    "preco_por_kg": 29.97
+  },
+  {
+    "id": 60,
+    "supermercado": "Enxuto",
+    "produto": "Sardinha Gomes Costa Óleo 125g",
+    "preco": 5.99,
+    "preco_por_kg": 47.92
+  },
+  {
+    "id": 61,
+    "supermercado": "Enxuto",
+    "produto": "Açúcar Demerara Native Orgânico 1kg",
+    "preco": 7.49,
+    "preco_por_kg": 7.49
+  },
+  {
+    "id": 63,
+    "supermercado": "Enxuto",
+    "produto": "Sal Refinado Lebre 1kg",
+    "preco": 3.19,
+    "preco_por_kg": 3.19
+  },
+  {
+    "id": 64,
+    "supermercado": "Enxuto",
+    "produto": "Suco Maguary Concentrado Caju 500ml",
+    "preco": 5.39,
+    "preco_por_kg": 10.78
+  },
+  {
+    "id": 65,
+    "supermercado": "Enxuto",
+    "produto": "Ketchup Heinz Picles",
+    "preco": 18.69,
+    "preco_por_kg": 18.69
+  },
+  {
+    "id": 66,
+    "supermercado": "Enxuto",
+    "produto": "Maionese Quero Tradicional 495g",
+    "preco": 8.29,
+    "preco_por_kg": 16.75
+  },
+  {
+    "id": 67,
+    "supermercado": "Enxuto",
+    "produto": "Mostarda Cepera 1,01kg",
+    "preco": 15.99,
+    "preco_por_kg": 15.83
+  },
+  {
+    "id": 68,
+    "supermercado": "Enxuto",
+    "produto": "Iogurte Frutap Morango Com Leite Condensado 1,25kg",
+    "preco": 9.99,
+    "preco_por_kg": 7.99
+  },
+  {
+    "id": 69,
+    "supermercado": "Enxuto",
+    "produto": "Creme De Leite Piracanjuba Tp 200g",
+    "preco": 3.49,
+    "preco_por_kg": 17.45
+  },
+  {
+    "id": 70,
+    "supermercado": "Enxuto",
+    "produto": "Capsula Cafe Pilao Espresso 12und 52g",
+    "preco": 22.4,
+    "preco_por_kg": 1.87
+  },
+  {
+    "id": 71,
+    "supermercado": "Enxuto",
+    "produto": "Café Moídocorações Premium Estrada Real Pcg",
+    "preco": 36.9,
+    "preco_por_kg": 36.9
+  },
+  {
+    "id": 72,
+    "supermercado": "Enxuto",
+    "produto": "Chá Leão Fuze Preto Natural 10 Unds. De 16g",
+    "preco": 6.49,
+    "preco_por_kg": 0.65
+  },
+  {
+    "id": 75,
+    "supermercado": "Enxuto",
+    "produto": "Flocão Dona Clara 500g",
+    "preco": 4.89,
+    "preco_por_kg": 9.78
+  },
+  {
+    "id": 76,
+    "supermercado": "Enxuto",
+    "produto": "Pao Visconti Forma Tradicional 400g",
+    "preco": 5.49,
+    "preco_por_kg": 13.72
+  },
+  {
+    "id": 77,
+    "supermercado": "Enxuto",
+    "produto": "Tapioca Akio 320g",
+    "preco": 4.39,
+    "preco_por_kg": 13.72
+  },
+  {
+    "id": 78,
+    "supermercado": "Enxuto",
+    "produto": "Desinfetante Lysoform Suave 2l",
+    "preco": 28.99,
+    "preco_por_kg": 14.49
+  },
+  {
+    "id": 79,
+    "supermercado": "Enxuto",
+    "produto": "Álcool Líquido Safra Bactericida 46.2° 1l Neutro",
+    "preco": 9.9,
+    "preco_por_kg": 9.9
+  },
+  {
+    "id": 80,
+    "supermercado": "Enxuto",
+    "produto": "Limpador Ypê Fácil Multiuso Natureza 500ml",
+    "preco": 4.99,
+    "preco_por_kg": 9.98
+  },
+  {
+    "id": 81,
+    "supermercado": "Enxuto",
+    "produto": "Esmalte Dailus Regular Cremoso Black Tie",
+    "preco": 10.99,
+    "preco_por_kg": 10.99
+  },
+  {
+    "id": 82,
+    "supermercado": "Enxuto",
+    "produto": "Odorizador De Ambientes Bom Ar Click Spray Aparelho E Refil Lavanda",
+    "preco": 23.39,
+    "preco_por_kg": 23.39
+  },
+  {
+    "id": 83,
+    "supermercado": "Enxuto",
+    "produto": "Lampada Ourolux Superled 12w Bivolt Und",
+    "preco": 9.89,
+    "preco_por_kg": 9.89
+  },
+  {
+    "id": 84,
+    "supermercado": "Enxuto",
+    "produto": "Saco Lixo Esfrelux 100l C/15und Emb Economica",
+    "preco": 16.99,
+    "preco_por_kg": 0.17
+  },
+  {
+    "id": 85,
+    "supermercado": "Enxuto",
+    "produto": "Saco Lixo Esfrelux 50l C/30und Emb Economica",
+    "preco": 15.99,
+    "preco_por_kg": 0.32
+  },
+  {
     "id": 86,
     "supermercado": "Enxuto",
     "produto": "Água Sanitária Sanol 5l",
@@ -59,8 +472,8 @@
     "id": 95,
     "supermercado": "Enxuto",
     "produto": "Fralda Descartável Babysec Ultra Mega P 42und",
-    "preco": 38.9,
-    "preco_por_kg": 0.93
+    "preco": 49.99,
+    "preco_por_kg": 1.19
   },
   {
     "id": 96,
@@ -101,8 +514,8 @@
     "id": 101,
     "supermercado": "Enxuto",
     "produto": "Sabonete Dove Orig Com 6und 90g Leve + Pague -",
-    "preco": 37.5,
-    "preco_por_kg": 6.25
+    "preco": 23.94,
+    "preco_por_kg": 3.99
   },
   {
     "id": 102,
