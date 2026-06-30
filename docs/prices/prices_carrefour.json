@@ -3,8 +3,8 @@
     "id": 2,
     "supermercado": "Carrefour",
     "produto": "Ovo Branco Extra P.C. Iana Com 20 Unidades",
-    "preco": 13.99,
-    "preco_por_kg": 13.99
+    "preco": 15.99,
+    "preco_por_kg": 15.99
   },
   {
     "id": 3,
@@ -17,8 +17,8 @@
     "id": 4,
     "supermercado": "Carrefour",
     "produto": "Cebola Único Carrefour 1Kg",
-    "preco": 7.99,
-    "preco_por_kg": 7.99
+    "preco": 6.39,
+    "preco_por_kg": 6.39
   },
   {
     "id": 5,
@@ -61,6 +61,13 @@
     "produto": "Vagem sem Semente Daucy 300g",
     "preco": 11.38,
     "preco_por_kg": 37.93
+  },
+  {
+    "id": 12,
+    "supermercado": "Carrefour",
+    "produto": "Abobrinha Italiana Carrefour Aprox. 400g",
+    "preco": 2.39,
+    "preco_por_kg": 5.97
   },
   {
     "id": 13,
@@ -149,9 +156,9 @@
   {
     "id": 25,
     "supermercado": "Carrefour",
-    "produto": "Uva Vitoria Sem Semente Dole 500g",
-    "preco": 7.89,
-    "preco_por_kg": 15.78
+    "produto": "Uva Vermelha Sem Semente Doce Valle 500g",
+    "preco": 7.99,
+    "preco_por_kg": 15.98
   },
   {
     "id": 26,
@@ -177,9 +184,9 @@
   {
     "id": 29,
     "supermercado": "Carrefour",
-    "produto": "Leite Zero Lactose Semidesnatado Parmalat ZYMIL 1L",
-    "preco": 6.29,
-    "preco_por_kg": 6.29
+    "produto": "Leite Semidesnatado Piracanjuba Zero Lactose 1 Litro",
+    "preco": 5.98,
+    "preco_por_kg": 5.98
   },
   {
     "id": 30,
@@ -205,9 +212,9 @@
   {
     "id": 33,
     "supermercado": "Carrefour",
-    "produto": "Mortadela Tubular Sadilar Familiar Sadia 1 kg",
-    "preco": 16.39,
-    "preco_por_kg": 16.39
+    "produto": "Mortadela Defumada Fatiada Sadia Bandeja 180g",
+    "preco": 1.99,
+    "preco_por_kg": 11.06
   },
   {
     "id": 34,
@@ -301,6 +308,13 @@
     "preco_por_kg": 25.98
   },
   {
+    "id": 49,
+    "supermercado": "Carrefour",
+    "produto": "Molho de Tomate Pomodoro Tradicional Cica Sachê 300g",
+    "preco": 1.69,
+    "preco_por_kg": 5.63
+  },
+  {
     "id": 50,
     "supermercado": "Carrefour",
     "produto": "Azeite Extra Virgem Allegro 500ml",
@@ -318,8 +332,8 @@
     "id": 52,
     "supermercado": "Carrefour",
     "produto": "Molho Shoyu Cepêra 1,01Kg",
-    "preco": 14.19,
-    "preco_por_kg": 14.05
+    "preco": 14.79,
+    "preco_por_kg": 14.64
   },
   {
     "id": 53,
@@ -345,16 +359,16 @@
   {
     "id": 56,
     "supermercado": "Carrefour",
-    "produto": "Óleo de Soja Soya 900ml",
-    "preco": 6.18,
-    "preco_por_kg": 6.87
+    "produto": "Óleo de Soja Vitaliv Garrafa 900 ml",
+    "preco": 6.89,
+    "preco_por_kg": 7.66
   },
   {
     "id": 57,
     "supermercado": "Carrefour",
-    "produto": "Vinagre de Álcool Colorido Carrefour 750ml",
-    "preco": 2.99,
-    "preco_por_kg": 3.99
+    "produto": "Vinagre de Álcool Colorido Toscano 750 ml",
+    "preco": 1.99,
+    "preco_por_kg": 2.65
   },
   {
     "id": 58,
@@ -394,9 +408,9 @@
   {
     "id": 63,
     "supermercado": "Carrefour",
-    "produto": "Sal Refinado Globo 1 kg",
-    "preco": 2.39,
-    "preco_por_kg": 2.39
+    "produto": "Sal Refinado Carrefour 1Kg",
+    "preco": 2.29,
+    "preco_por_kg": 2.29
   },
   {
     "id": 64,
@@ -534,9 +548,16 @@
   {
     "id": 83,
     "supermercado": "Carrefour",
-    "produto": "Lâmpada Superled Bulbo 9 W Luz Amarela Bivolt E27 Ourolux",
-    "preco": 3.99,
-    "preco_por_kg": 3.99
+    "produto": "Lâmpada Superled Ourolux 9W 6500K BIV",
+    "preco": 3.29,
+    "preco_por_kg": 3.29
+  },
+  {
+    "id": 84,
+    "supermercado": "Carrefour",
+    "produto": "Saco de Lixo Preto 100l Embalixo Pacote com 10 Unidades",
+    "preco": 10.99,
+    "preco_por_kg": 0.11
   },
   {
     "id": 85,
@@ -569,9 +590,9 @@
   {
     "id": 89,
     "supermercado": "Carrefour",
-    "produto": "Detergente Líquido Limpol Cristal 500ml",
-    "preco": 1.99,
-    "preco_por_kg": 3.98
+    "produto": "Detergente Líquido Carrefour Clear 500ml",
+    "preco": 2.09,
+    "preco_por_kg": 4.18
   },
   {
     "id": 90,
@@ -590,9 +611,9 @@
   {
     "id": 92,
     "supermercado": "Carrefour",
-    "produto": "Desinfetante Antibacteriano Urca Pinho 5L",
-    "preco": 10.09,
-    "preco_por_kg": 2.02
+    "produto": "Desinfetante Búfalo Lavanda 2 Litros",
+    "preco": 4.49,
+    "preco_por_kg": 2.25
   },
   {
     "id": 93,
