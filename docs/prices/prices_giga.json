@@ -1,12 +1,5 @@
 [
   {
-    "id": 2,
-    "supermercado": "Giga",
-    "produto": "Ovos Brancos Grandes Bandeja Com 20 Unidades",
-    "preco": 15.9,
-    "preco_por_kg": 15.9
-  },
-  {
     "id": 3,
     "supermercado": "Giga",
     "produto": "Batata Doce Rosada",
@@ -23,9 +16,9 @@
   {
     "id": 5,
     "supermercado": "Giga",
-    "produto": "Molho De Tomate Tradicional Salsaretti 300g",
-    "preco": 2.39,
-    "preco_por_kg": 2.39
+    "produto": "Tomate Italiano",
+    "preco": 13.5,
+    "preco_por_kg": 13.5
   },
   {
     "id": 6,
@@ -37,16 +30,16 @@
   {
     "id": 7,
     "supermercado": "Giga",
-    "produto": "Pimentão Verde",
-    "preco": 8.9,
-    "preco_por_kg": 8.9
+    "produto": "Pimentao Vermelho",
+    "preco": 19.9,
+    "preco_por_kg": 19.9
   },
   {
     "id": 8,
     "supermercado": "Giga",
-    "produto": "Pimentão Verde",
-    "preco": 8.9,
-    "preco_por_kg": 8.9
+    "produto": "Pimentão Amarelo",
+    "preco": 28.89,
+    "preco_por_kg": 28.89
   },
   {
     "id": 9,
@@ -58,9 +51,9 @@
   {
     "id": 10,
     "supermercado": "Giga",
-    "produto": "Refresco Em Pó Limão Frisco Pacote 18g",
-    "preco": 1.06,
-    "preco_por_kg": 1.06
+    "produto": "Limão Tahiti",
+    "preco": 3.79,
+    "preco_por_kg": 3.79
   },
   {
     "id": 12,
@@ -82,6 +75,13 @@
     "produto": "Inhame",
     "preco": 10.9,
     "preco_por_kg": 10.9
+  },
+  {
+    "id": 15,
+    "supermercado": "Giga",
+    "produto": "Gengibre",
+    "preco": 14.9,
+    "preco_por_kg": 14.9
   },
   {
     "id": 16,
@@ -121,7 +121,7 @@
   {
     "id": 23,
     "supermercado": "Giga",
-    "produto": "Mamão Formosa",
+    "produto": "Mamão Papaya",
     "preco": 8.9,
     "preco_por_kg": 8.9
   },
@@ -147,13 +147,6 @@
     "preco_por_kg": 9.98
   },
   {
-    "id": 28,
-    "supermercado": "Giga",
-    "produto": "Margarina Com Sal Delícia + Sabor E Cremosidade 500g",
-    "preco": 8.49,
-    "preco_por_kg": 8.49
-  },
-  {
     "id": 29,
     "supermercado": "Giga",
     "produto": "Leite De Coco Sabor Nordeste 200Ml",
@@ -161,32 +154,25 @@
     "preco_por_kg": 4.99
   },
   {
-    "id": 30,
-    "supermercado": "Giga",
-    "produto": "Requeijão Tradicional Itambé 200g",
-    "preco": 10.29,
-    "preco_por_kg": 10.29
-  },
-  {
     "id": 31,
     "supermercado": "Giga",
-    "produto": "Queijo Mussarela Fatiado Zero Lactose President 150g",
-    "preco": 13.75,
-    "preco_por_kg": 13.75
+    "produto": "Quejo Mussarela F4 Três Barras",
+    "preco": 44.7,
+    "preco_por_kg": 44.7
   },
   {
     "id": 32,
     "supermercado": "Giga",
-    "produto": "Patê De Presunto Seara 100g",
-    "preco": 3.69,
-    "preco_por_kg": 3.69
+    "produto": "Presunto Cozido Sem Capa Inteiro Perdigão",
+    "preco": 24.09,
+    "preco_por_kg": 24.09
   },
   {
     "id": 33,
     "supermercado": "Giga",
     "produto": "Mortadela Defumada Sadia",
-    "preco": 15.9,
-    "preco_por_kg": 15.9
+    "preco": 15.29,
+    "preco_por_kg": 15.29
   },
   {
     "id": 34,
@@ -217,18 +203,11 @@
     "preco_por_kg": 16.95
   },
   {
-    "id": 43,
-    "supermercado": "Giga",
-    "produto": "Feijão Preto Tipo 1 Pantera 1kg",
-    "preco": 8.09,
-    "preco_por_kg": 8.09
-  },
-  {
     "id": 47,
     "supermercado": "Giga",
-    "produto": "Queijo Processado Cheddar Polenghi Sandwich-In 144g",
-    "preco": 17.95,
-    "preco_por_kg": 17.95
+    "produto": "Queijo Minas Frescal Quata",
+    "preco": 43.8,
+    "preco_por_kg": 43.8
   },
   {
     "id": 48,
@@ -266,13 +245,6 @@
     "preco_por_kg": 2.39
   },
   {
-    "id": 54,
-    "supermercado": "Giga",
-    "produto": "Farofa Tradicional Bom Gosto 300g",
-    "preco": 8.5,
-    "preco_por_kg": 8.5
-  },
-  {
     "id": 57,
     "supermercado": "Giga",
     "produto": "Vinagre Álcool Castelo 750Ml",
@@ -308,20 +280,6 @@
     "preco_por_kg": 18.7
   },
   {
-    "id": 66,
-    "supermercado": "Giga",
-    "produto": "Maionese Salsaretti Top Down 350G",
-    "preco": 9.65,
-    "preco_por_kg": 9.65
-  },
-  {
-    "id": 67,
-    "supermercado": "Giga",
-    "produto": "Mostarda Hemmer Amarela 1Kg",
-    "preco": 30.8,
-    "preco_por_kg": 30.8
-  },
-  {
     "id": 68,
     "supermercado": "Giga",
     "produto": "Leite Condensado Integral Moça Lata 395g Grátis 15%",
@@ -336,27 +294,6 @@
     "preco_por_kg": 33.99
   },
   {
-    "id": 73,
-    "supermercado": "Giga",
-    "produto": "Pipoca Magitlec Pct 80g C/Chocolate",
-    "preco": 3.79,
-    "preco_por_kg": 3.79
-  },
-  {
-    "id": 75,
-    "supermercado": "Giga",
-    "produto": "Farinha De Milho Flocão Yoki Kimilho Pacote 500g",
-    "preco": 5.39,
-    "preco_por_kg": 5.39
-  },
-  {
-    "id": 76,
-    "supermercado": "Giga",
-    "produto": "Pão De Hambúrguer Grand Burger Brioche Pullman 420g",
-    "preco": 15.99,
-    "preco_por_kg": 15.99
-  },
-  {
     "id": 78,
     "supermercado": "Giga",
     "produto": "Desinfetante Uso Geral Original Lysoform 2L",
@@ -369,20 +306,6 @@
     "produto": "Vinagre Álcool Castelo 750Ml",
     "preco": 4.25,
     "preco_por_kg": 4.25
-  },
-  {
-    "id": 80,
-    "supermercado": "Giga",
-    "produto": "Limpador Multiuso Veja Gold Original 750Ml Embalagem Econômica",
-    "preco": 7.49,
-    "preco_por_kg": 7.49
-  },
-  {
-    "id": 82,
-    "supermercado": "Giga",
-    "produto": "Farofa Tradicional Bom Gosto 300g",
-    "preco": 8.5,
-    "preco_por_kg": 8.5
   },
   {
     "id": 84,
@@ -414,13 +337,6 @@
   },
   {
     "id": 90,
-    "supermercado": "Giga",
-    "produto": "Limpador Multiuso Veja Gold Original 750Ml Embalagem Econômica",
-    "preco": 7.49,
-    "preco_por_kg": 7.49
-  },
-  {
-    "id": 91,
     "supermercado": "Giga",
     "produto": "Limpador Multiuso Veja Gold Original 750Ml Embalagem Econômica",
     "preco": 7.49,
@@ -467,12 +383,5 @@
     "produto": "Absorvente Intimus Gel Noturno Cobertura Suave Com Abas Com 30 Unidades",
     "preco": 26.35,
     "preco_por_kg": 26.35
-  },
-  {
-    "id": 110,
-    "supermercado": "Giga",
-    "produto": "Fubá Mimoso Yoki 500g",
-    "preco": 4.4,
-    "preco_por_kg": 4.4
   }
 ]
