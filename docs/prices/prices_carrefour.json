@@ -23,9 +23,9 @@
   {
     "id": 5,
     "supermercado": "Carrefour",
-    "produto": "Tomate Italiano Mallmann 1Kg",
-    "preco": 12.9,
-    "preco_por_kg": 12.9
+    "produto": "Tomate Italiano Carrefour Aprox. 200g",
+    "preco": 1.39,
+    "preco_por_kg": 6.95
   },
   {
     "id": 6,
@@ -149,7 +149,7 @@
   {
     "id": 25,
     "supermercado": "Carrefour",
-    "produto": "Uva Preta Sem Semente Doce Valle 500g",
+    "produto": "Uva Vitoria Sem Semente Dole 500g",
     "preco": 7.99,
     "preco_por_kg": 15.98
   },
@@ -198,16 +198,16 @@
   {
     "id": 32,
     "supermercado": "Carrefour",
-    "produto": "Presunto Cozido Magro Fatiado Perdigão Aproximadamente 200 g",
-    "preco": 4.38,
-    "preco_por_kg": 21.9
+    "produto": "Presunto Cozido Fatiado Sadia Pacote 180g",
+    "preco": 2.99,
+    "preco_por_kg": 16.61
   },
   {
     "id": 33,
     "supermercado": "Carrefour",
-    "produto": "Mortadela Tubular Sabor Frango Sadia 400 g",
-    "preco": 4.98,
-    "preco_por_kg": 12.45
+    "produto": "Mortadela Aurora 400 g",
+    "preco": 4.88,
+    "preco_por_kg": 12.2
   },
   {
     "id": 34,
@@ -269,8 +269,8 @@
     "id": 44,
     "supermercado": "Carrefour",
     "produto": "Macarrão Espaguete de Arroz Urbano 500g",
-    "preco": 4.89,
-    "preco_por_kg": 9.78
+    "preco": 4.69,
+    "preco_por_kg": 9.38
   },
   {
     "id": 45,
@@ -297,8 +297,15 @@
     "id": 48,
     "supermercado": "Carrefour",
     "produto": "Tomate Pelado Italiano em Cubos Baronia 400g",
-    "preco": 10.39,
-    "preco_por_kg": 25.98
+    "preco": 9.99,
+    "preco_por_kg": 24.97
+  },
+  {
+    "id": 49,
+    "supermercado": "Carrefour",
+    "produto": "Molho de Tomate Pomodoro Tradicional Cica Sachê 300g",
+    "preco": 1.58,
+    "preco_por_kg": 5.27
   },
   {
     "id": 50,
@@ -318,8 +325,8 @@
     "id": 52,
     "supermercado": "Carrefour",
     "produto": "Molho Shoyu Cepêra 1,01Kg",
-    "preco": 14.79,
-    "preco_por_kg": 14.64
+    "preco": 14.19,
+    "preco_por_kg": 14.05
   },
   {
     "id": 53,
@@ -395,8 +402,8 @@
     "id": 63,
     "supermercado": "Carrefour",
     "produto": "Sal Refinado Carrefour 1Kg",
-    "preco": 2.29,
-    "preco_por_kg": 2.29
+    "preco": 2.19,
+    "preco_por_kg": 2.19
   },
   {
     "id": 64,
@@ -493,13 +500,13 @@
     "id": 77,
     "supermercado": "Carrefour",
     "produto": "Tapioca Carrefour 1kg",
-    "preco": 10.98,
-    "preco_por_kg": 10.98
+    "preco": 9.98,
+    "preco_por_kg": 9.98
   },
   {
     "id": 78,
     "supermercado": "Carrefour",
-    "produto": "Desinfetante Líquido Lysoform Original 2L",
+    "produto": "Desinfetante para Uso Geral Lavanda Lysoform 2L",
     "preco": 20.99,
     "preco_por_kg": 10.49
   },
@@ -544,13 +551,6 @@
     "produto": "Saco de Lixo Preto 100l Embalixo Pacote com 10 Unidades",
     "preco": 10.99,
     "preco_por_kg": 0.11
-  },
-  {
-    "id": 85,
-    "supermercado": "Carrefour",
-    "produto": "Saco de Lixo Preto 50l Embalixo Pacote com 20 Unidades",
-    "preco": 10.99,
-    "preco_por_kg": 0.22
   },
   {
     "id": 86,
@@ -612,8 +612,8 @@
     "id": 94,
     "supermercado": "Carrefour",
     "produto": "Esponja Multiuso Bombril 1 Unidade",
-    "preco": 1.99,
-    "preco_por_kg": 1.99
+    "preco": 2.09,
+    "preco_por_kg": 2.09
   },
   {
     "id": 95,
