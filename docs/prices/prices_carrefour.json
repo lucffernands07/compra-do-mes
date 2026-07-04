@@ -3,8 +3,8 @@
     "id": 2,
     "supermercado": "Carrefour",
     "produto": "Ovo Branco Jumbo King Iana com 10 unidades",
-    "preco": 10.99,
-    "preco_por_kg": 10.99
+    "preco": 4.99,
+    "preco_por_kg": 4.99
   },
   {
     "id": 3,
@@ -170,9 +170,9 @@
   {
     "id": 27,
     "supermercado": "Carrefour",
-    "produto": "Mexerica Cravo Aprox. 500g",
-    "preco": 1.99,
-    "preco_por_kg": 3.98
+    "produto": "Mexerica Ponkan Carrefour Aprox. 300g",
+    "preco": 1.49,
+    "preco_por_kg": 4.97
   },
   {
     "id": 28,
@@ -205,9 +205,9 @@
   {
     "id": 32,
     "supermercado": "Carrefour",
-    "produto": "Presunto Cozido Fatiado Sadia Pacote 180g",
-    "preco": 2.99,
-    "preco_por_kg": 16.61
+    "produto": "Presunto Cozido Magro Fatiado Perdigão Aproximadamente 200 g",
+    "preco": 4.38,
+    "preco_por_kg": 21.9
   },
   {
     "id": 33,
@@ -229,13 +229,6 @@
     "produto": "Mix 4 Legumes Congelado Viver 300 g",
     "preco": 8.99,
     "preco_por_kg": 2.25
-  },
-  {
-    "id": 37,
-    "supermercado": "Carrefour",
-    "produto": "Água de Coco Integral Aqua Coco Garrafa 1 L",
-    "preco": 7,
-    "preco_por_kg": 7
   },
   {
     "id": 38,
@@ -262,15 +255,15 @@
     "id": 42,
     "supermercado": "Carrefour",
     "produto": "Arroz Branco Longo-fino Tipo 1 Namorado 5Kg",
-    "preco": 18.49,
-    "preco_por_kg": 3.7
+    "preco": 16.49,
+    "preco_por_kg": 3.3
   },
   {
     "id": 43,
     "supermercado": "Carrefour",
-    "produto": "Feijão Preto Tipo 1 Kicaldo 1Kg",
-    "preco": 5.99,
-    "preco_por_kg": 5.99
+    "produto": "Feijao Preto Carrefour 1 Kg",
+    "preco": 5.98,
+    "preco_por_kg": 5.98
   },
   {
     "id": 44,
@@ -366,7 +359,7 @@
   {
     "id": 57,
     "supermercado": "Carrefour",
-    "produto": "Vinagre de Álcool Toscano 750ml",
+    "produto": "Vinagre de Álcool Colorido Toscano 750 ml",
     "preco": 1.99,
     "preco_por_kg": 2.65
   },
@@ -376,13 +369,6 @@
     "produto": "Milho Verde com Palha Carrefour Unidade",
     "preco": 0.99,
     "preco_por_kg": 0.99
-  },
-  {
-    "id": 59,
-    "supermercado": "Carrefour",
-    "produto": "Seleta de Legumes Quero Lata 170g",
-    "preco": 5.79,
-    "preco_por_kg": 34.06
   },
   {
     "id": 60,
@@ -423,8 +409,8 @@
     "id": 65,
     "supermercado": "Carrefour",
     "produto": "Ketchup Tradicional Cepêra 1,01 kg",
-    "preco": 12.39,
-    "preco_por_kg": 12.27
+    "preco": 12.9,
+    "preco_por_kg": 12.77
   },
   {
     "id": 66,
@@ -448,25 +434,11 @@
     "preco_por_kg": 12.41
   },
   {
-    "id": 69,
-    "supermercado": "Carrefour",
-    "produto": "Mistura de Creme de Leite Mococa 200g",
-    "preco": 1.79,
-    "preco_por_kg": 8.95
-  },
-  {
-    "id": 70,
-    "supermercado": "Carrefour",
-    "produto": "Café em Cápsula NESCAFÉ DOLCE GUSTO Cappuccino 10 Cápsulas",
-    "preco": 24.99,
-    "preco_por_kg": 24.99
-  },
-  {
     "id": 71,
     "supermercado": "Carrefour",
-    "produto": "Café Tradicional Vácuo Carrefour 500 g",
-    "preco": 19.9,
-    "preco_por_kg": 39.8
+    "produto": "Café Torrado Moído Tradicional Pouch União 500g",
+    "preco": 22.9,
+    "preco_por_kg": 45.8
   },
   {
     "id": 72,
@@ -506,9 +478,9 @@
   {
     "id": 77,
     "supermercado": "Carrefour",
-    "produto": "Tapioca Carrefour 1kg",
-    "preco": 9.98,
-    "preco_por_kg": 9.98
+    "produto": "Tapioca Carrefour 500g",
+    "preco": 5.97,
+    "preco_por_kg": 11.94
   },
   {
     "id": 78,
@@ -569,9 +541,9 @@
   {
     "id": 86,
     "supermercado": "Carrefour",
-    "produto": "Água Sanitária Olimpo 2L",
-    "preco": 4.39,
-    "preco_por_kg": 2.19
+    "produto": "Água Sanitária Carrefour 2 Litros",
+    "preco": 3.99,
+    "preco_por_kg": 2
   },
   {
     "id": 87,
@@ -633,7 +605,7 @@
     "id": 95,
     "supermercado": "Carrefour",
     "produto": "Fralda Descartável Infantil Huggies Máxima Proteção XG 12 a 15kg Pacote 56 Unidades Leve Mais Pague Menos",
-    "preco": 76.99,
+    "preco": 76.89,
     "preco_por_kg": 5.13
   },
   {
@@ -703,15 +675,15 @@
     "id": 105,
     "supermercado": "Carrefour",
     "produto": "Lenço Umedecido Carrefour Hora de Dormir 48 Lenços",
-    "preco": 7.69,
-    "preco_por_kg": 0.16
+    "preco": 6.39,
+    "preco_por_kg": 0.13
   },
   {
     "id": 106,
     "supermercado": "Carrefour",
-    "produto": "Pano Capa Rodo Algodão 40x50 Carrefour",
-    "preco": 5.98,
-    "preco_por_kg": 5.98
+    "produto": "Pano para Pia em Algodão Alvejado Carrefour Pequeno",
+    "preco": 6.98,
+    "preco_por_kg": 6.98
   },
   {
     "id": 107,
