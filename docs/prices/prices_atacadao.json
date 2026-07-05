@@ -10,8 +10,8 @@
     "id": 3,
     "supermercado": "Atacadão",
     "produto": "Batata Lavada 10kg",
-    "preco": 47.9,
-    "preco_por_kg": 4.79
+    "preco": 49.8,
+    "preco_por_kg": 4.98
   },
   {
     "id": 4,
@@ -24,15 +24,15 @@
     "id": 5,
     "supermercado": "Atacadão",
     "produto": "Tomate Italiano 700g",
-    "preco": 11.49,
-    "preco_por_kg": 16.41
+    "preco": 9.9,
+    "preco_por_kg": 14.14
   },
   {
     "id": 6,
     "supermercado": "Atacadão",
-    "produto": "Molho de Pimenta Gota Verde 150ml",
-    "preco": 2.85,
-    "preco_por_kg": 19
+    "produto": "Pimentão Verde 400g",
+    "preco": 6.9,
+    "preco_por_kg": 17.25
   },
   {
     "id": 7,
@@ -45,15 +45,15 @@
     "id": 8,
     "supermercado": "Atacadão",
     "produto": "Pimentão Amarelo 400g",
-    "preco": 16.9,
-    "preco_por_kg": 42.25
+    "preco": 16.49,
+    "preco_por_kg": 41.22
   },
   {
     "id": 9,
     "supermercado": "Atacadão",
-    "produto": "Molho de Pimenta Gota Vermelha 150ml",
-    "preco": 2.85,
-    "preco_por_kg": 19
+    "produto": "Pimenta Ornamental P14 un",
+    "preco": 16.9,
+    "preco_por_kg": 16.9
   },
   {
     "id": 10,
@@ -63,25 +63,32 @@
     "preco_por_kg": 0.09
   },
   {
+    "id": 11,
+    "supermercado": "Atacadão",
+    "produto": "Vagem Macarrão 400g",
+    "preco": 11.9,
+    "preco_por_kg": 29.75
+  },
+  {
     "id": 12,
     "supermercado": "Atacadão",
     "produto": "Abóbora Italiana 500g",
-    "preco": 6.49,
-    "preco_por_kg": 12.98
+    "preco": 6.9,
+    "preco_por_kg": 13.8
   },
   {
     "id": 13,
     "supermercado": "Atacadão",
     "produto": "Beterraba 600g",
-    "preco": 6.49,
-    "preco_por_kg": 10.82
+    "preco": 5.29,
+    "preco_por_kg": 8.82
   },
   {
     "id": 15,
     "supermercado": "Atacadão",
     "produto": "Refresco Líquido Guaraviton Gengibre e Laranja 500ml",
-    "preco": 2.49,
-    "preco_por_kg": 4.98
+    "preco": 1.79,
+    "preco_por_kg": 3.58
   },
   {
     "id": 16,
@@ -96,6 +103,13 @@
     "produto": "Ketchup Cepêra 1,010kg",
     "preco": 9.9,
     "preco_por_kg": 9.8
+  },
+  {
+    "id": 18,
+    "supermercado": "Atacadão",
+    "produto": "Farinha de Mandioca Glúten Free Fina 500g",
+    "preco": 2.39,
+    "preco_por_kg": 4.78
   },
   {
     "id": 19,
@@ -170,9 +184,9 @@
   {
     "id": 31,
     "supermercado": "Atacadão",
-    "produto": "Queijo Mussarela Fatiado Ipanema Zero Lactose 150g",
-    "preco": 5.99,
-    "preco_por_kg": 39.93
+    "produto": "Queijo Mussarela Piracanjuba Fatiado 500g",
+    "preco": 24.9,
+    "preco_por_kg": 49.8
   },
   {
     "id": 32,
@@ -212,9 +226,9 @@
   {
     "id": 37,
     "supermercado": "Atacadão",
-    "produto": "Água de Coco Quadrado 1L",
-    "preco": 6.15,
-    "preco_por_kg": 6.15
+    "produto": "Água de Coco Sococo Maracujá 200ml",
+    "preco": 0.99,
+    "preco_por_kg": 4.95
   },
   {
     "id": 38,
@@ -248,8 +262,8 @@
     "id": 43,
     "supermercado": "Atacadão",
     "produto": "Feijão Preto Bulnez Tipo 1 1kg",
-    "preco": 5.99,
-    "preco_por_kg": 5.99
+    "preco": 6.15,
+    "preco_por_kg": 6.15
   },
   {
     "id": 44,
@@ -262,8 +276,8 @@
     "id": 45,
     "supermercado": "Atacadão",
     "produto": "Macarrão com Ovos Dona Benta Penne 500g",
-    "preco": 2.99,
-    "preco_por_kg": 5.98
+    "preco": 2.49,
+    "preco_por_kg": 4.98
   },
   {
     "id": 46,
@@ -292,13 +306,6 @@
     "produto": "Molho de Tomate Tomadoro 300g",
     "preco": 1.29,
     "preco_por_kg": 4.3
-  },
-  {
-    "id": 50,
-    "supermercado": "Atacadão",
-    "produto": "Azeite de Oliva Andorinha 500ml",
-    "preco": 22.5,
-    "preco_por_kg": 45
   },
   {
     "id": 51,
@@ -345,16 +352,16 @@
   {
     "id": 57,
     "supermercado": "Atacadão",
-    "produto": "Vinagre de Álcool Vitalia 750ml",
-    "preco": 1.75,
-    "preco_por_kg": 2.33
+    "produto": "Vinagre de Álcool Peixe 750ml",
+    "preco": 1.89,
+    "preco_por_kg": 2.52
   },
   {
     "id": 58,
     "supermercado": "Atacadão",
     "produto": "Milho Verde un",
-    "preco": 1.49,
-    "preco_por_kg": 1.49
+    "preco": 1.39,
+    "preco_por_kg": 1.39
   },
   {
     "id": 59,
@@ -402,8 +409,8 @@
     "id": 65,
     "supermercado": "Atacadão",
     "produto": "Ketchup Cepêra 3,5kg",
-    "preco": 26.8,
-    "preco_por_kg": 7.66
+    "preco": 28.9,
+    "preco_por_kg": 8.26
   },
   {
     "id": 66,
@@ -437,8 +444,8 @@
     "id": 70,
     "supermercado": "Atacadão",
     "produto": "Café em Cápsula Dolce Gusto Pingado 140g",
-    "preco": 17.89,
-    "preco_por_kg": 127.79
+    "preco": 16.99,
+    "preco_por_kg": 121.36
   },
   {
     "id": 71,
@@ -450,9 +457,9 @@
   {
     "id": 72,
     "supermercado": "Atacadão",
-    "produto": "Chá Lipton Ice Tea Pêssego 1,5L",
-    "preco": 5.49,
-    "preco_por_kg": 3.66
+    "produto": "Chá Ice Tea Yaí Limão Zero 1,5L",
+    "preco": 5.99,
+    "preco_por_kg": 3.99
   },
   {
     "id": 73,
@@ -541,9 +548,9 @@
   {
     "id": 86,
     "supermercado": "Atacadão",
-    "produto": "Água Sanitária Suprema 2L",
-    "preco": 4.49,
-    "preco_por_kg": 2.25
+    "produto": "Água Sanitária Suprema 5L",
+    "preco": 10.99,
+    "preco_por_kg": 2.2
   },
   {
     "id": 87,
@@ -569,7 +576,7 @@
   {
     "id": 90,
     "supermercado": "Atacadão",
-    "produto": "Limpador Multiuso Ypê Tira Manchas 500ml",
+    "produto": "Limpador Multiuso Ypê Desengordurante 500ml",
     "preco": 3.67,
     "preco_por_kg": 7.34
   },
@@ -584,8 +591,8 @@
     "id": 92,
     "supermercado": "Atacadão",
     "produto": "Desinfetante Urca Lavanda 5L",
-    "preco": 12.5,
-    "preco_por_kg": 2.5
+    "preco": 12.9,
+    "preco_por_kg": 2.58
   },
   {
     "id": 93,
@@ -632,9 +639,9 @@
   {
     "id": 99,
     "supermercado": "Atacadão",
-    "produto": "Creme Dental Closeup Tripla Proteção Menta 70g",
-    "preco": 2.59,
-    "preco_por_kg": 37
+    "produto": "Creme Dental Sorriso Tripla Limpeza Completa 70g",
+    "preco": 2.22,
+    "preco_por_kg": 31.71
   },
   {
     "id": 100,
@@ -691,13 +698,6 @@
     "produto": "Listerine Cool Mint Enxaguante Bucal 1,5L",
     "preco": 29.9,
     "preco_por_kg": 19.93
-  },
-  {
-    "id": 108,
-    "supermercado": "Atacadão",
-    "produto": "Bisnaguinha Delamarie 250g",
-    "preco": 3.49,
-    "preco_por_kg": 13.96
   },
   {
     "id": 109,

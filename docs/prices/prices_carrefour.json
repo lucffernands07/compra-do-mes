@@ -63,13 +63,6 @@
     "preco_por_kg": 37.93
   },
   {
-    "id": 12,
-    "supermercado": "Carrefour",
-    "produto": "Abobrinha Italiana Carrefour Aprox. 400g",
-    "preco": 2.39,
-    "preco_por_kg": 5.97
-  },
-  {
     "id": 13,
     "supermercado": "Carrefour",
     "produto": "Beterraba Carrefour Aprox. 300g",
@@ -212,9 +205,9 @@
   {
     "id": 33,
     "supermercado": "Carrefour",
-    "produto": "Mortadela Marba Tradicional 5Kg",
-    "preco": 24.69,
-    "preco_por_kg": 4.94
+    "produto": "Mortadela Defumada Fatiada Sadia Bandeja 180g",
+    "preco": 1.99,
+    "preco_por_kg": 11.06
   },
   {
     "id": 34,
@@ -229,6 +222,13 @@
     "produto": "Mix 4 Legumes Congelado Viver 300 g",
     "preco": 8.99,
     "preco_por_kg": 2.25
+  },
+  {
+    "id": 37,
+    "supermercado": "Carrefour",
+    "produto": "Água de Coco Integral Aqua Coco Garrafa 1 L",
+    "preco": 7,
+    "preco_por_kg": 7
   },
   {
     "id": 38,
@@ -269,8 +269,8 @@
     "id": 44,
     "supermercado": "Carrefour",
     "produto": "Macarrão Espaguete de Arroz Urbano 500g",
-    "preco": 4.69,
-    "preco_por_kg": 9.38
+    "preco": 4.89,
+    "preco_por_kg": 9.78
   },
   {
     "id": 45,
@@ -297,13 +297,13 @@
     "id": 48,
     "supermercado": "Carrefour",
     "produto": "Tomate Pelado Italiano em Cubos Baronia 400g",
-    "preco": 9.99,
-    "preco_por_kg": 24.97
+    "preco": 10.39,
+    "preco_por_kg": 25.98
   },
   {
     "id": 49,
     "supermercado": "Carrefour",
-    "produto": "Molho de Tomate Predilecta sem Adição de Açúcar Tradicional Sachê 300 g",
+    "produto": "Molho de Tomate Tradicional Carrefour 300 g",
     "preco": 1.49,
     "preco_por_kg": 4.97
   },
@@ -343,13 +343,6 @@
     "preco_por_kg": 12.96
   },
   {
-    "id": 55,
-    "supermercado": "Carrefour",
-    "produto": "Amido de Milho Confiare 500g",
-    "preco": 9.29,
-    "preco_por_kg": 18.58
-  },
-  {
     "id": 56,
     "supermercado": "Carrefour",
     "produto": "Óleo de Soja Vitaliv Garrafa 900 ml",
@@ -369,6 +362,13 @@
     "produto": "Milho Verde com Palha Carrefour Unidade",
     "preco": 0.99,
     "preco_por_kg": 0.99
+  },
+  {
+    "id": 59,
+    "supermercado": "Carrefour",
+    "produto": "Seleta de Legumes Quero Lata 170g",
+    "preco": 5.79,
+    "preco_por_kg": 34.06
   },
   {
     "id": 60,
@@ -409,15 +409,15 @@
     "id": 65,
     "supermercado": "Carrefour",
     "produto": "Ketchup Tradicional Cepêra 1,01 kg",
-    "preco": 12.9,
-    "preco_por_kg": 12.77
+    "preco": 12.39,
+    "preco_por_kg": 12.27
   },
   {
     "id": 66,
     "supermercado": "Carrefour",
-    "produto": "Maionese Hellmann's Pote Leve 600 g Pague 500 g",
-    "preco": 10.99,
-    "preco_por_kg": 18.32
+    "produto": "Maionese Liza 450g",
+    "preco": 6.98,
+    "preco_por_kg": 15.51
   },
   {
     "id": 67,
@@ -434,11 +434,25 @@
     "preco_por_kg": 12.41
   },
   {
+    "id": 69,
+    "supermercado": "Carrefour",
+    "produto": "Mistura de Creme de Leite Mococa 200g",
+    "preco": 1.79,
+    "preco_por_kg": 8.95
+  },
+  {
+    "id": 70,
+    "supermercado": "Carrefour",
+    "produto": "Café em Cápsula NESCAFÉ DOLCE GUSTO Café Au Lait 10 Cápsulas",
+    "preco": 16.79,
+    "preco_por_kg": 16.79
+  },
+  {
     "id": 71,
     "supermercado": "Carrefour",
-    "produto": "Café Torrado Moído Tradicional Pouch União 500g",
-    "preco": 22.9,
-    "preco_por_kg": 45.8
+    "produto": "Café em Pó a Vácuo Tradicional 3 Corações 500g",
+    "preco": 24.79,
+    "preco_por_kg": 49.58
   },
   {
     "id": 72,
@@ -478,9 +492,9 @@
   {
     "id": 77,
     "supermercado": "Carrefour",
-    "produto": "Tapioca Carrefour 500g",
-    "preco": 5.97,
-    "preco_por_kg": 11.94
+    "produto": "Tapioca Carrefour 1kg",
+    "preco": 9.98,
+    "preco_por_kg": 9.98
   },
   {
     "id": 78,
@@ -639,16 +653,16 @@
   {
     "id": 100,
     "supermercado": "Carrefour",
-    "produto": "Sabonete Líquido Suavidade Delicada Corporal Palmolive Naturals Sachê 200ml Refil",
-    "preco": 4.59,
-    "preco_por_kg": 22.95
+    "produto": "Sabonete Líquido para as Mãos Palmolive Naturals Suavidade Delicada 900ml",
+    "preco": 22.09,
+    "preco_por_kg": 24.54
   },
   {
     "id": 101,
     "supermercado": "Carrefour",
-    "produto": "Sabonete Líquido Suavidade Delicada Corporal Palmolive Naturals Sachê 200ml Refil",
-    "preco": 4.59,
-    "preco_por_kg": 22.95
+    "produto": "Kit Sabonete em Barra Hidratação Refrescante Melancia e Lichia Palmolive Naturals 510g 6 Unidades",
+    "preco": 16.79,
+    "preco_por_kg": 32.92
   },
   {
     "id": 102,
@@ -681,9 +695,9 @@
   {
     "id": 106,
     "supermercado": "Carrefour",
-    "produto": "Pano para Pia em Algodão Alvejado Carrefour Pequeno",
-    "preco": 6.98,
-    "preco_por_kg": 6.98
+    "produto": "Pano Capa Rodo Algodão 40x50 Carrefour",
+    "preco": 5.98,
+    "preco_por_kg": 5.98
   },
   {
     "id": 107,
