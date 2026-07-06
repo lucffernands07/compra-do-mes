@@ -3,8 +3,8 @@
     "id": 2,
     "supermercado": "Carrefour",
     "produto": "Ovo Branco Jumbo King Iana com 10 unidades",
-    "preco": 4.99,
-    "preco_por_kg": 4.99
+    "preco": 8.99,
+    "preco_por_kg": 8.99
   },
   {
     "id": 3,
@@ -63,11 +63,18 @@
     "preco_por_kg": 37.93
   },
   {
+    "id": 12,
+    "supermercado": "Carrefour",
+    "produto": "Abobrinha Italiana Carrefour Aprox. 400g",
+    "preco": 2.39,
+    "preco_por_kg": 5.97
+  },
+  {
     "id": 13,
     "supermercado": "Carrefour",
-    "produto": "Beterraba Carrefour Aprox. 300g",
-    "preco": 2.06,
-    "preco_por_kg": 6.87
+    "produto": "Beterraba Único 1Kg",
+    "preco": 5.49,
+    "preco_por_kg": 5.49
   },
   {
     "id": 14,
@@ -224,13 +231,6 @@
     "preco_por_kg": 2.25
   },
   {
-    "id": 37,
-    "supermercado": "Carrefour",
-    "produto": "Água de Coco Integral Aqua Coco Garrafa 1 L",
-    "preco": 7,
-    "preco_por_kg": 7
-  },
-  {
     "id": 38,
     "supermercado": "Carrefour",
     "produto": "Leite Fermentado Yakult 40 light 80g 6 Unidades",
@@ -254,9 +254,9 @@
   {
     "id": 42,
     "supermercado": "Carrefour",
-    "produto": "Arroz Branco Longo-fino Tipo 1 Namorado 5Kg",
-    "preco": 16.49,
-    "preco_por_kg": 3.3
+    "produto": "Arroz Branco Camil Tipo 1 5kg",
+    "preco": 20.49,
+    "preco_por_kg": 4.1
   },
   {
     "id": 43,
@@ -343,6 +343,13 @@
     "preco_por_kg": 12.96
   },
   {
+    "id": 55,
+    "supermercado": "Carrefour",
+    "produto": "Amido de Milho Confiare 500g",
+    "preco": 9.29,
+    "preco_por_kg": 18.58
+  },
+  {
     "id": 56,
     "supermercado": "Carrefour",
     "produto": "Óleo de Soja Vitaliv Garrafa 900 ml",
@@ -362,13 +369,6 @@
     "produto": "Milho Verde com Palha Carrefour Unidade",
     "preco": 0.99,
     "preco_por_kg": 0.99
-  },
-  {
-    "id": 59,
-    "supermercado": "Carrefour",
-    "produto": "Seleta de Legumes Quero Lata 170g",
-    "preco": 5.79,
-    "preco_por_kg": 34.06
   },
   {
     "id": 60,
@@ -423,8 +423,8 @@
     "id": 67,
     "supermercado": "Carrefour",
     "produto": "Mostarda Amarela Cepêra Garrafa 1,01 kg",
-    "preco": 11.29,
-    "preco_por_kg": 11.18
+    "preco": 10.89,
+    "preco_por_kg": 10.78
   },
   {
     "id": 68,
@@ -462,13 +462,6 @@
     "preco_por_kg": 4.59
   },
   {
-    "id": 73,
-    "supermercado": "Carrefour",
-    "produto": "Pipoca para Micro-Ondas Manteiga de Cinema Yoki Pacote 100g",
-    "preco": 3.79,
-    "preco_por_kg": 37.9
-  },
-  {
     "id": 74,
     "supermercado": "Carrefour",
     "produto": "Macarrão Instantâneo a Base de Arroz Bifum Sabor Carne 67g",
@@ -481,13 +474,6 @@
     "produto": "Flocão de Milho Urbano Com 500g",
     "preco": 2.29,
     "preco_por_kg": 4.58
-  },
-  {
-    "id": 76,
-    "supermercado": "Carrefour",
-    "produto": "Pão de Forma Seven Boys 450g",
-    "preco": 5.98,
-    "preco_por_kg": 13.29
   },
   {
     "id": 77,
@@ -513,9 +499,9 @@
   {
     "id": 80,
     "supermercado": "Carrefour",
-    "produto": "Limpador Perfumado Veja Lavanda da França - 2L",
-    "preco": 14.39,
-    "preco_por_kg": 7.2
+    "produto": "Limpador Perfumado Chá Branco Ypê Perfumes Frasco 1l",
+    "preco": 3.99,
+    "preco_por_kg": 3.99
   },
   {
     "id": 81,
@@ -570,22 +556,22 @@
     "id": 88,
     "supermercado": "Carrefour",
     "produto": "Amaciante Ypê Ultra Intenso 2 Litros",
-    "preco": 8.99,
-    "preco_por_kg": 4.5
+    "preco": 7.19,
+    "preco_por_kg": 3.6
   },
   {
     "id": 89,
     "supermercado": "Carrefour",
-    "produto": "Detergente Líquido Carrefour Clear 500ml",
-    "preco": 2.09,
-    "preco_por_kg": 4.18
+    "produto": "Detergente Liquido Clear Ype 5 L",
+    "preco": 20.71,
+    "preco_por_kg": 4.14
   },
   {
     "id": 90,
     "supermercado": "Carrefour",
     "produto": "Limpador Multiuso Ypê Desengordurante 500ml",
-    "preco": 3.99,
-    "preco_por_kg": 7.98
+    "preco": 3.19,
+    "preco_por_kg": 6.38
   },
   {
     "id": 91,
@@ -633,8 +619,8 @@
     "id": 97,
     "supermercado": "Carrefour",
     "produto": "Detergente Sanitário Pastilha Adesivo Floral Pato 3 Unidades",
-    "preco": 6.99,
-    "preco_por_kg": 6.99
+    "preco": 11.19,
+    "preco_por_kg": 11.19
   },
   {
     "id": 98,
@@ -656,13 +642,6 @@
     "produto": "Sabonete Líquido para as Mãos Palmolive Naturals Suavidade Delicada 900ml",
     "preco": 22.09,
     "preco_por_kg": 24.54
-  },
-  {
-    "id": 101,
-    "supermercado": "Carrefour",
-    "produto": "Kit Sabonete em Barra Hidratação Refrescante Melancia e Lichia Palmolive Naturals 510g 6 Unidades",
-    "preco": 16.79,
-    "preco_por_kg": 32.92
   },
   {
     "id": 102,
