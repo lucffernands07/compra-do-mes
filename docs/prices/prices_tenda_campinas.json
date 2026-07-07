@@ -3,15 +3,22 @@
     "id": 1,
     "supermercado": "Tenda",
     "produto": "Fórmula Infantil Nanlac Comfor 800g",
-    "preco": 75.906452,
-    "preco_por_kg": 94.88
+    "preco": 77.906622,
+    "preco_por_kg": 97.38
+  },
+  {
+    "id": 2,
+    "supermercado": "Tenda",
+    "produto": "Ovos Grandes Brancos Select - Pacote com 10 Unidades",
+    "preco": 9.8,
+    "preco_por_kg": 9.8
   },
   {
     "id": 3,
     "supermercado": "Tenda",
-    "produto": "Batata Congelada Batataria 2kg",
-    "preco": 19.9,
-    "preco_por_kg": 9.95
+    "produto": "Batata Palito Congelada Uai - 2kg",
+    "preco": 18.9,
+    "preco_por_kg": 9.45
   },
   {
     "id": 4,
@@ -51,16 +58,16 @@
   {
     "id": 9,
     "supermercado": "Tenda",
-    "produto": "Tempero Completo com Pimenta Arisco 1kg",
-    "preco": 15.5,
-    "preco_por_kg": 15.5
+    "produto": "Pimentão Verde Saco 440g",
+    "preco": 5.24,
+    "preco_por_kg": 11.91
   },
   {
     "id": 10,
     "supermercado": "Tenda",
     "produto": "Refrigerante Limão Frutuba 2L",
-    "preco": 3.49,
-    "preco_por_kg": 1.75
+    "preco": 3.29,
+    "preco_por_kg": 1.65
   },
   {
     "id": 11,
@@ -94,148 +101,22 @@
     "id": 15,
     "supermercado": "Tenda",
     "produto": "Gengibre Unidade",
-    "preco": 1.15,
-    "preco_por_kg": 1.15
-  },
-  {
-    "id": 16,
-    "supermercado": "Tenda",
-    "produto": "Cenoura Saco 1kg",
-    "preco": 7.99,
-    "preco_por_kg": 7.99
-  },
-  {
-    "id": 17,
-    "supermercado": "Tenda",
-    "produto": "Chuchu Unidade",
-    "preco": 1.85,
-    "preco_por_kg": 1.85
-  },
-  {
-    "id": 18,
-    "supermercado": "Tenda",
-    "produto": "Mandioca 500g",
-    "preco": 1.75,
-    "preco_por_kg": 3.5
-  },
-  {
-    "id": 19,
-    "supermercado": "Tenda",
-    "produto": "Cheiro Verde Maço Unidade",
-    "preco": 3.99,
-    "preco_por_kg": 3.99
-  },
-  {
-    "id": 20,
-    "supermercado": "Tenda",
-    "produto": "Alface Roxa Unidade",
-    "preco": 3.99,
-    "preco_por_kg": 3.99
-  },
-  {
-    "id": 21,
-    "supermercado": "Tenda",
-    "produto": "Repolho Verde Unidade",
-    "preco": 5.43,
-    "preco_por_kg": 5.43
-  },
-  {
-    "id": 22,
-    "supermercado": "Tenda",
-    "produto": "Alho Resfriado Descascado Fast Garlic - Pacote 1kg",
-    "preco": 23.9,
-    "preco_por_kg": 23.9
-  },
-  {
-    "id": 23,
-    "supermercado": "Tenda",
-    "produto": "Mamão Papaya Unidade",
-    "preco": 4.79,
-    "preco_por_kg": 4.79
-  },
-  {
-    "id": 24,
-    "supermercado": "Tenda",
-    "produto": "Banana Nanica Unidade",
-    "preco": 0.91,
-    "preco_por_kg": 0.91
-  },
-  {
-    "id": 25,
-    "supermercado": "Tenda",
-    "produto": "Refrigerante Sabor Uva Dolly 2L",
-    "preco": 5.49,
-    "preco_por_kg": 2.75
-  },
-  {
-    "id": 26,
-    "supermercado": "Tenda",
-    "produto": "Macarrão Instantâneo Lámen Feijão Bacon Renata 96g",
-    "preco": 1.69,
-    "preco_por_kg": 17.6
-  },
-  {
-    "id": 27,
-    "supermercado": "Tenda",
-    "produto": "Mexerica Ponkan 220g",
-    "preco": 0.88,
-    "preco_por_kg": 4
-  },
-  {
-    "id": 28,
-    "supermercado": "Tenda",
-    "produto": "Margarina com Sal Dualis 500g",
-    "preco": 4.09,
-    "preco_por_kg": 8.18
-  },
-  {
-    "id": 29,
-    "supermercado": "Tenda",
-    "produto": "Leite Semidesnatado Zero Lactose Jussara 1L",
-    "preco": 5.49,
-    "preco_por_kg": 5.49
-  },
-  {
-    "id": 30,
-    "supermercado": "Tenda",
-    "produto": "Requeijão Cremoso Tirolez Zero Lactose 370g",
-    "preco": 16.9,
-    "preco_por_kg": 45.68
-  },
-  {
-    "id": 31,
-    "supermercado": "Tenda",
-    "produto": "Queijo Mussarela Peça Lactovale 4kg",
-    "preco": 143.6,
-    "preco_por_kg": 35.9
-  },
-  {
-    "id": 32,
-    "supermercado": "Tenda",
-    "produto": "Presunto Cozido Perdigao sem Capa Fatiado 400g",
-    "preco": 9.16,
-    "preco_por_kg": 22.9
-  },
-  {
-    "id": 33,
-    "supermercado": "Tenda",
-    "produto": "Mortadela Estrelinha 400g",
-    "preco": 3.99,
-    "preco_por_kg": 9.97
+    "preco": 1.03,
+    "preco_por_kg": 1.03
   },
   {
     "id": 34,
     "supermercado": "Tenda",
-    "produto": "Batata Congelada Batataria 2kg",
-    "preco": 19.9,
-    "preco_por_kg": 9.95
+    "produto": "Batata Congelada Select 2kg",
+    "preco": 17.9,
+    "preco_por_kg": 8.95
   },
   {
     "id": 35,
     "supermercado": "Tenda",
     "produto": "Mandioca 500g",
-    "preco": 1.75,
-    "preco_por_kg": 3.5
+    "preco": 1.5,
+    "preco_por_kg": 3
   },
   {
     "id": 36,
@@ -261,9 +142,9 @@
   {
     "id": 39,
     "supermercado": "Tenda",
-    "produto": "Iogurte Select Polpa de Morango 480g",
-    "preco": 5.09,
-    "preco_por_kg": 10.6
+    "produto": "Polpa Láctea Vigor Morango 480g",
+    "preco": 4.89,
+    "preco_por_kg": 10.19
   },
   {
     "id": 40,
@@ -304,8 +185,8 @@
     "id": 45,
     "supermercado": "Tenda",
     "produto": "Macarrão com Ovos Penne Select 500g",
-    "preco": 3.1,
-    "preco_por_kg": 6.2
+    "preco": 2.79,
+    "preco_por_kg": 5.58
   },
   {
     "id": 46,
@@ -380,9 +261,9 @@
   {
     "id": 56,
     "supermercado": "Tenda",
-    "produto": "Óleo do Soja Vitaliv 900ml",
-    "preco": 6.75,
-    "preco_por_kg": 7.5
+    "produto": "Óleo de Soja Coamo 900ml",
+    "preco": 6.59,
+    "preco_por_kg": 7.32
   },
   {
     "id": 57,
@@ -408,9 +289,9 @@
   {
     "id": 60,
     "supermercado": "Tenda",
-    "produto": "Sardinha em Óleo Coqueiro 125g",
-    "preco": 3.69,
-    "preco_por_kg": 29.52
+    "produto": "Sardinha Ralada em Óleo 88 110g",
+    "preco": 4.29,
+    "preco_por_kg": 39
   },
   {
     "id": 61,
@@ -464,37 +345,37 @@
   {
     "id": 68,
     "supermercado": "Tenda",
-    "produto": "Leite Condensado Semidesnatado Campos do Jordão 395g",
-    "preco": 3.69,
-    "preco_por_kg": 9.34
+    "produto": "Iogurte Sabor Morango com Leite Condensado Frutap 1,25kg",
+    "preco": 12.9,
+    "preco_por_kg": 10.32
   },
   {
     "id": 69,
     "supermercado": "Tenda",
-    "produto": "Mistura Láctea Creme de Leite Daus 200g",
-    "preco": 1.69,
-    "preco_por_kg": 8.45
+    "produto": "Mistura Láctea Creme de Leite Mococa 200g",
+    "preco": 1.95,
+    "preco_por_kg": 9.75
   },
   {
     "id": 70,
     "supermercado": "Tenda",
-    "produto": "Capsula de Cafe com Leite 3 Corações 10 unid",
-    "preco": 18.9,
-    "preco_por_kg": 18.9
+    "produto": "Capsula de Café Espresso Pleno 3 Corações 10 unid",
+    "preco": 16.9,
+    "preco_por_kg": 16.9
   },
   {
     "id": 71,
     "supermercado": "Tenda",
     "produto": "Café Tradicional Caboclo 500g",
-    "preco": 19.9,
-    "preco_por_kg": 39.8
+    "preco": 20.9,
+    "preco_por_kg": 41.8
   },
   {
     "id": 72,
     "supermercado": "Tenda",
-    "produto": "Chá Ice Tea Midsugar Limão Leão 1,5L",
-    "preco": 8.59,
-    "preco_por_kg": 5.73
+    "produto": "Chá Mate Limão Matte Leão Garrafa 1,5L",
+    "preco": 8.69,
+    "preco_por_kg": 5.79
   },
   {
     "id": 73,
@@ -604,9 +485,9 @@
   {
     "id": 89,
     "supermercado": "Tenda",
-    "produto": "Detergente Ypê Neutro 5l Embalagem Econômica",
-    "preco": 21.5,
-    "preco_por_kg": 4.3
+    "produto": "Detergente Ypê Maçã 500ml",
+    "preco": 1.99,
+    "preco_por_kg": 3.98
   },
   {
     "id": 90,
@@ -647,15 +528,15 @@
     "id": 95,
     "supermercado": "Tenda",
     "produto": "Fralda Descartável Infantil Confort Sec Pampers XG 58 Unidades",
-    "preco": 99.89,
-    "preco_por_kg": 99.89
+    "preco": 89.9,
+    "preco_por_kg": 89.9
   },
   {
     "id": 96,
     "supermercado": "Tenda",
     "produto": "Papel Higiênico Folha Simples Sublime 30m Leve 12 Pague 11",
-    "preco": 12.9,
-    "preco_por_kg": 12.9
+    "preco": 12.49,
+    "preco_por_kg": 12.49
   },
   {
     "id": 97,
@@ -682,22 +563,22 @@
     "id": 100,
     "supermercado": "Tenda",
     "produto": "Sabonete Líquido Dex Softfix Neutro - 1,9L",
-    "preco": 13.3,
-    "preco_por_kg": 7
+    "preco": 11.89,
+    "preco_por_kg": 6.26
   },
   {
     "id": 101,
     "supermercado": "Tenda",
-    "produto": "Sabonete Siene Proteínas do Leite 85g",
-    "preco": 0.89,
-    "preco_por_kg": 10.47
+    "produto": "Sabonete Hidratante Erva Doce Nivea 85g",
+    "preco": 1.95,
+    "preco_por_kg": 22.94
   },
   {
     "id": 102,
     "supermercado": "Tenda",
     "produto": "Sabonete Líquido Perfuminho para Bebê 1,9L- Dex",
-    "preco": 13.3,
-    "preco_por_kg": 7
+    "preco": 11.89,
+    "preco_por_kg": 6.26
   },
   {
     "id": 103,
@@ -751,15 +632,15 @@
   {
     "id": 110,
     "supermercado": "Tenda",
-    "produto": "Fubá Mimoso PQ 5kg",
-    "preco": 18.9,
-    "preco_por_kg": 3.78
+    "produto": "Fubá Mimoso PQ 1kg",
+    "preco": 3.49,
+    "preco_por_kg": 3.49
   },
   {
     "id": 111,
     "supermercado": "Tenda",
-    "produto": "Alimento para Gatos Yuppie Peixe 1kg",
-    "preco": 11.5,
-    "preco_por_kg": 11.5
+    "produto": "Alimento para Gatos Castrados Select 1kg",
+    "preco": 9.9,
+    "preco_por_kg": 9.9
   }
 ]
