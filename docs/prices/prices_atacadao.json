@@ -17,8 +17,8 @@
     "id": 4,
     "supermercado": "Atacadão",
     "produto": "Cebola 19kg",
-    "preco": 119.9,
-    "preco_por_kg": 6.31
+    "preco": 84.9,
+    "preco_por_kg": 4.47
   },
   {
     "id": 5,
@@ -94,8 +94,8 @@
     "id": 16,
     "supermercado": "Atacadão",
     "produto": "Mistura para Bolo Itaiquara Cenoura 390g",
-    "preco": 2.28,
-    "preco_por_kg": 5.85
+    "preco": 1.99,
+    "preco_por_kg": 5.1
   },
   {
     "id": 17,
@@ -114,9 +114,9 @@
   {
     "id": 19,
     "supermercado": "Atacadão",
-    "produto": "Cheiro-Verde un",
-    "preco": 3.99,
-    "preco_por_kg": 3.99
+    "produto": "Salsa Cheiro-verde Maço",
+    "preco": 4.19,
+    "preco_por_kg": 4.19
   },
   {
     "id": 20,
@@ -128,9 +128,9 @@
   {
     "id": 22,
     "supermercado": "Atacadão",
-    "produto": "Alho Descascado Natari 500g",
-    "preco": 13.5,
-    "preco_por_kg": 27
+    "produto": "Alho Descascado 1kg",
+    "preco": 23.9,
+    "preco_por_kg": 23.9
   },
   {
     "id": 23,
@@ -156,23 +156,23 @@
   {
     "id": 26,
     "supermercado": "Atacadão",
-    "produto": "Detergente Líquido Ypê Maçã 500ml",
-    "preco": 2.39,
-    "preco_por_kg": 4.78
+    "produto": "Detergente Líquido Limpol Maçã 500ml",
+    "preco": 1.99,
+    "preco_por_kg": 3.98
   },
   {
     "id": 28,
     "supermercado": "Atacadão",
     "produto": "Margarina Primor Com Sal 15kg",
-    "preco": 159.9,
-    "preco_por_kg": 10.66
+    "preco": 154,
+    "preco_por_kg": 10.27
   },
   {
     "id": 29,
     "supermercado": "Atacadão",
-    "produto": "Leite Longa Vida Ninho Zero Lactose 1L",
-    "preco": 5.69,
-    "preco_por_kg": 5.69
+    "produto": "Leite Longa Vida Italac Zero Lactose Semidesnatado 1L",
+    "preco": 5.79,
+    "preco_por_kg": 5.79
   },
   {
     "id": 30,
@@ -184,9 +184,9 @@
   {
     "id": 31,
     "supermercado": "Atacadão",
-    "produto": "Queijo Mussarela Fatiado Ipanema Zero Lactose 150g",
-    "preco": 5.99,
-    "preco_por_kg": 39.93
+    "produto": "Queijo Mussarela Piracanjuba Fatiado 500g",
+    "preco": 24.9,
+    "preco_por_kg": 49.8
   },
   {
     "id": 32,
@@ -240,16 +240,23 @@
   {
     "id": 39,
     "supermercado": "Atacadão",
-    "produto": "Bebida Láctea Polpa Itambé Morango 540g",
-    "preco": 5.29,
-    "preco_por_kg": 9.8
+    "produto": "Bebida Láctea Polpa Elegê Morango e Coco 510g",
+    "preco": 3.99,
+    "preco_por_kg": 7.82
+  },
+  {
+    "id": 40,
+    "supermercado": "Atacadão",
+    "produto": "Polpa de Fruta Brasfrut Congelada Acerola 100g",
+    "preco": 1.85,
+    "preco_por_kg": 18.5
   },
   {
     "id": 41,
     "supermercado": "Atacadão",
-    "produto": "Polpa de Fruta Polpanorte Cong Abacaxi com hortelã 100g",
-    "preco": 2.05,
-    "preco_por_kg": 20.5
+    "produto": "Polpa de Fruta Brasfrut Cong Abacaxi com hortelã 100g",
+    "preco": 1.99,
+    "preco_por_kg": 19.9
   },
   {
     "id": 42,
@@ -276,8 +283,8 @@
     "id": 45,
     "supermercado": "Atacadão",
     "produto": "Macarrão com Ovos Dona Benta Penne 500g",
-    "preco": 3.09,
-    "preco_por_kg": 6.18
+    "preco": 2.49,
+    "preco_por_kg": 4.98
   },
   {
     "id": 46,
@@ -301,6 +308,13 @@
     "preco_por_kg": 18.32
   },
   {
+    "id": 49,
+    "supermercado": "Atacadão",
+    "produto": "Molho de Tomate Tomadoro 300g",
+    "preco": 1.19,
+    "preco_por_kg": 3.97
+  },
+  {
     "id": 50,
     "supermercado": "Atacadão",
     "produto": "Azeite de Oliva Andorinha 500ml",
@@ -322,11 +336,18 @@
     "preco_por_kg": 6.63
   },
   {
+    "id": 53,
+    "supermercado": "Atacadão",
+    "produto": "Extrato de Tomate Ajinomoto 2kg",
+    "preco": 28.5,
+    "preco_por_kg": 14.25
+  },
+  {
     "id": 54,
     "supermercado": "Atacadão",
-    "produto": "Farinha de Mandioca Campo Belo Temperada 250g",
-    "preco": 3.29,
-    "preco_por_kg": 13.16
+    "produto": "Farinha de Mandioca Yoki Temperada 800g",
+    "preco": 6.98,
+    "preco_por_kg": 8.72
   },
   {
     "id": 55,
@@ -338,23 +359,23 @@
   {
     "id": 56,
     "supermercado": "Atacadão",
-    "produto": "Óleo de Soja Vitaliv 900ml",
-    "preco": 6.35,
-    "preco_por_kg": 7.06
+    "produto": "Óleo de Soja Soya 900ml",
+    "preco": 6.29,
+    "preco_por_kg": 6.99
   },
   {
     "id": 57,
     "supermercado": "Atacadão",
-    "produto": "Vinagre de Álcool Vitalia 750ml",
-    "preco": 1.75,
-    "preco_por_kg": 2.33
+    "produto": "Vinagre de Álcool Peixe 750ml",
+    "preco": 1.29,
+    "preco_por_kg": 1.72
   },
   {
     "id": 58,
     "supermercado": "Atacadão",
     "produto": "Milho Verde un",
-    "preco": 1.39,
-    "preco_por_kg": 1.39
+    "preco": 1.59,
+    "preco_por_kg": 1.59
   },
   {
     "id": 59,
@@ -387,9 +408,9 @@
   {
     "id": 63,
     "supermercado": "Atacadão",
-    "produto": "Sal Lebre Refinado 1kg",
-    "preco": 2.99,
-    "preco_por_kg": 2.99
+    "produto": "Sal Cisne Refinado Extra 1kg",
+    "preco": 2.29,
+    "preco_por_kg": 2.29
   },
   {
     "id": 64,
@@ -402,15 +423,15 @@
     "id": 65,
     "supermercado": "Atacadão",
     "produto": "Ketchup Cepêra 3,5kg",
-    "preco": 28.9,
-    "preco_por_kg": 8.26
+    "preco": 26.8,
+    "preco_por_kg": 7.66
   },
   {
     "id": 66,
     "supermercado": "Atacadão",
     "produto": "Maionese Vigor 500g",
-    "preco": 4.99,
-    "preco_por_kg": 9.98
+    "preco": 5.99,
+    "preco_por_kg": 11.98
   },
   {
     "id": 67,
@@ -429,7 +450,7 @@
   {
     "id": 69,
     "supermercado": "Atacadão",
-    "produto": "Creme de Leite Casaberta 200g",
+    "produto": "Creme de Leite Damare Leve 200g",
     "preco": 1.99,
     "preco_por_kg": 9.95
   },
@@ -443,9 +464,9 @@
   {
     "id": 71,
     "supermercado": "Atacadão",
-    "produto": "Café Jardim Tradicional Pouch 500g",
-    "preco": 17.9,
-    "preco_por_kg": 35.8
+    "produto": "Café Bom Jesus Tradicional 500g",
+    "preco": 18.9,
+    "preco_por_kg": 37.8
   },
   {
     "id": 72,
@@ -493,8 +514,8 @@
     "id": 79,
     "supermercado": "Atacadão",
     "produto": "Desinfetante Álcool Líquido Tupi Zerobac 46°INPM 1L",
-    "preco": 7.9,
-    "preco_por_kg": 7.9
+    "preco": 6.5,
+    "preco_por_kg": 6.5
   },
   {
     "id": 80,
@@ -521,8 +542,8 @@
     "id": 83,
     "supermercado": "Atacadão",
     "produto": "Lâmpada Ledvance 9W Bivolt un",
-    "preco": 2.29,
-    "preco_por_kg": 2.29
+    "preco": 1.89,
+    "preco_por_kg": 1.89
   },
   {
     "id": 84,
@@ -541,9 +562,9 @@
   {
     "id": 86,
     "supermercado": "Atacadão",
-    "produto": "Água Sanitária Suprema 5L",
-    "preco": 10.99,
-    "preco_por_kg": 2.2
+    "produto": "Água Sanitária Suprema 2L",
+    "preco": 3.89,
+    "preco_por_kg": 1.95
   },
   {
     "id": 87,
@@ -569,7 +590,7 @@
   {
     "id": 90,
     "supermercado": "Atacadão",
-    "produto": "Limpador Multiuso Ypê Tira Manchas 500ml",
+    "produto": "Limpador Multiuso Ypê Desengordurante 500ml",
     "preco": 3.67,
     "preco_por_kg": 7.34
   },
@@ -588,6 +609,13 @@
     "preco_por_kg": 2.58
   },
   {
+    "id": 93,
+    "supermercado": "Atacadão",
+    "produto": "Esponja Multiuso Bulnez un",
+    "preco": 0.59,
+    "preco_por_kg": 0.59
+  },
+  {
     "id": 94,
     "supermercado": "Atacadão",
     "produto": "Esponja Multiuso Bombril un",
@@ -595,11 +623,18 @@
     "preco_por_kg": 1.65
   },
   {
+    "id": 95,
+    "supermercado": "Atacadão",
+    "produto": "Fralda Descartável Bulnez XG 24 un",
+    "preco": 18.9,
+    "preco_por_kg": 18.9
+  },
+  {
     "id": 96,
     "supermercado": "Atacadão",
     "produto": "Papel Higiênico Personal Vip Folha Dupla - 30m 4 rolos",
-    "preco": 6.32,
-    "preco_por_kg": 6.32
+    "preco": 6.14,
+    "preco_por_kg": 6.14
   },
   {
     "id": 97,
@@ -618,9 +653,23 @@
   {
     "id": 99,
     "supermercado": "Atacadão",
-    "produto": "Creme Dental Sorriso Tripla Limpeza Completa 70g",
-    "preco": 2.22,
-    "preco_por_kg": 31.71
+    "produto": "Creme Dental Closeup Tripla Proteção Menta 70g",
+    "preco": 2.49,
+    "preco_por_kg": 35.57
+  },
+  {
+    "id": 100,
+    "supermercado": "Atacadão",
+    "produto": "Sabonete Líquido Tacto Erva Doce 5L",
+    "preco": 26.9,
+    "preco_por_kg": 5.38
+  },
+  {
+    "id": 101,
+    "supermercado": "Atacadão",
+    "produto": "Sabonete Líquido Tacto Erva Doce 5L",
+    "preco": 26.9,
+    "preco_por_kg": 5.38
   },
   {
     "id": 102,
@@ -660,9 +709,9 @@
   {
     "id": 107,
     "supermercado": "Atacadão",
-    "produto": "Listerine Cool Mint Enxaguante Bucal 1,5L",
-    "preco": 45.9,
-    "preco_por_kg": 30.6
+    "produto": "Antisséptico Bucal Listerine Cool Mint 500ml",
+    "preco": 13.89,
+    "preco_por_kg": 27.78
   },
   {
     "id": 108,
