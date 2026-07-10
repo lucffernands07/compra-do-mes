@@ -9,9 +9,9 @@
   {
     "id": 4,
     "supermercado": "Giga",
-    "produto": "Cebola Roxa Nacional",
-    "preco": 6.5,
-    "preco_por_kg": 6.5
+    "produto": "Cebola Nacional",
+    "preco": 6.69,
+    "preco_por_kg": 6.69
   },
   {
     "id": 5,
@@ -23,9 +23,9 @@
   {
     "id": 6,
     "supermercado": "Giga",
-    "produto": "Pimentão Verde",
-    "preco": 8.9,
-    "preco_por_kg": 8.9
+    "produto": "Pimentão Verde Seleção Giga",
+    "preco": 11.59,
+    "preco_por_kg": 11.59
   },
   {
     "id": 7,
@@ -44,16 +44,16 @@
   {
     "id": 9,
     "supermercado": "Giga",
-    "produto": "Pimentão Verde",
-    "preco": 8.9,
-    "preco_por_kg": 8.9
+    "produto": "Pimentão Verde Seleção Giga",
+    "preco": 11.59,
+    "preco_por_kg": 11.59
   },
   {
     "id": 10,
     "supermercado": "Giga",
-    "produto": "Refresco Em Pó Limão Frisco Pacote 18g",
-    "preco": 1.06,
-    "preco_por_kg": 1.06
+    "produto": "Refresco Em Pó Baunilha Com Limão Mid Pacote 20g",
+    "preco": 0.99,
+    "preco_por_kg": 0.99
   },
   {
     "id": 12,
@@ -145,13 +145,6 @@
     "produto": "Maçã Gala Nacional",
     "preco": 9.98,
     "preco_por_kg": 9.98
-  },
-  {
-    "id": 27,
-    "supermercado": "Giga",
-    "produto": "Mexericam Morgote",
-    "preco": 7.9,
-    "preco_por_kg": 7.9
   },
   {
     "id": 28,
@@ -247,9 +240,9 @@
   {
     "id": 49,
     "supermercado": "Giga",
-    "produto": "Molho De Tomate Pomarola Sache 300g Tradicional",
-    "preco": 3.29,
-    "preco_por_kg": 3.29
+    "produto": "Molho De Tomate Tradicional Fugini Sachê 300g",
+    "preco": 1.89,
+    "preco_por_kg": 1.89
   },
   {
     "id": 50,
@@ -268,9 +261,9 @@
   {
     "id": 52,
     "supermercado": "Giga",
-    "produto": "Molho De Tomate Pomarola Sache 300g Tradicional",
-    "preco": 3.29,
-    "preco_por_kg": 3.29
+    "produto": "Molho De Tomate Tradicional Fugini Sachê 300g",
+    "preco": 1.89,
+    "preco_por_kg": 1.89
   },
   {
     "id": 56,
@@ -289,9 +282,9 @@
   {
     "id": 58,
     "supermercado": "Giga",
-    "produto": "Milho Verde Em Conserva Quero 1,7Kg",
-    "preco": 35.9,
-    "preco_por_kg": 35.9
+    "produto": "Sachê Milho Verde Fugini 170G",
+    "preco": 3.19,
+    "preco_por_kg": 3.19
   },
   {
     "id": 61,
@@ -324,9 +317,9 @@
   {
     "id": 68,
     "supermercado": "Giga",
-    "produto": "Leite De Coco Sabor Nordeste 200Ml",
-    "preco": 4.99,
-    "preco_por_kg": 4.99
+    "produto": "Leite Condensado Integral Moça Lata 395g Grátis 15%",
+    "preco": 8.69,
+    "preco_por_kg": 8.69
   },
   {
     "id": 69,
@@ -357,6 +350,13 @@
     "preco_por_kg": 15.99
   },
   {
+    "id": 77,
+    "supermercado": "Giga",
+    "produto": "Massa Para Tapioca Terrinha 500G",
+    "preco": 7.3,
+    "preco_por_kg": 7.3
+  },
+  {
     "id": 78,
     "supermercado": "Giga",
     "produto": "Desinfetante Uso Geral Original Lysoform 2L",
@@ -369,6 +369,13 @@
     "produto": "Vinagre Álcool Castelo 750Ml",
     "preco": 4.25,
     "preco_por_kg": 4.25
+  },
+  {
+    "id": 80,
+    "supermercado": "Giga",
+    "produto": "Limpador Diluível Festa Das Flores Bouquet De Flores Ajax 1L",
+    "preco": 12.05,
+    "preco_por_kg": 12.05
   },
   {
     "id": 84,
@@ -395,8 +402,8 @@
     "id": 87,
     "supermercado": "Giga",
     "produto": "Lava Roupas Em Pó Concentrado Antibacteriano Tixan Ypê 1,6Kg",
-    "preco": 20.95,
-    "preco_por_kg": 20.95
+    "preco": 20.25,
+    "preco_por_kg": 20.25
   },
   {
     "id": 88,
@@ -408,9 +415,9 @@
   {
     "id": 89,
     "supermercado": "Giga",
-    "produto": "Detergente Ypê Clear 5L",
-    "preco": 26.7,
-    "preco_por_kg": 26.7
+    "produto": "Detergente Sanitário Pastilha Adesiva Citrus Pato 3 Unidades Oferta Especial",
+    "preco": 8.69,
+    "preco_por_kg": 8.69
   },
   {
     "id": 90,
@@ -418,6 +425,13 @@
     "produto": "Limpador Multiuso Veja Gold Original 750Ml Embalagem Econômica",
     "preco": 7.49,
     "preco_por_kg": 7.49
+  },
+  {
+    "id": 91,
+    "supermercado": "Giga",
+    "produto": "Limpador Diluível Festa Das Flores Bouquet De Flores Ajax 1L",
+    "preco": 12.05,
+    "preco_por_kg": 12.05
   },
   {
     "id": 92,
@@ -443,9 +457,9 @@
   {
     "id": 99,
     "supermercado": "Giga",
-    "produto": "Creme Dental Colgate Pro Alivio Imediato Extreme Com 3 Unidades Leve Mais Pague Menos 70G",
-    "preco": 27.95,
-    "preco_por_kg": 27.95
+    "produto": "Creme Dental Total 12 Carvão Ativado Colgate 220G",
+    "preco": 18.45,
+    "preco_por_kg": 18.45
   },
   {
     "id": 100,
