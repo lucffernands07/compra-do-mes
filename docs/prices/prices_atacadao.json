@@ -2,9 +2,9 @@
   {
     "id": 2,
     "supermercado": "Atacadão",
-    "produto": "Ovo Branco Mantiqueira Jumbo Polpa 10 un",
-    "preco": 5.99,
-    "preco_por_kg": 5.99
+    "produto": "Ovo Branco Gourmet 10 un",
+    "preco": 8.99,
+    "preco_por_kg": 8.99
   },
   {
     "id": 3,
@@ -140,13 +140,6 @@
     "preco_por_kg": 12.96
   },
   {
-    "id": 24,
-    "supermercado": "Atacadão",
-    "produto": "Iogurte Batavo Banana, Maçã e Cereal 1,15kg",
-    "preco": 13.59,
-    "preco_por_kg": 11.82
-  },
-  {
     "id": 25,
     "supermercado": "Atacadão",
     "produto": "Refrigerante Sukita Uva 2L",
@@ -156,9 +149,9 @@
   {
     "id": 26,
     "supermercado": "Atacadão",
-    "produto": "Detergente Líquido Ypê Maçã 500ml",
-    "preco": 2.09,
-    "preco_por_kg": 4.18
+    "produto": "Detergente Líquido Minuano Maçã 500ml",
+    "preco": 1.89,
+    "preco_por_kg": 3.78
   },
   {
     "id": 28,
@@ -212,9 +205,9 @@
   {
     "id": 35,
     "supermercado": "Atacadão",
-    "produto": "Farinha de Mandioca Kicaldo Fina Branca 1kg",
-    "preco": 5.9,
-    "preco_por_kg": 5.9
+    "produto": "Farinha de Mandioca Glúten Free Fina 500g",
+    "preco": 2.39,
+    "preco_por_kg": 4.78
   },
   {
     "id": 36,
@@ -226,9 +219,9 @@
   {
     "id": 37,
     "supermercado": "Atacadão",
-    "produto": "Água de Coco Sococo Maracujá 200ml",
-    "preco": 0.99,
-    "preco_por_kg": 4.95
+    "produto": "Água de Coco Puro Coco 1L",
+    "preco": 6.9,
+    "preco_por_kg": 6.9
   },
   {
     "id": 38,
@@ -243,6 +236,13 @@
     "produto": "Bebida Láctea Polpa Elegê Morango e Coco 510g",
     "preco": 3.99,
     "preco_por_kg": 7.82
+  },
+  {
+    "id": 40,
+    "supermercado": "Atacadão",
+    "produto": "Polpa de Fruta Brasfrut Congelada Acerola 100g",
+    "preco": 1.85,
+    "preco_por_kg": 18.5
   },
   {
     "id": 41,
@@ -499,7 +499,7 @@
   {
     "id": 78,
     "supermercado": "Atacadão",
-    "produto": "Desinfetante Líquido Lysoform Original 5L",
+    "produto": "Desinfetante Lysoform Suave 5L",
     "preco": 46.9,
     "preco_por_kg": 9.38
   },
@@ -513,9 +513,9 @@
   {
     "id": 80,
     "supermercado": "Atacadão",
-    "produto": "Limpador Multiuso Zulu Álcool+Bicarbonato 1L",
-    "preco": 5.29,
-    "preco_por_kg": 5.29
+    "produto": "Limpador Multiuso Ypê Desengordurante 500ml",
+    "preco": 3.67,
+    "preco_por_kg": 7.34
   },
   {
     "id": 81,
@@ -576,16 +576,16 @@
   {
     "id": 89,
     "supermercado": "Atacadão",
-    "produto": "Detergente Líquido Candura Neutro 5L",
-    "preco": 17.5,
-    "preco_por_kg": 3.5
+    "produto": "Detergente Líquido Minuano Neutro 500ml",
+    "preco": 1.89,
+    "preco_por_kg": 3.78
   },
   {
     "id": 90,
     "supermercado": "Atacadão",
-    "produto": "Limpador Multiuso Ypê Desengordurante 500ml",
-    "preco": 3.67,
-    "preco_por_kg": 7.34
+    "produto": "Kit Veja 2 Limp Multiuso Original 500ml + 1 Multiuso Power Fusion Limão 500ml",
+    "preco": 17.5,
+    "preco_por_kg": 8.75
   },
   {
     "id": 91,
@@ -600,6 +600,13 @@
     "produto": "Desinfetante Sanol Lavanda 2L",
     "preco": 4.79,
     "preco_por_kg": 2.4
+  },
+  {
+    "id": 93,
+    "supermercado": "Atacadão",
+    "produto": "Esponja Multiuso Vip un",
+    "preco": 0.65,
+    "preco_por_kg": 0.65
   },
   {
     "id": 94,
