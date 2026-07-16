@@ -16,9 +16,9 @@
   {
     "id": 5,
     "supermercado": "Giga",
-    "produto": "Tomate Extra Seleção Giga",
-    "preco": 1,
-    "preco_por_kg": 1
+    "produto": "Tomate Italiano",
+    "preco": 13.5,
+    "preco_por_kg": 13.5
   },
   {
     "id": 6,
@@ -30,16 +30,16 @@
   {
     "id": 7,
     "supermercado": "Giga",
-    "produto": "Pimentão Verde Seleção Giga",
-    "preco": 11.59,
-    "preco_por_kg": 11.59
+    "produto": "Pimentao Vermelho",
+    "preco": 19.98,
+    "preco_por_kg": 19.98
   },
   {
     "id": 8,
     "supermercado": "Giga",
-    "produto": "Pimentão Amarelo",
-    "preco": 19.98,
-    "preco_por_kg": 19.98
+    "produto": "Pimentão Amarelo Seleção Giga",
+    "preco": 35.79,
+    "preco_por_kg": 35.79
   },
   {
     "id": 9,
@@ -107,16 +107,16 @@
   {
     "id": 21,
     "supermercado": "Giga",
-    "produto": "Repolho Roxo",
-    "preco": 5.2,
-    "preco_por_kg": 5.2
+    "produto": "Repolho Branco",
+    "preco": 4.15,
+    "preco_por_kg": 4.15
   },
   {
     "id": 22,
     "supermercado": "Giga",
-    "produto": "Alho Seleção Giga",
-    "preco": 28.49,
-    "preco_por_kg": 28.49
+    "produto": "Alho",
+    "preco": 24.9,
+    "preco_por_kg": 24.9
   },
   {
     "id": 23,
@@ -129,8 +129,8 @@
     "id": 24,
     "supermercado": "Giga",
     "produto": "Banana Prata",
-    "preco": 10.9,
-    "preco_por_kg": 10.9
+    "preco": 9.9,
+    "preco_por_kg": 9.9
   },
   {
     "id": 26,
@@ -233,9 +233,9 @@
   {
     "id": 47,
     "supermercado": "Giga",
-    "produto": "Queijo Mussarela Polenghi F4 Inteiro",
-    "preco": 52,
-    "preco_por_kg": 52
+    "produto": "Queijo Minas Frescal Bela Vista Cry 500G",
+    "preco": 41.5,
+    "preco_por_kg": 41.5
   },
   {
     "id": 48,
@@ -310,9 +310,9 @@
   {
     "id": 69,
     "supermercado": "Giga",
-    "produto": "Creme Dental Colgate Pro Alivio Imediato Extreme Com 3 Unidades Leve Mais Pague Menos 70G",
-    "preco": 27.95,
-    "preco_por_kg": 27.95
+    "produto": "Creme Dental Total 12 Carvão Ativado Colgate 220G",
+    "preco": 18.45,
+    "preco_por_kg": 18.45
   },
   {
     "id": 70,
@@ -327,6 +327,27 @@
     "produto": "Café Torrado E Moído A Vácuo Tradicional Pilão Pacote 500g",
     "preco": 33.99,
     "preco_por_kg": 33.99
+  },
+  {
+    "id": 77,
+    "supermercado": "Giga",
+    "produto": "Massa Para Tapioca Terrinha 500G",
+    "preco": 7.3,
+    "preco_por_kg": 7.3
+  },
+  {
+    "id": 78,
+    "supermercado": "Giga",
+    "produto": "Desinfetante Uso Geral Original Lysoform 2L",
+    "preco": 26.65,
+    "preco_por_kg": 26.65
+  },
+  {
+    "id": 79,
+    "supermercado": "Giga",
+    "produto": "Bebida Energética Sabor Caipirinha Zero Álcool Baly 250Ml",
+    "preco": 5.49,
+    "preco_por_kg": 5.49
   },
   {
     "id": 80,
@@ -378,6 +399,13 @@
     "preco_por_kg": 12.05
   },
   {
+    "id": 92,
+    "supermercado": "Giga",
+    "produto": "Desinfetante Uso Geral Original Lysoform 2L",
+    "preco": 26.65,
+    "preco_por_kg": 26.65
+  },
+  {
     "id": 95,
     "supermercado": "Giga",
     "produto": "Fralda Descartável Infantil Huggies Tripla Proteção XG Pacote 66 Unidades",
@@ -387,37 +415,37 @@
   {
     "id": 96,
     "supermercado": "Giga",
-    "produto": "Papel Toalha Plus Scala 3Un 120 Folhas",
-    "preco": 16.9,
-    "preco_por_kg": 16.9
+    "produto": "Papel Toalha Quick Big 360 Folhas",
+    "preco": 15.9,
+    "preco_por_kg": 15.9
   },
   {
     "id": 99,
     "supermercado": "Giga",
-    "produto": "Creme Dental Colgate Pro Alivio Imediato Extreme Com 3 Unidades Leve Mais Pague Menos 70G",
-    "preco": 27.95,
-    "preco_por_kg": 27.95
+    "produto": "Creme Dental Total 12 Carvão Ativado Colgate 220G",
+    "preco": 18.45,
+    "preco_por_kg": 18.45
   },
   {
     "id": 100,
     "supermercado": "Giga",
-    "produto": "Sabonete Barra Frésia E Pêssego Flor De Ypê Envoltório 85g",
-    "preco": 2.1,
-    "preco_por_kg": 2.1
+    "produto": "Sabonete Francis Barra Vegetal Lavanda E Âmbar 90g",
+    "preco": 3.95,
+    "preco_por_kg": 3.95
   },
   {
     "id": 101,
     "supermercado": "Giga",
-    "produto": "Sabonete Barra Frésia E Pêssego Flor De Ypê Envoltório 85g",
-    "preco": 2.1,
-    "preco_por_kg": 2.1
+    "produto": "Sabonete Francis Barra Vegetal Lavanda E Âmbar 90g",
+    "preco": 3.95,
+    "preco_por_kg": 3.95
   },
   {
     "id": 102,
     "supermercado": "Giga",
-    "produto": "Sabonete Barra Frésia E Pêssego Flor De Ypê Envoltório 85g",
-    "preco": 2.1,
-    "preco_por_kg": 2.1
+    "produto": "Sabonete Francis Barra Vegetal Lavanda E Âmbar 90g",
+    "preco": 3.95,
+    "preco_por_kg": 3.95
   },
   {
     "id": 103,
