@@ -1,17 +1,24 @@
 [
   {
+    "id": 1,
+    "supermercado": "Covabra",
+    "produto": "Fórmula Infantil Nanlac Comfor 800g",
+    "preco": 72.99,
+    "preco_por_kg": 91.24
+  },
+  {
     "id": 2,
     "supermercado": "Covabra",
-    "produto": "Ovos Jovanil Brancos Grandes Pvc com 20Unidades",
-    "preco": 14.9,
-    "preco_por_kg": 14.9
+    "produto": "Ovos Mantiqueira Jumbo Branco Polpa com 10 un",
+    "preco": 9.9,
+    "preco_por_kg": 9.9
   },
   {
     "id": 3,
     "supermercado": "Covabra",
-    "produto": "Batata Doce Rosada 1 Unidade 675g",
-    "preco": 4.71,
-    "preco_por_kg": 6.98
+    "produto": "Batata 1 Unidade 280g",
+    "preco": 1.67,
+    "preco_por_kg": 5.96
   },
   {
     "id": 4,
@@ -23,9 +30,9 @@
   {
     "id": 5,
     "supermercado": "Covabra",
-    "produto": "Tomate Italiano + Fit 650g",
-    "preco": 3.99,
-    "preco_por_kg": 6.14
+    "produto": "Tomate Italiano 1 Unidade 181g",
+    "preco": 1.08,
+    "preco_por_kg": 5.97
   },
   {
     "id": 6,
@@ -73,8 +80,8 @@
     "id": 12,
     "supermercado": "Covabra",
     "produto": "Abobrinha Itália 1 Unidade 470g",
-    "preco": 3.28,
-    "preco_por_kg": 6.98
+    "preco": 2.34,
+    "preco_por_kg": 4.98
   },
   {
     "id": 13,
@@ -87,8 +94,8 @@
     "id": 14,
     "supermercado": "Covabra",
     "produto": "Inhame 1 Unidade 414g",
-    "preco": 4.51,
-    "preco_por_kg": 10.89
+    "preco": 3.72,
+    "preco_por_kg": 8.99
   },
   {
     "id": 15,
@@ -108,29 +115,29 @@
     "id": 17,
     "supermercado": "Covabra",
     "produto": "Chuchu 1 Unidade 445g",
-    "preco": 3.11,
-    "preco_por_kg": 6.99
+    "preco": 2.22,
+    "preco_por_kg": 4.99
   },
   {
     "id": 18,
     "supermercado": "Covabra",
     "produto": "Mandioquinha 1 Unidade 191g",
-    "preco": 4.18,
-    "preco_por_kg": 21.88
+    "preco": 3.22,
+    "preco_por_kg": 16.86
   },
   {
     "id": 19,
     "supermercado": "Covabra",
-    "produto": "Cheiro Verde Sítio Novo Mundo Orgânico",
-    "preco": 5.59,
-    "preco_por_kg": 5.59
+    "produto": "Cheiro Verde Mais Verde Hidropônico",
+    "preco": 2.99,
+    "preco_por_kg": 2.99
   },
   {
     "id": 20,
     "supermercado": "Covabra",
-    "produto": "Alface Mais Verdes Mimosa Hidropônico Unidade",
-    "preco": 5.99,
-    "preco_por_kg": 5.99
+    "produto": "Alface Mais Verdes Crespa Hidropônico un",
+    "preco": 2.99,
+    "preco_por_kg": 2.99
   },
   {
     "id": 21,
@@ -138,13 +145,6 @@
     "produto": "Repolho Verde 1 Unidade 1,691kg",
     "preco": 13.51,
     "preco_por_kg": 7.99
-  },
-  {
-    "id": 22,
-    "supermercado": "Covabra",
-    "produto": "Alho Poro Mais Verdes Bandeja 300gr",
-    "preco": 9.99,
-    "preco_por_kg": 33.3
   },
   {
     "id": 23,
@@ -171,8 +171,8 @@
     "id": 26,
     "supermercado": "Covabra",
     "produto": "Maçã Frozen 1kg",
-    "preco": 11.9,
-    "preco_por_kg": 11.9
+    "preco": 7.99,
+    "preco_por_kg": 7.99
   },
   {
     "id": 27,
@@ -192,8 +192,8 @@
     "id": 29,
     "supermercado": "Covabra",
     "produto": "Leite Jussara Integral Zero Lactose Garrafa L.V 1lt",
-    "preco": 6.49,
-    "preco_por_kg": 6.49
+    "preco": 6.89,
+    "preco_por_kg": 6.89
   },
   {
     "id": 30,
@@ -205,9 +205,9 @@
   {
     "id": 31,
     "supermercado": "Covabra",
-    "produto": "Kit Fácil Presunto Sadia + Mussarela Tirolez 1 Unidade 412g",
-    "preco": 24.67,
-    "preco_por_kg": 59.88
+    "produto": "Queijo Mussarela Tirolez Fatiado 309g",
+    "preco": 17.58,
+    "preco_por_kg": 56.89
   },
   {
     "id": 32,
@@ -296,9 +296,9 @@
   {
     "id": 45,
     "supermercado": "Covabra",
-    "produto": "Macarrão de Arroz Urbano Pena 500g",
-    "preco": 5.89,
-    "preco_por_kg": 11.78
+    "produto": "Macarrão Basilar Semolado Penne 400g",
+    "preco": 2.99,
+    "preco_por_kg": 7.48
   },
   {
     "id": 46,
@@ -338,9 +338,9 @@
   {
     "id": 51,
     "supermercado": "Covabra",
-    "produto": "Azeitona Vale Fértil Verde sem Caroço Doypack 120g",
-    "preco": 7.59,
-    "preco_por_kg": 63.25
+    "produto": "Azeitona Diza Verde sem Caroco Premium Vidro 500g",
+    "preco": 28.99,
+    "preco_por_kg": 57.98
   },
   {
     "id": 52,
@@ -381,8 +381,8 @@
     "id": 58,
     "supermercado": "Covabra",
     "produto": "Milho Verde Mais Verdes 700g",
-    "preco": 9.99,
-    "preco_por_kg": 14.27
+    "preco": 4.99,
+    "preco_por_kg": 7.13
   },
   {
     "id": 59,
@@ -457,9 +457,9 @@
   {
     "id": 69,
     "supermercado": "Covabra",
-    "produto": "Creme de Leite Italac 200g",
-    "preco": 3.89,
-    "preco_por_kg": 19.45
+    "produto": "Creme de Leite Shefa 200g",
+    "preco": 3.69,
+    "preco_por_kg": 18.45
   },
   {
     "id": 70,
@@ -485,9 +485,9 @@
   {
     "id": 75,
     "supermercado": "Covabra",
-    "produto": "Flocos de Milho Kisabor Flocão 500g",
-    "preco": 3.89,
-    "preco_por_kg": 7.78
+    "produto": "Farinha Milho Dona Clara Flocão 500g",
+    "preco": 3.69,
+    "preco_por_kg": 7.38
   },
   {
     "id": 76,
@@ -570,8 +570,8 @@
     "id": 88,
     "supermercado": "Covabra",
     "produto": "Amaciante Candura Clássico 5l",
-    "preco": 17.9,
-    "preco_por_kg": 3.58
+    "preco": 15.9,
+    "preco_por_kg": 3.18
   },
   {
     "id": 89,
@@ -618,9 +618,9 @@
   {
     "id": 95,
     "supermercado": "Covabra",
-    "produto": "Fralda Pampers Confort Sec Bag Grande 60Unidades",
-    "preco": 89.9,
-    "preco_por_kg": 89.9
+    "produto": "Fralda Capricho Bummis Tubos Mega Xg com 38Unidades",
+    "preco": 58.9,
+    "preco_por_kg": 58.9
   },
   {
     "id": 96,

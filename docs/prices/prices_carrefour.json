@@ -1,5 +1,12 @@
 [
   {
+    "id": 1,
+    "supermercado": "Carrefour",
+    "produto": "Fórmula Infantil Nanlac Comfor 800g",
+    "preco": 59.89,
+    "preco_por_kg": 74.86
+  },
+  {
     "id": 2,
     "supermercado": "Carrefour",
     "produto": "Ovo Branco Jumbo King Iana com 10 unidades",
@@ -9,9 +16,9 @@
   {
     "id": 3,
     "supermercado": "Carrefour",
-    "produto": "Batata Doce Roxa Carrefour Aprox. 600g",
-    "preco": 2.39,
-    "preco_por_kg": 3.98
+    "produto": "Batata Doce Roxa Único 1Kg",
+    "preco": 4.79,
+    "preco_por_kg": 4.79
   },
   {
     "id": 4,
@@ -24,8 +31,8 @@
     "id": 5,
     "supermercado": "Carrefour",
     "produto": "Tomate Italiano Carrefour Aprox. 200g",
-    "preco": 0.97,
-    "preco_por_kg": 4.85
+    "preco": 2.39,
+    "preco_por_kg": 11.95
   },
   {
     "id": 6,
@@ -73,8 +80,8 @@
     "id": 13,
     "supermercado": "Carrefour",
     "produto": "Beterraba Carrefour Aprox. 300g",
-    "preco": 1.19,
-    "preco_por_kg": 3.97
+    "preco": 2.06,
+    "preco_por_kg": 6.87
   },
   {
     "id": 14,
@@ -93,16 +100,9 @@
   {
     "id": 16,
     "supermercado": "Carrefour",
-    "produto": "Cenoura Carrefour Aprox. 250g",
-    "preco": 1.49,
-    "preco_por_kg": 5.96
-  },
-  {
-    "id": 17,
-    "supermercado": "Carrefour",
-    "produto": "Chuchu Carrefour Aprox. 400g",
-    "preco": 1.59,
-    "preco_por_kg": 3.98
+    "produto": "Cenoura Único 1Kg",
+    "preco": 7.89,
+    "preco_por_kg": 7.89
   },
   {
     "id": 18,
@@ -122,22 +122,15 @@
     "id": 20,
     "supermercado": "Carrefour",
     "produto": "Alface Crespa Carrefour Mercado Em Unidade",
-    "preco": 4.99,
-    "preco_por_kg": 4.99
+    "preco": 4.59,
+    "preco_por_kg": 4.59
   },
   {
     "id": 21,
     "supermercado": "Carrefour",
     "produto": "Repolho Carrefour Aprox. 1kg",
-    "preco": 5.99,
-    "preco_por_kg": 5.99
-  },
-  {
-    "id": 22,
-    "supermercado": "Carrefour",
-    "produto": "Alho em Areia Desidratado Bombay Herbs & Spices 50g",
-    "preco": 14.19,
-    "preco_por_kg": 283.8
+    "preco": 5.69,
+    "preco_por_kg": 5.69
   },
   {
     "id": 23,
@@ -164,15 +157,15 @@
     "id": 26,
     "supermercado": "Carrefour",
     "produto": "Maçã Gala Carrefour Aprox. 200g",
-    "preco": 1.19,
-    "preco_por_kg": 5.95
+    "preco": 1.59,
+    "preco_por_kg": 7.95
   },
   {
     "id": 27,
     "supermercado": "Carrefour",
     "produto": "Mexerica Ponkan Carrefour Aprox. 300g",
-    "preco": 1.19,
-    "preco_por_kg": 3.97
+    "preco": 2.96,
+    "preco_por_kg": 9.87
   },
   {
     "id": 28,
@@ -205,16 +198,16 @@
   {
     "id": 32,
     "supermercado": "Carrefour",
-    "produto": "Presunto Cozido Fatiado Perdigão 200 g",
-    "preco": 4.99,
-    "preco_por_kg": 24.95
+    "produto": "Presunto Cozido Magro Fatiado Perdigão Aproximadamente 200 g",
+    "preco": 4.38,
+    "preco_por_kg": 21.9
   },
   {
     "id": 33,
     "supermercado": "Carrefour",
-    "produto": "Mortadela Aurora 400 g",
-    "preco": 4.88,
-    "preco_por_kg": 12.2
+    "produto": "Mortadela Marba Tradicional 5Kg",
+    "preco": 24.69,
+    "preco_por_kg": 4.94
   },
   {
     "id": 34,
@@ -241,8 +234,8 @@
     "id": 38,
     "supermercado": "Carrefour",
     "produto": "Leite Fermentado Yakult 40 light 80g 6 Unidades",
-    "preco": 13.55,
-    "preco_por_kg": 0.34
+    "preco": 7.99,
+    "preco_por_kg": 0.2
   },
   {
     "id": 39,
@@ -261,9 +254,9 @@
   {
     "id": 42,
     "supermercado": "Carrefour",
-    "produto": "Arroz Branco Camil Tipo 1 5kg",
-    "preco": 17.99,
-    "preco_por_kg": 3.6
+    "produto": "Arroz Branco Longo-fino Tipo 1 Namorado 5Kg",
+    "preco": 18.49,
+    "preco_por_kg": 3.7
   },
   {
     "id": 43,
@@ -283,8 +276,8 @@
     "id": 45,
     "supermercado": "Carrefour",
     "produto": "Macarrão Penne Urbano Arroz Integral 500g",
-    "preco": 6.59,
-    "preco_por_kg": 13.18
+    "preco": 6.89,
+    "preco_por_kg": 13.78
   },
   {
     "id": 46,
@@ -296,9 +289,9 @@
   {
     "id": 47,
     "supermercado": "Carrefour",
-    "produto": "Queijo Parmesão Ralado Président 100g",
-    "preco": 12.49,
-    "preco_por_kg": 124.9
+    "produto": "Queijo Parmesão Ralado Galbani 100g",
+    "preco": 10.99,
+    "preco_por_kg": 109.9
   },
   {
     "id": 48,
@@ -310,9 +303,9 @@
   {
     "id": 49,
     "supermercado": "Carrefour",
-    "produto": "Molho de Tomate Pomodoro Tradicional Cica Sachê 300g",
-    "preco": 1.58,
-    "preco_por_kg": 5.27
+    "produto": "Molho de Tomate Tradicional Tarantella Sachê 300 g",
+    "preco": 1.49,
+    "preco_por_kg": 4.97
   },
   {
     "id": 50,
@@ -324,9 +317,9 @@
   {
     "id": 51,
     "supermercado": "Carrefour",
-    "produto": "Azeitona Verde Sem Caroço Em Conserva Carrefour Mercado 200g",
-    "preco": 9.9,
-    "preco_por_kg": 49.5
+    "produto": "Azeitona Verde sem Caroço Carrefour Classic Copa 120g",
+    "preco": 6.69,
+    "preco_por_kg": 55.75
   },
   {
     "id": 52,
@@ -366,9 +359,9 @@
   {
     "id": 57,
     "supermercado": "Carrefour",
-    "produto": "Vinagre de Álcool Toscano 750ml",
-    "preco": 1.99,
-    "preco_por_kg": 2.65
+    "produto": "Vinagre de Álcool Colorido Toscano 750 ml",
+    "preco": 2.59,
+    "preco_por_kg": 3.45
   },
   {
     "id": 58,
@@ -395,15 +388,15 @@
     "id": 61,
     "supermercado": "Carrefour",
     "produto": "Açúcar Natural e Demerara União 1kg",
-    "preco": 9.99,
-    "preco_por_kg": 9.99
+    "preco": 6.69,
+    "preco_por_kg": 6.69
   },
   {
     "id": 62,
     "supermercado": "Carrefour",
-    "produto": "Açúcar Mascavo União Pacote 400g",
-    "preco": 6.98,
-    "preco_por_kg": 17.45
+    "produto": "Açúcar Mascavo DaColônia 500g",
+    "preco": 9.29,
+    "preco_por_kg": 18.58
   },
   {
     "id": 63,
@@ -444,29 +437,29 @@
     "id": 68,
     "supermercado": "Carrefour",
     "produto": "Leite Condensado Semi Desnatado Campos Jordão Caixa 395g",
-    "preco": 3.99,
-    "preco_por_kg": 10.1
+    "preco": 4.98,
+    "preco_por_kg": 12.61
   },
   {
     "id": 69,
     "supermercado": "Carrefour",
     "produto": "Mistura de Creme de Leite Mococa 200g",
-    "preco": 2.49,
-    "preco_por_kg": 12.45
+    "preco": 2.29,
+    "preco_por_kg": 11.45
   },
   {
     "id": 70,
     "supermercado": "Carrefour",
-    "produto": "Café em Cápsula NESCAFÉ DOLCE GUSTO Espresso 10 Cápsulas",
-    "preco": 22.58,
-    "preco_por_kg": 22.58
+    "produto": "Café em Cápsula NESCAFÉ DOLCE GUSTO Café Au Lait 10 Cápsulas",
+    "preco": 22.99,
+    "preco_por_kg": 22.99
   },
   {
     "id": 71,
     "supermercado": "Carrefour",
     "produto": "Café Torrado Moído Tradicional Carrefour 500 g",
-    "preco": 20.99,
-    "preco_por_kg": 41.98
+    "preco": 14.9,
+    "preco_por_kg": 29.8
   },
   {
     "id": 72,
@@ -478,16 +471,16 @@
   {
     "id": 73,
     "supermercado": "Carrefour",
-    "produto": "Pipoca para Micro-Ondas Manteiga de Cinema Yoki Pacote 100g",
-    "preco": 3.79,
-    "preco_por_kg": 37.9
+    "produto": "Pipoca para Micro-Ondas Cobertura Caramelo Yoki Pacote 160g",
+    "preco": 6.99,
+    "preco_por_kg": 43.69
   },
   {
     "id": 74,
     "supermercado": "Carrefour",
     "produto": "Macarrão Instantâneo a Base de Arroz Bifum Sabor Só Arroz 70g",
-    "preco": 5.89,
-    "preco_por_kg": 84.14
+    "preco": 5.98,
+    "preco_por_kg": 85.43
   },
   {
     "id": 75,
@@ -499,9 +492,9 @@
   {
     "id": 76,
     "supermercado": "Carrefour",
-    "produto": "Pão de Forma Tradicional Visconti Pacote 400 g",
-    "preco": 5.29,
-    "preco_por_kg": 13.22
+    "produto": "Pão de Forma Integral Visconti Pacote 400 g",
+    "preco": 3.48,
+    "preco_por_kg": 8.7
   },
   {
     "id": 77,
@@ -640,8 +633,8 @@
     "id": 97,
     "supermercado": "Carrefour",
     "produto": "Detergente Sanitário Pastilha Adesivo Floral Pato 3 Unidades",
-    "preco": 11.19,
-    "preco_por_kg": 11.19
+    "preco": 6.98,
+    "preco_por_kg": 6.98
   },
   {
     "id": 98,
@@ -654,8 +647,8 @@
     "id": 99,
     "supermercado": "Carrefour",
     "produto": "Creme Dental Colgate Tripla Ação 180g",
-    "preco": 7.8,
-    "preco_por_kg": 43.33
+    "preco": 7.89,
+    "preco_por_kg": 43.83
   },
   {
     "id": 100,
