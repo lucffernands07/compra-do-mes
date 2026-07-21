@@ -35,13 +35,6 @@
     "preco_por_kg": 8.85
   },
   {
-    "id": 6,
-    "supermercado": "Arena",
-    "produto": "Pimentão Verde Bandeja",
-    "preco": 13.89,
-    "preco_por_kg": 13.89
-  },
-  {
     "id": 7,
     "supermercado": "Arena",
     "produto": "Pimentão Vermelho Kg",
@@ -58,9 +51,9 @@
   {
     "id": 9,
     "supermercado": "Arena",
-    "produto": "Pimentão Verde Bandeja",
-    "preco": 13.89,
-    "preco_por_kg": 13.89
+    "produto": "Pimentão Amarelo Kg",
+    "preco": 19.89,
+    "preco_por_kg": 19.89
   },
   {
     "id": 10,
@@ -121,9 +114,16 @@
   {
     "id": 19,
     "supermercado": "Arena",
-    "produto": "Cheiro Verde Kisabor Folha 8g",
-    "preco": 2.99,
-    "preco_por_kg": 373.75
+    "produto": "Cheiro Verde Jw Unid.",
+    "preco": 3.79,
+    "preco_por_kg": 3.79
+  },
+  {
+    "id": 20,
+    "supermercado": "Arena",
+    "produto": "Alface Crespa Unid.",
+    "preco": 5.6,
+    "preco_por_kg": 5.6
   },
   {
     "id": 21,
@@ -142,9 +142,9 @@
   {
     "id": 23,
     "supermercado": "Arena",
-    "produto": "Mamão Formosa Kg",
-    "preco": 9.8,
-    "preco_por_kg": 9.8
+    "produto": "Mamão Papaya Kg",
+    "preco": 15.9,
+    "preco_por_kg": 15.9
   },
   {
     "id": 24,
@@ -157,8 +157,8 @@
     "id": 25,
     "supermercado": "Arena",
     "produto": "Suco Pomares Néctar Uva 1,35l",
-    "preco": 12.59,
-    "preco_por_kg": 9.33
+    "preco": 13.49,
+    "preco_por_kg": 9.99
   },
   {
     "id": 26,
@@ -177,9 +177,9 @@
   {
     "id": 28,
     "supermercado": "Arena",
-    "produto": "Margarina Dualis Com Sal 500g",
-    "preco": 4.59,
-    "preco_por_kg": 9.18
+    "produto": "Margarina Claybom Cremosa C/ 50%L C/ Sal 14kg",
+    "preco": 109.9,
+    "preco_por_kg": 7.85
   },
   {
     "id": 29,
@@ -247,9 +247,9 @@
   {
     "id": 38,
     "supermercado": "Arena",
-    "produto": "Leite Fermentado Desnatado Chamyto C/6 Unid. 450g",
-    "preco": 7.39,
-    "preco_por_kg": 16.42
+    "produto": "Leite Fermentado Desnatado Elegê Bob Esponja Laranja 80g C/ 6 Unid.",
+    "preco": 7.49,
+    "preco_por_kg": 93.63
   },
   {
     "id": 39,
@@ -373,9 +373,9 @@
   {
     "id": 58,
     "supermercado": "Arena",
-    "produto": "Milho Verde Doce Mais Verdes Bandeja 700g",
-    "preco": 7.98,
-    "preco_por_kg": 11.4
+    "produto": "Milho Verde Jw - Bandeja 700g",
+    "preco": 6.99,
+    "preco_por_kg": 9.99
   },
   {
     "id": 59,
@@ -408,9 +408,9 @@
   {
     "id": 63,
     "supermercado": "Arena",
-    "produto": "Sal Grosso Lebre Para Churrasco 1kg",
-    "preco": 2.99,
-    "preco_por_kg": 2.99
+    "produto": "Sal Grosso Cisne 1kg",
+    "preco": 3.65,
+    "preco_por_kg": 3.65
   },
   {
     "id": 64,
@@ -464,9 +464,9 @@
   {
     "id": 71,
     "supermercado": "Arena",
-    "produto": "Café Canecão Tradicional Almofada 500g",
-    "preco": 22.75,
-    "preco_por_kg": 45.5
+    "produto": "Café União Tradicional Pouch 500g",
+    "preco": 21.9,
+    "preco_por_kg": 43.8
   },
   {
     "id": 72,
@@ -485,9 +485,9 @@
   {
     "id": 76,
     "supermercado": "Arena",
-    "produto": "Pão De Forma Tradicional Kim 400g",
-    "preco": 6.59,
-    "preco_por_kg": 16.47
+    "produto": "Pão De Forma Integral De Panes 400g",
+    "preco": 6.29,
+    "preco_por_kg": 15.72
   },
   {
     "id": 77,
@@ -611,7 +611,7 @@
   {
     "id": 95,
     "supermercado": "Arena",
-    "produto": "Fralda Descartável Personal Mega Xg Leve 28 Pague 26 Unid.",
+    "produto": "Fralda Descartável Little Baby Mega Xg C/ 34 Unid.",
     "preco": 32.9,
     "preco_por_kg": 32.9
   },
