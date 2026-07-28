@@ -28,13 +28,6 @@
     "preco_por_kg": 19.97
   },
   {
-    "id": 7,
-    "supermercado": "Enxuto",
-    "produto": "Pimentão Vermelho Enxuto Origem Bandeja 400g",
-    "preco": 13.99,
-    "preco_por_kg": 34.98
-  },
-  {
     "id": 8,
     "supermercado": "Enxuto",
     "produto": "Pimentão Amarelo Enxuto Origem Bandeja 400g",
@@ -51,9 +44,9 @@
   {
     "id": 10,
     "supermercado": "Enxuto",
-    "produto": "Refrigerante Limão Sukita Garrafa 2l",
+    "produto": "Refrigerante Bioleve Zero Limão Pet 1,5l",
     "preco": 5.99,
-    "preco_por_kg": 3
+    "preco_por_kg": 3.99
   },
   {
     "id": 11,
@@ -65,9 +58,9 @@
   {
     "id": 12,
     "supermercado": "Enxuto",
-    "produto": "Abobrinha Italiana Enxuto Origem Bandeja 400g",
-    "preco": 5.99,
-    "preco_por_kg": 14.97
+    "produto": "Abobrinha Brasileira 1kg (aprox. 2 Unidades)",
+    "preco": 11.99,
+    "preco_por_kg": 11.99
   },
   {
     "id": 13,
@@ -75,6 +68,13 @@
     "produto": "Beterraba 520g (aprox. 2 Unidades)",
     "preco": 2.07,
     "preco_por_kg": 3.98
+  },
+  {
+    "id": 14,
+    "supermercado": "Enxuto",
+    "produto": "Inhame 300g",
+    "preco": 3.59,
+    "preco_por_kg": 11.97
   },
   {
     "id": 15,
@@ -100,9 +100,9 @@
   {
     "id": 18,
     "supermercado": "Enxuto",
-    "produto": "Pão De Mandioquinha Enxuto Origem - Peso Aprox. 225g",
-    "preco": 6.72,
-    "preco_por_kg": 29.87
+    "produto": "Mandioquinha 350g",
+    "preco": 3.14,
+    "preco_por_kg": 8.97
   },
   {
     "id": 19,
@@ -149,9 +149,9 @@
   {
     "id": 25,
     "supermercado": "Enxuto",
-    "produto": "Refrigerante Fanta Uva 600ml",
-    "preco": 5.49,
-    "preco_por_kg": 9.15
+    "produto": "Refrigerante Sukita Uva 2l",
+    "preco": 5.99,
+    "preco_por_kg": 3
   },
   {
     "id": 26,
@@ -241,8 +241,8 @@
     "id": 38,
     "supermercado": "Enxuto",
     "produto": "Leite Fermentado Yakult 40 Light Com 6 Unidades 480g",
-    "preco": 10.99,
-    "preco_por_kg": 0.27
+    "preco": 14.99,
+    "preco_por_kg": 0.37
   },
   {
     "id": 39,
@@ -392,6 +392,13 @@
     "preco_por_kg": 29.97
   },
   {
+    "id": 60,
+    "supermercado": "Enxuto",
+    "produto": "Sardinha Gomes Costa Óleo 125g",
+    "preco": 6.39,
+    "preco_por_kg": 51.12
+  },
+  {
     "id": 61,
     "supermercado": "Enxuto",
     "produto": "Acucar Demerara Uniao Naturale 1kg",
@@ -450,16 +457,16 @@
   {
     "id": 70,
     "supermercado": "Enxuto",
-    "produto": "Capsula de Café Espresso Vibrante 3 Corações 10 unid",
-    "preco": 16.89,
-    "preco_por_kg": 1.69
+    "produto": "Capsula Cafe Pilao Espresso 12und 52g",
+    "preco": 22.4,
+    "preco_por_kg": 1.87
   },
   {
     "id": 71,
     "supermercado": "Enxuto",
-    "produto": "Café Torrado E Moído A Vácuo Tradicional Café Brasileiro 500g",
-    "preco": 19.89,
-    "preco_por_kg": 39.78
+    "produto": "Café Almofada Enxuto Desde 1963 Tradicional 500g",
+    "preco": 18.98,
+    "preco_por_kg": 37.96
   },
   {
     "id": 72,
@@ -467,5 +474,243 @@
     "produto": "Chá Leão Fuze Preto Natural 10 Unds. De 16g",
     "preco": 6.49,
     "preco_por_kg": 0.65
+  },
+  {
+    "id": 75,
+    "supermercado": "Enxuto",
+    "produto": "Flocão Dona Clara 500g",
+    "preco": 4.99,
+    "preco_por_kg": 9.98
+  },
+  {
+    "id": 76,
+    "supermercado": "Enxuto",
+    "produto": "Pão Hamburguer Wickbold Do Forno Brioche",
+    "preco": 13.99,
+    "preco_por_kg": 13.99
+  },
+  {
+    "id": 77,
+    "supermercado": "Enxuto",
+    "produto": "Tapioca Da Terrinha 500g",
+    "preco": 5.99,
+    "preco_por_kg": 11.98
+  },
+  {
+    "id": 78,
+    "supermercado": "Enxuto",
+    "produto": "Desinfetante Lysoform Suave 2l",
+    "preco": 28.99,
+    "preco_por_kg": 14.49
+  },
+  {
+    "id": 79,
+    "supermercado": "Enxuto",
+    "produto": "Álcool Líquido Safra Bactericida 46.2° 1l Neutro",
+    "preco": 9.9,
+    "preco_por_kg": 9.9
+  },
+  {
+    "id": 80,
+    "supermercado": "Enxuto",
+    "produto": "Limpador Ypê Fácil Multiuso Natureza 500ml",
+    "preco": 4.99,
+    "preco_por_kg": 9.98
+  },
+  {
+    "id": 81,
+    "supermercado": "Enxuto",
+    "produto": "Esmalte Dailus Regular Cremoso Black Tie",
+    "preco": 10.99,
+    "preco_por_kg": 10.99
+  },
+  {
+    "id": 82,
+    "supermercado": "Enxuto",
+    "produto": "Odorizador De Ambientes Bom Ar Click Spray Aparelho E Refil Lavanda",
+    "preco": 23.39,
+    "preco_por_kg": 23.39
+  },
+  {
+    "id": 83,
+    "supermercado": "Enxuto",
+    "produto": "Lampada Ourolux Superled 9w Bivolt Und",
+    "preco": 6.99,
+    "preco_por_kg": 6.99
+  },
+  {
+    "id": 84,
+    "supermercado": "Enxuto",
+    "produto": "Saco Lixo Esfrelux 100l C/15und Emb Economica",
+    "preco": 16.99,
+    "preco_por_kg": 0.17
+  },
+  {
+    "id": 85,
+    "supermercado": "Enxuto",
+    "produto": "Saco Lixo Esfrelux 50l C/30und Emb Economica",
+    "preco": 15.99,
+    "preco_por_kg": 0.32
+  },
+  {
+    "id": 86,
+    "supermercado": "Enxuto",
+    "produto": "Água Sanitária Sanol 5l",
+    "preco": 13.99,
+    "preco_por_kg": 2.8
+  },
+  {
+    "id": 87,
+    "supermercado": "Enxuto",
+    "produto": "Lava Roupas Líquido Omo R Finas E Delicadas Original 900ml",
+    "preco": 19.89,
+    "preco_por_kg": 22.1
+  },
+  {
+    "id": 88,
+    "supermercado": "Enxuto",
+    "produto": "Amaciante Plush Harmonia Da Manha5l",
+    "preco": 21.9,
+    "preco_por_kg": 4.38
+  },
+  {
+    "id": 89,
+    "supermercado": "Enxuto",
+    "produto": "Detergente Sanitário Em Pedra Lavanda Pato Grátis 25% De Desconto",
+    "preco": 3.99,
+    "preco_por_kg": 3.99
+  },
+  {
+    "id": 90,
+    "supermercado": "Enxuto",
+    "produto": "Limpador Ype Multiuso 2 Em 1 Premium Clareante 500ml",
+    "preco": 4.59,
+    "preco_por_kg": 9.18
+  },
+  {
+    "id": 91,
+    "supermercado": "Enxuto",
+    "produto": "Limpador Veja Limpeza Pesada Cloro 1l Com 20% Desconto",
+    "preco": 19.59,
+    "preco_por_kg": 19.59
+  },
+  {
+    "id": 92,
+    "supermercado": "Enxuto",
+    "produto": "Desinfetante Candura 5l Eucalipto",
+    "preco": 14.89,
+    "preco_por_kg": 2.98
+  },
+  {
+    "id": 93,
+    "supermercado": "Enxuto",
+    "produto": "Esponja La De Aco Assolan C/8un 45g",
+    "preco": 2.29,
+    "preco_por_kg": 0.29
+  },
+  {
+    "id": 95,
+    "supermercado": "Enxuto",
+    "produto": "Fralda Descartável Babysec Ultra Mega P 42und",
+    "preco": 49.99,
+    "preco_por_kg": 1.19
+  },
+  {
+    "id": 96,
+    "supermercado": "Enxuto",
+    "produto": "Papel Higiênico Paloma Folha Simples Neutro 30mt Com 8und",
+    "preco": 8.99,
+    "preco_por_kg": 1.12
+  },
+  {
+    "id": 97,
+    "supermercado": "Enxuto",
+    "produto": "Gel Adesivo Sanitário Pato Citrus Refil 38g 6 Discos",
+    "preco": 17.59,
+    "preco_por_kg": 462.89
+  },
+  {
+    "id": 98,
+    "supermercado": "Enxuto",
+    "produto": "Escova Dental Oral B Complete 40 Leve 2 E Pague 1",
+    "preco": 22.9,
+    "preco_por_kg": 0.57
+  },
+  {
+    "id": 99,
+    "supermercado": "Enxuto",
+    "produto": "Creme Dental Colgate Totalgengiva Reforçada",
+    "preco": 21.59,
+    "preco_por_kg": 21.59
+  },
+  {
+    "id": 100,
+    "supermercado": "Enxuto",
+    "produto": "Sabonete Líquido Fiorucci Flor Cerejeira Refil 440ml",
+    "preco": 13.99,
+    "preco_por_kg": 31.8
+  },
+  {
+    "id": 101,
+    "supermercado": "Enxuto",
+    "produto": "Sabonete Dove Orig Com 6und 90g Leve + Pague -",
+    "preco": 39,
+    "preco_por_kg": 6.5
+  },
+  {
+    "id": 102,
+    "supermercado": "Enxuto",
+    "produto": "Sabonete Granado Bebe Lavanda 90g",
+    "preco": 8.29,
+    "preco_por_kg": 92.11
+  },
+  {
+    "id": 103,
+    "supermercado": "Enxuto",
+    "produto": "Gel Fixador Azul Tryfix 1kg",
+    "preco": 22.9,
+    "preco_por_kg": 22.9
+  },
+  {
+    "id": 105,
+    "supermercado": "Enxuto",
+    "produto": "Lenço Umedecido Granado Bebê Peles Sensíveis 50und",
+    "preco": 17.59,
+    "preco_por_kg": 0.35
+  },
+  {
+    "id": 106,
+    "supermercado": "Enxuto",
+    "produto": "Algodão Johnson Baby Recém-nascido Quadrado 50 Unid",
+    "preco": 29.9,
+    "preco_por_kg": 0.6
+  },
+  {
+    "id": 107,
+    "supermercado": "Enxuto",
+    "produto": "Enxaguante Bucal Listerine Melancia E Hortelã 1l",
+    "preco": 44.9,
+    "preco_por_kg": 44.9
+  },
+  {
+    "id": 108,
+    "supermercado": "Enxuto",
+    "produto": "Bisnaguinha Seven Boys Original 300g",
+    "preco": 6.49,
+    "preco_por_kg": 21.63
+  },
+  {
+    "id": 110,
+    "supermercado": "Enxuto",
+    "produto": "Fuba Mimoso Yoki 1kg",
+    "preco": 10.89,
+    "preco_por_kg": 10.89
+  },
+  {
+    "id": 111,
+    "supermercado": "Enxuto",
+    "produto": "Alimento Para Gatos Adultos Mix De Carnes Kitekat Pacote 900g",
+    "preco": 12.9,
+    "preco_por_kg": 14.33
   }
 ]
