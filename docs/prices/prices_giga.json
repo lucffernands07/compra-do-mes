@@ -37,9 +37,9 @@
   {
     "id": 8,
     "supermercado": "Giga",
-    "produto": "Pimentão Amarelo Seleção Giga",
-    "preco": 35.79,
-    "preco_por_kg": 35.79
+    "produto": "Pimentão Amarelo",
+    "preco": 19.98,
+    "preco_por_kg": 19.98
   },
   {
     "id": 9,
@@ -128,9 +128,9 @@
   {
     "id": 24,
     "supermercado": "Giga",
-    "produto": "Banana Prata",
-    "preco": 9.9,
-    "preco_por_kg": 9.9
+    "produto": "Banana Nanica",
+    "preco": 6.89,
+    "preco_por_kg": 6.89
   },
   {
     "id": 26,
@@ -205,9 +205,9 @@
   {
     "id": 47,
     "supermercado": "Giga",
-    "produto": "Queijo Minas Frescal Bela Vista Cry 500G",
-    "preco": 41.5,
-    "preco_por_kg": 41.5
+    "produto": "Queijo Minas Frescal Quata",
+    "preco": 41.6,
+    "preco_por_kg": 41.6
   },
   {
     "id": 48,
@@ -222,6 +222,13 @@
     "produto": "Molho De Tomate Tradicional Quero 2Kg",
     "preco": 13.9,
     "preco_por_kg": 13.9
+  },
+  {
+    "id": 50,
+    "supermercado": "Giga",
+    "produto": "Azeite De Oliva Clássico Gallo 250Ml",
+    "preco": 23.9,
+    "preco_por_kg": 23.9
   },
   {
     "id": 51,
@@ -273,13 +280,6 @@
     "preco_por_kg": 4.99
   },
   {
-    "id": 69,
-    "supermercado": "Giga",
-    "produto": "Creme Dental Colgate Pro Alivio Imediato Extreme Com 3 Unidades Leve Mais Pague Menos 70G",
-    "preco": 27.95,
-    "preco_por_kg": 27.95
-  },
-  {
     "id": 77,
     "supermercado": "Giga",
     "produto": "Massa Para Tapioca Terrinha 500G",
@@ -329,13 +329,6 @@
     "preco_por_kg": 15.9
   },
   {
-    "id": 99,
-    "supermercado": "Giga",
-    "produto": "Creme Dental Colgate Pro Alivio Imediato Extreme Com 3 Unidades Leve Mais Pague Menos 70G",
-    "preco": 27.95,
-    "preco_por_kg": 27.95
-  },
-  {
     "id": 100,
     "supermercado": "Giga",
     "produto": "Sabonete Francis Barra Vegetal Lavanda E Âmbar 90g",
@@ -355,5 +348,12 @@
     "produto": "Sabonete Francis Barra Vegetal Lavanda E Âmbar 90g",
     "preco": 3.95,
     "preco_por_kg": 3.95
+  },
+  {
+    "id": 103,
+    "supermercado": "Giga",
+    "produto": "Absorvente Intimus Gel Noturno Cobertura Suave Com Abas Com 30 Unidades",
+    "preco": 26.35,
+    "preco_por_kg": 26.35
   }
 ]
