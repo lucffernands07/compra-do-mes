@@ -35,6 +35,13 @@
     "preco_por_kg": 4.99
   },
   {
+    "id": 6,
+    "supermercado": "Savegnago",
+    "produto": "Pimentão Verde I Pimenta 400g Bandeja",
+    "preco": 6.25,
+    "preco_por_kg": 15.63
+  },
+  {
     "id": 9,
     "supermercado": "Savegnago",
     "produto": "Pimentão Misto Beato Bandeja",
@@ -93,9 +100,9 @@
   {
     "id": 19,
     "supermercado": "Savegnago",
-    "produto": "Molho Pimenta Veranita 150ml Cheiro Verde",
+    "produto": "Cheiro Verde Organico Solo Vivo",
     "preco": 8.99,
-    "preco_por_kg": 59.93
+    "preco_por_kg": 8.99
   },
   {
     "id": 20,
@@ -143,8 +150,8 @@
     "id": 26,
     "supermercado": "Savegnago",
     "produto": "Detergente Ypê Maçã 500ml",
-    "preco": 2.95,
-    "preco_por_kg": 5.9
+    "preco": 2.21,
+    "preco_por_kg": 4.42
   },
   {
     "id": 27,
@@ -156,9 +163,9 @@
   {
     "id": 28,
     "supermercado": "Savegnago",
-    "produto": "Margarina Claybom 500g Com Sal",
-    "preco": 7.95,
-    "preco_por_kg": 15.9
+    "produto": "Margarina Delícia com Creme de Leite com Sal 500g",
+    "preco": 5.95,
+    "preco_por_kg": 11.9
   },
   {
     "id": 29,
@@ -184,9 +191,9 @@
   {
     "id": 32,
     "supermercado": "Savegnago",
-    "produto": "Lasanha de presunto e queijo Seara 600g",
-    "preco": 18.5,
-    "preco_por_kg": 30.83
+    "produto": "Presunto Cozido Frimesa 200g Fatiado Sem Capa De Gordura",
+    "preco": 5.66,
+    "preco_por_kg": 28.3
   },
   {
     "id": 33,
@@ -231,6 +238,13 @@
     "preco_por_kg": 14.74
   },
   {
+    "id": 39,
+    "supermercado": "Savegnago",
+    "produto": "Bebida láctea polpa Carolina bandeja 510g Morango",
+    "preco": 5.99,
+    "preco_por_kg": 11.75
+  },
+  {
     "id": 40,
     "supermercado": "Savegnago",
     "produto": "Polpa Fruta De Marchi Acerola 100g",
@@ -247,9 +261,9 @@
   {
     "id": 42,
     "supermercado": "Savegnago",
-    "produto": "Arroz Pop Branco Tipo 1 5Kg",
-    "preco": 12.45,
-    "preco_por_kg": 2.49
+    "produto": "Arroz Agulhinha 4r 5kg Tipo1",
+    "preco": 16.95,
+    "preco_por_kg": 3.39
   },
   {
     "id": 43,
@@ -261,16 +275,16 @@
   {
     "id": 44,
     "supermercado": "Savegnago",
-    "produto": "Macarrão Arroz Urbano 500g Sem Gluten Espaguete",
-    "preco": 4.65,
-    "preco_por_kg": 9.3
+    "produto": "Macarrão Semolado Galo 500g Espaguete N8",
+    "preco": 3.15,
+    "preco_por_kg": 6.3
   },
   {
     "id": 45,
     "supermercado": "Savegnago",
-    "produto": "Macarrão Semolado Basilar Penne 400g",
-    "preco": 2.69,
-    "preco_por_kg": 6.72
+    "produto": "Macarrão Sêmola Dona Benta 500g Penne",
+    "preco": 3.49,
+    "preco_por_kg": 6.98
   },
   {
     "id": 46,
@@ -303,7 +317,7 @@
   {
     "id": 50,
     "supermercado": "Savegnago",
-    "produto": "Azeite Espanhol Borges 500ml Extra Virgem Classico",
+    "produto": "Azeite Portugues Portucale 500ml Extra Virgem",
     "preco": 26.9,
     "preco_por_kg": 53.8
   },
@@ -338,9 +352,9 @@
   {
     "id": 56,
     "supermercado": "Savegnago",
-    "produto": "Óleo de Soja Soya Pet 900ml",
-    "preco": 5.79,
-    "preco_por_kg": 6.43
+    "produto": "Óleo Soja Vitaliv 900ml",
+    "preco": 7.29,
+    "preco_por_kg": 8.1
   },
   {
     "id": 57,
@@ -408,9 +422,9 @@
   {
     "id": 66,
     "supermercado": "Savegnago",
-    "produto": "Maionese Arisco Tradicional 500g",
-    "preco": 5.49,
-    "preco_por_kg": 10.98
+    "produto": "Maionese Liza Sachê Tradicional 400g",
+    "preco": 4.79,
+    "preco_por_kg": 11.97
   },
   {
     "id": 67,
@@ -429,23 +443,23 @@
   {
     "id": 69,
     "supermercado": "Savegnago",
-    "produto": "Creme de Leite Italac Leve 200g 10% de gordura",
-    "preco": 3.29,
-    "preco_por_kg": 16.45
+    "produto": "Margarina Delícia com Creme de Leite com Sal 500g",
+    "preco": 5.95,
+    "preco_por_kg": 11.9
   },
   {
     "id": 70,
     "supermercado": "Savegnago",
-    "produto": "Café em Cápsula Nescafé Farmers Origins South Asia 10 cápsulas",
-    "preco": 14.86,
-    "preco_por_kg": 14.86
+    "produto": "Café Nescafé Farmers Origins Brazil 10 Cápsulas",
+    "preco": 24.95,
+    "preco_por_kg": 24.95
   },
   {
     "id": 71,
     "supermercado": "Savegnago",
     "produto": "Café Brasileiro 500g Vácuo Tradicional",
-    "preco": 19.5,
-    "preco_por_kg": 39
+    "preco": 19.95,
+    "preco_por_kg": 39.9
   },
   {
     "id": 72,
@@ -492,9 +506,9 @@
   {
     "id": 78,
     "supermercado": "Savegnago",
-    "produto": "Desinfetante LYSOFORM Bruto Original 5 Litros",
-    "preco": 73.9,
-    "preco_por_kg": 14.78
+    "produto": "Desinfetante Lysoform 2L Original",
+    "preco": 25.9,
+    "preco_por_kg": 12.95
   },
   {
     "id": 80,
@@ -513,9 +527,9 @@
   {
     "id": 82,
     "supermercado": "Savegnago",
-    "produto": "Aromatizador Bom Ar Click Spray Refil Leve 3 Pague 2 Flor de Algodão",
-    "preco": 34.9,
-    "preco_por_kg": 34.9
+    "produto": "Aromatizador de Ambiente Bom Ar Automático Aerossol Freshmatic Refil 50% off na 2ª Unidade Flor de Algodão",
+    "preco": 49.9,
+    "preco_por_kg": 49.9
   },
   {
     "id": 83,
@@ -528,29 +542,29 @@
     "id": 84,
     "supermercado": "Savegnago",
     "produto": "Saco Lixo Utilix RL 100L Com 15",
-    "preco": 16.8,
-    "preco_por_kg": 0.17
+    "preco": 11.9,
+    "preco_por_kg": 0.12
   },
   {
     "id": 85,
     "supermercado": "Savegnago",
-    "produto": "Saco Para Lixo Em Rolo Levalixo 50L",
-    "preco": 14.8,
-    "preco_por_kg": 0.3
+    "produto": "Saco Lixo Utilix RL 50L Com 30",
+    "preco": 11.9,
+    "preco_por_kg": 0.24
   },
   {
     "id": 86,
     "supermercado": "Savegnago",
-    "produto": "Água Sanitária Rajja 5L",
-    "preco": 13.35,
-    "preco_por_kg": 2.67
+    "produto": "Água Sanitária Triex 5L",
+    "preco": 12.55,
+    "preco_por_kg": 2.51
   },
   {
     "id": 87,
     "supermercado": "Savegnago",
-    "produto": "Lava Roupa Líquido Omo Lavagem Perfeita 1,8L",
-    "preco": 28.95,
-    "preco_por_kg": 16.08
+    "produto": "Lava Roupa Líquido Omo Lavagem Perfeita 3L",
+    "preco": 38.61,
+    "preco_por_kg": 12.87
   },
   {
     "id": 88,
@@ -569,9 +583,9 @@
   {
     "id": 90,
     "supermercado": "Savegnago",
-    "produto": "Limpador Multiuso Ypê Desengordurante 500ml",
-    "preco": 5.15,
-    "preco_por_kg": 10.3
+    "produto": "Limpador Multiuso Veja Gold Original 750ml Embalagem Econômica",
+    "preco": 6.49,
+    "preco_por_kg": 8.65
   },
   {
     "id": 91,
@@ -584,8 +598,8 @@
     "id": 92,
     "supermercado": "Savegnago",
     "produto": "Desinfetante Triex 5L Flores da Primavera",
-    "preco": 16.2,
-    "preco_por_kg": 3.24
+    "preco": 14.9,
+    "preco_por_kg": 2.98
   },
   {
     "id": 93,
@@ -625,16 +639,16 @@
   {
     "id": 98,
     "supermercado": "Savegnago",
-    "produto": "Escova Dental Infantil Condor Grátis Estojo Avengers",
-    "preco": 12.3,
-    "preco_por_kg": 12.3
+    "produto": "Escova Dental Colgate Zig Zag Carvão Com 2 Unidades",
+    "preco": 10.95,
+    "preco_por_kg": 10.95
   },
   {
     "id": 99,
     "supermercado": "Savegnago",
     "produto": "Creme Dental Colgate Tripla Ação 180g Preço Especial",
-    "preco": 6.99,
-    "preco_por_kg": 38.83
+    "preco": 6.98,
+    "preco_por_kg": 38.78
   },
   {
     "id": 100,
