@@ -1,17 +1,24 @@
 [
   {
+    "id": 1,
+    "supermercado": "Enxuto",
+    "produto": "Formula Infantil Nan Comfor 3 Lata 800g",
+    "preco": 68.99,
+    "preco_por_kg": 23
+  },
+  {
     "id": 3,
     "supermercado": "Enxuto",
     "produto": "Batata Granel 700g (aprox. 2 A 5 Unidades)",
-    "preco": 2.79,
-    "preco_por_kg": 3.99
+    "preco": 2.09,
+    "preco_por_kg": 2.99
   },
   {
     "id": 4,
     "supermercado": "Enxuto",
     "produto": "Cebola 500g (aprox. 3 A 4 Unidades)",
-    "preco": 4.44,
-    "preco_por_kg": 8.88
+    "preco": 2.49,
+    "preco_por_kg": 4.98
   },
   {
     "id": 5,
@@ -23,23 +30,23 @@
   {
     "id": 6,
     "supermercado": "Enxuto",
-    "produto": "Pimentão Verde 420g (aprox. 2 Unidades)",
-    "preco": 7.97,
-    "preco_por_kg": 18.98
+    "produto": "Pimentão Verde Enxuto Origem Bandeja 350g",
+    "preco": 6.99,
+    "preco_por_kg": 19.97
   },
   {
     "id": 9,
     "supermercado": "Enxuto",
-    "produto": "Pimentão Verde 420g (aprox. 2 Unidades)",
-    "preco": 7.97,
-    "preco_por_kg": 18.98
+    "produto": "Pimentão Verde Enxuto Origem Bandeja 350g",
+    "preco": 6.99,
+    "preco_por_kg": 19.97
   },
   {
     "id": 10,
     "supermercado": "Enxuto",
     "produto": "Refrigerante Bioleve Zero Limão Pet 1,5l",
-    "preco": 5.99,
-    "preco_por_kg": 3.99
+    "preco": 6.89,
+    "preco_por_kg": 4.59
   },
   {
     "id": 11,
@@ -59,22 +66,15 @@
     "id": 13,
     "supermercado": "Enxuto",
     "produto": "Beterraba 520g (aprox. 2 Unidades)",
-    "preco": 2.07,
-    "preco_por_kg": 3.98
-  },
-  {
-    "id": 14,
-    "supermercado": "Enxuto",
-    "produto": "Inhame 300g",
-    "preco": 3.59,
-    "preco_por_kg": 11.97
+    "preco": 3.11,
+    "preco_por_kg": 5.98
   },
   {
     "id": 15,
     "supermercado": "Enxuto",
     "produto": "Gengibre 250g",
-    "preco": 4.49,
-    "preco_por_kg": 17.96
+    "preco": 3.49,
+    "preco_por_kg": 13.96
   },
   {
     "id": 16,
@@ -94,22 +94,22 @@
     "id": 18,
     "supermercado": "Enxuto",
     "produto": "Mandioquinha 350g",
-    "preco": 3.14,
-    "preco_por_kg": 8.97
+    "preco": 3.49,
+    "preco_por_kg": 9.97
   },
   {
     "id": 19,
     "supermercado": "Enxuto",
-    "produto": "Tempero Sazon Na Medida Cheiro Verde Pct 30g",
-    "preco": 4.89,
-    "preco_por_kg": 163
+    "produto": "Cheiro Verde Caisp Org 80g",
+    "preco": 7.99,
+    "preco_por_kg": 99.88
   },
   {
     "id": 20,
     "supermercado": "Enxuto",
-    "produto": "Maço De Alface Crespa Unidade",
-    "preco": 6.99,
-    "preco_por_kg": 6.99
+    "produto": "Alface Mimosa Enxuto Origem Maço",
+    "preco": 5.79,
+    "preco_por_kg": 5.79
   },
   {
     "id": 21,
@@ -122,8 +122,8 @@
     "id": 22,
     "supermercado": "Enxuto",
     "produto": "Alho Nacional Granel 250g (aprox. 4 Unidades)",
-    "preco": 4.97,
-    "preco_por_kg": 19.88
+    "preco": 7.47,
+    "preco_por_kg": 29.88
   },
   {
     "id": 23,
@@ -135,9 +135,9 @@
   {
     "id": 24,
     "supermercado": "Enxuto",
-    "produto": "Banana Nanica 1,1kg (aprox. 6 Unidades)",
-    "preco": 5.48,
-    "preco_por_kg": 4.98
+    "produto": "Iogurte Serramar Milk Mix Acai Com Banana 900g",
+    "preco": 7.99,
+    "preco_por_kg": 8.88
   },
   {
     "id": 25,
@@ -150,22 +150,22 @@
     "id": 26,
     "supermercado": "Enxuto",
     "produto": "Refrigerante Bioleve Zero Maçã Verde Pet 1,5l",
-    "preco": 5.99,
-    "preco_por_kg": 3.99
+    "preco": 6.89,
+    "preco_por_kg": 4.59
   },
   {
     "id": 27,
     "supermercado": "Enxuto",
     "produto": "Refrigerante Bioleve Zero Mexerica Pet 1,5l",
-    "preco": 5.99,
-    "preco_por_kg": 3.99
+    "preco": 6.89,
+    "preco_por_kg": 4.59
   },
   {
     "id": 28,
     "supermercado": "Enxuto",
-    "produto": "Margarina Claybom Com Sal 500g",
-    "preco": 7.29,
-    "preco_por_kg": 14.58
+    "produto": "Margarina Qualy Cremosa Sem Sal 500g",
+    "preco": 5.99,
+    "preco_por_kg": 11.98
   },
   {
     "id": 29,
@@ -184,9 +184,9 @@
   {
     "id": 31,
     "supermercado": "Enxuto",
-    "produto": "Pizza Aurora 460g Lombo C/ Requeijão e Mussarela",
-    "preco": 19.9,
-    "preco_por_kg": 43.26
+    "produto": "Pizza Sadia 440g Mussarela/azeitona",
+    "preco": 13.99,
+    "preco_por_kg": 31.8
   },
   {
     "id": 32,
@@ -206,8 +206,8 @@
     "id": 34,
     "supermercado": "Enxuto",
     "produto": "Batata Palito Uai Congelada 2kg",
-    "preco": 26.9,
-    "preco_por_kg": 13.45
+    "preco": 18.98,
+    "preco_por_kg": 9.49
   },
   {
     "id": 35,
@@ -226,9 +226,9 @@
   {
     "id": 37,
     "supermercado": "Enxuto",
-    "produto": "Água De Coco Quadrado Tp 1l",
-    "preco": 10.99,
-    "preco_por_kg": 10.99
+    "produto": "Água De Coco Mais Coco 1l",
+    "preco": 11.99,
+    "preco_por_kg": 11.99
   },
   {
     "id": 38,
@@ -261,9 +261,9 @@
   {
     "id": 42,
     "supermercado": "Enxuto",
-    "produto": "Arroz Prato Fino Tp1 5kg",
-    "preco": 22.9,
-    "preco_por_kg": 4.58
+    "produto": "Arroz Broto Legal Tp1 5kg",
+    "preco": 21.99,
+    "preco_por_kg": 4.4
   },
   {
     "id": 43,
@@ -276,22 +276,22 @@
     "id": 44,
     "supermercado": "Enxuto",
     "produto": "Macarrão Galo Semola Espaguete 8 500g",
-    "preco": 3.99,
-    "preco_por_kg": 7.98
+    "preco": 4.59,
+    "preco_por_kg": 9.18
   },
   {
     "id": 45,
     "supermercado": "Enxuto",
     "produto": "Macarrão De Sêmola Penne Galo Pacote 500g",
-    "preco": 3.99,
-    "preco_por_kg": 7.98
+    "preco": 4.59,
+    "preco_por_kg": 9.18
   },
   {
     "id": 46,
     "supermercado": "Enxuto",
-    "produto": "Macarrao Galo Semola Parafuso 500g",
-    "preco": 3.99,
-    "preco_por_kg": 7.98
+    "produto": "Macarrão D Benta Com Ovos Parafuso 500g",
+    "preco": 2.99,
+    "preco_por_kg": 5.98
   },
   {
     "id": 47,
@@ -304,15 +304,15 @@
     "id": 48,
     "supermercado": "Enxuto",
     "produto": "Tomate Pelado Olé Inteiro Lata 240g",
-    "preco": 7.49,
-    "preco_por_kg": 31.21
+    "preco": 5.99,
+    "preco_por_kg": 24.96
   },
   {
     "id": 49,
     "supermercado": "Enxuto",
     "produto": "Molho Tomate Heinz Tradicional 240g",
-    "preco": 1.99,
-    "preco_por_kg": 8.29
+    "preco": 1.89,
+    "preco_por_kg": 7.88
   },
   {
     "id": 50,
@@ -450,9 +450,9 @@
   {
     "id": 70,
     "supermercado": "Enxuto",
-    "produto": "Capsula de Café Espresso Vibrante 3 Corações 10 unid",
-    "preco": 16.89,
-    "preco_por_kg": 1.69
+    "produto": "Capsula Cafe Pilao Espresso 12und 52g",
+    "preco": 22.4,
+    "preco_por_kg": 1.87
   },
   {
     "id": 71,
@@ -485,9 +485,9 @@
   {
     "id": 77,
     "supermercado": "Enxuto",
-    "produto": "Tapioca Da Terrinha 500g",
-    "preco": 5.99,
-    "preco_por_kg": 11.98
+    "produto": "Tapioca Akio 320g",
+    "preco": 4.39,
+    "preco_por_kg": 13.72
   },
   {
     "id": 78,
@@ -667,9 +667,9 @@
   {
     "id": 105,
     "supermercado": "Enxuto",
-    "produto": "Lenço Umedecido Granado Bebê Peles Sensíveis 50und",
-    "preco": 17.59,
-    "preco_por_kg": 0.35
+    "produto": "Lenco Umedecido Small Baby C/120 Und",
+    "preco": 9.99,
+    "preco_por_kg": 0.08
   },
   {
     "id": 106,
@@ -689,8 +689,8 @@
     "id": 108,
     "supermercado": "Enxuto",
     "produto": "Bisnaguinha Panco 300g",
-    "preco": 5.99,
-    "preco_por_kg": 19.97
+    "preco": 9.79,
+    "preco_por_kg": 32.63
   },
   {
     "id": 110,
