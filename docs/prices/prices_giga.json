@@ -16,9 +16,9 @@
   {
     "id": 5,
     "supermercado": "Giga",
-    "produto": "Tomate Italiano",
-    "preco": 7.98,
-    "preco_por_kg": 7.98
+    "produto": "Tomate Italiano Seleção Giga",
+    "preco": 17.59,
+    "preco_por_kg": 17.59
   },
   {
     "id": 6,
@@ -30,16 +30,16 @@
   {
     "id": 7,
     "supermercado": "Giga",
-    "produto": "Pimentão Verde Seleção Giga",
-    "preco": 11.59,
-    "preco_por_kg": 11.59
+    "produto": "Pimentao Vermelho",
+    "preco": 25.9,
+    "preco_por_kg": 25.9
   },
   {
     "id": 8,
     "supermercado": "Giga",
-    "produto": "Pimentão Amarelo",
-    "preco": 19.98,
-    "preco_por_kg": 19.98
+    "produto": "Pimentão Amarelo Seleção Giga",
+    "preco": 35.79,
+    "preco_por_kg": 35.79
   },
   {
     "id": 9,
@@ -147,6 +147,13 @@
     "preco_por_kg": 7.9
   },
   {
+    "id": 28,
+    "supermercado": "Giga",
+    "produto": "Margarina Claybom Com Sal 14Kg",
+    "preco": 129.99,
+    "preco_por_kg": 129.99
+  },
+  {
     "id": 29,
     "supermercado": "Giga",
     "produto": "Leite De Coco Sabor Nordeste 200Ml",
@@ -170,9 +177,9 @@
   {
     "id": 33,
     "supermercado": "Giga",
-    "produto": "Mortadela Defumada Fatiada Seara Gourmet 200g",
-    "preco": 8.55,
-    "preco_por_kg": 8.55
+    "produto": "Mortadela Defumada Sadia",
+    "preco": 15.5,
+    "preco_por_kg": 15.5
   },
   {
     "id": 34,
@@ -180,6 +187,20 @@
     "produto": "Batata Doce Rosada",
     "preco": 4.7,
     "preco_por_kg": 4.7
+  },
+  {
+    "id": 36,
+    "supermercado": "Giga",
+    "produto": "Seleta Legumes Predilecta Lata 1,7Kg",
+    "preco": 37.9,
+    "preco_por_kg": 37.9
+  },
+  {
+    "id": 37,
+    "supermercado": "Giga",
+    "produto": "Água Mineral Sem Gás Ibirá Copo 200Ml",
+    "preco": 0.99,
+    "preco_por_kg": 0.99
   },
   {
     "id": 38,
@@ -191,9 +212,16 @@
   {
     "id": 42,
     "supermercado": "Giga",
-    "produto": "Arroz Branco Tipo 1 Tio João 1Kg",
-    "preco": 7.45,
-    "preco_por_kg": 7.45
+    "produto": "Arroz Tipo 1 Empório São João Pacote 1Kg",
+    "preco": 6.2,
+    "preco_por_kg": 6.2
+  },
+  {
+    "id": 43,
+    "supermercado": "Giga",
+    "produto": "Feijão Carioca Empório São João Pacote 1Kg",
+    "preco": 10.69,
+    "preco_por_kg": 10.69
   },
   {
     "id": 47,
@@ -224,6 +252,27 @@
     "preco_por_kg": 54.9
   },
   {
+    "id": 56,
+    "supermercado": "Giga",
+    "produto": "Óleo De Girassol Liza 500Ml",
+    "preco": 9.8,
+    "preco_por_kg": 9.8
+  },
+  {
+    "id": 58,
+    "supermercado": "Giga",
+    "produto": "Milho Para Pipoca Campo Belo 2Kg",
+    "preco": 16.4,
+    "preco_por_kg": 16.4
+  },
+  {
+    "id": 59,
+    "supermercado": "Giga",
+    "produto": "Seleta Legumes Predilecta Lata 1,7Kg",
+    "preco": 37.9,
+    "preco_por_kg": 37.9
+  },
+  {
     "id": 61,
     "supermercado": "Giga",
     "produto": "Açúcar Cristal Extra Fino Pateko Pacote 1kg",
@@ -240,16 +289,23 @@
   {
     "id": 67,
     "supermercado": "Giga",
-    "produto": "Mostarda Amarela Cepêra 3,3Kg",
-    "preco": 39.4,
-    "preco_por_kg": 39.4
+    "produto": "Mostarda Konsumo Clara 3,02kg",
+    "preco": 18.69,
+    "preco_por_kg": 18.69
   },
   {
     "id": 68,
     "supermercado": "Giga",
-    "produto": "Leite De Coco Sabor Nordeste 200Ml",
-    "preco": 4.99,
-    "preco_por_kg": 4.99
+    "produto": "Leite Condensado Semidesnatado Piracanjuba Pacote 5Kg",
+    "preco": 78.75,
+    "preco_por_kg": 78.75
+  },
+  {
+    "id": 76,
+    "supermercado": "Giga",
+    "produto": "Pão De Alho Tradicional Santa Massa 400G",
+    "preco": 15.5,
+    "preco_por_kg": 15.5
   },
   {
     "id": 77,
@@ -266,6 +322,13 @@
     "preco_por_kg": 26.65
   },
   {
+    "id": 80,
+    "supermercado": "Giga",
+    "produto": "Limpador Pó Limpeza Pesada Especial Cif Pro Pacote 2,4kg",
+    "preco": 22.69,
+    "preco_por_kg": 22.69
+  },
+  {
     "id": 84,
     "supermercado": "Giga",
     "produto": "Saco Para Lixo Super Econômico Embalixo Com 25 Unidades 100L",
@@ -278,6 +341,27 @@
     "produto": "Saco Para Lixo Super Econômico Embalixo Com 25 Unidades 100L",
     "preco": 12.1,
     "preco_por_kg": 12.1
+  },
+  {
+    "id": 86,
+    "supermercado": "Giga",
+    "produto": "Água Mineral Sem Gás Ibirá Copo 200Ml",
+    "preco": 0.99,
+    "preco_por_kg": 0.99
+  },
+  {
+    "id": 90,
+    "supermercado": "Giga",
+    "produto": "Limpador Pó Limpeza Pesada Especial Cif Pro Pacote 2,4kg",
+    "preco": 22.69,
+    "preco_por_kg": 22.69
+  },
+  {
+    "id": 91,
+    "supermercado": "Giga",
+    "produto": "Limpador Pó Limpeza Pesada Especial Cif Pro Pacote 2,4kg",
+    "preco": 22.69,
+    "preco_por_kg": 22.69
   },
   {
     "id": 92,
