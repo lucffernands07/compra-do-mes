@@ -42,11 +42,18 @@
     "preco_por_kg": 9.8
   },
   {
+    "id": 8,
+    "supermercado": "Atacadão",
+    "produto": "Pimentão Amarelo 9kg",
+    "preco": 180,
+    "preco_por_kg": 20
+  },
+  {
     "id": 9,
     "supermercado": "Atacadão",
-    "produto": "Tempero Completo Sabor Ami Sem Pimenta 300g",
-    "preco": 5.29,
-    "preco_por_kg": 17.63
+    "produto": "Pimenta Ornamental P14 un",
+    "preco": 16.9,
+    "preco_por_kg": 16.9
   },
   {
     "id": 10,
@@ -65,16 +72,16 @@
   {
     "id": 12,
     "supermercado": "Atacadão",
-    "produto": "Abóbora Italiana 500g",
-    "preco": 5.99,
-    "preco_por_kg": 11.98
+    "produto": "Abóbora Moranga 20kg",
+    "preco": 59.9,
+    "preco_por_kg": 3
   },
   {
     "id": 13,
     "supermercado": "Atacadão",
-    "produto": "Beterraba 600g",
-    "preco": 4.99,
-    "preco_por_kg": 8.32
+    "produto": "Beterraba 20kg",
+    "preco": 87.9,
+    "preco_por_kg": 4.4
   },
   {
     "id": 15,
@@ -87,8 +94,8 @@
     "id": 16,
     "supermercado": "Atacadão",
     "produto": "Mistura para Bolo Itaiquara Cenoura 390g",
-    "preco": 2.98,
-    "preco_por_kg": 7.64
+    "preco": 2.78,
+    "preco_por_kg": 7.13
   },
   {
     "id": 17,
@@ -107,9 +114,9 @@
   {
     "id": 19,
     "supermercado": "Atacadão",
-    "produto": "Salsa Cheiro-verde Maço",
-    "preco": 4.19,
-    "preco_por_kg": 4.19
+    "produto": "Cheiro-Verde un",
+    "preco": 3.99,
+    "preco_por_kg": 3.99
   },
   {
     "id": 20,
@@ -142,9 +149,9 @@
   {
     "id": 25,
     "supermercado": "Atacadão",
-    "produto": "Suco Del Valle Frut Uva 1,5L",
-    "preco": 7.39,
-    "preco_por_kg": 4.93
+    "produto": "Suco Néctar Del Valle Uva 1L",
+    "preco": 8.79,
+    "preco_por_kg": 8.79
   },
   {
     "id": 26,
@@ -192,8 +199,8 @@
     "id": 34,
     "supermercado": "Atacadão",
     "produto": "Batata Pré-Frita Uai Congelada 2kg",
-    "preco": 18.9,
-    "preco_por_kg": 9.45
+    "preco": 19.9,
+    "preco_por_kg": 9.95
   },
   {
     "id": 35,
@@ -269,15 +276,15 @@
     "id": 45,
     "supermercado": "Atacadão",
     "produto": "Macarrão com Ovos Floriani Penne 500g",
-    "preco": 2.39,
-    "preco_por_kg": 4.78
+    "preco": 1.99,
+    "preco_por_kg": 3.98
   },
   {
     "id": 46,
     "supermercado": "Atacadão",
     "produto": "Macarrão com Ovos Floriani Parafuso 500g",
-    "preco": 2.39,
-    "preco_por_kg": 4.78
+    "preco": 1.99,
+    "preco_por_kg": 3.98
   },
   {
     "id": 47,
@@ -380,9 +387,9 @@
   {
     "id": 61,
     "supermercado": "Atacadão",
-    "produto": "Açúcar Orgânico Itajá Demerara 1kg",
-    "preco": 6.99,
-    "preco_por_kg": 6.99
+    "produto": "Açúcar Demerara Santa Isabel 1kg",
+    "preco": 3.49,
+    "preco_por_kg": 3.49
   },
   {
     "id": 63,
@@ -402,8 +409,8 @@
     "id": 65,
     "supermercado": "Atacadão",
     "produto": "Ketchup Ekma 3,3kg",
-    "preco": 19.8,
-    "preco_por_kg": 6
+    "preco": 21.9,
+    "preco_por_kg": 6.64
   },
   {
     "id": 66,
@@ -423,8 +430,8 @@
     "id": 68,
     "supermercado": "Atacadão",
     "produto": "Leite Condensado Marajoara Semidesnatado 395g",
-    "preco": 4.49,
-    "preco_por_kg": 11.37
+    "preco": 4.79,
+    "preco_por_kg": 12.13
   },
   {
     "id": 69,
@@ -444,8 +451,8 @@
     "id": 71,
     "supermercado": "Atacadão",
     "produto": "Café Bulnez Tradicional 500g",
-    "preco": 18.9,
-    "preco_por_kg": 37.8
+    "preco": 17.9,
+    "preco_por_kg": 35.8
   },
   {
     "id": 72,
@@ -485,7 +492,7 @@
   {
     "id": 78,
     "supermercado": "Atacadão",
-    "produto": "Desinfetante Lysoform Suave 2L",
+    "produto": "Desinfetante Lysoform Original 2L",
     "preco": 18.99,
     "preco_por_kg": 9.49
   },
@@ -548,7 +555,7 @@
   {
     "id": 87,
     "supermercado": "Atacadão",
-    "produto": "Lava Roupas Líquido Omo Lavagem Perfeita 7L",
+    "produto": "Lava Roupas Líquido Omo Perfect White PRO 7L",
     "preco": 73.9,
     "preco_por_kg": 10.56
   },
@@ -569,7 +576,7 @@
   {
     "id": 90,
     "supermercado": "Atacadão",
-    "produto": "Limpador Multiuso Ypê Tira Manchas 500ml",
+    "produto": "Limpador Multiuso Ypê Desengordurante 500ml",
     "preco": 3.67,
     "preco_por_kg": 7.34
   },
@@ -612,8 +619,8 @@
     "id": 96,
     "supermercado": "Atacadão",
     "produto": "Papel Higiênico Personal Vip Folha Dupla - 30m 4 rolos",
-    "preco": 7.23,
-    "preco_por_kg": 7.23
+    "preco": 5.78,
+    "preco_por_kg": 5.78
   },
   {
     "id": 97,
@@ -632,9 +639,9 @@
   {
     "id": 99,
     "supermercado": "Atacadão",
-    "produto": "Creme Dental Closeup Tripla Proteção Menta 70g",
-    "preco": 2.99,
-    "preco_por_kg": 42.71
+    "produto": "Creme Dental Oral-B 1-2-3 70g",
+    "preco": 2.69,
+    "preco_por_kg": 38.43
   },
   {
     "id": 100,
