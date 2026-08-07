@@ -10,8 +10,8 @@
     "id": 3,
     "supermercado": "Enxuto",
     "produto": "Batata Granel 700g (aprox. 2 A 5 Unidades)",
-    "preco": 4.89,
-    "preco_por_kg": 6.99
+    "preco": 6.78,
+    "preco_por_kg": 9.69
   },
   {
     "id": 4,
@@ -30,9 +30,9 @@
   {
     "id": 6,
     "supermercado": "Enxuto",
-    "produto": "Pimentão Verde Enxuto Origem Bandeja 350g",
-    "preco": 6.99,
-    "preco_por_kg": 19.97
+    "produto": "Pimentão Verde 420g (aprox. 2 Unidades)",
+    "preco": 4.19,
+    "preco_por_kg": 9.98
   },
   {
     "id": 7,
@@ -42,32 +42,46 @@
     "preco_por_kg": 34.98
   },
   {
+    "id": 8,
+    "supermercado": "Enxuto",
+    "produto": "Pimentão Amarelo 300g (1 Unidade)",
+    "preco": 8.97,
+    "preco_por_kg": 29.9
+  },
+  {
     "id": 9,
     "supermercado": "Enxuto",
-    "produto": "Pimentão Verde Enxuto Origem Bandeja 350g",
-    "preco": 6.99,
-    "preco_por_kg": 19.97
+    "produto": "Pimentão Verde 420g (aprox. 2 Unidades)",
+    "preco": 4.19,
+    "preco_por_kg": 9.98
   },
   {
     "id": 10,
     "supermercado": "Enxuto",
-    "produto": "Refrigerante Bioleve Zero Limão Pet 510ml",
-    "preco": 3.99,
-    "preco_por_kg": 7.82
+    "produto": "Refrigerante Bioleve Zero Limão Pet 1,5l",
+    "preco": 5.99,
+    "preco_por_kg": 3.99
+  },
+  {
+    "id": 12,
+    "supermercado": "Enxuto",
+    "produto": "Abobrinha Brasileira 1kg (aprox. 2 Unidades)",
+    "preco": 12.99,
+    "preco_por_kg": 12.99
   },
   {
     "id": 13,
     "supermercado": "Enxuto",
     "produto": "Beterraba 520g (aprox. 2 Unidades)",
-    "preco": 3.11,
-    "preco_por_kg": 5.98
+    "preco": 3.63,
+    "preco_por_kg": 6.98
   },
   {
     "id": 15,
     "supermercado": "Enxuto",
     "produto": "Gengibre 250g",
-    "preco": 3.49,
-    "preco_por_kg": 13.96
+    "preco": 4.49,
+    "preco_por_kg": 17.96
   },
   {
     "id": 16,
@@ -100,9 +114,9 @@
   {
     "id": 20,
     "supermercado": "Enxuto",
-    "produto": "Maço De Alface Crespa Unidade",
-    "preco": 4.99,
-    "preco_por_kg": 4.99
+    "produto": "Alface Mimosa Enxuto Origem Maço",
+    "preco": 5.79,
+    "preco_por_kg": 5.79
   },
   {
     "id": 21,
@@ -122,8 +136,8 @@
     "id": 23,
     "supermercado": "Enxuto",
     "produto": "Mamão Papaya 700g (1 Unidade)",
-    "preco": 8.33,
-    "preco_por_kg": 11.9
+    "preco": 11.19,
+    "preco_por_kg": 15.99
   },
   {
     "id": 24,
@@ -191,9 +205,9 @@
   {
     "id": 34,
     "supermercado": "Enxuto",
-    "produto": "Batata Palito Uai Congelada 2kg",
-    "preco": 18.98,
-    "preco_por_kg": 9.49
+    "produto": "Batata Palito Copacol Congelada 2kg",
+    "preco": 19.89,
+    "preco_por_kg": 9.95
   },
   {
     "id": 35,
@@ -245,18 +259,32 @@
     "preco_por_kg": 49.9
   },
   {
+    "id": 42,
+    "supermercado": "Enxuto",
+    "produto": "Arroz Broto Legal Tp1 2kg",
+    "preco": 8.99,
+    "preco_por_kg": 4.5
+  },
+  {
+    "id": 43,
+    "supermercado": "Enxuto",
+    "produto": "Feijão Preto Oliron 1kg",
+    "preco": 6.59,
+    "preco_por_kg": 6.59
+  },
+  {
     "id": 44,
     "supermercado": "Enxuto",
-    "produto": "Macarrao Urbano Arroz Espaguete Sem Gluten 500g",
-    "preco": 3.99,
-    "preco_por_kg": 7.98
+    "produto": "Macarrão Galo Semola Espaguete 8 500g",
+    "preco": 4.49,
+    "preco_por_kg": 8.98
   },
   {
     "id": 45,
     "supermercado": "Enxuto",
-    "produto": "Macarrão Urbano Arroz Pena Sem Glúten 500g",
-    "preco": 3.99,
-    "preco_por_kg": 7.98
+    "produto": "Macarrão De Sêmola Penne Galo Pacote 500g",
+    "preco": 4.49,
+    "preco_por_kg": 8.98
   },
   {
     "id": 46,
@@ -306,6 +334,13 @@
     "produto": "Molho Shoyu Kirin Tradicional 900ml",
     "preco": 17.99,
     "preco_por_kg": 19.99
+  },
+  {
+    "id": 53,
+    "supermercado": "Enxuto",
+    "produto": "Realçador De Sabor Para Churrasco Ajinomoto 500g",
+    "preco": 11.59,
+    "preco_por_kg": 23.18
   },
   {
     "id": 54,
@@ -422,9 +457,9 @@
   {
     "id": 71,
     "supermercado": "Enxuto",
-    "produto": "Café Almofada Enxuto Desde 1963 Tradicional 500g",
-    "preco": 18.98,
-    "preco_por_kg": 37.96
+    "produto": "Cafe Canecao Tradicional Almofada 500g",
+    "preco": 22.9,
+    "preco_por_kg": 45.8
   },
   {
     "id": 72,
@@ -437,15 +472,15 @@
     "id": 75,
     "supermercado": "Enxuto",
     "produto": "Flocão Dona Clara 500g",
-    "preco": 2.49,
-    "preco_por_kg": 4.98
+    "preco": 4.99,
+    "preco_por_kg": 9.98
   },
   {
     "id": 76,
     "supermercado": "Enxuto",
-    "produto": "Pão Kim Forma Tradicional 400g",
-    "preco": 5.79,
-    "preco_por_kg": 14.47
+    "produto": "Pao Seven Boys Forma Tradicional 450g",
+    "preco": 6.49,
+    "preco_por_kg": 14.42
   },
   {
     "id": 77,
@@ -502,6 +537,13 @@
     "produto": "Saco Lixo Esfrelux 100l C/15und Emb Economica",
     "preco": 16.99,
     "preco_por_kg": 0.17
+  },
+  {
+    "id": 85,
+    "supermercado": "Enxuto",
+    "produto": "Saco Lixo Esfrelux 50l C/30und Emb Economica",
+    "preco": 15.99,
+    "preco_por_kg": 0.32
   },
   {
     "id": 86,
@@ -660,8 +702,8 @@
   {
     "id": 111,
     "supermercado": "Enxuto",
-    "produto": "Alimento Para Gatos Adultos Mix De Carnes Kitekat Pacote 900g",
-    "preco": 12.9,
-    "preco_por_kg": 14.33
+    "produto": "Alimento Para Gatos Adultos Special Cat Mix 3kg",
+    "preco": 62.9,
+    "preco_por_kg": 20.97
   }
 ]
